@@ -351,4 +351,7 @@
     <string name="status_bar_battery_text_charging_title">Battery percentage when charging</string>
     <string name="status_bar_battery_text_charging_summary">Always display battery percentage when charging</string>
 
+    <!-- Power menu on lockscreen -->
+    <string name="power_menu_hide_on_secure_title">Hide on lockscreen</string>
+    <string name="power_menu_hide_on_secure_summary">Hides the global actions menu on secure lockscreen</string>
 </resources>
