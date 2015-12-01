@@ -141,4 +141,12 @@
 
     <!-- Navigation -->
     <string name="system_navigation_summary">Configure navigation menus</string>
+
+    <!-- Buttons title -->
+    <string name="volume_category">Volume Rocker</string>
+
+    <!--Volume keys -->
+    <string name="volume_rocker_wake_title">Volume rocker wake</string>
+    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+
 </resources>
