@@ -134,4 +134,12 @@
     <!-- Old mobile type icons -->
     <string name="use_old_mobiletype_title">Small mobile type icon</string>
     <string name="use_old_mobiletype_summary">Show mobile type icon on top of the signal indicator</string>
+
+    <!-- Buttons title -->
+    <string name="volume_category">Volume Rocker</string>
+
+    <!--Volume keys -->
+    <string name="volume_rocker_wake_title">Volume rocker wake</string>
+    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+
 </resources>
