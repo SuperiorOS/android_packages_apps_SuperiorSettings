@@ -71,12 +71,6 @@
             android:defaultValue="false" />
     </PreferenceCategory>
 
-    <com.superior.settings.preferences.SystemSettingSwitchPreference
-        android:key="notification_sound_vib_screen_on"
-        android:title="@string/notification_sound_vib_screen_on_title"
-        android:summary="@string/notification_sound_vib_screen_on_summary"
-        android:defaultValue="true" />
-
     <PreferenceCategory
         android:key="lock_ambient_cat"
         android:title="@string/lockscreen_ambient_display_category">
