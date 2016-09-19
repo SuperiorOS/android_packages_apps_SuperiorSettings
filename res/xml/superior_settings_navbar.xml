@@ -42,4 +42,13 @@
             android:title="@string/navbar_invert_layout_title"
             android:defaultValue="true" />
 
+    <PreferenceScreen
+        android:title="@string/hide_apps_from_recents_title"
+        settings:iconSpaceReserved="false"
+        android:summary="@string/hide_apps_from_recents_summary">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.android.settings"
+            android:targetClass="com.superior.settings.fragments.navigation.HAFRAppListActivity" />
+    </PreferenceScreen>
+
 </PreferenceScreen>

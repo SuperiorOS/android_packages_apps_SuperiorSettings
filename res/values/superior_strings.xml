@@ -708,4 +708,9 @@
     <string name="artwork_media_background_title">Artwork media background</string>
     <string name="artwork_media_background_summary">Set media artwork as notification media background</string>
     <string name="artwork_media_fade_level_title">Artwork fade level</string>
+
+    <!-- Hide Apps from Recents -->
+    <string name="hide_apps_from_recents_title">Hide apps from recents</string>
+    <string name="hide_apps_from_recents_summary">Prevent apps from appearing in recents</string>
+    <string name="hide_from_recents_add_app">Add app</string>
 </resources>
