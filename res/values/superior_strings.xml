@@ -84,7 +84,7 @@
     <string name="maintainer_violet_git" translatable="false">Joker-V2</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
     <string name="device_violet_description">violet\nNipin NA</string>  
-        <string name="maintainer_whyred_git" translatable="false">Sweeto143</string>  
+    <string name="maintainer_whyred_git" translatable="false">Sweeto143</string>  
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
     <string name="maintainer_miatoll_git" translatable="false">HaSSaN-L</string>
@@ -295,6 +295,16 @@
     <string name="profile_choose_app">Choose app</string>
     <string name="dialog_delete_title">Delete</string>
     <string name="dialog_delete_message">Remove selected item?</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Time out</string>
+    <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
+    <string name="heads_up_time_out_2sec">2 seconds</string>
+    <string name="heads_up_time_out_4sec">4 seconds</string>
+    <string name="heads_up_time_out_5sec">5 seconds</string>
+    <string name="heads_up_time_out_6sec">6 seconds</string>
+    <string name="heads_up_time_out_8sec">8 seconds</string>
+    <string name="heads_up_time_out_10sec">10 seconds</string>
 
     <!-- 4G LTE switch -->
     <string name="show_fourg_title">Show 4G instead of LTE</string>
