@@ -35,6 +35,11 @@
         android:key="aggressive_battery"
         android:title="@string/aggressive_battery_title"
         android:fragment="com.superior.settings.fragments.AggressiveBattery" />
+		
+     <Preference
+        android:key="screenstate_category"
+        android:title="@string/screen_state_toggles_title" 
+        android:fragment="com.superior.settings.ScreenStateToggles" />
 
 	<com.superior.settings.preferences.SystemSettingSwitchPreference 
         android:key="three_finger_gesture" 
