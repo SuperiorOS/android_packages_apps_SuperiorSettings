@@ -19,6 +19,19 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/superior_settings_title" >
+	
+<PreferenceCategory
+            android:key="about rom"
+            android:title="About ROM" >
+
+		<!-- About Devs -->
+        <Preference
+                android:key="dev_info"
+                android:title="@string/superior_about_info"
+                android:summary="@string/superior_about_info_summary_title"
+                android:fragment="com.android.settings.custom.SuperiorDevsInfoFragment" />
+
+</PreferenceCategory>
 
         <!-- Status Bar -->
         <com.superior.settings.preferences.CardviewPreference
