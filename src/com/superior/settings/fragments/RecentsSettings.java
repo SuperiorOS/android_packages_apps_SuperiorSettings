@@ -75,9 +75,12 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
     private ListPreference mRecentsComponentType;
     private SwitchPreference mSlimToggle;
     private Preference mSlimSettings;
+    private ListPreference mRecentsClearAllLocation;
+    private SwitchPreference mRecentsClearAll;
     private static final String RECENTS_COMPONENT_TYPE = "recents_component";
     private static final String PREF_SLIM_RECENTS_SETTINGS = "slim_recents_settings";
     private static final String PREF_SLIM_RECENTS = "use_slim_recents";
+    private static final String RECENTS_CLEAR_ALL_LOCATION = "recents_clear_all_location";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -93,6 +96,14 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         mRecentsComponentType.setValue(String.valueOf(type));
         mRecentsComponentType.setSummary(mRecentsComponentType.getEntry());
         mRecentsComponentType.setOnPreferenceChangeListener(this);
+		
+        // clear all recents
+        mRecentsClearAllLocation = (ListPreference) findPreference(RECENTS_CLEAR_ALL_LOCATION);
+        int location = Settings.System.getIntForUser(resolver,
+                Settings.System.RECENTS_CLEAR_ALL_LOCATION, 3, UserHandle.USER_CURRENT);
+        mRecentsClearAllLocation.setValue(String.valueOf(location));
+        mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntry());
+        mRecentsClearAllLocation.setOnPreferenceChangeListener(this);
 
         // Slim Recents
         mSlimSettings = (Preference) findPreference(PREF_SLIM_RECENTS_SETTINGS);
@@ -153,6 +164,13 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
                     UserHandle.USER_CURRENT);
             updateRecentsPreferences();
             return true;
+        } else if (preference == mRecentsClearAllLocation) {
+            int location = Integer.valueOf((String) objValue);
+            int index = mRecentsClearAllLocation.findIndexOfValue((String) objValue);
+            Settings.System.putIntForUser(getActivity().getContentResolver(),
+                    Settings.System.RECENTS_CLEAR_ALL_LOCATION, location, UserHandle.USER_CURRENT);
+            mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntries()[index]);
+        return true;
         }
         return false;
     }
