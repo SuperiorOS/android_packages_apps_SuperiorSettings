@@ -49,4 +49,7 @@
 
     <!--Status Bar -->
     <string name="statusbar_items_title">StatusBar Items</string>
+
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Lockscreen shortcuts</string>
 </resources>
