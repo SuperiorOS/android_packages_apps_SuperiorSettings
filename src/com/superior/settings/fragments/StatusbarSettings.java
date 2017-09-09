@@ -20,6 +20,11 @@ import android.content.Context;
 import android.content.ContentResolver;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.UserHandle;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.content.pm.ResolveInfo;
+import android.content.res.Resources;
 import androidx.preference.SwitchPreference;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
@@ -31,10 +36,22 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.util.Locale;
+import android.text.TextUtils;
+import android.view.View;
+
 import com.android.settings.SettingsPreferenceFragment;
 import com.superior.settings.preferences.CustomSeekBarPreference;
 import com.superior.settings.preferences.SystemSettingSwitchPreference;
 import com.android.internal.logging.nano.MetricsProto;
+import com.android.settings.Utils;
+import android.util.Log;
+
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Map;
+import java.util.HashMap;
+import java.util.Collections;
 
 import com.superior.settings.R;
 
@@ -82,7 +99,7 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         super.onPause();
     }
 
-    public boolean onPreferenceChange(Preference preference, Object newValue) {
+    public boolean onPreferenceChange(Preference preference, Object objValue) {
 
         if (preference == mNetMonitor) {
             boolean value = (Boolean) objValue;
