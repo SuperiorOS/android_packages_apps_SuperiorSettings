@@ -527,4 +527,8 @@
     <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
     <string name="show_qs_on_secure_keyguard_summary">Show quick settings on secure lockscreen</string>
 
+    <!-- Volume key answer -->
+    <string name="volume_answer_call_title">Answer call</string>
+    <string name="volume_answer_call_summary">Press volume keys to answer calls</string>
+
 </resources>
