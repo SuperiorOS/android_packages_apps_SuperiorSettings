@@ -29,6 +29,11 @@
     <PreferenceCategory
         android:title="@string/network_title"/>
 
+        <Preference
+            android:key="traffic"
+            android:fragment="com.superior.settings.preferences.fragments.Traffic"
+            android:title="@string/traffic_title" />
+
         <com.superior.settings.preferences.SystemSettingSwitchPreference
             android:key="volte_icon"
             android:title="@string/volte_icon_title"
