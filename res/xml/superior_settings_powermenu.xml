@@ -40,6 +40,11 @@
             android:defaultValue="false" />
 
          <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="powermenu_torch"
+            android:title="@string/powermenu_torch"
+            android:persistent="false" />
+
+         <com.superior.support.preferences.SystemSettingSwitchPreference
             android:key="powermenu_settings"
             android:title="@string/powermenu_settings"
             android:defaultValue="false" />
