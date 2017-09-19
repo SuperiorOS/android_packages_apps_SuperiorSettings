@@ -19,4 +19,25 @@
     android:title="@string/powermenu_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="powermenu_reboot"
+        android:title="@string/powermenu_reboot_title"
+        android:defaultValue="true" />
+
+    <com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="powermenu_advanced_reboot"
+        android:title="@string/powermenu_advanced_reboot_title"
+        android:dependency="powermenu_reboot"
+        android:defaultValue="false" />
+
+    <com.superior.settings.preferences.SecureSettingSwitchPreference
+        android:key="lockdown_in_power_menu"
+        android:title="@string/powermenu_lockdown"
+        android:defaultValue="false" />
+
+    <com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="powermenu_screenshot"
+        android:title="@string/powermenu_screenshot_title"
+        android:defaultValue="false" />
+
 </PreferenceScreen>

@@ -277,4 +277,13 @@
     <string name="lockscreen_weather_omni_style_title">Omni style</string>
     <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
 
+    <!-- Power Menu -->
+    <string name="hardware_keys_power_category">Power Button</string>
+    <string name="powermenu_title">Power Menu</string>
+    <string name="powermenu_summary">Customize elements to be displayed in power menu</string>
+    <string name="powermenu_reboot_title">Reboot</string>
+    <string name="powermenu_advanced_reboot_title">Advanced Reboot</string>
+    <string name="powermenu_lockdown">Lockdown</string>
+    <string name="powermenu_screenshot_title">Screenshot</string>
+
 </resources>
