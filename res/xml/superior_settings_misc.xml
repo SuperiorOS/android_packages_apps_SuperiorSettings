@@ -25,6 +25,10 @@
         android:entryValues="@array/screenshot_type_values"
         android:title="@string/screenshot_type_title" />
 		
+	<Preference
+        android:title="@string/app_ops_settings"
+        android:fragment="com.android.settings.applications.appops.AppOpsSummary"/>
+
 	<com.superior.settings.preferences.SystemSettingSwitchPreference 
         android:key="three_finger_gesture" 
         android:title="@string/three_finger_gesture" 
