@@ -47,7 +47,6 @@ public class NotificationSettings extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.superior_settings_notifications);
         ContentResolver resolver = getActivity().getContentResolver();
-        final PreferenceScreen prefScreen = getPreferenceScreen();
 
         PreferenceScreen prefScreen = getPreferenceScreen();
 
