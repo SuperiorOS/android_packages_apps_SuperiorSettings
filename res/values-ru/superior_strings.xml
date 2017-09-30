@@ -727,4 +727,11 @@
     <!-- Quick Settings brightness side buttons -->
     <string name="brightness_side_buttons_title">Brightness control buttons</string>
     <string name="brightness_side_buttons_summary">Show buttons to increase or decrease the brightness</string>
+	
+	<!-- Language options - Volume rocker cursor control -->
+    <string name="cursor_section_header">Cursor</string>
+    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
+    <string name="volume_key_cursor_control_off">Disabled</string>
+    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
 </resources>

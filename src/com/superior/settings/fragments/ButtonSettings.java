@@ -40,7 +40,8 @@ import com.superior.settings.R;
 
 public class ButtonSettings extends ActionFragment implements OnPreferenceChangeListener {
 
-    private static final String HWKEY_DISABLE = "hardware_keys_disable";
+   private static final String HWKEY_DISABLE = "hardware_keys_disable";
+   private static final String VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
      // category keys
     private static final String CATEGORY_HWKEY = "hardware_keys";
     private static final String CATEGORY_HOME = "home_key";
@@ -59,7 +60,7 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
     public static final int KEY_MASK_APP_SWITCH = 0x10;
     public static final int KEY_MASK_CAMERA = 0x20;
     public static final int KEY_MASK_VOLUME = 0x40;
-     private SwitchPreference mHwKeyDisable;
+    private SwitchPreference mHwKeyDisable;
 
     //Keys
     private static final String KEY_BUTTON_BRIGHTNESS = "button_brightness";
@@ -69,6 +70,7 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
     private ListPreference mBacklightTimeout;
     private CustomSeekBarPreference mButtonBrightness;
     private SwitchPreference mButtonBrightness_sw;
+    private ListPreference mVolumeKeyCursorControl;
 
    @Override
     public void onCreate(Bundle icicle) {
@@ -78,6 +80,16 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
         final Resources res = getResources();
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        // volume key cursor control
+        mVolumeKeyCursorControl = (ListPreference) findPreference(VOLUME_KEY_CURSOR_CONTROL);
+        if (mVolumeKeyCursorControl != null) {
+            mVolumeKeyCursorControl.setOnPreferenceChangeListener(this);
+            int volumeRockerCursorControl = Settings.System.getInt(getContentResolver(),
+                    Settings.System.VOLUME_KEY_CURSOR_CONTROL, 0);
+            mVolumeKeyCursorControl.setValue(Integer.toString(volumeRockerCursorControl));
+           mVolumeKeyCursorControl.setSummary(mVolumeKeyCursorControl.getEntry());
+        }
 
         final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
         final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen
@@ -202,6 +214,16 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
             Settings.Secure.putInt(getContentResolver(), Settings.Secure.HARDWARE_KEYS_DISABLE,
                     value ? 1 : 0);
             setActionPreferencesEnabled(!value);
+            return true;
+        } else if (preference == mVolumeKeyCursorControl) {
+            String volumeKeyCursorControl = (String) newValue;
+            int volumeKeyCursorControlValue = Integer.parseInt(volumeKeyCursorControl);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.VOLUME_KEY_CURSOR_CONTROL, volumeKeyCursorControlValue);
+            int volumeKeyCursorControlIndex = mVolumeKeyCursorControl
+                    .findIndexOfValue(volumeKeyCursorControl);
+            mVolumeKeyCursorControl
+                    .setSummary(mVolumeKeyCursorControl.getEntries()[volumeKeyCursorControlIndex]);
             return true;
         }
         return false;
