@@ -123,4 +123,10 @@
     <!-- Double tap status bar to sleep -->
     <string name="double_tap_to_sleep_title">Tap on status bar</string>
     <string name="double_tap_to_sleep_summary">Double-tap status bar to put the device to sleep</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 </resources>
