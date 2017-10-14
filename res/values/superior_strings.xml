@@ -92,4 +92,10 @@
     <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
     <string name="doze_double_tap_title">Double tap to doze</string>
     <string name="doze_double_tap_summary">Double tap trigger doze instead of wake</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
 </resources>
