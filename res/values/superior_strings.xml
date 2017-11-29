@@ -108,4 +108,8 @@
     <string name="global_actions_max_columns_summary">Number of icons left and right</string>
     <string name="global_actions_max_rows_title">Maximum rows</string>
     <string name="global_actions_max_rows_summary">Number of icons up and down</string>
+
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G icon</string>
+    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
 </resources>
