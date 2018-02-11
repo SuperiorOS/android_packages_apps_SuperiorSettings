@@ -19,6 +19,11 @@
     android:title="@string/gestures_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <Preference
+        android:key="gesture_settings"
+        android:title="@string/aosp_gesture_title"
+        android:fragment="com.android.settings.gestures.GestureSettings" />
+
     <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="torch_long_press_power_gesture"
         android:title="@string/torch_long_press_power_gesture_title"
