@@ -19,12 +19,12 @@
     <string name="superior_settings_title">Superior Settings</string>
     <string name="superior_dashboard_summary">Armageddon Core</string>
 	
-	<!-- ROM Info -->
+    <!-- ROM Info -->
     <string name="superior_about_info">About Project</string>
     <string name="superior_about_info_summary_title">About Team</string>
     <string name="superior_about_info_summary">Superior OS is a Custom ROM based on AOSP, with some most required minimal features, the main aim of this ROM is to deliver light speed performance,smoothness and good battery backup.</string>
 	
-	<!-- Dev Info -->
+    <!-- Dev Info -->
     <string name="devs_header">Developers</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Founder/Developer\nWhyred Maintainer</string>
@@ -37,7 +37,14 @@
     <string name="dev_5">Swapnil Soni</string>
     <string name="dev5_description">Web Developer</string>
 
-	<!-- Maintainer Info -->
+    <!-- Mentions -->
+    <string name="mentions_header">Honorable Mentions</string>
+    <string name="mentions_sam">Sam Grande</string>
+    <string name="mentions_sam_description">Designer</string>
+    <string name="mentions_andi">Aryanata Andi</string>
+    <string name="mentions_andi_description">Bootanimation designer</string>
+
+    <!-- Maintainer Info -->
     <string name="maintainers_header">Maintainers</string>
     <string name="maintainers_header_summary">These are the Official Devices Maintainers...</string>
     <string name="device_xiaomi">Xiaomi</string>

@@ -90,6 +90,29 @@
     </Preference>
     </PreferenceCategory>
 
+<PreferenceCategory
+    android:key="honorable_mentions"
+    android:title="@string/mentions_header">
+
+        <Preference
+            android:title="@string/mentions_sam"
+            android:summary="@string/mentions_sam_description"
+            android:icon="@drawable/ic_devs_mention">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Reapergod35" />
+        </Preference>
+
+        <Preference
+            android:title="@string/mentions_andi"
+            android:summary="@string/mentions_andi_description"
+            android:icon="@drawable/ic_devs_mention">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/aryanata_andi" />
+        </Preference>
+    </PreferenceCategory>
+
     <PreferenceCategory
         android:key="maintainer"
         android:title="@string/maintainers_header" >
