@@ -83,6 +83,8 @@
     <string name="system_animations">System Animations</string>
     <string name="listview">ListView</string>
     <string name="toast">Toast</string>
+    <string name="fp_lockscreen">Fingerprint</string>
+    <string name="music_lockscreen">Music</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>

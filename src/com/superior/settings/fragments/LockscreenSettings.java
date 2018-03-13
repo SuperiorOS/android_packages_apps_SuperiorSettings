@@ -43,6 +43,8 @@ import com.superior.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 import com.superior.settings.preferences.Utils;
+import android.hardware.fingerprint.FingerprintManager;
+import com.superior.settings.preferences.SystemSettingSwitchPreference;
 
 public class LockscreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -53,6 +55,7 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
     private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
     private static final String LOCK_DATE_FONTS = "lock_date_fonts";
     private static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
+    private static final String FP_CAT = "fp_category";
 
     private FingerprintManager mFingerprintManager;
     private SwitchPreference mFingerprintVib;
@@ -77,17 +80,20 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
             mFaceUnlock.setChecked((Settings.Secure.getInt(getContext().getContentResolver(),
                     Settings.Secure.FACE_AUTO_UNLOCK, 0) == 1));
             mFaceUnlock.setOnPreferenceChangeListener(this);
-        }
+       }
+
+        PreferenceCategory fingerprintCategory = (PreferenceCategory) findPreference(FP_CAT);
 
         mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
         mFingerprintVib = (SwitchPreference) findPreference(FINGERPRINT_VIB);
         mFpKeystore = (SystemSettingSwitchPreference) findPreference(FP_UNLOCK_KEYSTORE);
-        if (mFingerprintManager == null){
-            prefScreen.removePreference(mFingerprintVib);
+        if (mFingerprintManager != null && mFingerprintManager.isHardwareDetected()){
+        mFingerprintVib.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.FINGERPRINT_SUCCESS_VIB, 1) == 1));
+        mFingerprintVib.setOnPreferenceChangeListener(this);
         } else {
-            mFingerprintVib.setChecked((Settings.System.getInt(getContentResolver(),
-                    Settings.System.FINGERPRINT_SUCCESS_VIB, 1) == 1));
-            mFingerprintVib.setOnPreferenceChangeListener(this);
+        fingerprintCategory.removePreference(mFingerprintVib);
+        fingerprintCategory.removePreference(mFpKeystore);
         }
 
         // Lockscren Clock Fonts
@@ -103,6 +109,12 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
                 getContentResolver(), Settings.System.LOCK_DATE_FONTS, 29)));
         mLockDateFonts.setSummary(mLockDateFonts.getEntry());
         mLockDateFonts.setOnPreferenceChangeListener(this);
+    }
+	
+
+   @Override
+    public int getMetricsCategory() {
+        return MetricsProto.MetricsEvent.SUPERIOR;
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -133,11 +145,4 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
         }
         return false;
     }
-	
-
-   @Override
-    public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SUPERIOR;
-    }
-	
  }
