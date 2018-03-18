@@ -374,5 +374,8 @@
 	<!-- ANBI -->
     <string name="anbi_title">Accidental touch</string>
     <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+	
+	<!-- QuickSettings Panel Transparency -->
+    <string name="qs_panel_alpha_title">Opacity</string>
 
 </resources>
