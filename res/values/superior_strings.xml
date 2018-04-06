@@ -938,4 +938,10 @@
     <string name="ambient_visualizer_title">Ambient visualizer</string>
     <string name="ambient_visualizer_summary">Shows white visualization bars on ambient display unless custom color is selected</string>
 
+    <!-- QS footer icons -->
+    <string name="qs_footer_services_title">Running Services icon</string>
+    <string name="qs_footer_services_summary">Display Running Services icon in quick settings footer</string>
+    <string name="qs_footer_settings_title">Settings icon</string>
+    <string name="qs_footer_settings_summary">Display Settings icon in quick settings footer</string>
+
 </resources>

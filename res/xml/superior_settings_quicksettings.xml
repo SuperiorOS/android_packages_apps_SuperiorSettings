@@ -95,5 +95,18 @@
         android:title="@string/lockscreen_qs_disabled_title"
         android:summary="@string/lockscreen_qs_disabled_summary"
         android:defaultValue="false" />
+
+    <com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="qs_footer_show_settings"
+        android:title="@string/qs_footer_settings_title"
+        android:summary="@string/qs_footer_settings_summary"
+        android:defaultValue="true" />
+
+    <com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="qs_footer_show_services"
+        android:title="@string/qs_footer_services_title"
+        android:summary="@string/qs_footer_services_summary"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 </PreferenceScreen>
