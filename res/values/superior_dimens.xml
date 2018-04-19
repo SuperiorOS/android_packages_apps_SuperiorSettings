@@ -34,4 +34,9 @@
     <dimen name="fod_picker_item_margin">10dp</dimen>
     <dimen name="fod_picker_item_size">100dp</dimen>
     <dimen name="fod_picker_item_padding">20dp</dimen>
+
+    <!-- Gesture Anywhere -->
+    <dimen name="ga_gesture_thumbnail_inset">8dip</dimen>
+    <dimen name="ga_gesture_thumbnail_size">64dip</dimen>
+
 </resources>
