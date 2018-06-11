@@ -25,6 +25,11 @@
         android:title="@string/heads_up_notifications"
         android:fragment="com.superior.settings.HeadsUpSettings" />
 
+        <com.superior.settings.preferences.SystemSettingSwitchPreference 
+            android:key="force_expanded_notifications" 
+            android:title="@string/force_expanded_notifications_title" 
+            android:summary="@string/force_expanded_notifications_summary" />
+
     <!-- Battery LED -->
     <Preference
         android:key="charging_light"

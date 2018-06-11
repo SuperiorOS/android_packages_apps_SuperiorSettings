@@ -44,8 +44,10 @@ public class NotificationSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
     private static final String FLASHLIGHT_ON_CALL = "flashlight_on_call";
+    private static final String FORCE_EXPANDED_NOTIFICATIONS = "force_expanded_notifications";
 
     private ListPreference mFlashlightOnCall;
+    private SwitchPreference mForceExpanded;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -56,6 +58,11 @@ public class NotificationSettings extends SettingsPreferenceFragment implements
         if (!Utils.isVoiceCapable(getActivity())) {
             prefScreen.removePreference(incallVibCategory);
         }
+
+        mForceExpanded = (SwitchPreference) findPreference(FORCE_EXPANDED_NOTIFICATIONS);
+        mForceExpanded.setChecked((Settings.System.getInt(getContentResolver(),
+	        Settings.System.FORCE_EXPANDED_NOTIFICATIONS, 0) == 1));
+
 	mFlashlightOnCall = (ListPreference) findPreference(FLASHLIGHT_ON_CALL);
 	Preference FlashOnCall = findPreference("flashlight_on_call");        
 	int flashlightValue = Settings.System.getInt(getContentResolver(),
@@ -94,8 +101,12 @@ public class NotificationSettings extends SettingsPreferenceFragment implements
 		mFlashlightOnCall.setValue(String.valueOf(flashlightValue));
 		mFlashlightOnCall.setSummary(mFlashlightOnCall.getEntry());
 		return true;
+	   } else if (preference == mForceExpanded) {
+            boolean checked = ((SwitchPreference)preference).isChecked();
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.FORCE_EXPANDED_NOTIFICATIONS, checked ? 1:0);
+            return true;
 	   }
-
         return false;
     }
 }
