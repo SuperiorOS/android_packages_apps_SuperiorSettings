@@ -51,10 +51,12 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
     private static final String KEY_FACE_UNLOCK_PACKAGE = "com.android.facelock";
     private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
     private static final String LOCK_CLOCK_FONTS = "lock_clock_fonts";
-	private static final String LOCK_DATE_FONTS = "lock_date_fonts";
+    private static final String LOCK_DATE_FONTS = "lock_date_fonts";
+    private static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
 
     private FingerprintManager mFingerprintManager;
     private SwitchPreference mFingerprintVib;
+    private SystemSettingSwitchPreference mFpKeystore;
     private SwitchPreference mFaceUnlock;
     ListPreference mLockClockFonts;
 	ListPreference mLockDateFonts;
@@ -79,6 +81,7 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
 
         mFingerprintManager = (FingerprintManager) getActivity().getSystemService(Context.FINGERPRINT_SERVICE);
         mFingerprintVib = (SwitchPreference) findPreference(FINGERPRINT_VIB);
+        mFpKeystore = (SystemSettingSwitchPreference) findPreference(FP_UNLOCK_KEYSTORE);
         if (mFingerprintManager == null){
             prefScreen.removePreference(mFingerprintVib);
         } else {
