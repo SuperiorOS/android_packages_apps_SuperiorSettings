@@ -597,16 +597,23 @@
    <string name="hide_lockicon_title">Hide lock icon</string>
    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
 
-    <!-- QS tint -->
-    <string name="qs_bg_use_new_tint">Tint QS tiles</string>
-    <string name="qs_bg_use_new_tint_summary">Choose the QS Tint Style</string>
-    <string name="qs_tint_off">Default</string>
-    <string name="qs_tint_accent">Accent Color</string>
-    <string name="qs_tint_oos">OxygenOS 11</string>
-    <string name="qs_tint_twelve">Android 12</string>
+   <!-- QS tint -->
+   <string name="qs_bg_use_new_tint">Tint QS tiles</string>
+   <string name="qs_bg_use_new_tint_summary">Choose the QS Tint Style</string>
+   <string name="qs_tint_off">Default</string>
+   <string name="qs_tint_accent">Accent Color</string>
+   <string name="qs_tint_oos">OxygenOS 11</string>
+   <string name="qs_tint_twelve">Android 12</string>
 
    <!-- Volume panel switch -->
    <string name="volume_panel_on_left_title">Switch volume panel location</string>
    <string name="volume_panel_on_left_summary">Move volume panel to the left</string>
+
+   <!-- Blink flashlight for incoming calls -->
+   <string name="flashlight_on_call_title">Blink Flashlight for call</string>
+   <string name="flashlight_on_call_disabled">Disabled</string>
+   <string name="flashlight_on_call_ringer">Only in ringer mode</string>
+   <string name="flashlight_on_call_silent">Only when ringer is silent</string>
+   <string name="flashlight_on_call_always">Always</string>
 
 </resources>
