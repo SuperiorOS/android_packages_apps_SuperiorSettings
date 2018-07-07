@@ -31,6 +31,13 @@
         android:fragment="com.superior.settings.BatteryLightSettings"
         android:title="@string/battery_light_settings" />
 
+    <!-- Battery full charged notification -->
+    <com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="battery_fully_charged_notif"
+        android:title="@string/battery_fully_charged_notif_title"
+        android:summary="@string/battery_fully_charged_notif_summary"
+        android:defaultValue="false" />
+
     <!-- Flashlight On Call -->
      <ListPreference
         android:key="flashlight_on_call"
