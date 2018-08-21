@@ -354,4 +354,7 @@
     <!-- Power menu on lockscreen -->
     <string name="power_menu_hide_on_secure_title">Hide on lockscreen</string>
     <string name="power_menu_hide_on_secure_summary">Hides the global actions menu on secure lockscreen</string>
+
+    <!-- NavBar Visibility -->
+    <string name="navbar_visibility">Enable Navigation Bar</string>
 </resources>

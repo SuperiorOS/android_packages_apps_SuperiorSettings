@@ -60,12 +60,12 @@
             android:icon="@drawable/ic_settings_buttons"/>
 
         <!-- Navigation Bar -->
-<!--        <com.superior.settings.preferences.CardviewPreference
+        <com.superior.settings.preferences.CardviewPreference
             android:key="navigationbar_category"
             android:title="@string/navbar_title"
             android:fragment="com.superior.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
--->			
+
         <!-- Gestures -->
         <com.superior.settings.preferences.CardviewPreference
             android:key="gestures_category"
