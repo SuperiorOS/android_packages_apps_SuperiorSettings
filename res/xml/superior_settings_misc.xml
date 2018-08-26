@@ -31,4 +31,10 @@
             android:entryValues="@array/screenshot_type_values"
             android:title="@string/screenshot_type_title" />
 
+	<com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="toast_icon"
+        android:title="@string/toast_icon_title"
+        android:summary="@string/toast_icon_summary"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
