@@ -208,5 +208,7 @@
     <string name="seekbar_default_value_set">Value set to default of <xliff:g id="number">%d</xliff:g></string>
     <string name="seekbar_default_value_already_set">Default value is already set</string>
     <string name="seekbar_default_string">Default</string>
+	
+	<string name="gesture_preference_superior">AOSP gestures</string>
 
 </resources>
