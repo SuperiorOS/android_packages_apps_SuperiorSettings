@@ -61,6 +61,21 @@ public class GestureSettings extends SettingsPreferenceFragment implements
         mTorchLongPressPowerTimeout.setSummary(mTorchLongPressPowerTimeout.getEntry());
     }
 
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+         if (preference == mTorchLongPressPowerTimeout) {
+            String TorchTimeout = (String) newValue;
+            int TorchTimeoutValue = Integer.parseInt(TorchTimeout);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.TORCH_LONG_PRESS_POWER_TIMEOUT, TorchTimeoutValue);
+            int TorchTimeoutIndex = mTorchLongPressPowerTimeout
+                    .findIndexOfValue(TorchTimeout);
+            mTorchLongPressPowerTimeout
+                    .setSummary(mTorchLongPressPowerTimeout.getEntries()[TorchTimeoutIndex]);
+            return true;
+        }
+        return false;
+    }
+
     @Override
     public int getMetricsCategory() {
         return MetricsProto.MetricsEvent.SUPERIOR;
@@ -77,17 +92,6 @@ public class GestureSettings extends SettingsPreferenceFragment implements
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-         if (preference == mTorchLongPressPowerTimeout) {
-            String TorchTimeout = (String) newValue;
-            int TorchTimeoutValue = Integer.parseInt(TorchTimeout);
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.TORCH_LONG_PRESS_POWER_TIMEOUT, TorchTimeoutValue);
-            int TorchTimeoutIndex = mTorchLongPressPowerTimeout
-                    .findIndexOfValue(TorchTimeout);
-            mTorchLongPressPowerTimeout
-                    .setSummary(mTorchLongPressPowerTimeout.getEntries()[TorchTimeoutIndex]);
-            return true;
-        }
         return false;
     }
 }
