@@ -44,4 +44,20 @@
         android:summary="@string/face_auto_unlock_summary"
         android:defaultValue="false" />
 
+    <PreferenceCategory
+        android:key="lockscreen_weather"
+        android:title="@string/lockscreen_weather_category" />
+
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+            android:key="lockscreen_weather_enabled"
+            android:title="@string/lockscreen_weather_enabled_title"
+            android:summary="@string/lockscreen_weather_enabled_summary"
+            android:defaultValue="false" />
+
+        <Preference
+            android:key="omnijaws_settings"
+            android:title="@string/lockscreen_weather_settings_title"
+            android:summary="@string/lockscreen_weather_settings_summary"
+            android:fragment="com.superior.settings.fragments.OmniJawsSettings" />
+
 </PreferenceScreen>
