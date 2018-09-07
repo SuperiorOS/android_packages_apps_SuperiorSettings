@@ -27,10 +27,16 @@
     </Preference>
 	
 	    <Preference
-         android:key="clock_settings"
-         android:title="@string/clock_style_category_title"
-         android:summary="@string/clock_style_category_summary"
-         android:fragment="com.superior.settings.fragments.ClockSettings" />
+            android:key="clock_settings"
+            android:title="@string/clock_style_category_title"
+            android:summary="@string/clock_style_category_summary"
+            android:fragment="com.superior.settings.fragments.ClockSettings" />
+		 
+	    <Preference
+            android:key="battery_settings"
+            android:title="@string/battery_style_category_title"
+            android:summary="@string/battery_style_category_summary"
+            android:fragment="com.superior.settings.fragments.StatusBarBattery" />
 		 
 		 <Preference
             android:title="@string/traffic_title"
