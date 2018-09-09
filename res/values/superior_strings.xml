@@ -87,4 +87,9 @@
     <!--3-Finger screenshot-->
     <string name="three_finger_gesture">Three finger gesture</string>
     <string name="three_finger_gesture_summary">Swipe three finger to screenshot</string>
+
+    <!-- AOSP Gestures -->
+    <string name="aosp_gesture_preference">System settings</string>
+    <string name="aosp_gesture_summary">Stock gestures included with AOSP</string>
+
 </resources>
