@@ -29,9 +29,9 @@
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Founder/Developer, Whyred Maintainer</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev2_description">Core Team/Developer, Land Maintainer</string>
+    <string name="dev2_description">Core Team/Developer, X01BD Maintainer</string>
 	<string name="dev_3">Pavan Patel</string>
-    <string name="dev3_description">Core Team/Designer, Land Maintainer</string>
+    <string name="dev3_description">Core Team/Designer, Tulip Maintainer</string>
 	<string name="dev_4">Titus Joseph</string>
     <string name="dev4_description">Designer</string>
     <string name="dev_5">Swapnil Soni</string>
@@ -261,5 +261,9 @@
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G icon</string>
     <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+
+    <!-- Power menu on lockscreen -->
+    <string name="lockscreen_power_menu_disabled_title">Disable power menu on lock screen</string>
+    <string name="lockscreen_power_menu_disabled_summary">This will only disable the power menu on secure lock screens</string>
 
 </resources>
