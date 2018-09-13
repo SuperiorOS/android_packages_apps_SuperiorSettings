@@ -31,6 +31,12 @@
         android:dependency="volume_rocker_wake" />
 
     <com.superior.support.preferences.SystemSettingSwitchPreference
+        android:key="swap_volume_buttons"
+        android:title="@string/swap_volume_buttons_title"
+        android:summary="@string/swap_volume_buttons_summary"
+        android:defaultValue="false" />
+
+    <com.superior.support.preferences.SystemSettingSwitchPreference
         android:key="volume_rocker_wake"
         android:summary="@string/volume_rocker_wake_summary"
         android:title="@string/volume_rocker_wake_title"
