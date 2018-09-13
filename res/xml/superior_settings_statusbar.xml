@@ -31,6 +31,11 @@
          android:title="@string/clock_style_category_title"
          android:summary="@string/clock_style_category_summary"
          android:fragment="com.superior.settings.fragments.ClockSettings" />
+		 
+		 <Preference
+            android:title="@string/traffic_title"
+            android:key="traffic"
+            android:fragment="com.superior.settings.fragments.Traffic" />
 
         <com.superior.settings.preferences.SystemSettingSwitchPreference
             android:key="double_tap_sleep_gesture"
