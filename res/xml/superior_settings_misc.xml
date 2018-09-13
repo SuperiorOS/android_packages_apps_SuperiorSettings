@@ -24,5 +24,11 @@
             android:title="@string/three_finger_gesture" 
             android:summary="@string/three_finger_gesture_summary" 
             android:defaultValue="false" /> 
+			
+	    <com.superior.settings.preferences.SystemSettingListPreference
+            android:key="screenshot_type"
+            android:entries="@array/screenshot_type_entries"
+            android:entryValues="@array/screenshot_type_values"
+            android:title="@string/screenshot_type_title" />
 
 </PreferenceScreen>
