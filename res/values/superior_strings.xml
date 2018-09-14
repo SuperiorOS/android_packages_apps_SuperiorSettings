@@ -642,4 +642,9 @@
     <string name="qs_bg_use_new_tint">New tint style</string>
     <string name="qs_bg_use_new_tint_summary">Enable the new QS tint style</string>
 
+    <!-- Screenshot -->
+    <string name="screenshot_type_title">Screenshot type</string>
+    <string name="screenshot_type_fullscreen">Full</string>
+    <string name="screenshot_type_partial">Partial</string>
+
 </resources>
