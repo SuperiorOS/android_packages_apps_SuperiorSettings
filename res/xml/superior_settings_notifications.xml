@@ -51,6 +51,12 @@
         android:summary="@string/less_boring_heads_up_summary"
         android:defaultValue="false" />
 
+    <com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="force_expanded_notifications"
+        android:title="@string/force_expanded_notifications_title"
+        android:summary="@string/force_expanded_notifications_summary"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="incall_vib_options"
         android:title="@string/incall_vibration_category" >
