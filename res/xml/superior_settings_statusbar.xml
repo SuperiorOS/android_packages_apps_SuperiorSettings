@@ -37,5 +37,11 @@
             android:title="@string/double_tap_to_sleep_statusbar_title"
             android:summary="@string/double_tap_to_sleep_statusbar_summary"
             android:defaultValue="true" />
+			
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+         android:key="show_fourg_icon"
+         android:title="@string/show_fourg_icon_title"
+         android:summary="@string/show_fourg_icon_summary"
+         android:defaultValue="false"/>
 
 </PreferenceScreen>
