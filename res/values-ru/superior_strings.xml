@@ -393,9 +393,13 @@
     <string name="media_art_title">Медиа обложка</string>
     <string name="media_art_summary">Включить медиа обложку на экране блокировки</string>
 
-    <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_enable">Визуализация музыки на экране блокировки</string>
-    <string name="lockscreen_visualizer_enable_summary">Визуализация при проигрывание музыки</string>
+    <!-- Lockscreen visualizer -->
+    <string name="lockscreen_visualizer_category">Visualizer</string>
+    <string name="lockscreen_visualizer_enable">Enable lockscreen visualizer</string>
+    <string name="lockscreen_visualizer_enable_summary">Show visualizer on lockscreen when music is playing</string>
+    <string name="lockscreen_visualizer_enable_custom">Use custom color</string>
+    <string name="lockscreen_visualizer_enable_custom_summary">Use a preset color instead of the generated color</string>
+    <string name="lockscreen_visualizer_custom_color">Visualizer Color</string>
 	
     <!-- Lock Date Fonts -->
     <string name="lock_date_font_title">Шрифт даты</string>

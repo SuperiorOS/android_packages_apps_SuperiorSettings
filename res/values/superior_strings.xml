@@ -229,9 +229,13 @@
 	
 	<string name="gesture_preference_superior">AOSP gestures</string>
 
-    <!-- Lock screen visualizer -->
+    <!-- Lockscreen visualizer -->
+    <string name="lockscreen_visualizer_category">Visualizer</string>
     <string name="lockscreen_visualizer_enable">Enable lockscreen visualizer</string>
     <string name="lockscreen_visualizer_enable_summary">Show visualizer on lockscreen when music is playing</string>
+    <string name="lockscreen_visualizer_enable_custom">Use custom color</string>
+    <string name="lockscreen_visualizer_enable_custom_summary">Use a preset color instead of the generated color</string>
+    <string name="lockscreen_visualizer_custom_color">Visualizer Color</string>
 	
 	<!-- Power Menu -->
     <string name="advanced_power_menu">Power menu options</string>
