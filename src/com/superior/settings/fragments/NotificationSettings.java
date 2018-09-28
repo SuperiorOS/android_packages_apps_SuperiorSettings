@@ -48,7 +48,7 @@ public class NotificationSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.superior_settings_notifications);
         PreferenceScreen prefScreen = getPreferenceScreen();
         PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
-        if (!XUtils.isVoiceCapable(getActivity())) {
+        if (!Utils.isVoiceCapable(getActivity())) {
             prefScreen.removePreference(incallVibCategory);
         }
         ContentResolver resolver = getActivity().getContentResolver();
