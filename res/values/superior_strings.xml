@@ -100,4 +100,9 @@
     <string name="button_brightness_title">Backlight</string>
     <!-- Enable keys backlight-->
     <string name="button_brightness_sw_title">Enable backlight</string>
+
+    <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Double tap Lockscreen</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Double tap lock screen to put the device to sleep</string>
+
 </resources>
