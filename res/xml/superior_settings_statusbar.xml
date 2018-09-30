@@ -25,4 +25,11 @@
                 android:targetPackage="com.android.systemui"
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
+
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_gesture"
+            android:title="@string/double_tap_to_sleep_statusbar_title"
+            android:summary="@string/double_tap_to_sleep_statusbar_summary"
+            android:defaultValue="true" />
+
 </PreferenceScreen>
