@@ -467,4 +467,10 @@
     <string name="volume_rocker_wake_title">Volume rocker wake</string>
     <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
 
+    <!-- Navigation gestures -->
+    <string name="gesture_settings_title">OP Navigation gestures</string>
+    <string name="gesture_settings_summary">Use bottom swipe up gestures for navigation</string>
+    <string name="use_bottom_gesture_title">Swipe up gestures</string>
+    <string name="gesture_settings_info">Navigation bar must be disabled!\n\nAvailable gestures:\n\nBack\n- Swipe up on left or right side\n\nHome\n- Swipe up center\n\nRecent apps\n- Swipe up center and hold\n\nLast app\n- Short swipe up and hold in the center</string>
+
 </resources>

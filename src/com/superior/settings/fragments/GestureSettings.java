@@ -47,6 +47,8 @@ public class GestureSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.superior_settings_gestures);
+        mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.gesture_settings_info);
+
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
