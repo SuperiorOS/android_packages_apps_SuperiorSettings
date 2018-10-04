@@ -175,4 +175,7 @@
     <string name="heads_up_snooze_15min">15 minutes</string>
     <string name="heads_up_snooze_20min">20 minutes</string>
 
+    <string name="navigation_keys">Navigation bar</string>
+    <string name="navigation_keys_summary">Enable or disable navigation bar</string>
+
 </resources>

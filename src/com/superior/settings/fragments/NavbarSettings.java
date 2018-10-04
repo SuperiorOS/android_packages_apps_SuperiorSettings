@@ -36,16 +36,30 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 
 import com.superior.settings.R;
+import com.superior.settings.preferences.SystemSettingSwitchPreference;
+import com.android.internal.util.superior.SuperiorUtils;
 
 public class NavbarSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
+    private static final String CATEGORY_KEYS = "button_keys";
+    private static final String KEYS_SHOW_NAVBAR_KEY = "navigation_bar_show";
+
+    private SystemSettingSwitchPreference mEnableNavBar;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.superior_settings_navbar);
-        ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+        ContentResolver resolver = getActivity().getContentResolver();
+        final PreferenceCategory keysCategory =
+                (PreferenceCategory) prefScreen.findPreference(CATEGORY_KEYS);
+
+        boolean showNavBarDefault = SuperiorUtils.deviceSupportNavigationBar(getActivity());
+        boolean showNavBar = Settings.System.getInt(resolver,
+                Settings.System.OMNI_NAVIGATION_BAR_SHOW, showNavBarDefault ? 1 : 0) == 1;
+        mEnableNavBar = (SystemSettingSwitchPreference) prefScreen.findPreference(KEYS_SHOW_NAVBAR_KEY);
+        mEnableNavBar.setChecked(showNavBar);
     }
 
     @Override
