@@ -395,7 +395,10 @@ public class HeadsUpSettings extends SettingsPreferenceFragment
         if (preferencesUpdated) {
             if (TextUtils.equals(setting, Settings.System.HEADS_UP_STOPLIST_VALUES)) {
                 mStoplistPackageList = value;
+            } else {
+                mBlacklistPackageList = value;
             }
+        }
         Settings.System.putString(getContentResolver(),
                 setting, value);
     }
