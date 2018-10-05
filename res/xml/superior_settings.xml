@@ -20,7 +20,7 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/superior_settings_title" >
 	
-<PreferenceCategory
+    <PreferenceCategory
             android:key="about rom"
             android:title="About ROM" >
 
@@ -31,7 +31,11 @@
                 android:summary="@string/superior_about_info_summary_title"
                 android:fragment="com.android.settings.custom.SuperiorDevsInfoFragment" />
 
-</PreferenceCategory>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="features"
+            android:title="Superior Features" >
 
         <!-- Status Bar -->
         <com.superior.settings.preferences.CardviewPreference
@@ -95,4 +99,6 @@
             android:title="@string/misc_title"
             android:fragment="com.superior.settings.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_misc"/>
+
+    </PreferenceCategory>
 </PreferenceScreen>

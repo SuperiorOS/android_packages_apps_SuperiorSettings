@@ -15,7 +15,7 @@ implied.
 
 <PreferenceScreen
 xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="Cardinal-AOSP">
+        android:title="Superior OS">
 		
 		<!-- Header -->
         <Preference android:key="superior_logo"
@@ -30,7 +30,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
                android:summary="@string/superior_about_info_summary" 
                android:icon="@drawable/ic_devs_info" >
         <intent android:action="android.intent.action.VIEW"
-                android:data="https://plus.google.com/wm/2/se/1/communities/110928715574226998482" />
+                android:data="https://plus.google.com/u/0/communities/109206747517820828242" />
        </Preference>
      </PreferenceCategory>
 
@@ -44,7 +44,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:icon="@drawable/ic_devs_pc" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://plus.google.com/+AdarshMR1" />
+            android:data="https://t.me/Darkstar085" />
         </Preference>
 
         <Preference
@@ -53,7 +53,25 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:icon="@drawable/ic_devs_pc" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://plus.google.com/+RohitPoroli" />
+            android:data="https://t.me/JD1811" />
+        </Preference>
+		
+		<Preference
+            android:title="@string/dev_3"
+            android:summary="@string/dev3_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Advertpavan" />
+        </Preference>
+		
+		<Preference
+            android:title="@string/dev_4"
+            android:summary="@string/dev4_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Senseijtitus" />
         </Preference>
 
 </PreferenceCategory>
@@ -64,12 +82,12 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:title="@string/maintainers_header" >
 
         <Preference
-            android:title="@string/dev_5"
-            android:summary="@string/dev5_description"
+            android:title="@string/mntr_1"
+            android:summary="@string/mntr1_description"
             android:icon="@drawable/ic_devs_phone">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="http://forum.xda-developers.com/member.php?u=7060642" />
+            android:data="http://t.me/" />
         </Preference>
 
 </PreferenceCategory>
