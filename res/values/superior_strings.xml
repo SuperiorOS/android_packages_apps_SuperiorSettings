@@ -421,5 +421,11 @@
     <!-- Toast app icon -->
     <string name="toast_icon_title">Toast app icon</string>
     <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
+	
+	<!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Recents Style</string>
+	<string name="aosp_recents_category">AOSP recents</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
 
 </resources>
