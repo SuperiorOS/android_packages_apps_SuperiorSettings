@@ -19,46 +19,61 @@
     android:title="@string/button_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-<PreferenceCategory
+    <PreferenceCategory
         android:key="hardware_keys"
         android:title="@string/hardware_keys_category" >
 
-	<SwitchPreference
-        android:key="hardware_keys_disable"
-        android:title="@string/hardware_keys_disable_title"
-        android:summary="@string/hardware_keys_disable_summary" />
+        <SwitchPreference
+            android:key="hardware_keys_disable"
+            android:title="@string/hardware_keys_disable_title"
+            android:summary="@string/hardware_keys_disable_summary" />
 
-	<com.superior.settings.preferences.SystemSettingSwitchPreference
-        android:key="anbi_enabled_option"
-        android:title="@string/anbi_title"
-        android:summary="@string/anbi_summary"
-        android:defaultValue="false" />
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+            android:key="anbi_enabled_option"
+            android:title="@string/anbi_title"
+            android:summary="@string/anbi_summary"
+            android:defaultValue="false" />
  	</PreferenceCategory>
 
-	<PreferenceCategory
+    <PreferenceCategory
         android:key="button_backlight_options_category"
         android:title="@string/button_backlight_options_category" >
 
-	<com.superior.settings.preferences.CustomSeekBarPreference
-        android:key="button_brightness"
-        android:title="@string/button_brightness_title"
-        android:max="255"
-        settings:min="0"
-        settings:units=""
-        android:persistent="false" />
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+            android:key="button_backlight_enable"
+            android:title="@string/button_backlight_enable_title"
+            android:defaultValue="true"/>
 
- 	<SwitchPreference
-        android:key="button_brightness"
-        android:title="@string/button_brightness_sw_title"
-        android:persistent="false" />
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+            android:key="custom_button_use_screen_brightness"
+            android:title="@string/button_link_brightness"
+            android:summary="@string/button_link_brightness_summary"
+            android:defaultValue="false"
+            android:dependency="button_backlight_enable"
+            android:disableDependentsState="true" />
 
- 	<ListPreference
-        android:dialogTitle="@string/backlight_timeout_title"
-        android:entries="@array/backlight_timeout_entries"
-        android:entryValues="@array/backlight_timeout_values"
-        android:key="backlight_timeout"
-        android:persistent="false"
-        android:title="@string/backlight_timeout_title" />
+        <com.superior.settings.preferences.CustomSeekBarPreference
+            android:key="button_manual_brightness_new"
+            android:title="@string/button_manual_brightness"
+            android:max="255"
+            settings:min="1"
+            android:persistent="false"
+            android:dependency="custom_button_use_screen_brightness" />
+
+        <com.superior.settings.preferences.CustomSeekBarPreference
+            android:key="button_timeout"
+            android:title="@string/button_timeout_title"
+            android:max="30"
+            settings:min="0"
+            android:persistent="false"
+            android:dependency="button_backlight_enable" />
+
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+            android:key="button_backlight_on_touch_only"
+            android:title="@string/button_backlight_on_touch_only_title"
+            android:summary="@string/button_backlight_on_touch_only_summary"
+            android:defaultValue="false"
+            android:dependency="button_backlight_enable" />
 
     </PreferenceCategory>
 
@@ -66,133 +81,133 @@
         android:key="back_key"
         android:title="@string/hardware_keys_back_key_title" >
 
- 	<com.superior.settings.preferences.ActionPreference
-        android:key="hwkeys_button_back_single_tap"
-        android:summary="@string/hardware_keys_single_tap_summary"
-        android:title="@string/hardware_keys_single_tap_title" >
- 	</com.superior.settings.preferences.ActionPreference>
+        <com.superior.settings.preferences.ActionPreference
+            android:key="hwkeys_button_back_single_tap"
+            android:summary="@string/hardware_keys_single_tap_summary"
+            android:title="@string/hardware_keys_single_tap_title" >
+        </com.superior.settings.preferences.ActionPreference>
 
-    <com.superior.settings.preferences.ActionPreference
-        android:key="hwkeys_button_back_long_press"
-        android:summary="@string/hardware_keys_long_press_summary"
-        android:title="@string/hardware_keys_long_press_title" >
- 	</com.superior.settings.preferences.ActionPreference>
+        <com.superior.settings.preferences.ActionPreference
+            android:key="hwkeys_button_back_long_press"
+            android:summary="@string/hardware_keys_long_press_summary"
+            android:title="@string/hardware_keys_long_press_title" >
+        </com.superior.settings.preferences.ActionPreference>
 
- 	<com.superior.settings.preferences.ActionPreference
-        android:key="hwkeys_button_back_double_tap"
-        android:summary="@string/hardware_keys_double_tap_summary"
-        android:title="@string/hardware_keys_double_tap_title" >
- 	</com.superior.settings.preferences.ActionPreference>
+        <com.superior.settings.preferences.ActionPreference
+            android:key="hwkeys_button_back_double_tap"
+            android:summary="@string/hardware_keys_double_tap_summary"
+            android:title="@string/hardware_keys_double_tap_title" >
+        </com.superior.settings.preferences.ActionPreference>
     </PreferenceCategory>
 	
     <PreferenceCategory
         android:key="home_key"
         android:title="@string/hardware_keys_home_key_title" >
 
- 	<com.superior.settings.preferences.ActionPreference
-        android:key="hwkeys_button_home_single_tap"
-        android:summary="@string/hardware_keys_single_tap_summary"
-        android:title="@string/hardware_keys_single_tap_title" >
- 	</com.superior.settings.preferences.ActionPreference>
+        <com.superior.settings.preferences.ActionPreference
+            android:key="hwkeys_button_home_single_tap"
+            android:summary="@string/hardware_keys_single_tap_summary"
+            android:title="@string/hardware_keys_single_tap_title" >
+        </com.superior.settings.preferences.ActionPreference>
 
- 	<com.superior.settings.preferences.ActionPreference
-        android:key="hwkeys_button_home_long_press"
-        android:summary="@string/hardware_keys_long_press_summary"
-        android:title="@string/hardware_keys_long_press_title" >
- 	</com.superior.settings.preferences.ActionPreference>
+        <com.superior.settings.preferences.ActionPreference
+            android:key="hwkeys_button_home_long_press"
+            android:summary="@string/hardware_keys_long_press_summary"
+            android:title="@string/hardware_keys_long_press_title" >
+        </com.superior.settings.preferences.ActionPreference>
 
- 	<com.superior.settings.preferences.ActionPreference
-        android:key="hwkeys_button_home_double_tap"
-        android:summary="@string/hardware_keys_double_tap_summary"
-        android:title="@string/hardware_keys_double_tap_title" >
- 	</com.superior.settings.preferences.ActionPreference>		
+        <com.superior.settings.preferences.ActionPreference
+            android:key="hwkeys_button_home_double_tap"
+            android:summary="@string/hardware_keys_double_tap_summary"
+            android:title="@string/hardware_keys_double_tap_title" >
+        </com.superior.settings.preferences.ActionPreference>		
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="app_switch_key"
         android:title="@string/hardware_keys_appswitch_key_title" >
 
- 	<com.superior.settings.preferences.ActionPreference
-        android:key="hwkeys_button_overview_single_tap"
-        android:summary="@string/hardware_keys_single_tap_summary"
-        android:title="@string/hardware_keys_single_tap_title" >
- 	</com.superior.settings.preferences.ActionPreference>
+        <com.superior.settings.preferences.ActionPreference
+            android:key="hwkeys_button_overview_single_tap"
+            android:summary="@string/hardware_keys_single_tap_summary"
+            android:title="@string/hardware_keys_single_tap_title" >
+        </com.superior.settings.preferences.ActionPreference>
 
- 	<com.superior.settings.preferences.ActionPreference
-        android:key="hwkeys_button_overview_long_press"
-        android:summary="@string/hardware_keys_long_press_summary"
-        android:title="@string/hardware_keys_long_press_title" >
- 	</com.superior.settings.preferences.ActionPreference>
+        <com.superior.settings.preferences.ActionPreference
+            android:key="hwkeys_button_overview_long_press"
+            android:summary="@string/hardware_keys_long_press_summary"
+            android:title="@string/hardware_keys_long_press_title" >
+        </com.superior.settings.preferences.ActionPreference>
 
- 	<com.superior.settings.preferences.ActionPreference
-        android:key="hwkeys_button_overview_double_tap"
-        android:summary="@string/hardware_keys_double_tap_summary"
-        android:title="@string/hardware_keys_double_tap_title" >
- 	</com.superior.settings.preferences.ActionPreference>
+        <com.superior.settings.preferences.ActionPreference
+            android:key="hwkeys_button_overview_double_tap"
+            android:summary="@string/hardware_keys_double_tap_summary"
+            android:title="@string/hardware_keys_double_tap_title" >
+        </com.superior.settings.preferences.ActionPreference>
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="menu_key"
         android:title="@string/hardware_keys_menu_key_title" >
 
- 	<com.superior.settings.preferences.ActionPreference
-        android:key="hwkeys_button_menu_single_tap"
-        android:summary="@string/hardware_keys_single_tap_summary"
-        android:title="@string/hardware_keys_single_tap_title" >
- 	</com.superior.settings.preferences.ActionPreference>
+        <com.superior.settings.preferences.ActionPreference
+            android:key="hwkeys_button_menu_single_tap"
+            android:summary="@string/hardware_keys_single_tap_summary"
+            android:title="@string/hardware_keys_single_tap_title" >
+        </com.superior.settings.preferences.ActionPreference>
 
- 	<com.superior.settings.preferences.ActionPreference
-        android:key="hwkeys_button_menu_long_press"
-        android:summary="@string/hardware_keys_long_press_summary"
-        android:title="@string/hardware_keys_long_press_title" >
- 	</com.superior.settings.preferences.ActionPreference>
+        <com.superior.settings.preferences.ActionPreference
+            android:key="hwkeys_button_menu_long_press"
+            android:summary="@string/hardware_keys_long_press_summary"
+            android:title="@string/hardware_keys_long_press_title" >
+        </com.superior.settings.preferences.ActionPreference>
 
- 	<com.superior.settings.preferences.ActionPreference
-        android:key="hwkeys_button_menu_double_tap"
-        android:summary="@string/hardware_keys_double_tap_summary"
-        android:title="@string/hardware_keys_double_tap_title" >
- 	</com.superior.settings.preferences.ActionPreference>
+        <com.superior.settings.preferences.ActionPreference
+            android:key="hwkeys_button_menu_double_tap"
+            android:summary="@string/hardware_keys_double_tap_summary"
+            android:title="@string/hardware_keys_double_tap_title" >
+        </com.superior.settings.preferences.ActionPreference>
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="assist_key"
         android:title="@string/hardware_keys_assist_key_title" >
 
- 	<com.superior.settings.preferences.ActionPreference
-        android:key="hwkeys_button_assist_single_tap"
-        android:summary="@string/hardware_keys_single_tap_summary"
-        android:title="@string/hardware_keys_single_tap_title" >
- 	</com.superior.settings.preferences.ActionPreference>
+        <com.superior.settings.preferences.ActionPreference
+            android:key="hwkeys_button_assist_single_tap"
+            android:summary="@string/hardware_keys_single_tap_summary"
+            android:title="@string/hardware_keys_single_tap_title" >
+        </com.superior.settings.preferences.ActionPreference>
 
- 	<com.superior.settings.preferences.ActionPreference
-        android:key="hwkeys_button_assist_long_press"
-        android:summary="@string/hardware_keys_long_press_summary"
-        android:title="@string/hardware_keys_long_press_title" >
- 	</com.superior.settings.preferences.ActionPreference>
+        <com.superior.settings.preferences.ActionPreference
+            android:key="hwkeys_button_assist_long_press"
+            android:summary="@string/hardware_keys_long_press_summary"
+            android:title="@string/hardware_keys_long_press_title" >
+        </com.superior.settings.preferences.ActionPreference>
 
- 	<com.superior.settings.preferences.ActionPreference
-        android:key="hwkeys_button_assist_double_tap"
-        android:summary="@string/hardware_keys_double_tap_summary"
-        android:title="@string/hardware_keys_double_tap_title" >
- 	</com.superior.settings.preferences.ActionPreference>
+        <com.superior.settings.preferences.ActionPreference
+            android:key="hwkeys_button_assist_double_tap"
+            android:summary="@string/hardware_keys_double_tap_summary"
+            android:title="@string/hardware_keys_double_tap_title" >
+        </com.superior.settings.preferences.ActionPreference>
     </PreferenceCategory>
 
     <PreferenceCategory
         android:key="volume_rocker_category"
         android:title="@string/volume_rocker_category" >
 
- 	<com.superior.settings.preferences.SystemSettingSwitchPreference
-        android:key="volume_rocker_wake"
-        android:summary="@string/volume_rocker_wake_summary"
-        android:title="@string/volume_rocker_wake_title"
-        android:defaultValue="false" />
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+            android:key="volume_rocker_wake"
+            android:summary="@string/volume_rocker_wake_summary"
+            android:title="@string/volume_rocker_wake_title"
+            android:defaultValue="false" />
 		
-	<ListPreference
-        android:dialogTitle="@string/volume_key_cursor_control_title"
-        android:entries="@array/volume_key_cursor_control_entries"
-        android:entryValues="@array/volume_key_cursor_control_values"
-        android:key="volume_key_cursor_control"
-        android:title="@string/volume_key_cursor_control_title" />
+        <ListPreference
+            android:dialogTitle="@string/volume_key_cursor_control_title"
+            android:entries="@array/volume_key_cursor_control_entries"
+            android:entryValues="@array/volume_key_cursor_control_values"
+            android:key="volume_key_cursor_control"
+            android:title="@string/volume_key_cursor_control_title" />
 
 	</PreferenceCategory>
 
@@ -200,11 +215,11 @@
         android:key="misc_button_category"
         android:title="@string/misc_category" >
 
- 	<com.superior.settings.preferences.SystemSettingSwitchPreference
-        android:key="allow_incall_home"
-        android:title="@string/allow_incall_home_title"
-        android:summary="@string/allow_incall_home_summary"
-        android:defaultValue="true" />
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+            android:key="allow_incall_home"
+            android:title="@string/allow_incall_home_title"
+            android:summary="@string/allow_incall_home_summary"
+            android:defaultValue="true" />
 
 	</PreferenceCategory>
 </PreferenceScreen>
