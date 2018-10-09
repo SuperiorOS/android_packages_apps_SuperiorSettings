@@ -215,6 +215,8 @@
     <string name="powermenu_ls_advanced_reboot_summary">Hiển thị tùy chọn nâng cao khởi động lại trên màn hính khóa</string>
     <string name="powermenu_ls_screenshot_summary">Hiển thị tùy chọn ảnh chụp màn hình trên màn hình khóa</string>
     <string name="powermenu_ls_airplane_summary">Hiển thị các tùy chọn chế độ máy bay trên màn hình khóa</string>
+    <string name="powermenu_lockdown_title">Lockdown</string>
+    <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
     <!-- Hide Lockscreen clock, date, & alarm -->
     <string name="lockscreen_items_other">Khác</string>
     <!-- Statusbar Clock -->
