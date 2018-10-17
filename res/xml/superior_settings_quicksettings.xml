@@ -62,4 +62,13 @@
            android:summary="@string/notification_headers_summary"
            android:defaultValue="true" />
 
+        <com.superior.settings.preferences.SystemSettingListPreference
+           android:key="qs_tile_style"
+           android:title="@string/qs_tile_style_title"
+           android:dialogTitle="@string/qs_tile_style_pick"
+           android:entries="@array/qs_tile_style_entries"
+           android:entryValues="@array/qs_tile_style_values"
+           android:summary="%s"
+           android:defaultValue="0" />
+
 </PreferenceScreen>
