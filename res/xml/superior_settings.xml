@@ -65,6 +65,13 @@
             android:title="@string/navbar_title"
             android:fragment="com.superior.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
+			
+        <!-- Gestures -->
+        <com.superior.settings.preferences.CardviewPreference
+            android:key="gestures_category"
+            android:title="@string/gestures_title"
+            android:fragment="com.superior.settings.fragments.GestureSettings"
+            android:icon="@drawable/ic_settings_gestures"/>
 
         <!-- Lock Screen -->
         <com.superior.settings.preferences.CardviewPreference
