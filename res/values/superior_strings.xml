@@ -391,5 +391,10 @@
     <!-- Lock screen visualizer -->
     <string name="lockscreen_visualizer_enable">Enable lockscreen visualizer</string>
     <string name="lockscreen_visualizer_enable_summary">Show visualizer on lockscreen when music is playing</string>
+	
+    <!-- Lock Date Fonts -->
+    <string name="lock_date_font_title">Date font options</string>
+    <string name="lock_date_font_summary">Change the default font of the lockscreen date widget</string>
+    <string name="lock_date_font_dialog_title">Select lock date font</string>
 
 </resources>
