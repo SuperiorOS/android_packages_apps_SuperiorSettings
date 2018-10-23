@@ -80,6 +80,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 <PreferenceCategory
             android:key="maintainer"
             android:title="@string/maintainers_header" >
+			
+        <Preference
+            android:title="@string/mntr_2"
+            android:summary="@string/mntr2_description"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://t.me/tadarokimido" />
+        </Preference>
 
         <Preference
             android:title="@string/mntr_1"
@@ -87,7 +96,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:icon="@drawable/ic_devs_phone">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="http://t.me/" />
+            android:data="http://t.me/Prakash_S" />
         </Preference>
 
 </PreferenceCategory>

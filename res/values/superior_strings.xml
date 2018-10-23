@@ -39,6 +39,8 @@
 	<!-- Maintainer Info -->
     <string name="mntr_1">Prakash_S</string>
     <string name="mntr1_description">Santoni</string>
+    <string name="mntr_2">Abdulgalim</string>
+    <string name="mntr2_description">Mido</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
