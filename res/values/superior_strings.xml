@@ -41,6 +41,8 @@
     <string name="mntr1_description">Santoni</string>
     <string name="mntr_2">Abdulgalim</string>
     <string name="mntr2_description">Mido</string>
+    <string name="mntr_3">Ashwin Prakash</string>
+    <string name="mntr3_description">Potter</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>

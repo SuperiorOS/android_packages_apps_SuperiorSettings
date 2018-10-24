@@ -91,6 +91,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         </Preference>
 
         <Preference
+            android:title="@string/mntr_3"
+            android:summary="@string/mntr3_description"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://t.me/AshwinRC" />
+        </Preference>
+
+        <Preference
             android:title="@string/mntr_1"
             android:summary="@string/mntr1_description"
             android:icon="@drawable/ic_devs_phone">
