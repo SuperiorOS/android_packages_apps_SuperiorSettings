@@ -74,4 +74,17 @@
         android:summary="@string/lockscreen_visualizer_enable_summary"
         android:defaultValue="false" />
 
+    <PreferenceCategory
+        android:key="weather_lockscreen_key"
+        android:title="@string/weather_title" >
+
+    <com.superior.settings.preferences.SystemSettingListPreference
+            android:key="weather_lockscreen_unit"
+            android:dialogTitle="@string/weather_unit"
+            android:title="@string/weather_unit"
+            android:summary="%s"
+            android:entries="@array/weather_unit_entries"
+            android:entryValues="@array/weather_unit_values"
+            android:defaultValue="0" />
+    </PreferenceCategory>
 </PreferenceScreen>

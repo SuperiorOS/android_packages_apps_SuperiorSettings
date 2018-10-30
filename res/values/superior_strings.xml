@@ -422,5 +422,11 @@
 	<string name="aosp_recents_category">AOSP recents</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
+	
+	<!-- Weather -->
+    <string name="weather_title">Weather</string>
+    <string name="weather_unit">Temperature unit</string>
+    <string name="weather_unit_metric" translatable="false">Celsius</string>
+    <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
 
 </resources>
