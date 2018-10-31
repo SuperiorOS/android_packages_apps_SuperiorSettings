@@ -31,19 +31,19 @@ import com.android.settings.Utils;
 
 import com.android.internal.logging.nano.MetricsProto;
 
-public class PowerMenu extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
+public class PowermenuSettings extends SettingsPreferenceFragment implements Preference.OnPreferenceChangeListener {
 
     private static final String KEY_POWERMENU_LOCKSCREEN = "powermenu_lockscreen";
     private static final String KEY_POWERMENU_LS_REBOOT = "powermenu_ls_reboot";
     private static final String KEY_POWERMENU_LS_ADVANCED_REBOOT = "powermenu_ls_advanced_reboot";
     private static final String KEY_POWERMENU_LS_SCREENSHOT = "powermenu_ls_screenshot";
-    private static final String KEY_POWERMENU_LS_AIRPLANE = "powermenu_ls_airplane";
+    //private static final String KEY_POWERMENU_LS_AIRPLANE = "powermenu_ls_airplane";
 
     private SwitchPreference mPowerMenuLockscreen;
     private SwitchPreference mPowerMenuReboot;
     private SwitchPreference mPowerMenuAdvancedReboot;
     private SwitchPreference mPowerMenuScreenshot;
-    private SwitchPreference mPowerMenuAirplane;
+    //private SwitchPreference mPowerMenuAirplane;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -71,10 +71,10 @@ public class PowerMenu extends SettingsPreferenceFragment implements Preference.
                 Settings.System.POWERMENU_LS_SCREENSHOT, 0) == 1));
         mPowerMenuScreenshot.setOnPreferenceChangeListener(this);
 
-        mPowerMenuAirplane = (SwitchPreference) findPreference(KEY_POWERMENU_LS_AIRPLANE);
+        /** mPowerMenuAirplane = (SwitchPreference) findPreference(KEY_POWERMENU_LS_AIRPLANE);
         mPowerMenuAirplane.setChecked((Settings.System.getInt(getContentResolver(),
                 Settings.System.POWERMENU_LS_AIRPLANE, 0) == 1));
-        mPowerMenuAirplane.setOnPreferenceChangeListener(this);
+        mPowerMenuAirplane.setOnPreferenceChangeListener(this); */
 
         updateLockscreen();
     }
@@ -101,12 +101,12 @@ public class PowerMenu extends SettingsPreferenceFragment implements Preference.
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.POWERMENU_LS_SCREENSHOT, value ? 1 : 0);
             return true;
-        } else if (preference == mPowerMenuAirplane) {
+        } /** else if (preference == mPowerMenuAirplane) {
             boolean value = (Boolean) objValue;
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.POWERMENU_LS_AIRPLANE, value ? 1 : 0);
             return true;
-        }
+        } */
         return false;
     }
 
@@ -124,12 +124,12 @@ public class PowerMenu extends SettingsPreferenceFragment implements Preference.
             mPowerMenuReboot.setEnabled(true);
             mPowerMenuAdvancedReboot.setEnabled(true);
             mPowerMenuScreenshot.setEnabled(true);
-            mPowerMenuAirplane.setEnabled(true);
+            //mPowerMenuAirplane.setEnabled(true);
         } else {
             mPowerMenuReboot.setEnabled(false);
             mPowerMenuAdvancedReboot.setEnabled(false);
             mPowerMenuScreenshot.setEnabled(false);
-            mPowerMenuAirplane.setEnabled(false);
+            //mPowerMenuAirplane.setEnabled(false);
         }
     }
 
