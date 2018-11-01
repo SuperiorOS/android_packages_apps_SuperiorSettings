@@ -87,7 +87,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:icon="@drawable/ic_devs_phone">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="http://t.me/tadarokimido" />
+            android:data="http://t.me/RinMido" />
         </Preference>
 
         <Preference

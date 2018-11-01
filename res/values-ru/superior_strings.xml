@@ -184,7 +184,7 @@
   <string name="heads_up_snooze_summary_one_minute">Свайп вверх по всплывающему уведомлению от этого приложения скроет его на одну минуту</string>
   <string name="heads_up_snooze_summary">Свайп вверх по всплывающему уведомлению от этого приложения скроет его на %d минут</string>
   <string name="heads_up_snooze_disabled_summary">Отключить задержку всплывающих уведомлений</string>
-  <string name="heads_up_snooze_1min">%s минута</string>
+  <string name="heads_up_snooze_1min">1 минута</string>
   <string name="heads_up_snooze_5min">5 минут</string>
   <string name="heads_up_snooze_10min">10 минут</string>
   <string name="heads_up_snooze_15min">15 минут</string>
@@ -319,7 +319,7 @@
   <string name="anbi_summary">Запретить взаимодействие с навигационными кнопками во время касания экрана</string>
   <string name="gesture_preference_superior">Жесты AOSP</string>
   <!-- QuickSettings Panel Transparency -->
-  <string name="qs_panel_alpha_title">Затенение</string>
+  <string name="qs_panel_alpha_title">Прозрачность</string>
   <!-- Quick Settings brightness slider -->
   <string name="qs_show_brightness_title">Слайдер яркости</string>
   <string name="qs_show_brightness_summary">Показывать слайдер яркости в панели быстрых настроек</string>
