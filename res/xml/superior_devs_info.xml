@@ -107,6 +107,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:action="android.intent.action.VIEW"
             android:data="http://t.me/Prakash_S" />
         </Preference>
+		
+		<Preference
+            android:title="@string/mntr_4"
+            android:summary="@string/mntr4_description"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://t.me/LordShenron" />
+        </Preference>
 
 </PreferenceCategory>
 

@@ -38,11 +38,13 @@
 	
 	<!-- Maintainer Info -->
     <string name="mntr_1">Prakash_S</string>
-    <string name="mntr1_description">Santoni</string>
+    <string name="mntr1_description">Xiaomi</string>
     <string name="mntr_2">Abdulgalim</string>
     <string name="mntr2_description">Mido</string>
     <string name="mntr_3">Ashwin Prakash</string>
     <string name="mntr3_description">Potter</string>
+	<string name="mntr_4">Priyanshu Pandey</string>
+    <string name="mntr4_description">X00TD</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
