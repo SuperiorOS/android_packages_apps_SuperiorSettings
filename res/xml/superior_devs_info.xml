@@ -80,37 +80,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 <PreferenceCategory
             android:key="maintainer"
             android:title="@string/maintainers_header" >
+</PreferenceCategory>
+
+<PreferenceCategory
+            android:key="maintainer"
+            android:title="@string/device_asus" >
 			
         <Preference
-            android:title="@string/mntr_2"
-            android:summary="@string/mntr2_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/RinMido" />
-        </Preference>
-
-        <Preference
-            android:title="@string/mntr_3"
-            android:summary="@string/mntr3_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/AshwinRC" />
-        </Preference>
-
-        <Preference
-            android:title="@string/mntr_1"
-            android:summary="@string/mntr1_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/Prakash_S" />
-        </Preference>
-		
-		<Preference
-            android:title="@string/mntr_4"
-            android:summary="@string/mntr4_description"
+            android:title="@string/X00TD_maintainer"
+            android:summary="@string/X00TD_maintainer_description"
             android:icon="@drawable/ic_devs_phone">
         <intent
             android:action="android.intent.action.VIEW"
@@ -119,4 +97,42 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
 </PreferenceCategory>
 
+<PreferenceCategory
+            android:key="maintainer"
+            android:title="@string/device_motorola" >
+			
+        <Preference
+            android:title="@string/potter_maintainer"
+            android:summary="@string/potter_maintainer_description"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://t.me/AshwinRC" />
+        </Preference>
+
+</PreferenceCategory>
+
+<PreferenceCategory
+            android:key="maintainer"
+            android:title="@string/device_xiaomi" >
+			
+        <Preference
+            android:title="@string/mido_maintainer"
+            android:summary="@string/mido_maintainer_description"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://t.me/RinMido" />
+        </Preference>
+
+        <Preference
+            android:title="@string/santoni_maintainer"
+            android:summary="@string/santoni_maintainer_description"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://t.me/Prakash_S" />
+        </Preference>
+
+</PreferenceCategory>
 </PreferenceScreen>

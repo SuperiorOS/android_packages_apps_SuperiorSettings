@@ -37,14 +37,17 @@
     <string name="dev4_description">Designer</string>
 	
 	<!-- Maintainer Info -->
-    <string name="mntr_1">Prakash_S</string>
-    <string name="mntr1_description">Xiaomi</string>
-    <string name="mntr_2">Abdulgalim</string>
-    <string name="mntr2_description">Mido</string>
-    <string name="mntr_3">Ashwin Prakash</string>
-    <string name="mntr3_description">Potter</string>
-	<string name="mntr_4">Priyanshu Pandey</string>
-    <string name="mntr4_description">X00TD</string>
+    <string name="device_xiaomi">Xiaomi</string>
+    <string name="device_asus">Asus</string>
+    <string name="device_motorola">Motorola</string>
+    <string name="mido_maintainer">Abdulgalim</string>
+    <string name="mido_maintainer_description">Redmi Note 4</string>
+    <string name="potter_maintainer">Ashwin Prakash</string>
+    <string name="potter_maintainer_description">Moto G5 Plus</string>
+    <string name="santoni_maintainer">Prakash_S</string>
+    <string name="santoni_maintainer_description">Redmi 4/4X</string>
+    <string name="X00TD_maintainer">Priyanshu Pandey</string>
+    <string name="X00TD_maintainer_description">Zenfone Max Pro M1</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
