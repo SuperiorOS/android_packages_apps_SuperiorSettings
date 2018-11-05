@@ -34,9 +34,11 @@
             android:summary="@string/anbi_summary"
             android:defaultValue="false" />
      </PreferenceCategory>
+
      <PreferenceCategory
         android:key="back_key"
 	android:title="@string/hardware_keys_back_key_title" >
+
  	<com.superior.settings.preferences.ActionPreference
             android:key="hwkeys_button_back_single_tap"
             android:summary="@string/hardware_keys_single_tap_summary"
@@ -54,6 +56,7 @@
             android:summary="@string/hardware_keys_double_tap_summary"
             android:title="@string/hardware_keys_double_tap_title" >
         </com.superior.settings.preferences.ActionPreference>
+
     </PreferenceCategory>
 	
     <PreferenceCategory
@@ -100,6 +103,7 @@
             android:summary="@string/hardware_keys_double_tap_summary"
             android:title="@string/hardware_keys_double_tap_title" >
         </com.superior.settings.preferences.ActionPreference>
+
     </PreferenceCategory>
 	
     <PreferenceCategory
@@ -146,8 +150,9 @@
             android:summary="@string/hardware_keys_double_tap_summary"
             android:title="@string/hardware_keys_double_tap_title" >
         </com.superior.settings.preferences.ActionPreference>
+
     </PreferenceCategory>
-		
+
 	<com.superior.settings.preferences.CustomSeekBarPreference
             android:key="button_brightness"
             android:title="@string/button_brightness_title"
@@ -176,5 +181,11 @@
         android:defaultValue="true" />
 		
 		
+
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+	android:key="volume_button_music_control"
+	android:summary="@string/volume_rocker_music_controls_summary"
+	android:title="@string/volume_rocker_music_controls_title"
+	android:defaultValue="false" />
 
 </PreferenceScreen>
