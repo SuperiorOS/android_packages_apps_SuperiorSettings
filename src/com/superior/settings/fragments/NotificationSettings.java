@@ -32,6 +32,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import com.superior.settings.preferences.Utils;
+import android.os.UserHandle;
+import android.provider.Settings;
 
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
@@ -41,6 +43,9 @@ import com.superior.settings.R;
 public class NotificationSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
+    private static final String FLASHLIGHT_ON_CALL = "flashlight_on_call";
+
+    private ListPreference mFlashlightOnCall;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -51,7 +56,17 @@ public class NotificationSettings extends SettingsPreferenceFragment implements
         if (!Utils.isVoiceCapable(getActivity())) {
             prefScreen.removePreference(incallVibCategory);
         }
-        ContentResolver resolver = getActivity().getContentResolver();
+	mFlashlightOnCall = (ListPreference) findPreference(FLASHLIGHT_ON_CALL);
+	Preference FlashOnCall = findPreference("flashlight_on_call");        
+	int flashlightValue = Settings.System.getInt(getContentResolver(),
+		Settings.System.FLASHLIGHT_ON_CALL, 1);
+	mFlashlightOnCall.setValue(String.valueOf(flashlightValue));
+	mFlashlightOnCall.setSummary(mFlashlightOnCall.getEntry());
+	mFlashlightOnCall.setOnPreferenceChangeListener(this);	
+	if (!Utils.deviceSupportsFlashLight(getActivity())) {
+	    prefScreen.removePreference(FlashOnCall);
+	}
+	ContentResolver resolver = getActivity().getContentResolver();
     }
 
     @Override
@@ -70,6 +85,17 @@ public class NotificationSettings extends SettingsPreferenceFragment implements
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+	ContentResolver resolver = getActivity().getContentResolver();
+
+	    if (preference == mFlashlightOnCall) {
+	        int flashlightValue = Integer.parseInt(((String) newValue).toString());
+	        Settings.System.putInt(resolver,
+			Settings.System.FLASHLIGHT_ON_CALL, flashlightValue);
+		mFlashlightOnCall.setValue(String.valueOf(flashlightValue));
+		mFlashlightOnCall.setSummary(mFlashlightOnCall.getEntry());
+		return true;
+	   }
+
         return false;
     }
 }
