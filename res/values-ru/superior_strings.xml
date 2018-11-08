@@ -15,6 +15,7 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<<<<<<< HEAD
   <string name="superior_settings_title">Настройки Superior</string>
   <string name="superior_dashboard_summary">Доп. настройки</string>
   <!-- ROM Info -->
@@ -335,5 +336,7 @@
   <string name="lock_date_font_title">Параметры шрифта даты</string>
   <string name="lock_date_font_summary">Изменить шрифт даты на экране блокировки</string>
   <string name="lock_date_font_dialog_title">Выберите шрифт даты на экране блокировки</string>
+
+    <string name="gestures_category">Gestures</string>
 </resources>
 
