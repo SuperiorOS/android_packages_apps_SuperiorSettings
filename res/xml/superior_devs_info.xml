@@ -41,7 +41,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <Preference
             android:title="@string/dev_1"
             android:summary="@string/dev1_description"
-            android:icon="@drawable/ic_devs_pc" >
+            android:icon="@drawable/ic_code" >
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Darkstar085" />
@@ -50,7 +50,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <Preference
             android:title="@string/dev_2"
             android:summary="@string/dev2_description"
-            android:icon="@drawable/ic_devs_pc" >
+            android:icon="@drawable/ic_code" >
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/JD1811" />
@@ -59,7 +59,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 		<Preference
             android:title="@string/dev_3"
             android:summary="@string/dev3_description"
-            android:icon="@drawable/ic_devs_pc" >
+            android:icon="@drawable/ic_design" >
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Advertpavan" />
@@ -68,7 +68,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 		<Preference
             android:title="@string/dev_4"
             android:summary="@string/dev4_description"
-            android:icon="@drawable/ic_devs_pc" >
+            android:icon="@drawable/ic_design" >
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Senseijtitus" />
