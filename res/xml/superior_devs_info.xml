@@ -83,6 +83,14 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 <PreferenceCategory
             android:key="maintainer"
             android:title="@string/maintainers_header" >
+			
+		<Preference
+            android:summary="@string/maintainers_header_summary" 
+            android:icon="@drawable/ic_devs_info" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://www.github.com/SuperiorOS-Devices" />
+       </Preference>
 </PreferenceCategory>
 
 <PreferenceCategory

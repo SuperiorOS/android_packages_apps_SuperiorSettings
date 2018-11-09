@@ -27,6 +27,7 @@
 	<!-- Dev Info -->
     <string name="devs_header">Developers</string>
     <string name="maintainers_header">Maintainers</string>
+    <string name="maintainers_header_summary">These are the Official Devices Maintainers...</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Founder/Developer, Whyred Maintainer</string>
     <string name="dev_2">Jayant Deshmukh</string>
