@@ -18,23 +18,29 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/misc_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-	
-	    <com.superior.settings.preferences.SystemSettingSwitchPreference 
-            android:key="three_finger_gesture" 
-            android:title="@string/three_finger_gesture" 
-            android:summary="@string/three_finger_gesture_summary" 
-            android:defaultValue="false" /> 
-			
-	    <com.superior.settings.preferences.SystemSettingListPreference
-            android:key="screenshot_type"
-            android:entries="@array/screenshot_type_entries"
-            android:entryValues="@array/screenshot_type_values"
-            android:title="@string/screenshot_type_title" />
+
+	<com.superior.settings.preferences.SystemSettingListPreference
+        android:key="screenshot_type"
+        android:entries="@array/screenshot_type_entries"
+        android:entryValues="@array/screenshot_type_values"
+        android:title="@string/screenshot_type_title" />
+		
+	<com.superior.settings.preferences.SystemSettingSwitchPreference 
+        android:key="three_finger_gesture" 
+        android:title="@string/three_finger_gesture" 
+        android:summary="@string/three_finger_gesture_summary" 
+        android:defaultValue="true" /> 
 
 	<com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="toast_icon"
         android:title="@string/toast_icon_title"
         android:summary="@string/toast_icon_summary"
-        android:defaultValue="false" />
+        android:defaultValue="true" />
+
+	<com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="volume_button_music_control"
+        android:summary="@string/volume_rocker_music_controls_summary"
+        android:title="@string/volume_rocker_music_controls_title"
+        android:defaultValue="true" />
 
 </PreferenceScreen>

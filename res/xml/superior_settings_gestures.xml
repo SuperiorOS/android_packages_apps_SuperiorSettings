@@ -23,6 +23,22 @@
         android:key="gesture_settings"
         android:title="@string/gesture_preference_superior"
         android:fragment="com.android.settings.gestures.GestureSettings"
-        settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>	
+        settings:controller="com.android.settings.gestures.GesturesSettingPreferenceController"/>
 
+	<PreferenceCategory
+        android:key="gestures_category"
+        android:title="@string/gestures_category">
+
+	<com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_gesture"
+        android:title="@string/double_tap_to_sleep_statusbar_title"
+        android:summary="@string/double_tap_to_sleep_statusbar_summary"
+        android:defaultValue="true" />
+
+	<com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_lockscreen"
+        android:title="@string/double_tap_to_sleep_lockscreen_title"
+        android:summary="@string/double_tap_to_sleep_lockscreen_summary"
+        android:defaultValue="true" />
+    </PreferenceCategory>
 </PreferenceScreen>

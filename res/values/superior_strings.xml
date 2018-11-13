@@ -17,7 +17,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="superior_settings_title">Superior Settings</string>
-    <string name="superior_dashboard_summary">Features Hub</string>
+    <string name="superior_dashboard_summary">Meteor Hub</string>
 	
 	<!-- ROM Info -->
     <string name="superior_about_info">About Project</string>
@@ -131,7 +131,6 @@
 
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">Backlight</string>
-    <!-- Enable keys backlight-->
     <string name="button_brightness_sw_title">Enable backlight</string>
 
     <!-- Double Tap Lockscreen to Sleep -->
@@ -387,10 +386,6 @@
 	<!-- Media art -->
     <string name="media_art_title">Media cover art</string>
     <string name="media_art_summary">Enable media cover art on the lockscreen</string>
-
-    <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_enable">Enable lockscreen visualizer</string>
-    <string name="lockscreen_visualizer_enable_summary">Show visualizer on lockscreen when music is playing</string>
 	
     <!-- Lock Date Fonts -->
     <string name="lock_date_font_title">Date font options</string>
