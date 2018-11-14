@@ -44,8 +44,10 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String OMNI_QS_PANEL_BG_ALPHA = "qs_panel_bg_alpha";
+	private static final String QS_HEADER_STYLE = "qs_header_style";
 
     private CustomSeekBarPreference mQsPanelAlpha;
+	private ListPreference mQsHeaderStyle;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -59,6 +61,14 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.OMNI_QS_PANEL_BG_ALPHA, 255, UserHandle.USER_CURRENT);
         mQsPanelAlpha.setValue(qsPanelAlpha);
         mQsPanelAlpha.setOnPreferenceChangeListener(this);
+
+        mQsHeaderStyle = (ListPreference) findPreference(QS_HEADER_STYLE);
+       int qsHeaderStyle = Settings.System.getInt(resolver,
+               Settings.System.QS_HEADER_STYLE, 0);
+       int newIndex = mQsHeaderStyle.findIndexOfValue(String.valueOf(qsHeaderStyle));
+       mQsHeaderStyle.setValueIndex(newIndex >= 0 ? newIndex : 0);
+       mQsHeaderStyle.setSummary(mQsHeaderStyle.getEntry());
+       mQsHeaderStyle.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -77,11 +87,20 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+
         if (preference == mQsPanelAlpha) {
             int bgAlpha = (Integer) newValue;
             Settings.System.putIntForUser(getContentResolver(),
                     Settings.System.OMNI_QS_PANEL_BG_ALPHA, bgAlpha,
                     UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mQsHeaderStyle) {
+            String value = (String) newValue;
+            Settings.System.putInt(resolver, Settings.System.QS_HEADER_STYLE,
+                   Integer.valueOf(value));
+            int newIndex = mQsHeaderStyle.findIndexOfValue(value);
+            mQsHeaderStyle.setSummary(mQsHeaderStyle.getEntries()[newIndex]);
             return true;
         }
         return false;
