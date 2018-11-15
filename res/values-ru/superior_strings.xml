@@ -56,6 +56,8 @@
     <string name="tissot_maintainer_description">Mi A1</string>
     <string name="ef63_maintainer">Chau Truong Thinh</string>
     <string name="ef63_maintainer_description">Vega Iron 2</string>
+    <string name="sanders_maintainer">Yash Sonawane</string>
+    <string name="sanders_maintainer_description">Moto G5S Plus</string>
 
     <!-- Categories -->
     <string name="button_title">Аппаратные кнопки</string>
@@ -466,19 +468,23 @@
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">Стиль плиток быстрых настроек</string>
     <string name="qstile_default">По умолчанию</string>
-    <string name="qstile_circle_trim">Круг с обводкой</string>
-    <string name="qstile_dual_tone_circle">Dual-toned Круг с обводкой</string>
-    <string name="qstile_squircle_trim">Квадрат с обводкой</string>
     <string name="qstile_circle_gradient">Круг с градиентом</string>
-    <string name="qstile_wavey">Волнистый</string>
-    <string name="qstile_circle_dualtone">Dual tone круг без обводки</string>
-    <string name="qstile_pokesign">Покебол</string>
-    <string name="qstile_ninja">Ниндзя(Сюрикен)</string>
+    <string name="qstile_circle_trim">Круг с обводкой</string>
     <string name="qstile_dottedcircle">Круг с точками</string>
-    <string name="qstile_attemptmountain">Горы</string>
-    <string name="qstile_squaremedo">The Squaremedo</string>
+    <string name="qstile_circle_dualtone">Dual tone круг без обводки</string>
+    <string name="qstile_dual_tone_circle">Dual-toned Круг с обводкой</string>
+    <string name="qstile_ink">Ink</string>
+    <string name="qstile_inkdrop">Inkdrop</string>
+    <string name="qstile_mountain">Горы</string>
+    <string name="qstile_ninja">Ниндзя(Сюрикен)</string>
     <string name="qstile_oreo">Oreo стиль</string>
     <string name="qstile_oreo_circle_trim">Oreo (Круглая обводка)</string>
     <string name="qstile_oreo_squircle_trim">Oreo (Квадратная обводка)</string>
+    <string name="qstile_pokesign">Покебол</string>
+    <string name="qstile_squaremedo">Squaremedo</string>
+    <string name="qstile_squircle">Squircle</string>
+    <string name="qstile_squircle_trim">SКвадрат с обводкой</string>
+    <string name="qstile_teardrop">Teardrop</string>
+    <string name="qstile_wavey">Волнистый</string>
 
 </resources>
