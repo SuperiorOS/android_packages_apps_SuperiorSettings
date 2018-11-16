@@ -26,8 +26,10 @@
         android:title="@string/screenshot_type_title" />
 		
 	<Preference
-        android:title="@string/app_ops_settings"
-        android:fragment="com.android.settings.applications.appops.AppOpsSummary"/>
+        android:key="privacy_guard_manager"	    
+        android:title="@string/app_ops_settings_title"
+        android:summary="@string/app_ops_summary"
+        android:fragment="com.android.settings.privacyguard.PrivacyGuardManager"/>
 
 	<com.superior.settings.preferences.SystemSettingSwitchPreference 
         android:key="three_finger_gesture" 
