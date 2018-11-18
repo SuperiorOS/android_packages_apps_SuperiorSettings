@@ -177,4 +177,10 @@
         android:summary="@string/allow_incall_home_summary"
         android:defaultValue="true" />
 
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="volume_rocker_wake"
+        android:summary="@string/volume_rocker_wake_summary"
+        android:title="@string/volume_rocker_wake_title"
+        android:defaultValue="false" />
+
 </PreferenceScreen>
