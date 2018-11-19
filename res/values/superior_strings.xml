@@ -51,6 +51,8 @@
     <string name="X00TD_maintainer_description">Zenfone Max Pro M1</string>
     <string name="rolex_maintainer">Arpon Sarkar</string>
     <string name="rolex_maintainer_description">Redmi 4A</string>
+    <string name="tissot_maintainer">Jay Chauhan</string>
+    <string name="tissot_maintainer_description">Mi A1</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
