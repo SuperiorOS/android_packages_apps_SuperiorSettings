@@ -92,6 +92,12 @@
         android:title="@string/statusbar_extras">
 
          <Preference
+            android:key="status_bar_clock"
+            android:fragment="com.superior.settings.fragments.ClockDateSettings"
+            android:title="@string/status_bar_clock_title"
+            android:summary="@string/status_bar_clock_summary" />
+
+         <Preference
             android:key="battery_styles_category"
             android:fragment="com.superior.settings.fragments.BatterySettings"
             android:summary="@string/battery_style_category_summary"
