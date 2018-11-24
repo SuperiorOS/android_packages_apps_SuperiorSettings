@@ -317,6 +317,11 @@
     <string name="lock_clock_font_neoneon">Neoneon</string>
     <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
     <string name="lock_clock_font_samsung">Shamshung</string>
+    <string name="lock_clock_font_ABCThru">ABCThru</string>
+    <string name="lock_clock_font_anurati">Anurati Regular</string>
+    <string name="lock_clock_font_Joost">JoostAMillionaire</string>
+    <string name="lock_clock_font_Locust">Locust Resistance</string>
+    <string name="lock_clock_font_Wallpoet">Wallpoet Regular</string>
 	
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Swipe to screenshot</string>

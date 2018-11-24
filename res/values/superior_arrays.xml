@@ -187,6 +187,11 @@
         <item>@string/lock_clock_font_neoneon</item>
         <item>@string/lock_clock_font_themeable</item>
         <item>@string/lock_clock_font_samsung</item>
+        <item>@string/lock_clock_font_ABCThru</item>
+        <item>@string/lock_clock_font_anurati</item>
+        <item>@string/lock_clock_font_Joost</item>
+        <item>@string/lock_clock_font_Locust</item>
+        <item>@string/lock_clock_font_Wallpoet</item>
     </string-array>
 
     <string-array name="lock_clock_fonts_values" translatable="false">
@@ -222,6 +227,11 @@
         <item>29</item>
         <item>30</item>
         <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
     </string-array>
 	
 	<!-- Network Traffic Type -->
