@@ -77,6 +77,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:data="https://t.me/Senseijtitus" />
         </Preference>
 
+		<Preference
+            android:title="@string/dev_5"
+            android:summary="@string/dev5_description"
+            android:icon="@drawable/ic_devs_pc" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/itsjzt" />
+        </Preference>
+
 </PreferenceCategory>
 
 
