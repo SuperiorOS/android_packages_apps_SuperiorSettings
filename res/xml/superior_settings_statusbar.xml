@@ -26,7 +26,6 @@
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
 
-
     <Preference
         android:key="statusbar_clock_date"
         android:title="@string/status_bar_clock_date_title"
@@ -43,6 +42,12 @@
         android:title="@string/show_fourg_title"
         android:summary="@string/show_fourg_summary"
         android:defaultValue="false" />
+
+    <com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="data_disabled_icon"
+        android:title="@string/data_disabled_icon_title"
+        android:summary="@string/data_disabled_icon_summary"
+        android:defaultValue="true"/>
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="show_volte_icon"
