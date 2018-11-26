@@ -43,6 +43,7 @@
     <string name="device_xiaomi">Xiaomi</string>
     <string name="device_asus">Asus</string>
     <string name="device_motorola">Motorola</string>
+    <string name="device_pantech">Pantech</string>
     <string name="mido_maintainer">Abdulgalim</string>
     <string name="mido_maintainer_description">Redmi Note 4</string>
     <string name="santoni_maintainer">Prakash_S</string>
@@ -53,6 +54,8 @@
     <string name="rolex_maintainer_description">Redmi 4A</string>
     <string name="tissot_maintainer">Jay Chauhan</string>
     <string name="tissot_maintainer_description">Mi A1</string>
+    <string name="ef63_maintainer">Chau Truong Thinh</string>
+    <string name="ef63_maintainer_description">Vega Iron 2</string>
 
     <!-- Categories -->
     <string name="button_title">Аппаратные кнопки</string>
