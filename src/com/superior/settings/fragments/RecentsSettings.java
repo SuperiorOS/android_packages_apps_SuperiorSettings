@@ -77,6 +77,10 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
     private Preference mSlimSettings;
     private ListPreference mRecentsClearAllLocation;
     private SwitchPreference mRecentsClearAll;
+    private PreferenceCategory mStockCat;
+    private PreferenceCategory mSlimCat;
+    private static final String KEY_CATEGORY_STOCK = "stock_recents";
+    private static final String KEY_CATEGORY_SLIM = "slim_recent";
     private static final String RECENTS_COMPONENT_TYPE = "recents_component";
     private static final String PREF_SLIM_RECENTS_SETTINGS = "slim_recents_settings";
     private static final String PREF_SLIM_RECENTS = "use_slim_recents";
@@ -110,6 +114,9 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         mSlimToggle = (SwitchPreference) findPreference(PREF_SLIM_RECENTS);
         mSlimToggle.setOnPreferenceChangeListener(this);
 
+        mStockCat = (PreferenceCategory) findPreference(KEY_CATEGORY_STOCK);
+        mSlimCat = (PreferenceCategory) findPreference(KEY_CATEGORY_SLIM);
+        updateRecentsState(type); 
         updateRecentsPreferences();
     }
 
@@ -120,6 +127,16 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         // Either Stock or Slim Recents can be active at a time
         mRecentsComponentType.setEnabled(!slimEnabled);
         mSlimToggle.setChecked(slimEnabled);
+    }
+
+    public void updateRecentsState(int type) {
+        if (type == 0) {
+           mStockCat.setEnabled(false);
+           mSlimCat.setEnabled(true);
+        } else {
+           mStockCat.setEnabled(true);
+           mSlimCat.setEnabled(true);
+        }
     }
 
     @Override
@@ -144,6 +161,7 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
             Settings.System.putInt(getActivity().getContentResolver(),
                     Settings.System.RECENTS_COMPONENT, type);
             mRecentsComponentType.setSummary(mRecentsComponentType.getEntries()[index]);
+            updateRecentsState(type);
             if (type == 1) { // Disable swipe up gesture, if oreo type selected
                Settings.Secure.putInt(getActivity().getContentResolver(),
                     Settings.Secure.SWIPE_UP_TO_SWITCH_APPS_ENABLED, 0);
@@ -165,8 +183,8 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
             updateRecentsPreferences();
             return true;
         } else if (preference == mRecentsClearAllLocation) {
-            int location = Integer.valueOf((String) objValue);
-            int index = mRecentsClearAllLocation.findIndexOfValue((String) objValue);
+            int location = Integer.valueOf((String) newValue);
+            int index = mRecentsClearAllLocation.findIndexOfValue((String) newValue);
             Settings.System.putIntForUser(getActivity().getContentResolver(),
                     Settings.System.RECENTS_CLEAR_ALL_LOCATION, location, UserHandle.USER_CURRENT);
             mRecentsClearAllLocation.setSummary(mRecentsClearAllLocation.getEntries()[index]);
