@@ -118,6 +118,20 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
 <PreferenceCategory
             android:key="maintainer"
+            android:title="@string/device_motorola" >
+			
+        <Preference
+            android:title="@string/sanders_maintainer"
+            android:summary="@string/sanders_maintainer_description"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://t.me/yashh5" />
+        </Preference>
+</PreferenceCategory>
+
+<PreferenceCategory
+            android:key="maintainer"
             android:title="@string/device_pantech" >
 			
         <Preference
