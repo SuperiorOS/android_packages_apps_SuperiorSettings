@@ -17,17 +17,17 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="superior_settings_title">Настройки Superior</string>
-    <string name="superior_dashboard_summary">Meteor Hub</string>
+    <string name="superior_dashboard_summary">Дополнительные настройки</string>
 	
 	<!-- ROM Info -->
-    <string name="superior_about_info">About Project</string>
-    <string name="superior_about_info_summary_title">About Team</string>
-    <string name="superior_about_info_summary">Superior OS is a Custom ROM based on AOSP, with some most required minimal features, the main aim of this ROM is to deliver light speed performance,smoothness and good battery backup.</string>
+    <string name="superior_about_info">О проекте</string>
+    <string name="superior_about_info_summary_title">О команде</string>
+    <string name="superior_about_info_summary">Superior OS это кастомная прошивка основанная на AOSP, с многими необходимыми настройками , основные цели прошивки- это обеспечить большую жизнь от заряда батареи и молниеносную скорость.</string>
 	
 	<!-- Dev Info -->
     <string name="devs_header">Разработчики</string>
     <string name="maintainers_header">Сопровождающий</string>
-    <string name="maintainers_header_summary">These are the Official Devices Maintainers...</string>
+    <string name="maintainers_header_summary">Офицальные сопровождающие...</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Основатель/разработчик, сопровождающий Whyred</string>
     <string name="dev_2">Jayant Deshmukh</string>
@@ -37,7 +37,7 @@
     <string name="dev_4">Titus Joseph</string>
     <string name="dev4_description">Дизайнер</string>
     <string name="dev_5">Saurabh Sharma</string>
-    <string name="dev5_description">Web Developer</string>
+    <string name="dev5_description">Веб Разработчик</string>
 	
 	<!-- Maintainer Info -->
     <string name="device_xiaomi">Xiaomi</string>
@@ -56,8 +56,6 @@
     <string name="tissot_maintainer_description">Mi A1</string>
     <string name="ef63_maintainer">Chau Truong Thinh</string>
     <string name="ef63_maintainer_description">Vega Iron 2</string>
-    <string name="sanders_maintainer">Yash Sonawane</string>
-    <string name="sanders_maintainer_description">Moto G5S Plus</string>
 
     <!-- Categories -->
     <string name="button_title">Аппаратные кнопки</string>
@@ -220,31 +218,31 @@
     <string name="status_bar_quick_qs_pulldown_summary">Свайп справа строки состояния открывает QS панель</string>
 
 	<!-- SeekBar -->
-    <string name="seekbar_no_default_value">No default value set</string>
-    <string name="seekbar_default_value_set">Value set to default of <xliff:g id="number">%d</xliff:g></string>
-    <string name="seekbar_default_value_already_set">Default value is already set</string>
-    <string name="seekbar_default_string">Default</string>
+    <string name="seekbar_no_default_value">Нет значения по умолчанию</string>
+    <string name="seekbar_default_value_set">Значение по умолчанию :<xliff:g id="number">%d</xliff:g></string>
+    <string name="seekbar_default_value_already_set">Значение по умолчанию уже выставлено</string>
+    <string name="seekbar_default_string">По умолчанию</string>
 	
-	<string name="gesture_preference_superior">AOSP gestures</string>
+	<string name="gesture_preference_superior">Жесты AOSP</string>
 	
 	<!-- Power Menu -->
-    <string name="advanced_power_menu">Power menu options</string>
-    <string name="advanced_reboot_menu">Advanced reboot menu</string>
-    <string name="powermenu_reboot_title">Reboot</string>
-    <string name="powermenu_airplane_title">Airplane mode</string>
-    <string name="powermenu_advanced_reboot_title">Advanced reboot</string>
-    <string name="powermenu_advanced_reboot_summary">Enables the advanced reboot menu for rebooting options such hot, recovery and bootloader. Also adds as an option to restart SystemUI</string>
-    <string name="powermenu_screenshot_title">Screenshot</string>
-    <string name="powermenu_category_visibility">Lockscreen options</string>
-    <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
-    <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
-    <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
-    <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
-    <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
-    <string name="powermenu_ls_airplane_summary">Show the airplane mode option on the lockscreen</string>
+    <string name="advanced_power_menu">Настройки меню питания</string>
+    <string name="advanced_reboot_menu">Расширенное меню питания </string>
+    <string name="powermenu_reboot_title">Перезагрузка</string>
+    <string name="powermenu_airplane_title">Режим полета</string>
+    <string name="powermenu_advanced_reboot_title">Расширенная перезагрузка</string>
+    <string name="powermenu_advanced_reboot_summary">Включает расширенное меню перезагрузки включая опции быстрой перезагрузки, перезагрузки в рекавери и в bootloader. Также добавляет опцию ребута SystemUI</string>
+    <string name="powermenu_screenshot_title">Скриншот</string>
+    <string name="powermenu_category_visibility">Меню питания на экране блокировки</string>
+    <string name="powermenu_lockscreen_title">Видимость на экране блокировки</string>
+    <string name="powermenu_lockscreen_summary">Включает возможность использования меню питания на экране блокировки</string>
+    <string name="powermenu_ls_reboot_summary">Показать пункт перезагрузки в меню питания</string>
+    <string name="powermenu_ls_advanced_reboot_summary">Показать пункт расширенной перезагрузки в меню питания</string>
+    <string name="powermenu_ls_screenshot_summary">Показать пункт расширенной перезагрузки в меню питания</string>
+    <string name="powermenu_ls_airplane_summary">Показать пункт скриншота в меню питания</string>
 
     <!-- Hide Lockscreen clock, date, & alarm -->
-    <string name="lockscreen_items_other">Other</string>
+    <string name="lockscreen_items_other">Прочее</string>
 
 	<!-- Statusbar Clock -->
     <string name="clock_style_category_title">Настройки часов</string>
@@ -304,7 +302,7 @@
     <string name="lock_clock_font_black_italic">Черный курсив</string>
     <string name="lock_clock_font_dancingscript">Рукописный</string>
     <string name="lock_clock_font_dancingscript_bold">Рукописный жирный</string>
-    <string name="lock_clock_font_comingsoon">Ожидается</string>
+    <string name="lock_clock_font_comingsoon">ComingSoon</string>
     <string name="lock_clock_font_notoserif">NotoSerif обычный</string>
     <string name="lock_clock_font_notoserif_italic">NotoSerif курсив</string>
     <string name="lock_clock_font_notoserif_bold">NotoSerif Жирный</string>
@@ -327,109 +325,109 @@
     <string name="three_finger_gesture_summary">Проведите тремя пальцами для создания скриншота</string>
 	
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string> 
+    <string name="show_fourg_icon_title">Иконка 4G</string>
+    <string name="show_fourg_icon_summary">Показывать иконку 4G вместо LTE</string> 
 	
 	<!-- Network traffic -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_up">Uplink</string>
-    <string name="show_network_traffic_down">Downlink</string>
-    <string name="show_network_traffic_all">Uplink and Downlink</string>
-    <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <string name="traffic_title">Индикатор трафика</string>
+    <string name="network_traffic_title">Трафик сети</string>
+    <string name="network_traffic_type">Выбрать для отображения</string>
+    <string name="show_network_traffic_up">Отдача</string>
+    <string name="show_network_traffic_down">Загрузка</string>
+    <string name="show_network_traffic_all">Отдача и загрузка</string>
+    <string name="network_traffic_state_title">Показывать активность сети в статусбаре</string>
+    <string name="network_traffic_autohide_threshold_title">Порог автоскрытия индикатора сети (KB/s)</string>
+    <string name="network_traffic_hidearrow">Спрятать стрелки</string>
+    <string name="network_traffic_hidearrow_summary">Спрятать стрелки в индикаторе сети</string>
 	
 	<!-- Screenshot -->
-    <string name="screenshot_type_title">Screenshot type</string>
-    <string name="screenshot_type_fullscreen">Take fullscreen screenshots</string>
-    <string name="screenshot_type_partial">Drag selection on the area you want to take as a screenshot</string>
-    <string name="screenshot_options_category">Screenshot options</string>
-    <string name="screenshot_options_summary">Customize screenshot attributes like time, delay,type etc</string>
+    <string name="screenshot_type_title">Тип скриншота</string>
+    <string name="screenshot_type_fullscreen">Делать скриншот всего экрана</string>
+    <string name="screenshot_type_partial">Скриншот области</string>
+    <string name="screenshot_options_category">Опции скриншота</string>
+    <string name="screenshot_options_summary">Настройка типа и задержки скриншота</string>
 
 	<!-- Battery percentage -->
-    <string name="battery_style_category_title">Battery Styles</string>
-    <string name="battery_style_category_summary">Customize Battery Icon</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="battery_style_category_title">Стиль индикатора батареи</string>
+    <string name="battery_style_category_summary">Настройка значка батареи</string>
+    <string name="status_bar_battery_percentage_title">Процент заряда</string>
+    <string name="status_bar_battery_percentage_default">Спрятать</string>
+    <string name="status_bar_battery_percentage_text_next">За иконкой</string>
+    <string name="status_bar_battery_percentage_text_inside">Внутри иконки</string>
 
 	<!-- Status bar battery style-->
-    <string name="status_bar_battery_style_title">Battery style</string>
-    <string name="status_bar_battery_style_port">Portrait</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-	<string name="battery_style_dotted_circle">Dotted circle</string>
-	<string name="status_bar_battery_style_text">Text</string>
-	<string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_style_title">Стиль батареи</string>
+    <string name="status_bar_battery_style_port">Вертикальный значок</string>
+    <string name="status_bar_battery_style_circle">Круг</string>
+	<string name="battery_style_dotted_circle">Круг из точек</string>
+	<string name="status_bar_battery_style_text">Текст</string>
+	<string name="status_bar_battery_style_hidden">Без иконки</string>
 
 	<!-- Battery light -->
-    <string name="battery_light_settings">Battery charging light</string>
-    <string name="battery_light_enable">Enable</string>
-    <string name="battery_light_allow_on_dnd_title">Battery light in Do Not Disturb mode</string>
-    <string name="battery_light_low_blinking_title">Blinking light on low battery</string>
-    <string name="battery_light_cat">Battery light color when charging</string>
-    <string name="battery_light_low_color">Low battery</string>
-    <string name="battery_light_medium_color">Medium battery</string>
-    <string name="battery_light_full_color">Almost full battery</string>
-    <string name="battery_light_reallyfull_color">Full (100) battery</string>
+    <string name="battery_light_settings">Световая индикация зарядки</string>
+    <string name="battery_light_enable">Включить </string>
+    <string name="battery_light_allow_on_dnd_title">Световая индикация в режиме не беспокоить</string>
+    <string name="battery_light_low_blinking_title">Мигать при низком заряде батареи</string>
+    <string name="battery_light_cat">Индикация при зарядке устройства</string>
+    <string name="battery_light_low_color">Низкий заряд</string>
+    <string name="battery_light_medium_color">Средний заряд</string>
+    <string name="battery_light_full_color">Почти полный заряд </string>
+    <string name="battery_light_reallyfull_color">Полный (100) заряд</string>
 	
 	<!-- ANBI -->
-    <string name="anbi_title">Accidental touch</string>
-    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+    <string name="anbi_title">Случайные касания</string>
+    <string name="anbi_summary">Предотвратить случайные касания навигационных кнопок когда вы касаетесь экрана</string>
 	
 	<!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Opacity</string>
+    <string name="qs_panel_alpha_title">Прозрачность</string>
 	
 	<!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_title">Brightness slider</string>
-    <string name="qs_show_brightness_summary">Show a brightness slider in the quick settings panel</string>
-    <string name="qs_brightness_position_bottom_title">Brightness slider on bottom</string>
-    <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
+    <string name="qs_show_brightness_title">Слайдер яркости</string>
+    <string name="qs_show_brightness_summary">Включить слайдер яркости в быстрых настройках</string>
+    <string name="qs_brightness_position_bottom_title">Слайдер яркости внизу</string>
+    <string name="qs_brightness_position_bottom_summary">Отображать слайдер яркости внизу быстрых настроек</string>
 	
 	<!-- Media art -->
-    <string name="media_art_title">Media cover art</string>
-    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+    <string name="media_art_title">Медиа обложка</string>
+    <string name="media_art_summary">Включить медиа обложку на экране блокировки</string>
 
     <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_enable">Enable lockscreen visualizer</string>
-    <string name="lockscreen_visualizer_enable_summary">Show visualizer on lockscreen when music is playing</string>
+    <string name="lockscreen_visualizer_enable">Визуализация музыки на экране блокировки</string>
+    <string name="lockscreen_visualizer_enable_summary">Визуализация при проигрывание музыки</string>
 	
     <!-- Lock Date Fonts -->
-    <string name="lock_date_font_title">Date font options</string>
-    <string name="lock_date_font_summary">Change the default font of the lockscreen date widget</string>
-    <string name="lock_date_font_dialog_title">Select lock date font</string>
+    <string name="lock_date_font_title">Шрифт даты</string>
+    <string name="lock_date_font_summary">Изменить стандартный шрифт даты на экране блокировки</string>
+    <string name="lock_date_font_dialog_title">Выбрать шрифт даты</string>
 	
 	<!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_title">VoLTE icon</string>
-    <string name="volte_icon_summary">Display VoLTE icon</string>
+    <string name="volte_icon_title">Иконка VoLTE</string>
+    <string name="volte_icon_summary">Отображать иконку VoLTE</string>
 
     <!-- Blink flashlight for incoming calls -->
-    <string name="flashlight_on_call_title">Blink Flashlight on call</string>
-    <string name="flashlight_on_call_disabled">Disabled</string> 
-    <string name="flashlight_on_call_not_dnd">Blink flashlight only in ringer mode</string>
-    <string name="flashlight_on_call_dnd">Blink flashlight only in DND mode</string>
-    <string name="flashlight_on_call_always">Always blink flashlight</string>
+    <string name="flashlight_on_call_title">Мигать вспышкой при входящем звонке</string>
+    <string name="flashlight_on_call_disabled">Выключено</string> 
+    <string name="flashlight_on_call_not_dnd">Только в обычном режиме</string>
+    <string name="flashlight_on_call_dnd">Только в режиме Не беспокоить</string>
+    <string name="flashlight_on_call_always">Всегда</string>
 
     <!-- Volume Button Music Control -->
-    <string name="volume_rocker_music_controls_title">Music control</string>
-    <string name="volume_rocker_music_controls_summary">Long press volume buttons to switch tracks while screen off</string>
+    <string name="volume_rocker_music_controls_title">Управление музыкой</string>
+    <string name="volume_rocker_music_controls_summary">Долгое удержание кнопок громкости для переключение треков при выключенном экране</string>
 
     <!-- Brightness control -->
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_toggle_brightness">Управление яркостью</string>
+    <string name="status_bar_toggle_brightness_summary">Свайп по статусбару для управлению яркостью</string>
 
-    <string name="gestures_category">Gestures</string>
+    <string name="gestures_category">Жесты</string>
 
     <!-- Toast app icon -->
-    <string name="toast_icon_title">Toast app icon</string>
-    <string name="toast_icon_summary">Display the app\'s icon corresponding with the toast</string>
+    <string name="toast_icon_title">Иконка приложения в тост уведомление</string>
+    <string name="toast_icon_summary">Отображать иконку приложения, которое вызвало тост</string>
 	
 	<!-- AOSP Recents component Style -->
-    <string name="recents_component_type_title">Recents Style</string>
-	<string name="aosp_recents_category">AOSP recents</string>
+    <string name="recents_component_type_title">Стиль недавних</string>
+	<string name="aosp_recents_category">Недавние AOSP</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
 	
@@ -440,25 +438,47 @@
     <string name="weather_unit_imperial">Градусы Фаренгейта</string>
 	
 	<!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Show data disabled icon</string>
-    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
+    <string name="data_disabled_icon_title">Отображать иконку отключеного мобильного интернета</string>
+    <string name="data_disabled_icon_summary">Отображать крестик при выключенном моб мнете</string>
 
     <!-- App Ops -->
-    <string name="app_ops_settings_title">Privacy Guard</string>
-    <string name="app_ops_summary">Control apps operations</string>
-	
+    <string name="app_ops_settings_title">Защита приватности</string>
+    <string name="app_ops_summary">Настройка разрешений приложений</string>
+    
     <!-- QS header styles -->
-    <string name="qs_header_style_title">QS Header style</string>
-    <string name="qs_header_black">Black</string>
-    <string name="qs_header_grey">Grey</string>
-    <string name="qs_header_lightgrey">Light Grey</string>
-    <string name="qs_header_accent">Accent Based</string>
-    <string name="qs_header_transparent">Transparent</string>
+    <string name="qs_header_style_title">Стиль заголовка QS</string>
+    <string name="qs_header_black">Чёрный</string>
+    <string name="qs_header_grey">Серый</string>
+    <string name="qs_header_lightgrey">Светло серый</string>
+    <string name="qs_header_accent">Использовать цвет акцента</string>
+    <string name="qs_header_transparent">Прозрачный</string>
+    
+     <!-- Volume Wake -->
+    <string name="volume_rocker_wake_title">Пробуждение качелькой громкости</string>
+    <string name="volume_rocker_wake_summary">При нажатие кнопок громкости экран будет включён</string>
 
-    <!-- Torch Power button gestures -->
-    <string name="torch_power_button_gesture_title">Фонарик по кнопке питания</string>
-    <string name="torch_power_button_gesture_none">Выключено</string>
-    <string name="torch_power_button_gesture_dt">Двойное нажатие при выключенном экране(добавляет задержку одного нажатия)</string>
-    <string name="torch_power_button_gesture_lp">Удержание при выключенном экране</string>
+    <!-- Navigation gestures -->
+    <string name="gesture_settings_title">Жесты навигации OP</string>
+    <string name="gesture_settings_summary">Использовать жест свайпа от низа экрана</string>
+    <string name="use_bottom_gesture_title">Жест свайпом вверх</string>
+    <string name="gesture_settings_info">Панель навигации должна быть отключена!\n\nДоступные жесты:\n\nНазад\n- Свайп справа или слева\n\nДомой\n- Свайп по центра\n\nМеню недавних\n- Свайп до центра и небольшое удержание\n\nПоследнее приложение\n- Короткий свайп вверх и удержание в центре</string>
+
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">Стиль плиток быстрых настроек</string>
+    <string name="qstile_default">По умолчанию</string>
+    <string name="qstile_circle_trim">Круг с обводкой</string>
+    <string name="qstile_dual_tone_circle">Dual-toned Круг с обводкой</string>
+    <string name="qstile_squircle_trim">Квадрат с обводкой</string>
+    <string name="qstile_circle_gradient">Круг с градиентом</string>
+    <string name="qstile_wavey">Волнистый</string>
+    <string name="qstile_circle_dualtone">Dual tone круг без обводки</string>
+    <string name="qstile_pokesign">Покебол</string>
+    <string name="qstile_ninja">Ниндзя(Сюрикен)</string>
+    <string name="qstile_dottedcircle">Круг с точками</string>
+    <string name="qstile_attemptmountain">Горы</string>
+    <string name="qstile_squaremedo">The Squaremedo</string>
+    <string name="qstile_oreo">Oreo стиль</string>
+    <string name="qstile_oreo_circle_trim">Oreo (Круглая обводка)</string>
+    <string name="qstile_oreo_squircle_trim">Oreo (Квадратная обводка)</string>
 
 </resources>
