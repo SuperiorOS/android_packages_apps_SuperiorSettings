@@ -16,6 +16,12 @@
 
 package com.superior.settings.fragments;
 
+import android.app.Activity;		
+import android.app.AlertDialog;		
+import android.app.Dialog;		
+import android.app.DialogFragment;
+import android.content.DialogInterface;
+import android.os.SystemProperties;
 import android.content.Context;
 import android.content.ContentResolver;
 import android.content.res.Resources;
@@ -38,7 +44,11 @@ import com.android.internal.logging.nano.MetricsProto;
 
 import com.superior.settings.R;
 
+import java.util.Arrays;
+import java.util.HashSet;
+
 import com.superior.settings.preferences.CustomSeekBarPreference;
+import com.superior.settings.preferences.Utils;
 
 public class QuickSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -48,7 +58,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final String QS_TILE_STYLE = "qs_tile_style";
 
     private CustomSeekBarPreference mQsPanelAlpha;
-	private ListPreference mQsHeaderStyle;
+    private ListPreference mQsHeaderStyle;
+    private ListPreference mQsTileStyle;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -82,21 +93,6 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
     }
 
-    @Override
-    public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SUPERIOR;
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
-    }
-
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
 
@@ -114,11 +110,27 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             mQsHeaderStyle.setSummary(mQsHeaderStyle.getEntries()[newIndex]);
             return true;
         } else if (preference == mQsTileStyle) {
-            int qsTileStyleValue = Integer.valueOf((String) objValue);
+            int qsTileStyleValue = Integer.valueOf((String) newValue);
             Settings.System.putIntForUser(resolver, Settings.System.QS_TILE_STYLE,
                     qsTileStyleValue, UserHandle.USER_CURRENT);
             mQsTileStyle.setSummary(mQsTileStyle.getEntries()[qsTileStyleValue]);
         }
         return true;
     }
+
+    @Override
+    public int getMetricsCategory() {
+        return MetricsProto.MetricsEvent.SUPERIOR;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+    }
+
 }
