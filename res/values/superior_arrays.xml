@@ -354,13 +354,9 @@
         <item>@string/qstile_dottedcircle</item>
         <item>@string/qstile_circle_dualtone</item>
         <item>@string/qstile_dual_tone_circle</item>
-        <item>@string/qstile_ink</item>
         <item>@string/qstile_inkdrop</item>
         <item>@string/qstile_mountain</item>
         <item>@string/qstile_ninja</item>
-        <item>@string/qstile_oreo</item>
-        <item>@string/qstile_oreo_circle_trim</item>
-        <item>@string/qstile_oreo_squircle_trim</item>
         <item>@string/qstile_pokesign</item>
         <item>@string/qstile_squaremedo</item>
         <item>@string/qstile_squircle</item>
@@ -384,10 +380,6 @@
         <item>12</item>
         <item>13</item>
         <item>14</item>
-        <item>15</item>
-        <item>16</item>
-        <item>17</item>
-        <item>18</item>
     </string-array>
 
 </resources>

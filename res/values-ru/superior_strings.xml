@@ -473,13 +473,9 @@
     <string name="qstile_dottedcircle">Круг с точками</string>
     <string name="qstile_circle_dualtone">Dual tone круг без обводки</string>
     <string name="qstile_dual_tone_circle">Dual-toned Круг с обводкой</string>
-    <string name="qstile_ink">Ink</string>
     <string name="qstile_inkdrop">Inkdrop</string>
     <string name="qstile_mountain">Горы</string>
     <string name="qstile_ninja">Ниндзя(Сюрикен)</string>
-    <string name="qstile_oreo">Oreo стиль</string>
-    <string name="qstile_oreo_circle_trim">Oreo (Круглая обводка)</string>
-    <string name="qstile_oreo_squircle_trim">Oreo (Квадратная обводка)</string>
     <string name="qstile_pokesign">Покебол</string>
     <string name="qstile_squaremedo">Squaremedo</string>
     <string name="qstile_squircle">Squircle</string>
