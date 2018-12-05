@@ -17,7 +17,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="superior_settings_title">Настройки Superior</string>
-    <string name="superior_dashboard_summary">Дополнительные настройки</string>
+    <string name="superior_dashboard_summary">Destructor  Core</string>
 	
 	<!-- ROM Info -->
     <string name="superior_about_info">О проекте</string>

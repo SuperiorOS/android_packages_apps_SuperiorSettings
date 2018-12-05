@@ -29,6 +29,12 @@
         android:key="gestures_category"
         android:title="@string/gestures_category">
 
+	<ListPreference
+    	    android:key="torch_power_button_gesture"
+    	    android:title="@string/torch_power_button_gesture_title"
+    	    android:entries="@array/torch_power_button_gesture_entries"
+    	    android:entryValues="@array/torch_power_button_gesture_values" />
+
 	<com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="double_tap_sleep_gesture"
         android:title="@string/double_tap_to_sleep_statusbar_title"
@@ -40,18 +46,11 @@
         android:title="@string/double_tap_to_sleep_lockscreen_title"
         android:summary="@string/double_tap_to_sleep_lockscreen_summary"
         android:defaultValue="true" />
-    </PreferenceCategory>
-
-	<ListPreference
-    	    android:key="torch_power_button_gesture"
-    	    android:title="@string/torch_power_button_gesture_title"
-    	    android:entries="@array/torch_power_button_gesture_entries"
-    	    android:entryValues="@array/torch_power_button_gesture_values" />
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="use_bottom_gesture_navigation"
         android:title="@string/gesture_settings_title"
         android:summary="@string/gesture_settings_summary"
         android:defaultValue="false" />
-
+   </PreferenceCategory>
 </PreferenceScreen>
