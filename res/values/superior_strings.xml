@@ -616,4 +616,8 @@
    <string name="flashlight_on_call_silent">Only when ringer is silent</string>
    <string name="flashlight_on_call_always">Always</string>
 
+   <!-- SuperiorOS logo -->
+   <string name="superior_logo_title">SuperiorOS logo</string>
+   <string name="superior_logo_summary">Add our logo on statusbar</string>
+
 </resources>
