@@ -351,14 +351,12 @@
         <item>@string/qstile_default</item>
         <item>@string/qstile_circle_gradient</item>
         <item>@string/qstile_circle_trim</item>
-        <item>@string/qstile_dottedcircle</item>
         <item>@string/qstile_circle_dualtone</item>
         <item>@string/qstile_dual_tone_circle</item>
         <item>@string/qstile_inkdrop</item>
         <item>@string/qstile_mountain</item>
         <item>@string/qstile_ninja</item>
         <item>@string/qstile_pokesign</item>
-        <item>@string/qstile_squaremedo</item>
         <item>@string/qstile_squircle</item>
         <item>@string/qstile_squircle_trim</item>
         <item>@string/qstile_teardrop</item>
@@ -378,8 +376,6 @@
         <item>10</item>
         <item>11</item>
         <item>12</item>
-        <item>13</item>
-        <item>14</item>
     </string-array>
 
     <!-- Pulse config -->
