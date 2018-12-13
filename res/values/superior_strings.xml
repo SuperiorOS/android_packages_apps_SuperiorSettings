@@ -557,4 +557,12 @@
    <string name="qs_brightness_position_bottom_title">Show brightness slider on bottom</string>
    <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
 
+   <!-- Quick Settings brightness icon -->
+   <string name="brightness_icon_title">Adaptive brightness button</string>
+   <string name="brightness_icon_summary">Show adaptive brightness button</string>
+
+   <!-- Quick Settings brightness side buttons -->
+   <string name="brightness_side_buttons_title">Brightness control buttons</string>
+   <string name="brightness_side_buttons_summary">Show buttons to increase or decrease the brightness</string>
+
 </resources>
