@@ -17,7 +17,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="superior_settings_title">Superior Settings</string>
-    <string name="superior_dashboard_summary">Destructor  Core</string>
+    <string name="superior_dashboard_summary">Destructor Core</string>
 	
 	<!-- ROM Info -->
     <string name="superior_about_info">About Project</string>
@@ -38,7 +38,9 @@
     <string name="dev4_description">Designer</string>
     <string name="dev_5">Saurabh Sharma</string>
     <string name="dev5_description">Web Developer</string>
-	
+    <string name="dev_6">Swapnil Soni</string>
+    <string name="dev6_description">Developer</string>
+
 	<!-- Maintainer Info -->
     <string name="device_xiaomi">Xiaomi</string>
     <string name="device_asus">Asus</string>
