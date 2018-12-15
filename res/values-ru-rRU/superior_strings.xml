@@ -16,51 +16,13 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="superior_settings_title">Хуй</string>
-    <string name="superior_dashboard_summary">Деструктор ядро</string>
     <!-- ROM Info -->
-    <string name="superior_about_info">О проэкте</string>
-    <string name="superior_about_info_summary_title">О Комманде</string>
-    <string name="superior_about_info_summary">Superior os это Кастомная Прошивка основанная на Aosp,минимальные функции,.</string>
     <!-- Dev Info -->
-    <string name="devs_header">Разработчики</string>
-    <string name="maintainers_header">Сопровождающие</string>
-    <string name="maintainers_header_summary">Официальные разработчики...</string>
-    <string name="dev_1">Sipun Ku Mahanta</string>
-    <string name="dev1_description">Хуй</string>
-    <string name="dev_2">Хуй</string>
-    <string name="dev2_description">Хуй</string>
-    <string name="dev_3">Хуй</string>
-    <string name="dev3_description">Хуй</string>
-    <string name="dev_4">Хуй</string>
-    <string name="dev4_description">Хуй</string>
-    <string name="dev_5">Хуй</string>
-    <string name="dev5_description">Хуй</string>
-    <string name="dev_6">Хуй</string>
-    <string name="dev6_description">Хуй</string>
     <!-- Maintainer Info -->
-    <string name="device_xiaomi">Xiaomi</string>
-    <string name="device_asus">Asus</string>
-    <string name="device_motorola">Motorola</string>
-    <string name="device_pantech">Pantech</string>
-    <string name="mido_maintainer">Абдулла</string>
-    <string name="mido_maintainer_description">Красава ебат</string>
-    <string name="santoni_maintainer_description">Redmi 4/4X</string>
     <!-- Categories -->
-    <string name="quicksettings_title">Быстрые настройки</string>
-    <string name="recents_title">Меню недавних</string>
-    <string name="statusbar_title">Статус Бар</string>
-    <string name="notifications_title">Уведомления</string>
     <!-- General strings -->
-    <string name="reset">Сброс</string>
-    <string name="cancel">Отмена</string>
-    <string name="save">Сохранить</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Выбор цвета</string>
-    <string name="press_color_to_apply">Нажмите на цвет ниже, чтобы применить</string>
-    <string name="color_default">По умолчанию</string>
     <!--Status Bar -->
-    <string name="statusbar_items_title">Элементы строки состояния</string>
     <!-- Lockscreen icons -->
     <!-- Navbar tuner -->
     <!-- Hide Apps from Recents -->
