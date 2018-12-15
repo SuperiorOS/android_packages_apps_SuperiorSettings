@@ -508,4 +508,8 @@
     <string name="edge_gestures_back_show_ui_feedback_title">Back gesture animation</string> 
     <string name="edge_gestures_back_show_ui_feedback_summary">Show animated feedback on edges when back gesture is used</string>
 
+    <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Less boring heads up</string>
+    <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app</string>
+
 </resources>
