@@ -85,7 +85,7 @@
     <!--Status Bar -->
     <string name="statusbar_items_title">Элементы строки состояния</string>
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Ялыки на экране блокировки</string>
+    <string name="lockscreen_tuner_title">Ярлыки на экране блокировки</string>
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">Кнопки панели навигации</string>
     <!-- Hide Apps from Recents -->
@@ -97,18 +97,18 @@
     <string name="lockscreen_battery_info_summary">Показывает вольтаж, температуру батареи и время до зарядки на экране блокировки</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Вибрация при звонке</string>
-    <string name="incall_vibrate_connect_title">Вибрация при подключение</string>
+    <string name="incall_vibrate_connect_title">Вибрация при подключении</string>
     <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
     <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
     <!-- Face Unlock -->
     <string name="face_auto_unlock_title">Автоматическая разблокировка по лицу</string>
-    <string name="face_auto_unlock_summary">Пропустить экран блокировки при анлоке лицом</string>
+    <string name="face_auto_unlock_summary">Пропустить экран блокировки при разблокировке по лицу</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fprint_sucess_vib_title">Вибрация при распознавание отпечатка</string>
-    <string name="fprint_sucess_vib_summary">Вибрировать при успешном распознавание отпечатка</string>
+    <string name="fprint_sucess_vib_title">Вибрация при распознавании отпечатка</string>
+    <string name="fprint_sucess_vib_summary">Вибрировать при успешном распознавании отпечатка</string>
     <!-- Incall Home button behavior-->
     <string name="allow_incall_home_title">Кнопка домой во время звонка</string>
-    <string name="allow_incall_home_summary">Разрешить использовать кнопку домой при входящем вызове</string>
+    <string name="allow_incall_home_summary">Принять вызов нажатием кнопки \"Домой\"</string>
     <!-- Hardware keys -->
     <string name="hardware_keys_category">Аппаратные кнопки</string>
     <!-- Buttons backlight timeout -->
@@ -124,11 +124,11 @@
     <string name="button_brightness_title">Подсветка</string>
     <string name="button_brightness_sw_title">Включить подсветку</string>
     <!-- Double Tap Lockscreen to Sleep -->
-    <string name="double_tap_to_sleep_lockscreen_title">Двойной тап по локскрину</string>
-    <string name="double_tap_to_sleep_lockscreen_summary">Двойной тап по локскрину выключает экран</string>
+    <string name="double_tap_to_sleep_lockscreen_title">Двойной тап по экрану блокировки</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Двойной тап по экрану блокировки выключает экран</string>
     <!-- Double Tap Statusbar to Sleep -->
-    <string name="double_tap_to_sleep_statusbar_title">Двойной тап по статусбару</string>
-    <string name="double_tap_to_sleep_statusbar_summary">Двойной тап по статусбару выключает экран</string>
+    <string name="double_tap_to_sleep_statusbar_title">Двойной тап по строке состояния</string>
+    <string name="double_tap_to_sleep_statusbar_summary">Двойной тап по строке состояния выключает экран</string>
     <!-- HW Keys customization -->
     <string name="picker_activities">Активити</string>
     <string name="select_custom_app_title">Выбрать пользовательское приложение</string>
@@ -210,27 +210,27 @@
     <string name="powermenu_screenshot_title">Скриншот</string>
     <string name="powermenu_category_visibility">Опции экрана блокировки</string>
     <string name="powermenu_lockscreen_title">Видимость на экране блокировки</string>
-    <string name="powermenu_lockscreen_summary">Добавляет возможность использовать меню питания на локскрине</string>
-    <string name="powermenu_ls_reboot_summary">Показывать опцию перезагрузки на локскрине</string>
-    <string name="powermenu_ls_advanced_reboot_summary">Показывать расширенную перезагрузку на локскрине</string>
-    <string name="powermenu_ls_screenshot_summary">Показать опцию скриншота на локскрине</string>
+    <string name="powermenu_lockscreen_summary">Добавляет возможность использовать меню питания на экране блокировки</string>
+    <string name="powermenu_ls_reboot_summary">Показывать опцию перезагрузки на экране блокировки</string>
+    <string name="powermenu_ls_advanced_reboot_summary">Показывать расширенную перезагрузку на экране блокировки</string>
+    <string name="powermenu_ls_screenshot_summary">Показать опцию скриншота на экране блокировки</string>
     <string name="powermenu_ls_airplane_summary">Отображать опцию режим полета на экране блокировки</string>
     <!-- Hide Lockscreen clock, date, & alarm -->
     <string name="lockscreen_items_other">Другое</string>
     <!-- Statusbar Clock -->
     <string name="clock_style_category_title">Настройки часов</string>
-    <string name="clock_style_category_summary">Настройка часов в статусбаре</string>
+    <string name="clock_style_category_summary">Настройка часов в строке состояния</string>
     <string name="status_bar_clock_title">Настройка часов</string>
     <string name="status_bar_clock_show">Показывать часы и дату</string>
     <string name="status_bar_clock_style_title">Стиль часов</string>
     <string name="status_bar_clock_style_right">Справа</string>
     <string name="status_bar_clock_style_center">По центру</string>
     <string name="status_bar_clock_style_left">Слева</string>
-    <string name="status_bar_am_pm_title">AM/Pm стиль</string>
+    <string name="status_bar_am_pm_title">AM/PM стиль</string>
     <string name="status_bar_am_pm_info">24-часовой формат включен</string>
     <string name="status_bar_am_pm_normal">Нормально</string>
     <string name="status_bar_am_pm_small">Маленькое</string>
-    <string name="status_bar_am_pm_hidden">Скрыто</string>
+    <string name="status_bar_am_pm_hidden">Скрыто (По умолчанию)</string>
     <string name="clock_seconds_display">Показывать секунды</string>
     <string name="clock_date_display">Дата</string>
     <string name="clock_date_display_summary">Показывать кастомную дату перед часами</string>
@@ -238,12 +238,12 @@
     <string name="clock_date_display_small">Маленький размер шрифта</string>
     <string name="clock_date_display_normal">Нормальный размер шрифта</string>
     <string name="clock_date_style">Стиль даты</string>
-    <string name="clock_date_style_normal">Нормально</string>
+    <string name="clock_date_style_normal">Нормальный</string>
     <string name="clock_date_style_lowercase">В нижнем регистре</string>
     <string name="clock_date_style_uppercase">Прописные буквы</string>
     <string name="clock_date_format_custom">Другой формат java</string>
     <string name="clock_date_format">Формат даты</string>
-    <string name="clock_date_string_edittext_title">Должно быть в формате MM/дд/гг</string>
+    <string name="clock_date_string_edittext_title">Должен быть в пользовательском формате, к примеру: MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Введите строку</string>
     <!-- Statusbar Clock Font Style, Size & Color -->
     <string name="status_bar_clock_font_style_title">Стиль шрифта часов</string>
@@ -253,20 +253,20 @@
     <string name="lock_clock_font_title">Опции шрифта часов</string>
     <string name="lock_clock_font_summary">Изменить шрифт часов по умолчанию на экране блокировки</string>
     <string name="lock_clock_font_dialog_title">Выбрать шрифт часов на экране блокировки</string>
-    <string name="lock_clock_font_stock">Нормальный (стандартный)</string>
+    <string name="lock_clock_font_stock">Нормальный (по умолчанию)</string>
     <string name="lock_clock_font_bold">Полужирный</string>
-    <string name="lock_clock_font_italic">Наклонный</string>
+    <string name="lock_clock_font_italic">Курсив</string>
     <string name="lock_clock_font_bold_italic">Полужирный курсив</string>
     <string name="lock_clock_font_light_italic">Тонкий курсив</string>
     <string name="lock_clock_font_thin_italic">Тонкий курсив</string>
     <string name="lock_clock_font_light">Тонкий</string>
-    <string name="lock_clock_font_thin">Тонкий</string>
+    <string name="lock_clock_font_thin">Очень тонкий</string>
     <string name="lock_clock_font_condensed_normal">Уплотненный</string>
     <string name="lock_clock_font_condensed_italic">Уплотненный курсив</string>
     <string name="lock_clock_font_condensed_bold">Уплотненный полужирный</string>
     <string name="lock_clock_font_condensed_bold_italic">Уплотненный полужирный курсив</string>
-    <string name="lock_clock_font_condensed_light">Сжатый</string>
-    <string name="lock_clock_font_condensed_light_italic">Сжатый курсив</string>
+    <string name="lock_clock_font_condensed_light">Уплотненный тонкий</string>
+    <string name="lock_clock_font_condensed_light_italic">Уплотненный тонкий курсив</string>
     <string name="lock_clock_font_medium_normal">Средний</string>
     <string name="lock_clock_font_medium_italic">Средний курсив</string>
     <string name="lock_clock_font_black">Черный</string>
@@ -283,7 +283,7 @@
     <string name="lock_clock_font_snowstorm">Snowstorm</string>
     <string name="lock_clock_font_googlesans">Google Sans</string>
     <string name="lock_clock_font_neoneon">Neoneon</string>
-    <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
+    <string name="lock_clock_font_themeable">Themeable (или VCR OSD Mono)</string>
     <string name="lock_clock_font_samsung">Shamshung</string>
     <string name="lock_clock_font_ABCThru">ABCThru</string>
     <string name="lock_clock_font_anurati">Anurati Regular</string>
@@ -311,14 +311,14 @@
     <string name="screenshot_type_title">Тип скриншота</string>
     <string name="screenshot_type_fullscreen">Сделать полноэкранный скриншот</string>
     <string name="screenshot_type_partial">Выделить область которую хотите заскринить</string>
-    <string name="screenshot_options_category">Опции снимка экрана</string>
+    <string name="screenshot_options_category">Опции скриншота</string>
     <string name="screenshot_options_summary">Настройка атрибутов скриншота как время задержки, тип и т.д.</string>
     <!-- Battery percentage -->
-    <string name="battery_style_category_title">Стили Батареи</string>
+    <string name="battery_style_category_title">Стили батареи</string>
     <string name="battery_style_category_summary">Кастомизированная иконка батареи</string>
     <string name="status_bar_battery_percentage_title">Проценты батареи</string>
     <string name="status_bar_battery_percentage_default">Скрыт</string>
-    <string name="status_bar_battery_percentage_text_next">Следующая иконка</string>
+    <string name="status_bar_battery_percentage_text_next">Рядом с иконкой</string>
     <string name="status_bar_battery_percentage_text_inside">Внутри значка</string>
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_title">Стиль батареи</string>
@@ -368,11 +368,11 @@
     <string name="volume_rocker_music_controls_summary">Длительно нажмите кнопки громкости для переключения музыки при выключенном экране</string>
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Регулировка яркости</string>
-    <string name="status_bar_toggle_brightness_summary">Регулировка яркости свайпом по статусбару</string>
+    <string name="status_bar_toggle_brightness_summary">Регулировка яркости свайпом по строке состояния</string>
     <string name="gestures_category">Жесты</string>
     <!-- Toast app icon -->
     <string name="toast_icon_title">Иконка приложения в тост уведомление</string>
-    <string name="toast_icon_summary">Отображать иконку приложения которое вызвало тост</string>
+    <string name="toast_icon_summary">Отображать иконку приложения которое вызвало тост уведомление</string>
     <!-- AOSP Recents component Style -->
     <string name="recents_component_type_title">Стиль недавних</string>
     <string name="aosp_recents_category">AOSP Недавние</string>
@@ -382,8 +382,8 @@
     <string name="weather_title">Погода</string>
     <string name="weather_unit">Единица измерения температуры</string>
     <!-- Data disabled icon -->
-    <string name="data_disabled_icon_title">Отображать значек выключенной передачи данных</string>
-    <string name="data_disabled_icon_summary">Отображать крестик в иконке сигнала когда передача данныхх выключена</string>
+    <string name="data_disabled_icon_title">Отображать значок выключенной передачи данных</string>
+    <string name="data_disabled_icon_summary">Отображать крестик в иконке сигнала когда передача данных выключена</string>
     <!-- App Ops -->
     <string name="app_ops_settings_title">Защита приватности</string>
     <string name="app_ops_summary">Операции приложений</string>
@@ -391,7 +391,7 @@
     <string name="qs_header_style_title">Стиль заголовка быстрых настроек</string>
     <string name="qs_header_black">Чёрный</string>
     <string name="qs_header_grey">Серый</string>
-    <string name="qs_header_lightgrey">Светло серый</string>
+    <string name="qs_header_lightgrey">Светло-серый</string>
     <string name="qs_header_accent">Цвет акцента</string>
     <string name="qs_header_transparent">Прозрачный</string>
     <!-- Torch Power button gestures -->
@@ -406,11 +406,11 @@
     <string name="gesture_settings_title">Жесты навигации OnePlus</string>
     <string name="gesture_settings_summary">Использовать жесты с кнопкой для навигации</string>
     <string name="use_bottom_gesture_title">Жесты свайпа вверх</string>
-    <string name="gesture_settings_info">Панель навигации должна быть отключена!\n\nДоступные жесты:\n\nНазад\n-Свайп вверх с левой или правой стороны\n\nДомой\n-Свайп вверх по центру\n\nНедавние приложение\n Свайп вверх по центру и зажатие\n\nПоследнее приложение\n- Краткий свайп вверх и зажатие по центру</string>
+    <string name="gesture_settings_info">Панель навигации должна быть отключена!\n\nДоступные жесты:\n\nНазад\n- Свайп вверх с левой или правой стороны\n\nДомой\n- Свайп вверх по центру\n\nНедавние приложение\n- Свайп вверх по центру и зажатие\n\nПоследнее приложение\n- Краткий свайп вверх и зажатие по центру</string>
     <!-- QS tile styles -->
     <string name="qs_tile_style_title">Стиль плиток быстрых настроек</string>
     <string name="qstile_default">По умолчанию</string>
-    <string name="qstile_circle_gradient">Круг (градиент)</string>
+    <string name="qstile_circle_gradient">Круг (Градиент)</string>
     <string name="qstile_circle_trim">Круг (Обводка)</string>
     <string name="qstile_circle_dualtone">Двойной тонированный круг</string>
     <string name="qstile_dual_tone_circle">Двойной тонированный круг (Обводка)</string>
@@ -419,7 +419,7 @@
     <string name="qstile_ninja">Ниндзя</string>
     <string name="qstile_pokesign">Покебол</string>
     <string name="qstile_squircle">Закругленный квадрат</string>
-    <string name="qstile_squircle_trim">Закругленный квадрат (Обводка)</string>
+    <string name="qstile_squircle_trim">Закругленный квадрат (обводка)</string>
     <string name="qstile_teardrop">Слеза</string>
     <string name="qstile_wavey">Волнистый</string>
     <!-- Pocket judge -->
