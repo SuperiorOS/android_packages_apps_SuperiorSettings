@@ -116,8 +116,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:title="@string/device_asus" >
 			
         <Preference
-            android:title="@string/X00TD_maintainer"
-            android:summary="@string/X00TD_maintainer_description"
+            android:title="@string/X00T_maintainer"
+            android:summary="@string/X00T_maintainer_description"
             android:icon="@drawable/ic_devs_phone">
         <intent
             android:action="android.intent.action.VIEW"
@@ -156,15 +156,6 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 <PreferenceCategory
             android:key="maintainer"
             android:title="@string/device_xiaomi" >
-			
-        <Preference
-            android:title="@string/mido_maintainer"
-            android:summary="@string/mido_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/RinMido" />
-        </Preference>
 
         <Preference
             android:title="@string/rolex_maintainer"

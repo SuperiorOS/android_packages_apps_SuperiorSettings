@@ -46,12 +46,12 @@
     <string name="device_asus">Asus</string>
     <string name="device_motorola">Motorola</string>
     <string name="device_pantech">Pantech</string>
-    <string name="mido_maintainer">Abdulgalim</string>
+    <string name="mido_maintainer"></string>
     <string name="mido_maintainer_description">Redmi Note 4</string>
     <string name="santoni_maintainer">Prakash_S</string>
     <string name="santoni_maintainer_description">Redmi 4/4X</string>
-    <string name="X00TD_maintainer">Priyanshu Pandey</string>
-    <string name="X00TD_maintainer_description">Zenfone Max Pro M1</string>
+    <string name="X00T_maintainer">Priyanshu Pandey</string>
+    <string name="X00T_maintainer_description">Zenfone Max Pro M1</string>
     <string name="rolex_maintainer">Arpon Sarkar</string>
     <string name="rolex_maintainer_description">Redmi 4A</string>
     <string name="tissot_maintainer">Jay Chauhan</string>
