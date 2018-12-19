@@ -31,9 +31,13 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.os.Handler;
+import android.os.RemoteException;
+import android.os.UserHandle;
 
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
+import com.superior.settings.preferences.SystemSettingSeekBarPreference;
 
 import com.superior.settings.R;
 
@@ -41,7 +45,12 @@ import com.superior.settings.R;
 public class GestureSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
     private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
+    private static final String KEY_SWIPE_LENGTH = "gesture_swipe_length";
+    private static final String KEY_SWIPE_TIMEOUT = "gesture_swipe_timeout";
+
     private ListPreference mTorchPowerButton;
+    private SystemSettingSeekBarPreference mSwipeTriggerLength;
+    private SystemSettingSeekBarPreference mSwipeTriggerTimeout;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -59,6 +68,18 @@ public class GestureSettings extends SettingsPreferenceFragment implements
         mTorchPowerButton.setSummary(mTorchPowerButton.getEntry());
         mTorchPowerButton.setOnPreferenceChangeListener(this);
 
+        mSwipeTriggerLength = (SystemSettingSeekBarPreference) findPreference(KEY_SWIPE_LENGTH);
+        int triggerLength = Settings.System.getInt(resolver, Settings.System.BOTTOM_GESTURE_SWIPE_LIMIT,
+                getSwipeLengthInPixel(getResources().getInteger(com.android.internal.R.integer.nav_gesture_swipe_min_length)));
+        mSwipeTriggerLength.setValue(triggerLength);
+        mSwipeTriggerLength.setOnPreferenceChangeListener(this);
+
+        mSwipeTriggerTimeout = (SystemSettingSeekBarPreference) findPreference(KEY_SWIPE_TIMEOUT);
+        int triggerTimeout = Settings.System.getInt(resolver, Settings.System.BOTTOM_GESTURE_TRIGGER_TIMEOUT,
+                getResources().getInteger(com.android.internal.R.integer.nav_gesture_swipe_timout));
+        mSwipeTriggerTimeout.setValue(triggerTimeout);
+        mSwipeTriggerTimeout.setOnPreferenceChangeListener(this);
+
     }
 
     private ListPreference initActionList(String key, int value) {
@@ -67,6 +88,10 @@ public class GestureSettings extends SettingsPreferenceFragment implements
         list.setSummary(list.getEntry());
         list.setOnPreferenceChangeListener(this);
         return list;
+    }
+
+    private int getSwipeLengthInPixel(int value) {
+        return Math.round(value * getResources().getDisplayMetrics().density);
     }
 
     @Override
@@ -85,6 +110,7 @@ public class GestureSettings extends SettingsPreferenceFragment implements
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+         ContentResolver resolver = getActivity().getContentResolver();
 	    if (preference == mTorchPowerButton) {
             int mTorchPowerButtonValue = Integer.valueOf((String) newValue);
             int index = mTorchPowerButton.findIndexOfValue((String) newValue);
@@ -96,6 +122,16 @@ public class GestureSettings extends SettingsPreferenceFragment implements
                 //if doubletap for torch is enabled, switch off double tap for camera
                 Settings.Secure.putInt(getActivity().getContentResolver(), Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED,1);
 	    }
+         } else if (preference == mSwipeTriggerLength) {
+            int value = (Integer) newValue;
+            Settings.System.putInt(resolver,
+                    Settings.System.BOTTOM_GESTURE_SWIPE_LIMIT, value);
+            return true;
+         } else if (preference == mSwipeTriggerTimeout) {
+            int value = (Integer) newValue;
+            Settings.System.putInt(resolver,
+                    Settings.System.BOTTOM_GESTURE_TRIGGER_TIMEOUT, value);
+            return true;
            }
         return false;
     }
