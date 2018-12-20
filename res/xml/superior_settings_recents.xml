@@ -39,4 +39,22 @@
         android:defaultValue="0"
         android:entryValues="@array/recents_component_type_title_values"/>
       </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="slim_recents_category"
+        android:title="@string/slim_recents_title">
+
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+            android:key="use_slim_recents"
+            android:title="@string/slim_recents_title"
+            android:summary="@string/slim_recents_summary"
+            android:defaultValue="false" />
+
+        <PreferenceScreen
+            android:key="slim_recents_fragment"
+            android:fragment="com.superior.settings.fragments.SlimRecents"
+            android:title="@string/slim_recents_fragment_title"
+            android:summary="@string/slim_recents_fragment_summary"
+            android:dependency="use_slim_recents" />
+
 </PreferenceScreen>
