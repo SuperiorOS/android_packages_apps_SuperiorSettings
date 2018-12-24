@@ -43,11 +43,24 @@
         android:summary="@string/toast_icon_summary"
         android:defaultValue="true" />
 
-    <com.superior.settings.preferences.SystemSettingSwitchPreference
+	<com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="volume_button_music_control"
+        android:summary="@string/volume_rocker_music_controls_summary"
+        android:title="@string/volume_rocker_music_controls_title"
+        android:defaultValue="true" />
+
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+            android:key="pocket_judge"
+            android:title="@string/pocket_judge_title"
+            android:summary="@string/pocket_judge_summary"
+            android:defaultValue="false" />
+
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="audio_panel_view_position"
         android:title="@string/volume_panel_on_left_title"
         android:summary="@string/volume_panel_on_left_summary"
         android:defaultValue="false" />
+
 
     <PreferenceCategory
         android:title="@string/audio_panel_view">
@@ -83,17 +96,5 @@
             android:title="@string/audio_panel_view_bt_sco_title"
             android:defaultValue="false"/>
     </PreferenceCategory>
-
-	<com.superior.settings.preferences.SystemSettingSwitchPreference
-        android:key="volume_button_music_control"
-        android:summary="@string/volume_rocker_music_controls_summary"
-        android:title="@string/volume_rocker_music_controls_title"
-        android:defaultValue="true" />
-
-        <com.superior.settings.preferences.SystemSettingSwitchPreference
-            android:key="pocket_judge"
-            android:title="@string/pocket_judge_title"
-            android:summary="@string/pocket_judge_summary"
-            android:defaultValue="false" />
 
 </PreferenceScreen>
