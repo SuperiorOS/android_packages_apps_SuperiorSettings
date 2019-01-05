@@ -63,7 +63,7 @@
         <com.superior.settings.preferences.CardviewPreference
             android:key="navigationbar_category"
             android:title="@string/navbar_title"
-            android:fragment="com.superior.settings.fragments.NavbarSettings"
+            android:fragment="com.android.settings.smartnav.NavigationBarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
 			
         <!-- Gestures -->
