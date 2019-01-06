@@ -91,6 +91,12 @@
         android:title="@string/misc_category" >
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_qs_disabled"
+        android:title="@string/lockscreen_qs_disabled_title"
+        android:summary="@string/lockscreen_qs_disabled_summary"
+        android:defaultValue="false" />
+			
+    <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="qs_running_services_toggle"
         android:title="@string/qs_running_services_title"
         android:summary="@string/qs_running_services_summary"
