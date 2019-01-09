@@ -181,7 +181,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:icon="@drawable/ic_devs_phone">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="http://t.me/Prakash_S" />
+            android:data="http://t.me/prakaship78" />
         </Preference>
 
 </PreferenceCategory>

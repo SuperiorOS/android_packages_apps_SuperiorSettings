@@ -31,7 +31,7 @@
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">Разработчик, сопровождающий Land</string>
     <string name="dev_3">Pavan Patel</string>
-    <string name="dev3_description">Разработчик, сопровождающий Land</string>
+    <string name="dev3_description">Дизайнер</string>
     <string name="dev_4">Titus Joseph</string>
     <string name="dev4_description">Дизайнер</string>
     <string name="dev_5">Saurabh Sharma</string>
@@ -379,7 +379,6 @@
     <string name="aosp_recents_category">AOSP Недавние</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
-    <string name="recents_slim">Slim</string>
     <!-- Weather -->
     <string name="weather_title">Погода</string>
     <string name="weather_unit">Единица измерения температуры</string>

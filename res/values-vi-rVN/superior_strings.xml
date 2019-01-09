@@ -30,7 +30,7 @@
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">Đội ngũ cốt lõi/nhà phát triển, duy trì thiết bị Land</string>
     <string name="dev_3">Pavan Patel</string>
-    <string name="dev3_description">Đội ngũ cốt lõi/nhà thiết kế, duy trì thiết bị Land</string>
+    <string name="dev3_description">Đội ngũ cốt lõi/nhà thiết kế</string>
     <string name="dev_4">Titus Joseph</string>
     <string name="dev4_description">Nhà thiết kế</string>
     <string name="dev_5">Saurabh Sharma</string>
@@ -487,7 +487,69 @@
     <string name="battery_bar_blend_color_reverse_summary_off">Full &#8594; empty: red &#8592; green &#8592; blue &#8592; red</string>
     <string name="battery_bar_blend_color_reverse_summary_on">Full &#8594; empty: red &#8594; green &#8594; blue &#8594; red</string>
 
-    <!-- Navbar Animation -->
-    <string name="pixel_navbar_anim_title">Pixel navbar animation</string>
-    <string name="pixel_navbar_anim_summary">Requires a config change(display size, navbar position, reboot) themes may overwrite</string>
+    <!-- Slim recents -->
+    <string name="slim_recents_title">Slim Recents</string>
+    <string name="slim_recents_summary">Enable to use an alternative recents screen</string>
+    <string name="slim_recents_fragment_title">Slim recents settings</string>
+    <string name="slim_recents_fragment_summary">Customize the additional settings for slim recents</string>
+    <string name="recents_max_apps_title">Max allowed apps</string>
+    <string name="recent_panel_scale_title">Size</string>
+    <string name="recent_panel_expanded_mode_title">Expanded mode</string>
+    <string name="recent_panel_expanded_mode_summary">Recent tasks expanded preview mode</string>
+    <string name="recent_panel_expanded_mode_auto">Auto (default)</string>
+    <string name="recent_panel_expanded_mode_always">Always</string>
+    <string name="recent_panel_expanded_mode_never">Never</string>
+    <string name="recent_panel_expanded_mode_disabled">Disabled</string>
+    <string name="recent_panel_bg_color_title">Panel background color</string>
+    <string name="recent_card_bg_color_title">Card background color</string>
+    <string name="slim_recents_mem_display_long_click_clear_title">Memory bar longpress</string>
+    <string name="slim_recents_mem_display_long_click_clear_summary">Clear recents by long-pressing the memory bar</string>
+    <string name="slim_icon_pack_title">Icon Pack</string>
+    <string name="slim_icon_pack_summary">Apply a custom icon pack for apps in the panel</string>
+    <string name="no_iconpacks_summary">No icon packs installed</string>
+    <string name="dialog_pick_iconpack_title">Pick icon pack</string>
+    <string name="default_iconpack_title">Default icons</string>
+    <string name="slim_recents_corner_radius_title">Card corner radius</string>
+    <string name="slim_recents_aicp_empty_drawable_title">AICP empty recents</string>
+    <string name="slim_recents_aicp_empty_drawable_summary">Image to show when no recent apps</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Show on the left edge</string>
+    <string name="recent_panel_lefty_mode_summary">Show recent apps panel on the left edge</string>
+    <string name="slim_blacklist_apps_cat_title">Blacklist</string>
+    <string name="slim_blacklist_apps_title">Apps blacklist</string>
+    <string name="slim_blacklist_apps_summary">Apps to not show in the panel</string>
+    <string name="slim_blacklist_add_apps_title">Add app</string>
+    <string name="slim_blacklist_add_apps_summary">Tap here to add, tap on added app to remove it</string>
+
+    <!-- Slim Recent App Sidebar  -->
+    <string name="recent_app_sidebar_title">Recents app sidebar</string>
+    <string name="recent_app_sidebar_summary">Show app shortcuts on the other edge</string>
+    <string name="use_recent_app_sidebar_title">Enable app sidebar</string>
+    <string name="use_recent_app_sidebar_summary">Show app shortcuts on the other edge</string>
+    <string name="recent_app_sidebar_picker_title">Sidebar shortcuts</string>
+    <string name="recent_app_sidebar_picker_summary">Choose apps to show in the sidebar</string>
+    <string name="recent_app_sidebar_content_title">Sidebar content</string>
+    <string name="recent_app_sidebar_content_summary">Configure the content of the app sidebar</string>
+    <string name="recent_app_sidebar_style_title">Sidebar style</string>
+    <string name="recent_app_sidebar_style_summary">Change the look of the sidebar</string>
+    <string name="recent_app_sidebar_hide_labels_title">Hide icon labels</string>
+    <string name="recent_app_sidebar_label_color_title">Label color</string>
+    <string name="recent_app_sidebar_bg_color_title">Background color</string>
+    <string name="recent_app_sidebar_scale_title">Size</string>
+    <string name="recent_app_sidebar_open_simultaneously_title">Open simultaneously with recents</string>
+    <string name="recent_app_sidebar_open_simultaneously_summary">Reduce recents opening lag by disabling this</string>
+    <string name="default_auto_string">Default (App based)</string>
+
+    <!-- Slim recents membar -->
+    <string name="slim_recents_mem_display_category_title">Memory bar</string>
+    <string name="slim_recents_mem_display_title">Show memory bar</string>
+    <string name="slim_recents_mem_display_summaryOn">Memory bar enabled</string>
+    <string name="slim_recents_mem_display_summaryOff">Memory bar disabled</string>
+    <string name="slim_recents_mem_display_color">Memory bar color</string>
+    <string name="slim_recents_mem_display_text_color">Memory bar text color</string>
+    <string name="how_to_slim">Swipe up on home gesture must be disabled to use slim recents! \nIn case of double recents type issue perform a SystemUI reboot by selecting desired option\nLauncher crashing after reboot? Check if swipe up is disabled and reboot!</string>
+
+    <!-- Recents icon pack -->
+    <string name="recents_icon_pack_title">Icon Pack</string>
+    <string name="recents_icon_pack_summary">Apply a custom icon pack for Recents panel</string>
 </resources>
