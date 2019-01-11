@@ -46,6 +46,7 @@
     <string name="device_asus">Asus</string>
     <string name="device_motorola">Motorola</string>
     <string name="device_pantech">Pantech</string>
+    <string name="device_lenovo">Lenovo</string>
     <string name="mido_maintainer"></string>
     <string name="mido_maintainer_description">Redmi Note 4</string>
     <string name="santoni_maintainer">Prakash_S</string>
@@ -60,6 +61,8 @@
     <string name="ef63_maintainer_description">Vega Iron 2</string>
     <string name="sanders_maintainer">Yash Sonawane</string>
     <string name="sanders_maintainer_description">Moto G5S Plus</string>
+    <string name="kuntao_maintainer">Saikiran</string>
+    <string name="kuntao_maintainer_description">P2</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
