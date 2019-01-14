@@ -73,4 +73,15 @@
             android:summary="@string/status_bar_toggle_brightness_summary"
             android:defaultValue="false" />
 
+    <PreferenceCategory
+        android:key="cutout_settings"
+        android:title="@string/cutout_main" >
+
+    <Preference
+        android:key="cutout_settings"
+        android:title="@string/cutout_main"
+        android:summary="@string/cutout_main_summary"
+        android:fragment="com.superior.settings.fragments.CutoutFragment" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
