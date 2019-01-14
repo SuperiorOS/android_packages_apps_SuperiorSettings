@@ -26,6 +26,14 @@
         android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
     </Preference>
 
+    <com.superior.settings.preferences.SystemSettingListPreference
+        android:key="lockscreen_clock_selection"
+        android:title="@string/lockscreen_clock_selection_title"
+        android:entries="@array/lockscreen_clock_selection_entries"
+        android:entryValues="@array/lockscreen_clock_selection_values"
+        android:dependency="lockscreen_clock"
+        android:defaultValue="0" />
+
     <ListPreference
         android:key="lock_clock_fonts"
         android:title="@string/lock_clock_font_title"
