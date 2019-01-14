@@ -943,5 +943,7 @@
     <string name="qs_footer_services_summary">Display Running Services icon in quick settings footer</string>
     <string name="qs_footer_settings_title">Settings icon</string>
     <string name="qs_footer_settings_summary">Display Settings icon in quick settings footer</string>
+    <string name="qs_edit_title">Edit icon</string>
+    <string name="qs_edit_summary">Display the tile edit icon in quick settings footer</string>
 
 </resources>
