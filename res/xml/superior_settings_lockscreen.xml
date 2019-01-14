@@ -50,6 +50,23 @@
         android:summary="@string/lockscreen_battery_info_summary"
         android:defaultValue="true" />
 
+    <PreferenceCategory
+        android:title="@string/lockscreen_hide_items_category"
+        android:key="lockscreen_hide_cat">
+
+	<com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_clock"
+        android:title="@string/lockscreen_clock_title"
+        android:summary="@string/lockscreen_clock_summary"
+        android:defaultValue="true" />
+
+	<com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_info"
+        android:title="@string/lockscreen_info_title"
+        android:summary="@string/lockscreen_info_summary"
+        android:defaultValue="true" />
+    </PreferenceCategory>
+	
 	<PreferenceCategory
         android:key="fp_category"
         android:title="@string/fp_lockscreen">
