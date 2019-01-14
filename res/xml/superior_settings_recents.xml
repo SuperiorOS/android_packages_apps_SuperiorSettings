@@ -46,16 +46,21 @@
       </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="slim_recents_category"
-        android:title="@string/slim_recents_title">
+        android:key="alternative_recents_category"
+        android:title="@string/alternative_recents_category">
 
-        <com.superior.settings.preferences.SystemSettingSwitchPreference
+        <com.android.settingslib.widget.FooterPreference
+            android:key="swipe_up_enabled_warning"
+            android:selectable="false"
+            android:title="@string/alternative_recents_swipe_up_enabled_warning_summary" />
+
+        <SwitchPreference
             android:key="use_slim_recents"
             android:title="@string/slim_recents_title"
             android:summary="@string/slim_recents_summary"
             android:defaultValue="false" />
 
-        <PreferenceScreen
+        <Preference
             android:key="slim_recents_fragment"
             android:fragment="com.superior.settings.fragments.SlimRecents"
             android:title="@string/slim_recents_fragment_title"

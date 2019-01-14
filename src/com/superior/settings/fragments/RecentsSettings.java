@@ -33,6 +33,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.app.AlertDialog;
 import android.app.Dialog;
+import android.os.Handler;
+import android.os.UserHandle;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
@@ -60,6 +62,7 @@ import java.util.HashSet;
 import java.util.Map;
 import java.util.List;
 
+import com.android.settingslib.widget.FooterPreference;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.superior.SuperiorUtils;
@@ -81,7 +84,11 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
     };
 
     private ListPreference mRecentsComponentType;
+    private SwitchPreference mSlimToggle;
+    private Preference mSlimSettings;
     private static final String RECENTS_COMPONENT_TYPE = "recents_component";
+    private static final String PREF_SLIM_RECENTS_SETTINGS = "slim_recents_settings";
+    private static final String PREF_SLIM_RECENTS = "use_slim_recents";
 
     private AlertDialog mDialog;
     private ListView mListView;
@@ -101,6 +108,21 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
         mRecentsComponentType.setSummary(mRecentsComponentType.getEntry());
         mRecentsComponentType.setOnPreferenceChangeListener(this);
 
+        // Slim Recents
+        mSlimSettings = (Preference) findPreference(PREF_SLIM_RECENTS_SETTINGS);
+        mSlimToggle = (SwitchPreference) findPreference(PREF_SLIM_RECENTS);
+        mSlimToggle.setOnPreferenceChangeListener(this);
+
+        updateRecentsPreferences();
+    }
+
+    private void updateRecentsPreferences() {
+        boolean slimEnabled = Settings.System.getIntForUser(
+                getActivity().getContentResolver(), Settings.System.USE_SLIM_RECENTS, 0,
+                UserHandle.USER_CURRENT) == 1;
+        // Either Stock or Slim Recents can be active at a time
+        mRecentsComponentType.setEnabled(!slimEnabled);
+        mSlimToggle.setChecked(slimEnabled);
     }
 
     @Override
@@ -297,6 +319,20 @@ public class RecentsSettings extends SettingsPreferenceFragment implements
             }
             SuperiorUtils.showSystemUiRestartDialog(getContext());
         return true;
+        } else if (preference == mSlimToggle) {
+            boolean value = (Boolean) newValue;
+            int type = Settings.System.getInt(
+                getActivity().getContentResolver(), Settings.System.RECENTS_COMPONENT, 0);
+            if (value && (type == 0)) { // change recents type to oreo when we are about to switch to slimrecents
+               Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.RECENTS_COMPONENT, 1);
+            SuperiorUtils.showSystemUiRestartDialog(getContext());
+            }
+            Settings.System.putIntForUser(getActivity().getContentResolver(),
+                    Settings.System.USE_SLIM_RECENTS, value ? 1 : 0,
+                    UserHandle.USER_CURRENT);
+            updateRecentsPreferences();
+            return true;
         }
         return false;
     }

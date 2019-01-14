@@ -442,6 +442,8 @@
 	<!-- AOSP Recents component Style -->
     <string name="recents_component_type_title">Recents Style</string>
 	<string name="aosp_recents_category">AOSP recents</string>
+    <string name="alternative_recents_category">Alternative recents</string>
+    <string name="alternative_recents_swipe_up_enabled_warning_summary">When using swipe up home navigation to open recents, only stock recents are supported</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
 	
