@@ -179,7 +179,16 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:action="android.intent.action.VIEW"
             android:data="http://t.me/Arpon96" />
         </Preference>
-		
+
+        <Preference
+            android:title="@string/mido_maintainer"
+            android:summary="@string/mido_maintainer_description"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://t.me/hnaamdev41" />
+        </Preference>
+
         <Preference
             android:title="@string/tissot_maintainer"
             android:summary="@string/tissot_maintainer_description"
