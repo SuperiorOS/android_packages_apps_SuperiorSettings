@@ -63,6 +63,8 @@
     <string name="sanders_maintainer_description">Moto G5S Plus</string>
     <string name="kuntao_maintainer">Saikiran</string>
     <string name="kuntao_maintainer_description">P2</string>
+    <string name="z2_plus_maintainer">Yashodhan</string>
+    <string name="z2_plus_maintainer_description">Zuk Z2 Plus</string>
 
     <!-- Categories -->
     <string name="button_title">Tombol</string>

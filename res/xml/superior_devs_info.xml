@@ -137,6 +137,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:action="android.intent.action.VIEW"
             android:data="http://t.me/Beastmaster1" />
         </Preference>
+		
+        <Preference
+            android:title="@string/z2_plus_maintainer"
+            android:summary="@string/z2_plus_maintainer_description"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://t.me/rasenkai" />
+        </Preference>
 </PreferenceCategory>
 
 <PreferenceCategory
