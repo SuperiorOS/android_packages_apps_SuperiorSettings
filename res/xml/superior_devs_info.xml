@@ -181,6 +181,15 @@ xmlns:android="http://schemas.android.com/apk/res/android"
             android:title="@string/device_xiaomi" >
 
         <Preference
+            android:title="@string/markw_maintainer"
+            android:summary="@string/markw_maintainer_description"
+            android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://t.me/DarkAngelGR" />
+        </Preference>
+
+        <Preference
             android:title="@string/rolex_maintainer"
             android:summary="@string/rolex_maintainer_description"
             android:icon="@drawable/ic_devs_phone">
