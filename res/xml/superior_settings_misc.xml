@@ -46,6 +46,12 @@
         android:title="@string/screen_state_toggles_title" 
         android:fragment="com.superior.settings.ScreenStateToggles" />
 
+    <Preference
+        android:key="vol_steps"
+        android:fragment="com.superior.settings.fragments.VolumeStepsFragment"
+        android:title="@string/volume_steps_fragment_title"
+        android:summary="@string/volume_steps_summary" />
+
 	<com.superior.settings.preferences.SystemSettingSwitchPreference 
         android:key="three_finger_gesture" 
         android:title="@string/three_finger_gesture" 
