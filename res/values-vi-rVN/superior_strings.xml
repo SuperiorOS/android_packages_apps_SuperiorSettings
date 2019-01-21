@@ -66,6 +66,7 @@
 
     <!-- Categories -->
     <string name="button_title">Nút bấm</string>
+    <string name="animation_title">Animations</string>
     <string name="gestures_title">Cử chỉ</string>
     <string name="lockscreen_title">Màn hình khóa</string>
     <string name="misc_title">Cài đặt bổ sung</string>

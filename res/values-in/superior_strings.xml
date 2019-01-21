@@ -70,6 +70,7 @@
 
     <!-- Categories -->
     <string name="button_title">Tombol</string>
+    <string name="animation_title">Animations</string>
     <string name="gestures_title">Isyarat</string>
     <string name="lockscreen_title">Layar Kunci</string>
     <string name="misc_title">Lainnya</string>

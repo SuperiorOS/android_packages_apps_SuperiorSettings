@@ -70,6 +70,7 @@
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
+    <string name="animation_title">Animations</string>
     <string name="gestures_title">Gestures</string>
     <string name="lockscreen_title">Lock Screen</string>
     <string name="misc_title">Miscellaneous</string>

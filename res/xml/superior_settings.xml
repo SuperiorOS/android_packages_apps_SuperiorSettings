@@ -59,6 +59,13 @@
             android:fragment="com.superior.settings.fragments.ButtonSettings"
             android:icon="@drawable/ic_settings_buttons"/>
 
+        <!-- Animation Settings -->
+        <com.superior.settings.preferences.CardviewPreference
+            android:key="animation_settings"
+            android:title="@string/animation_title"
+            android:fragment="com.superior.settings.fragments.AnimationSettings"
+            android:icon="@drawable/ic_settings_animations"/>
+
         <!-- Navigation Bar -->
         <com.superior.settings.preferences.CardviewPreference
             android:key="navigationbar_category"
