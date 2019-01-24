@@ -32,6 +32,11 @@
         android:fragment="com.android.settings.privacyguard.PrivacyGuardManager"/>
 		
     <Preference
+        android:key="gaming_mode"
+        android:title="@string/gaming_mode_title"
+        android:fragment="com.superior.settings.fragments.GamingMode" />
+		
+    <Preference
         android:key="aggressive_battery"
         android:title="@string/aggressive_battery_title"
         android:fragment="com.superior.settings.fragments.AggressiveBattery" />
