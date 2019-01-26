@@ -30,11 +30,11 @@
         android:persistent="false" />
 		
     <com.superior.settings.preferences.SystemSettingSwitchPreference
-            android:key="network_traffic_hidearrow"
-            android:title="@string/network_traffic_hidearrow"
-            android:summary="@string/network_traffic_hidearrow_summary"
-            android:dependency="network_traffic_state"
-            android:defaultValue="true" />
+        android:key="network_traffic_hidearrow"
+        android:title="@string/network_traffic_hidearrow"
+        android:summary="@string/network_traffic_hidearrow_summary"
+        android:dependency="network_traffic_state"
+        android:defaultValue="true" />
 
     <com.superior.settings.preferences.CustomSeekBarPreference
         android:key="network_traffic_autohide_threshold"

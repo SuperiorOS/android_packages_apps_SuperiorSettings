@@ -19,7 +19,7 @@
     android:title="@string/gestures_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <Preference
+ 	<Preference
         android:key="gesture_settings"
         android:title="@string/gesture_preference_superior"
         android:fragment="com.android.settings.gestures.GestureSettings"
@@ -57,33 +57,33 @@
         android:key="swipe_up_gestures"
         android:title="@string/use_bottom_gesture_cat"/>
 
-        <com.superior.settings.preferences.SystemSettingSwitchPreference
-            android:key="use_bottom_gesture_navigation"
-            android:title="@string/gesture_settings_title"
-            android:summary="@string/gesture_settings_summary"
-            android:defaultValue="false" />
+ 	<com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="use_bottom_gesture_navigation"
+        android:title="@string/gesture_settings_title"
+        android:summary="@string/gesture_settings_summary"
+        android:defaultValue="false" />
 
-        <com.superior.settings.preferences.SystemSettingSeekBarPreference
-            android:key="gesture_swipe_length"
-            android:title="@string/gesture_swipe_length_title"
-            android:summary="@string/gesture_swipe_length_summary"
-            android:max="250"
-            android:min="40"
-            unitsLeft=""
-            unitsRight="@string/unit_px"
-            android:dependency="use_bottom_gesture_navigation"
-            android:persistent="false" />
+ 	<com.superior.settings.preferences.SystemSettingSeekBarPreference
+        android:key="gesture_swipe_length"
+        android:title="@string/gesture_swipe_length_title"
+        android:summary="@string/gesture_swipe_length_summary"
+        android:max="250"
+        android:min="40"
+        unitsLeft=""
+        unitsRight="@string/unit_px"
+        android:dependency="use_bottom_gesture_navigation"
+        android:persistent="false" />
 
-        <com.superior.settings.preferences.SystemSettingSeekBarPreference
-            android:key="gesture_swipe_timeout"
-            android:title="@string/gesture_action_timeout_title"
-            android:summary="@string/gesture_action_timeout_summary"
-            android:max="500"
-            android:min="100"
-            unitsLeft=""
-            unitsRight="@string/unit_msec"
-            android:dependency="use_bottom_gesture_navigation"
-            android:persistent="false" />
+ 	<com.superior.settings.preferences.SystemSettingSeekBarPreference
+        android:key="gesture_swipe_timeout"
+        android:title="@string/gesture_action_timeout_title"
+        android:summary="@string/gesture_action_timeout_summary"
+        android:max="500"
+        android:min="100"
+        unitsLeft=""
+        unitsRight="@string/unit_msec"
+        android:dependency="use_bottom_gesture_navigation"
+        android:persistent="false" />
 
-   </PreferenceCategory>
+ 	</PreferenceCategory>
 </PreferenceScreen>

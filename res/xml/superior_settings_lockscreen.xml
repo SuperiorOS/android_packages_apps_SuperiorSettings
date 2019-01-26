@@ -20,10 +20,10 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
 	<Preference
-            android:title="@string/lockscreen_tuner_title">
-            <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
+        android:title="@string/lockscreen_tuner_title">
+        <intent android:action="android.intent.action.MAIN"
+        android:targetPackage="com.android.systemui"
+        android:targetClass="com.android.systemui.tuner.LockscreenActivity" />
     </Preference>
 
     <ListPreference
@@ -79,12 +79,12 @@
         android:title="@string/weather_title" >
 
     <com.superior.settings.preferences.SystemSettingListPreference
-            android:key="weather_lockscreen_unit"
-            android:dialogTitle="@string/weather_unit"
-            android:title="@string/weather_unit"
-            android:summary="%s"
-            android:entries="@array/weather_unit_entries"
-            android:entryValues="@array/weather_unit_values"
-            android:defaultValue="0" />
-    </PreferenceCategory>
+        android:key="weather_lockscreen_unit"
+        android:dialogTitle="@string/weather_unit"
+        android:title="@string/weather_unit"
+        android:summary="%s"
+        android:entries="@array/weather_unit_entries"
+        android:entryValues="@array/weather_unit_values"
+        android:defaultValue="0" />
+ 	</PreferenceCategory>
 </PreferenceScreen>

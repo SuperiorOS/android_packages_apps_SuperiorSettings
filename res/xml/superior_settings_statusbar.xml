@@ -22,56 +22,56 @@
     <Preference
         android:title="@string/statusbar_items_title">
         <intent android:action="android.intent.action.MAIN"
-                android:targetPackage="com.android.systemui"
-                android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
+        android:targetPackage="com.android.systemui"
+        android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
 	
-	    <Preference
-            android:key="clock_settings"
-            android:title="@string/clock_style_category_title"
-            android:summary="@string/clock_style_category_summary"
-            android:fragment="com.superior.settings.fragments.ClockSettings" />
-		 
-	    <Preference
-            android:key="battery_settings"
-            android:title="@string/battery_style_category_title"
-            android:summary="@string/battery_style_category_summary"
-            android:fragment="com.superior.settings.fragments.StatusBarBattery" />
+ 	<Preference
+        android:key="clock_settings"
+        android:title="@string/clock_style_category_title"
+        android:summary="@string/clock_style_category_summary"
+        android:fragment="com.superior.settings.fragments.ClockSettings" />
 
-            <Preference
-            android:key="battery_bar_category"
-            android:fragment="com.superior.settings.fragments.BatteryBar"
-            android:title="@string/battery_bar_title"
-            android:summary="@string/battery_bar_summary" />
-			
-		 <Preference
-            android:title="@string/traffic_title"
-            android:key="traffic"
-            android:fragment="com.superior.settings.fragments.Traffic" />
-			
-        <com.superior.settings.preferences.SystemSettingSwitchPreference
-            android:key="show_fourg_icon"
-            android:title="@string/show_fourg_icon_title"
-            android:summary="@string/show_fourg_icon_summary"
-            android:defaultValue="false"/>
-		 
-        <com.superior.settings.preferences.SystemSettingSwitchPreference
-            android:key="volte_icon"
-            android:title="@string/volte_icon_title"
-            android:summary="@string/volte_icon_summary"
-            android:defaultValue="true"/>
-		 
-        <com.superior.settings.preferences.SystemSettingSwitchPreference
-            android:key="data_disabled_icon"
-            android:title="@string/data_disabled_icon_title"
-            android:summary="@string/data_disabled_icon_summary"
-            android:defaultValue="true"/>
+ 	<Preference
+        android:key="battery_settings"
+        android:title="@string/battery_style_category_title"
+        android:summary="@string/battery_style_category_summary"
+        android:fragment="com.superior.settings.fragments.StatusBarBattery" />
 
-        <com.superior.settings.preferences.SystemSettingSwitchPreference
-            android:key="status_bar_brightness_control"
-            android:title="@string/status_bar_toggle_brightness"
-            android:summary="@string/status_bar_toggle_brightness_summary"
-            android:defaultValue="false" />
+ 	<Preference
+        android:key="battery_bar_category"
+        android:fragment="com.superior.settings.fragments.BatteryBar"
+        android:title="@string/battery_bar_title"
+        android:summary="@string/battery_bar_summary" />
+
+ 	<Preference
+        android:title="@string/traffic_title"
+        android:key="traffic"
+        android:fragment="com.superior.settings.fragments.Traffic" />
+
+ 	<com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="show_fourg_icon"
+        android:title="@string/show_fourg_icon_title"
+        android:summary="@string/show_fourg_icon_summary"
+        android:defaultValue="false"/>
+
+ 	<com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="volte_icon"
+        android:title="@string/volte_icon_title"
+        android:summary="@string/volte_icon_summary"
+        android:defaultValue="true"/>
+
+ 	<com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="data_disabled_icon"
+        android:title="@string/data_disabled_icon_title"
+        android:summary="@string/data_disabled_icon_summary"
+        android:defaultValue="true"/>
+
+ 	<com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="status_bar_brightness_control"
+        android:title="@string/status_bar_toggle_brightness"
+        android:summary="@string/status_bar_toggle_brightness_summary"
+        android:defaultValue="false" />
 
     <PreferenceCategory
         android:key="cutout_settings"
@@ -83,5 +83,5 @@
         android:summary="@string/cutout_main_summary"
         android:fragment="com.superior.settings.fragments.CutoutFragment" />
 
-    </PreferenceCategory>
+ 	</PreferenceCategory>
 </PreferenceScreen>

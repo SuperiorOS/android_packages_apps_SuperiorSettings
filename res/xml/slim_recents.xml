@@ -111,31 +111,31 @@
     <PreferenceCategory
         android:title="@string/slim_recents_mem_display_category_title">
 
-        <com.superior.settings.preferences.SystemSettingSwitchPreference
-            android:key="slim_recents_mem_display"
-            android:title="@string/slim_recents_mem_display_title"
-            android:summaryOn="@string/slim_recents_mem_display_summaryOn"
-            android:summaryOff="@string/slim_recents_mem_display_summaryOff"
-            android:defaultValue="false" />
+    <com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="slim_recents_mem_display"
+        android:title="@string/slim_recents_mem_display_title"
+        android:summaryOn="@string/slim_recents_mem_display_summaryOn"
+        android:summaryOff="@string/slim_recents_mem_display_summaryOff"
+        android:defaultValue="false" />
 
-        <com.superior.settings.preferences.SystemSettingSwitchPreference
-            android:key="slim_recents_mem_display_long_click_clear"
-            android:title="@string/slim_recents_mem_display_long_click_clear_title"
-            android:summary="@string/slim_recents_mem_display_long_click_clear_summary"
-            android:defaultValue="false"
-            android:dependency="slim_recents_mem_display" />
+    <com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="slim_recents_mem_display_long_click_clear"
+        android:title="@string/slim_recents_mem_display_long_click_clear_title"
+        android:summary="@string/slim_recents_mem_display_long_click_clear_summary"
+        android:defaultValue="false"
+        android:dependency="slim_recents_mem_display" />
 
-        <net.margaritov.preference.colorpicker.ColorPickerPreference
-            android:key="slim_mem_bar_color"
-            android:title="@string/slim_recents_mem_display_color"
-            android:defaultValue="0xffffffff"
-            android:dependency="slim_recents_mem_display"/>
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="slim_mem_bar_color"
+        android:title="@string/slim_recents_mem_display_color"
+        android:defaultValue="0xffffffff"
+        android:dependency="slim_recents_mem_display"/>
 
-        <net.margaritov.preference.colorpicker.ColorPickerPreference
-            android:key="slim_mem_text_color"
-            android:title="@string/slim_recents_mem_display_text_color"
-            android:defaultValue="0xffffffff"
-            android:dependency="slim_recents_mem_display"/>
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:key="slim_mem_text_color"
+        android:title="@string/slim_recents_mem_display_text_color"
+        android:defaultValue="0xffffffff"
+        android:dependency="slim_recents_mem_display"/>
 
     </PreferenceCategory>
 </PreferenceScreen>

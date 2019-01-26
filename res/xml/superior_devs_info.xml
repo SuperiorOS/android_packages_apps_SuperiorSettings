@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 Teh AOSP-RRO Project
+     Copyright (C) 2018-19 Superior OS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -17,213 +18,194 @@
 
 
 <PreferenceScreen
-xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="Superior OS">
 		
-		<!-- Header -->
-        <Preference android:key="superior_logo"
-                    android:enabled="false"
-                    android:layout="@layout/about_superior_header" />
+    <!-- Header -->
+    <Preference 
+        android:key="superior_logo"
+        android:enabled="false"
+        android:layout="@layout/about_superior_header" />
 
-<PreferenceCategory
-              android:key="about"
-              android:title="@string/superior_about_info" >
+    <PreferenceCategory
+        android:key="about"
+        android:title="@string/superior_about_info" >
 
-        <Preference
-               android:summary="@string/superior_about_info_summary" 
-               android:icon="@drawable/ic_devs_info" >
+    <Preference
+        android:summary="@string/superior_about_info_summary" 
+        android:icon="@drawable/ic_devs_info" >
         <intent android:action="android.intent.action.VIEW"
-                android:data="https://plus.google.com/u/0/communities/109206747517820828242" />
-       </Preference>
-     </PreferenceCategory>
+        android:data="https://plus.google.com/u/0/communities/109206747517820828242" />
+    </Preference>
+    </PreferenceCategory>
 
-<PreferenceCategory
-            android:key="superior_dev"
-            android:title="@string/devs_header" >
+    <PreferenceCategory
+        android:key="superior_dev"
+        android:title="@string/devs_header" >
 
-        <Preference
-            android:title="@string/dev_1"
-            android:summary="@string/dev1_description"
-            android:icon="@drawable/ic_code" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Darkstar085" />
-        </Preference>
+    <Preference
+        android:title="@string/dev_1"
+        android:summary="@string/dev1_description"
+        android:icon="@drawable/ic_code" >
+        <intent android:action="android.intent.action.VIEW"
+        android:data="https://t.me/Darkstar085" />
+    </Preference>
 
-        <Preference
-            android:title="@string/dev_2"
-            android:summary="@string/dev2_description"
-            android:icon="@drawable/ic_code" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/JD1811" />
-        </Preference>
+    <Preference
+        android:title="@string/dev_2"
+        android:summary="@string/dev2_description"
+        android:icon="@drawable/ic_code" >
+        <intent android:action="android.intent.action.VIEW"
+        android:data="https://t.me/JD1811" />
+    </Preference>
 
-        <Preference
-            android:title="@string/dev_6"
-            android:summary="@string/dev6_description"
-            android:icon="@drawable/ic_code" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/SoniSins" />
-        </Preference>
+    <Preference
+        android:title="@string/dev_6"
+        android:summary="@string/dev6_description"
+        android:icon="@drawable/ic_code" >
+        <intent android:action="android.intent.action.VIEW"
+        android:data="https://t.me/SoniSins" />
+    </Preference>
 
-		<Preference
-            android:title="@string/dev_3"
-            android:summary="@string/dev3_description"
-            android:icon="@drawable/ic_design" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Advertpavan" />
-        </Preference>
+    <Preference
+        android:title="@string/dev_3"
+        android:summary="@string/dev3_description"
+        android:icon="@drawable/ic_design" >
+        <intent android:action="android.intent.action.VIEW"
+        android:data="https://t.me/Advertpavan" />
+    </Preference>
 		
-		<Preference
-            android:title="@string/dev_4"
-            android:summary="@string/dev4_description"
-            android:icon="@drawable/ic_design" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Senseijtitus" />
-        </Preference>
+    <Preference
+        android:title="@string/dev_4"
+        android:summary="@string/dev4_description"
+        android:icon="@drawable/ic_design" >
+        <intent android:action="android.intent.action.VIEW"
+        android:data="https://t.me/Senseijtitus" />
+    </Preference>
 
-		<Preference
-            android:title="@string/dev_5"
-            android:summary="@string/dev5_description"
-            android:icon="@drawable/ic_devs_pc" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/itsjzt" />
-        </Preference>
+    <Preference
+        android:title="@string/dev_5"
+        android:summary="@string/dev5_description"
+        android:icon="@drawable/ic_devs_pc" >
+        <intent android:action="android.intent.action.VIEW"
+        android:data="https://t.me/itsjzt" />
+    </Preference>
+    </PreferenceCategory>
 
-</PreferenceCategory>
-
-
-<PreferenceCategory
-            android:key="maintainer"
-            android:title="@string/maintainers_header" >
+    <PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/maintainers_header" >
 			
-		<Preference
-            android:summary="@string/maintainers_header_summary" 
-            android:icon="@drawable/ic_devs_info" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://www.github.com/SuperiorOS-Devices" />
-       </Preference>
-</PreferenceCategory>
+    <Preference
+        android:summary="@string/maintainers_header_summary" 
+        android:icon="@drawable/ic_devs_info" >
+        <intent android:action="android.intent.action.VIEW"
+        android:data="https://www.github.com/SuperiorOS-Devices" />
+    </Preference>
+    </PreferenceCategory>
 
-<PreferenceCategory
-            android:key="maintainer"
-            android:title="@string/device_asus" >
+    <PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/device_asus" >
 			
-        <Preference
-            android:title="@string/X00T_maintainer"
-            android:summary="@string/X00T_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/LordShenron" />
-        </Preference>
-</PreferenceCategory>
+    <Preference
+        android:title="@string/X00T_maintainer"
+        android:summary="@string/X00T_maintainer_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent android:action="android.intent.action.VIEW"
+        android:data="http://t.me/LordShenron" />
+    </Preference>
+    </PreferenceCategory>
 
-<PreferenceCategory
-            android:key="maintainer"
-            android:title="@string/device_lenovo" >
+    <PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/device_lenovo" >
 			
-        <Preference
-            android:title="@string/kuntao_maintainer"
-            android:summary="@string/kuntao_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/Beastmaster1" />
-        </Preference>
+    <Preference
+        android:title="@string/kuntao_maintainer"
+        android:summary="@string/kuntao_maintainer_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent android:action="android.intent.action.VIEW"
+        android:data="http://t.me/Beastmaster1" />
+    </Preference>
 		
-        <Preference
-            android:title="@string/z2_plus_maintainer"
-            android:summary="@string/z2_plus_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/rasenkai" />
-        </Preference>
-</PreferenceCategory>
+    <Preference
+        android:title="@string/z2_plus_maintainer"
+        android:summary="@string/z2_plus_maintainer_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent android:action="android.intent.action.VIEW"
+        android:data="http://t.me/rasenkai" />
+    </Preference>
+    </PreferenceCategory>
 
-<PreferenceCategory
-            android:key="maintainer"
-            android:title="@string/device_motorola" >
+    <PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/device_motorola" >
 			
-        <Preference
-            android:title="@string/sanders_maintainer"
-            android:summary="@string/sanders_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/yashh5" />
-        </Preference>
-</PreferenceCategory>
+    <Preference
+        android:title="@string/sanders_maintainer"
+        android:summary="@string/sanders_maintainer_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent android:action="android.intent.action.VIEW"
+        android:data="http://t.me/yashh5" />
+    </Preference>
+    </PreferenceCategory>
 
-<PreferenceCategory
-            android:key="maintainer"
-            android:title="@string/device_pantech" >
+    <PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/device_pantech" >
 			
-        <Preference
-            android:title="@string/ef63_maintainer"
-            android:summary="@string/ef63_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/chautruongthinh" />
-        </Preference>
-</PreferenceCategory>
+    <Preference
+        android:title="@string/ef63_maintainer"
+        android:summary="@string/ef63_maintainer_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent android:action="android.intent.action.VIEW"
+        android:data="http://t.me/chautruongthinh" />
+    </Preference>
+    </PreferenceCategory>
 
-<PreferenceCategory
-            android:key="maintainer"
-            android:title="@string/device_xiaomi" >
+    <PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/device_xiaomi" >
 
-        <Preference
-            android:title="@string/markw_maintainer"
-            android:summary="@string/markw_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/DarkAngelGR" />
-        </Preference>
+    <Preference
+        android:title="@string/markw_maintainer"
+        android:summary="@string/markw_maintainer_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent android:action="android.intent.action.VIEW"
+        android:data="http://t.me/DarkAngelGR" />
+    </Preference>
 
-        <Preference
-            android:title="@string/rolex_maintainer"
-            android:summary="@string/rolex_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/Arpon96" />
-        </Preference>
+    <Preference
+        android:title="@string/rolex_maintainer"
+        android:summary="@string/rolex_maintainer_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent android:action="android.intent.action.VIEW"
+        android:data="http://t.me/Arpon96" />
+    </Preference>
 
-        <Preference
-            android:title="@string/mido_maintainer"
-            android:summary="@string/mido_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/hnaamdev41" />
-        </Preference>
+    <Preference
+        android:title="@string/mido_maintainer"
+        android:summary="@string/mido_maintainer_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent android:action="android.intent.action.VIEW"
+        android:data="http://t.me/hnaamdev41" />
+    </Preference>
 
-        <Preference
-            android:title="@string/tissot_maintainer"
-            android:summary="@string/tissot_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/Jay_1212" />
-        </Preference>
+    <Preference
+        android:title="@string/tissot_maintainer"
+        android:summary="@string/tissot_maintainer_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent android:action="android.intent.action.VIEW"
+        android:data="http://t.me/Jay_1212" />
+    </Preference>
 
-        <Preference
-            android:title="@string/santoni_maintainer"
-            android:summary="@string/santoni_maintainer_description"
-            android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/prakaship78" />
-        </Preference>
-
-</PreferenceCategory>
+    <Preference
+        android:title="@string/santoni_maintainer"
+        android:summary="@string/santoni_maintainer_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent android:action="android.intent.action.VIEW"
+        android:data="http://t.me/prakaship78" />
+    </Preference>
+    </PreferenceCategory>
 </PreferenceScreen>
