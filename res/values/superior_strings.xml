@@ -85,6 +85,14 @@
     <string name="toast">Toast</string>
     <string name="fp_lockscreen">Fingerprint</string>
     <string name="music_lockscreen">Music</string>
+    <string name="clock_category">Clock</string>
+    <string name="battery_category">Battery</string>
+    <string name="data_category">Data</string>
+    <string name="brightness_category">Brightness</string>
+    <string name="brightness_slider_category">Brightness Slider</string>
+    <string name="qs_header_category">Header</string>
+    <string name="volume_rocker_category">Volume Rocker</string>
+    <string name="misc_category">Misc</string>
 	
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -551,7 +559,7 @@
     <string name="volume_panel_on_left_summary">Show volume panel on the left side of the screen</string>
 
     <!-- QS Running Services Icon -->
-    <string name="qs_running_services_title">Running Services Icon</string>
+    <string name="qs_running_services_title">Disable Running Services Icon</string>
     <string name="qs_running_services_summary">Disable the tile running services icon in the footer</string>
 	
     <!-- Battery Bar -->

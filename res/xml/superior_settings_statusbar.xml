@@ -25,12 +25,22 @@
         android:targetPackage="com.android.systemui"
         android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
-	
+
+    <PreferenceCategory
+        android:key="clock_settings_category"
+        android:title="@string/clock_category" >
+
  	<Preference
         android:key="clock_settings"
         android:title="@string/clock_style_category_title"
         android:summary="@string/clock_style_category_summary"
         android:fragment="com.superior.settings.fragments.ClockSettings" />
+
+ 	</PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="battery_settings_category"
+        android:title="@string/battery_category" >
 
  	<Preference
         android:key="battery_settings"
@@ -43,6 +53,12 @@
         android:fragment="com.superior.settings.fragments.BatteryBar"
         android:title="@string/battery_bar_title"
         android:summary="@string/battery_bar_summary" />
+
+	</PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="traffic_category"
+        android:title="@string/data_category" >
 
  	<Preference
         android:title="@string/traffic_title"
@@ -67,11 +83,19 @@
         android:summary="@string/data_disabled_icon_summary"
         android:defaultValue="true"/>
 
+	</PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="status_bar_brightness_control_category"
+        android:title="@string/brightness_category" >
+
  	<com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="status_bar_brightness_control"
         android:title="@string/status_bar_toggle_brightness"
         android:summary="@string/status_bar_toggle_brightness_summary"
         android:defaultValue="false" />
+
+	</PreferenceCategory>
 
     <PreferenceCategory
         android:key="cutout_settings"

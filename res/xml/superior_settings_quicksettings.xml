@@ -19,6 +19,10 @@
     android:title="@string/quicksettings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:key="qs_header_category"
+        android:title="@string/qs_header_category" >
+
     <com.superior.settings.preferences.CustomSeekBarPreference
         android:key="qs_panel_bg_alpha"
         android:title="@string/qs_panel_alpha_title"
@@ -47,6 +51,12 @@
         android:summary="@string/status_bar_quick_qs_pulldown_summary"
         android:defaultValue="true" />
 
+	</PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="qs_brightness_category"
+        android:title="@string/brightness_slider_category" >
+
     <com.superior.settings.preferences.SecureSettingSwitchPreference
         android:key="qs_show_brightness"
         android:title="@string/qs_show_brightness_title"
@@ -74,10 +84,16 @@
         android:defaultValue="false"
         android:dependency="qs_show_brightness"/>
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="misc_category"
+        android:title="@string/misc_category" >
+
     <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="qs_running_services_toggle"
         android:title="@string/qs_running_services_title"
         android:summary="@string/qs_running_services_summary"
         android:defaultValue="false" />
-
+    </PreferenceCategory>
 </PreferenceScreen>

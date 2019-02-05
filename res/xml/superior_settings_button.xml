@@ -159,7 +159,7 @@
         android:persistent="false" />
 
  	<SwitchPreference
-        android:key="button_brightness_sw"
+        android:key="button_brightness"
         android:title="@string/button_brightness_sw_title"
         android:persistent="false" />
 
@@ -171,11 +171,9 @@
         android:persistent="false"
         android:title="@string/backlight_timeout_title" />
 
- 	<com.superior.settings.preferences.SystemSettingSwitchPreference
-        android:key="allow_incall_home"
-        android:title="@string/allow_incall_home_title"
-        android:summary="@string/allow_incall_home_summary"
-        android:defaultValue="true" />
+    <PreferenceCategory
+        android:key="volume_rocker_category"
+        android:title="@string/volume_rocker_category" >
 
  	<com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_rocker_wake"
@@ -190,4 +188,17 @@
         android:key="volume_key_cursor_control"
         android:title="@string/volume_key_cursor_control_title" />
 
+	</PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="misc_button_category"
+        android:title="@string/misc_category" >
+
+ 	<com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="allow_incall_home"
+        android:title="@string/allow_incall_home_title"
+        android:summary="@string/allow_incall_home_summary"
+        android:defaultValue="true" />
+
+	</PreferenceCategory>
 </PreferenceScreen>
