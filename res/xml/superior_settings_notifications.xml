@@ -25,13 +25,6 @@
         android:title="@string/heads_up_notifications"
         android:fragment="com.superior.settings.HeadsUpSettings" />
 
-    <!-- less boring headsup -->
-    <com.superior.settings.preferences.SystemSettingSwitchPreference
-        android:key="less_boring_heads_up"
-        android:title="@string/less_boring_heads_up_title"
-        android:summary="@string/less_boring_heads_up_summary"
-        android:defaultValue="true" />
-
     <!-- Battery LED -->
     <Preference
         android:key="charging_light"
@@ -44,6 +37,13 @@
         android:title="@string/flashlight_on_call_title"
         android:entries="@array/flashlight_on_call_entries"
         android:entryValues="@array/flashlight_on_call_values" />
+
+    <!-- less boring headsup -->
+    <com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="less_boring_heads_up"
+        android:title="@string/less_boring_heads_up_title"
+        android:summary="@string/less_boring_heads_up_summary"
+        android:defaultValue="false" />
 
     <PreferenceCategory
         android:key="incall_vib_options"
