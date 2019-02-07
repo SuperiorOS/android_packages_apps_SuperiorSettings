@@ -16,13 +16,13 @@
 -->
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="superior_settings_title">Superior Settings</string>
+    <string name="superior_settings_title">Pengaturan Superior</string>
     <string name="superior_dashboard_summary">Destructor Core</string>
 	
 	<!-- ROM Info -->
     <string name="superior_about_info">Tentang Proyek</string>
     <string name="superior_about_info_summary_title">Tentang Tim</string>
-    <string name="superior_about_info_summary">Superior OS adalah Custom ROM berbasis AOSP, dengan beberapa fitur minimal yang paling dibutuhkan, tujuan utama dari ROM ini adalah untuk memberikan kinerja secepat kecepatan cahaya, kelancaran dan penggunaan baterai yang baik..</string>
+    <string name="superior_about_info_summary">Superior OS adalah ROM Kustom berdasarkan AOSP, dengan beberapa fitur minimal yang paling dibutuhkan, tujuan utama ROM ini adalah untuk memberikan kinerja setara kecepatan cahaya, kehalusan dan ketahanan baterai yang baik.</string>
 	
 	<!-- Dev Info -->
     <string name="devs_header">Pengembang</string>
@@ -40,7 +40,7 @@
     <string name="dev5_description">Pengembang Web</string>
     <string name="dev_6">Swapnil Soni</string>
     <string name="dev6_description">Pengembang</string>
-	
+
 	<!-- Maintainer Info -->
     <string name="device_xiaomi">Xiaomi</string>
     <string name="device_asus">Asus</string>
@@ -70,7 +70,7 @@
 
     <!-- Categories -->
     <string name="button_title">Tombol</string>
-    <string name="animation_title">Animations</string>
+    <string name="animation_title">Animasi</string>
     <string name="gestures_title">Isyarat</string>
     <string name="lockscreen_title">Layar Kunci</string>
     <string name="misc_title">Lainnya</string>
@@ -78,30 +78,33 @@
     <string name="powermenu_title">Menu Daya</string>
     <string name="quicksettings_title">Pengaturan Cepat</string>
     <string name="recents_title">Recents Apps</string>
-    <string name="statusbar_title">Status Bar</string>
+    <string name="statusbar_title">Bar Status</string>
     <string name="notifications_title">Notifikasi</string>
-    <string name="system_animations">System Animations</string>
+    <string name="system_animations">Animasi Sistem</string>
     <string name="listview">ListView</string>
     <string name="toast">Toast</string>
-    <string name="fp_lockscreen">Fingerprint</string>
-    <string name="music_lockscreen">Music</string>
-    <string name="clock_category">Clock</string>
-    <string name="battery_category">Battery</string>
+    <string name="fp_lockscreen">Sidik Jari</string>
+    <string name="music_lockscreen">Musik</string>
+    <string name="clock_category">Jam</string>
+    <string name="battery_category">Baterai</string>
     <string name="data_category">Data</string>
-    <string name="brightness_category">Brightness</string>
-    <string name="brightness_slider_category">Brightness Slider</string>
-    <string name="qs_header_category">Header</string>
+    <string name="brightness_category">Kecerahan</string>
+    <string name="brightness_slider_category">Penggeser Kecerahan</string>
+    <string name="qs_header_category">Tajuk</string>
     <string name="volume_rocker_category">Volume Rocker</string>
-    <string name="incall_home_category">Misc</string>
+    <string name="misc_category">Lain-lain</string>
 	
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
     <string name="cancel">Batal</string>
     <string name="save">Simpan</string>
+    <string name="unit_msec">ms</string>
+    <string name="unit_dpi">dpi</string>
+    <string name="unit_px">px</string>
 
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
+    <string name="dialog_color_picker">Pemilih Warna</string>
     <string name="press_color_to_apply">Tekan pada warna di bawah ini untuk menerapkan</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
@@ -114,15 +117,15 @@
     <string name="statusbar_items_title">Item Statusbar</string>
 
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Pintasan Layar Kunci</string>
+    <string name="lockscreen_tuner_title">Pintasan Layar kunci</string>
 
     <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Tombol Navbar</string>
+    <string name="navbar_tuner_title">Tombol Bilah Navigasi</string>
 	
 	<!-- Hide Apps from Recents -->
     <string name="hide_apps_from_recents_title">Sembunyikan aplikasi dari recent</string>
-    <string name="hide_from_recents_add_app">Tambahkan Aplikasi</string>
-    <string name="hide_apps_from_recents_summary">Pilih aplikasi tertentu untuk disembunyikan di recent</string>
+    <string name="hide_from_recents_add_app">Tambahkan aplikasi</string>
+    <string name="hide_apps_from_recents_summary">Pilih aplikasi tertentu untuk disembunyikan di recents</string>
 	
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Info pengisian Layar Kunci</string>
@@ -131,8 +134,8 @@
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Opsi getaran dalam panggilan</string>
     <string name="incall_vibrate_connect_title">Bergetar saat terhubung</string>
-    <string name="incall_vibrate_call_wait_title">Getar saat menunggu panggilan</string>
-    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <string name="incall_vibrate_call_wait_title">Bergetar saat menunggu panggilan</string>
+    <string name="incall_vibrate_disconnect_title">Bergetar saat terputus</string>
 	
 	<!-- Face Unlock -->
     <string name="face_auto_unlock_title">Buka kunci wajah otomatis</string>
@@ -144,14 +147,14 @@
 
     <!-- Incall Home button behavior-->
     <string name="allow_incall_home_title">Tombol beranda saat berdering</string>
-    <string name="allow_incall_home_summary">Izinkan untuk menggunakan tombol beranda saat perangkat berdering</string>
+    <string name="allow_incall_home_summary">zinkan untuk menggunakan tombol beranda saat perangkat berdering</string>
 
     <!-- Hardware keys -->
     <string name="hardware_keys_category">Tombol Perangkat Keras</string>
 
     <!-- Buttons backlight timeout -->
     <string name="backlight_timeout_title">Tombol batas waktu lampu latar</string>
-    <string name="backlight_timeout_on">Selalu aktif</string>
+    <string name="backlight_timeout_on">Selalu Aktifkan</string>
     <string name="backlight_timeout_3s">3 detik</string>
     <string name="backlight_timeout_default">5 detik (default)</string>
     <string name="backlight_timeout_10s">10 detik</string>
@@ -161,15 +164,15 @@
 
     <!-- Enable keys backlight-->
     <string name="button_brightness_title">Lampu latar</string>
-    <string name="button_brightness_sw_title">Aktifkan lampu latar</string>
+    <string name="button_brightness_sw_title">Aktifkan Lampu latar</string>
 
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Ketuk ganda untuk mengunci layar</string>
-    <string name="double_tap_to_sleep_lockscreen_summary">Ketuk layar kunci ganda untuk membuat perangkat tidur</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Ketuk ganda layar kunci untuk membuat perangkat tidur</string>
 
     <!-- Double Tap Statusbar to Sleep -->
     <string name="double_tap_to_sleep_statusbar_title">Ketuk ganda statusbar</string>
-    <string name="double_tap_to_sleep_statusbar_summary">Ketuk dua kali pada statusbar untuk membuat perangkat tidur</string>
+    <string name="double_tap_to_sleep_statusbar_summary">Ketuk ganda pada statusbar untuk membuat perangkat tidur</string>
 
     <!-- HW Keys customization -->
     <string name="action_value_default_action" translatable="false">default</string>
@@ -217,14 +220,14 @@
     <string name="dialog_delete_message">Hapus item yang dipilih?</string>
 
     <!-- Heads up timeout -->
-    <string name="heads_up_time_out_title">Waktu Habis</string>
-    <string name="heads_up_time_out_summary">Pemberitahuan mengintip akan ditampilkan dalam <xliff:g id="number">%d</xliff:g> detik</string>
-    <string name="heads_up_time_out_2sec">2 detik</string>
-    <string name="heads_up_time_out_4sec">4 detik</string>
-    <string name="heads_up_time_out_5sec">5 detik</string>
-    <string name="heads_up_time_out_6sec">6 detik</string>
-    <string name="heads_up_time_out_8sec">8 detik</string>
-    <string name="heads_up_time_out_10sec">10 detik</string>
+    <string name="heads_up_time_out_title">Time out</string>
+    <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
+    <string name="heads_up_time_out_2sec">2 seconds</string>
+    <string name="heads_up_time_out_4sec">4 seconds</string>
+    <string name="heads_up_time_out_5sec">5 seconds</string>
+    <string name="heads_up_time_out_6sec">6 seconds</string>
+    <string name="heads_up_time_out_8sec">8 seconds</string>
+    <string name="heads_up_time_out_10sec">10 seconds</string>
 
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Waktu Tunda</string>
@@ -257,10 +260,10 @@
     <string name="lockscreen_visualizer_enable_summary">Tampilkan visualisasi di layar kunci saat musik diputar</string>
 	
 	<!-- Power Menu -->
-    <string name="advanced_power_menu">Opsi menu daya</string>
+    <string name="advanced_power_menu">>Opsi menu daya</string>
     <string name="advanced_reboot_menu">Menu hidupkan ulang lanjutan</string>
     <string name="powermenu_reboot_title">Hidupkan ulang</string>
-    <string name="powermenu_airplane_title">Mode pesawat</string>
+    <string name="powermenu_airplane_title">Mode Pesawat</string>
     <string name="powermenu_advanced_reboot_title">Hidupkan ulang lanjutan</string>
     <string name="powermenu_advanced_reboot_summary">Mengaktifkan menu reboot lanjutan untuk me-reboot opsi seperti hot, pemulihan, dan bootloader. Juga menambahkan sebagai opsi untuk me-restart SystemUI</string>
     <string name="powermenu_screenshot_title">Tangkapan Layar</string>
@@ -271,8 +274,8 @@
     <string name="powermenu_ls_advanced_reboot_summary">Tampilkan opsi hidupkan ulang lanjutan di layar kunci</string>
     <string name="powermenu_ls_screenshot_summary">Tampilkan opsi tangkapan layar di layar kunci</string>
     <string name="powermenu_ls_airplane_summary">Tampilkan mode pesawat di layar kunci</string>
-    <string name="powermenu_lockdown_title">Lockdown</string>
-    <string name="powermenu_ls_lockdown_summary">Display power button options that turns off extended access and fingerprint unlocking</string>
+    <string name="powermenu_lockdown_title">Terkunci</string>
+    <string name="powermenu_ls_lockdown_summary">Tampilkan opsi tombol daya yang mematikan akses lanjutan dan membuka kunci sidik jari</string>
 
     <!-- Hide Lockscreen clock, date, & alarm -->
     <string name="lockscreen_items_other">Lainnya</string>
@@ -431,7 +434,7 @@
 	
 	<!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">Ikon VoLTE</string>
-    <string name="volte_icon_summary">Tampilkan ikon VoLTE</string>
+    <string name="volte_icon_summary">Tampilkan Ikon VoLTE</string>
 
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">Kedipkan senter saat panggilan</string>
@@ -448,7 +451,7 @@
     <string name="status_bar_toggle_brightness">Kontrol kecerahan</string>
     <string name="status_bar_toggle_brightness_summary">Sesuaikan kecerahan dengan menggeser bar status</string>
 
-    <string name="gestures_category">Isyarat</string>
+    <string name="gestures_category">Gestures</string>
 
     <!-- Toast app icon -->
     <string name="toast_icon_title">Ikon aplikasi Toast</string>
@@ -457,12 +460,14 @@
 	<!-- AOSP Recents component Style -->
     <string name="recents_component_type_title">Gaya Recents</string>
 	<string name="aosp_recents_category">AOSP recents</string>
+    <string name="alternative_recents_category">Alternatif recents</string>
+    <string name="alternative_recents_swipe_up_enabled_warning_summary">Saat menggunakan geser ke atas navigasi beranda untuk membuka recents, hanya stok recents yang didukung</string>
     <string name="recents_pie">Pie</string>
     <string name="recents_oreo">Oreo</string>
 	
 	<!-- Weather -->
     <string name="weather_title">Cuaca</string>
-    <string name="weather_unit">Unit temperatur</string>
+    <string name="weather_unit">Unit Temperatur</string>
     <string name="weather_unit_metric" translatable="false">Celsius</string>
     <string name="weather_unit_imperial" translatable="false">Fahrenheit</string>
 	
@@ -475,15 +480,36 @@
     <string name="app_ops_summary">Kontrol operasi aplikasi</string>
 
     <!-- QS header styles -->
-    <string name="qs_header_style_title">Gaya tajuk QS</string>
+    <string name="qs_header_style_title">Gaya Tajuk QS</string>
     <string name="qs_header_black">Hitam</string>
     <string name="qs_header_grey">Abu-abu</string>
-    <string name="qs_header_lightgrey">Abu-abu Terang</string>
-    <string name="qs_header_accent">Berdasarkan Aksen</string>
+    <string name="qs_header_lightgrey">Abu-abu muda</string>
+    <string name="qs_header_accent">Berdasarkan aksen</string>
     <string name="qs_header_transparent">Transparan</string>
-	
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Layar mati tombol daya untuk senter</string>
+    <string name="torch_power_button_gesture_none">Matikan</string>
+    <string name="torch_power_button_gesture_dt">Ketuk ganda tombol daya untuk menghidupkan senter (Akan ada sedikit delay pada ketuk tunggal)</string>
+    <string name="torch_power_button_gesture_lp">Ketuk lama tombol daya untuk menghidupkan senter</string>
+
+    <!-- Volume Wake -->
+    <string name="volume_rocker_wake_title">Volume rocker wake</string>
+    <string name="volume_rocker_wake_summary">Menekan lama tombol volume akan membangunkan perangkat</string>
+
+    <!-- Navigation gestures -->
+    <string name="gesture_settings_title">Isyarat navigasi OP</string>
+    <string name="gesture_settings_summary">Gunakan gerakan geser bawah ke atas untuk navigasi</string>
+    <string name="use_bottom_gesture_cat">Isyarat geser ke atas</string>
+    <string name="use_bottom_gesture_title">Isyarat geser ke atas</string>
+    <string name="gesture_settings_info">Navigation bar must be disabled!\n\nAvailable gestures:\n\nBack\n- Swipe up on left or right side\n\nHome\n- Swipe up center\n\nRecent apps\n- Swipe up center and hold\n\nLast app\n- Short swipe up and hold in the center</string>
+    <string name="gesture_swipe_length_title">Swipe trigger height</string>
+    <string name="gesture_swipe_length_summary">Heigth from bottom to trigger swipe</string>
+    <string name="gesture_action_timeout_title">Swipe trigger timeout</string>
+    <string name="gesture_action_timeout_summary">Waktu tunggu sebelum tindakan isyarat dimulai</string>
+
     <!-- QS tile styles -->
-    <string name="qs_tile_style_title">QS Tile style</string>
+    <string name="qs_tile_style_title">Gaya Tajuk QS</string>
     <string name="qstile_default">Default</string>
     <string name="qstile_circle_gradient">Circle (Gradient)</string>
     <string name="qstile_circle_trim">Circle (Trim)</string>
@@ -497,10 +523,10 @@
     <string name="qstile_squircle_trim">Squircle (Trim)</string>
     <string name="qstile_teardrop">Teardrop</string>
     <string name="qstile_wavey">Wavey</string>
-	
+
     <!-- Pocket judge -->
-    <string name="pocket_judge_title">Pocket detection</string>
-    <string name="pocket_judge_summary">Block screen and button inputs when device is in pocket</string>
+    <string name="pocket_judge_title">Deteksi Saku</string>
+    <string name="pocket_judge_summary">Memblokir input layar dan tombol saat perangkat ada di saku</string>
 
     <!-- Edge gestures -->
     <string name="edge_gestures_title">Edge gestures</string>
@@ -517,7 +543,7 @@
 
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Less boring heads up</string>
-    <string name="less_boring_heads_up_summary">Show heads up only for dialer or messaging app</string>
+    <string name="less_boring_heads_up_summary">Tampilkan heads up hanya untuk aplikasi panggilan dan perpesanan</string>
 
     <!-- Audio Panel view  -->
     <string name="audio_panel_view">Volume Panel Sliders</string>
@@ -529,29 +555,29 @@
     <string name="audio_panel_view_bt_sco_title">Bluetooth</string>
 
     <!-- Volume Panel on Left -->
-    <string name="volume_panel_on_left_title">Volume Panel on Left</string>
-    <string name="volume_panel_on_left_summary">Show volume panel on the left side of the screen</string>
+    <string name="volume_panel_on_left_title">Volume Panel di kiri</string>
+    <string name="volume_panel_on_left_summary">Tampilkan panel volume di sisi kiri layar</string>
 
     <!-- QS Running Services Icon -->
-    <string name="qs_running_services_title">Running Services Icon</string>
-    <string name="qs_running_services_summary">Disable the tile running services icon in the footer</string>
+    <string name="qs_running_services_title">Nonaktifkan Ikon Layanan Berjalan</string>
+    <string name="qs_running_services_summary">Nonaktifkan ikon ubin layanan berjalan di footer</string>
 	
     <!-- Battery Bar -->
-    <string name="battery_bar_title">Battery bar</string>
-    <string name="battery_bar_summary">Display and customize battery bar near status bar or navigation bar</string>
-    <string name="battery_bar">Battery bar location</string>
-    <string name="battery_bar_no_navbar">Battery bar location</string>
-    <string name="battery_bar_location_hide">Hide</string>
+    <string name="battery_bar_title">Bar Baterai</string>
+    <string name="battery_bar_summary">Tampilkan dan sesuaikan bilah baterai di dekat bilah status atau bilah navigasi</string>
+    <string name="battery_bar">Lokasi bar baterai</string>
+    <string name="battery_bar_no_navbar">Lokasi bar baterai</string>
+    <string name="battery_bar_location_hide">Sembunyikan</string>
     <string name="battery_bar_location_statusbar">Statusbar</string>
     <string name="battery_bar_location_top_navbar">Top of navbar</string>
     <string name="battery_bar_location_bottom_navbar">Bottom of navbar</string>
-    <string name="battery_bar_color">Battery bar color</string>
-    <string name="battery_bar_charging_color">Battery bar charging color</string>
-    <string name="battery_bar_battery_low_color">Battery bar low battery color</string>
-    <string name="battery_bar_cat">Battery bar style</string>
-    <string name="battery_bar_style_title">Battery bar alignment</string>
-    <string name="battery_bar_thickness_title">Battery bar thickness</string>
-    <string name="battery_bar_animate_title">Charging animation</string>
+    <string name="battery_bar_color">Warna bar baterai</string>
+    <string name="battery_bar_charging_color">Warna pengisian bar baterai</string>
+    <string name="battery_bar_battery_low_color">Warna bar baterai saat baterai lemah</string>
+    <string name="battery_bar_cat">Gaya bar baterai</string>
+    <string name="battery_bar_style_title">Penjajaran bar baterai</string>
+    <string name="battery_bar_thickness_title">Ketebalan bar baterai</string>
+    <string name="battery_bar_animate_title">Animasi Pengisian Daya</string>
     <string name="battery_bar_style_regular">Regular</string>
     <string name="battery_bar_style_center_mirrored">Center-mirrored</string>
     <string name="battery_bar_style_reversed">Reversed</string>
@@ -622,7 +648,6 @@
     <string name="slim_recents_mem_display_summaryOff">Memory bar disabled</string>
     <string name="slim_recents_mem_display_color">Memory bar color</string>
     <string name="slim_recents_mem_display_text_color">Memory bar text color</string>
-    <string name="how_to_slim">Swipe up on home gesture must be disabled to use slim recents! \nIn case of double recents type issue perform a SystemUI reboot by selecting desired option\nLauncher crashing after reboot? Check if swipe up is disabled and reboot!</string>
 
     <!-- Recents icon pack -->
     <string name="recents_icon_pack_title">Icon Pack</string>
@@ -726,7 +751,7 @@
     <string name="brightness_side_buttons_title">Brightness control buttons</string>
     <string name="brightness_side_buttons_summary">Show buttons to increase or decrease the brightness</string>
 	
-	<!-- Language options - Volume rocker cursor control -->
+    <!-- Language options - Volume rocker cursor control -->
     <string name="cursor_section_header">Cursor</string>
     <string name="volume_key_cursor_control_title">Volume key cursor control</string>
     <string name="volume_key_cursor_control_off">Disabled</string>
