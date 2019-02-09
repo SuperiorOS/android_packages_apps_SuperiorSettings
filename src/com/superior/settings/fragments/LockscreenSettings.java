@@ -45,6 +45,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.superior.settings.preferences.Utils;
 import android.hardware.fingerprint.FingerprintManager;
 import com.superior.settings.preferences.SystemSettingSwitchPreference;
+import com.superior.settings.preferences.CustomSeekBarPreference;
 
 public class LockscreenSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -56,6 +57,8 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
     private static final String LOCK_DATE_FONTS = "lock_date_fonts";
     private static final String FP_UNLOCK_KEYSTORE = "fp_unlock_keystore";
     private static final String FP_CAT = "fp_category";
+	private static final String CLOCK_FONT_SIZE = "lockclock_font_size";
+    private static final String DATE_FONT_SIZE = "lockdate_font_size";
 
     private FingerprintManager mFingerprintManager;
     private SwitchPreference mFingerprintVib;
@@ -63,6 +66,8 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mFaceUnlock;
     ListPreference mLockClockFonts;
 	ListPreference mLockDateFonts;
+    private CustomSeekBarPreference mClockFontSize;
+    private CustomSeekBarPreference mDateFontSize;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -109,6 +114,18 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
                 getContentResolver(), Settings.System.LOCK_DATE_FONTS, 0)));
         mLockDateFonts.setSummary(mLockDateFonts.getEntry());
         mLockDateFonts.setOnPreferenceChangeListener(this);
+		
+ 	// Lock Clock Size
+        mClockFontSize = (CustomSeekBarPreference) findPreference(CLOCK_FONT_SIZE);
+        mClockFontSize.setValue(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKCLOCK_FONT_SIZE, 64));
+        mClockFontSize.setOnPreferenceChangeListener(this);
+
+        // Lock Date Size
+        mDateFontSize = (CustomSeekBarPreference) findPreference(DATE_FONT_SIZE);
+        mDateFontSize.setValue(Settings.System.getInt(getContentResolver(),
+                Settings.System.LOCKDATE_FONT_SIZE,16));
+        mDateFontSize.setOnPreferenceChangeListener(this);
     }
 	
 
@@ -142,6 +159,16 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
             mLockDateFonts.setValue(String.valueOf(newValue));
             mLockDateFonts.setSummary(mLockDateFonts.getEntry());
             return true;
+		} else if (preference == mClockFontSize) {
+			int top = (Integer) newValue;
+			Settings.System.putInt(getContentResolver(),
+			Settings.System.LOCKCLOCK_FONT_SIZE, top*1);
+			return true;
+		} else if (preference == mDateFontSize) {
+			int top = (Integer) newValue;
+			Settings.System.putInt(getContentResolver(),
+			Settings.System.LOCKDATE_FONT_SIZE, top*1);
+			return true;
         }
         return false;
     }
