@@ -60,14 +60,6 @@
     </Preference>
 
     <Preference
-        android:title="@string/dev_6"
-        android:summary="@string/dev6_description"
-        android:icon="@drawable/ic_code" >
-        <intent android:action="android.intent.action.VIEW"
-        android:data="https://t.me/SoniSins" />
-    </Preference>
-
-    <Preference
         android:title="@string/dev_3"
         android:summary="@string/dev3_description"
         android:icon="@drawable/ic_design" >
@@ -88,7 +80,7 @@
         android:summary="@string/dev5_description"
         android:icon="@drawable/ic_devs_pc" >
         <intent android:action="android.intent.action.VIEW"
-        android:data="https://t.me/itsjzt" />
+        android:data="https://t.me/SoniSins" />
     </Preference>
     </PreferenceCategory>
 

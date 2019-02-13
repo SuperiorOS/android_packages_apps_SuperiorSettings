@@ -36,10 +36,8 @@
     <string name="dev3_description">Core Team/Designer, Tulip Maintainer</string>
     <string name="dev_4">Titus Joseph</string>
     <string name="dev4_description">Designer</string>
-    <string name="dev_5">Saurabh Sharma</string>
+    <string name="dev_5">Swapnil Soni</string>
     <string name="dev5_description">Web Developer</string>
-    <string name="dev_6">Swapnil Soni</string>
-    <string name="dev6_description">Developer</string>
 
 	<!-- Maintainer Info -->
     <string name="device_xiaomi">Xiaomi</string>

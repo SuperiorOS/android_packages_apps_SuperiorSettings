@@ -36,10 +36,8 @@
     <string name="dev3_description">Tim Inti / Desainer, Pengelola Tulip</string>
     <string name="dev_4">Titus Joseph</string>
     <string name="dev4_description">Desainer</string>
-    <string name="dev_5">Saurabh Sharma</string>
+    <string name="dev_5">Swapnil Soni</string>
     <string name="dev5_description">Pengembang Web</string>
-    <string name="dev_6">Swapnil Soni</string>
-    <string name="dev6_description">Pengembang</string>
 
 	<!-- Maintainer Info -->
     <string name="device_xiaomi">Xiaomi</string>
