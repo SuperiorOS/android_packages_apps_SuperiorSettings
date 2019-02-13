@@ -193,14 +193,6 @@
     </Preference>
 
     <Preference
-        android:title="@string/tissot_maintainer"
-        android:summary="@string/tissot_maintainer_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent android:action="android.intent.action.VIEW"
-        android:data="http://t.me/Jay_1212" />
-    </Preference>
-
-    <Preference
         android:title="@string/santoni_maintainer"
         android:summary="@string/santoni_maintainer_description"
         android:icon="@drawable/ic_devs_phone">
