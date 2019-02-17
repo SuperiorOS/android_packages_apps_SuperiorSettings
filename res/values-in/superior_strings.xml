@@ -65,6 +65,8 @@
     <string name="z2_plus_maintainer_description">Zuk Z2 Plus</string>
     <string name="markw_maintainer">Aggelos Savvopoulos</string>
     <string name="markw_maintainer_description">Redmi 4 Prime</string>
+    <string name="land_maintainer">Jacob Deepu</string>
+    <string name="land_maintainer_description">Redmi 3S/prime</string>
 
     <!-- Categories -->
     <string name="button_title">Tombol</string>

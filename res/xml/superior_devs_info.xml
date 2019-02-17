@@ -183,6 +183,14 @@
         <intent android:action="android.intent.action.VIEW"
         android:data="http://t.me/hnaamdev41" />
     </Preference>
+	
+    <Preference
+        android:title="@string/land_maintainer"
+        android:summary="@string/land_maintainer_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent android:action="android.intent.action.VIEW"
+        android:data="http://t.me/JacobDeepu" />
+    </Preference>
 
     <Preference
         android:title="@string/santoni_maintainer"
