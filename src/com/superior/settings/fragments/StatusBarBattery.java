@@ -103,5 +103,3 @@ public class StatusBarBattery extends SettingsPreferenceFragment implements
         }
     }
 }
-
-

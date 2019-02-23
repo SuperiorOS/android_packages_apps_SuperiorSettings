@@ -47,6 +47,12 @@
         android:title="@string/battery_style_category_title"
         android:summary="@string/battery_style_category_summary"
         android:fragment="com.superior.settings.fragments.StatusBarBattery" />
+		
+ 	<Preference
+        android:key="battery_bar_category"
+        android:fragment="com.superior.settings.fragments.BatteryBar"
+        android:title="@string/battery_bar_title"
+        android:summary="@string/battery_bar_summary" />
 
 	</PreferenceCategory>
 
