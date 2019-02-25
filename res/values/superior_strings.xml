@@ -641,5 +641,6 @@
     <string name="qstile_squaremedo">The Squaremedo</string>
     <string name="qstile_inkdrop">Ink</string>
     <string name="qstile_cookie">Cookie</string>	
+    <string name="qstile_circleoutline">Circle Outline</string>
 
 </resources>
