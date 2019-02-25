@@ -512,6 +512,7 @@
     <string name="qstile_teardrop">Teardrop</string>
     <string name="qstile_wavey">Wavey</string>
     <string name="qstile_cookie">Cookie</string>
+    <string name="qstile_circleoutline">CircleOutline</string>
 
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Pocket detection</string>
