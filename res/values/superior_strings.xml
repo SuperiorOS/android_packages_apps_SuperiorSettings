@@ -67,6 +67,8 @@
     <string name="markw_maintainer_description">Redmi 4 Prime</string>
     <string name="land_maintainer">Jacob Deepu</string>
     <string name="land_maintainer_description">Redmi 3S/prime</string>
+    <string name="vince_maintainer">Widi Aprianto</string>
+    <string name="vince_maintainer_description">Redmi Note 5/5 Plus</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>

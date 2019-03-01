@@ -139,7 +139,7 @@
         android:summary="@string/sanders_maintainer_description"
         android:icon="@drawable/ic_devs_phone">
         <intent android:action="android.intent.action.VIEW"
-        android:data="http://t.me/yashh5" />
+        android:data="http://t.me/rdjr5" />
     </Preference>
     </PreferenceCategory>
 
@@ -198,6 +198,14 @@
         android:icon="@drawable/ic_devs_phone">
         <intent android:action="android.intent.action.VIEW"
         android:data="http://t.me/prakaship78" />
+    </Preference>
+	
+    <Preference
+        android:title="@string/vince_maintainer"
+        android:summary="@string/vince_maintainer_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent android:action="android.intent.action.VIEW"
+        android:data="http://t.me/wufix" />
     </Preference>
     </PreferenceCategory>
 </PreferenceScreen>
