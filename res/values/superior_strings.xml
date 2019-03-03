@@ -83,7 +83,7 @@
     <string name="device_X01BD_description">X01BD\nJayant Deshmukh</string>
     <string name="device_tissot">MI A1</string>
     <string name="device_tissot_description">tissot\nJayant Deshmukh</string>
-	<string name="device_daisy">Mi A2 Lite</string>
+    <string name="device_daisy">Mi A2 Lite</string>
     <string name="device_daisy_description">daisy\npawelik001</string>
     <string name="device_payton">Moto X4</string>
     <string name="device_payton_description">payton\nDhinesh</string>
@@ -708,4 +708,5 @@
     <string name="show_network_traffic_up">Uplink</string>
     <string name="show_network_traffic_down">Downlink</string>
     <string name="show_network_traffic_all">Uplink and Downlink</string>
+    <string name="nettraf_font_size">Single net font size</string>
 </resources>
