@@ -154,20 +154,6 @@
     <!-- Hardware keys -->
     <string name="hardware_keys_category">Tombol Perangkat Keras</string>
 
-    <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Tombol batas waktu lampu latar</string>
-    <string name="backlight_timeout_on">Selalu Aktifkan</string>
-    <string name="backlight_timeout_3s">3 detik</string>
-    <string name="backlight_timeout_default">5 detik (default)</string>
-    <string name="backlight_timeout_10s">10 detik</string>
-    <string name="backlight_timeout_15s">15 detik</string>
-    <string name="backlight_timeout_20s">20 detik</string>
-    <string name="backlight_timeout_30s">30 detik</string>
-
-    <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Lampu latar</string>
-    <string name="button_brightness_sw_title">Aktifkan Lampu latar</string>
-
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Ketuk ganda untuk mengunci layar</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Ketuk ganda layar kunci untuk membuat perangkat tidur</string>
