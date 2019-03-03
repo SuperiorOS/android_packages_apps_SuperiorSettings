@@ -41,8 +41,6 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 
-import com.superior.settings.preferences.SystemSettingSwitchPreference;
-import com.superior.settings.preferences.SystemSettingSwitchPreference;
 import com.superior.settings.preferences.CustomSeekBarPreference;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 import com.android.internal.logging.nano.MetricsProto;
@@ -68,8 +66,8 @@ public class ClockSettings extends SettingsPreferenceFragment implements
 
     static final int DEFAULT_STATUS_CLOCK_COLOR = 0xffffffff;
 
-    private SystemSettingSwitchPreference mStatusBarClockShow;
-    private SystemSettingSwitchPreference mStatusBarSecondsShow;
+    private SwitchPreference mStatusBarClockShow;
+    private SwitchPreference mStatusBarSecondsShow;
     private ListPreference mStatusBarClock;
     private ListPreference mStatusBarAmPm;
     private ListPreference mClockDateDisplay;
@@ -90,21 +88,18 @@ public class ClockSettings extends SettingsPreferenceFragment implements
         String hexColor;
 
 	// clock settings
-        mStatusBarClockShow = (SystemSettingSwitchPreference) findPreference(STATUS_BAR_CLOCK);
-        mStatusBarSecondsShow = (SystemSettingSwitchPreference) findPreference(STATUS_BAR_CLOCK_SECONDS);
-        mStatusBarClock = (ListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
-        mStatusBarAmPm = (ListPreference) findPreference(STATUS_BAR_AM_PM);
-        mClockDateDisplay = (ListPreference) findPreference(STATUS_BAR_CLOCK_DATE_DISPLAY);
-        mClockDateStyle = (ListPreference) findPreference(STATUS_BAR_CLOCK_DATE_STYLE);
 
+        mStatusBarClockShow = (SwitchPreference) findPreference(STATUS_BAR_CLOCK);
         mStatusBarClockShow.setChecked((Settings.System.getInt(resolver,
                 Settings.System.STATUS_BAR_CLOCK, 1) == 1));
         mStatusBarClockShow.setOnPreferenceChangeListener(this);
 
+        mStatusBarSecondsShow = (SwitchPreference) findPreference(STATUS_BAR_CLOCK_SECONDS);
         mStatusBarSecondsShow.setChecked((Settings.System.getInt(resolver,
                 Settings.System.STATUS_BAR_CLOCK_SECONDS, 0) == 1));
         mStatusBarSecondsShow.setOnPreferenceChangeListener(this);
 
+        mStatusBarClock = (ListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
         int clockStyle = Settings.System.getInt(resolver,
                 Settings.System.STATUSBAR_CLOCK_STYLE, 0);
         mStatusBarClock.setValue(String.valueOf(clockStyle));
@@ -131,6 +126,7 @@ public class ClockSettings extends SettingsPreferenceFragment implements
         mClockFontStyle.setValue(String.valueOf(showClockFont));
         mClockFontStyle.setOnPreferenceChangeListener(this);
 
+        mStatusBarAmPm = (ListPreference) findPreference(STATUS_BAR_AM_PM);
         if (DateFormat.is24HourFormat(getActivity())) {
             mStatusBarAmPm.setEnabled(false);
             mStatusBarAmPm.setSummary(R.string.status_bar_am_pm_info);
@@ -142,12 +138,14 @@ public class ClockSettings extends SettingsPreferenceFragment implements
             mStatusBarAmPm.setOnPreferenceChangeListener(this);
         }
 
+        mClockDateDisplay = (ListPreference) findPreference(STATUS_BAR_CLOCK_DATE_DISPLAY);
         int clockDateDisplay = Settings.System.getInt(resolver,
                 Settings.System.STATUSBAR_CLOCK_DATE_DISPLAY, 0);
         mClockDateDisplay.setValue(String.valueOf(clockDateDisplay));
         mClockDateDisplay.setSummary(mClockDateDisplay.getEntry());
         mClockDateDisplay.setOnPreferenceChangeListener(this);
 
+        mClockDateStyle = (ListPreference) findPreference(STATUS_BAR_CLOCK_DATE_STYLE);
         int clockDateStyle = Settings.System.getInt(resolver,
                 Settings.System.STATUSBAR_CLOCK_DATE_STYLE, 0);
         mClockDateStyle.setValue(String.valueOf(clockDateStyle));
