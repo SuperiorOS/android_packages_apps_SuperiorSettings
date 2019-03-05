@@ -35,7 +35,7 @@
         android:summary="@string/superior_about_info_summary" 
         android:icon="@drawable/ic_devs_info" >
         <intent android:action="android.intent.action.VIEW"
-        android:data="https://plus.google.com/u/0/communities/109206747517820828242" />
+        android:data="https://paypal.me/Sipun?locale.x=en_GB" />
     </Preference>
     </PreferenceCategory>
 

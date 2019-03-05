@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="superior_settings_title">Cài đặt Superior</string>
-    <string name="superior_dashboard_summary">Hủy cốt lõi</string>
+    <string name="superior_dashboard_summary">Armageddon Core</string>
 
     <!-- ROM Info -->
     <string name="superior_about_info">Về dự án Superior</string>
