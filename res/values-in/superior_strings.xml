@@ -149,7 +149,7 @@
 
     <!-- Incall Home button behavior-->
     <string name="allow_incall_home_title">Tombol beranda saat berdering</string>
-    <string name="allow_incall_home_summary">zinkan untuk menggunakan tombol beranda saat perangkat berdering</string>
+    <string name="allow_incall_home_summary">Izinkan untuk menggunakan tombol beranda saat perangkat berdering</string>
 
     <!-- Hardware keys -->
     <string name="hardware_keys_category">Tombol Perangkat Keras</string>
