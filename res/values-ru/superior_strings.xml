@@ -36,10 +36,8 @@
     <string name="dev3_description">Дизайнер, сопровождающий Tulip</string>
     <string name="dev_4">Titus Joseph</string>
     <string name="dev4_description">Дизайнер</string>
-    <string name="dev_5">Saurabh Sharma</string>
-    <string name="dev5_description">Веб-разработчик</string>
-    <string name="dev_6">Swapnil Soni</string>
-    <string name="dev6_description">Разработчик</string>
+    <string name="dev_5">Swapnil Soni</string>
+    <string name="dev5_description">Разработчик</string>
 
     <!-- Maintainer Info -->
     <string name="device_xiaomi">Xiaomi</string>
@@ -47,6 +45,7 @@
     <string name="device_motorola">Motorola</string>
     <string name="device_pantech">Pantech</string>
     <string name="device_lenovo">Lenovo</string>
+    <string name="device_oneplus">Oneplus</string>
     <string name="mido_maintainer">Himanshu ‌‌‎Naamdev</string>
     <string name="mido_maintainer_description">Redmi Note 4</string>
     <string name="santoni_maintainer">Prakash_S</string>

@@ -145,6 +145,18 @@
 
     <PreferenceCategory
         android:key="maintainer"
+        android:title="@string/device_oneplus" >
+    <Preference
+        android:title="@string/oneplus2_maintainer"
+        android:summary="@string/oneplus2_maintainer_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent android:action="android.intent.action.VIEW"
+        android:data="http://t.me/SarthakAditya" />
+    </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="maintainer"
         android:title="@string/device_pantech" >
 			
     <Preference
@@ -206,18 +218,6 @@
         android:icon="@drawable/ic_devs_phone">
         <intent android:action="android.intent.action.VIEW"
         android:data="http://t.me/wufix" />
-    </Preference>
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="maintainer"
-        android:title="@string/device_oneplus" >
-    <Preference
-        android:title="@string/oneplus2_maintainer"
-        android:summary="@string/oneplus2_maintainer_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent android:action="android.intent.action.VIEW"
-        android:data="http://t.me/SarthakAditya" />
     </Preference>
     </PreferenceCategory>
 
