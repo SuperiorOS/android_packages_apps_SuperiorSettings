@@ -69,6 +69,8 @@
     <string name="land_maintainer_description">Redmi 3S/prime</string>
     <string name="vince_maintainer">Widi Aprianto</string>
     <string name="vince_maintainer_description">Redmi Note 5/5 Plus</string>
+    <string name="oneplus2_maintainer">Sarthak Aditya</string>
+    <string name="oneplus2_maintainer_description">OnePlus 2</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>

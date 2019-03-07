@@ -67,7 +67,7 @@
         android:data="https://t.me/Advertpavan" />
     </Preference>
 		
-    <Preference
+ <Preference
         android:title="@string/dev_4"
         android:summary="@string/dev4_description"
         android:icon="@drawable/ic_design" >
@@ -208,4 +208,17 @@
         android:data="http://t.me/wufix" />
     </Preference>
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/device_oneplus" >
+    <Preference
+        android:title="@string/oneplus2_maintainer"
+        android:summary="@string/oneplus2_maintainer_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent android:action="android.intent.action.VIEW"
+        android:data="http://t.me/SarthakAditya" />
+    </Preference>
+    </PreferenceCategory>
+
 </PreferenceScreen>
