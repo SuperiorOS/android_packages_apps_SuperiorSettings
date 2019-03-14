@@ -616,10 +616,6 @@
     <string name="slim_recents_mem_display_color">Memory bar color</string>
     <string name="slim_recents_mem_display_text_color">Memory bar text color</string>
     <string name="how_to_slim">Swipe up on home gesture must be disabled to use slim recents! \nIn case of double recents type issue perform a SystemUI reboot by selecting desired option\nLauncher crashing after reboot? Check if swipe up is disabled and reboot!</string>
-
-    <!-- Recents icon pack -->
-    <string name="recents_icon_pack_title">Icon Pack</string>
-    <string name="recents_icon_pack_summary">Apply a custom icon pack for Recents panel</string>
 	
     <!-- Display cutout options -->
     <string name="cutout_main">Display Cutout</string>
