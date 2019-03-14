@@ -70,7 +70,7 @@ import com.android.internal.util.superior.SuperiorUtils;
 import com.superior.settings.R;
 
 public class RecentsSettings extends SettingsPreferenceFragment implements
-       Preference.OnPreferenceChangeListener, DialogInterface.OnDismissListener {
+       Preference.OnPreferenceChangeListener {
 
     private ListPreference mRecentsComponentType;
     private SwitchPreference mSlimToggle;
