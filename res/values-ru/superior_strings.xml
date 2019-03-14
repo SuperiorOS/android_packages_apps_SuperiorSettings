@@ -394,9 +394,6 @@
     <string name="anbi_title">Случайное прикосновение</string>
     <string name="anbi_summary">Запретить взаимодействие с кнопками во время касания экрана</string>
 
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Затемнение</string>
-
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_title">Ползунок яркости</string>
     <string name="qs_show_brightness_summary">Отображать слайдер яркости в быстрых настройках</string>

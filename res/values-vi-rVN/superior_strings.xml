@@ -394,9 +394,6 @@
     <string name="anbi_title">Accidental touch</string>
     <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
 
-    <!-- QuickSettings Panel Transparency -->
-    <string name="qs_panel_alpha_title">Độ mờ</string>
-
     <!-- Quick Settings brightness slider -->
     <string name="qs_show_brightness_title">Thanh trượt độ sáng</string>
     <string name="qs_show_brightness_summary">Hiển thị một thanh trượt độ sáng trong bảng cài đặt nhanh</string>

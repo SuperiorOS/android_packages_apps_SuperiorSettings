@@ -26,7 +26,6 @@ import android.content.Context;
 import android.content.ContentResolver;
 import android.content.res.Resources;
 import android.os.Bundle;
-import android.os.UserHandle;
 import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
@@ -53,11 +52,9 @@ import com.superior.settings.preferences.Utils;
 public class QuickSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
-    private static final String OMNI_QS_PANEL_BG_ALPHA = "qs_panel_bg_alpha";
     private static final String QS_HEADER_STYLE = "qs_header_style";
     private static final String QS_TILE_STYLE = "qs_tile_style";
 
-    private CustomSeekBarPreference mQsPanelAlpha;
     private ListPreference mQsHeaderStyle;
     private ListPreference mQsTileStyle;
 
@@ -68,13 +65,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
-        mQsPanelAlpha = (CustomSeekBarPreference) findPreference(OMNI_QS_PANEL_BG_ALPHA);
-        int qsPanelAlpha = Settings.System.getIntForUser(resolver,
-                Settings.System.OMNI_QS_PANEL_BG_ALPHA, 255, UserHandle.USER_CURRENT);
-        mQsPanelAlpha.setValue(qsPanelAlpha);
-        mQsPanelAlpha.setOnPreferenceChangeListener(this);
-
-        mQsHeaderStyle = (ListPreference) findPreference(QS_HEADER_STYLE);
+       mQsHeaderStyle = (ListPreference) findPreference(QS_HEADER_STYLE);
        int qsHeaderStyle = Settings.System.getInt(resolver,
                Settings.System.QS_HEADER_STYLE, 0);
        int newIndex = mQsHeaderStyle.findIndexOfValue(String.valueOf(qsHeaderStyle));
@@ -96,13 +87,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
 
-        if (preference == mQsPanelAlpha) {
-            int bgAlpha = (Integer) newValue;
-            Settings.System.putIntForUser(getContentResolver(),
-                    Settings.System.OMNI_QS_PANEL_BG_ALPHA, bgAlpha,
-                    UserHandle.USER_CURRENT);
-            return true;
-        } else if (preference == mQsHeaderStyle) {
+        if (preference == mQsHeaderStyle) {
             String value = (String) newValue;
             Settings.System.putInt(resolver, Settings.System.QS_HEADER_STYLE,
                    Integer.valueOf(value));
@@ -132,5 +117,4 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     public void onPause() {
         super.onPause();
     }
-
 }
