@@ -691,4 +691,9 @@
     <!-- OOS Clear all button -->
     <string name="enable_clear_all_button">OOS Styled clear all button</string>
     <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
+
+    <!-- Ambient visualizer -->
+    <string name="ambient_visualizer_title">Ambient visualizer</string>
+    <string name="ambient_visualizer_summary">Shows white visualization bars on ambient display unless custom color is selected</string>
+
 </resources>

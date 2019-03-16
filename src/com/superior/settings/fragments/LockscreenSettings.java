@@ -37,6 +37,7 @@ import android.view.ViewGroup;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 import com.superior.settings.preferences.SecureSettingMasterSwitchPreference;
+import com.superior.settings.preferences.SystemSettingSwitchPreference;
 
 import com.superior.settings.R;
 
@@ -46,11 +47,13 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
     private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
     private static final String LOCKSCREEN_VISUALIZER_ENABLED = "lockscreen_visualizer_enabled";
     private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker_category";
+    private static final String AMBIENT_VISUALIZER_ENABLED = "ambient_visualizer_enabled";
 
     private SecureSettingMasterSwitchPreference mVisualizerEnabled;
     private FingerprintManager mFingerprintManager;
     private SwitchPreference mFingerprintVib;
     private PreferenceCategory mFODIconPickerCategory;
+    private SystemSettingSwitchPreference mAmbientVisualizerEnabled;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -76,11 +79,21 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
                 LOCKSCREEN_VISUALIZER_ENABLED, 0);
         mVisualizerEnabled.setChecked(visualizerEnabled != 0);
 
+        mAmbientVisualizerEnabled = (SystemSettingSwitchPreference) findPreference(AMBIENT_VISUALIZER_ENABLED);
+        updateAmbientVisualizer(visualizerEnabled == 1);
+
         mFODIconPickerCategory = (PreferenceCategory) findPreference(FOD_ICON_PICKER_CATEGORY);
         if (mFODIconPickerCategory != null
                 && !getResources().getBoolean(com.android.internal.R.bool.config_needCustomFODView)) {
             prefScreen.removePreference(mFODIconPickerCategory);
         }
+    }
+
+    private void updateAmbientVisualizer(boolean value) {
+        if (!value) {
+            mAmbientVisualizerEnabled.setChecked(false);
+        }
+        mAmbientVisualizerEnabled.setEnabled(value);
     }
 
     @Override
@@ -110,6 +123,7 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
             boolean value = (Boolean) newValue;
             Settings.Secure.putInt(getContentResolver(),
                     LOCKSCREEN_VISUALIZER_ENABLED, value ? 1 : 0);
+            updateAmbientVisualizer(value);
             return true;
         }
         return false;
