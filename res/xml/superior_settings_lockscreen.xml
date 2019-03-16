@@ -137,6 +137,13 @@
         android:title="@string/lockscreen_visualizer_enable"
         android:summary="@string/lockscreen_visualizer_enable_summary"
         android:defaultValue="false" />
+
+    <com.superior.settings.preferences.SecureSettingSwitchPreference
+        android:key="ambient_visualizer"
+        android:title="@string/ambient_visualizer_title"
+        android:summary="@string/ambient_visualizer_summary"
+        android:dependency="lockscreen_visualizer_enabled"
+        android:defaultValue="false" />
     </PreferenceCategory>
 	 
     <PreferenceCategory
