@@ -942,5 +942,6 @@
     <string name="switch_telegram">Telegram</string>
     <string name="switch_md2">MD2</string>
     <string name="switch_retro">Retro</string>
+    <string name="switch_stockish">Stockish</string>
 
 </resources>
