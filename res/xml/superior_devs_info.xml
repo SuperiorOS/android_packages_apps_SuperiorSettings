@@ -209,7 +209,7 @@
         android:summary="@string/santoni_maintainer_description"
         android:icon="@drawable/ic_devs_phone">
         <intent android:action="android.intent.action.VIEW"
-        android:data="http://t.me/prakaship78" />
+        android:data="http://t.me/Anindito12" />
     </Preference>
 	
     <Preference
