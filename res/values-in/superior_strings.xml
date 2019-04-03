@@ -72,6 +72,8 @@
     <string name="vince_maintainer_description">Redmi Note 5/5 Plus</string>
     <string name="oneplus2_maintainer">Sarthak Aditya</string>
     <string name="oneplus2_maintainer_description">OnePlus 2</string>
+    <string name="beryllium_maintainer">Saikiran</string>
+    <string name="beryllium_maintainer_description">Poco F1</string>
 
     <!-- Categories -->
     <string name="button_title">Tombol</string>
