@@ -71,6 +71,8 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
     private CustomSeekBarPreference mClockFontSize;
     private CustomSeekBarPreference mDateFontSize;
     SystemSettingListPreference mLockClockStyle;
+    private ListPreference clockAlign, clockSelect;
+    private PreferenceScreen preferenceScreen;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -115,6 +117,17 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
         mLockClockStyle.setValue(String.valueOf(Settings.System.getInt(
                 getContentResolver(), Settings.System.LOCKSCREEN_CLOCK_SELECTION, 0)));
         mLockClockStyle.setOnPreferenceChangeListener(this);
+		
+        preferenceScreen = getPreferenceScreen();
+        clockSelect = (ListPreference) findPreference("lockscreen_clock_selection");
+        clockAlign = (ListPreference) findPreference("lockscreen_text_clock_align");
+        clockSelect.setOnPreferenceChangeListener(this);
+        String value = clockSelect.getValue();
+        if (value.equals("17")) {
+            preferenceScreen.addPreference(clockAlign);
+        } else {
+            preferenceScreen.removePreference(clockAlign);
+        }
 		
         // Lockscren Date Fonts
         mLockDateFonts = (ListPreference) findPreference(LOCK_DATE_FONTS);
@@ -187,6 +200,16 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
                 Settings.System.putInt(getContentResolver(), Settings.System.LOCKSCREEN_INFO, 1);
             }
             return true;
+        } else if (preference == mLockClockStyle) {
+            int val = Integer.valueOf((String) newValue);
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.LOCKSCREEN_CLOCK_SELECTION, val);
+            if (val == 17) {
+                preferenceScreen.addPreference(clockAlign);
+            } else {
+                preferenceScreen.removePreference(clockAlign);
+            }
+        return true;
         }
         return false;
     }

@@ -810,5 +810,10 @@
 	
     <!-- Recents Membar -->
     <string name="systemui_recents_mem_display_title">Show memory bar</string> 
-    <string name="systemui_recents_mem_display_summary">Enable or disable ram bar in recent app view</string> 
+    <string name="systemui_recents_mem_display_summary">Enable or disable ram bar in recent app view</string>
+	
+    <!-- Lockscreen text clock align -->
+    <string name="lockscreen_clock_align0">Left</string>
+    <string name="lockscreen_clock_align1">Center</string>
+    <string name="lockscreen_clock_align2">Right</string>
 </resources>
