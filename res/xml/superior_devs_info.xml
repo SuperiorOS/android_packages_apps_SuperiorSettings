@@ -158,6 +158,14 @@
     <PreferenceCategory
         android:key="maintainer"
         android:title="@string/device_xiaomi" >
+		
+    <Preference
+        android:title="@string/capricorn_maintainer"
+        android:summary="@string/capricorn_maintainer_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent android:action="android.intent.action.VIEW"
+        android:data="http://t.me/henmadx" />
+    </Preference>
 
     <Preference
         android:title="@string/beryllium_maintainer"
