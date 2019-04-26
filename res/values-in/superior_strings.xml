@@ -385,6 +385,7 @@
 	<!-- Status bar battery style-->
     <string name="status_bar_battery_style_title">Gaya Baterai</string>
     <string name="status_bar_battery_style_port">Potret</string>
+    <string name="status_bar_battery_style_q">Q style</string>
     <string name="status_bar_battery_style_circle">Lingkaran</string>
 	<string name="battery_style_dotted_circle">Lingkaran putus-putus</string>
 	<string name="status_bar_battery_style_text">Teks</string>

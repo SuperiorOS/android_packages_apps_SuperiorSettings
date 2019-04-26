@@ -374,6 +374,7 @@
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_title">Phong cách biểu tượng pin</string>
     <string name="status_bar_battery_style_port">Thẳng</string>
+    <string name="status_bar_battery_style_q">Q style</string>
     <string name="status_bar_battery_style_circle">Vòng tròn</string>
     <string name="battery_style_dotted_circle">Vòng chấm</string>
     <string name="status_bar_battery_style_text">Văn bản</string>

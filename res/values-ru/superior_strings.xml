@@ -374,6 +374,7 @@
     <!-- Status bar battery style-->
     <string name="status_bar_battery_style_title">Стиль батареи</string>
     <string name="status_bar_battery_style_port">Портрет</string>
+    <string name="status_bar_battery_style_q">Q style</string>
     <string name="status_bar_battery_style_circle">Круг</string>
     <string name="battery_style_dotted_circle">Точечный круг</string>
     <string name="status_bar_battery_style_text">Текст</string>
