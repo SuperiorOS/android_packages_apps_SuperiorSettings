@@ -37,6 +37,12 @@
          android:entries="@array/qs_selector_entries"
          android:entryValues="@array/qs_selector_values" />
 
+    <Preference
+        android:fragment="com.superior.settings.fragments.QuickSettings.java"
+        android:icon="@drawable/ic_notification"
+        android:key="notification"
+        android:title="@string/notifications_title" />
+
 	</PreferenceCategory>
 
     <PreferenceCategory
