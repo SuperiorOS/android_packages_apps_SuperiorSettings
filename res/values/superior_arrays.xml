@@ -746,7 +746,21 @@
         <item>@string/quick_pulldown_left</item>
         <item>@string/quick_pulldown_always</item>
     </string-array>
-     <string-array name="quick_pulldown_values" translatable="false">
+    <string-array name="quick_pulldown_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <!-- Smart pulldown -->
+    <string-array name="smart_pulldown_entries" translatable="false">
+        <item>@string/smart_pulldown_off</item>
+        <item>@string/smart_pulldown_dismissable</item>
+        <item>@string/smart_pulldown_ongoing</item>
+        <item>@string/smart_pulldown_none</item>
+    </string-array>
+    <string-array name="smart_pulldown_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
