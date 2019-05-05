@@ -37,12 +37,6 @@
          android:entries="@array/qs_selector_entries"
          android:entryValues="@array/qs_selector_values" />
 
-    <com.superior.settings.preferences.SystemSettingSwitchPreference
-        android:key="status_bar_quick_qs_pulldown"
-        android:title="@string/status_bar_quick_qs_pulldown"
-        android:summary="@string/status_bar_quick_qs_pulldown_summary"
-        android:defaultValue="true" />
-
 	</PreferenceCategory>
 
     <PreferenceCategory
