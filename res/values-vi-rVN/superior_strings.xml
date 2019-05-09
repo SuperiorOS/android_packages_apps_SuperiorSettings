@@ -28,7 +28,7 @@
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Người sáng lập/phát triển\nduy trì Whyred</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev2_description">Đội ngũ cốt lõi/nhà phát triển\nduy trì X01BD</string>
+    <string name="dev2_description">Đội ngũ cốt lõi/nhà phát triển\nduy trì X01BD | Tissot</string>
     <string name="dev_3">Pavan Patel</string>
     <string name="dev3_description">Đội ngũ cốt lõi/nhà thiết kế\nduy trì thiết bị Tulip</string>
     <string name="dev_4">Titus Joseph</string>
@@ -56,7 +56,7 @@
     <string name="device_ef63">Vega Iron 2</string>
     <string name="device_ef63_description">ef63\nChau Truong Thinh</string>
     <string name="device_kuntao">P2</string>
-    <string name="device_kuntao_description">kuntao\nSaikiran</string>
+    <string name="device_kuntao_description">kuntao\nAdvaith Bhat</string>
     <string name="device_z2_plus">Zuk Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nYashodhan Sawardekar</string>
     <string name="device_markw">Redmi 4 Prime</string>
