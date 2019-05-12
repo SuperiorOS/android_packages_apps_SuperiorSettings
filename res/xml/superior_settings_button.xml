@@ -35,6 +35,33 @@
         android:defaultValue="false" />
  	</PreferenceCategory>
 
+	<PreferenceCategory
+        android:key="button_backlight_options_category"
+        android:title="@string/button_backlight_options_category" >
+
+	<com.superior.settings.preferences.CustomSeekBarPreference
+        android:key="button_brightness"
+        android:title="@string/button_brightness_title"
+        android:max="255"
+        settings:min="0"
+        settings:units=""
+        android:persistent="false" />
+
+ 	<SwitchPreference
+        android:key="button_brightness"
+        android:title="@string/button_brightness_sw_title"
+        android:persistent="false" />
+
+ 	<ListPreference
+        android:dialogTitle="@string/backlight_timeout_title"
+        android:entries="@array/backlight_timeout_entries"
+        android:entryValues="@array/backlight_timeout_values"
+        android:key="backlight_timeout"
+        android:persistent="false"
+        android:title="@string/backlight_timeout_title" />
+
+    </PreferenceCategory>
+
      <PreferenceCategory
         android:key="back_key"
         android:title="@string/hardware_keys_back_key_title" >
@@ -149,27 +176,6 @@
         android:title="@string/hardware_keys_double_tap_title" >
  	</com.superior.settings.preferences.ActionPreference>
     </PreferenceCategory>
-
-	<com.superior.settings.preferences.CustomSeekBarPreference
-        android:key="button_brightness"
-        android:title="@string/button_brightness_title"
-        android:max="255"
-        settings:min="0"
-        settings:units=""
-        android:persistent="false" />
-
- 	<SwitchPreference
-        android:key="button_brightness"
-        android:title="@string/button_brightness_sw_title"
-        android:persistent="false" />
-
- 	<ListPreference
-        android:dialogTitle="@string/backlight_timeout_title"
-        android:entries="@array/backlight_timeout_entries"
-        android:entryValues="@array/backlight_timeout_values"
-        android:key="backlight_timeout"
-        android:persistent="false"
-        android:title="@string/backlight_timeout_title" />
 
     <PreferenceCategory
         android:key="volume_rocker_category"

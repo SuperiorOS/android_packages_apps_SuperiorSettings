@@ -98,6 +98,7 @@
     <string name="qs_header_category">Header</string>
     <string name="volume_rocker_category">Volume Rocker</string>
     <string name="misc_category">Misc</string>
+    <string name="button_backlight_options_category">Backlight options</string>
 	
     <!-- General strings -->
     <string name="ok">OK</string>
