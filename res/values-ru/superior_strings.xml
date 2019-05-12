@@ -157,6 +157,20 @@
     <!-- Hardware keys -->
     <string name="hardware_keys_category">Аппаратные кнопки</string>
 
+    <!-- Buttons backlight timeout -->
+    <string name="backlight_timeout_title">Таймаут подсветки кнопок</string>
+    <string name="backlight_timeout_on">Всегда включено</string>
+    <string name="backlight_timeout_3s">3 секунды</string>
+    <string name="backlight_timeout_default">5 секунд (По умолчанию)</string>
+    <string name="backlight_timeout_10s">10 секунд</string>
+    <string name="backlight_timeout_15s">15 секунд</string>
+    <string name="backlight_timeout_20s">20 секунд</string>
+    <string name="backlight_timeout_30s">30 секунд</string>
+
+    <!-- Enable keys backlight-->
+    <string name="button_brightness_title">Подсветка</string>
+    <string name="button_brightness_sw_title">Включить подсветку</string>
+
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Двойной тап по экрану блокировки</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Двойной тап по экрану блокировки выключает экран</string>

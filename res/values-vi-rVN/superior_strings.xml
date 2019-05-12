@@ -153,6 +153,20 @@
     <!-- Hardware keys -->
     <string name="hardware_keys_category">Các phím cứng</string>
 
+    <!-- Buttons backlight timeout -->
+    <string name="backlight_timeout_title">Thời gian sáng đèn nền phím cứng</string>
+    <string name="backlight_timeout_on">Luôn luôn được kích hoạt</string>
+    <string name="backlight_timeout_3s">3 giây</string>
+    <string name="backlight_timeout_default">5 giây (mặc định)</string>
+    <string name="backlight_timeout_10s">10 giây</string>
+    <string name="backlight_timeout_15s">15 giây</string>
+    <string name="backlight_timeout_20s">20 giây</string>
+    <string name="backlight_timeout_30s">30 giây</string>
+
+    <!-- Enable keys backlight-->
+    <string name="button_brightness_title">Đèn nền</string>
+    <string name="button_brightness_sw_title">Bật đèn nền</string>
+
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">Chạm 2 lần trên màn hình khóa</string>
     <string name="double_tap_to_sleep_lockscreen_summary">Chạm 2 lần vào màn hình khóa để tắt màn hình thiết bị</string>
