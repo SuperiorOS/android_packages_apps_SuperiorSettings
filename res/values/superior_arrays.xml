@@ -687,7 +687,6 @@
         <item>@string/lockscreen_clock_selection_sneeky</item>
         <item>@string/lockscreen_clock_selection_gradient_full</item>
         <item>@string/lockscreen_clock_selection_gradient_likeqs</item>
-        <item>@string/lockscreen_clock_selection_text</item>
     </string-array>
 
     <string-array name="lockscreen_clock_selection_values" translatable="false">
@@ -708,7 +707,6 @@
         <item>14</item>
         <item>15</item>
         <item>16</item>
-        <item>17</item>
     </string-array>
 	
     <!-- Lockscreen cover art filter -->
@@ -744,18 +742,6 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
-    </string-array>
-	
-    <string-array name="lockscreen_clock_align_entries" translatable="false">
-        <item>@string/lockscreen_clock_align0</item>
-        <item>@string/lockscreen_clock_align1</item>
-        <item>@string/lockscreen_clock_align2</item>
-    </string-array>
-	
-    <string-array name="lockscreen_clock_align_values" translatable="false">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
     </string-array>
 
     <!-- Quick Pulldown -->

@@ -33,13 +33,6 @@
         android:entryValues="@array/lockscreen_clock_selection_values"
         android:dependency="lockscreen_clock"
         android:defaultValue="0" />
-		
-    <com.superior.settings.preferences.SystemSettingListPreference
-        android:key="lockscreen_text_clock_align"
-        android:title="Text Clock Alignment"
-        android:entries="@array/lockscreen_clock_align_entries"
-        android:entryValues="@array/lockscreen_clock_align_values"
-        android:defaultValue="0" />
 
     <ListPreference
         android:key="lock_clock_fonts"

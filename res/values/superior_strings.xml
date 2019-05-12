@@ -785,7 +785,6 @@
     <string name="lockscreen_clock_selection_sneeky">Analog (Sneeky)</string>
     <string name="lockscreen_clock_selection_gradient_full">Full gradient clock</string>
     <string name="lockscreen_clock_selection_gradient_likeqs">Monochrome gradient clock</string>
-    <string name="lockscreen_clock_selection_text">Android Q Text Clock</string>
 	
     <!-- Lock Clock & Date Size -->
     <string name="lockdate_font_size_title">Date font size</string>
@@ -826,11 +825,6 @@
     <!-- Recents Membar -->
     <string name="systemui_recents_mem_display_title">Show memory bar</string> 
     <string name="systemui_recents_mem_display_summary">Enable or disable ram bar in recent app view</string> 
-	
-    <!-- Lockscreen text clock align -->
-    <string name="lockscreen_clock_align0">Left</string>
-    <string name="lockscreen_clock_align1">Center</string>
-    <string name="lockscreen_clock_align2">Right</string>
 
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Quick pulldown</string>
