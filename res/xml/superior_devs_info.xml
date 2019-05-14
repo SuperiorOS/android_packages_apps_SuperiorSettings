@@ -129,15 +129,6 @@
             android:action="android.intent.action.VIEW"
             android:data="http://t.me/AdvaithBhat" />
     </Preference>
-		
-    <Preference
-        android:title="@string/device_z2_plus"
-        android:summary="@string/device_z2_plus_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/rasenkai" />
-    </Preference>
     </PreferenceCategory>
 	
     <PreferenceCategory
@@ -164,6 +155,20 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="http://t.me/chautruongthinh" />
+    </Preference>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/device_smartron" >
+			
+    <Preference
+        android:title="@string/device_rimo02a"
+        android:summary="@string/device_rimo02a_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://t.me/cult_of_kosmos" />
     </Preference>
     </PreferenceCategory>
 

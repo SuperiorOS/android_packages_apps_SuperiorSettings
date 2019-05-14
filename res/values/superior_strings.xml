@@ -46,6 +46,7 @@
     <string name="device_pantech">Pantech</string>
     <string name="device_lenovo">Lenovo</string>
     <string name="device_oneplus">Oneplus</string>
+    <string name="device_smartron">Smartron</string>
     <string name="device_mido">Redmi Note 4</string>
     <string name="device_mido_description">mido\nHimanshu ‌‌‎Naamdev</string>
     <string name="device_santoni">Redmi 4/4X</string>
@@ -58,8 +59,6 @@
     <string name="device_ef63_description">ef63\nChau Truong Thinh</string>
     <string name="device_kuntao">P2</string>
     <string name="device_kuntao_description">kuntao\nAdvaith Bhat</string>
-    <string name="device_z2_plus">Zuk Z2 Plus</string>
-    <string name="device_z2_plus_description">z2_plus\nYashodhan Sawardekar</string>
     <string name="device_markw">Redmi 4 Prime</string>
     <string name="device_markw_description">markw\nAggelos Savvopoulos</string>
     <string name="device_land">Redmi 3S/prime</string>
@@ -72,6 +71,8 @@
     <string name="device_beryllium_description">beryllium\nSaikiran</string>
     <string name="device_capricorn">Mi 5s</string>
     <string name="device_capricorn_description">capricorn\nHenma</string>
+    <string name="device_rimo02a">srt. phone</string>
+    <string name="device_rimo02a_description">rimo02a\nShreehari Vaasishta</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
