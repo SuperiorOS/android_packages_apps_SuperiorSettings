@@ -80,6 +80,8 @@
     <string name="device_capricorn_description">capricorn\nHenma</string>
     <string name="device_rimo02a">srt. phone</string>
     <string name="device_rimo02a_description">rimo02a\nShreehari Vaasishta</string>
+    <string name="device_tiffany">Mi 5X</string>
+    <string name="device_tiffany_description">tiffany\nEthan</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
