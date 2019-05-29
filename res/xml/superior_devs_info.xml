@@ -261,15 +261,6 @@
             android:action="android.intent.action.VIEW"
             android:data="http://t.me/JacobDeepu" />
     </Preference>
-
-    <Preference
-        android:title="@string/device_santoni"
-        android:summary="@string/device_santoni_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/Anindito12" />
-    </Preference>
 	
     <Preference
         android:title="@string/device_vince"
