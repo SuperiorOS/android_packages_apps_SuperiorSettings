@@ -82,6 +82,8 @@
     <string name="device_rimo02a_description">rimo02a\nShreehari Vaasishta</string>
     <string name="device_tiffany">Mi 5X</string>
     <string name="device_tiffany_description">tiffany\nEthan</string>
+    <string name="device_riva">Redmi 5A</string>
+    <string name="device_riva_description">riva\nNick</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
