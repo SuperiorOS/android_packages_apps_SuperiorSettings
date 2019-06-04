@@ -1,0 +1,883 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright © 2018 The Superior OS Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="superior_settings_title">Eklentiler</string>
+    <string name="superior_dashboard_summary">Armagedon çekirdek</string>
+	
+    <!-- ROM Info -->
+    <string name="superior_about_info">Proje Hakkında</string>
+    <string name="superior_about_info_summary_title">Takım Hakkında</string>
+    <string name="superior_about_info_summary">Superior OS AOSP tabanlı Özel bir ROM dur, en gerekli bazı minimum özelliklere sahiptir, bu ROM un temel amacı ultra performans, en iyi stabilize ve iyi pil gücünü sağlamaktır.</string>
+	
+    <!-- Dev Info -->
+    <string name="devs_header">Developers</string>
+    <string name="dev_1">Sipun Ku Mahanta</string>
+    <string name="dev1_description">Founder/Developer\nWhyred Maintainer</string>
+    <string name="dev_2">Jayant Deshmukh</string>
+    <string name="dev2_description">Core Team/Developer\nX01BD | Tissot Maintainer</string>
+    <string name="dev_3">Pavan Patel</string>
+    <string name="dev3_description">Core Team/Designer\nTulip Maintainer</string>
+    <string name="dev_4">Titus Joseph</string>
+    <string name="dev4_description">Designer</string>
+    <string name="dev_5">Swapnil Soni</string>
+    <string name="dev5_description">Web Developer</string>
+
+    <!-- Mentions -->
+    <string name="mentions_header">Honorable Mentions</string>
+    <string name="mentions_sam">Sam Grande</string>
+    <string name="mentions_sam_description">Designer</string>
+    <string name="mentions_andi">Aryanata Andi</string>
+    <string name="mentions_andi_description">Bootanimation designer</string>
+
+    <!-- Maintainer Info -->
+    <string name="maintainers_header">Maintainers</string>
+    <string name="maintainers_header_summary">These are the Official Devices Maintainers...</string>
+    <string name="device_xiaomi">Xiaomi</string>
+    <string name="device_asus">Asus</string>
+    <string name="device_motorola">Motorola</string>
+    <string name="device_pantech">Pantech</string>
+    <string name="device_lenovo">Lenovo</string>
+    <string name="device_oneplus">Oneplus</string>
+    <string name="device_smartron">Smartron</string>
+    <string name="device_mido">Redmi Note 4</string>
+    <string name="device_mido_description">mido\nHimanshu ‌‌‎Naamdev</string>
+    <string name="device_santoni">Redmi 4/4X</string>
+    <string name="device_santoni_description">santoni\n </string>
+    <string name="device_X00T">Zenfone Max Pro M1</string>
+    <string name="device_X00T_description">X00T\nPriyanshu Pandey</string>
+    <string name="device_rolex">Redmi 4A</string>
+    <string name="device_rolex_description">rolex\nArpon Sarkar</string>
+    <string name="device_ef63">Vega Iron 2</string>
+    <string name="device_ef63_description">ef63\nChau Truong Thinh</string>
+    <string name="device_kuntao">P2</string>
+    <string name="device_kuntao_description">kuntao\nAdvaith Bhat</string>
+    <string name="device_markw">Redmi 4 Prime</string>
+    <string name="device_markw_description">markw\nAggelos Savvopoulos</string>
+    <string name="device_land">Redmi 3S/prime</string>
+    <string name="device_land_description">land\nJacob Deepu</string>
+    <string name="device_vince">Redmi Note 5/ Plus</string>
+    <string name="device_vince_description">vince\nWidi Aprianto</string>
+    <string name="device_oneplus2">OnePlus 2</string>
+    <string name="device_oneplus2_description">oneplus2\nSarthak Aditya</string>
+    <string name="device_beryllium">Poco F1</string>
+    <string name="device_beryllium_description">beryllium\nSaikiran</string>
+    <string name="device_capricorn">Mi 5s</string>
+    <string name="device_capricorn_description">capricorn\nHenma</string>
+    <string name="device_rimo02a">srt. phone</string>
+    <string name="device_rimo02a_description">rimo02a\nShreehari Vaasishta</string>
+    <string name="device_tiffany">Mi 5X</string>
+    <string name="device_tiffany_description">tiffany\nEthan</string>
+
+    <!-- Categories -->
+    <string name="button_title">Butonlar</string>
+    <string name="animation_title">Animasyonlar</string>
+    <string name="gestures_title">Hareketler</string>
+    <string name="lockscreen_title">Kilit Ekranı</string>
+    <string name="misc_title">Çeşitli ayarlar</string>
+    <string name="navbar_title">Gezinme Çubuğu</string>
+    <string name="powermenu_title">Güç Menüsü</string>
+    <string name="quicksettings_title">Hızlı ayarlar</string>
+    <string name="recents_title">Son Uygulamalar</string>
+    <string name="statusbar_title">Durum Çubuğu</string>
+    <string name="notifications_title">Bildirimler</string>
+    <string name="system_animations">Sistem animasyonları</string>
+    <string name="listview">Liste görünümü</string>
+    <string name="toast">Bu animasyon testidir</string>
+    <string name="fp_lockscreen">Parmak izi</string>
+    <string name="music_lockscreen">Müzik</string>
+    <string name="clock_category">Saat</string>
+    <string name="battery_category">Pil</string>
+    <string name="data_category">Veri</string>
+    <string name="brightness_category">Parlaklık</string>
+    <string name="brightness_slider_category">Parlaklık kaydırıcı</string>
+    <string name="qs_header_category">Başlık</string>
+    <string name="volume_rocker_category">Ses Seviyeleri</string>
+    <string name="misc_category">Çeşitli Ayalarlar</string>
+	
+    <!-- General strings -->
+    <string name="ok">Tamam</string>
+    <string name="reset">Yeniden</string>
+    <string name="cancel">İptal</string>
+    <string name="save">Kaydet</string>
+    <string name="unit_msec">ms</string>
+    <string name="unit_dpi">dpi</string>
+    <string name="unit_px">px</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Renk seçimi</string>
+    <string name="press_color_to_apply">Uygulamak için aşağıdaki renge basın</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Uygula</string>
+    <string name="color_default">Varsayılan</string>
+
+    <!--Status Bar -->
+    <string name="statusbar_items_title">Durum çubuğu simgeleri</string>
+
+    <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Kilit ekran kısayolları</string>
+
+    <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Gezinme Çubuğu</string>
+	
+	<!-- Hide Apps from Recents -->
+    <string name="hide_apps_from_recents_title">Son uygulamaları gizle</string>
+    <string name="hide_from_recents_add_app">Uygulama ekle</string>
+    <string name="hide_apps_from_recents_summary">Son zamanlarda gizlenecek uygulamaları seçin</string>
+	
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Kilit Ekranı pil durumu</string>
+    <string name="lockscreen_battery_info_summary">Şarj olurken uyumlu şarj cihazı maksimum akımını ve kilit ekranında voltaj ve pil sıcaklığını görüntüleyin</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Arama için titreşim seçenekleri</string>
+    <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
+    <string name="incall_vibrate_call_wait_title">Arama bekletildiğinde titret</string>
+    <string name="incall_vibrate_disconnect_title">Arama sonlandığında titret</string>
+	
+	<!-- Face Unlock -->
+    <string name="face_auto_unlock_title">Yüz kilidi</string>
+    <string name="face_auto_unlock_summary">Yüz kilidini açtıktan sonra kilit ekranını kapatın</string>
+
+	<!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Parmak izi doğrulama titreşimi</string>
+    <string name="fprint_sucess_vib_summary">Başarılı parmak izi doğrulama işleminde titret</string>
+
+    <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Gelen aramayı Ana ekran tuşuyla cevapla</string>
+    <string name="allow_incall_home_summary">Cihaz çalarken Ana Sayfa düğmesini kullanmaya izin ver</string>
+
+    <!-- Hardware keys -->
+    <string name="hardware_keys_category">Donanım tuşları</string>
+
+    <!-- Button brightness -->
+    <string name="button_backlight_options_category">Arka aydınlatma seçenekleri</string>
+    <string name="button_backlight_enable_title">Arka ışığına düğme ile izin ver</string>
+    <string name="button_link_brightness">Ekran parlaklığına bağlantılı</string>
+    <string name="button_link_brightness_summary">Düğme arka aydınlatması parlaklığı mevcut ekran parlaklığı seviyesine göre ayarlanır</string>
+    <string name="button_manual_brightness">Parlaklık seviyesi</string>
+    <string name="button_timeout_title">Arka ışığın zaman aşımı</string>
+    <string name="button_backlight_on_touch_only_title">Dokunmatik arka ışık</string>
+    <string name="button_backlight_on_touch_only_summary">Düğme arka ışığı yalnızca her zaman değil, düğmelere basıldığında görünür. Zaman aşımı bu özelliği etkilemeye devam edebilir.</string>
+
+    <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">Kilit ekranına çift dokunun</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Cihazı uyku moduna geçirmek için kilit ekranına çift dokunun</string>
+
+    <!-- Double Tap Statusbar to Sleep -->
+    <string name="double_tap_to_sleep_statusbar_title">Durum çubuğuna çift dokunun</string>
+    <string name="double_tap_to_sleep_statusbar_summary">Cihazı uyku moduna geçirmek için durum çubuğuna iki kez dokunun</string>
+
+    <!-- HW Keys customization -->
+    <string name="action_value_default_action" translatable="false">Varsayılan</string>
+    <string name="action_value_select_app" translatable="false">uygulama</string>
+    <string name="action_value_custom_action" translatable="false">özel</string>
+    <string name="action_value_back" translatable="false">geri</string>
+    <string name="action_value_home" translatable="false">ana sayfa</string>
+    <string name="action_value_search_assist" translatable="false">asistan</string>
+    <string name="action_value_recent_apps" translatable="false">son uygulamalar</string>
+    <string name="action_value_voice_search" translatable="false">ses ile arama</string>
+    <string name="action_value_menu" translatable="false">menü</string>
+    <string name="picker_activities">Etkinlikler</string>
+    <string name="select_custom_app_title">Özel uygulama seç</string>
+    <string name="select_custom_activity_title">Özel etkinlik seç</string>
+    <string name="profile_applist_title">Uygulamalar</string>
+    <string name="choose_action_title">Eylem seç</string>
+    <string name="action_entry_default_action">Varsayılan ayarlar</string>
+    <string name="action_entry_select_app">Uygulamaları seç</string>
+    <string name="action_entry_custom_action">Özel işlem seç</string>
+    <string name="hardware_keys_home_key_title">Ana sayfa düğmesi</string>
+    <string name="hardware_keys_menu_key_title">Menü düğmesi</string>
+    <string name="hardware_keys_assist_key_title">Arama düğmesi</string>
+    <string name="hardware_keys_appswitch_key_title">Genel bakış düğmesi</string>
+    <string name="hardware_keys_back_key_title">Geri düğmesi</string>
+    <string name="hardware_keys_double_tap_summary">Çift dokunma eylemini ayarla</string>
+    <string name="hardware_keys_single_tap_summary">Tek dokunuşla eylemi ayarla</string>
+    <string name="hardware_keys_long_press_summary">Uzun süreli basma eylemini ayarla</string>
+    <string name="hardware_keys_single_tap_title">Tek dokunmadaki eylemi</string>
+    <string name="hardware_keys_long_press_title">Uzun basma eylemi</string>
+    <string name="hardware_keys_double_tap_title">Çift dokunma eylemi</string>
+    <string name="hardware_keys_disable_title">Donanım tuşlarını devre dışı bırak</string>
+    <string name="hardware_keys_disable_summary">Donanım tuşlarını devre dışı bırakmak için geçiş yap</string>
+
+    <!-- Heads up -->
+    <string name="heads_up_notifications">Uyarı bildirimleri</string>
+    <string name="summary_heads_up_enabled">Pop-up bildirimleri etkin</string>
+    <string name="summary_heads_up_disabled">Pop-up bildirimleri devre dışı</string>
+    <string name="add_heads_up_package">Uygulama ekle </string>
+    <string name="add_heads_up_stoplist_summary">Bu uygulamalarda bildirimleri devre dışı bırak</string>
+    <string name="add_heads_up_blacklist_summary">Bu uygulamalardan baştan devre dışı bırakın</string>
+    <string name="heads_up_stoplist_title">Listeyi durdur</string>
+    <string name="heads_up_blacklist_title">Kara liste</string>
+    <string name="profile_choose_app">Uygulamayı seç</string>
+    <string name="dialog_delete_title">Sil</string>
+    <string name="dialog_delete_message">Seçilen öğe kaldırılsın mı?</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Zaman aşımı</string>
+    <string name="heads_up_time_out_summary">Önizleme bildirimleri için gösterilecek<xliff:g id="number">%d</xliff:g> saniye</string>
+    <string name="heads_up_time_out_2sec">2 saniye</string>
+    <string name="heads_up_time_out_4sec">4 saniye</string>
+    <string name="heads_up_time_out_5sec">5 saniye</string>
+    <string name="heads_up_time_out_6sec">6 saniye</string>
+    <string name="heads_up_time_out_8sec">8 saniye</string>
+    <string name="heads_up_time_out_10sec">10 saniye</string>
+
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Erteleme zamanlayıcısı</string>
+    <string name="heads_up_snooze_summary_one_minute">Önizleme bildirimleri üzerinde yukarı kaydırmak, bu uygulamadan 1 dakika boyunca erteleyecektir.</string>
+    <string name="heads_up_snooze_summary">Önizleme bildirimleri kadar yukarı kaydırmak, bu uygulama için erteleyecek <xliff:g id="number">%d</xliff:g>dakika</string>
+    <string name="heads_up_snooze_disabled_summary">Erteleme zamanlayıcısı devre dışı</string>
+    <string name="heads_up_snooze_1min">1 dakika</string>
+    <string name="heads_up_snooze_5min">5 dakika</string>
+    <string name="heads_up_snooze_10min">10 dakika</string>
+    <string name="heads_up_snooze_15min">15 dakika</string>
+    <string name="heads_up_snooze_20min">20 dakika</string>
+
+    <string name="navigation_keys">Gezinme çubuğu</string>
+    <string name="navigation_keys_summary">Gezinme çubuğunu etkinleştirme veya devre dışı bırakma</string>
+
+	<!-- SeekBar -->
+    <string name="seekbar_no_default_value">Varsayılan değer ayarlanmadı</string>
+    <string name="seekbar_default_value_set">Değer varsayılan olarak ayarlandı <xliff:g id="number">%d</xliff:g></string>
+    <string name="seekbar_default_value_already_set">Varsayılan değer zaten ayarlanmış</string>
+    <string name="seekbar_default_string">Varsayılan</string>
+	
+	<string name="gesture_preference_superior">AOSP Hareketleri</string>
+
+    <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_enable">Kilit ekranı görselleştiricisini etkinleştir</string>
+    <string name="lockscreen_visualizer_enable_summary">Müzik çalarken görselleştiriciyi kilit ekranında göster</string>
+	
+	<!-- Power Menu -->
+    <string name="advanced_power_menu">Güç menüsü seçenekleri</string>
+    <string name="advanced_reboot_menu">Gelişmiş yeniden başlatma</string>
+    <string name="powermenu_reboot_title">Yeniden başlat</string>
+    <string name="powermenu_airplane_title">Uçak modu</string>
+    <string name="powermenu_advanced_reboot_title">Gelişmiş yeniden başlatma</string>
+    <string name="powermenu_advanced_reboot_summary">kurtarma ve önyükleyici gibi seçenekleri yeniden başlatmak için gelişmiş yeniden başlatma menüsünü etkinleştirir. Ayrıca Arayüz ü yeniden başlatmak için de bir seçenek ekler</string>
+    <string name="powermenu_screenshot_title">Ekran görüntüsü</string>
+    <string name="powermenu_category_visibility">Kilit ekranı seçenekleri</string>
+    <string name="powermenu_lockscreen_title">Yukarıdaki işaretlediklerin kilit ekranında görünür olsun mu ?</string>
+    <string name="powermenu_lockscreen_summary">Kilit ekranındayken güç menüsü iletişim kutusunu gösterme ve kullanma özelliğini etkinleştirin</string>
+    <string name="powermenu_ls_reboot_summary">Kilit ekranında yeniden başlatma seçeneğini göster</string>
+    <string name="powermenu_ls_advanced_reboot_summary">Kilit ekranında gelişmiş yeniden başlatma seçeneğini göster</string>
+    <string name="powermenu_ls_screenshot_summary">Kilit ekranında ekran görüntüsü seçeneğini göster</string>
+    <string name="powermenu_ls_airplane_summary">Kilit ekranında uçak modu seçeneğini göster</string>
+    <string name="powermenu_lockdown_title">Kilitleme</string>
+    <string name="powermenu_ls_lockdown_summary">Genişletilmiş erişimi ve parmak izi kilit açma kilidini kapatan güç düğmesi seçeneklerini görüntüleyin</string>
+
+    <!-- Hide Lockscreen clock, date, & alarm -->
+    <string name="lockscreen_items_other">Diğer</string>
+
+	<!-- Statusbar Clock -->
+    <string name="clock_style_category_title">Saat ayarları</string>
+    <string name="clock_style_category_summary">Durum Çubuğu Saat Ayarlayıcısı</string>
+    <string name="status_bar_clock_title">Saat ayarları</string>
+    <string name="status_bar_clock_show">Saati ve tarihi göster</string>
+    <string name="status_bar_clock_style_title">Saat stili</string>
+    <string name="status_bar_clock_style_right">Sağ</string>
+    <string name="status_bar_clock_style_center">Ortada</string>
+    <string name="status_bar_clock_style_left">Sol</string>
+    <string name="status_bar_am_pm_title">AM/PM Stili</string>
+    <string name="status_bar_am_pm_info">24-saat seçeneği etkin</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Küçük</string>
+    <string name="status_bar_am_pm_hidden">Gizli (varsayılan)</string>
+    <string name="clock_seconds_display">Saniyeyi göster</string>
+    <string name="clock_date_display">Tarih</string>
+    <string name="clock_date_display_summary">Saatten önce özelleştirilmiş tarihi göster</string>
+    <string name="clock_date_display_none">Gösterme</string>
+    <string name="clock_date_display_small">Küçük yazı tipi</string>
+    <string name="clock_date_display_normal">Normal yazı tipi</string>
+    <string name="clock_date_style">Tarih stili</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Küçük harf</string>
+    <string name="clock_date_style_uppercase">Büyük harf</string>
+    <string name="clock_date_format_custom">Özel java formatı</string>
+    <string name="clock_date_format">Zaman formatı</string>
+    <string name="clock_date_string_edittext_title">Bu tarih formatında olsun örnek AA/gg/yy</string>
+    <string name="clock_date_string_edittext_summary">Dize girin</string>
+	
+    <!-- Statusbar Clock Font Style, Size & Color -->
+    <string name="status_bar_clock_font_style_title">Saat yazı tipi stili</string>
+    <string name="status_bar_clock_font_size_title">Saat yazı tipi stili</string>
+    <string name="status_bar_clock_color_title">Saat yazı rengi</string>
+	
+	<!-- Lock Clock Fonts -->
+    <string name="lock_clock_font_title">Saat yazı tipi seçenekleri</string>
+    <string name="lock_clock_font_summary">Kilit ekranı saati widget ının varsayılan yazı tipini değiştir</string>
+    <string name="lock_clock_font_dialog_title">Kilit ekranı saati yazı tipini seçin</string>
+    <string name="lock_clock_font_stock">Normal (varsayılan)</string>
+    <string name="lock_clock_font_bold">Bold</string>
+    <string name="lock_clock_font_italic">Italic</string>
+    <string name="lock_clock_font_bold_italic">Bold Italic</string>
+    <string name="lock_clock_font_light_italic">Light Italic</string>
+    <string name="lock_clock_font_thin_italic">Thin Italic</string>
+    <string name="lock_clock_font_light">Light</string>
+    <string name="lock_clock_font_thin">Thin</string>
+    <string name="lock_clock_font_condensed_normal">Condensed</string>
+    <string name="lock_clock_font_condensed_italic">Condensed Italic</string>
+    <string name="lock_clock_font_condensed_bold">Condensed Bold</string>
+    <string name="lock_clock_font_condensed_bold_italic">Condensed Bold Italic</string>
+    <string name="lock_clock_font_condensed_light">Condensed Light</string>
+    <string name="lock_clock_font_condensed_light_italic">Condensed Light Italic</string> 
+    <string name="lock_clock_font_medium_normal">Orta</string>
+    <string name="lock_clock_font_medium_italic">Medium Italic</string>
+    <string name="lock_clock_font_black">Siyah</string>
+    <string name="lock_clock_font_black_italic">Black İtalik</string> 
+    <string name="lock_clock_font_dancingscript">DancingScript</string>
+    <string name="lock_clock_font_dancingscript_bold">DancingScript Bold</string>
+    <string name="lock_clock_font_comingsoon">ComingSoon</string>
+    <string name="lock_clock_font_notoserif">NotoSerif Normal</string>
+    <string name="lock_clock_font_notoserif_italic">NotoSerif Italic</string>
+    <string name="lock_clock_font_notoserif_bold">NotoSerif Bold</string>
+    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Bold Italic</string>
+    <string name="lock_clock_font_gobold">GoBold Light</string>
+    <string name="lock_clock_font_roadrage">Road Rage</string>
+    <string name="lock_clock_font_snowstorm">Snowstorm</string>
+    <string name="lock_clock_font_googlesans">Google Sans</string>
+    <string name="lock_clock_font_neoneon">Neoneon</string>
+    <string name="lock_clock_font_themeable">Themeable (or VCR OSD Mono)</string>
+    <string name="lock_clock_font_samsung">Shamshung</string>
+    <string name="lock_clock_font_ABCThru">ABCThru</string>
+    <string name="lock_clock_font_anurati">Anurati Regular</string>
+    <string name="lock_clock_font_Joost">JoostAMillionaire</string>
+    <string name="lock_clock_font_Locust">Locust Resistance</string>
+    <string name="lock_clock_font_Wallpoet">Wallpoet Regular</string>
+	
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Ekran görüntüsü almak için kaydır</string>
+    <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızı kaydırın</string>
+	
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G ikon</string>
+    <string name="show_fourg_icon_summary">LTE yerine sinyal simgesinde 4G ikonunu görüntüle</string> 
+	
+	<!-- Network traffic -->
+    <string name="traffic_title">Trafik göstergeleri</string>
+    <string name="network_traffic_title">Ağ göstergeleri</string>
+    <string name="network_traffic_type">İnternet aktivite türünü seçin</string>
+    <string name="show_network_traffic_up">Yükleme bağlantısı</string>
+    <string name="show_network_traffic_down">İndirme bağlantısı</string>
+    <string name="show_network_traffic_all">Yükleme ve indirme bağlantısı</string>
+    <string name="network_traffic_state_title">Durum çubuğunda ağ etkinliğini göster</string>
+    <string name="network_traffic_autohide_threshold_title">Ağ etkinliğini otomatik gizle (KB/s)</string>
+    <string name="network_traffic_hidearrow">Okları gizle</string>
+    <string name="network_traffic_hidearrow_summary">Ağ trafiği göstergesi oklarını gizle</string>
+	
+	<!-- Screenshot -->
+    <string name="screenshot_type_title">Ekran görüntüsü tipi</string>
+    <string name="screenshot_type_fullscreen">Tam ekran ekran görüntüsünü al</string>
+    <string name="screenshot_type_partial">Ekran görüntüsü almak istediğiniz alandaki seçimi sürükleyin</string>
+    <string name="screenshot_options_category">Ekran görüntüsü seçenekleri</string>
+    <string name="screenshot_options_summary">Zaman, gecikme, tür vb. Gibi ekran görüntüsü niteliklerini özelleştirin</string>
+
+	<!-- Battery percentage -->
+    <string name="battery_style_category_title">Pil stili</string>
+    <string name="battery_style_category_summary">Pil Simgesini Özelleştirme</string>
+    <string name="status_bar_battery_percentage_title">Batarya yüzdesi</string>
+    <string name="status_bar_battery_percentage_default">Gizle</string>
+    <string name="status_bar_battery_percentage_text_next">Simgenin yanında</string>
+    <string name="status_bar_battery_percentage_text_inside">Simgenin içinde</string>
+
+	<!-- Status bar battery style-->
+    <string name="status_bar_battery_style_title">Batarya stili</string>
+    <string name="status_bar_battery_style_port">Portre</string>
+    <string name="status_bar_battery_style_q">Android Q Stili</string>
+    <string name="status_bar_battery_style_circle">Daire</string>
+	<string name="battery_style_dotted_circle">Noktalı Daire</string>
+	<string name="status_bar_battery_style_text">Yazı</string>
+	<string name="status_bar_battery_style_hidden">Gizle</string>
+
+	<!-- Battery light -->
+    <string name="battery_light_settings">Pil şarj ışığı</string>
+    <string name="battery_light_enable">Aktif</string>
+    <string name="battery_light_allow_on_dnd_title">Rahatsız Etmeyin modunda pil ışığı</string>
+    <string name="battery_light_low_blinking_title">Düşük pilde yanıp sönen ışık</string>
+    <string name="battery_light_cat">Şarj olurken pil rengi</string>
+    <string name="battery_light_low_color">Düşük pil</string>
+    <string name="battery_light_medium_color">Orta Pil</string>
+    <string name="battery_light_full_color">Tamamlanmaya yakın pil</string>
+    <string name="battery_light_reallyfull_color">Tamamlanan (100) pil</string>
+	
+	<!-- ANBI -->
+    <string name="anbi_title">Yanlışlıkla dokunma</string>
+    <string name="anbi_summary">Ekrana dokunulurken gezinme düğmeleriyle etkileşimi önleyin</string>
+	
+	<!-- Quick Settings brightness slider -->
+    <string name="qs_show_brightness_title">Parlaklık kaydırıcı</string>
+    <string name="qs_show_brightness_summary">Hızlı ayarlar panelinde bir parlaklık kaydırıcısını gösterin</string>
+    <string name="qs_brightness_position_bottom_title">Altta parlaklık kaydırıcı</string>
+    <string name="qs_brightness_position_bottom_summary">Alttaki hızlı ayarlarda parlaklık kaydırıcısını gösterme</string>
+	
+	<!-- Media art -->
+    <string name="media_art_title">Medya kapak resmi</string>
+    <string name="media_art_summary">Kilit ekranında medya kapak resmini etkinleştir</string>
+	
+    <!-- Lock Date Fonts -->
+    <string name="lock_date_font_title">Tarih yazı tipi seçenekleri</string>
+    <string name="lock_date_font_summary">Kilit ekranı tarih widget ının varsayılan yazı tipini değiştirme</string>
+    <string name="lock_date_font_dialog_title">Kilit ekranındaki tarihin yazı tipini seçin</string>
+	
+	<!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE İkon</string>
+    <string name="volte_icon_summary">VoLTE simgesini göster</string>
+
+    <!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_on_call_title">Arama esnasında el feneri yanıp sönsün</string>
+    <string name="flashlight_on_call_disabled">Devre dışı</string> 
+    <string name="flashlight_on_call_not_dnd">Yanıp sönen el feneri sadece zil modunda</string>
+    <string name="flashlight_on_call_dnd">Yanıp sönen el feneri sadece DND modunda</string>
+    <string name="flashlight_on_call_always">Daima yanıp sönen el feneri</string>
+
+    <!-- Volume Button Music Control -->
+    <string name="volume_rocker_music_controls_title">Müzik kontrolü</string>
+    <string name="volume_rocker_music_controls_summary">Ekran kapalıyken parçaları değiştirmek için ses düğmelerine uzun basın</string>
+
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Parlaklık kontrolü</string>
+    <string name="status_bar_toggle_brightness_summary">Durum çubuğunu kaydırarak parlaklığı ayarlayın</string>
+
+    <string name="gestures_category">Hareketler</string>
+
+    <!-- Toast app icon -->
+    <string name="toast_icon_title">Bildirim animasyon stilinde uygulama simgesi olsun mu ?</string>
+    <string name="toast_icon_summary">Tost ile ilgili uygulamanın simgesini görüntüleyin.</string>
+	
+	<!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Son uygulama stili</string>
+	<string name="aosp_recents_category">AOSP Son uygulama stili</string>
+    <string name="alternative_recents_category">Alternatif son uygulamar</string>
+    <string name="alternative_recents_swipe_up_enabled_warning_summary">Girintileri açmak için hızlı gezinme ana gezinti kullanılırken, yalnızca stok girintileri desteklenir</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
+	
+	<!-- Weather -->
+    <string name="weather_title">Hava durumu</string>
+    <string name="weather_unit">Sıcaklık birimi</string>
+    <string name="weather_unit_metric" translatable="false">°C</string>
+    <string name="weather_unit_imperial" translatable="false">°F</string>
+	
+	<!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Verileri devre dışı bırakma simgesini göster</string>
+    <string name="data_disabled_icon_summary">Veri devre dışı bırakıldığında, sinyal çubuğunun yanındaki çarpı işaretini görüntüleyin.</string>
+
+    <!-- App Ops -->
+    <string name="app_ops_settings_title">Gizlilik Koruması</string>
+    <string name="app_ops_summary">Uygulama işlemlerini kontrol et</string>
+
+    <!-- QS header styles -->
+    <string name="qs_header_style_title">Hızlı panel Başlık stili</string>
+    <string name="qs_header_black">Siyah</string>
+    <string name="qs_header_grey">Gri</string>
+    <string name="qs_header_lightgrey">Açık gri</string>
+    <string name="qs_header_accent">Vurgu rengi</string>
+    <string name="qs_header_transparent">Saydam</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Ekran kapalı iken güç düğmesine basılı tutarak el fenerini aç</string>
+    <string name="torch_power_button_gesture_none">Kapalı</string>
+    <string name="torch_power_button_gesture_dt">Torcu değiştirmek için çift musluk gücü (tek dokunuşa küçük bir gecikme ekleyecektir)</string>
+    <string name="torch_power_button_gesture_lp">Torcu değiştirmek için güç düğmesine uzun basın</string>
+
+    <!-- Volume Wake -->
+    <string name="volume_rocker_wake_title">Ses seviyesine uyandırma</string>
+    <string name="volume_rocker_wake_summary">Ses seviyesi tuşlarına basmak, cihazınızı uyandıracaktır.</string>
+
+    <!-- Navigation gestures -->
+    <string name="gesture_settings_title">OP Gezinme hareketleri</string>
+    <string name="gesture_settings_summary">Gezinme için alt kaydırma yukarı hareketlerini kullanın</string>
+    <string name="use_bottom_gesture_cat">Hareketleri yukarı kaydırın</string>
+    <string name="use_bottom_gesture_title">Hareketleri yukarı kaydırın</string>
+    <string name="gesture_settings_info">Gezinme çubuğu devre dışı bırakılmalıdır! \ N \ nMevcut hareketler: \ n \ nGeri \ n- Sol veya sağ tarafta yukarı kaydırın \ n \ nAna sayfa \ n- Ortada yukarı kaydırın \ n \ nYeni uygulamalar \ n- Ortada yukarı kaydırın ve tutun \ n \ nSon uygulama \ n- Kısa kaydırın ve ortada tutun</string>
+    <string name="gesture_swipe_length_title">Kaydırma tetik yüksekliği</string>
+    <string name="gesture_swipe_length_summary">Kaydırmayı tetiklemek için alttan yükseltin</string>
+    <string name="gesture_action_timeout_title">Kaydırma tetikleyici zaman aşımı</string>
+    <string name="gesture_action_timeout_summary">Jest eylemi başlamadan önce zaman aşımı</string>
+
+    <!-- QS tile styles -->
+    <string name="qs_tile_style_title">QS Çini tarzı</string>
+    <string name="qstile_default">Varsayılan</string>
+    <string name="qstile_circle_gradient">Daire (Gradyan)</string>
+    <string name="qstile_circle_trim">Daire (Yuvarlatılmış)</string>
+    <string name="qstile_circle_dualtone">Çift tonlu daire</string>
+    <string name="qstile_dual_tone_circle">Çift Tonlu Daire (Yuvarlatılmış)</string>
+    <string name="qstile_inkdrop">Inkdrop</string>
+    <string name="qstile_mountain">Dağ</string>
+    <string name="qstile_ninja">Ninja</string>
+    <string name="qstile_pokesign">Pokesign</string>
+    <string name="qstile_squircle">Kare</string>
+    <string name="qstile_squircle_trim">Kare (Yuvarlatılmış)</string>
+    <string name="qstile_teardrop">Gözyaşı</string>
+    <string name="qstile_wavey">Wavey</string>
+    <string name="qstile_cookie">Kurabiye</string>
+    <string name="qstile_circleoutline">Çember Anahat</string>
+
+    <!-- Pocket judge -->
+    <string name="pocket_judge_title">Cep algılama</string>
+    <string name="pocket_judge_summary">Cihaz cebindeyken ekranı ve düğme girişlerini engelle</string>
+
+    <!-- Edge gestures -->
+    <string name="edge_gestures_title">Kenar hareketleri</string>
+    <string name="edge_gestures_feedback_duration_title">Dokunsal geribildirim süresi</string>
+    <string name="edge_gestures_long_press_delay_title">Uzun basma işlemi başlayana kadar gecikme</string>
+    <string name="edge_gestures_back_category_title">Geri hareketi</string>
+    <string name="edge_gestures_back_edges_title">Geri gelen hareketi tetikle</string>
+    <string name="edge_gestures_landscape_back_edges_title">Den manzara üzerinde geri jest Tetik</string>
+    <string name="edge_gestures_back_screen_percent_title">Geri hareketi ekranın bu yüzdesinin altında başlamalıdır.</string>
+    <string name="edge_gestures_back_screen_percent_summary">Ekranın% altında tetiklenir</string>
+    <string name="edge_gestures_summary">Kenar hareketlerini kullanarak gezin</string>
+    <string name="edge_gestures_back_show_ui_feedback_title">Geri hareket animasyonu</string> 
+    <string name="edge_gestures_back_show_ui_feedback_summary">Geri hareket kullanıldığında kenarlarda animasyonlu geri bildirim göster</string>
+
+    <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Daha az sıkıcı bildirim</string>
+    <string name="less_boring_heads_up_summary">Yalnızca çevirici veya mesajlaşma uygulaması için bildirimleri gösterin</string>
+
+    <!-- Volume Panel on Left -->
+    <string name="volume_panel_on_left_title">Ses paneli solda</string>
+    <string name="volume_panel_on_left_summary">Ses panelini ekranın sol tarafında göster</string>
+
+    <!-- QS Running Services Icon -->
+    <string name="qs_running_services_title">Çalışan Hizmetler Simgesini Devre Dışı Bırak</string>
+    <string name="qs_running_services_summary">Alt kısımdaki karo çalışan hizmetleri simgesini devre dışı bırakın</string>
+	
+    <!-- Battery Bar -->
+    <string name="battery_bar_title">Pil çubuğu</string>
+    <string name="battery_bar_summary">Durum çubuğunun veya gezinti çubuğunun yakınında pil çubuğunu görüntüleme ve kişiselleştirme</string>
+    <string name="battery_bar">Pil çubuğu konumu</string>
+    <string name="battery_bar_no_navbar">Pil çubuğu konumu</string>
+    <string name="battery_bar_location_hide">Gizle</string>
+    <string name="battery_bar_location_statusbar">Durum çubuğu</string>
+    <string name="battery_bar_location_top_navbar">Gezinme çubuğunun üstü</string>
+    <string name="battery_bar_location_bottom_navbar">Gezinme çubuğunun altı</string>
+    <string name="battery_bar_color">Pil çubuğu rengi</string>
+    <string name="battery_bar_charging_color">Batarya çubuğu şarj rengi</string>
+    <string name="battery_bar_battery_low_color">Batarya çubuğu düşük pil rengi</string>
+    <string name="battery_bar_cat">Batarya çubuğu stili</string>
+    <string name="battery_bar_style_title">Batarya çubuğu hizalaması</string>
+    <string name="battery_bar_thickness_title">Pil çubuğu kalınlığı</string>
+    <string name="battery_bar_animate_title">Şarj animasyonu</string>
+    <string name="battery_bar_style_regular">Düzenli</string>
+    <string name="battery_bar_style_center_mirrored">Merkez aynalı</string>
+    <string name="battery_bar_style_reversed">Ters</string>
+    <string name="battery_bar_use_charging_color">Özel şarj rengi</string>
+    <string name="battery_bar_blend_color_title">Karışım renkleri</string>
+    <string name="battery_bar_blend_color_summary">Pil yüzdesine karşılık gelen dolu / boş renkleri karıştırın</string>
+    <string name="battery_bar_blend_color_reverse_title">Ters renk yönü</string>
+    <string name="battery_bar_blend_color_reverse_summary_off">Dolu &#8594; boş: kırmızı &#8592; yeşil &#8592; mavi &#8592; kırmızı</string>
+    <string name="battery_bar_blend_color_reverse_summary_on">Dolu &#8594; boş: kırmızı &#8594;  yeşil &#8594; mavi &#8594; kırmızı</string>
+
+    <!-- Slim recents -->
+    <string name="slim_recents_title">İnce Son Uygulamalar</string>
+    <string name="slim_recents_summary">Alternatif bir yineleme ekranı kullanmaya izin ver</string>
+    <string name="slim_recents_fragment_title">İnce yineleme ayarları</string>
+    <string name="slim_recents_fragment_summary">İnce içerikler için ek ayarları özelleştirin</string>
+    <string name="recents_max_apps_title">İzin verilen maksimum uygulama</string>
+    <string name="recent_panel_scale_title">Boyut</string>
+    <string name="recent_panel_expanded_mode_title">Genişletilmiş Masaüstü</string>
+    <string name="recent_panel_expanded_mode_summary">Son görevler genişletilmiş önizleme modu</string>
+    <string name="recent_panel_expanded_mode_auto">Otomatik (varsayılan)</string>
+    <string name="recent_panel_expanded_mode_always">Genellikle</string>
+    <string name="recent_panel_expanded_mode_never">Asla</string>
+    <string name="recent_panel_expanded_mode_disabled">Devre dışı</string>
+    <string name="recent_panel_bg_color_title">Panel arka plan rengi</string>
+    <string name="recent_card_bg_color_title">Kartın arka plan rengi</string>
+    <string name="slim_recents_mem_display_long_click_clear_title">Hafıza çubuğu uzun basın</string>
+    <string name="slim_recents_mem_display_long_click_clear_summary">Bellek çubuğuna uzun süre basarak girintileri temizleyin</string>
+    <string name="slim_icon_pack_title">İkon Paketi</string>
+    <string name="slim_icon_pack_summary">Paneldeki uygulamalar için özel bir simge paketi uygula</string>
+    <string name="no_iconpacks_summary">Yüklenmiş simge paketi yok</string>
+    <string name="dialog_pick_iconpack_title">İkon paketi seç</string>
+    <string name="default_iconpack_title">Varsayılan simgeler</string>
+    <string name="slim_recents_corner_radius_title">Kart köşesi yarıçapı</string>
+    <string name="slim_recents_aicp_empty_drawable_title">AICP boş girintileri</string>
+    <string name="slim_recents_aicp_empty_drawable_summary">Son uygulamalarda gösterilecek resim</string>
+    <!-- ATTENTION: RTL languages need to replace left with right -->
+    <string name="recent_panel_lefty_mode_title">Sol kenarda göster</string>
+    <string name="recent_panel_lefty_mode_summary">Son uygulama panelini sol kenarda göster</string>
+    <string name="slim_blacklist_apps_cat_title">Kara Liste</string>
+    <string name="slim_blacklist_apps_title">Uygulama kara liste</string>
+    <string name="slim_blacklist_apps_summary">Panelde gösterilmeyen uygulamalar</string>
+    <string name="slim_blacklist_add_apps_title">Uygulama ekle</string>
+    <string name="slim_blacklist_add_apps_summary">Eklemek için buraya dokunun, kaldırmak için eklenmiş uygulamaya dokunun</string>
+
+    <!-- Slim Recent App Sidebar  -->
+    <string name="recent_app_sidebar_title">Son uygulamalar kenar çubuğu</string>
+    <string name="recent_app_sidebar_summary">Diğer kenarlarda uygulama kısayollarını göster</string>
+    <string name="use_recent_app_sidebar_title">Uygulama kenar çubuğunu etkinleştir</string>
+    <string name="use_recent_app_sidebar_summary">Diğer kenarlarda uygulama kısayollarını göster</string>
+    <string name="recent_app_sidebar_picker_title">Kenar çubuğu kısayolları</string>
+    <string name="recent_app_sidebar_picker_summary">Kenar çubuğunda gösterilecek uygulamaları seçin</string>
+    <string name="recent_app_sidebar_content_title">Kenar çubuğu içeriği</string>
+    <string name="recent_app_sidebar_content_summary">Uygulama kenar çubuğunun içeriğini yapılandırma</string>
+    <string name="recent_app_sidebar_style_title">Kenar çubuğu stili</string>
+    <string name="recent_app_sidebar_style_summary">Kenar çubuğunun görünümünü değiştirme</string>
+    <string name="recent_app_sidebar_hide_labels_title">İkon etiketlerini gizle</string>
+    <string name="recent_app_sidebar_label_color_title">Etiket rengi</string>
+    <string name="recent_app_sidebar_bg_color_title">Arka plan rengi</string>
+    <string name="recent_app_sidebar_scale_title">Boyut</string>
+    <string name="recent_app_sidebar_open_simultaneously_title">Son zamanlarda eşzamanlı olarak aç</string>
+    <string name="recent_app_sidebar_open_simultaneously_summary">Bunu devre dışı bırakarak gecikme açılış gecikmesini azaltın</string>
+    <string name="default_auto_string">Varsayılan (Uygulama tabanlı)</string>
+
+    <!-- Slim recents membar -->
+    <string name="slim_recents_mem_display_category_title">Hafıza çubuğu</string>
+    <string name="slim_recents_mem_display_title">Hafıza çubuğunu göster</string>
+    <string name="slim_recents_mem_display_summaryOn">Hafıza çubuğu etkin</string>
+    <string name="slim_recents_mem_display_summaryOff">Hafıza çubuğu devre dışı</string>
+    <string name="slim_recents_mem_display_color">Hafıza çubuğunun rengi</string>
+    <string name="slim_recents_mem_display_text_color">Bellek çubuğu metin rengi</string>
+	
+    <!-- Display cutout options -->
+    <string name="cutout_main">Ekranı Kes</string>
+    <string name="cutout_main_summary">Çentik ayarlarını özelleştirme</string>
+    <string name="display_cutout_style_title">Ekran kesimi stili</string>
+    <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_immerse">Daldırma</string>
+    <string name="display_cutout_style_hide">Gizli</string>
+    <string name="stock_statusbar_in_hide">Stok durum çubuğu yüksekliği</string>
+    <string name="stock_statusbar_in_hide_summary">Gizle’de varsayılan durum çubuğu yüksekliğini kullan</string>
+	
+    <!-- Toast Animation -->
+    <string name="toast_animation_title">Test animasyonu</string>
+    <string name="toast_none_animation">Yok</string>
+    <string name="toast_default_animation">Varsayılan</string>
+    <string name="toast_fade_animation">Karart</string>
+    <string name="toast_SlideRight_animation">Sağa kaydır</string>
+    <string name="toast_SlideLeft_animation">Sola kaydır</string>
+    <string name="toast_Xylon_animation">Xylon</string>
+    <string name="toast_Toko_animation">Toko</string>
+    <string name="toast_Tn_animation">Tn</string>
+    <string name="toast_Honami_animation">Honami</string>
+    <string name="toast_FastFade_animation">Hızlı Karart</string>
+    <string name="toast_GrowFade_animation">Soldan karart</string>
+    <string name="toast_GrowFadeCenter_animation">Sol merkezden büyütme</string>
+    <string name="toast_GrowFadeBottom_animation">Sol alttan büyüt</string>
+    <string name="toast_Translucent_animation">Yarı saydam</string>
+    <string name="toast_SlideLeftRight_animation">Soldan sağa kaydırın</string>
+    <string name="toast_SlideRightLeft_animation">Sağdan sola kaydırın</string>
+    <string name="toast_animation_test">Bu seçilen animasyon testidir</string>
+
+    <!-- AOKP custom system animations -->
+    <string name="system_animation_title">Sistem animasyonları</string>
+    <string name="activity_open_title">Etkinlik açık animasyonu</string>
+    <string name="activity_close_title">Etkinlik kapanış animasyonu</string>
+    <string name="task_open_title">Görev açılış animasyonu</string>
+    <string name="task_open_behind_title">Animasyonun arkasındaki görev</string>
+    <string name="task_close_title">Görev kapatma animasyonu</string>
+    <string name="task_move_to_front_title">Öne taşıma animasyonu</string>
+    <string name="task_move_to_back_title">Geriye taşıma animasyonu</string>
+    <string name="wallpaper_open_title">Duvar kağıdı açılış animasyonu</string>
+    <string name="wallpaper_close_title">Duvar kağıdı kapanış animasyonu</string>
+    <string name="wallpaper_intra_open_title">Animasyon içi duvar kağıdı </string>
+    <string name="wallpaper_intra_close_title">Animasyon için kapalı duvar kağıdı</string>
+    <string name="animation_duration_title">Animasyon süresi</string>
+    <string name="title_animation_no_override">Uygulama geçersiz kılmalarını önleme</string>
+    <string name="summary_animation_no_override">Uygulamaların geçişleri geçersiz kılmasını önleme</string>
+    <string name="animation_duration_default">Varsayılan</string>
+	
+    <!-- ListView animation -->
+    <string name="listview_animation_title">Liste Görünümü animasyonu</string>
+    <string name="listview_off">Varsayılan</string>
+    <string name="listview_wave_left">Dalga (solda)</string>
+    <string name="listview_wave_right">Dalga (sağ)</string>
+    <string name="listview_alpha">Alfa</string>
+    <string name="listview_scale">Scale</string>
+    <string name="listview_stack_top">Yığın (üst)</string>
+    <string name="listview_stack_bottom">Yığın (alt)</string>
+    <string name="listview_unfold">Genişletilmemiş</string>
+    <string name="listview_fold">Katlı</string>
+    <string name="listview_translate_left">Çevir (sol)</string>
+    <string name="listview_translate_right">Çevir (sağ)</string>
+
+    <!-- ListView interpolator -->
+    <string name="listview_interpolator_title">Liste Görünümü enterpolatör</string>
+    <string name="listview_accelerate_interpolator">Hızlandırıcı</string>
+    <string name="listview_decelerate_interpolator">Yavaşlatıcı</string>
+    <string name="listview_accelerate_decelerate_interpolator">Hızlandırıcı ve Yavaşlatıcı</string>
+    <string name="listview_anticipate_interpolator">Tahmin et</string>
+    <string name="listview_overshoot_interpolator">ileriye atma</string>
+    <string name="listview_anticipate_overshoot_interpolator">Öngörmek ve aşmak</string>
+    <string name="listview_bounce_interpolator">Sıçrama</string>
+	
+    <!-- Option to enable/disable scrolling cache -->
+    <string name="pref_scrollingcache_title">Kaydırma önbelleği</string>
+    <string name="pref_scrollingcache_summary">Kaydırma önbelleği, ram maliyetiyle kaydırma performansını artırabilir</string>
+    <string name="pref_scrollingcache_force_enable">Zorla etkinleştirme</string>
+    <string name="pref_scrollingcache_default_enable">Varsayılan etkin</string>
+    <string name="pref_scrollingcache_default_disable">Varsayılan devre dışı</string>
+    <string name="pref_scrollingcache_force_disable">Zorla devre dışı</string>
+	
+    <!-- Screen off animation -->
+    <string name="screen_off_animation_title">Ekran kapatma animasyonu</string>
+    <string name="screen_off_animation_default">Varsayılan</string>
+    <string name="screen_off_animation_crt">CRT</string>
+    <string name="screen_off_animation_scale">Skalasyon</string>
+	
+    <!-- Fingerprint unlock keystore -->
+    <string name="fp_unlock_keystore_title">Parmak izi kilidini aç</string>
+    <string name="fp_unlock_keystore_summary">PIN / Şifre / Model olmadan yeniden başlattıktan sonra parmak izi olan cihazın kilidini açın. Not: Kendi sorumluluğunuzdadır!</string>
+
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Uyarlanabilir parlaklık düğmesi</string>
+    <string name="brightness_icon_summary">Uyarlanabilir parlaklık düğmesini göster</string>
+
+    <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">Parlaklık kontrol düğmeleri</string>
+    <string name="brightness_side_buttons_summary">Parlaklığı arttırmak veya azaltmak için düğmeleri göster</string>
+	
+    <!-- Language options - Volume rocker cursor control -->
+    <string name="cursor_section_header">Gösterge</string>
+    <string name="volume_key_cursor_control_title">Ses tuşu imleci kontrolü</string>
+    <string name="volume_key_cursor_control_off">Kapalı</string>
+    <string name="volume_key_cursor_control_on">Ses açma / azaltma, imleci sola / sağa hareket ettirir</string>
+    <string name="volume_key_cursor_control_on_reverse">Ses açma / azaltma, imleci sağa / sola taşır</string>
+	
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Akıllı Pikseller</string>
+    <string name="smart_pixels_summary">Ekstra pikselleri kapatarak pilden tasarruf edin</string>
+    <string name="smart_pixels_enable_title">Akıllı Pikselleri Etkinleştir</string>
+    <string name="smart_pixels_enable_summary">Güç tüketimini azaltmak için pikselleri kapatın</string>
+    <string name="smart_pixels_on_power_save_title">Batarya tasarrufunda otomatik etkinleştirme</string>
+    <string name="smart_pixels_on_power_save_summary">Pil tasarrufu etkinken Akıllı Pikselleri etkinleştirme</string>
+    <string name="smart_pixels_percent">Devre dışı bırakılacak piksel yüzdesi</string>
+    <string name="smart_pixels_shift_title">Yanma koruması</string>
+    <string name="smart_pixels_shift_summary">Her seferinde pikselleri değiştirerek OLED cihazlarında yanmayı önler</string>
+    <string name="smart_pixels_warning_text">Akıllı pikseller bir güç tasarrufu özelliğidir. Kaç piksel kapatmaya karar verdiğinize bağlı olarak, pil ömründe önemli bir gelişme görebilirsiniz. İyi bir kullanıcı deneyimi için, devre dışı bırakılan piksel miktarını yüzde 75 olarak ayarlamanızı öneririz.</string>
+	
+    <!-- Lockscreen items -->
+    <string name="lockscreen_hide_items_category">Öğeleri gizle</string>
+    <string name="lockscreen_clock_title">Saat widgeti</string>
+    <string name="lockscreen_clock_summary">Kilit ekranındaki saat widget ini göster</string>
+    <string name="lockscreen_info_title">Saatin altındaki öğeler</string>
+    <string name="lockscreen_info_summary">Kilit ekranında tarih, hava durumu, alarm ve zen göster</string>
+	
+    <!-- Lockscreen clock styles -->
+    <string name="lockscreen_clock_selection_title">Saat stilleri</string>
+    <string name="lockscreen_clock_selection_digital">Varsayılan</string>
+    <string name="lockscreen_clock_selection_digital_bold">Dijital (kalın)</string>
+    <string name="lockscreen_clock_selection_analog">Analog (Derin Gece)</string>
+    <string name="lockscreen_clock_selection_sammy">Sammy</string>
+    <string name="lockscreen_clock_selection_sammy_bold">Sammy (kalın)</string>
+    <string name="lockscreen_clock_selection_sammy_accent">Sammy (Vurgu)</string>
+    <string name="lockscreen_clock_selection_sammy_accent_alt">Sammy (Vurgu- Alt)</string>
+    <string name="lockscreen_clock_selection_spidey">Analog (Örümcek)</string>
+    <string name="lockscreen_clock_selection_analog_num">Analog (Parlak beyaz)</string>
+    <string name="lockscreen_clock_selection_digital_accent">Digital (Vurgu)</string>
+    <string name="lockscreen_clock_selection_digital_accent_min">Digital (Vurgu-Dakika)</string>
+    <string name="lockscreen_clock_selection_digital_accent_hour">Digital (Vurgu - Saat)</string>
+    <string name="lockscreen_clock_selection_dot">Analog (Noktalı)</string>
+    <string name="lockscreen_clock_selection_spectrum">Analog (Spektrum)</string>
+    <string name="lockscreen_clock_selection_sneeky">Analog (Sneeky)</string>
+    <string name="lockscreen_clock_selection_gradient_full">Tam degrade saat</string>
+    <string name="lockscreen_clock_selection_gradient_likeqs">Tek renkli gradyan saat</string>
+    <string name="lockscreen_clock_selection_text">Android Q Metin Stili</string>
+	
+    <!-- Lock Clock & Date Size -->
+    <string name="lockdate_font_size_title">Tarih yazı tipi boyutu</string>
+    <string name="lockclock_font_size_title">Saat yazı tipi boyutu</string>
+	
+    <!-- Lockscreen cover art filter -->
+    <string name="lockscreen_cover_filter_title">Kilit Ekranı albüm kapağı sanat filtresi</string>
+    <string name="lockscreen_cover_filter_none">Yok</string>
+    <string name="lockscreen_cover_filter_grayscale">Gri tonlama</string>
+    <string name="lockscreen_cover_filter_tint">Vurgu rengi</string>
+    <string name="lockscreen_cover_filter_blur">Bulanıklık</string>
+    <string name="lockscreen_cover_filter_grayblur">Gri tonlamalı ve bulanık</string>
+	
+    <!-- Aggressive battery -->
+    <string name="aggressive_battery_title">Agresif Batarya</string>
+    <string name="aggressive_battery_warning_text">Bunlar güç tasarrufu özellikleri. Navigasyon uygulamaları gibi boşta çalışmayı amaçlayan servislere müdahale edebilirler. Bu uygulamaları uygulama batarya ayarlarından etkilenmekten beyaz listeye alabilirsiniz.</string>
+    <string name="aggressive_idle_title">Agresif Boşta</string>
+    <string name="aggressive_idle_summary">Aygıtı daha sık boşta girin ve daha az uyanın</string>
+    <string name="aggressive_standby_title">Agresif Bekleme</string>
+    <string name="aggressive_standby_summary">Uygulamaların arka planı çalıştırmasını engelleme</string>
+    <string name="aggressive_battery_saver_title">Batarya tasarrufunda otomatik etkinleştirme</string>
+    <string name="aggressive_battery_saver_summary">Pil tasarrufunu kullanırken Agresif Pili otomatik olarak etkinleştirin</string>
+	
+    <!-- Recents panel -->
+    <string name="recents_summary">Temizle düğmesi ve bazı sürükleyici tarzı konumlandırın</string>
+
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Tümünü temizle düğmesi</string>
+    <string name="show_clear_all_recents_button_summary">Tümünü temizle düğmesini göster</string>
+    <string name="recents_clear_all_location_title">Tüm yerleri temizle</string>
+    <string name="recents_clear_all_location_top_right">Sağ üst</string>
+    <string name="recents_clear_all_location_top_left">Sol üst</string>
+    <string name="recents_clear_all_location_top_center">Üst merkez</string>
+    <string name="recents_clear_all_location_bottom_right">Sağ alt</string>
+    <string name="recents_clear_all_location_bottom_left">Sol alt</string>
+    <string name="recents_clear_all_location_bottom_center">Alt merkez</string>
+	
+    <!-- Recents Membar -->
+    <string name="systemui_recents_mem_display_title">Hafıza çubuğunu göster</string> 
+    <string name="systemui_recents_mem_display_summary">Son uygulama görünümünde ram çubuğunu etkinleştirin veya devre dışı bırakın</string> 
+
+    <!-- Quick pull down-->
+    <string name="quick_pulldown_title">Hızlı aç</string>
+    <string name="quick_pulldown_summary">%1$/s durum çubuğunun kenarı Hızlı Ayarlar aşağı çeker</string>
+    <string name="quick_pulldown_summary_always">Durum çubuğunda açılan menüde her zaman Hızlı Ayarları göster</string>
+    <string name="quick_pulldown_off">Kapalı</string>
+    <string name="quick_pulldown_left">Sol</string>
+    <string name="quick_pulldown_right">Sağ</string>
+    <string name="quick_pulldown_always">Herzaman</string>
+
+    <!-- Smart pulldown-->
+    <string name="smart_pulldown_title">Akıllı açılma</string>
+    <string name="smart_pulldown_summary">% 1 $ s bildirimi olduğunda hızlı ayarları aç</string>
+    <string name="smart_pulldown_none_summary">Bildirim olmadığında hızlı ayarları aç</string>
+    <string name="smart_pulldown_off">Kapat</string>
+    <string name="smart_pulldown_none">Bildirim yok</string>
+    <string name="smart_pulldown_dismissable">yok edilemez</string>
+    <string name="smart_pulldown_ongoing">devam etmiyor</string>
+	
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Dolaşım göstergesi</string>
+    <string name="roaming_indicator_icon_summary">Dolaşım modundayken sinyal simgesinde dolaşım göstergesi</string>
+
+    <!-- QS Panel Disable -->
+    <string name="lockscreen_qs_disabled_title">Kilitlendiğinde hızlı ayarları devre dışı bırak</string>
+    <string name="lockscreen_qs_disabled_summary">Güvenli kilit ekranlarında hızlı ayarların genişletilmesini devre dışı bırakın</string>
+
+    <!-- Notifications while screen on -->
+    <string name="notification_sound_vib_screen_on_title">Ekran açıksa gürültülü bildirimler</string>
+    <string name="notification_sound_vib_screen_on_summary">Ekran açıkken bildirimler için ses ve titreşim çal</string>
+	
+    <!-- Screen state service -->
+    <string name="screen_state_toggles_summary">@null</string>
+    <string name="screen_state_toggles_title">Suspend Actions</string>
+    <string name="screen_state_toggles_enable_title">Enable</string>
+    <string name="screen_state_toggles_enable_summary">Actions will be executed on screen off. On screen on the previous state will be restored.</string>
+    <string name="screen_state_toggles_mobile_title">Mobile networks</string>
+    <string name="screen_state_toggles_location_title">Location</string>
+    <string name="screen_state_toggles_twog">Switch to 2G</string>
+    <string name="screen_state_toggles_twog_summary">Network mode will be switched to 2G on screen off</string>
+    <string name="screen_state_toggles_gps">Disable GPS</string>
+    <string name="screen_state_toggles_gps_summary">GPS based location service will be disabled on screen off</string>
+    <string name="screen_state_toggles_mobile_data">Disable mobile data</string>
+    <string name="screen_state_toggles_mobile_data_summary">Mobile data will be disabled on screen off</string>
+    <string name="screen_state_off_delay_title">Screen Off actions delay</string>
+    <string name="screen_state_off_delay_summary">Number of seconds to wait before performing actions after screen off</string>
+    <string name="screen_state_on_delay_title">Screen On actions delay</string>
+    <string name="screen_state_on_delay_summary">Number of seconds to wait before performing actions after screen on</string>
+
+</resources>
