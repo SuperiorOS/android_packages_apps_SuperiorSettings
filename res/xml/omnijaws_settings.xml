@@ -17,7 +17,7 @@
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:key="omnijaws_settings"
-    android:title="@string/weather_title">
+    android:title="@string/weather_config_title">
 
         <PreferenceScreen
             android:title="@string/weather_config_title"

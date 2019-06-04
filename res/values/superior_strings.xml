@@ -285,4 +285,9 @@
     <string name="fp_unlock_keystore_title">Force FP authentication</string>
     <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot or lockdown</string>
 
+    <!-- Lockscreen weather style -->
+    <string name="lockscreen_weather_style_title">Weather style</string>
+    <string name="lockscreen_weather_omni_style_title">Omni style</string>
+    <string name="lockscreen_weather_pixel_style_title">Pixel style</string>
+
 </resources>
