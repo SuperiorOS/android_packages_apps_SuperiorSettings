@@ -1,0 +1,4 @@
+files:
+  - source: /**/values/superior_strings.xml
+    translation: /%original_path%-%android_code%/%original_file_name%
+    translate_content: 0
