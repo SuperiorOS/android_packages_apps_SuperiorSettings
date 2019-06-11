@@ -114,4 +114,15 @@
         android:fragment="com.superior.settings.fragments.CutoutFragment" />
 
  	</PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="rounded_corners_cat"
+        android:title="@string/corners_title" >
+     <PreferenceScreen
+         android:key="rounded_corners"
+         android:title="@string/corners_title"
+         android:summary="@string/corners_summary"
+         android:fragment="com.superior.settings.fragments.RoundedCorners" />
+    </PreferenceCategory>
+
 </PreferenceScreen>
