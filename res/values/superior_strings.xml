@@ -84,6 +84,8 @@
     <string name="device_tiffany_description">tiffany\nEthan</string>
     <string name="device_riva">Redmi 5A</string>
     <string name="device_riva_description">riva\nNick</string>
+    <string name="device_sanders">Moto G5S Plus</string>
+    <string name="device_sanders_description">sanders\nMayur Varde</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>

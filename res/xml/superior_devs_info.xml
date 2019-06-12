@@ -156,6 +156,20 @@
 	
     <PreferenceCategory
         android:key="maintainer"
+        android:title="@string/device_motorola" >
+			
+    <Preference
+        android:title="@string/device_sanders"
+        android:summary="@string/device_sanders_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://t.me/marshmello_61" />
+    </Preference>
+    </PreferenceCategory>
+	
+    <PreferenceCategory
+        android:key="maintainer"
         android:title="@string/device_oneplus" >
     <Preference
         android:title="@string/device_oneplus2"
@@ -269,15 +283,6 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="http://t.me/JacobDeepu" />
-    </Preference>
-	
-    <Preference
-        android:title="@string/device_vince"
-        android:summary="@string/device_vince_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/wufix" />
     </Preference>
     </PreferenceCategory>
 
