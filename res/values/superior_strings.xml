@@ -70,12 +70,8 @@
     <string name="device_markw_description">markw\nAggelos Savvopoulos</string>
     <string name="device_land">Redmi 3S/prime</string>
     <string name="device_land_description">land\nJacob Deepu</string>
-    <string name="device_vince">Redmi Note 5/ Plus</string>
-    <string name="device_vince_description">vince\nWidi Aprianto</string>
     <string name="device_oneplus2">OnePlus 2</string>
     <string name="device_oneplus2_description">oneplus2\nSarthak Aditya</string>
-    <string name="device_beryllium">Poco F1</string>
-    <string name="device_beryllium_description">beryllium\nSaikiran</string>
     <string name="device_capricorn">Mi 5s</string>
     <string name="device_capricorn_description">capricorn\nHenma</string>
     <string name="device_rimo02a">srt. phone</string>

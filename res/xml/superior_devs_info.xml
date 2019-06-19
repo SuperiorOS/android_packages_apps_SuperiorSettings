@@ -232,15 +232,6 @@
     </Preference>
 
     <Preference
-        android:title="@string/device_beryllium"
-        android:summary="@string/device_beryllium_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/Beastmaster1" />
-    </Preference>
-
-    <Preference
         android:title="@string/device_markw"
         android:summary="@string/device_markw_description"
         android:icon="@drawable/ic_devs_phone">
