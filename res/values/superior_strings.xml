@@ -68,7 +68,7 @@
     <string name="device_kuntao_description">kuntao\nAdvaith Bhat</string>
     <string name="device_markw">Redmi 4 Prime</string>
     <string name="device_markw_description">markw\nAggelos Savvopoulos</string>
-    <string name="device_land">Redmi 3S/prime</string>
+    <string name="device_land">Redmi 3S Prime</string>
     <string name="device_land_description">land\nJacob Deepu</string>
     <string name="device_oneplus2">OnePlus 2</string>
     <string name="device_oneplus2_description">oneplus2\nSarthak Aditya</string>
@@ -84,6 +84,8 @@
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_bacon">Oneplus One</string>
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
+    <string name="device_violet">Redmi Note 7 Pro</string>
+    <string name="device_violet_description">violet\nYashpal Joshi</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
