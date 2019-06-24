@@ -171,6 +171,7 @@
     <PreferenceCategory
         android:key="maintainer"
         android:title="@string/device_oneplus" >
+
     <Preference
         android:title="@string/device_oneplus2"
         android:summary="@string/device_oneplus2_description"
@@ -178,6 +179,15 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="http://t.me/SarthakAditya" />
+    </Preference>
+
+    <Preference
+        android:title="@string/device_bacon"
+        android:summary="@string/device_bacon_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://t.me/IamShaB" />
     </Preference>
     </PreferenceCategory>
 
