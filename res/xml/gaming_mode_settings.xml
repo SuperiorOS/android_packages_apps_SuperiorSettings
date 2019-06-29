@@ -13,7 +13,7 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
-        android:key="gaming_mode_master_switch"
+        android:key="gaming_mode_enabled"
         android:title="@string/gaming_mode_master_title"
         android:summary="@string/gaming_mode_master_summary"
         android:defaultValue="true" />
@@ -23,7 +23,7 @@
         android:key="gaming_mode_headsup_toggle"
         android:title="@string/gaming_mode_headsup_title"
         android:summary="@string/gaming_mode_headsup_summary"
-        android:dependency="gaming_mode_master_switch"
+        android:dependency="gaming_mode_enabled"
         android:defaultValue="true" />
 
     <!-- Hardware keys -->
@@ -31,7 +31,7 @@
         android:key="gaming_mode_hw_keys_toggle"
         android:title="@string/gaming_mode_hardware_keys_title"
         android:summary="@string/gaming_mode_hardware_keys_summary"
-        android:dependency="gaming_mode_master_switch"
+        android:dependency="gaming_mode_enabled"
         android:defaultValue="false" />
 
     <!-- Manual brightness -->
@@ -39,7 +39,7 @@
         android:key="gaming_mode_manual_brightness_toggle"
         android:title="@string/gaming_mode_brightness_title"
         android:summary="@string/gaming_mode_brightness_summary"
-        android:dependency="gaming_mode_master_switch"
+        android:dependency="gaming_mode_enabled"
         android:defaultValue="true" />
 
     <com.superior.settings.preferences.SystemSettingListPreference
@@ -49,7 +49,7 @@
         android:entries="@array/gaming_mode_ringer_entries"
         android:entryValues="@array/gaming_mode_ringer_values"
         android:defaultValue="0"
-        android:dependency="gaming_mode_master_switch"
+        android:dependency="gaming_mode_enabled"
         android:summary="%s" />
 
     <com.superior.settings.preferences.SystemSettingListPreference
@@ -59,7 +59,7 @@
         android:entries="@array/gaming_mode_notifications_entries"
         android:entryValues="@array/gaming_mode_notifications_values"
         android:defaultValue="3"
-        android:dependency="gaming_mode_master_switch"
+        android:dependency="gaming_mode_enabled"
         android:summary="%s" />
 
     <!-- Dynamic gaming mode -->
@@ -67,7 +67,7 @@
         android:key="gaming_mode_dynamic_state"
         android:title="@string/gaming_mode_dynamic_title"
         android:summary="@string/gaming_mode_dynamic_summary"
-        android:dependency="gaming_mode_master_switch"
+        android:dependency="gaming_mode_enabled"
         android:defaultValue="false" />
 
     <!-- App picker activity for gaming mode -->
@@ -79,7 +79,7 @@
             android:icon="@drawable/ic_menu_add"
             android:title="@string/add_gaming_mode_package_title"
             android:summary="@string/add_gaming_mode_package_summary"
-            android:dependency="gaming_mode_master_switch" />
+            android:dependency="gaming_mode_enabled" />
     </PreferenceCategory>
 
 </PreferenceScreen>
