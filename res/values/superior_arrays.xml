@@ -352,6 +352,8 @@
         <item>@string/qstile_wavey</item>
         <item>@string/qstile_cookie</item>
         <item>@string/qstile_circleoutline</item>
+        <item>@string/qstile_roundedrect</item>
+        <item>@string/qstile_square</item>
     </string-array>
     <string-array name="qs_selector_values" translatable="false">
         <item>0</item>
@@ -369,6 +371,8 @@
         <item>12</item>
         <item>13</item>
         <item>14</item>
+        <item>15</item>
+        <item>16</item>
     </string-array>
 
     <!-- Edge gestures -->
