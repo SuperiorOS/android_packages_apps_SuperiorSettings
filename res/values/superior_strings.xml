@@ -86,6 +86,8 @@
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
     <string name="device_violet_description">violet\nYashpal Joshi</string>
+    <string name="device_oneplus6">OnePlus 6</string>
+    <string name="device_oneplus6_description">enchilada\nYash Sonawane</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>

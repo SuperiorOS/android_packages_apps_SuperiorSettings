@@ -173,6 +173,15 @@
         android:title="@string/device_oneplus" >
 
     <Preference
+        android:title="@string/device_oneplus6"
+        android:summary="@string/device_oneplus6_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/rdjr5" />
+    </Preference>
+
+    <Preference
         android:title="@string/device_oneplus2"
         android:summary="@string/device_oneplus2_description"
         android:icon="@drawable/ic_devs_phone">
