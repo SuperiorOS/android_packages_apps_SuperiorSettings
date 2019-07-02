@@ -568,10 +568,6 @@
     <string name="volume_panel_on_left_title">Volume Panel on Left</string>
     <string name="volume_panel_on_left_summary">Show volume panel on the left side of the screen</string>
 
-    <!-- QS Running Services Icon -->
-    <string name="qs_running_services_title">Disable Running Services Icon</string>
-    <string name="qs_running_services_summary">Disable the tile running services icon in the footer</string>
-
     <!-- Slim recents -->
     <string name="slim_recents_title">Slim Recents</string>
     <string name="slim_recents_summary">Enable to use an alternative recents screen</string>
