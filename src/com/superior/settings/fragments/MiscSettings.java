@@ -36,6 +36,8 @@ import com.android.internal.logging.nano.MetricsProto;
 
 import com.superior.settings.R;
 
+import com.superior.settings.preferences.SystemSettingMasterSwitchPreference;
+
 public class MiscSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
