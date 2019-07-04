@@ -64,14 +64,10 @@
     <string name="device_kuntao_description">kuntao\nAdvaith gay</string>
     <string name="device_markw">Redmi 4 Prime</string>
     <string name="device_markw_description">markw\nAggelos Savvopoulos</string>
-    <string name="device_land">Redmi 3S/prime</string>
+    <string name="device_land">Redmi 3S Prime</string>
     <string name="device_land_description">land\nJacob Deepu</string>
-    <string name="device_vince">Redmi Note 5/ Plus</string>
-    <string name="device_vince_description">vince\nWidi Aprianto</string>
     <string name="device_oneplus2">OnePlus 2</string>
     <string name="device_oneplus2_description">oneplus2\nSarthak Aditya</string>
-    <string name="device_beryllium">Poco F1</string>
-    <string name="device_beryllium_description">beryllium\nMasterBeast</string>
     <string name="device_capricorn">Mi 5s</string>
     <string name="device_capricorn_description">capricorn\nHenma</string>
     <string name="device_rimo02a">srt. phone</string>
@@ -82,6 +78,10 @@
     <string name="device_riva_description">riva\nNick</string>
     <string name="device_sanders">Moto G5S Plus</string>
     <string name="device_sanders_description">sanders\nMayur Varde</string>
+    <string name="device_bacon">Oneplus One</string>
+    <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
+    <string name="device_violet">Redmi Note 7 Pro</string>
+    <string name="device_violet_description">violet\nYashpal Joshi</string>
     <!-- Categories -->
     <string name="button_title">Tuşlar</string>
     <string name="animation_title">Animasyonlar</string>
@@ -94,7 +94,7 @@
     <string name="recents_title">Son uygulamalar</string>
     <string name="statusbar_title">Durum çubuğu</string>
     <string name="notifications_title">Bildirimler</string>
-    <string name="system_animations">Sistem anmasyonları</string>
+    <string name="system_animations">Sistem</string>
     <string name="listview">Liste</string>
     <string name="toast">Bildirim</string>
     <string name="fp_lockscreen">Parmak izi</string>
@@ -287,43 +287,18 @@
     <string name="lock_clock_font_title">Saat yazı tipi</string>
     <string name="lock_clock_font_summary">Kilit ekranın da saat widget\'inin varsayılan yazı tipini değiştirme</string>
     <string name="lock_clock_font_dialog_title">Saat yazı tipi seçin</string>
-    <string name="lock_clock_font_stock">Normal (varsayılan)</string>
-    <string name="lock_clock_font_bold">Kalın</string>
-    <string name="lock_clock_font_italic">İtalik</string>
-    <string name="lock_clock_font_bold_italic">Kalın italik</string>
-    <string name="lock_clock_font_light_italic">Açık italik</string>
-    <string name="lock_clock_font_thin_italic">İnce italik</string>
-    <string name="lock_clock_font_light">Açık</string>
-    <string name="lock_clock_font_thin">İnce</string>
-    <string name="lock_clock_font_condensed_normal">Yoğun</string>
-    <string name="lock_clock_font_condensed_italic">Yoğun italik</string>
-    <string name="lock_clock_font_condensed_bold">Yoğun kalın</string>
-    <string name="lock_clock_font_condensed_bold_italic">Yoğun kalın italik</string>
-    <string name="lock_clock_font_condensed_light">Yoğun açık</string>
-    <string name="lock_clock_font_condensed_light_italic">Yoğun açık italik</string>
-    <string name="lock_clock_font_medium_normal">Orta</string>
-    <string name="lock_clock_font_medium_italic">Orta italik</string>
-    <string name="lock_clock_font_black">Siyah</string>
-    <string name="lock_clock_font_black_italic">Siyah italik</string>
-    <string name="lock_clock_font_dancingscript">DancingScript</string>
-    <string name="lock_clock_font_dancingscript_bold">DancingScript kalın</string>
-    <string name="lock_clock_font_comingsoon">Çok yakında</string>
-    <string name="lock_clock_font_notoserif">NotoSerif normal</string>
-    <string name="lock_clock_font_notoserif_italic">NotoSerif italik</string>
-    <string name="lock_clock_font_notoserif_bold">NotoSerif kalın</string>
-    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif kalın italik</string>
-    <string name="lock_clock_font_gobold">GoBold açık</string>
-    <string name="lock_clock_font_roadrage">Yol rage</string>
-    <string name="lock_clock_font_snowstorm">Kar fırtınası</string>
-    <string name="lock_clock_font_googlesans">Google sans</string>
-    <string name="lock_clock_font_neoneon">Neoneon</string>
-    <string name="lock_clock_font_themeable">Temalı (veya VCR OSD Mono)</string>
-    <string name="lock_clock_font_samsung">Samsung</string>
-    <string name="lock_clock_font_ABCThru">ABCThru</string>
-    <string name="lock_clock_font_anurati">Anurati düzenli</string>
-    <string name="lock_clock_font_Joost">JoostAMillionaire</string>
-    <string name="lock_clock_font_Locust">Zehir direnci</string>
-    <string name="lock_clock_font_Wallpoet">Wallpoet düzenli</string>
+    <string name="lock_fonts_stock">Normal (varsayılan)</string>
+    <string name="lock_fonts_bold">Kalın</string>
+    <string name="lock_fonts_italic">İtalik</string>
+    <string name="lock_fonts_bold_italic">Kalın italik</string>
+    <string name="lock_fonts_light_italic">Açık italik</string>
+    <string name="lock_fonts_light">Açık</string>
+    <string name="lock_fonts_condensed_normal">Yoğun</string>
+    <string name="lock_fonts_condensed_italic">Yoğun italik</string>
+    <string name="lock_fonts_condensed_bold">Yoğun kalın</string>
+    <string name="lock_fonts_condensed_bold_italic">Yoğun kalın italik</string>
+    <string name="lock_fonts_medium_normal">Orta</string>
+    <string name="lock_fonts_medium_italic">Orta italik</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Üç parmak hareketi</string>
     <string name="three_finger_gesture_summary">Ekran görüntüsü almak için üç parmağınızı ekran üzerinde kaydırın</string>
@@ -485,9 +460,6 @@
     <!-- Volume Panel on Left -->
     <string name="volume_panel_on_left_title">Sol ses paneli</string>
     <string name="volume_panel_on_left_summary">Ses panelini ekranın sol tarafında göster</string>
-    <!-- QS Running Services Icon -->
-    <string name="qs_running_services_title">Çalışan hizmetler simgesi</string>
-    <string name="qs_running_services_summary">Başlıkta çalışan hizmetler simgesini devre dışı bırak</string>
     <!-- Slim recents -->
     <string name="slim_recents_title">Slim son uygulamalar</string>
     <string name="slim_recents_summary">Alternatif bir son uygulamalar kullanmak için etkinleştirin</string>
@@ -754,37 +726,67 @@
     <string name="screen_state_on_delay_title">Ekran açıldığında eylemlerin gecikmesi</string>
     <string name="screen_state_on_delay_summary">Ekran açıldıktan sonra işlem gerçekleştirilmeden önce beklenecek saniye miktarı</string>
     <!-- Ambient display music ticker -->
-    <string name="force_ambient_for_media_pref_title">Ambient music ticker</string>
-    <string name="force_ambient_for_media_pref_summary">Configure the Ambient music ticker</string>
-    <string name="ambient_ticker_footer">Ambient Music Ticker shows playing music track info within Ambient display screen.\n\nIt\'s triggered also if Ambient Display is disabled when a new track is started, forcing a clean ambient screen with track info in the middle of the screen.\n\nYou can also double tap on track info to skip track.</string>
-    <string name="force_ambient_for_media_title">Enable</string>
+    <string name="force_ambient_for_media_pref_title">Ortam müzik bilgisi</string>
+    <string name="force_ambient_for_media_pref_summary">Ortam ekranında müzik bilgisini yapılandır</string>
+    <string name="ambient_ticker_footer">Ortam ekranı müzik bilgisi, ortam ekranında müzik parça bilgilerini gösterir.\n\nYeni bir parça başlatıldığında ortam ekranı devre dışı bırakılmışsa, ekranın ortasında parça bilgisi içeren temiz bir ortam ekranına zorlamak için de kullanılır.\n\nParçayı atlamak için ses tuşlarına uzun basabilirsiniz.</string>
+    <string name="force_ambient_for_media_title">Etkinleştir</string>
     <!-- Rounded corners -->
-    <string name="corners_title">Rounded corners</string>
-    <string name="corners_summary">Allow customized rounded corners</string>
-    <string name="corner_radius">Rounded corner radius</string>
-    <string name="content_padding">Corner content padding</string>
-    <string name="status_bar_padding">Statusbar extra padding</string>
-    <string name="corner_fwvals">Use default values</string>
+    <string name="corners_title">Yuvarlak köşeler</string>
+    <string name="corners_summary">Yuvarlak köşeleri özelleştirmek için izin ver</string>
+    <string name="corner_radius">Yuvarlak köşe yarıçapı</string>
+    <string name="content_padding">Köşe içerik dolgusu</string>
+    <string name="status_bar_padding">Durum çubuğu ekstra dolgusu</string>
+    <string name="corner_fwvals">Varsayılan değerleri kullan</string>
     <!-- Battery bar -->
     <string name="battery_bar_title">Pil çubuğu</string>
     <string name="battery_bar_summary">Durum çubuğunda veya gezinme çubuğunun yakınında pil çubuğunu görüntüleyin ve özelleştirin</string>
-    <string name="battery_bar_location">Battery bar location</string>
+    <string name="battery_bar_location">Pil çubuğu konumu</string>
     <string name="battery_bar_color">Pil çubuğu rengi</string>
-    <string name="battery_bar_style_title">Battery bar style</string>
+    <string name="battery_bar_style_title">Pil çubuğu stili</string>
     <string name="battery_bar_thickness_title">Pil çubuğu kalınlığı</string>
     <string name="battery_bar_animate_title">Şarj animasyonu</string>
-    <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion.</string>
-    <string name="battery_bar_hide">Hide</string>
-    <string name="battery_bar_statusbar">Statusbar</string>
-    <string name="battery_bar_topnav">Top of navbar</string>
-    <string name="battery_bar_bottomnav">Bottom of navbar</string>
-    <string name="battery_bar_reg">Regular</string>
-    <string name="battery_bar_center">Center-mirrored</string>
+    <string name="battery_bar_animate_summary">Şarj animasyonu düşük performansa yol açabilir. Dilerseniz aktif edebilirsiniz.</string>
+    <string name="battery_bar_hide">Gizle</string>
+    <string name="battery_bar_statusbar">Durum çubuğu</string>
+    <string name="battery_bar_topnav">Gezinme çubuğu üstünde</string>
+    <string name="battery_bar_bottomnav">Gezinme çubuğu altında</string>
+    <string name="battery_bar_reg">Geçerli</string>
+    <string name="battery_bar_center">Orta-yansıtmalı</string>
     <string name="battery_bar_charging_color">Pil çubuğu şarj olma rengi</string>
     <string name="battery_bar_battery_low_color">Pil çubuğu düşük pil rengi</string>
-    <string name="battery_bar_reversed">Reversed</string>
-    <string name="battery_bar_use_gradient_color">Use gradient color</string>
-    <string name="battery_bar_gradient_color_summary">Use gradient color as a scale for the battery level</string>
-    <string name="battery_bar_high_color">High level color\"</string>
-    <string name="battery_bar_low_color">Low level color\"</string>
+    <string name="battery_bar_reversed">Ters</string>
+    <string name="battery_bar_use_gradient_color">Gradyan rengi kullan</string>
+    <string name="battery_bar_gradient_color_summary">Pil seviyesi için ölçek olarak gradyan rengini kullanın</string>
+    <string name="battery_bar_high_color">Yüksek seviye renk</string>
+    <string name="battery_bar_low_color">Düşük seviye renk</string>
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Oyun modu</string>
+    <string name="gaming_mode_summary">Oyun modu tercihlerini özelleştirme</string>
+    <string name="gaming_mode_master_title">Oyun modu özelliklerini etkinleştir</string>
+    <string name="gaming_mode_master_summary">Oyun modu seçeneklerini özelleştirmeye izin ver</string>
+    <string name="gaming_mode_app_picker_title">Bu uygulamalar için otomatik olarak aç</string>
+    <string name="add_gaming_mode_package_title">Oyun modu için uygulamalar ekle</string>
+    <string name="add_gaming_mode_package_summary">Seçilen uygulamalar için oyun modu otomatik olarak açılacaktır.</string>
+    <string name="gaming_mode_headsup_title">Bildirimleri engelle</string>
+    <string name="gaming_mode_headsup_summary">Aramalar haricindeki tüm mesajları engeller.</string>
+    <string name="gaming_mode_hardware_keys_title">Donanım tuşu</string>
+    <string name="gaming_mode_hardware_keys_summary">Oyun modu açıldığında donanım tuşlarını devre dışı bırakır.</string>
+    <string name="gaming_mode_brightness_title">Otomatik parlaklık</string>
+    <string name="gaming_mode_brightness_summary">Oyun modu açıldığında otomatik ekran parlaklığını kilitler.</string>
+    <string name="gaming_mode_ringer_title">Oyun modunda zil sesi</string>
+    <string name="gaming_mode_ringer_off_title">Değiştirme</string>
+    <string name="gaming_mode_ringer_vibrate_title">Titreşim</string>
+    <string name="gaming_mode_ringer_dnd_title">Rahatsız etmeyin</string>
+    <string name="gaming_mode_ringer_silent_title">Sessiz</string>
+    <string name="gaming_mode_notifications_title">Bildirimler</string>
+    <string name="gaming_mode_notifications_off_title">Devre dışı</string>
+    <string name="gaming_mode_notifications_notif_title">Bildirimleri göster</string>
+    <string name="gaming_mode_notifications_toast_title">Hızlı bildirimleri göster</string>
+    <string name="gaming_mode_notifications_all_title">Bildirim simgelerini ve normal bildirimleri göster</string>
+    <string name="gaming_mode_dynamic_title">Dinamik oyun modu</string>
+    <string name="gaming_mode_dynamic_summary">Herhangi bir uygulamayı açtığınızda ve sistem bir oyun olarak bulduğunda, otomatik olarak oyun listesine eklenecektir. Bunun her oyun uygulaması için çalışmadığını lütfen unutmayın.</string>
+    <!-- Battery fully charged -->
+    <!-- Force expanded notifications -->
+    <!-- Ambient visualizer -->
+    <!-- QS footer icons -->
 </resources>
