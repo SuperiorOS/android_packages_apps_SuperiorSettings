@@ -82,6 +82,8 @@
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
     <string name="device_violet_description">violet\nYashpal Joshi</string>
+    <string name="device_oneplus6">OnePlus 6</string>
+    <string name="device_oneplus6_description">enchilada\nYash Sonawane</string>
     <!-- Categories -->
     <string name="button_title">Tuşlar</string>
     <string name="animation_title">Animasyonlar</string>
@@ -439,6 +441,8 @@
     <string name="qstile_wavey">Dalgalı</string>
     <string name="qstile_cookie">Kurabiye</string>
     <string name="qstile_circleoutline">CircleOutline</string>
+    <string name="qstile_roundedrect">Yuvarlatılmış dikdörtgen</string>
+    <string name="qstile_square">Kare</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Cep algılama</string>
     <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>
@@ -786,7 +790,21 @@
     <string name="gaming_mode_dynamic_title">Dinamik oyun modu</string>
     <string name="gaming_mode_dynamic_summary">Herhangi bir uygulamayı açtığınızda ve sistem bir oyun olarak bulduğunda, otomatik olarak oyun listesine eklenecektir. Bunun her oyun uygulaması için çalışmadığını lütfen unutmayın.</string>
     <!-- Battery fully charged -->
+    <string name="battery_fully_charged_notif_title">Pil tamamen şarj edildi</string>
+    <string name="battery_fully_charged_notif_summary">Pil tamamen şarj olduğunda bir bildirim göster</string>
     <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Bildirimleri genişletmeye zorla</string>
+    <string name="force_expanded_notifications_summary">Sadece genişletilmiş bildirimleri destekleyen uygulamalar için kullanılabilir</string>
     <!-- Ambient visualizer -->
+    <string name="ambient_visualizer_title">Ortam ekranı görselleştiricisi</string>
+    <string name="ambient_visualizer_summary">Özel renk seçilmedikçe, ortam ekranın da beyaz görselleştirme çubuklarını gösterir</string>
     <!-- QS footer icons -->
+    <string name="qs_footer_services_title">Çalışan hizmetler simgesi</string>
+    <string name="qs_footer_services_summary">Hızlı ayarlar panelinde çalışan hizmetler simgesini görüntüle</string>
+    <string name="qs_footer_settings_title">Ayarlar simgesi</string>
+    <string name="qs_footer_settings_summary">Hızlı ayarlar panelinde ayarlar simgesini göster</string>
+    <string name="qs_edit_title">Düzenleme simgesi</string>
+    <string name="qs_edit_summary">Kare düzenleme simgesini hızlı ayarlar panelinde göster</string>
+    <string name="qs_footer_user_title">Kullanıcı değiştirme</string>
+    <string name="qs_footer_user_summary">Hızlı ayarlar panelinde kullanıcı değiştirme simgesini görüntüle</string>
 </resources>

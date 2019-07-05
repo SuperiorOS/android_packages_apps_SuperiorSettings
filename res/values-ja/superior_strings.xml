@@ -799,4 +799,12 @@
     <string name="ambient_visualizer_title">アンビエントビジュアライザー</string>
     <string name="ambient_visualizer_summary">カスタムカラー未選択時にアンビエント画面にビジュアライザーを表示する</string>
     <!-- QS footer icons -->
+    <string name="qs_footer_services_title">実行中のサービスアイコン</string>
+    <string name="qs_footer_services_summary">クイック設定のフッターに実行中のサービスアイコンを表示する</string>
+    <string name="qs_footer_settings_title">設定アイコン</string>
+    <string name="qs_footer_settings_summary">クイック設定のフッターに設定アイコンを表示する</string>
+    <string name="qs_edit_title">編集アイコン</string>
+    <string name="qs_edit_summary">クイック設定のフッターに編集アイコンを表示する</string>
+    <string name="qs_footer_user_title">ユーザー切り替えアイコン</string>
+    <string name="qs_footer_user_summary">クイック設定のフッターにユーザー切り替えアイコンを表示する</string>
 </resources>
