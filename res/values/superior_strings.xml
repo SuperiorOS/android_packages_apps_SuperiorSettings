@@ -948,4 +948,8 @@
     <string name="qs_footer_user_title">User switcher icon</string>
     <string name="qs_footer_user_summary">Display Multi-user switcher icon in quick settings footer</string>
 
+    <!-- Alert Slider -->
+    <string name="swap_slider_order_title">Swap slider</string>
+    <string name="swap_slider_order_summary">Swap the alert slider modes order (only for devices with alert slider support)</string>
+
 </resources>
