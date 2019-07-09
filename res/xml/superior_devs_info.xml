@@ -303,6 +303,15 @@
             android:action="android.intent.action.VIEW"
             android:data="http://t.me/officialyash007" />
     </Preference>
+
+    <Preference
+        android:title="@string/device_kenzo"
+        android:summary="@string/device_kenzo_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/amanrajOO7" />
+    </Preference>
     </PreferenceCategory>
 
 </PreferenceScreen>
