@@ -312,6 +312,15 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/amanrajOO7" />
     </Preference>
+
+    <Preference
+        android:title="@string/device_z2_plus"
+        android:summary="@string/device_z2_plus_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/sanketp60" />
+    </Preference>
     </PreferenceCategory>
 
 </PreferenceScreen>
