@@ -94,6 +94,8 @@
     <string name="device_kenzo_description">kenzo\nAman Singh</string>
     <string name="device_z2_plus">Lenovo ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nSanket Pisat</string>
+    <string name="device_platina">Mi 8 Lite</string>
+    <string name="device_platina_description">platina\nMaghfur Cak</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>

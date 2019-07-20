@@ -321,6 +321,15 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/amanrajOO7" />
     </Preference>
+
+    <Preference
+        android:title="@string/device_platina"
+        android:summary="@string/device_platina_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/mafurcak" />
+    </Preference>
     </PreferenceCategory>
 
 </PreferenceScreen>
