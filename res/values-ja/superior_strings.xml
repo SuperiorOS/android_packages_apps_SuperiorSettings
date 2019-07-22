@@ -17,11 +17,13 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="superior_settings_title">Superior 設定</string>
-    <string name="superior_dashboard_summary">ハルマゲドンコア</string>
+    <string name="superior_dashboard_summary">アルマゲドンコア</string>
     <!-- ROM Info -->
     <string name="superior_about_info">プロジェクトについて</string>
     <string name="superior_about_info_summary_title">チームについて</string>
     <string name="superior_about_info_summary">Superior OS は AOSP をベースにしたカスタム ROM で、必要最小限の機能がいくつかあります。この ROM の主な目的は日常の高速性能・滑らかさ・優れたバッテリー持続を実現することです。</string>
+    <string name="superior_about_rom">ROM について</string>
+    <string name="superior_feature">Superior 機能</string>
     <!-- Dev Info -->
     <string name="devs_header">開発者</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
@@ -33,7 +35,7 @@
     <string name="dev_4">Titus Joseph</string>
     <string name="dev4_description">デザイナー</string>
     <string name="dev_5">Swapnil Soni</string>
-    <string name="dev5_description">Web デベロッパー</string>
+    <string name="dev5_description">Web 開発者</string>
     <!-- Mentions -->
     <string name="mentions_header">スペシャルサンクス</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -41,7 +43,7 @@
     <string name="mentions_andi">Aryanata Andi</string>
     <string name="mentions_andi_description">ブートアニメーションデザイナー</string>
     <!-- Maintainer Info -->
-    <string name="maintainers_header">メンテナー </string>
+    <string name="maintainers_header">メンテナー</string>
     <string name="maintainers_header_summary">公式端末のメンテナー達です...</string>
     <string name="device_xiaomi">Xiaomi</string>
     <string name="device_asus">Asus</string>
@@ -84,6 +86,12 @@
     <string name="device_violet_description">violet\nYashpal Joshi</string>
     <string name="device_oneplus6">OnePlus 6</string>
     <string name="device_oneplus6_description">enchilada\nYash Sonawane</string>
+    <string name="device_kenzo">Redmi Note 3</string>
+    <string name="device_kenzo_description">kenzo\nAman Singh</string>
+    <string name="device_z2_plus">Lenovo ZUK Z2 Plus</string>
+    <string name="device_z2_plus_description">z2_plus\nSanket Pisat</string>
+    <string name="device_platina">Mi 8 Lite</string>
+    <string name="device_platina_description">platina\nMaghfur Cak</string>
     <!-- Categories -->
     <string name="button_title">ボタン</string>
     <string name="animation_title">アニメーション</string>
@@ -127,7 +135,7 @@
     <string name="set">設定</string>
     <string name="color_default">既定</string>
     <!--Status Bar -->
-    <string name="statusbar_items_title">ステータスバーの項目</string>
+    <string name="statusbar_items_title">ステータスバーのアイコン</string>
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">ロック画面のショートカット</string>
     <!-- Navbar tuner -->
@@ -138,7 +146,7 @@
     <string name="hide_apps_from_recents_summary">非表示にするアプリを選択する</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">ロック画面での充電情報</string>
-    <string name="lockscreen_battery_info_summary">充電中のロック画面に接続した充電器の情報を表示する</string>
+    <string name="lockscreen_battery_info_summary">充電時のロック画面に接続した充電器の情報を表示する</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">通話中の振動オプション</string>
     <string name="incall_vibrate_connect_title">接続時に振動</string>
@@ -158,7 +166,7 @@
     <!-- Button brightness -->
     <string name="button_backlight_options_category">バックライトの設定</string>
     <string name="button_backlight_enable_title">ボタンのバックライトを許可</string>
-    <string name="button_link_brightness">画面の明るさとリンクする</string>
+    <string name="button_link_brightness">画面の明るさとリンク</string>
     <string name="button_link_brightness_summary">ボタンバックライトの明るさは現在の画面の明るさレベルに応じて調整されます</string>
     <string name="button_manual_brightness">明るさレベル</string>
     <string name="button_timeout_title">バックライトの点灯時間</string>
@@ -178,7 +186,7 @@
     <string name="choose_action_title">アクションを選択</string>
     <string name="action_entry_default_action">既定の設定</string>
     <string name="action_entry_select_app">アプリの選択</string>
-    <string name="action_entry_custom_action">カスタムアクションを選択</string>
+    <string name="action_entry_custom_action">カスタムアクションの選択</string>
     <string name="hardware_keys_home_key_title">ホームボタン</string>
     <string name="hardware_keys_menu_key_title">メニューボタン</string>
     <string name="hardware_keys_assist_key_title">検索ボタン</string>
@@ -294,7 +302,7 @@
     <string name="lock_fonts_italic">イタリック</string>
     <string name="lock_fonts_bold_italic">太字イタリック</string>
     <string name="lock_fonts_light_italic">軽いイタリック</string>
-    <string name="lock_fonts_light">ライト</string>
+    <string name="lock_fonts_light">軽い</string>
     <string name="lock_fonts_condensed_normal">長体</string>
     <string name="lock_fonts_condensed_italic">長体イタリック</string>
     <string name="lock_fonts_condensed_bold">長体太字</string>
@@ -308,14 +316,14 @@
     <string name="show_fourg_icon_title">4G アイコン</string>
     <string name="show_fourg_icon_summary">LTE の代わりに 4G アイコンを表示する</string>
     <!-- Network traffic -->
-    <string name="traffic_title">通信速度表示</string>
+    <string name="traffic_title">通信速度</string>
     <string name="network_traffic_title">通信速度</string>
     <string name="network_traffic_type">表示する通信方向を選択</string>
     <string name="show_network_traffic_up">送信</string>
     <string name="show_network_traffic_down">受信</string>
     <string name="show_network_traffic_all">両方</string>
     <string name="network_traffic_state_title">通信速度を表示</string>
-    <string name="network_traffic_autohide_threshold_title">自動非表示の通信速度しきい値 (KB/s)</string>
+    <string name="network_traffic_autohide_threshold_title">自動非表示にするしきい値 (KB/s)</string>
     <string name="network_traffic_hidearrow">矢印を隠す</string>
     <string name="network_traffic_hidearrow_summary">通信速度の矢印を隠す</string>
     <!-- Screenshot -->
@@ -340,13 +348,13 @@
     <string name="status_bar_battery_style_text">文字</string>
     <string name="status_bar_battery_style_hidden">非表示</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">バッテリー充電時のライト</string>
+    <string name="battery_light_settings">バッテリーライト</string>
     <string name="battery_light_enable">有効</string>
-    <string name="battery_light_allow_on_dnd_title">マナーモード中のバッテリーライト</string>
-    <string name="battery_light_low_blinking_title">バッテリー低下時のライト点滅</string>
-    <string name="battery_light_cat">充電中のバッテリーの色</string>
-    <string name="battery_light_low_color">バッテリー残量低下</string>
-    <string name="battery_light_medium_color">中程度のバッテリー残量</string>
+    <string name="battery_light_allow_on_dnd_title">マナーモード中のライト</string>
+    <string name="battery_light_low_blinking_title">低残量時のライト点滅</string>
+    <string name="battery_light_cat">充電時のライトの色</string>
+    <string name="battery_light_low_color">残量低下</string>
+    <string name="battery_light_medium_color">中程度</string>
     <string name="battery_light_full_color">ほぼ充電完了</string>
     <string name="battery_light_reallyfull_color">充電完了</string>
     <!-- ANBI -->
@@ -370,12 +378,12 @@
     <!-- Blink flashlight for incoming calls -->
     <string name="flashlight_on_call_title">着信時にフラッシュライト点滅</string>
     <string name="flashlight_on_call_disabled">無効</string>
-    <string name="flashlight_on_call_not_dnd">着信モードでのみフラッシュライトを点滅させる</string>
-    <string name="flashlight_on_call_dnd">マナーモードのみモードでのみフラッシュライトを点滅させる</string>
-    <string name="flashlight_on_call_always">常にフラッシュライトを点滅させる</string>
+    <string name="flashlight_on_call_not_dnd">着信モードのみ</string>
+    <string name="flashlight_on_call_dnd">マナーモードのみ</string>
+    <string name="flashlight_on_call_always">常時</string>
     <!-- Volume Button Music Control -->
     <string name="volume_rocker_music_controls_title">音楽コントロール</string>
-    <string name="volume_rocker_music_controls_summary">画面消灯中に音量ボタンを長押ししてトラック移動する</string>
+    <string name="volume_rocker_music_controls_summary">画面消灯中に音量ボタンを長押しして曲を移動する</string>
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">明るさコントロール</string>
     <string name="status_bar_toggle_brightness_summary">ステータスバーの上をスライドして明るさを調整する</string>
@@ -400,7 +408,7 @@
     <string name="app_ops_settings_title">プライバシーガード</string>
     <string name="app_ops_summary">アプリの権限を管理する</string>
     <!-- QS header styles -->
-    <string name="qs_header_style_title">クイック設定ヘッダーのスタイル</string>
+    <string name="qs_header_style_title">ヘッダーのスタイル</string>
     <string name="qs_header_black">ブラック</string>
     <string name="qs_header_grey">グレー</string>
     <string name="qs_header_lightgrey">ライトグレー</string>
@@ -409,13 +417,13 @@
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">画面消灯時のライト点灯</string>
     <string name="torch_power_button_gesture_none">無効</string>
-    <string name="torch_power_button_gesture_dt">2回押しでライト点灯 (1回押しの反応が少々遅れます)</string>
+    <string name="torch_power_button_gesture_dt">2回押しでライト点灯</string>
     <string name="torch_power_button_gesture_lp">長押しでライト点灯</string>
     <!-- Volume Wake -->
     <string name="volume_rocker_wake_title">スリープ解除</string>
     <string name="volume_rocker_wake_summary">音量ボタンを押してスリープ解除する</string>
     <!-- Navigation gestures -->
-    <string name="gesture_settings_title">OnePlus ナビゲーションジェスチャー</string>
+    <string name="gesture_settings_title">OnePlus ナビゲーション</string>
     <string name="gesture_settings_summary">ナビゲーションに下部から上スワイプジェスチャーを使用する</string>
     <string name="use_bottom_gesture_cat">上スワイプジェスチャー</string>
     <string name="use_bottom_gesture_title">上スワイプジェスチャー</string>
@@ -425,12 +433,12 @@
     <string name="gesture_action_timeout_title">スワイプ起動の持続時間</string>
     <string name="gesture_action_timeout_summary">ジェスチャーアクションが開始される前の待機時間</string>
     <!-- QS tile styles -->
-    <string name="qs_tile_style_title">クイック設定タイルのスタイル</string>
+    <string name="qs_tile_style_title">タイルのスタイル</string>
     <string name="qstile_default">既定</string>
-    <string name="qstile_circle_gradient">サークル (グラデーション)</string>
-    <string name="qstile_circle_trim">サークル (トリム)</string>
-    <string name="qstile_circle_dualtone">デュアルトーンサークル</string>
-    <string name="qstile_dual_tone_circle">デュアルトーンサークル (トリム)</string>
+    <string name="qstile_circle_gradient">円 (グラデーション)</string>
+    <string name="qstile_circle_trim">円 (トリム)</string>
+    <string name="qstile_circle_dualtone">デュアルトーンの円</string>
+    <string name="qstile_dual_tone_circle">デュアルトーンの円 (トリム)</string>
     <string name="qstile_inkdrop">インクドロップ</string>
     <string name="qstile_mountain">山脈</string>
     <string name="qstile_ninja">忍者</string>
@@ -440,7 +448,7 @@
     <string name="qstile_teardrop">涙形</string>
     <string name="qstile_wavey">波状</string>
     <string name="qstile_cookie">クッキー</string>
-    <string name="qstile_circleoutline">円の線</string>
+    <string name="qstile_circleoutline">線の円</string>
     <string name="qstile_roundedrect">角丸四角形</string>
     <string name="qstile_square">四角</string>
     <!-- Pocket judge -->
@@ -454,10 +462,10 @@
     <string name="edge_gestures_back_edges_title">戻るジェスチャーを始める場所</string>
     <string name="edge_gestures_landscape_back_edges_title">横向きで戻るジェスチャーを始める場所</string>
     <string name="edge_gestures_back_screen_percent_title">戻るジェスチャーは以下の画面の下からの割合から始めます</string>
-    <string name="edge_gestures_back_screen_percent_summary">画面の以下の割合より下から始める</string>
+    <string name="edge_gestures_back_screen_percent_summary">起動する画面の下からの割合</string>
     <string name="edge_gestures_summary">エッジジェスチャーを使って操作する</string>
     <string name="edge_gestures_back_show_ui_feedback_title">戻るジェスチャーアニメーション</string>
-    <string name="edge_gestures_back_show_ui_feedback_summary">戻るジェスチャーを使った時にエッジアニメーションを表示します</string>
+    <string name="edge_gestures_back_show_ui_feedback_summary">戻るジェスチャー使用時にエッジアニメーションを表示する</string>
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">邪魔な Heads Up を減らす</string>
     <string name="less_boring_heads_up_summary">ダイアラーかメッセージアプリのみ Heads Up を表示する</string>
@@ -487,11 +495,11 @@
     <string name="dialog_pick_iconpack_title">アイコンパックを選択</string>
     <string name="default_iconpack_title">既定のアイコン</string>
     <string name="slim_recents_corner_radius_title">角の丸みの半径</string>
-    <string name="slim_recents_aicp_empty_drawable_title">アプリ履歴が無いときにAICP画像を表示</string>
+    <string name="slim_recents_aicp_empty_drawable_title">履歴が無い時に AICP 画像を表示</string>
     <string name="slim_recents_aicp_empty_drawable_summary">アプリ履歴が無い時に AICP 画像を表示する</string>
     <!-- ATTENTION: RTL languages need to replace left with right -->
     <string name="recent_panel_lefty_mode_title">左端に表示</string>
-    <string name="recent_panel_lefty_mode_summary">画面左に最近使ったアプリパネルを表示</string>
+    <string name="recent_panel_lefty_mode_summary">画面左にアプリ履歴パネルを表示する</string>
     <string name="slim_blacklist_apps_cat_title">ブラックリスト</string>
     <string name="slim_blacklist_apps_title">アプリのブラックリスト</string>
     <string name="slim_blacklist_apps_summary">パネルに表示しないアプリを選択する</string>
@@ -608,7 +616,7 @@
     <string name="brightness_icon_title">明るさ自動調節ボタン</string>
     <string name="brightness_icon_summary">明るさ自動調節ボタンを表示する</string>
     <!-- Quick Settings brightness side buttons -->
-    <string name="brightness_side_buttons_title">明るさ調節ボタン</string>
+    <string name="brightness_side_buttons_title">明るさ増減ボタン</string>
     <string name="brightness_side_buttons_summary">明るさを増減させるボタンを表示する</string>
     <!-- Language options - Volume rocker cursor control -->
     <string name="cursor_section_header">カーソル</string>
@@ -622,7 +630,7 @@
     <string name="smart_pixels_enable_title">スマートピクセルを有効化</string>
     <string name="smart_pixels_enable_summary">消費電力を削減するため画素を遮断する</string>
     <string name="smart_pixels_on_power_save_title">自動有効 </string>
-    <string name="smart_pixels_on_power_save_summary">バッテリーセーバー起動時は自動的に有効にする</string>
+    <string name="smart_pixels_on_power_save_summary">バッテリーセーバー起動時は自動で有効化する</string>
     <string name="smart_pixels_percent">無効にする画素の割合</string>
     <string name="smart_pixels_shift_title">焼き付き保護</string>
     <string name="smart_pixels_shift_summary">使う画素を遷移させ画面の焼付きを避ける</string>
@@ -673,7 +681,7 @@
     <string name="aggressive_battery_saver_title">自動有効</string>
     <string name="aggressive_battery_saver_summary">バッテリーセーバー使用時は自動で有効化する</string>
     <!-- Recents panel -->
-    <string name="recents_summary">削除ボタンの位置といくつかの全画面スタイル</string>
+    <string name="recents_summary">ボタンの位置といくつかの全画面スタイル</string>
     <!-- Recents panel settings -->
     <string name="show_clear_all_recents_button_title">全て終了ボタン</string>
     <string name="show_clear_all_recents_button_summary">全て終了ボタンを表示する</string>
@@ -714,12 +722,12 @@
     <string name="notification_sound_vib_screen_on_summary">画面点灯中に通知を受信した時に通知音とバイブを鳴らす</string>
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">\@null</string>
-    <string name="screen_state_toggles_title">スリープ時アクション</string>
+    <string name="screen_state_toggles_title">スリープ時のアクション</string>
     <string name="screen_state_toggles_enable_title">有効</string>
     <string name="screen_state_toggles_enable_summary">アクションは画面消灯時に実行され点灯すると以前の状態が復元されます</string>
     <string name="screen_state_toggles_mobile_title">モバイルネットワーク</string>
     <string name="screen_state_toggles_location_title">位置情報</string>
-    <string name="screen_state_toggles_twog">2G に切り替える</string>
+    <string name="screen_state_toggles_twog">2G に切り替え</string>
     <string name="screen_state_toggles_twog_summary">画面消灯時にネットワークモードを 2G に切り替える</string>
     <string name="screen_state_toggles_gps">GPS の無効化</string>
     <string name="screen_state_toggles_gps_summary">画面消灯時に GPS を使用した位置情報サービスを無効化する</string>
@@ -743,12 +751,12 @@
     <string name="corner_fwvals">既定値を使用</string>
     <!-- Battery bar -->
     <string name="battery_bar_title">バッテリーバー</string>
-    <string name="battery_bar_summary">ステータスバー又はナビゲーションバー付近のバッテリーバーの表示や編集をする</string>
-    <string name="battery_bar_location">バッテリーバーの場所</string>
-    <string name="battery_bar_color">バッテリーバーの色</string>
-    <string name="battery_bar_style_title">バッテリーバーのスタイル</string>
-    <string name="battery_bar_thickness_title">バッテリーバーの太さ</string>
-    <string name="battery_bar_animate_title">充電アニメーション</string>
+    <string name="battery_bar_summary">バッテリーバーの表示や編集をする</string>
+    <string name="battery_bar_location">位置</string>
+    <string name="battery_bar_color">色</string>
+    <string name="battery_bar_style_title">スタイル</string>
+    <string name="battery_bar_thickness_title">太さ</string>
+    <string name="battery_bar_animate_title">充電時のアニメーション</string>
     <string name="battery_bar_animate_summary">有効にすると動作が遅くなる可能性があります。自己責任で使用してく下さい。</string>
     <string name="battery_bar_hide">非表示</string>
     <string name="battery_bar_statusbar">ステータスバー</string>
@@ -757,10 +765,10 @@
     <string name="battery_bar_reg">標準</string>
     <string name="battery_bar_center">中央</string>
     <string name="battery_bar_charging_color">充電時の色</string>
-    <string name="battery_bar_battery_low_color">残量低下時の色</string>
+    <string name="battery_bar_battery_low_color">低残量時の色</string>
     <string name="battery_bar_reversed">反転</string>
     <string name="battery_bar_use_gradient_color">グラデーションカラーを使用</string>
-    <string name="battery_bar_gradient_color_summary">バッテリーレベルの目盛りにグラデーションカラーを使用</string>
+    <string name="battery_bar_gradient_color_summary">バッテリーレベルの目盛りにグラデーションカラーを使用する</string>
     <string name="battery_bar_high_color">高残量時の色</string>
     <string name="battery_bar_low_color">低残量時の色</string>
     <!-- Gaming mode -->
@@ -768,9 +776,9 @@
     <string name="gaming_mode_summary">ゲームモードの設定を編集する</string>
     <string name="gaming_mode_master_title">ゲームモード機能を有効化</string>
     <string name="gaming_mode_master_summary">ゲームモード設定の編集を許可する</string>
-    <string name="gaming_mode_app_picker_title">これらのアプリ使用中は自動有効</string>
+    <string name="gaming_mode_app_picker_title">使用中は自動有効にするアプリ</string>
     <string name="add_gaming_mode_package_title">アプリを追加</string>
-    <string name="add_gaming_mode_package_summary">選択したアプリ使用時はゲームモードが自動的に有効化されます</string>
+    <string name="add_gaming_mode_package_summary">選択したアプリの使用時はゲームモードが自動的に有効化されます</string>
     <string name="gaming_mode_headsup_title">通知のブロック</string>
     <string name="gaming_mode_headsup_summary">Heads Up と通話以外は全てブロックする</string>
     <string name="gaming_mode_hardware_keys_title">ボタンのロック</string>
@@ -807,4 +815,7 @@
     <string name="qs_edit_summary">クイック設定のフッターに編集アイコンを表示する</string>
     <string name="qs_footer_user_title">ユーザー切り替えアイコン</string>
     <string name="qs_footer_user_summary">クイック設定のフッターにユーザー切り替えアイコンを表示する</string>
+    <!-- Alert Slider -->
+    <string name="swap_slider_order_title">スライダーの入れ替え</string>
+    <string name="swap_slider_order_summary">Alert Slider モードの向きを入れ替える (対応している端末のみ)</string>
 </resources>

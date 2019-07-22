@@ -16,12 +16,14 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="superior_settings_title">Superior Ayarları</string>
+    <string name="superior_settings_title">Superior ayarları</string>
     <string name="superior_dashboard_summary">Armegedon çekirdeği</string>
     <!-- ROM Info -->
-    <string name="superior_about_info">Proje Hakkında</string>
-    <string name="superior_about_info_summary_title">Takımımız hakkında</string>
+    <string name="superior_about_info">Hakkımızda</string>
+    <string name="superior_about_info_summary_title">Takımımız hakkında bilgiler</string>
     <string name="superior_about_info_summary">SuperiorOS AOSP tabanlı bir özel bir romdur, en gerekli bazı minimal özelliklere sahiptir, SuperiorOS\'un temel amacı ışık hızına sahip performans,pürüssüzlük ve iyi bir pil deneyimi yaşatmaktır.</string>
+    <string name="superior_about_rom">Rom hakkında</string>
+    <string name="superior_feature">Superior özellikleri</string>
     <!-- Dev Info -->
     <string name="devs_header">Geliştiriciler</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
@@ -29,7 +31,7 @@
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">Çekirdek ekibi/Geliştirici\nX01BD | Tissot Sorumlusu</string>
     <string name="dev_3">Pavan Patel</string>
-    <string name="dev3_description">Çekirdek ekibi/Tasarımcı\nTulip Sorumlusu</string>
+    <string name="dev3_description">Çekirdek Team/Tasarımcı\nTulip Bakıcısı</string>
     <string name="dev_4">Titus Joseph</string>
     <string name="dev4_description">Tasarımcı</string>
     <string name="dev_5">Swapnil Soni</string>
@@ -84,6 +86,10 @@
     <string name="device_violet_description">violet\nYashpal Joshi</string>
     <string name="device_oneplus6">OnePlus 6</string>
     <string name="device_oneplus6_description">enchilada\nYash Sonawane</string>
+    <string name="device_kenzo">Redmi Note 3</string>
+    <string name="device_kenzo_description">kenzo\nAman Singh</string>
+    <string name="device_z2_plus">Lenovo ZUK Z2 Plus</string>
+    <string name="device_z2_plus_description">z2_plus\nSanket Pisat</string>
     <!-- Categories -->
     <string name="button_title">Tuşlar</string>
     <string name="animation_title">Animasyonlar</string>
@@ -140,7 +146,7 @@
     <string name="lockscreen_battery_info_title">Pil bilgisi</string>
     <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazının maksimum akım voltajını ve pil sıcaklığını görüntüle</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Çağrı titreşimi</string>
+    <string name="incall_vibration_category">Arama titreşimi</string>
     <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
     <string name="incall_vibrate_call_wait_title">Bekletildiğinde titret</string>
     <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titret</string>
@@ -161,7 +167,7 @@
     <string name="button_link_brightness">Ekran parlaklığına bağla</string>
     <string name="button_link_brightness_summary">Arka aydınlatma tuş parlaklığını ekran parlaklığı seviyesine göre ayarlar</string>
     <string name="button_manual_brightness">Parlaklık seviyesi</string>
-    <string name="button_timeout_title">Arka ışık zaman aşımı</string>
+    <string name="button_timeout_title">Aydınlatma zaman aşımı</string>
     <string name="button_backlight_on_touch_only_title">Dokunulduğunda aydınlat</string>
     <string name="button_backlight_on_touch_only_summary">Tuş aydınlatma ışığı yalnızca tuşlara basıldığında değil her zaman açık kalır. Zaman aşımı yine de bu özelliği etkiler.</string>
     <!-- Double Tap Lockscreen to Sleep -->
@@ -288,7 +294,7 @@
     <!-- Lock Clock Fonts -->
     <string name="lock_clock_font_title">Saat yazı tipi</string>
     <string name="lock_clock_font_summary">Kilit ekranın da saat widget\'inin varsayılan yazı tipini değiştirme</string>
-    <string name="lock_clock_font_dialog_title">Saat yazı tipi seçin</string>
+    <string name="lock_clock_font_dialog_title">Kilit ekranı saat yazı tipi seçin</string>
     <string name="lock_fonts_stock">Normal (varsayılan)</string>
     <string name="lock_fonts_bold">Kalın</string>
     <string name="lock_fonts_italic">İtalik</string>
@@ -425,7 +431,7 @@
     <string name="gesture_action_timeout_title">Kaydırma alanı zamanı aşımı</string>
     <string name="gesture_action_timeout_summary">Hareket eylemi başlamadan önce zaman aşımı</string>
     <!-- QS tile styles -->
-    <string name="qs_tile_style_title">Hızlı ayarlar kare stili</string>
+    <string name="qs_tile_style_title">Kare stili</string>
     <string name="qstile_default">Varsayılan</string>
     <string name="qstile_circle_gradient">Daire (Gradyan)</string>
     <string name="qstile_circle_trim">Daire (Çerçeveli)</string>
@@ -448,7 +454,7 @@
     <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>
     <!-- Edge gestures -->
     <string name="edge_gestures_title">Kenar hareketleri</string>
-    <string name="edge_gestures_feedback_duration_title">Dokunsal geribildirim süresi</string>
+    <string name="edge_gestures_feedback_duration_title">Dokunumsal geribildirim süresi</string>
     <string name="edge_gestures_long_press_delay_title">Uzun basma eylemi başlayana kadar gecikme</string>
     <string name="edge_gestures_back_category_title">Geri hareketi</string>
     <string name="edge_gestures_back_edges_title">Geri hareketini tetikle</string>
@@ -468,7 +474,7 @@
     <string name="slim_recents_title">Slim son uygulamalar</string>
     <string name="slim_recents_summary">Alternatif bir son uygulamalar kullanmak için etkinleştirin</string>
     <string name="slim_recents_fragment_title">Slim son uygulamalar ayarları</string>
-    <string name="slim_recents_fragment_summary">Sli son uygulamalar için ek ayarları özelleştirin</string>
+    <string name="slim_recents_fragment_summary">Slim son uygulamalar için ek ayarları özelleştirin</string>
     <string name="recents_max_apps_title">İzin verilen maksimum uygulama sayısı</string>
     <string name="recent_panel_scale_title">Boyut</string>
     <string name="recent_panel_expanded_mode_title">Genişletilmiş mod</string>
@@ -597,7 +603,7 @@
     <string name="pref_scrollingcache_default_disable">Varsayılan devre dışı</string>
     <string name="pref_scrollingcache_force_disable">Zorla devre dışı</string>
     <!-- Screen off animation -->
-    <string name="screen_off_animation_title">Ekran kapanma animasyonu</string>
+    <string name="screen_off_animation_title">Ekran kapatma animasyonu</string>
     <string name="screen_off_animation_default">Varsayılan</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Ölçek</string>
@@ -636,7 +642,7 @@
     <!-- Lockscreen clock styles -->
     <string name="lockscreen_clock_selection_title">Saat stili</string>
     <string name="lockscreen_clock_selection_digital">Varsayılan</string>
-    <string name="lockscreen_clock_selection_digital_bold">Dijital (kalın)</string>
+    <string name="lockscreen_clock_selection_digital_bold">Dijital (Kalın)</string>
     <string name="lockscreen_clock_selection_analog">Analog (Koyu gece)</string>
     <string name="lockscreen_clock_selection_sammy">Sammy</string>
     <string name="lockscreen_clock_selection_sammy_bold">Sammy (kalın)</string>
@@ -761,8 +767,8 @@
     <string name="battery_bar_reversed">Ters</string>
     <string name="battery_bar_use_gradient_color">Gradyan rengi kullan</string>
     <string name="battery_bar_gradient_color_summary">Pil seviyesi için ölçek olarak gradyan rengini kullanın</string>
-    <string name="battery_bar_high_color">Yüksek seviye renk</string>
-    <string name="battery_bar_low_color">Düşük seviye renk</string>
+    <string name="battery_bar_high_color">Yüksek seviye rengi</string>
+    <string name="battery_bar_low_color">Düşük seviye rengi</string>
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Oyun modu</string>
     <string name="gaming_mode_summary">Oyun modu tercihlerini özelleştirme</string>
@@ -790,7 +796,7 @@
     <string name="gaming_mode_dynamic_title">Dinamik oyun modu</string>
     <string name="gaming_mode_dynamic_summary">Herhangi bir uygulamayı açtığınızda ve sistem bir oyun olarak bulduğunda, otomatik olarak oyun listesine eklenecektir. Bunun her oyun uygulaması için çalışmadığını lütfen unutmayın.</string>
     <!-- Battery fully charged -->
-    <string name="battery_fully_charged_notif_title">Pil tamamen şarj edildi</string>
+    <string name="battery_fully_charged_notif_title">Pil dolu bildirimi</string>
     <string name="battery_fully_charged_notif_summary">Pil tamamen şarj olduğunda bir bildirim göster</string>
     <!-- Force expanded notifications -->
     <string name="force_expanded_notifications_title">Bildirimleri genişletmeye zorla</string>
@@ -807,4 +813,7 @@
     <string name="qs_edit_summary">Kare düzenleme simgesini hızlı ayarlar panelinde göster</string>
     <string name="qs_footer_user_title">Kullanıcı değiştirme</string>
     <string name="qs_footer_user_summary">Hızlı ayarlar panelinde kullanıcı değiştirme simgesini görüntüle</string>
+    <!-- Alert Slider -->
+    <string name="swap_slider_order_title">Kaydırıcıyı değiştir</string>
+    <string name="swap_slider_order_summary">Uyarı kaydırıcısı modları sırasını değiştirme (yalnızca uyarı kaydırıcı desteğine sahip cihazlar için)</string>
 </resources>

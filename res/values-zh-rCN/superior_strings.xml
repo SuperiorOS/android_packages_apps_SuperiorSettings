@@ -21,8 +21,15 @@
     <!-- Mentions -->
     <!-- Maintainer Info -->
     <!-- Categories -->
+    <string name="music_lockscreen">音乐</string>
+    <string name="clock_category">时钟</string>
     <!-- General strings -->
+    <string name="cancel">取消</string>
+    <string name="save">保存</string>
     <!-- Color Picker -->
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex_hint">#ff000000</string>
     <!--Status Bar -->
     <!-- Lockscreen icons -->
     <!-- Navbar tuner -->
@@ -40,6 +47,11 @@
     <!-- Heads up -->
     <!-- Heads up timeout -->
     <!-- Heads up snooze -->
+    <string name="heads_up_snooze_1min">1分钟</string>
+    <string name="heads_up_snooze_5min">5分钟</string>
+    <string name="heads_up_snooze_10min">10分钟</string>
+    <string name="heads_up_snooze_15min">15分钟</string>
+    <string name="heads_up_snooze_20min">20分钟</string>
     <!-- SeekBar -->
     <!-- Lock screen visualizer -->
     <!-- Power Menu -->
@@ -65,9 +77,12 @@
     <!-- Toast app icon -->
     <!-- AOSP Recents component Style -->
     <!-- Weather -->
+    <string name="weather_title">天气</string>
     <!-- Data disabled icon -->
     <!-- App Ops -->
     <!-- QS header styles -->
+    <string name="qs_header_black">黑色</string>
+    <string name="qs_header_grey">灰色</string>
     <!-- Torch Power button gestures -->
     <!-- Volume Wake -->
     <!-- Navigation gestures -->
@@ -106,6 +121,7 @@
     <!-- QS Panel Disable -->
     <!-- Notifications while screen on -->
     <!-- Screen state service -->
+    <string name="screen_state_toggles_location_title">地点</string>
     <!-- Ambient display music ticker -->
     <!-- Rounded corners -->
     <!-- Battery bar -->
@@ -114,4 +130,5 @@
     <!-- Force expanded notifications -->
     <!-- Ambient visualizer -->
     <!-- QS footer icons -->
+    <!-- Alert Slider -->
 </resources>

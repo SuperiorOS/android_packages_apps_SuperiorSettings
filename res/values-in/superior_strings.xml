@@ -16,95 +16,24 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="superior_settings_title">Pengaturan superior</string>
-    <string name="superior_dashboard_summary">Armageddon core</string>
     <!-- ROM Info -->
-    <string name="superior_about_info">Tentang Proyek</string>
-    <string name="superior_about_info_summary_title">Tentang team</string>
-    <string name="superior_about_info_summary">Superior Os adalah Kustom ROM berdasarkan AOSP, dengan beberapa fitur minimal yang paling dibutuhkan, tujuan utama ROM ini adalah untuk memberikan kinerja kecepatan, kehalusan dan cadangan baterai yang baik.</string>
     <!-- Dev Info -->
-    <string name="devs_header">Pengembang</string>
-    <string name="dev_1">Sipun Ku Mahanta</string>
-    <string name="dev1_description">Pendiri/Pengembang\nWhyred Maintainer</string>
-    <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev2_description">Team inti/Pengembang\nX01BD | Tissot Maintainer</string>
-    <string name="dev_3">Pavan Patel</string>
-    <string name="dev3_description">Team inti/Pengembang\nX01BD | Tissot Maintainer</string>
-    <string name="dev_4">Titus Joseph</string>
-    <string name="dev4_description">Perancang</string>
-    <string name="dev_5">Swapnil Soni</string>
-    <string name="dev5_description">Pengembang web</string>
     <!-- Mentions -->
-    <string name="mentions_header">Layak disebutkan</string>
-    <string name="mentions_sam_description">Perancang</string>
-    <string name="mentions_andi_description">Perancang bootanimasi</string>
     <!-- Maintainer Info -->
-    <string name="maintainers_header">Pengelola</string>
-    <string name="maintainers_header_summary">Ini adalah pengembang perangkat resmi...</string>
-    <string name="device_xiaomi">Xiaomi</string>
-    <string name="device_asus">Asus</string>
-    <string name="device_motorola">Motorola</string>
-    <string name="device_pantech">Pantech</string>
-    <string name="device_lenovo">Lenovo</string>
-    <string name="device_oneplus">Oneplus</string>
-    <string name="device_smartron">Smartron</string>
-    <string name="device_mido">Redmi Note 4</string>
-    <string name="device_santoni">Redmi 4/4X</string>
-    <string name="device_X00T">Zenfone Max Pro M1</string>
-    <string name="device_oneplus2">Oneplus 2</string>
-    <string name="device_oneplus2_description">oneplus2\nSarthak Aditya</string>
     <!-- Categories -->
-    <string name="qs_header_category">Judul</string>
-    <string name="volume_rocker_category">Volume Rocker</string>
-    <string name="misc_category">Lain-lain</string>
     <!-- General strings -->
-    <string name="ok">OK</string>
-    <string name="reset">Atur Ulang</string>
-    <string name="cancel">Batal</string>
-    <string name="save">Simpan</string>
-    <string name="unit_msec">ms</string>
-    <string name="unit_dpi">dpi</string>
-    <string name="unit_px">pixel</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Pemilih warna</string>
-    <string name="press_color_to_apply">Tekan pada warna dibawah untuk menerapkan</string>
-    <string name="hex">Hex:</string>
-    <string name="hex_hint">#ff000000</string>
-    <string name="set">Ubah</string>
-    <string name="color_default">Bawaan</string>
     <!--Status Bar -->
-    <string name="statusbar_items_title">Item StatusBar</string>
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Pintasan Kunci Layar</string>
     <!-- Navbar tuner -->
-    <string name="navbar_tuner_title">Tombol Bilah Navigasi</string>
     <!-- Hide Apps from Recents -->
-    <string name="hide_apps_from_recents_title">Sembunyikan App Dari Daftar Terkini</string>
-    <string name="hide_from_recents_add_app">Tambah Apl</string>
-    <string name="hide_apps_from_recents_summary">Pilih aplikasi tertentu untuk di sembunyikan di recent</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Info pengisian daya pada layar kunci</string>
-    <string name="lockscreen_battery_info_summary">Menampilkan arus maks tegangan dan suhu baterai yang dinegosiasikan pada layar kunci saat mengisi daya</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Pilihan getar saat panggilan</string>
-    <string name="incall_vibrate_connect_title">Getar saat terhubung</string>
-    <string name="incall_vibrate_call_wait_title">Getar saat menunggu panggilan</string>
-    <string name="incall_vibrate_disconnect_title">Getar saat terputus</string>
     <!-- Face Unlock -->
-    <string name="face_auto_unlock_title">Wajah membuka kunci otomatis</string>
-    <string name="face_auto_unlock_summary">Menghapus layar kunci setelah membuka kunci wajah</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fprint_sucess_vib_title">Getaran otentikasi sidik jari</string>
-    <string name="fprint_sucess_vib_summary">Bergetar saat otentikasi sidik jari berhasil</string>
     <!-- Incall Home button behavior-->
-    <string name="allow_incall_home_title">Tombol home ketika berdering</string>
-    <string name="allow_incall_home_summary">Izinkan mengunakan tombol home ketika perangkat berdering</string>
     <!-- Hardware keys -->
-    <string name="hardware_keys_category">Tombol fisik</string>
     <!-- Button brightness -->
-    <string name="button_backlight_options_category">Opsi lampu latar</string>
-    <string name="button_backlight_enable_title">Ijinkan tombol lampu latar</string>
-    <string name="button_link_brightness">Sesuaikan tingkat kecerahan layar</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <!-- Double Tap Statusbar to Sleep -->
     <!-- HW Keys customization -->
@@ -185,4 +114,5 @@
     <!-- Force expanded notifications -->
     <!-- Ambient visualizer -->
     <!-- QS footer icons -->
+    <!-- Alert Slider -->
 </resources>
