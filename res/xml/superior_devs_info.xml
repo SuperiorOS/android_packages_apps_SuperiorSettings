@@ -334,7 +334,7 @@
     <Preference
         android:title="@string/device_daisy"
 	android:summary="@string/device_daisy_description"
-	andorid:icon="@drawable/ic_devs_phone">
+	android:icon="@drawable/ic_devs_phone">
 	<intent
 	    android:action="android.intent.action.VIEW"
 	    android:data="https://t.me/pawelik001" />
