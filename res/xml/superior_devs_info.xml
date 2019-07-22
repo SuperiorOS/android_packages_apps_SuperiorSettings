@@ -330,14 +330,14 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/mafurcak" />
     </Preference>
-    
+
     <Preference
         android:title="@string/device_daisy"
-	android:summary="@string/device_daisy_description"
-	android:icon="@drawable/ic_devs_phone">
-	<intent
-	    android:action="android.intent.action.VIEW"
-	    android:data="https://t.me/pawelik001" />
+        android:summary="@string/device_daisy_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/pawelik001" />
     </Preference>
     </PreferenceCategory>
    
