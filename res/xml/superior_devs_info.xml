@@ -260,15 +260,6 @@
     </Preference>
 
     <Preference
-        android:title="@string/device_markw"
-        android:summary="@string/device_markw_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/DarkAngelGR" />
-    </Preference>
-
-    <Preference
         android:title="@string/device_rolex"
         android:summary="@string/device_rolex_description"
         android:icon="@drawable/ic_devs_phone">
