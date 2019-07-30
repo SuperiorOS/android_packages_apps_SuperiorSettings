@@ -330,6 +330,15 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/pawelik001" />
     </Preference>
+
+    <Preference
+        android:title="@string/device_angler"
+        android:summary="@string/device_angler_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/PixelBoot" />
+    </Preference>
     </PreferenceCategory>
    
 </PreferenceScreen>
