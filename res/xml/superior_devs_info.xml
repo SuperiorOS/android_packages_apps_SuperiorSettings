@@ -332,4 +332,18 @@
     </Preference>
     </PreferenceCategory>
    
+    <PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/device_huawei" >
+			
+    <Preference
+        android:title="@string/device_angler"
+        android:summary="@string/device_angler_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://t.me/PixelBoot" />
+    </Preference>
+    </PreferenceCategory>
+
 </PreferenceScreen>
