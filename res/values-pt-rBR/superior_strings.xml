@@ -64,8 +64,6 @@
     <string name="device_ef63_description">ef63\nChau Truong Thinh</string>
     <string name="device_kuntao">P2</string>
     <string name="device_kuntao_description">kuntao\nAdvaith Bhat</string>
-    <string name="device_markw">Redmi 4 Prime</string>
-    <string name="device_markw_description">markw\nAggelos Savvopoulos</string>
     <string name="device_land">Redmi 3S Prime</string>
     <string name="device_land_description">land\nJacob Deepu</string>
     <string name="device_oneplus2">OnePlus 2</string>
@@ -90,6 +88,8 @@
     <string name="device_kenzo_description">kenzo\nAman Singh</string>
     <string name="device_z2_plus">Lenovo ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nSanket Pisat</string>
+    <string name="device_platina">Mi 8 Lite</string>
+    <string name="device_platina_description">platina\nMaghfur Cak</string>
     <!-- Categories -->
     <string name="button_title">Botões</string>
     <string name="animation_title">Animações</string>
@@ -770,9 +770,9 @@
     <string name="battery_bar_high_color">Cor de alto nível\"</string>
     <string name="battery_bar_low_color">Cor de nível baixo\"</string>
     <!-- Gaming mode -->
-    <string name="gaming_mode_title">Modo de Jogos</string>
+    <string name="gaming_mode_title">Modo de Jogo</string>
     <string name="gaming_mode_summary">Personalizar as definições do modo de jogo</string>
-    <string name="gaming_mode_master_title">Habilitar o modo noturno</string>
+    <string name="gaming_mode_master_title">Habilitar funções do Modo de Jogo</string>
     <string name="gaming_mode_master_summary">Permitir personalizar opções do Modo de Jogo</string>
     <string name="gaming_mode_app_picker_title">Ativar automaticamente para estas aplicações</string>
     <string name="add_gaming_mode_package_title">Adicionar aplicações para o modo de jogo</string>
@@ -816,4 +816,5 @@
     <!-- Alert Slider -->
     <string name="swap_slider_order_title">Inverter controle deslizante</string>
     <string name="swap_slider_order_summary">Trocar a ordem de modos de controle de alerta (apenas para dispositivos com suporte deslizante de alerta)</string>
+    <!-- Old data type icon -->
 </resources>

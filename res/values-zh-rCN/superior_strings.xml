@@ -16,10 +16,58 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="superior_settings_title">Superior 设置</string>
+    <string name="superior_dashboard_summary">Armageddon核心</string>
     <!-- ROM Info -->
+    <string name="superior_about_info">关于本项目</string>
+    <string name="superior_about_info_summary_title">关于团队</string>
+    <string name="superior_about_info_summary">Superior OS是基于 AOSP 的自定义ROM，有些一些最需要的基本功能，该ROM 的主要目的是提供高性能、高流畅度和良好的续航能力。</string>
+    <string name="superior_about_rom">关于 ROM</string>
+    <string name="superior_feature">Superior功能</string>
     <!-- Dev Info -->
+    <string name="devs_header">开发者</string>
+    <string name="dev_1">Sipun Ku Mahanta</string>
+    <string name="dev1_description">Founder/开发者\nWhyred 维护着</string>
+    <string name="dev_2">Jayant Deshmukh</string>
+    <string name="dev2_description">核心团队/开发者\nX01BD | Tissot 维护者</string>
+    <string name="dev_3">Pavan Patel</string>
+    <string name="dev3_description">核心团队/设计师\nTulip 维护者</string>
+    <string name="dev_4">Titus Joseph</string>
+    <string name="dev4_description">设计师</string>
+    <string name="dev_5">Swapnil Soni</string>
+    <string name="dev5_description">网页开发者</string>
     <!-- Mentions -->
+    <string name="mentions_header">Honorable Mentions</string>
+    <string name="mentions_sam">Sam Grande</string>
+    <string name="mentions_sam_description">设计师</string>
+    <string name="mentions_andi">Aryanata Andi</string>
+    <string name="mentions_andi_description">开机动画设计师</string>
     <!-- Maintainer Info -->
+    <string name="maintainers_header">维护者</string>
+    <string name="maintainers_header_summary">这些是官方设备维护者...</string>
+    <string name="device_xiaomi">小米</string>
+    <string name="device_asus">华硕</string>
+    <string name="device_motorola">摩托罗拉</string>
+    <string name="device_pantech">Pantech</string>
+    <string name="device_lenovo">联想</string>
+    <string name="device_oneplus">一加</string>
+    <string name="device_smartron">锤子</string>
+    <string name="device_mido">红米 Note 4</string>
+    <string name="device_mido_description">mido\nHimanshu ‌‌‎Naamdev</string>
+    <string name="device_santoni">红米 4/4X</string>
+    <string name="device_santoni_description">santoni\n </string>
+    <string name="device_X00T">Zenfone Max Pro M1</string>
+    <string name="device_X00T_description">X00T\nPriyanshu Pandey</string>
+    <string name="device_rolex">红米 4A</string>
+    <string name="device_rolex_description">rolex\nArpon Sarkar</string>
+    <string name="device_ef63">Vega Iron 2</string>
+    <string name="device_ef63_description">ef63\nChau Truong Thinh</string>
+    <string name="device_kuntao">P2</string>
+    <string name="device_kuntao_description">kuntao\nAdvaith Bhat</string>
+    <string name="device_land">红米 3S Prime</string>
+    <string name="device_land_description">land\nJacob Deepu</string>
+    <string name="device_oneplus2">一加 2</string>
+    <string name="device_oneplus2_description">oneplus2\nSarthak Aditya</string>
     <!-- Categories -->
     <string name="music_lockscreen">音乐</string>
     <string name="clock_category">时钟</string>
@@ -27,23 +75,73 @@
     <string name="cancel">取消</string>
     <string name="save">保存</string>
     <!-- Color Picker -->
+    <string name="press_color_to_apply">按选颜色以应用</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
+    <string name="set">设置</string>
+    <string name="color_default">默认</string>
     <!--Status Bar -->
+    <string name="statusbar_items_title">状态栏项目</string>
     <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">锁屏界面快捷方式</string>
     <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">导航栏按钮</string>
     <!-- Hide Apps from Recents -->
+    <string name="hide_apps_from_recents_title">从最近任务中隐藏应用程序</string>
+    <string name="hide_from_recents_add_app">添加应用</string>
+    <string name="hide_apps_from_recents_summary">选择要从最近任务面板隐藏的应用</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">锁屏充电信息</string>
+    <string name="lockscreen_battery_info_summary">充电时在锁屏界面显示适配充电器的最大电流电压以及电池温度</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">通话振动选项</string>
+    <string name="incall_vibrate_connect_title">接通时振动</string>
+    <string name="incall_vibrate_call_wait_title">呼叫保持时振动</string>
+    <string name="incall_vibrate_disconnect_title">挂断时振动</string>
     <!-- Face Unlock -->
+    <string name="face_auto_unlock_title">人脸自动解锁</string>
+    <string name="face_auto_unlock_summary">人脸解锁后自动解除锁屏</string>
     <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">指纹认证震动</string>
+    <string name="fprint_sucess_vib_summary">验证指纹成功时震动</string>
     <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">响铃时使用 Home 键</string>
+    <string name="allow_incall_home_summary">设备响铃时允许使用 Home 键</string>
     <!-- Hardware keys -->
+    <string name="hardware_keys_category">实体按键</string>
     <!-- Button brightness -->
+    <string name="button_backlight_options_category">背光设置</string>
+    <string name="button_backlight_enable_title">允许按键背光</string>
+    <string name="button_link_brightness">跟随屏幕亮度</string>
+    <string name="button_link_brightness_summary">按键背光亮度将根据屏幕亮度调整</string>
+    <string name="button_manual_brightness">亮度等级</string>
+    <string name="button_timeout_title">背光灯超时</string>
+    <string name="button_backlight_on_touch_only_title">触摸时点亮按键背光</string>
+    <string name="button_backlight_on_touch_only_summary">按钮背光将只出现在按钮时, 而不是在所有的时间。超时仍然会影响此功能。</string>
     <!-- Double Tap Lockscreen to Sleep -->
+    <string name="double_tap_to_sleep_lockscreen_title">双击锁定</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">双击锁屏按钮使设备休眠</string>
     <!-- Double Tap Statusbar to Sleep -->
+    <string name="double_tap_to_sleep_statusbar_title">双击状态栏</string>
+    <string name="double_tap_to_sleep_statusbar_summary">双击状态栏使设备睡眠</string>
     <!-- HW Keys customization -->
+    <string name="picker_activities">活动</string>
+    <string name="select_custom_app_title">选择自定义应用</string>
+    <string name="select_custom_activity_title">选择自定义活动</string>
+    <string name="profile_applist_title">应用程序</string>
+    <string name="choose_action_title">选择行为</string>
+    <string name="action_entry_default_action">默认设置</string>
+    <string name="action_entry_select_app">选择应用程序</string>
+    <string name="action_entry_custom_action">选择自定义动作</string>
+    <string name="hardware_keys_home_key_title">Home 键</string>
+    <string name="hardware_keys_menu_key_title">菜单键</string>
+    <string name="hardware_keys_assist_key_title">搜索键</string>
+    <string name="hardware_keys_appswitch_key_title">最近任务键</string>
+    <string name="hardware_keys_back_key_title">返回键</string>
+    <string name="hardware_keys_double_tap_summary">设置双击行为</string>
+    <string name="hardware_keys_single_tap_summary">设置单击行为</string>
     <!-- Heads up -->
     <!-- Heads up timeout -->
     <!-- Heads up snooze -->
@@ -131,4 +229,5 @@
     <!-- Ambient visualizer -->
     <!-- QS footer icons -->
     <!-- Alert Slider -->
+    <!-- Old data type icon -->
 </resources>
