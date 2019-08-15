@@ -87,8 +87,6 @@
     <string name="device_violet_description">violet\nYashpal Joshi</string>
     <string name="device_oneplus6">OnePlus 6</string>
     <string name="device_oneplus6_description">enchilada\nYash Sonawane</string>
-    <string name="device_kenzo">Redmi Note 3</string>
-    <string name="device_kenzo_description">kenzo\nAman Singh</string>
     <string name="device_z2_plus">Lenovo ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nSanket Pisat</string>
     <string name="device_platina">Mi 8 Lite</string>
