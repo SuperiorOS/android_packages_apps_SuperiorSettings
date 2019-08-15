@@ -25,6 +25,7 @@
         android:entryValues="@array/edge_gestures_feedback_time"
         android:title="@string/edge_gestures_feedback_duration_title"
         android:dialogTitle="@string/edge_gestures_feedback_duration_title"
+        android:dependency="edge_gestures_enabled"
         android:summary="%s"
         android:defaultValue="100" />
 
@@ -34,6 +35,7 @@
         android:entryValues="@array/edge_gestures_long_press_time"
         android:title="@string/edge_gestures_long_press_delay_title"
         android:dialogTitle="@string/edge_gestures_long_press_delay_title"
+        android:dependency="edge_gestures_enabled"
         android:summary="%s"
         android:defaultValue="500" />
 
@@ -49,6 +51,7 @@
         android:title="@string/edge_gestures_back_edges_title"
         android:entries="@array/edge_gestures_back_edges_labels"
         android:entryValues="@array/edge_gestures_back_edges_values"
+        android:dependency="edge_gestures_enabled"
         android:summary="%s"
         android:defaultValue="5" />
 
@@ -57,12 +60,14 @@
         android:title="@string/edge_gestures_landscape_back_edges_title"
         android:entries="@array/edge_gestures_back_edges_labels"
         android:entryValues="@array/edge_gestures_back_edges_values"
+        android:dependency="edge_gestures_enabled"
         android:summary="%s"
         android:defaultValue="5" />
 
     <com.superior.settings.preferences.SecureSettingSeekBarPreference
         android:key="edge_gestures_back_screen_percent"
         android:title="@string/edge_gestures_back_screen_percent_summary"
+        android:dependency="edge_gestures_enabled"
         android:min="0"
         android:max="90"
         settings:defaultText="60 %"
@@ -73,6 +78,7 @@
         android:key="edge_gestures_back_show_ui_feedback"
         android:title="@string/edge_gestures_back_show_ui_feedback_title"
         android:summary="@string/edge_gestures_back_show_ui_feedback_summary"
+        android:dependency="edge_gestures_enabled"
         android:defaultValue="true" />
 
     </PreferenceCategory>
