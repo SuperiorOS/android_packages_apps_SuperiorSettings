@@ -159,15 +159,6 @@
         android:title="@string/device_lenovo" >
 			
     <Preference
-        android:title="@string/device_kuntao"
-        android:summary="@string/device_kuntao_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/AdvaithBhat" />
-    </Preference>
-
-    <Preference
         android:title="@string/device_z2_plus"
         android:summary="@string/device_z2_plus_description"
         android:icon="@drawable/ic_devs_phone">
