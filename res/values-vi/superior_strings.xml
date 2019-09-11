@@ -18,9 +18,16 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="superior_settings_title">Cài đặt Superior</string>
     <!-- ROM Info -->
+    <string name="superior_about_info">Về dự án</string>
+    <string name="superior_about_info_summary_title">Về nhóm</string>
+    <string name="superior_about_info_summary">Superior OS là ROM tùy chỉnh dựa trên AOSP, với một số tính năng tối thiểu cần thiết nhất, mục đích chính của ROM này là mang lại hiệu suất tốc độ ánh sáng, mượt và pin tốt.</string>
+    <string name="superior_about_rom">Về ROM</string>
+    <string name="superior_feature">Tính năng Superior</string>
     <!-- Dev Info -->
+    <string name="devs_header">Nhà phát triển</string>
     <!-- Mentions -->
     <!-- Maintainer Info -->
+    <string name="maintainers_header">Người bảo trì</string>
     <!-- Categories -->
     <string name="button_title">Phím</string>
     <string name="animation_title">Hoạt ảnh</string>
@@ -273,7 +280,6 @@
     <string name="status_bar_battery_style_port">Dọc</string>
     <string name="status_bar_battery_style_q">Kiểu Android Q</string>
     <string name="status_bar_battery_style_circle">Vòng tròn</string>
-    <string name="battery_style_dotted_circle">Vòng tròn chấm</string>
     <string name="status_bar_battery_style_text">Văn bản</string>
     <string name="status_bar_battery_style_hidden">Ẩn</string>
     <!-- Battery light -->
@@ -380,6 +386,7 @@
     <string name="qstile_circleoutline">Vòng tròn phác thảo</string>
     <string name="qstile_roundedrect">Hình chữ nhật bo tròn</string>
     <string name="qstile_square">Hình vuông</string>
+    <string name="qstile_oos">OxygenOS</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Phát hiện trong túi</string>
     <string name="pocket_judge_summary">Chặn màn hình và các nút bấm khi thiết bị ở trong túi</string>
@@ -750,4 +757,15 @@
     <!-- Old data type icon -->
     <string name="use_old_mobiletype_title">Sử dụng kiểu di động cũ</string>
     <string name="use_old_mobiletype_summary">Hợp nhất các tín hiệu và loại biểu tượng</string>
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Mức âm lượng</string>
+    <string name="volume_steps_summary">Tùy chỉnh mức âm lượng</string>
+    <string name="volume_steps_alarm_title">Mức âm lượng: Báo thức</string>
+    <string name="volume_steps_dtmf_title">Mức âm lượng: DTMF</string>
+    <string name="volume_steps_music_title">Mức âm lượng: Phương tiện</string>
+    <string name="volume_steps_notification_title">Mức âm lượng: Thông báo</string>
+    <string name="volume_steps_ring_title">Mức âm lượng: Chuông</string>
+    <string name="volume_steps_system_title">Mức âm lượng: Hệ thống</string>
+    <string name="volume_steps_voice_call_title">Mức âm lượng: Gọi thoại</string>
+    <string name="volume_steps_reset">Đặt lại</string>
 </resources>

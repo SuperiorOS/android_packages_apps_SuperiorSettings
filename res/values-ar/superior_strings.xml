@@ -17,10 +17,37 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- ROM Info -->
+    <string name="superior_about_info">حول هذا المشروع</string>
+    <string name="superior_about_info_summary_title">حول الفريق</string>
+    <string name="superior_about_rom">حول الروم</string>
     <!-- Dev Info -->
+    <string name="devs_header">المطورون</string>
     <!-- Mentions -->
     <!-- Maintainer Info -->
+    <string name="maintainers_header">المشرفين</string>
     <!-- Categories -->
+    <string name="button_title">الأزرار</string>
+    <string name="animation_title">الرسوم المتحركة</string>
+    <string name="gestures_title">الإيماءات</string>
+    <string name="lockscreen_title">قفل الشاشة</string>
+    <string name="misc_title">خيارات متنوعة</string>
+    <string name="navbar_title">شريط التنقل</string>
+    <string name="powermenu_title">قائمة الطاقة</string>
+    <string name="quicksettings_title">الإعدادات السريعة</string>
+    <string name="recents_title">التطبيقات الأخيرة</string>
+    <string name="statusbar_title">شريط الحالة</string>
+    <string name="notifications_title">الإشعارات</string>
+    <string name="system_animations">التأثيرات الحركية للنظام</string>
+    <string name="listview">عروض القوائم</string>
+    <string name="toast">نخب</string>
+    <string name="fp_lockscreen">بصمة الإصبع</string>
+    <string name="music_lockscreen">موسيقى</string>
+    <string name="clock_category">الساعة</string>
+    <string name="battery_category">البطارية</string>
+    <string name="data_category">البيانات</string>
+    <string name="brightness_category">السطوع</string>
+    <string name="brightness_slider_category">شريط السطوع</string>
+    <string name="qs_header_category">ترويسة</string>
     <!-- General strings -->
     <!-- Color Picker -->
     <!--Status Bar -->
@@ -116,4 +143,5 @@
     <!-- QS footer icons -->
     <!-- Alert Slider -->
     <!-- Old data type icon -->
+    <!-- Volume Steps Fragment -->
 </resources>

@@ -63,8 +63,6 @@
     <string name="device_rolex_description">rolex\nArpon Sarkar</string>
     <string name="device_ef63">Vega Iron 2</string>
     <string name="device_ef63_description">ef63\nChau Truong Thinh</string>
-    <string name="device_kuntao">P2</string>
-    <string name="device_kuntao_description">kuntao\nAdvaith gay</string>
     <string name="device_land">Redmi 3S Prime</string>
     <string name="device_land_description">land\nJacob Deepu</string>
     <string name="device_oneplus2">OnePlus 2</string>
@@ -75,8 +73,6 @@
     <string name="device_rimo02a_description">rimo02a\nShreehari Vaasishta</string>
     <string name="device_tiffany">Mi 5X</string>
     <string name="device_tiffany_description">tiffany\nEthan</string>
-    <string name="device_riva">Redmi 5A</string>
-    <string name="device_riva_description">riva\nNick</string>
     <string name="device_sanders">Moto G5S Plus</string>
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_bacon">Oneplus One</string>
@@ -85,9 +81,7 @@
     <string name="device_violet_description">violet\nYashpal Joshi</string>
     <string name="device_oneplus6">OnePlus 6</string>
     <string name="device_oneplus6_description">enchilada\nYash Sonawane</string>
-    <string name="device_kenzo">Redmi Note 3</string>
-    <string name="device_kenzo_description">kenzo\nAman Singh</string>
-    <string name="device_z2_plus">Lenovo ZUK Z2 Plus</string>
+    <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nSanket Pisat</string>
     <string name="device_platina">Mi 8 Lite</string>
     <string name="device_platina_description">platina\nMaghfur Cak</string>
@@ -95,6 +89,8 @@
     <string name="device_daisy_description">daisy\npawelik001</string>
     <string name="device_angler">Nexus 6P</string>
     <string name="device_angler_description">angler\nPixelBoot</string>
+    <string name="device_clover">Mi Pad 4</string>
+    <string name="device_clover_description">clover\nmamarama9904</string>
     <!-- Categories -->
     <string name="button_title">Tuşlar</string>
     <string name="animation_title">Animasyonlar</string>
@@ -347,7 +343,6 @@
     <string name="status_bar_battery_style_port">Dikey</string>
     <string name="status_bar_battery_style_q">Q stili</string>
     <string name="status_bar_battery_style_circle">Daire</string>
-    <string name="battery_style_dotted_circle">Noktalı daire</string>
     <string name="status_bar_battery_style_text">Metin</string>
     <string name="status_bar_battery_style_hidden">Gizli</string>
     <!-- Battery light -->
@@ -454,6 +449,7 @@
     <string name="qstile_circleoutline">CircleOutline</string>
     <string name="qstile_roundedrect">Yuvarlatılmış dikdörtgen</string>
     <string name="qstile_square">Kare</string>
+    <string name="qstile_oos">OxygenOS</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Cep algılama</string>
     <string name="pocket_judge_summary">Cihaz cebinizdeyken ekran ve tuş girişlerini engelleyin</string>
@@ -824,4 +820,15 @@
     <!-- Old data type icon -->
     <string name="use_old_mobiletype_title">Eski mobil tipi stilini kullan</string>
     <string name="use_old_mobiletype_summary">Simge stilini oreo simge stili ile değiştirir</string>
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Ses seviyeleri</string>
+    <string name="volume_steps_summary">Ses seviyelerini özelleştir</string>
+    <string name="volume_steps_alarm_title">Ses seviyesi: Alarm</string>
+    <string name="volume_steps_dtmf_title">Ses seviyesi: DTMF</string>
+    <string name="volume_steps_music_title">Ses seviyesi: Medya</string>
+    <string name="volume_steps_notification_title">Ses seviyesi: Bildirim</string>
+    <string name="volume_steps_ring_title">Ses seviyesi: Zil sesi</string>
+    <string name="volume_steps_system_title">Ses seviyesi: Sistem</string>
+    <string name="volume_steps_voice_call_title">Ses seviyesi: Sesli arama</string>
+    <string name="volume_steps_reset">Sıfırla</string>
 </resources>

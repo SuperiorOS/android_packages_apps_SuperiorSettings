@@ -63,8 +63,6 @@
     <string name="device_rolex_description">rolex\nArpon Sarkar</string>
     <string name="device_ef63">Vega Iron 2</string>
     <string name="device_ef63_description">ef63\nChau Truong Thinh</string>
-    <string name="device_kuntao">P2</string>
-    <string name="device_kuntao_description">kuntao\nAdvaith Bhat</string>
     <string name="device_land">Redmi 3S Prime</string>
     <string name="device_land_description">land\nJacob Deepu</string>
     <string name="device_oneplus2">OnePlus 2</string>
@@ -75,8 +73,6 @@
     <string name="device_rimo02a_description">rimo02a\nShreehari Vaasishta</string>
     <string name="device_tiffany">Mi 5X</string>
     <string name="device_tiffany_description">tiffany\nEthan</string>
-    <string name="device_riva">Redmi 5A</string>
-    <string name="device_riva_description">riva\nNick</string>
     <string name="device_sanders">Moto G5S Plus</string>
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_bacon">OnePlus One</string>
@@ -85,9 +81,7 @@
     <string name="device_violet_description">violet\nYashpal Joshi</string>
     <string name="device_oneplus6">OnePlus 6</string>
     <string name="device_oneplus6_description">enchilada\nYash Sonawane</string>
-    <string name="device_kenzo">Redmi Note 3</string>
-    <string name="device_kenzo_description">kenzo\nAman Singh</string>
-    <string name="device_z2_plus">Lenovo ZUK Z2 Plus</string>
+    <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nSanket Pisat</string>
     <string name="device_platina">Mi 8 Lite</string>
     <string name="device_platina_description">platina\nMaghfur Cak</string>
@@ -349,7 +343,6 @@
     <string name="status_bar_battery_style_port">Na výšku</string>
     <string name="status_bar_battery_style_q">Styl Q</string>
     <string name="status_bar_battery_style_circle">Kruh</string>
-    <string name="battery_style_dotted_circle">Tečkovaný kruh</string>
     <string name="status_bar_battery_style_text">Text</string>
     <string name="status_bar_battery_style_hidden">Nezobrazovat</string>
     <!-- Battery light -->
@@ -827,4 +820,15 @@
     <!-- Old data type icon -->
     <string name="use_old_mobiletype_title">Použít starý styl mobilní sítě</string>
     <string name="use_old_mobiletype_summary">Sloučit ikonu signálu a typ ikony signálu</string>
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Kroky hlasitosti</string>
+    <string name="volume_steps_summary">Přizpůsobení kroků hlasitosti</string>
+    <string name="volume_steps_alarm_title">Kroky hlasitosti: Budík</string>
+    <string name="volume_steps_dtmf_title">Kroky hlasitosti: DTMF</string>
+    <string name="volume_steps_music_title">Kroky hlasitosti: Média</string>
+    <string name="volume_steps_notification_title">Kroky hlasitosti: Oznámení</string>
+    <string name="volume_steps_ring_title">Kroky hlasitosti: Vyzvánění</string>
+    <string name="volume_steps_system_title">Kroky hlasitosti: Systémové zvuky</string>
+    <string name="volume_steps_voice_call_title">Kroky hlasitosti: Hlasové hovory</string>
+    <string name="volume_steps_reset">Resetovat</string>
 </resources>

@@ -63,8 +63,6 @@
     <string name="device_rolex_description">rolex\nАрпон Саркар</string>
     <string name="device_ef63">Vega Iron 2</string>
     <string name="device_ef63_description">ef63\nЧау Чыонг Тхинх</string>
-    <string name="device_kuntao">P2</string>
-    <string name="device_kuntao_description">kuntao\nАдвайта Бхат</string>
     <string name="device_land">Redmi 3S Prime</string>
     <string name="device_land_description">land\nДжейкоб Дипу</string>
     <string name="device_oneplus2">OnePlus 2</string>
@@ -75,8 +73,6 @@
     <string name="device_rimo02a_description">rimo02a\nШри Шри Васиштха</string>
     <string name="device_tiffany">Mi 5X</string>
     <string name="device_tiffany_description">tiffany\nИтан</string>
-    <string name="device_riva">Redmi 5A</string>
-    <string name="device_riva_description">riva\nНик</string>
     <string name="device_sanders">Moto G5S Plus</string>
     <string name="device_sanders_description">sanders\nМайур Вараде</string>
     <string name="device_bacon">OnePlus One</string>
@@ -85,9 +81,7 @@
     <string name="device_violet_description">violet\nЯшпал Джоши</string>
     <string name="device_oneplus6">OnePlus 6</string>
     <string name="device_oneplus6_description">enchilada\nЯш Сонаван</string>
-    <string name="device_kenzo">Redmi Note 3</string>
-    <string name="device_kenzo_description">kenzo\nАман Сингх</string>
-    <string name="device_z2_plus">Lenovo ZUK Z2 Plus</string>
+    <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nСанкет Писат</string>
     <string name="device_platina">Mi 8 Lite</string>
     <string name="device_platina_description">platina\nМагфур Кек</string>
@@ -95,6 +89,8 @@
     <string name="device_daisy_description">daisy\nпавелик001</string>
     <string name="device_angler">Nexus 6P</string>
     <string name="device_angler_description">angler\nPixelBoot</string>
+    <string name="device_clover">Mi Pad 4</string>
+    <string name="device_clover_description">clover\nмамарама9904</string>
     <!-- Categories -->
     <string name="button_title">Кнопки</string>
     <string name="animation_title">Анимации</string>
@@ -347,7 +343,8 @@
     <string name="status_bar_battery_style_port">Портретная ориентация</string>
     <string name="status_bar_battery_style_q">Стиль Q</string>
     <string name="status_bar_battery_style_circle">Круг</string>
-    <string name="battery_style_dotted_circle">Пунктирный круг</string>
+    <string name="battery_style_dotted_circle">Круг (Точка)</string>
+    <string name="status_bar_battery_style_pa_circle">Круг (заполнен)</string>
     <string name="status_bar_battery_style_text">Текст</string>
     <string name="status_bar_battery_style_hidden">Скрыта</string>
     <!-- Battery light -->
@@ -454,6 +451,7 @@
     <string name="qstile_circleoutline">Круг с контуром</string>
     <string name="qstile_roundedrect">Скругленный прямоугольник</string>
     <string name="qstile_square">Квадрат</string>
+    <string name="qstile_oos">OxygenOS</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Режим \"В кармане\"</string>
     <string name="pocket_judge_summary">Блокировать экран и кнопки, когда устройство находится в кармане</string>
@@ -824,4 +822,15 @@
     <!-- Old data type icon -->
     <string name="use_old_mobiletype_title">Использовать старый стиль индикации мобильной сети</string>
     <string name="use_old_mobiletype_summary">Объединить значки уровня сигнала и типа сети</string>
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Уровни громкости</string>
+    <string name="volume_steps_summary">Настроить уровни громкости</string>
+    <string name="volume_steps_alarm_title">Уровень громкости: Будильник</string>
+    <string name="volume_steps_dtmf_title">Уровень громкости: Набор номера</string>
+    <string name="volume_steps_music_title">Уровень громкости: Музыка</string>
+    <string name="volume_steps_notification_title">Уровень громкости: Уведомления</string>
+    <string name="volume_steps_ring_title">Уровень громкости: Звонок</string>
+    <string name="volume_steps_system_title">Уровень громкости: Система</string>
+    <string name="volume_steps_voice_call_title">Уровень громкости: Голосовой вызов</string>
+    <string name="volume_steps_reset">Сброс</string>
 </resources>

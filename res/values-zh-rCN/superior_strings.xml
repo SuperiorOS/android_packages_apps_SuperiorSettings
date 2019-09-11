@@ -62,8 +62,6 @@
     <string name="device_rolex_description">rolex\nArpon Sarkar</string>
     <string name="device_ef63">Vega Iron 2</string>
     <string name="device_ef63_description">ef63\nChau Truong Thinh</string>
-    <string name="device_kuntao">P2</string>
-    <string name="device_kuntao_description">kuntao\nAdvaith Bhat</string>
     <string name="device_land">红米 3S Prime</string>
     <string name="device_land_description">land\nJacob Deepu</string>
     <string name="device_oneplus2">一加 2</string>
@@ -230,4 +228,5 @@
     <!-- QS footer icons -->
     <!-- Alert Slider -->
     <!-- Old data type icon -->
+    <!-- Volume Steps Fragment -->
 </resources>

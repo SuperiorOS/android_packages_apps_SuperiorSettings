@@ -16,29 +16,105 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="superior_settings_title">Налаштування Superior</string>
+    <string name="superior_dashboard_summary">Кастомізації</string>
     <!-- ROM Info -->
+    <string name="superior_about_info">Про проект</string>
+    <string name="superior_about_info_summary_title">Про команду</string>
+    <string name="superior_about_info_summary">Superior OS - це кастомна прошивка, заснована на AOSP, з деякими найбільш необхідними мінімальними функціями, головна її мета - забезпечити швидкість роботи, плавність та хорошу автономність.</string>
+    <string name="superior_about_rom">Про прошивку</string>
+    <string name="superior_feature">Функції Superior</string>
     <!-- Dev Info -->
+    <string name="devs_header">Розробники</string>
     <!-- Mentions -->
+    <string name="mentions_sam_description">Дизайнер</string>
     <!-- Maintainer Info -->
+    <string name="maintainers_header">Розробники</string>
     <!-- Categories -->
+    <string name="button_title">Кнопки</string>
+    <string name="animation_title">Анімації</string>
+    <string name="gestures_title">Жести</string>
+    <string name="lockscreen_title">Екран блокування</string>
+    <string name="misc_title">Інші налаштування</string>
+    <string name="navbar_title">Панель навігації</string>
+    <string name="powermenu_title">Меню живлення</string>
+    <string name="quicksettings_title">Швидкі налаштування</string>
+    <string name="recents_title">Нещодавні додатки</string>
+    <string name="statusbar_title">Рядок стану</string>
+    <string name="notifications_title">Сповіщення</string>
+    <string name="system_animations">Системні анімації</string>
+    <string name="listview">Список</string>
+    <string name="toast">Спливаюче сповіщення</string>
+    <string name="fp_lockscreen">Відбиток пальця</string>
+    <string name="music_lockscreen">Музика</string>
+    <string name="clock_category">Годинник</string>
+    <string name="battery_category">Батарея</string>
+    <string name="data_category">Мобільний інтернет</string>
+    <string name="brightness_category">Яскравість</string>
+    <string name="brightness_slider_category">Повзунок яскравості</string>
+    <string name="qs_header_category">Заголовок</string>
+    <string name="volume_rocker_category">Клавіша регулювання гучності</string>
+    <string name="misc_category">Інше</string>
     <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Скинути</string>
+    <string name="cancel">Скасувати</string>
+    <string name="save">Зберегти</string>
+    <string name="unit_msec">мс</string>
+    <string name="unit_px">пікселів</string>
     <!-- Color Picker -->
+    <string name="dialog_color_picker">Вибір кольору</string>
+    <string name="press_color_to_apply">Натисніть на колір для застосування</string>
+    <string name="hex">Hex:</string>
+    <string name="set">Встановити</string>
+    <string name="color_default">За замовчуванням</string>
     <!--Status Bar -->
+    <string name="statusbar_items_title">Елементи рядку стану</string>
     <!-- Lockscreen icons -->
+    <string name="lockscreen_tuner_title">Ярлики екрану блокування</string>
     <!-- Navbar tuner -->
+    <string name="navbar_tuner_title">Кнопки панелі навігації</string>
     <!-- Hide Apps from Recents -->
+    <string name="hide_apps_from_recents_title">Сховати програму з нещодавних</string>
+    <string name="hide_from_recents_add_app">Додати програму</string>
+    <string name="hide_apps_from_recents_summary">Виберіть додатки щоб сховати з меню Нещодавні</string>
     <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Інформація про заряджання на екрані блокування</string>
+    <string name="lockscreen_battery_info_summary">Відображення максимальної напруги струму і температуру акумулятора на екрані блокування під час зарядки</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Параметри вібрації під час дзвінка</string>
+    <string name="incall_vibrate_connect_title">Вібрація при з\'єднанні</string>
+    <string name="incall_vibrate_call_wait_title">Вібрувати під час очікування дзвінка</string>
+    <string name="incall_vibrate_disconnect_title">Вібрація при роз\'єднанні</string>
     <!-- Face Unlock -->
+    <string name="face_auto_unlock_title">Автоматичне розблокування за обличчям</string>
+    <string name="face_auto_unlock_summary">Закрити вікно блокування після розблокування обличчям</string>
     <!-- Fingerprint authentication vibration -->
+    <string name="fprint_sucess_vib_title">Вібрація при розпізнаванні відбитку пальця</string>
+    <string name="fprint_sucess_vib_summary">Вібрувати при успішному розпізнаванні відбитку пальця</string>
     <!-- Incall Home button behavior-->
+    <string name="allow_incall_home_title">Кнопка \"Додому\" при дзвінку</string>
+    <string name="allow_incall_home_summary">Дозволити використання кнопки \"Додому\" під час дзвінка</string>
     <!-- Hardware keys -->
+    <string name="hardware_keys_category">Апаратні кнопки</string>
     <!-- Button brightness -->
+    <string name="button_backlight_options_category">Налаштування підсвічування кнопок</string>
+    <string name="button_backlight_enable_title">Увімкнути підсвічування кнопок</string>
+    <string name="button_link_brightness">Зв\'язати з яскравістю екрана</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <!-- Double Tap Statusbar to Sleep -->
     <!-- HW Keys customization -->
     <!-- Heads up -->
+    <string name="add_heads_up_package">Додати програму</string>
+    <string name="add_heads_up_stoplist_summary">Вимкнути спливаючі сповіщення з цих додатків</string>
+    <string name="add_heads_up_blacklist_summary">Вимкнути сповіщення від цих програм</string>
+    <string name="heads_up_stoplist_title">Білий список</string>
+    <string name="heads_up_blacklist_title">Чорний список</string>
+    <string name="profile_choose_app">Вибрати програму</string>
+    <string name="dialog_delete_title">Видалити</string>
+    <string name="dialog_delete_message">Видалити вибраний елемент?</string>
     <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Час вийшов</string>
     <!-- Heads up snooze -->
     <!-- SeekBar -->
     <!-- Lock screen visualizer -->
@@ -116,4 +192,5 @@
     <!-- QS footer icons -->
     <!-- Alert Slider -->
     <!-- Old data type icon -->
+    <!-- Volume Steps Fragment -->
 </resources>

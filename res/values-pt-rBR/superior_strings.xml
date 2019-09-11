@@ -52,6 +52,7 @@
     <string name="device_lenovo">Lenovo</string>
     <string name="device_oneplus">OnePlus</string>
     <string name="device_smartron">Smartron</string>
+    <string name="device_huawei">Huawei</string>
     <string name="device_mido">Redmi Note 4</string>
     <string name="device_mido_description">mido\nHimanshu ‌‌‎Naamdev</string>
     <string name="device_santoni">Redmi 4/4X</string>
@@ -62,8 +63,6 @@
     <string name="device_rolex_description">rolex\nArpon Sarkar</string>
     <string name="device_ef63">Vega Iron 2</string>
     <string name="device_ef63_description">ef63\nChau Truong Thinh</string>
-    <string name="device_kuntao">P2</string>
-    <string name="device_kuntao_description">kuntao\nAdvaith Bhat</string>
     <string name="device_land">Redmi 3S Prime</string>
     <string name="device_land_description">land\nJacob Deepu</string>
     <string name="device_oneplus2">OnePlus 2</string>
@@ -74,8 +73,6 @@
     <string name="device_rimo02a_description">rimo02a\nShreehari Vaasishta</string>
     <string name="device_tiffany">Mi 5X</string>
     <string name="device_tiffany_description">tiffany\nEthan</string>
-    <string name="device_riva">Redmi 5A</string>
-    <string name="device_riva_description">riva\nNick</string>
     <string name="device_sanders">Moto G5S Plus</string>
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_bacon">OnePlus One</string>
@@ -84,12 +81,16 @@
     <string name="device_violet_description">viole\nYashpal Joshi</string>
     <string name="device_oneplus6">OnePlus 6</string>
     <string name="device_oneplus6_description">enchilada\nYash Sonawane</string>
-    <string name="device_kenzo">Redmi Note 3</string>
-    <string name="device_kenzo_description">kenzo\nAman Singh</string>
-    <string name="device_z2_plus">Lenovo ZUK Z2 Plus</string>
+    <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nSanket Pisat</string>
     <string name="device_platina">Mi 8 Lite</string>
     <string name="device_platina_description">platina\nMaghfur Cak</string>
+    <string name="device_daisy">Mi 2 Lite</string>
+    <string name="device_daisy_description">daisy\npawelik001</string>
+    <string name="device_angler">Nexus 6</string>
+    <string name="device_angler_description">angler\nPixelBoot</string>
+    <string name="device_clover">Mi Pad</string>
+    <string name="device_clover_description">clover\nmamarama9904</string>
     <!-- Categories -->
     <string name="button_title">Botões</string>
     <string name="animation_title">Animações</string>
@@ -342,7 +343,6 @@
     <string name="status_bar_battery_style_port">Vertical</string>
     <string name="status_bar_battery_style_q">Estilo Android Q</string>
     <string name="status_bar_battery_style_circle">Círculo</string>
-    <string name="battery_style_dotted_circle">Círculo Pontilhado</string>
     <string name="status_bar_battery_style_text">Texto</string>
     <string name="status_bar_battery_style_hidden">Oculto</string>
     <!-- Battery light -->
@@ -449,6 +449,7 @@
     <string name="qstile_circleoutline">Contorno do Círculo</string>
     <string name="qstile_roundedrect">Retângulo arredondado</string>
     <string name="qstile_square">Quadrado</string>
+    <string name="qstile_oos">OxygenOS</string>
     <!-- Pocket judge -->
     <string name="pocket_judge_title">Detectar quando estiver no bolso</string>
     <string name="pocket_judge_summary">Bloquear a tela e os botões quando o dispositivo estiver no bolso</string>
@@ -817,4 +818,17 @@
     <string name="swap_slider_order_title">Inverter controle deslizante</string>
     <string name="swap_slider_order_summary">Trocar a ordem de modos de controle de alerta (apenas para dispositivos com suporte deslizante de alerta)</string>
     <!-- Old data type icon -->
+    <string name="use_old_mobiletype_title">Usar estilo antigo do tipo móvel</string>
+    <string name="use_old_mobiletype_summary">Mesclar ícones de sinal e tipo</string>
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_fragment_title">Níveis de volume</string>
+    <string name="volume_steps_summary">Personalizar niveis de volume</string>
+    <string name="volume_steps_alarm_title">Níveis de volume: Alarme</string>
+    <string name="volume_steps_dtmf_title">Níveis de volume: DTMF</string>
+    <string name="volume_steps_music_title">Níveis de volume: Midia</string>
+    <string name="volume_steps_notification_title">Níveis de volume: Notificação</string>
+    <string name="volume_steps_ring_title">Níveis de volume: Toque</string>
+    <string name="volume_steps_system_title">Níveis de volume: Sistema</string>
+    <string name="volume_steps_voice_call_title">Níveis de volume: Chamada de Voz</string>
+    <string name="volume_steps_reset">Resetar</string>
 </resources>
