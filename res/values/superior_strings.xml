@@ -358,4 +358,7 @@
 
     <!-- NavBar Visibility -->
     <string name="navbar_visibility">Enable Navigation Bar</string>
+
+    <!-- Navbar options -->
+    <string name="navbar_invert_layout_title">Invert layout</string>
 </resources>
