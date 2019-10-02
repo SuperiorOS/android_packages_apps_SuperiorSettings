@@ -95,6 +95,10 @@
     <string name="device_angler_description">angler\nPixelBoot</string>
     <string name="device_clover">Mi Pad 4</string>
     <string name="device_clover_description">clover\nmamarama9904</string>
+    <string name="device_x2">Le Max 2</string>
+    <string name="device_x2_description">x2\nmamarama9904</string>
+    <string name="device_zenfone3">ZenFone 3</string>
+    <string name="device_zenfone3_description">zenfone3\nmamarama9904</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
