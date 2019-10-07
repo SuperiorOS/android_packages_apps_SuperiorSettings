@@ -37,9 +37,14 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.superior.settings.R;
 
 import com.superior.settings.preferences.SystemSettingMasterSwitchPreference;
+import com.superior.settings.preferences.SystemSettingSwitchPreference;
 
 public class MiscSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
+
+    private static final String SMART_PIXELS_ENABLED = "smart_pixels_enable";
+
+    private SystemSettingSwitchPreference mSmartPixelsEnabled;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -47,6 +52,17 @@ public class MiscSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.superior_settings_misc);
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+
+        mSmartPixelsEnabled = (SystemSettingSwitchPreference) findPreference(SMART_PIXELS_ENABLED);
+        mSmartPixelsEnabled.setOnPreferenceChangeListener(this);
+        int smartPixelsEnabled = Settings.System.getInt(getContentResolver(),
+                SMART_PIXELS_ENABLED, 0);
+        mSmartPixelsEnabled.setChecked(smartPixelsEnabled != 0);
+
+        if (!getResources().getBoolean(com.android.internal.R.bool.config_enableSmartPixels)) {
+            getPreferenceScreen().removePreference(mSmartPixelsEnabled);
+        }
+
     }
 
     @Override
@@ -65,6 +81,11 @@ public class MiscSettings extends SettingsPreferenceFragment implements
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+	if (preference == mSmartPixelsEnabled) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getContentResolver(),
+		            SMART_PIXELS_ENABLED, value ? 1 : 0);
+        }
         return false;
     }
 }
