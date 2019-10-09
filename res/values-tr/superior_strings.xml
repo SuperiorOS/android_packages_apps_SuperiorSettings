@@ -343,6 +343,8 @@
     <string name="status_bar_battery_style_port">Dikey</string>
     <string name="status_bar_battery_style_q">Q stili</string>
     <string name="status_bar_battery_style_circle">Daire</string>
+    <string name="battery_style_dotted_circle">Daire (Noktalı)</string>
+    <string name="status_bar_battery_style_pa_circle">Daire (Dolu)</string>
     <string name="status_bar_battery_style_text">Metin</string>
     <string name="status_bar_battery_style_hidden">Gizli</string>
     <!-- Battery light -->

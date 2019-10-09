@@ -280,6 +280,8 @@
     <string name="status_bar_battery_style_port">Dọc</string>
     <string name="status_bar_battery_style_q">Kiểu Android Q</string>
     <string name="status_bar_battery_style_circle">Vòng tròn</string>
+    <string name="battery_style_dotted_circle">Vòng tròn (Chấm)</string>
+    <string name="status_bar_battery_style_pa_circle">Vòng tròn (Đầy)</string>
     <string name="status_bar_battery_style_text">Văn bản</string>
     <string name="status_bar_battery_style_hidden">Ẩn</string>
     <!-- Battery light -->

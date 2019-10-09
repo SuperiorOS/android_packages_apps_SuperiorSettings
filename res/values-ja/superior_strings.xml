@@ -136,11 +136,11 @@
     <!--Status Bar -->
     <string name="statusbar_items_title">ステータスバーのアイコン</string>
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">ロック画面のショートカット</string>
+    <string name="lockscreen_tuner_title">ショートカット</string>
     <!-- Navbar tuner -->
     <string name="navbar_tuner_title">ナビゲーションバーボタン</string>
     <!-- Hide Apps from Recents -->
-    <string name="hide_apps_from_recents_title">アプリ履歴からアプリを隠す</string>
+    <string name="hide_apps_from_recents_title">非表示にするアプリ</string>
     <string name="hide_from_recents_add_app">アプリを追加</string>
     <string name="hide_apps_from_recents_summary">非表示にするアプリを選択する</string>
     <!-- Lockscreen battery info indicator  -->
@@ -173,10 +173,10 @@
     <string name="button_backlight_on_touch_only_summary">ボタンを押した時にだけバックライトが点灯するようになります。点灯時間はこの設定にも引き続き影響します。</string>
     <!-- Double Tap Lockscreen to Sleep -->
     <string name="double_tap_to_sleep_lockscreen_title">ロック画面でのダブルタップ</string>
-    <string name="double_tap_to_sleep_lockscreen_summary">ロック画面をダブルタップして端末をスリープさせる</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">ロック画面をダブルタップしてスリープさせる</string>
     <!-- Double Tap Statusbar to Sleep -->
     <string name="double_tap_to_sleep_statusbar_title">ステータスバーでのダブルタップ</string>
-    <string name="double_tap_to_sleep_statusbar_summary">ステータスバーをダブルタップしたらスリープする</string>
+    <string name="double_tap_to_sleep_statusbar_summary">ステータスバーをダブルタップしてスリープさせる</string>
     <!-- HW Keys customization -->
     <string name="picker_activities">アクティビティ</string>
     <string name="select_custom_app_title">カスタムアプリを選択</string>
@@ -222,8 +222,8 @@
     <string name="heads_up_time_out_10sec">10秒</string>
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">スヌーズタイマー</string>
-    <string name="heads_up_snooze_summary_one_minute">表示された通知を上にスワイプするとこのアプリからの通知を1分間無効にします</string>
-    <string name="heads_up_snooze_summary">表示された通知を上にスワイプするとこのアプリからの通知を<xliff:g id="number">%d</xliff:g>分間無効にします</string>
+    <string name="heads_up_snooze_summary_one_minute">表示された通知を上にスワイプするとそのアプリからの通知を1分間無効にします</string>
+    <string name="heads_up_snooze_summary">表示された通知を上にスワイプするとそのアプリからの通知を<xliff:g id="number">%d</xliff:g>分間無効にします</string>
     <string name="heads_up_snooze_disabled_summary">スヌーズタイマーは無効です</string>
     <string name="heads_up_snooze_1min">1分</string>
     <string name="heads_up_snooze_5min">5分</string>
@@ -249,7 +249,7 @@
     <string name="powermenu_advanced_reboot_title">高度な再起動</string>
     <string name="powermenu_advanced_reboot_summary">再起動メニューで高度な再起動を有効にする</string>
     <string name="powermenu_screenshot_title">スクリーンショット</string>
-    <string name="powermenu_category_visibility">ロック画面のオプション</string>
+    <string name="powermenu_category_visibility">ロック画面内のオプション</string>
     <string name="powermenu_lockscreen_title">ロック画面における表示</string>
     <string name="powermenu_lockscreen_summary">ロック画面で電源メニューの表示と使用を可能にする</string>
     <string name="powermenu_ls_reboot_summary">ロック画面に再起動オプションを表示する</string>
@@ -265,7 +265,7 @@
     <string name="clock_style_category_summary">ステータスバーの時計チューナー</string>
     <string name="status_bar_clock_title">時計</string>
     <string name="status_bar_clock_show">日付と時刻を表示</string>
-    <string name="status_bar_clock_style_title">時計のスタイル</string>
+    <string name="status_bar_clock_style_title">表示位置</string>
     <string name="status_bar_clock_style_right">右</string>
     <string name="status_bar_clock_style_center">中央</string>
     <string name="status_bar_clock_style_left">左</string>
@@ -289,13 +289,13 @@
     <string name="clock_date_string_edittext_title">DateFormat 形式で入力して下さい 例. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">文字列を入力</string>
     <!-- Statusbar Clock Font Style, Size & Color -->
-    <string name="status_bar_clock_font_style_title">時計のフォントスタイル</string>
-    <string name="status_bar_clock_font_size_title">時計のフォントサイズ</string>
-    <string name="status_bar_clock_color_title">時計のフォントの色</string>
+    <string name="status_bar_clock_font_style_title">フォントスタイル</string>
+    <string name="status_bar_clock_font_size_title">フォントサイズ</string>
+    <string name="status_bar_clock_color_title">フォントの色</string>
     <!-- Lock Clock Fonts -->
     <string name="lock_clock_font_title">時計のフォントオプション</string>
     <string name="lock_clock_font_summary">ロック画面の時計ウィジェットの既定のフォントを変更する</string>
-    <string name="lock_clock_font_dialog_title">ロック画面の時計のフォントを選択</string>
+    <string name="lock_clock_font_dialog_title">時計のフォントオプション</string>
     <string name="lock_fonts_stock">通常 (既定)</string>
     <string name="lock_fonts_bold">太字</string>
     <string name="lock_fonts_italic">イタリック</string>
@@ -327,24 +327,24 @@
     <string name="network_traffic_hidearrow_summary">通信速度の矢印を隠す</string>
     <!-- Screenshot -->
     <string name="screenshot_type_title">スクリーンショットの種類</string>
-    <string name="screenshot_type_fullscreen">全画面を取得</string>
+    <string name="screenshot_type_fullscreen">全画面</string>
     <string name="screenshot_type_partial">範囲指定</string>
     <string name="screenshot_options_category">スクリーンショットのオプション</string>
     <string name="screenshot_options_summary">時間、遅延、タイプ等のスクリーンショットの属性を編集する</string>
     <!-- Battery percentage -->
     <string name="battery_style_category_title">バッテリースタイル</string>
     <string name="battery_style_category_summary">バッテリーアイコンを設定する</string>
-    <string name="status_bar_battery_percentage_title">バッテリー残量</string>
+    <string name="status_bar_battery_percentage_title">残量表示位置</string>
     <string name="status_bar_battery_percentage_default">非表示</string>
     <string name="status_bar_battery_percentage_text_next">アイコンの外</string>
     <string name="status_bar_battery_percentage_text_inside">アイコンの中</string>
     <!-- Status bar battery style-->
-    <string name="status_bar_battery_style_title">バッテリースタイル</string>
+    <string name="status_bar_battery_style_title">アイコンのスタイル</string>
     <string name="status_bar_battery_style_port">縦</string>
     <string name="status_bar_battery_style_q">Q スタイル</string>
     <string name="status_bar_battery_style_circle">円</string>
-    <string name="battery_style_dotted_circle">サークル (点)</string>
-    <string name="status_bar_battery_style_pa_circle">サークル (塗り潰し)</string>
+    <string name="battery_style_dotted_circle">円 (点線)</string>
+    <string name="status_bar_battery_style_pa_circle">円 (塗り潰し)</string>
     <string name="status_bar_battery_style_text">文字</string>
     <string name="status_bar_battery_style_hidden">非表示</string>
     <!-- Battery light -->
@@ -400,7 +400,7 @@
     <string name="recents_oreo">Oreo</string>
     <!-- Weather -->
     <string name="weather_title">天気</string>
-    <string name="weather_unit">温度単位</string>
+    <string name="weather_unit">温度の単位</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">データ通信無効アイコン</string>
     <string name="data_disabled_icon_summary">モバイルデータが無効の場合にシグナルバーの隣に×を表示する</string>
@@ -424,7 +424,7 @@
     <string name="volume_rocker_wake_summary">音量ボタンを押してスリープ解除する</string>
     <!-- Navigation gestures -->
     <string name="gesture_settings_title">OnePlus ナビゲーション</string>
-    <string name="gesture_settings_summary">ナビゲーションに下部から上スワイプジェスチャーを使用する</string>
+    <string name="gesture_settings_summary">ナビゲーションに下部からの上スワイプジェスチャーを使用する</string>
     <string name="use_bottom_gesture_cat">上スワイプジェスチャー</string>
     <string name="use_bottom_gesture_title">上スワイプジェスチャー</string>
     <string name="gesture_settings_info">ナビゲーションバーを無効にする必要があります!\n\n使用可能なジェスチャー: \n\n戻る\n- 左右の端を上スワイプ\n\nホーム\n- 中央を上スワイプ\n\nアプリ履歴\n- 中央を上スワイプして維持\n\n最後に使ったアプリ\n-中央を短く上スワイプして維持</string>
@@ -439,7 +439,7 @@
     <string name="qstile_circle_trim">円 (トリム)</string>
     <string name="qstile_circle_dualtone">デュアルトーンの円</string>
     <string name="qstile_dual_tone_circle">デュアルトーンの円 (トリム)</string>
-    <string name="qstile_inkdrop">インクドロップ</string>
+    <string name="qstile_inkdrop">水彩</string>
     <string name="qstile_mountain">山脈</string>
     <string name="qstile_ninja">忍者</string>
     <string name="qstile_pokesign">モンスターボール</string>
@@ -526,11 +526,11 @@
     <string name="default_auto_string">既定 (アプリベース)</string>
     <!-- Slim recents membar -->
     <string name="slim_recents_mem_display_category_title">メモリバー</string>
-    <string name="slim_recents_mem_display_title">メモリバーの表示</string>
+    <string name="slim_recents_mem_display_title">有効化</string>
     <string name="slim_recents_mem_display_summaryOn">メモリバーは有効です</string>
     <string name="slim_recents_mem_display_summaryOff">メモリバーは無効です</string>
-    <string name="slim_recents_mem_display_color">メモリバーの色</string>
-    <string name="slim_recents_mem_display_text_color">メモリバーの文字色</string>
+    <string name="slim_recents_mem_display_color">バーの色</string>
+    <string name="slim_recents_mem_display_text_color">文字の色</string>
     <!-- Display cutout options -->
     <string name="cutout_main">画面の切り欠き</string>
     <string name="cutout_main_summary">ノッチ設定を編集する</string>
@@ -637,7 +637,7 @@
     <string name="smart_pixels_shift_summary">使う画素を遷移させ画面の焼付きを避ける</string>
     <string name="smart_pixels_warning_text">スマートピクセルは省電力機能です。無効にするピクセル数に応じてバッテリー寿命が大幅に改善されます。優れたユーザーエクスペリエンスを得るには無効ピクセル率を75％に設定することをお勧めします。</string>
     <!-- Lockscreen items -->
-    <string name="lockscreen_hide_items_category">アイテムを隠す</string>
+    <string name="lockscreen_hide_items_category">要素の表示切り替え</string>
     <string name="lockscreen_clock_title">時計ウィジェット</string>
     <string name="lockscreen_clock_summary">ロック画面に時計ウィジェットを表示する</string>
     <string name="lockscreen_info_title">時計の下部の項目</string>
@@ -716,7 +716,7 @@
     <string name="roaming_indicator_icon_title">ローミング表示</string>
     <string name="roaming_indicator_icon_summary">ローミング中に電波アイコンにローミング表示をする</string>
     <!-- QS Panel Disable -->
-    <string name="lockscreen_qs_disabled_title">保護時は無効</string>
+    <string name="lockscreen_qs_disabled_title">保護中のロック画面では無効</string>
     <string name="lockscreen_qs_disabled_summary">保護されたロック画面上でのクイック設定の展開を無効にする</string>
     <!-- Notifications while screen on -->
     <string name="notification_sound_vib_screen_on_title">画面に現れる邪魔な通知</string>
@@ -753,12 +753,12 @@
     <!-- Battery bar -->
     <string name="battery_bar_title">バッテリーバー</string>
     <string name="battery_bar_summary">バッテリーバーの表示や編集をする</string>
-    <string name="battery_bar_location">位置</string>
+    <string name="battery_bar_location">表示位置</string>
     <string name="battery_bar_color">色</string>
     <string name="battery_bar_style_title">スタイル</string>
     <string name="battery_bar_thickness_title">太さ</string>
     <string name="battery_bar_animate_title">充電時のアニメーション</string>
-    <string name="battery_bar_animate_summary">有効にすると動作が遅くなる可能性があります。自己責任で使用してく下さい。</string>
+    <string name="battery_bar_animate_summary">有効にすると動作が遅くなる可能性があります。自己責任で使用して下さい。</string>
     <string name="battery_bar_hide">非表示</string>
     <string name="battery_bar_statusbar">ステータスバー</string>
     <string name="battery_bar_topnav">ナビゲーションバー上部</string>
@@ -768,10 +768,10 @@
     <string name="battery_bar_charging_color">充電時の色</string>
     <string name="battery_bar_battery_low_color">低残量時の色</string>
     <string name="battery_bar_reversed">反転</string>
-    <string name="battery_bar_use_gradient_color">グラデーションカラーを使用</string>
-    <string name="battery_bar_gradient_color_summary">バッテリーレベルの目盛りにグラデーションカラーを使用する</string>
-    <string name="battery_bar_high_color">高残量時の色</string>
-    <string name="battery_bar_low_color">低残量時の色</string>
+    <string name="battery_bar_use_gradient_color">グラデーションを使用</string>
+    <string name="battery_bar_gradient_color_summary">バッテリー残量の目盛りにグラデーションを使用する</string>
+    <string name="battery_bar_high_color">高レベル色</string>
+    <string name="battery_bar_low_color">低レベル色</string>
     <!-- Gaming mode -->
     <string name="gaming_mode_title">ゲームモード</string>
     <string name="gaming_mode_summary">ゲームモードの設定を編集する</string>
@@ -824,9 +824,9 @@
     <string name="use_old_mobiletype_summary">アンテナと種別アイコンを統合する</string>
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_fragment_title">ボリュームステップ</string>
-    <string name="volume_steps_summary">音量レベルを設定する</string>
+    <string name="volume_steps_summary">音量調節の細かさを設定する</string>
     <string name="volume_steps_alarm_title">音量レベル: アラーム</string>
-    <string name="volume_steps_dtmf_title">音量レベル: DTMF</string>
+    <string name="volume_steps_dtmf_title">音量レベル: 電話番号入力</string>
     <string name="volume_steps_music_title">音量レベル: メディア</string>
     <string name="volume_steps_notification_title">音量レベル: 通知</string>
     <string name="volume_steps_ring_title">音量レベル: 着信</string>

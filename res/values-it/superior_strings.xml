@@ -17,7 +17,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- ROM Info -->
+    <string name="superior_about_rom">Informazioni sulla ROM</string>
     <!-- Dev Info -->
+    <string name="dev3_description">Team principale / Designer \ nTulip Maintainer</string>
     <!-- Mentions -->
     <!-- Maintainer Info -->
     <!-- Categories -->
@@ -27,6 +29,7 @@
     <!-- Lockscreen icons -->
     <!-- Navbar tuner -->
     <!-- Hide Apps from Recents -->
+    <string name="hide_apps_from_recents_summary">Seleziona alcune app da nascondere nei recenti</string>
     <!-- Lockscreen battery info indicator  -->
     <!-- Incall vibrate options -->
     <!-- Face Unlock -->
