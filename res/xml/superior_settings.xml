@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018 Superior OS Project
+    Copyright © 2018-19 Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -19,6 +19,24 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/superior_settings_title" >
+	
+    <PreferenceCategory
+            android:key="about rom"
+            android:title="About ROM" >
+
+		<!-- About Devs -->
+        <Preference
+            android:key="dev_info"
+            android:title="@string/superior_about_info"
+            android:summary="@string/superior_about_info_summary_title"
+            android:fragment="com.android.settings.custom.SuperiorDevsInfoFragment"
+            android:icon="@drawable/ic_superior_about"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="features"
+            android:title="Superior Features" >
 
         <!-- Status Bar -->
         <com.superior.settings.preferences.CardviewPreference
@@ -47,6 +65,13 @@
             android:title="@string/navbar_title"
             android:fragment="com.superior.settings.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
+			
+        <!-- Gestures -->
+        <com.superior.settings.preferences.CardviewPreference
+            android:key="gestures_category"
+            android:title="@string/gestures_title"
+            android:fragment="com.superior.settings.fragments.GestureSettings"
+            android:icon="@drawable/ic_settings_gestures"/>
 
         <!-- Lock Screen -->
         <com.superior.settings.preferences.CardviewPreference
@@ -62,13 +87,6 @@
             android:fragment="com.superior.settings.fragments.PowermenuSettings"
             android:icon="@drawable/ic_settings_powermenu"/>
 
-        <!-- Recents -->
-        <com.superior.settings.preferences.CardviewPreference
-            android:key="recents_category"
-            android:title="@string/recents_title"
-            android:fragment="com.superior.settings.fragments.RecentsSettings"
-            android:icon="@drawable/ic_settings_recents"/>
-
         <!-- Notifications -->
         <com.superior.settings.preferences.CardviewPreference
             android:key="notifications_category"
@@ -82,4 +100,6 @@
             android:title="@string/misc_title"
             android:fragment="com.superior.settings.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_misc"/>
+
+    </PreferenceCategory>
 </PreferenceScreen>
