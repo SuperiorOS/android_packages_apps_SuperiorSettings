@@ -279,13 +279,17 @@
 
     <!-- Power Menu -->
     <string name="hardware_keys_power_category">Power Button</string>
-    <string name="powermenu_title">Power Menu</string>
     <string name="powermenu_summary">Customize elements to be displayed in power menu</string>
     <string name="powermenu_reboot_title">Reboot</string>
     <string name="powermenu_advanced_reboot_title">Advanced Reboot</string>
     <string name="powermenu_lockdown">Lockdown</string>
     <string name="powermenu_screenshot_title">Screenshot</string>
+    <string name="powermenu_torch">Flashlight</string>
     <string name="powermenu_category_visibility">Lockscreen options</string>
     <string name="powermenu_lockscreen_title">Visibility on the lockscreen</string>
     <string name="powermenu_lockscreen_summary">Enable the ability to show and use the power menu dialog while on the lockscreen</string>
+    <string name="powermenu_ls_reboot_summary">Show the reboot option on the lockscreen</string>
+    <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
+    <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
+    <string name="powermenu_ls_torch_summary">Show the torch option on the lockscreen</string>
 </resources>
