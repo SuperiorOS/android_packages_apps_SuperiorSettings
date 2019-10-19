@@ -24,6 +24,12 @@
         settings:unitsLeft=""
         settings:unitsRight="ms" />
 
+     <Preference
+        android:key="vol_steps"
+        android:title="@string/volume_steps_title"
+        android:summary="@string/volume_steps_summary"
+        android:fragment="com.superior.settings.fragments.VolumeSteps" />
+
      <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="volume_button_music_control"
         android:summary="@string/volume_rocker_music_controls_summary"
