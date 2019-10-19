@@ -281,4 +281,8 @@
     <string name="three_finger_gesture">Swipe to screenshot</string>
     <string name="three_finger_gesture_summary">Swipe down with three fingers to take a screenshot</string>
 
+    <!-- Fingerprint unlock -->
+    <string name="fp_unlock_keystore_title">Force FP authentication</string>
+    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot or lockdown</string>
+
 </resources>
