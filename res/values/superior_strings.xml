@@ -86,6 +86,7 @@
     <string name="quicksettings_title">Quick Settings</string>
     <string name="statusbar_title">Status Bar</string>
     <string name="notifications_title">Notifications</string>
+    <string name="statusbar_extras">Extras</string>
 
     <!--3-Finger screenshot-->
     <string name="three_finger_gesture">Three finger gesture</string>
@@ -264,4 +265,16 @@
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>  
 
+    <!-- Statusbar net monitor -->
+    <string name="network_traffic_state_title">Network speed</string>
+    <string name="network_traffic_state_summary">Show network speed in the status bar</string>
+    <string name="network_traffic_location_title">Location</string>
+    <string name="network_traffic_statusbar">Statusbar</string>
+    <string name="network_traffic_qs_header">QS header</string>
+    <string name="network_traffic_mode_title">Display mode</string>
+    <string name="network_traffic_dynamic">Dynamic</string>
+    <string name="network_traffic_download">Download</string>
+    <string name="network_traffic_upload">Upload</string>
+    <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
+    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
 </resources>

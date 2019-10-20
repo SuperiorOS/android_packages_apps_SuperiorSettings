@@ -16,35 +16,56 @@
 
 package com.superior.settings.fragments;
 
-import android.content.Context;
 import android.content.ContentResolver;
+import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
-import androidx.preference.SwitchPreference;
-import androidx.preference.ListPreference;
+
+import android.os.UserHandle;
+import android.provider.SearchIndexableResource;
+import android.provider.Settings;
+import android.text.format.DateFormat;
+import android.text.TextUtils;
+import android.util.Log;
+import android.view.View;
+
 import androidx.preference.Preference;
+import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.Preference.OnPreferenceChangeListener;
-import android.provider.Settings;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+import androidx.preference.PreferenceFragment;
+import androidx.preference.SwitchPreference;
 
-import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
-
 import com.android.settings.R;
+import com.android.settings.SettingsPreferenceFragment;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+import com.superior.support.preferences.SystemSettingMasterSwitchPreference;
 
 public class StatusbarSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
+
+    private static final String NETWORK_TRAFFIC_STATE = "network_traffic_state";
+
+    private SystemSettingMasterSwitchPreference mNetTrafficState;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.superior_settings_statusbar);
-        ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
+        ContentResolver resolver = getActivity().getContentResolver();
+
+        mNetTrafficState = (SystemSettingMasterSwitchPreference) findPreference(NETWORK_TRAFFIC_STATE);
+        mNetTrafficState.setChecked(Settings.System.getInt(resolver,
+                Settings.System.NETWORK_TRAFFIC_STATE, 0) == 1);
+        mNetTrafficState.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -62,7 +83,14 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         super.onPause();
     }
 
+    @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mNetTrafficState) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(resolver, Settings.System.NETWORK_TRAFFIC_STATE, value ? 1 : 0);
+            return true;
+        }
         return false;
     }
 }
