@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.superior.settings.preference;
+package com.superior.settings.preferences;
 
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 
-public class ListPreference extends android.support.v7.preference.ListPreference {
+public class ListPreference extends androidx.preference.ListPreference {
     private boolean mAutoSummary = false;
 
     public ListPreference(Context context, AttributeSet attrs, int defStyle) {

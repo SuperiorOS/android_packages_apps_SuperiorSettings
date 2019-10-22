@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.superior.settings.preference;
+package com.superior.settings.preferences;
 
 import android.content.Context;
 import android.util.AttributeSet;

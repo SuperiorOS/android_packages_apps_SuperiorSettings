@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.superior.settings.preference;
+package com.superior.settings.preferences;
 
 import android.content.Context;
-import android.support.v7.preference.EditTextPreference;
+import androidx.preference.EditTextPreference;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 
