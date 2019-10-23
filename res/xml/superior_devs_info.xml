@@ -124,4 +124,18 @@
         </Preference>
 </PreferenceCategory>
 
+<PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/device_smartron" >
+
+    <Preference
+        android:title="@string/device_rimo02a"
+        android:summary="@string/device_rimo02a_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/cult_of_kosmos" />
+    </Preference>
+</PreferenceCategory>
+
 </PreferenceScreen>

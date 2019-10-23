@@ -54,7 +54,8 @@
     <string name="device_lenovo">Lenovo</string>
     <string name="device_oneplus">Oneplus</string>
     <string name="device_smartron">Smartron</string>
-    <string name="device_mido">Redmi Note 4</string>
+    <string name="device_rimo02a">SRT Phone</string>
+    <string name="device_rimo02a_description">rimo02a\nShreehari Vaasistha</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
