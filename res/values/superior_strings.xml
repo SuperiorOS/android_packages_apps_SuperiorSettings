@@ -53,7 +53,8 @@
     <string name="device_pantech">Pantech</string>
     <string name="device_lenovo">Lenovo</string>
     <string name="device_oneplus">Oneplus</string>
-    <string name="device_smartron">Smartron</string>
+    <string name="device_rimo02a">SRT phone</string>
+    <string name="device_rimo02a_description">rimo02a\nShrihari</string>
     <string name="device_mido">Redmi Note 4</string>
 
     <!-- Categories -->
