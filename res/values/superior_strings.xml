@@ -306,4 +306,9 @@
     <!-- AOSP Gestures -->
 	<string name="gesture_preference_superior">AOSP gestures</string>
 
+    <!-- Lock screen cover art -->
+    <string name="lockscreen_media_category">Music</string>
+    <string name="media_art_title">Media artwork</string>
+    <string name="media_art_summary">Show media cover art as the lockscreen background</string>
+
 </resources>
