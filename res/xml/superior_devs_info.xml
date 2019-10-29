@@ -178,11 +178,6 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/officialyash007" />
     </Preference>
-</PreferenceCategory>
-
-<PreferenceCategory
-        android:key="maintainer"
-        android:title="@string/device_xiaomi" >
 
     <Preference
         android:title="@string/device_beryllium"
