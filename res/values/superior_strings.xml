@@ -17,7 +17,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="superior_settings_title">Superior Goodies</string>
-    <string name="superior_dashboard_summary">Rise From Flames</string>
+    <string name="superior_dashboard_summary">Rise From Ashes</string>
 	
     <!-- ROM Info -->
     <string name="superior_about_info">About Project</string>
