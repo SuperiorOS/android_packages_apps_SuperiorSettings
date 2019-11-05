@@ -187,6 +187,15 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/saikiran001" />
     </Preference>
+
+    <Preference
+        android:title="@string/device_dipper"
+        android:summary="@string/device_dipper_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/DarkAngelGR" />
+    </Preference>
 </PreferenceCategory>
 
 </PreferenceScreen>
