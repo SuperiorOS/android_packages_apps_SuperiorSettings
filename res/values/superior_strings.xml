@@ -43,6 +43,8 @@
     <string name="mentions_header">Honorable Mentions</string>
     <string name="mentions_sam">Sam Grande</string>
     <string name="mentions_sam_description">Designer</string>
+    <string name="mentions_subins">Subins Mani</string>
+    <string name="mentions_subins_description">Developer</string>
 
     <!-- Maintainer Info -->
     <string name="maintainers_header">Maintainers</string>
@@ -65,7 +67,7 @@
     <string name="device_beryllium">POCO F1</string>
     <string name="device_beryllium_description">beryllium\nSaikiran</string>
     <string name="device_dipper">Mi 8</string>
-    <string name="device_dipper_description">dipper\DarkAngelGR</string>
+    <string name="device_dipper_description">dipper\nDarkAngelGR</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
@@ -305,7 +307,7 @@
 	
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">VoLTE icon</string>
-    <string name="volte_icon_summary">Display VoLTE icon (Needs a SystemUI restart to take effect)</string>
+    <string name="volte_icon_summary">Display VoLTE icon</string>
 
     <!-- AOSP Gestures -->
 	<string name="gesture_preference_superior">AOSP gestures</string>

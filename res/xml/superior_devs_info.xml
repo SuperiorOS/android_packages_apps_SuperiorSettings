@@ -81,7 +81,7 @@
         <Preference
             android:title="@string/dev_6"
             android:summary="@string/dev6_description"
-            android:icon="@drawable/ic_devs_mention">
+            android:icon="@drawable/ic_design">
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/aryanata_andi" />
@@ -108,6 +108,15 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Reapergod35" />
+        </Preference>
+
+        <Preference
+            android:title="@string/mentions_subins"
+            android:summary="@string/mentions_subins_description"
+            android:icon="@drawable/ic_devs_mention">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Subinsmani" />
         </Preference>
 </PreferenceCategory>
 
@@ -171,12 +180,12 @@
         android:title="@string/device_xiaomi" >
 
     <Preference
-        android:title="@string/device_violet"
-        android:summary="@string/device_violet_description"
+        android:title="@string/device_dipper"
+        android:summary="@string/device_dipper_description"
         android:icon="@drawable/ic_devs_phone">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/officialyash007" />
+            android:data="https://t.me/DarkAngelGR" />
     </Preference>
 
     <Preference
@@ -189,12 +198,12 @@
     </Preference>
 
     <Preference
-        android:title="@string/device_dipper"
-        android:summary="@string/device_dipper_description"
+        android:title="@string/device_violet"
+        android:summary="@string/device_violet_description"
         android:icon="@drawable/ic_devs_phone">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/DarkAngelGR" />
+            android:data="https://t.me/officialyash007" />
     </Preference>
 </PreferenceCategory>
 
