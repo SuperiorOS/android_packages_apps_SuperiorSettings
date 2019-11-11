@@ -148,6 +148,20 @@
 </PreferenceCategory>
 
 <PreferenceCategory
+	android:key="maintainer"
+	android:title="@string/device_motorola" >
+
+    <Preference
+	android:title="@string/device_sanders"
+	android:summary="@string/device_sanders_description"
+	android:icon="@drawable/ic_devs_phone">
+	<intent
+	    android:action="android.intent.action.VIEW"
+	    android:data="https://t.me/marshmello_61" />
+    </Preference>
+</PreferenceCategory>
+
+<PreferenceCategory
         android:key="maintainer"
         android:title="@string/device_pantech" >
 
