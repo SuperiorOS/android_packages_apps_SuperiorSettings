@@ -219,6 +219,15 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/officialyash007" />
     </Preference>
+
+    <Preference
+        android:title="@string/device_tiffany"
+        android:summary="@string/device_tiffany_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Ethan_Tan" />
+    </Preference>
 </PreferenceCategory>
 
 </PreferenceScreen>
