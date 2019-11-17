@@ -31,4 +31,11 @@
             android:summary="@string/three_finger_gesture_summary"
             android:defaultValue="false" />
 
+        <com.superior.settings.preferences.SystemSettingMasterSwitchPreference
+            android:key="gaming_mode_enabled"
+            android:fragment="com.superior.settings.fragments.GamingMode"
+            android:title="@string/gaming_mode_title"
+            android:summary="@string/gaming_mode_summary"
+            android:defaultValue="false" />
+
 </PreferenceScreen>
