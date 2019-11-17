@@ -72,6 +72,8 @@
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_tiffany">Mi 5X</string>
     <string name="device_tiffany_description">tiffany\nEytan</string>
+    <string name="device_lavender">Redmi Note 7</string>
+    <string name="device_lavender_description">lavender\nClythe Freed</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
