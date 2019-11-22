@@ -74,6 +74,8 @@
     <string name="device_tiffany_description">tiffany\nEytan</string>
     <string name="device_lavender">Redmi Note 7</string>
     <string name="device_lavender_description">lavender\nClythe Freed</string>
+    <string name="device_lavender">Redmi 3S Prime</string>
+    <string name="device_lavender_description">land\nJacob Deepu</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
