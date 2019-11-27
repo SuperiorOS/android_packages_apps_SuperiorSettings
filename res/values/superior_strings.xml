@@ -472,8 +472,15 @@
     <string name="status_bar_quick_qs_pulldown_right">Right</string>
     <string name="status_bar_quick_qs_pulldown_always">Always</string>
 
-    <!-- smart notifications -->
+    <!-- Smart notifications -->
     <string name="notification_sound_vib_screen_on_title">Noisy notifications if screen on</string>
     <string name="notification_sound_vib_screen_on_summary">Disable to block notifications sound and vibration when the screen is awake</string>
+
+    <!-- Rounded corners -->
+    <string name="corners_category_title">Corners</string>
+    <string name="corner_radius">Rounded corner radius</string>
+    <string name="content_padding">Corner content padding</string>
+    <string name="corner_fwvals_title">Use framework values</string>
+    <string name="corner_fwvals_summary">Use the default values for your device</string>
 
 </resources>

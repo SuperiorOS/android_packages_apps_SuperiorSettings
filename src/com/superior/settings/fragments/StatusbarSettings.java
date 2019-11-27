@@ -23,6 +23,7 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.pm.ResolveInfo;
 import android.content.res.Resources;
 import android.os.Bundle;
@@ -49,6 +50,7 @@ import com.android.settings.Utils;
 
 import com.superior.settings.preferences.CustomSeekBarPreference;
 import com.superior.settings.preferences.SystemSettingSwitchPreference;
+import com.superior.settings.preferences.SecureSettingSwitchPreference;
 import com.superior.settings.R;
 
 import java.util.ArrayList;
@@ -84,6 +86,9 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
     private static final String STATUS_BAR_BATTERY_TEXT_CHARGING = "status_bar_battery_text_charging";
     private static final String BATTERY_PERCENTAGE_HIDDEN = "0";
     private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
+    private static final String SYSUI_ROUNDED_SIZE = "sysui_rounded_size";
+    private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
+    private static final String SYSUI_ROUNDED_FWVALS = "sysui_rounded_fwvals";
 
     private static final int BATTERY_STYLE_Q = 0;
     private static final int BATTERY_STYLE_DOTTED_CIRCLE = 1;
@@ -99,6 +104,9 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
     private ListPreference mClockDatePosition;
     private CustomSeekBarPreference mClockSize;
     private ListPreference mClockFontStyle;
+    private CustomSeekBarPreference mCornerRadius;
+    private CustomSeekBarPreference mContentPadding;
+    private SecureSettingSwitchPreference mRoundedFwvals;
 
     private ListPreference mBatteryPercent;
     private ListPreference mBatteryStyle;
@@ -111,6 +119,15 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
         final ContentResolver resolver = getActivity().getContentResolver();
+        Resources res = null;
+        Context ctx = getContext();
+        float density = Resources.getSystem().getDisplayMetrics().density;
+
+        try {
+            res = ctx.getPackageManager().getResourcesForApplication("com.android.systemui");
+        } catch (NameNotFoundException e) {
+            e.printStackTrace();
+        }
 
         boolean isNetMonitorEnabled = Settings.System.getIntForUser(resolver,
                 Settings.System.NETWORK_TRAFFIC_STATE, 1, UserHandle.USER_CURRENT) == 1;
@@ -124,7 +141,7 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         mThreshold.setValue(value);
         mThreshold.setOnPreferenceChangeListener(this);
         mThreshold.setEnabled(isNetMonitorEnabled);
-		
+
 
 	// clock settings
         mStatusBarClock = (ListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
@@ -210,6 +227,29 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         mBatteryStyle.setOnPreferenceChangeListener(this);
 
         updateBatteryOptions(batterystyle);
+
+        // Rounded Corner Radius
+        mCornerRadius = (CustomSeekBarPreference) findPreference(SYSUI_ROUNDED_SIZE);
+        int resourceIdRadius = (int) ctx.getResources().getDimension(com.android.internal.R.dimen.rounded_corner_radius);
+        int cornerRadius = Settings.Secure.getIntForUser(ctx.getContentResolver(), Settings.Secure.SYSUI_ROUNDED_SIZE,
+                ((int) (resourceIdRadius / density)), UserHandle.USER_CURRENT);
+        mCornerRadius.setValue(cornerRadius);
+        mCornerRadius.setOnPreferenceChangeListener(this);
+
+        // Rounded Content Padding
+        mContentPadding = (CustomSeekBarPreference) findPreference(SYSUI_ROUNDED_CONTENT_PADDING);
+        int resourceIdPadding = res.getIdentifier("com.android.systemui:dimen/rounded_corner_content_padding", null,
+                null);
+        int contentPadding = Settings.Secure.getIntForUser(ctx.getContentResolver(),
+                Settings.Secure.SYSUI_ROUNDED_CONTENT_PADDING,
+                (int) (res.getDimension(resourceIdPadding) / density), UserHandle.USER_CURRENT);
+        mContentPadding.setValue(contentPadding);
+        mContentPadding.setOnPreferenceChangeListener(this);
+
+        // Rounded use Framework Values
+        mRoundedFwvals = (SecureSettingSwitchPreference) findPreference(SYSUI_ROUNDED_FWVALS);
+        mRoundedFwvals.setOnPreferenceChangeListener(this);
+
     }
 
     @Override
@@ -337,6 +377,17 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
             int value = Integer.parseInt((String) objValue);
             updateBatteryOptions(value);
             return true;
+        } else if (preference == mCornerRadius) {
+            Settings.Secure.putIntForUser(getContext().getContentResolver(), Settings.Secure.SYSUI_ROUNDED_SIZE,
+                    (int) newValue, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mContentPadding) {
+            Settings.Secure.putIntForUser(getContext().getContentResolver(), Settings.Secure.SYSUI_ROUNDED_CONTENT_PADDING,
+                    (int) newValue, UserHandle.USER_CURRENT);
+            return true;
+        } else if (preference == mRoundedFwvals) {
+            restoreCorners();
+            return true;
         }
         return false;
     }
@@ -381,6 +432,23 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
             mClockDateFormat.setEnabled(true);
             mClockDatePosition.setEnabled(true);
         }
+    }
+
+    private void restoreCorners() {
+        Resources res = null;
+        float density = Resources.getSystem().getDisplayMetrics().density;
+        Context ctx = getContext();
+
+        try {
+            res = ctx.getPackageManager().getResourcesForApplication("com.android.systemui");
+        } catch (NameNotFoundException e) {
+            e.printStackTrace();
+        }
+
+        int resourceIdRadius = (int) ctx.getResources().getDimension(com.android.internal.R.dimen.rounded_corner_radius);
+        int resourceIdPadding = res.getIdentifier("com.android.systemui:dimen/rounded_corner_content_padding", null, null);
+        mCornerRadius.setValue((int) (resourceIdRadius / density));
+        mContentPadding.setValue((int) (res.getDimension(resourceIdPadding) / density));
     }
 
     private void updateBatteryOptions(int batterystyle) {
