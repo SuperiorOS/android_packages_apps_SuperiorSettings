@@ -61,4 +61,10 @@
             android:summary="@string/qs_bg_use_new_tint_summary"
             android:defaultValue="true" />
 
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+           android:key="footer_text_show"
+           android:title="@string/qs_footer_text_title"
+           android:summary="@string/qs_footer_text_summary"
+           android:defaultValue="false"/>
+
 </PreferenceScreen>
