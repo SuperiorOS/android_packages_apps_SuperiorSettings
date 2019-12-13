@@ -65,4 +65,16 @@
         android:summary="@string/notification_sound_vib_screen_on_summary"
         android:defaultValue="true" />
 
+    <PreferenceCategory
+        android:key="lock_ambient_cat"
+        android:title="@string/lockscreen_ambient_display_category">
+
+    <com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="pulse_on_new_tracks"
+        android:title="@string/pulse_on_new_tracks_title"
+        android:summary="@string/pulse_on_new_tracks_summary"
+        android:defaultValue="false" />
+
+    </PreferenceCategory>
+
 </PreferenceScreen>
