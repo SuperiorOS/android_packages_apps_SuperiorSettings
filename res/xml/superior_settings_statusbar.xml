@@ -34,12 +34,13 @@
             android:title="@string/network_traffic_state_title"
             android:defaultValue="0" />
 
-        <com.superior.settings.preferences.CustomSeekBarPreference
+        <com.superior.settings.preferences.SystemSettingSeekBarPreference
             android:key="network_traffic_autohide_threshold"
             android:title="@string/network_traffic_autohide_threshold_title"
             android:max="10"
             settings:min="0"
-            settings:units="" />
+            android:defaultValue="0"
+            settings:units="KB/s" />
 
         <com.superior.settings.preferences.SystemSettingSwitchPreference
             android:key="network_traffic_arrow"

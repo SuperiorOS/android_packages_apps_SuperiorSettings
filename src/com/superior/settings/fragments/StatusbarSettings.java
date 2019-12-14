@@ -52,6 +52,7 @@ import com.android.internal.util.superior.SuperiorUtils;
 import com.superior.settings.preferences.CustomSeekBarPreference;
 import com.superior.settings.preferences.SystemSettingSwitchPreference;
 import com.superior.settings.preferences.SecureSettingSwitchPreference;
+import com.superior.settings.preferences.SystemSettingSeekBarPreference;
 import com.superior.settings.R;
 
 import java.util.ArrayList;
@@ -65,9 +66,6 @@ import java.util.Set;
 
 public class StatusbarSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
-
-    private CustomSeekBarPreference mThreshold;
-    private SystemSettingSwitchPreference mNetMonitor;
 
     private static final String STATUS_BAR_CLOCK = "status_bar_clock";
     private static final String STATUS_BAR_CLOCK_SECONDS = "status_bar_clock_seconds";
@@ -117,7 +115,7 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
 
     private ListPreference mNetworkTraffic;
     private SystemSettingSwitchPreference mNetworkTrafficArrow;
-    private CustomSeekBarPreference mNetworkTrafficAutohide;
+    private SystemSettingSeekBarPreference mNetworkTrafficAutohide;
 
     private ListPreference mBatteryPercent;
     private ListPreference mBatteryStyle;
@@ -147,9 +145,10 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
                 getResources().getString(R.string.network_traffic_statusbar),
                 getResources().getString(R.string.network_traffic_qs_header) };
         CharSequence[] NotchEntries = { getResources().getString(R.string.network_traffic_disabled),
+                getResources().getString(R.string.network_traffic_statusbar),
                 getResources().getString(R.string.network_traffic_qs_header) };
         CharSequence[] NonNotchValues = {"0", "1" , "2"};
-        CharSequence[] NotchValues = {"0", "2"};
+        CharSequence[] NotchValues = {"0", "1" , "2"};
         mNetworkTraffic.setEntries(SuperiorUtils.hasNotch(getActivity()) ? NotchEntries : NonNotchEntries);
         mNetworkTraffic.setEntryValues(SuperiorUtils.hasNotch(getActivity()) ? NotchValues : NonNotchValues);
         mNetworkTraffic.setValue(String.valueOf(networkTraffic));
@@ -157,7 +156,7 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         mNetworkTraffic.setOnPreferenceChangeListener(this);
 
         mNetworkTrafficArrow = (SystemSettingSwitchPreference) findPreference(KEY_NETWORK_TRAFFIC_ARROW);
-        mNetworkTrafficAutohide = (CustomSeekBarPreference) findPreference(KEY_NETWORK_TRAFFIC_AUTOHIDE);
+        mNetworkTrafficAutohide = (SystemSettingSeekBarPreference) findPreference(KEY_NETWORK_TRAFFIC_AUTOHIDE);
         updateNetworkTrafficPrefs(networkTraffic);
 
 	// clock settings
@@ -286,13 +285,7 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         AlertDialog dialog;
-        if (preference == mThreshold) {
-            int val = (Integer) objValue;
-            Settings.System.putIntForUser(getContentResolver(),
-                    Settings.System.NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD, val,
-                    UserHandle.USER_CURRENT);
-            return true;
-        } else if (preference == mStatusBarClock) {
+        if (preference == mStatusBarClock) {
             int clockStyle = Integer.parseInt((String) objValue);
             int index = mStatusBarClock.findIndexOfValue((String) objValue);
             Settings.System.putInt(getActivity().getContentResolver(),
