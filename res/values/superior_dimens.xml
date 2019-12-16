@@ -30,4 +30,12 @@
     <!-- Shortcut picker -->
     <dimen name="shortcut_picker_left_padding">70dip</dimen>
 
+    <dimen name="icon_size">30dp</dimen>
+    <dimen name="icon_end_padding">15dp</dimen>
+
+    <!-- FOD icon picker -->
+    <dimen name="fod_picker_item_margin">20dp</dimen>
+    <dimen name="fod_picker_item_size">100dp</dimen>
+    <dimen name="fod_picker_item_padding">20dp</dimen>
+
 </resources>
