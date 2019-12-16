@@ -49,6 +49,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private ListPreference mTileAnimationDuration;
     private ListPreference mTileAnimationInterpolator;
 
+    private ListPreference mQuickPulldown;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -78,6 +80,13 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mTileAnimationInterpolator.setValue(String.valueOf(tileAnimationInterpolator));
         updateTileAnimationInterpolatorSummary(tileAnimationInterpolator);
         mTileAnimationInterpolator.setOnPreferenceChangeListener(this);
+
+        int qpmode = Settings.System.getIntForUser(getContentResolver(),
+                Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, 0, UserHandle.USER_CURRENT);
+        mQuickPulldown = (ListPreference) findPreference("status_bar_quick_qs_pulldown");
+        mQuickPulldown.setValue(String.valueOf(qpmode));
+        mQuickPulldown.setSummary(mQuickPulldown.getEntry());
+        mQuickPulldown.setOnPreferenceChangeListener(this);
     }
 
      @Override
@@ -101,6 +110,15 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             Settings.System.putIntForUser(resolver, Settings.System.ANIM_TILE_INTERPOLATOR,
                     tileAnimationInterpolator, UserHandle.USER_CURRENT);
             updateTileAnimationInterpolatorSummary(tileAnimationInterpolator);
+            return true;
+        } else if (preference == mQuickPulldown) {
+            int value = Integer.parseInt((String) newValue);
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.STATUS_BAR_QUICK_QS_PULLDOWN, value,
+                    UserHandle.USER_CURRENT);
+            int index = mQuickPulldown.findIndexOfValue((String) newValue);
+            mQuickPulldown.setSummary(
+                    mQuickPulldown.getEntries()[index]);
             return true;
         }
         return false;
