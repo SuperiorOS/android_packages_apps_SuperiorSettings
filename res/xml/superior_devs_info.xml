@@ -246,6 +246,16 @@
             android:action="android.intent.action.VIEW"
             android:data="http://t.me/JacobDeepu" />
     </Preference>
+
+    <Preference
+        android:title="@string/device_rosy"
+        android:summary="@string/device_land_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/Speedhorn | http://t.me/vishalcj" />
+    </Preference>
+
 </PreferenceCategory>
 
 </PreferenceScreen>
