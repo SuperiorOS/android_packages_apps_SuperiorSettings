@@ -34,6 +34,13 @@
         android:dependency="gaming_mode_enabled"
         android:defaultValue="true" />
 
+    <com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="gaming_mode_notifications_feedback"
+        android:title="@string/gaming_mode_notifications_feedback_title"
+        android:summary="@string/gaming_mode_notifications_feedback_summary"
+        android:dependency="gaming_mode_enabled"
+        android:defaultValue="true" />
+
     <!-- Hardware keys -->
     <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="gaming_mode_hw_keys_toggle"
