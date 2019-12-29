@@ -42,7 +42,6 @@
     <!-- Heads up -->
     <!-- Fingerprint authentication vibration -->
     <!-- Statusbar net monitor -->
-    <!-- Quick Settings brightness slider -->
     <!-- Double Tap -->
     <!-- Double Tap Lockscreen to Sleep -->
     <!-- Double tap-to-sleep -->
@@ -64,4 +63,21 @@
     <!-- Status bar - Battery -->
     <!-- Status bar - Battery percentage -->
     <!-- Battery mode -->
+    <!-- Notification guts kill app button -->
+    <!-- Volume dialog timeout -->
+    <!-- Audio Panel position  -->
+    <!-- Volume Steps Fragment -->
+    <!-- Quick settings brightness slider -->
+    <!-- Quick settings brightness icon -->
+    <!-- pre P mobile type icon style -->
+    <!-- Quick settings pulldown -->
+    <!-- Smart notifications -->
+    <!-- Rounded corners -->
+    <!-- Pulse ambient display on music change -->
+    <!-- Brightness buttons -->
+    <!-- Heads up timeout -->
+    <!-- Heads up snooze -->
+    <!-- Heads up options -->
+    <!-- Show QS on lockscreen -->
+    <!-- Volume key answer -->
 </resources>

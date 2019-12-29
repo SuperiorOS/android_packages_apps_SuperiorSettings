@@ -27,7 +27,7 @@
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">設立者/開発者, Whyred メンテナー</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev2_description">コアチーム/開発者, X01BD メンテナー</string>
+    <string name="dev2_description">コアチーム/開発者, X01BD | Tissot Maintainer</string>
     <string name="dev_3">Pavan Patel</string>
     <string name="dev3_description">コアチーム/デザイナー, Tulip メンテナー</string>
     <string name="dev_4">Titus Joseph</string>
@@ -40,6 +40,8 @@
     <string name="mentions_header">スペシャルサンクス</string>
     <string name="mentions_sam">Sam Grande</string>
     <string name="mentions_sam_description">デザイナー</string>
+    <string name="mentions_subins">Subins Mani</string>
+    <string name="mentions_subins_description">開発者</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">メンテナー</string>
     <string name="maintainers_header_summary">公式端末のメンテナー達です...</string>
@@ -60,6 +62,18 @@
     <string name="device_violet_description">violet\nYashpal Joshi</string>
     <string name="device_beryllium">POCO F1</string>
     <string name="device_beryllium_description">beryllium\nSaikiran</string>
+    <string name="device_dipper">Mi 8</string>
+    <string name="device_dipper_description">dipper\nDarkAngelGR</string>
+    <string name="device_sanders">Moto G (5S) Plus</string>
+    <string name="device_sanders_description">sanders\nMayur Varde</string>
+    <string name="device_tiffany">Mi 5X</string>
+    <string name="device_tiffany_description">tiffany\nEytan</string>
+    <string name="device_lavender">Redmi Note 7</string>
+    <string name="device_lavender_description">lavender\nClythe Freed</string>
+    <string name="device_land">Redmi 3S Prime</string>
+    <string name="device_land_description">land\nJacob Deepu</string>
+    <string name="device_rosy">Redmi 5</string>
+    <string name="device_rosy_description">rosy\nSpeedhorn | Vishalcj</string>
     <!-- Categories -->
     <string name="button_title">ボタン</string>
     <string name="gestures_title">ジェスチャー</string>
@@ -196,15 +210,12 @@
     <string name="fprint_sucess_vib_summary">指紋認証が成功した時に振動させる</string>
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">通信速度</string>
-    <string name="network_traffic_state_summary">通信速度を表示</string>
     <string name="network_traffic_autohide_threshold_title">自動非表示にするしきい値 (KB/s)</string>
-    <string name="network_traffic_hidearrow">矢印を隠す</string>
-    <string name="network_traffic_hidearrow_summary">通信速度の矢印を隠す</string>
-    <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_title">明るさスライダー</string>
-    <string name="qs_show_brightness_summary">クイック設定パネルに明るさスライダーを表示する</string>
-    <string name="qs_brightness_position_bottom_title">下部の明るさスライダー</string>
-    <string name="qs_brightness_position_bottom_summary">クイック設定下部に明るさスライダーを表示する</string>
+    <string name="network_traffic_arrow_title">通信方向の矢印</string>
+    <string name="network_traffic_arrow_summary">通信方向の矢印を表示する</string>
+    <string name="network_traffic_disabled">無効</string>
+    <string name="network_traffic_statusbar">ステータスバー</string>
+    <string name="network_traffic_qs_header">クイック設定ヘッダー</string>
     <!-- Double Tap -->
     <string name="dtts_category_header">ダブルタップでスリープ</string>
     <!-- Double Tap Lockscreen to Sleep -->
@@ -256,6 +267,7 @@
     <string name="powermenu_ls_torch_summary">ロック画面にライトオプションを表示する</string>
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">VoLTE アイコン</string>
+    <string name="volte_icon_summary">VoLTE アイコンを表示する</string>
     <!-- AOSP Gestures -->
     <string name="gesture_preference_superior">AOSP ジェスチャー</string>
     <!-- Lock screen cover art -->
@@ -361,4 +373,62 @@
     <string name="battery_percentage_next">有効</string>
     <string name="battery_percentage_inside">有効 (アイコンの内側)</string>
     <string name="battery_percentage_estimate">有効 (予想)</string>
+    <string name="battery_percentage_percentage_estimate">有効 (残量/残り時間)</string>
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">アプリ終了ボタン</string>
+    <string name="notification_guts_kill_app_button_summary">通知の長押しメニューにアプリ終了ボタンを表示する</string>
+    <!-- Volume dialog timeout -->
+    <string name="volume_dialog_timeout_title">音量パネルの表示時間</string>
+    <!-- Audio Panel position  -->
+    <string name="audio_panel_position_title">位置</string>
+    <string name="audio_panel_position_summary">音量パネルを右側から左側に変更する</string>
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_title">ボリュームステップ</string>
+    <string name="volume_steps_summary">音声のカスタム音量レベルを設定する</string>
+    <string name="volume_steps_alarm_title">音量レベル: アラーム</string>
+    <string name="volume_steps_dtmf_title">音量レベル: DTMF</string>
+    <string name="volume_steps_music_title">音量レベル: メディア</string>
+    <string name="volume_steps_notification_title">音量レベル: 通知</string>
+    <string name="volume_steps_ring_title">音量レベル: 着信</string>
+    <string name="volume_steps_system_title">音量レベル: システム</string>
+    <string name="volume_steps_voice_call_title">音量レベル: 音声通話</string>
+    <string name="volume_steps_reset">リセット</string>
+    <!-- Quick settings brightness slider -->
+    <string name="qs_brightness_slider_title">明るさスライダーの位置</string>
+    <string name="qs_brightness_slider_hide">非表示</string>
+    <string name="qs_brightness_slider_top">上部</string>
+    <string name="qs_brightness_slider_bottom">下部</string>
+    <!-- Quick settings brightness icon -->
+    <string name="brightness_icon_title">自動明るさ調節アイコン</string>
+    <string name="brightness_icon_summary">スライダーの近くに明るさ自動調節のトグルを表示する</string>
+    <!-- pre P mobile type icon style -->
+    <string name="use_old_mobiletype_title">古い電波アイコンを使用</string>
+    <string name="use_old_mobiletype_summary">アンテナと種別アイコンを統合する</string>
+    <!-- Quick settings pulldown -->
+    <string name="status_bar_quick_qs_pulldown_title">クイックプルダウン</string>
+    <string name="status_bar_quick_qs_pulldown_off">OFF</string>
+    <string name="status_bar_quick_qs_pulldown_left">左</string>
+    <string name="status_bar_quick_qs_pulldown_right">右</string>
+    <string name="status_bar_quick_qs_pulldown_always">常時</string>
+    <!-- Smart notifications -->
+    <string name="notification_sound_vib_screen_on_title">画面に現れる邪魔な通知</string>
+    <string name="notification_sound_vib_screen_on_summary">画面点灯時は通知の音と振動のブロックを無効化する</string>
+    <!-- Rounded corners -->
+    <string name="corners_category_title">画面の角</string>
+    <string name="corner_radius">画面角の丸みの半径</string>
+    <string name="content_padding">コンテンツの余白</string>
+    <string name="corner_fwvals_title">フレームワークの値を使用</string>
+    <string name="corner_fwvals_summary">端末の既定値を使用する</string>
+    <!-- Pulse ambient display on music change -->
+    <string name="lockscreen_ambient_display_category">アンビエント表示</string>
+    <string name="pulse_on_new_tracks_title">新しい曲でアンビエント表示を実行</string>
+    <string name="pulse_on_new_tracks_summary">新しい曲を再生時にスリープ解除して曲情報を表示する</string>
+    <!-- Brightness buttons -->
+    <string name="qs_show_brightness_buttons_title">明るさ増減ボタン</string>
+    <string name="qs_show_brightness_buttons_summary">ボタンを明るさスライダーのそばに表示する</string>
+    <!-- Heads up timeout -->
+    <!-- Heads up snooze -->
+    <!-- Heads up options -->
+    <!-- Show QS on lockscreen -->
+    <!-- Volume key answer -->
 </resources>

@@ -25,7 +25,6 @@
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Założyciel/Programista, opiekun Whyred</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev2_description">Główny zespół/Deweloper, opiekun X01BD</string>
     <string name="dev_3">Pavan Patel</string>
     <string name="dev3_description">Główny zespół/Grafik, opiekun Tulip</string>
     <string name="dev_4">Titus Joseph</string>
@@ -186,15 +185,7 @@
     <string name="fprint_sucess_vib_summary">Wibruj po udanym uwierzytelnianiu odcisku palca</string>
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Ruch sieciowy</string>
-    <string name="network_traffic_state_summary">Pokaż aktywność sieci w pasku stanu</string>
     <string name="network_traffic_autohide_threshold_title">Schowaj poniżej limitu (KB/s)</string>
-    <string name="network_traffic_hidearrow">Ukryj strzałki</string>
-    <string name="network_traffic_hidearrow_summary">Ukryj strzałki wskaźnika ruchu</string>
-    <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_title">Pasek jasności</string>
-    <string name="qs_show_brightness_summary">Pokaż suwak jasności w panelu szybkich ustawień</string>
-    <string name="qs_brightness_position_bottom_title">Suwak jasności na dole</string>
-    <string name="qs_brightness_position_bottom_summary">Pokaż suwak jasności pod panelem szybkich ustawień</string>
     <!-- Double Tap -->
     <string name="dtts_category_header">Usypianie podwójnym dotknięciem</string>
     <!-- Double Tap Lockscreen to Sleep -->
@@ -256,4 +247,21 @@
     <!-- Status bar - Battery -->
     <!-- Status bar - Battery percentage -->
     <!-- Battery mode -->
+    <!-- Notification guts kill app button -->
+    <!-- Volume dialog timeout -->
+    <!-- Audio Panel position  -->
+    <!-- Volume Steps Fragment -->
+    <!-- Quick settings brightness slider -->
+    <!-- Quick settings brightness icon -->
+    <!-- pre P mobile type icon style -->
+    <!-- Quick settings pulldown -->
+    <!-- Smart notifications -->
+    <!-- Rounded corners -->
+    <!-- Pulse ambient display on music change -->
+    <!-- Brightness buttons -->
+    <!-- Heads up timeout -->
+    <!-- Heads up snooze -->
+    <!-- Heads up options -->
+    <!-- Show QS on lockscreen -->
+    <!-- Volume key answer -->
 </resources>

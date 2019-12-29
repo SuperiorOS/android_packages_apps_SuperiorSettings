@@ -26,7 +26,6 @@
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Fundador/Desenvolvedor\nMantenedor Whyred</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev2_description">Equipe/Desenvolvedor do núcleo\nX01BD | Mantenedor de Tissot</string>
     <string name="dev_3">Pavan Patel</string>
     <string name="dev3_description">Equipe/Designer do núcleo\nMantenedor de Tulip</string>
     <string name="dev_4">Titus Joseph</string>
@@ -193,15 +192,7 @@
     <string name="fprint_sucess_vib_summary">Vibrar na autenticação de impressão digital bem sucedida</string>
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Indicadores de tráfego</string>
-    <string name="network_traffic_state_summary">Mostrar a atividade da rede na barra de status</string>
     <string name="network_traffic_autohide_threshold_title">Limite para auto ocultar atividade da rede (KB/s)</string>
-    <string name="network_traffic_hidearrow">Ocultar setas</string>
-    <string name="network_traffic_hidearrow_summary">Ocultar as setas indicadoras de tráfego da rede</string>
-    <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_title">Controle deslizante de brilho</string>
-    <string name="qs_show_brightness_summary">Mostrar controle de brilho deslizante no painel de configurações rápidas</string>
-    <string name="qs_brightness_position_bottom_title">Controle de brilho na parte inferior</string>
-    <string name="qs_brightness_position_bottom_summary">Mostrar controle de brilho no painel de configurações rápidas</string>
     <!-- Double Tap -->
     <string name="dtts_category_header">Toque duplo para desligar a tela</string>
     <!-- Double Tap Lockscreen to Sleep -->
@@ -265,4 +256,21 @@
     <!-- Status bar - Battery -->
     <!-- Status bar - Battery percentage -->
     <!-- Battery mode -->
+    <!-- Notification guts kill app button -->
+    <!-- Volume dialog timeout -->
+    <!-- Audio Panel position  -->
+    <!-- Volume Steps Fragment -->
+    <!-- Quick settings brightness slider -->
+    <!-- Quick settings brightness icon -->
+    <!-- pre P mobile type icon style -->
+    <!-- Quick settings pulldown -->
+    <!-- Smart notifications -->
+    <!-- Rounded corners -->
+    <!-- Pulse ambient display on music change -->
+    <!-- Brightness buttons -->
+    <!-- Heads up timeout -->
+    <!-- Heads up snooze -->
+    <!-- Heads up options -->
+    <!-- Show QS on lockscreen -->
+    <!-- Volume key answer -->
 </resources>

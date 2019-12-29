@@ -27,7 +27,7 @@
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Zakladatel/vývojář, správce Whyred</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev2_description">Hlavní tým/vývojář, správce X01BD</string>
+    <string name="dev2_description">Hlavní tým/Vývojář, X01BD | Správce Tissot</string>
     <string name="dev_3">Pavan Patel</string>
     <string name="dev3_description">Hlavní tým/designer, správce Tulip</string>
     <string name="dev_4">Titus Joseph</string>
@@ -40,6 +40,8 @@
     <string name="mentions_header">Čestná uznání</string>
     <string name="mentions_sam">Sam Grande</string>
     <string name="mentions_sam_description">Designer</string>
+    <string name="mentions_subins">Subins Mani</string>
+    <string name="mentions_subins_description">Vývojář</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">Správci</string>
     <string name="maintainers_header_summary">Toto jsou správci oficiálních zařízení...</string>
@@ -60,6 +62,18 @@
     <string name="device_violet_description">violet\nYashpal Joshi</string>
     <string name="device_beryllium">POCO F1</string>
     <string name="device_beryllium_description">beryllium\nSaikiran</string>
+    <string name="device_dipper">Mi 8</string>
+    <string name="device_dipper_description">dipper\nDarkAngelGR</string>
+    <string name="device_sanders">Moto G (5S) Plus</string>
+    <string name="device_sanders_description">sanders\nMayur Varde</string>
+    <string name="device_tiffany">Mi 5X</string>
+    <string name="device_tiffany_description">tiffany\nEytan</string>
+    <string name="device_lavender">Redmi Note 7</string>
+    <string name="device_lavender_description">lavender\nClythe Freed</string>
+    <string name="device_land">Redmi 3S Prime</string>
+    <string name="device_land_description">land\nJacob Deepu</string>
+    <string name="device_rosy">Redmi 5</string>
+    <string name="device_rosy_description">rosy\nSpeedhorn | Vishalcj</string>
     <!-- Categories -->
     <string name="button_title">Tlačítka</string>
     <string name="gestures_title">Gesta</string>
@@ -196,15 +210,12 @@
     <string name="fprint_sucess_vib_summary">Vibrovat při úspěšném ověření otisku prstu</string>
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Síťový provoz</string>
-    <string name="network_traffic_state_summary">Zobrazit indikátor síťové aktivity ve stavovém řádku</string>
     <string name="network_traffic_autohide_threshold_title">Prahová hodnota pro automatické skrytí síťové aktivity (KB/s)</string>
-    <string name="network_traffic_hidearrow">Skrýt šipky</string>
-    <string name="network_traffic_hidearrow_summary">Skrýt šipky datového provozu</string>
-    <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_title">Posuvník jasu</string>
-    <string name="qs_show_brightness_summary">Zobrazit posuvník jasu v panelu Rychlého nastavení</string>
-    <string name="qs_brightness_position_bottom_title">Posuvník jasu v dolní části</string>
-    <string name="qs_brightness_position_bottom_summary">Zobrazit posuvník jasu v dolní části panelu Rychlého nastavení</string>
+    <string name="network_traffic_arrow_title">Šipky aktivity sítě</string>
+    <string name="network_traffic_arrow_summary">Zobrazit šipky aktivity sítě</string>
+    <string name="network_traffic_disabled">Vypnuto</string>
+    <string name="network_traffic_statusbar">Stavový řádek</string>
+    <string name="network_traffic_qs_header">Záhlaví QS</string>
     <!-- Double Tap -->
     <string name="dtts_category_header">Uspat dvojím poklepáním</string>
     <!-- Double Tap Lockscreen to Sleep -->
@@ -256,6 +267,7 @@
     <string name="powermenu_ls_torch_summary">Zobrazit možnost Svítilna na obrazovce uzamčení</string>
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">Ikona VoLTE</string>
+    <string name="volte_icon_summary">Zobrazit ikonu VoLTE</string>
     <!-- AOSP Gestures -->
     <string name="gesture_preference_superior">Gesta AOSP</string>
     <!-- Lock screen cover art -->
@@ -361,4 +373,62 @@
     <string name="battery_percentage_next">Zapnuto</string>
     <string name="battery_percentage_inside">Zapnuto (uvnitř ikony)</string>
     <string name="battery_percentage_estimate">Zapnuto (odhadované)</string>
+    <string name="battery_percentage_percentage_estimate">Povoleno (procenta | odhad)</string>
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Tlačítko „Ukončit aplikaci“</string>
+    <string name="notification_guts_kill_app_button_summary">Zobrazit tlačítko „Ukončit aplikaci“ při dlouhém stisku v nabídce oznámení</string>
+    <!-- Volume dialog timeout -->
+    <string name="volume_dialog_timeout_title">Časový limit panelu ovládání hlasitosti</string>
+    <!-- Audio Panel position  -->
+    <string name="audio_panel_position_title">Umístění</string>
+    <string name="audio_panel_position_summary">Přesunout panel hlasitosti z pravé na levou stranu</string>
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_title">Kroky hlasitosti</string>
+    <string name="volume_steps_summary">Nastavit vlastní kroky hlasitosti pro zvuky</string>
+    <string name="volume_steps_alarm_title">Kroky hlasitosti: Budík</string>
+    <string name="volume_steps_dtmf_title">Kroky hlasitosti: DTMF</string>
+    <string name="volume_steps_music_title">Kroky hlasitosti: Média</string>
+    <string name="volume_steps_notification_title">Kroky hlasitosti: Oznámení</string>
+    <string name="volume_steps_ring_title">Kroky hlasitosti: Vyzvánění</string>
+    <string name="volume_steps_system_title">Kroky hlasitosti: Systémové zvuky</string>
+    <string name="volume_steps_voice_call_title">Kroky hlasitosti: Hlasové hovory</string>
+    <string name="volume_steps_reset">Resetovat</string>
+    <!-- Quick settings brightness slider -->
+    <string name="qs_brightness_slider_title">Umístění posuvníku jasu</string>
+    <string name="qs_brightness_slider_hide">Skrytý</string>
+    <string name="qs_brightness_slider_top">Nahoře</string>
+    <string name="qs_brightness_slider_bottom">Dole</string>
+    <!-- Quick settings brightness icon -->
+    <string name="brightness_icon_title">Ikona automatického jasu</string>
+    <string name="brightness_icon_summary">Zobrazit přepínač pro automatický jas poblíž posuvníku</string>
+    <!-- pre P mobile type icon style -->
+    <string name="use_old_mobiletype_title">Použít starý styl ikony signálu</string>
+    <string name="use_old_mobiletype_summary">Sloučit popisek typu signálu s ikonou signálu mobilní sítě</string>
+    <!-- Quick settings pulldown -->
+    <string name="status_bar_quick_qs_pulldown_title">Rychlé rozbalení panelu QS</string>
+    <string name="status_bar_quick_qs_pulldown_off">Vyp.</string>
+    <string name="status_bar_quick_qs_pulldown_left">Vlevo</string>
+    <string name="status_bar_quick_qs_pulldown_right">Vpravo</string>
+    <string name="status_bar_quick_qs_pulldown_always">Vždy</string>
+    <!-- Smart notifications -->
+    <string name="notification_sound_vib_screen_on_title">Hlasité oznámení, pokud je obrazovka zapnuta</string>
+    <string name="notification_sound_vib_screen_on_summary">Vypne blokování zvuků oznámení a vibrací při zapnuté obrazovce</string>
+    <!-- Rounded corners -->
+    <string name="corners_category_title">Rohy</string>
+    <string name="corner_radius">Poloměr zaoblení rohů</string>
+    <string name="content_padding">Vnitřní oblast rohů</string>
+    <string name="corner_fwvals_title">Použít hodnoty frameworku</string>
+    <string name="corner_fwvals_summary">Použít výchozí hodnoty pro vaše zařízení</string>
+    <!-- Pulse ambient display on music change -->
+    <string name="lockscreen_ambient_display_category">Ambientní displej</string>
+    <string name="pulse_on_new_tracks_title">Zapnout ambientní displej při nové skladbě</string>
+    <string name="pulse_on_new_tracks_summary">Pokud hraje nová skladba, zapne se obrazovka a zobrazí se nové informace</string>
+    <!-- Brightness buttons -->
+    <string name="qs_show_brightness_buttons_title">Tlačítka ovládání jasu</string>
+    <string name="qs_show_brightness_buttons_summary">Zobrazit tlačítka ovládání jasu vedle posuvníku k přepnutí automatického jasu</string>
+    <!-- Heads up timeout -->
+    <!-- Heads up snooze -->
+    <!-- Heads up options -->
+    <!-- Show QS on lockscreen -->
+    <!-- Volume key answer -->
 </resources>

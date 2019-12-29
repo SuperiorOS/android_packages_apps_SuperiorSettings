@@ -17,6 +17,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="superior_settings_title">Superior özelleştirmeleri</string>
+    <string name="superior_dashboard_summary">Küllerden yükseliş</string>
     <!-- ROM Info -->
     <string name="superior_about_info">Proje hakkında</string>
     <string name="superior_about_info_summary_title">Takım hakkında</string>
@@ -26,7 +27,6 @@
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Kurucu/Geliştirici, Whyred Sorumlusu</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev2_description">Çekirdek ekibi/Geliştirici, X01BD Sorumlusu</string>
     <string name="dev_3">Pavan Patel</string>
     <string name="dev3_description">Çekirdek ekibi/Tasarımcı, Tulip Sorumlusu</string>
     <string name="dev_4">Titus Joseph</string>
@@ -39,6 +39,8 @@
     <string name="mentions_header">Takdir edilecekler</string>
     <string name="mentions_sam">Sam Grande</string>
     <string name="mentions_sam_description">Tasarımcı</string>
+    <string name="mentions_subins">Subins Mani</string>
+    <string name="mentions_subins_description">Geliştirici</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">Sorumlular</string>
     <string name="maintainers_header_summary">Bunlar resmi cihaz sorumluları...</string>
@@ -59,6 +61,14 @@
     <string name="device_violet_description">violet\nYashpal Joshi</string>
     <string name="device_beryllium">POCO F1</string>
     <string name="device_beryllium_description">beryllium\nSaikiran</string>
+    <string name="device_dipper">Mi 8</string>
+    <string name="device_dipper_description">dipper\nDarkAngelGR</string>
+    <string name="device_sanders">Moto G (5S) Plus</string>
+    <string name="device_sanders_description">sanders\nMayur Varde</string>
+    <string name="device_tiffany">Mi 5X</string>
+    <string name="device_tiffany_description">tiffany\nEytan</string>
+    <string name="device_lavender">Redmi Note 7</string>
+    <string name="device_lavender_description">lavender\nClythe Freed</string>
     <!-- Categories -->
     <string name="button_title">Tuşlar</string>
     <string name="gestures_title">Hareketler</string>
@@ -70,6 +80,8 @@
     <string name="statusbar_title">Durum çubuğu</string>
     <string name="notifications_title">Bildirimler</string>
     <string name="volume_title">Ses tuşları</string>
+    <string name="status_bar_clock_title">Saat ayarları</string>
+    <string name="network_title">Ağ ayarları</string>
     <!-- General strings -->
     <string name="ok">Tamam</string>
     <string name="reset">Sıfırla</string>
@@ -193,15 +205,7 @@
     <string name="fprint_sucess_vib_summary">Başarılı parmak izi kimlik doğrulanmasında titret</string>
     <!-- Statusbar net monitor -->
     <string name="network_traffic_state_title">Ağ etkinliği</string>
-    <string name="network_traffic_state_summary">Durum çubuğunda ağ etkinliğini göster</string>
     <string name="network_traffic_autohide_threshold_title">Ağ etkinliği otomatik gizlenme eşiği (KB/s)</string>
-    <string name="network_traffic_hidearrow">Okları gizle</string>
-    <string name="network_traffic_hidearrow_summary">Ağ etkinliği ok göstergelerini gizler</string>
-    <!-- Quick Settings brightness slider -->
-    <string name="qs_show_brightness_title">Parlaklık kaydırıcısı</string>
-    <string name="qs_show_brightness_summary">Hızlı ayarlar panelinde parlaklık kaydırıcısını göster</string>
-    <string name="qs_brightness_position_bottom_title">Alt parlaklık kaydırıcısı</string>
-    <string name="qs_brightness_position_bottom_summary">Parlaklık kaydırıcısını hızlı ayarlar paneli altında göster</string>
     <!-- Double Tap -->
     <string name="dtts_category_header">Çift dokunuşla uyutma</string>
     <!-- Double Tap Lockscreen to Sleep -->
@@ -253,16 +257,149 @@
     <string name="powermenu_ls_torch_summary">Kilit ekranında el feneri seçeneğini göster</string>
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">VoLTE simgesi</string>
+    <string name="volte_icon_summary">VoLTE simgesini görüntüle</string>
     <!-- AOSP Gestures -->
     <string name="gesture_preference_superior">Aosp hareketleri</string>
     <!-- Lock screen cover art -->
+    <string name="lockscreen_media_category">Müzik</string>
+    <string name="media_art_title">Medya resmi</string>
+    <string name="media_art_summary">Medya kapak resmini kilit ekranı arka planı olarak göster</string>
     <!-- Lock screen media blur -->
+    <string name="lockscreen_media_blur_title">Medya resmi bulanıklık seviyesi</string>
     <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_enable">Müzik görselleştirici</string>
+    <string name="lockscreen_visualizer_enable_summary">Müzik çalarken görselleştirici çubukları gösterir</string>
     <!-- Statusbar Clock -->
+    <string name="status_bar_clock_show">Saati ve tarihi göster</string>
+    <string name="status_bar_clock_style_title">Saat konumu</string>
+    <string name="status_bar_clock_style_right">Sağ</string>
+    <string name="status_bar_clock_style_center">Orta</string>
+    <string name="status_bar_clock_style_left">Sol</string>
+    <string name="status_bar_am_pm_title">ÖÖ/ÖS stili</string>
+    <string name="status_bar_am_pm_info">24 saat görünümü etkin</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Küçük</string>
+    <string name="status_bar_am_pm_hidden">Gizli (varsayılan)</string>
+    <string name="clock_seconds_display">Saniye göster</string>
+    <string name="clock_date_display">Tarih</string>
+    <string name="clock_date_display_summary">Saatten önce özel tarihi görüntüle</string>
+    <string name="clock_date_display_none">Gösterme</string>
+    <string name="clock_date_display_small">Küçük yazı tipi boyutu</string>
+    <string name="clock_date_display_normal">Normal yazı tipi boyutu</string>
+    <string name="clock_date_style">Tarih stili</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Küçük harf</string>
+    <string name="clock_date_style_uppercase">Büyük harf</string>
+    <string name="clock_date_format_custom">Özel java biçimi</string>
+    <string name="clock_date_format">Tarih biçimi</string>
+    <string name="clock_date_string_edittext_title">Tarih biçimi örnekteki gibi olmalıdır. AA/gg/yy</string>
+    <string name="clock_date_string_edittext_summary">Yazı girin</string>
+    <string name="clock_date_right">Saatin sağında</string>
+    <string name="clock_date_left">Saatin solunda</string>
+    <string name="clock_date_position">Tarih konumu</string>
     <!-- Statusbar Clock Font Style & Size -->
+    <string name="status_bar_clock_font_style_title">Saat yazı tipi stili</string>
+    <string name="status_bar_clock_font_size_title">Saat yazı tipi boyutu</string>
     <!-- Lock Clock Fonts -->
+    <string name="lock_clock_font_title">Saat yazı tipi</string>
+    <string name="lock_clock_font_summary">Kilit ekranın da saat widget\'inin varsayılan yazı tipini değiştirme</string>
+    <string name="lock_clock_font_dialog_title">Kilit ekranı saat yazı tipi seçin</string>
+    <string name="lock_clock_font_stock">Normal (varsayılan)</string>
+    <string name="lock_clock_font_bold">Kalın</string>
+    <string name="lock_clock_font_italic">İtalik</string>
+    <string name="lock_clock_font_bold_italic">Kalın italik</string>
+    <string name="lock_clock_font_light_italic">Açık italik</string>
+    <string name="lock_clock_font_thin_italic">İnce italik</string>
+    <string name="lock_clock_font_light">Açık</string>
+    <string name="lock_clock_font_thin">İnce</string>
+    <string name="lock_clock_font_condensed_normal">Yoğun</string>
+    <string name="lock_clock_font_condensed_italic">Yoğun italik</string>
+    <string name="lock_clock_font_condensed_bold">Yoğun kalın</string>
+    <string name="lock_clock_font_condensed_bold_italic">Yoğun kalın italik</string>
+    <string name="lock_clock_font_condensed_light">Yoğun açık</string>
+    <string name="lock_clock_font_condensed_light_italic">Yoğun açık italik</string>
+    <string name="lock_clock_font_medium_normal">Orta</string>
+    <string name="lock_clock_font_medium_italic">Orta italik</string>
+    <string name="lock_clock_font_black">Siyah</string>
+    <string name="lock_clock_font_black_italic">Siyah italik</string>
+    <string name="lock_clock_font_dancingscript">DancingScript</string>
+    <string name="lock_clock_font_dancingscript_bold">DancingScript kalın</string>
+    <string name="lock_clock_font_comingsoon">Çok yakında</string>
+    <string name="lock_clock_font_notoserif">NotoSerif normal</string>
+    <string name="lock_clock_font_notoserif_italic">NotoSerif italik</string>
+    <string name="lock_clock_font_notoserif_bold">NotoSerif kalın</string>
+    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif kalın italik</string>
+    <string name="lock_clock_font_gobold">GoBold açık</string>
+    <string name="lock_clock_font_roadrage">Yol rage</string>
+    <string name="lock_clock_font_snowstorm">Kar fırtınası</string>
+    <string name="lock_clock_font_googlesans">Google sans</string>
+    <string name="lock_clock_font_neoneon">Neoneon</string>
+    <string name="lock_clock_font_themeable">Temalı (veya VCR OSD Mono)</string>
+    <string name="lock_clock_font_samsung">Samsung</string>
+    <string name="lock_clock_font_mexcellent">Mexcellent</string>
+    <string name="lock_clock_font_burnstown">Burnstown</string>
+    <string name="lock_clock_font_dumbledor">Dumbledor</string>
+    <string name="lock_clock_font_phantombold">PhantomBold</string>
     <!-- Battery Styles -->
+    <string name="battery_style_category_title">Pil seviyesi</string>
+    <string name="battery_percent_title">Pil yüzdesi</string>
     <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Pil stili</string>
+    <string name="status_bar_battery_style_q">Simge portresi (varsayılan)</string>
+    <string name="status_bar_battery_style_dotted_circle">Noktalı daire</string>
+    <string name="status_bar_battery_style_circle">Dolu daire</string>
+    <string name="status_bar_battery_style_text">Metin</string>
+    <string name="status_bar_battery_style_hidden">Gizli</string>
     <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Pil yüzdesi</string>
+    <string name="status_bar_battery_percentage_default">Gizli (varsayılan)</string>
+    <string name="status_bar_battery_percentage_text_inside">Simge içinde</string>
+    <string name="status_bar_battery_percentage_text_next">Simge yanında</string>
+    <string name="status_bar_battery_text_charging_title">Şarj olurken pil yüzdesi</string>
+    <string name="status_bar_battery_text_charging_summary">Şarj olurken her zaman pil yüzdesini göster</string>
     <!-- Battery mode -->
+    <string name="battery_percentage_title">Pil yüzdesi</string>
+    <string name="battery_percentage_off">Devre dışı</string>
+    <string name="battery_percentage_next">Etkin</string>
+    <string name="battery_percentage_inside">Etkin (simge içinde)</string>
+    <string name="battery_percentage_estimate">Etkin (tahmin)</string>
+    <string name="battery_percentage_percentage_estimate">Etkin (yüzde | tahmin)</string>
+    <!-- Notification guts kill app button -->
+    <string name="notification_guts_kill_app_button_title">Uygulama sonlandırma tuşu</string>
+    <string name="notification_guts_kill_app_button_summary">Bildirimin uzun basma menüsünde uygulama sonlandırma tuşunu göster</string>
+    <!-- Volume dialog timeout -->
+    <string name="volume_dialog_timeout_title">Ses paneli zaman aşımı</string>
+    <!-- Audio Panel position  -->
+    <string name="audio_panel_position_title">Konum</string>
+    <string name="audio_panel_position_summary">Ses panelini sağ taraftan sol tarafa doğru değiştirin</string>
+    <!-- Volume Steps Fragment -->
+    <string name="volume_steps_title">Ses seviyeleri</string>
+    <string name="volume_steps_summary">Sesler için özel ses seviyeleri ayarlayın</string>
+    <string name="volume_steps_alarm_title">Ses seviyesi: Alarm</string>
+    <string name="volume_steps_dtmf_title">Ses seviyesi: DTMF</string>
+    <string name="volume_steps_music_title">Ses seviyesi: Medya</string>
+    <string name="volume_steps_notification_title">Ses seviyesi: Bildirim</string>
+    <string name="volume_steps_ring_title">Ses seviyesi: Zil sesi</string>
+    <string name="volume_steps_system_title">Ses seviyesi: Sistem</string>
+    <string name="volume_steps_voice_call_title">Ses seviyesi: Sesli arama</string>
+    <string name="volume_steps_reset">Sıfırla</string>
+    <!-- Quick settings brightness slider -->
+    <string name="qs_brightness_slider_title">Parlaklık kaydırıcı konumu</string>
+    <string name="qs_brightness_slider_hide">Gizli</string>
+    <string name="qs_brightness_slider_top">Üst</string>
+    <string name="qs_brightness_slider_bottom">Alt</string>
+    <!-- Quick settings brightness icon -->
+    <string name="brightness_icon_title">Otomatik parlaklık simgesi</string>
+    <string name="brightness_icon_summary">Hızlı ayarlar panelinde otomatik parlaklık simgesini göster</string>
+    <!-- pre P mobile type icon style -->
+    <!-- Quick settings pulldown -->
+    <!-- Smart notifications -->
+    <!-- Rounded corners -->
+    <!-- Pulse ambient display on music change -->
+    <!-- Brightness buttons -->
+    <!-- Heads up timeout -->
+    <!-- Heads up snooze -->
+    <!-- Heads up options -->
+    <!-- Show QS on lockscreen -->
+    <!-- Volume key answer -->
 </resources>
