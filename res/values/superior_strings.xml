@@ -688,4 +688,7 @@
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
     <string name="fod_recog_animation_bluefirework">Blue Fireworks</string>
 
+    <!-- OOS Clear all button -->
+    <string name="enable_clear_all_button">OOS Styled clear all button</string>
+    <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
 </resources>

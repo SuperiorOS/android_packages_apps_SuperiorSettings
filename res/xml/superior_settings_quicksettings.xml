@@ -69,6 +69,12 @@
             android:entryValues="@array/status_bar_quick_qs_pulldown_values"
             android:defaultValue="0" />
 
+       <com.superior.settings.preferences.SystemSettingSwitchPreference
+            android:key="dismiss_all_button"
+            android:title="@string/enable_clear_all_button"
+            android:summary="@string/enable_clear_all_button_summary"
+            android:defaultValue="true" />
+
         <com.superior.settings.preferences.SystemSettingSwitchPreference
             android:key="notification_guts_kill_app_button"
             android:title="@string/notification_guts_kill_app_button_title"
