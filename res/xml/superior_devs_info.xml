@@ -138,8 +138,8 @@
         android:title="@string/device_asus" >
 
     <Preference
-        android:title="@string/device_x00t"
-        android:summary="@string/device_x00t_description"
+        android:title="@string/device_X00T"
+        android:summary="@string/device_X00T_description"
         android:icon="@drawable/ic_devs_phone">
         <intent
             android:action="android.intent.action.VIEW"
@@ -172,20 +172,6 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/chautruongthinh" />
-    </Preference>
-</PreferenceCategory>
-
-<PreferenceCategory
-        android:key="maintainer"
-        android:title="@string/device_smartron" >
-
-    <Preference
-        android:title="@string/device_rimo02a"
-        android:summary="@string/device_rimo02a_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/cult_of_kosmos" />
     </Preference>
 </PreferenceCategory>
 
