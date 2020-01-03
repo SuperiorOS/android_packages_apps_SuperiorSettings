@@ -251,6 +251,15 @@
            android:data="http://t.me/nick_00007" />
     </Preference>
 
+    <Preference
+        android:title="@string/device_bacon"
+        android:summary="@string/device_bacon_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/IamShaB" />
+    </Preference>
+
 </PreferenceCategory>
 
 </PreferenceScreen>
