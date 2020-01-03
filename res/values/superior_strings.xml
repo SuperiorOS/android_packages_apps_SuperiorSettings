@@ -78,6 +78,8 @@
     <string name="device_rosy_description">rosy\nSpeedhorn | Vishalcj</string>
     <string name="device_riva">Redmi 5A</string> 
     <string name="device_riva_description">riva\nNick</string>
+    <string name="device_bacon">Oneplus One</string>
+    <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
