@@ -20,6 +20,7 @@ import android.content.Context;
 import android.content.ContentResolver;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.os.UserHandle;
 import androidx.preference.SwitchPreference;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
@@ -48,12 +49,13 @@ import java.util.Map;
 import com.android.settings.search.Indexable;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
+import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
 import com.superior.settings.R;
 
 public class QuickSettings extends SettingsPreferenceFragment implements
     Preference.OnPreferenceChangeListener {
-    	
+
     private static final String TAG = "StyleSettings";
     private static final String CUSTOM_HEADER_BROWSE = "custom_header_browse";
     private static final String DAYLIGHT_HEADER_PACK = "daylight_header_pack";
@@ -62,6 +64,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final String STATUS_BAR_CUSTOM_HEADER = "status_bar_custom_header";
     private static final String FILE_HEADER_SELECT = "file_header_select";
     private static final String KEY_QS_PANEL_ALPHA = "qs_panel_alpha";
+    private static final String QS_PANEL_COLOR = "qs_panel_color";
+    static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
     private static final int REQUEST_PICK_IMAGE = 0;
 
     private CustomSeekBarPreference mQsPanelAlpha;
@@ -73,8 +77,8 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private SystemSettingSwitchPreference mHeaderEnabled;
     private Preference mFileHeader;
     private String mFileHeaderProvider;
+    private ColorPickerPreference mQsPanelColor;
 
- 	
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -94,6 +98,14 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 Settings.System.QS_PANEL_BG_ALPHA, 221);
         mQsPanelAlpha.setValue((int)(((double) qsPanelAlpha / 255) * 100));
         mQsPanelAlpha.setOnPreferenceChangeListener(this);
+
+        mQsPanelColor = (ColorPickerPreference) findPreference(QS_PANEL_COLOR);
+        mQsPanelColor.setOnPreferenceChangeListener(this);
+        int intColor = Settings.System.getIntForUser(getContentResolver(),
+                Settings.System.QS_PANEL_BG_COLOR, DEFAULT_QS_PANEL_COLOR, UserHandle.USER_CURRENT);
+        String hexColor = String.format("#%08x", (0xffffffff & intColor));
+        mQsPanelColor.setSummary(hexColor);
+        mQsPanelColor.setNewPreviewColor(intColor);
 
         mDaylightHeaderPack = (ListPreference) findPreference(DAYLIGHT_HEADER_PACK);
 
@@ -162,6 +174,13 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             int realHeaderValue = (int) (((double) headerShadow / 100) * 255);
             Settings.System.putInt(getContentResolver(),
                     Settings.System.OMNI_STATUS_BAR_CUSTOM_HEADER_SHADOW, realHeaderValue);
+        } else if (preference == mQsPanelColor) {
+                String hex = ColorPickerPreference.convertToARGB(
+                        Integer.valueOf(String.valueOf(newValue)));
+                preference.setSummary(hex);
+                int intHex = ColorPickerPreference.convertToColorInt(hex);
+                Settings.System.putIntForUser(getContentResolver(),
+                        Settings.System.QS_PANEL_BG_COLOR, intHex, UserHandle.USER_CURRENT);
         } else if (preference == mHeaderProvider) {
             String value = (String) newValue;
             Settings.System.putString(getContentResolver(),
