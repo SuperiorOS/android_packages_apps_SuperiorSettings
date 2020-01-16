@@ -586,4 +586,8 @@
    <string name="always_on_display_schedule_sunset">Sunset</string>
    <string name="always_on_display_schedule_sunrise">Sunrise</string>
 
+   <!-- Lock icon -->
+   <string name="hide_lockicon_title">Hide lock icon</string>
+   <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
+
 </resources>
