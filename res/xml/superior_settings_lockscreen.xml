@@ -55,6 +55,12 @@
         android:summary="@string/lockscreen_media_art_summary"
         android:defaultValue="false" />
 
+    <com.superior.settings.preferences.SecureSettingSwitchPreference
+        android:key="hide_lockicon"
+        android:title="@string/hide_lockicon_title"
+        android:summary="@string/hide_lockicon_summary"
+        android:defaultValue="true" />
+
     <!-- FOD icon picker -->
     <Preference
         android:key="fod_icon_picker_category"
