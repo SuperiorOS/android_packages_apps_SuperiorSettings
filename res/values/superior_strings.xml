@@ -341,6 +341,7 @@
     <string name="volte_icon_volte">Superior Icon</string>
     <string name="volte_icon_oos">VoLTE OOS Icon</string>
     <string name="volte_icon_hd">HD Icon</string>
+    <string name="volte_icon_hd2">HD CAF</string>
 
     <!-- AOSP Gestures -->
 	<string name="gesture_preference_superior">AOSP gestures</string>
