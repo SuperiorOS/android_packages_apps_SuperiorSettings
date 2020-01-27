@@ -51,6 +51,13 @@
         android:summary="@string/fod_icon_picker_summary"
         android:fragment="com.superior.settings.fragments.FODIconPickerFragment" />
 
+    <!-- FOD recognizing animation -->
+    <com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="fod_recognizing_animation"
+        android:title="@string/fod_recog_animation"
+        android:summary="@string/fod_recog_animation_summary"
+        android:defaultValue="false" />
+
     <com.superior.settings.preferences.SecureSettingSwitchPreference
         android:key="status_bar_shown_on_secure_keyguard"
         android:title="@string/show_qs_on_secure_keyguard_title"
