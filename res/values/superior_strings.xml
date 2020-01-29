@@ -556,4 +556,8 @@
     <string name="gaming_mode_dynamic_title">Dynamic mode</string>
     <string name="gaming_mode_dynamic_summary">Try detecting and adding gaming apps automatically</string>
 
+    <!-- Enable navbar -->
+    <string name="enable_navbar_title">Enable</string>
+    <string name="enable_navbar_summary">Controls whether the navigation bar is displayed</string>
+
 </resources>
