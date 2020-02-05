@@ -163,6 +163,20 @@
 
 <PreferenceCategory
         android:key="maintainer"
+        android:title="@string/device_oneplus" >
+
+    <Preference
+        android:title="@string/device_bacon"
+        android:summary="@string/device_bacon_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/IamShaB" />
+    </Preference>
+</PreferenceCategory>
+
+<PreferenceCategory
+        android:key="maintainer"
         android:title="@string/device_pantech" >
 
     <Preference
@@ -178,15 +192,6 @@
 <PreferenceCategory
         android:key="maintainer"
         android:title="@string/device_xiaomi" >
-
-    <Preference
-        android:title="@string/device_dipper"
-        android:summary="@string/device_dipper_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/DarkAngelGR" />
-    </Preference>
 
     <Preference
         android:title="@string/device_beryllium"
@@ -249,15 +254,6 @@
         <intent
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/nick_00007" />
-    </Preference>
-
-    <Preference
-        android:title="@string/device_bacon"
-        android:summary="@string/device_bacon_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="http://t.me/IamShaB" />
     </Preference>
 
 </PreferenceCategory>
