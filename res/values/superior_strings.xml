@@ -78,6 +78,8 @@
     <string name="device_riva_description">riva\nNick</string>
     <string name="device_bacon">Oneplus One</string>
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
+    <string name="device_capricorn">Mi 5S</string>
+    <string name="device_capricorn_description">capricorn\nHenma</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>

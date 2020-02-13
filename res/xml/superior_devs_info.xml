@@ -203,6 +203,15 @@
     </Preference>
 
     <Preference
+        android:title="@string/device_capricorn"
+        android:summary="@string/device_capricorn_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/henmadx" />
+    </Preference>
+
+    <Preference
         android:title="@string/device_violet"
         android:summary="@string/device_violet_description"
         android:icon="@drawable/ic_devs_phone">
