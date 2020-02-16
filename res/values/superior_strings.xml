@@ -80,6 +80,8 @@
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
     <string name="device_capricorn">Mi 5S</string>
     <string name="device_capricorn_description">capricorn\nHenma</string>
+    <string name="device_santoni">Redmi 4X</string>
+    <string name="device_santoni_description">santoni\Bikram Mukherjee</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
