@@ -82,6 +82,15 @@
             android:summary="@string/blur_quicksettings_subtitle"
             android:defaultValue="true" />
 
+       <!--QS panel opacity-->
+       <com.superior.settings.preferences.CustomSeekBarPreference
+            android:key="qs_panel_alpha"
+            android:title="@string/qs_panel_alpha_title"
+            android:summary="@string/qs_panel_alpha_summary"
+            android:max="100"
+            settings:min="0"
+            android:persistent="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
