@@ -34,9 +34,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.settings.SettingsPreferenceFragment;
+import com.android.internal.util.superior.SuperiorUtils;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.hwkeys.ActionUtils;
+import com.android.settings.SettingsPreferenceFragment;
 
 import com.superior.settings.R;
 
@@ -75,8 +76,9 @@ public class NavbarSettings extends SettingsPreferenceFragment implements
     }
 
     private void updateNavBarOption() {
+        boolean defaultToNavigationBar = SuperiorUtils.deviceSupportNavigationBar(getActivity());
         boolean enabled = Settings.System.getIntForUser(getActivity().getContentResolver(),
-                Settings.System.FORCE_SHOW_NAVBAR, 1, UserHandle.USER_CURRENT) != 0;
+                Settings.System.FORCE_SHOW_NAVBAR, defaultToNavigationBar ? 1 : 0, UserHandle.USER_CURRENT) != 0;
         mEnableNavigationBar.setChecked(enabled);
     }
 
