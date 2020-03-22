@@ -100,6 +100,10 @@
     <string name="volume_title">Volume rockers</string>
     <string name="status_bar_clock_title">Clock settings</string>
     <string name="network_title">Network settings</string>
+
+    <!-- Sub-Categories -->
+    <string name="qs_battery_category_title">Battery Settings </string>
+    <string name="qs_misc_category_title">quicksettings misc</string>
 	
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -413,7 +417,7 @@
     <string name="lock_clock_font_phantombold">PhantomBold</string>
 
     <!-- Battery Styles -->
-    <string name="battery_style_category_title">Battery level</string>
+    <string name="battery_style_category_title">Battery Settings</string>
     <string name="battery_percent_title">Battery percent</string>
 
     <!-- Status bar - Battery -->
@@ -530,7 +534,7 @@
     <string name="less_boring_heads_up_summary">Show heads up only for dialer, messaging and alarm app</string>
 
     <!-- Show QS on lockscreen -->
-    <string name="show_qs_on_secure_keyguard_title">Quick settings</string>
+    <string name="show_qs_on_secure_keyguard_title">Secure Quick settings</string>
     <string name="show_qs_on_secure_keyguard_summary">Show quick settings on secure lockscreen</string>
 
     <!-- Volume key answer -->
