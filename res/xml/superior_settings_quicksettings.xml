@@ -82,8 +82,9 @@
             android:summary="@string/blur_quicksettings_subtitle"
             android:defaultValue="true" />
 
-       <!-- Custom headers -->
-       <PreferenceCategory
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="category_custom_header"
         android:title="@string/custom_header_title">
 
