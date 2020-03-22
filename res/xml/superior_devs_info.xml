@@ -145,6 +145,15 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/LordShenron" />
     </Preference>
+
+    <Preference
+        android:title="@string/device_X01BD"
+        android:summary="@string/device_X01BD_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/JD1811" />
+    </Preference>
 </PreferenceCategory>
 
 <PreferenceCategory
@@ -172,20 +181,6 @@
         <intent
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/IamShaB" />
-    </Preference>
-</PreferenceCategory>
-
-<PreferenceCategory
-        android:key="maintainer"
-        android:title="@string/device_pantech" >
-
-    <Preference
-        android:title="@string/device_ef63"
-        android:summary="@string/device_ef63_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/chautruongthinh" />
     </Preference>
 </PreferenceCategory>
 
@@ -248,15 +243,6 @@
     </Preference>
 
     <Preference
-        android:title="@string/device_land"
-        android:summary="@string/device_land_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/JacobDeepu" />
-    </Preference>
-
-    <Preference
         android:title="@string/device_rosy"
         android:summary="@string/device_rosy_description"
         android:icon="@drawable/ic_devs_phone">
@@ -283,6 +269,23 @@
            android:data="http://t.me/smokey_18" />
     </Preference>
 
+    <Preference
+        android:title="@string/device_whyred"
+        android:summary="@string/device_whyred_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/Darkstar085" />
+    </Preference>
+
+    <Preference
+        android:title="@string/device_tulip"
+        android:summary="@string/device_tulip_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/Advertpavan" />
+    </Preference>
 </PreferenceCategory>
 
 </PreferenceScreen>
