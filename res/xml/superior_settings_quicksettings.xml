@@ -42,7 +42,7 @@
             android:summary="@string/qs_show_brightness_buttons_summary"
             android:defaultValue="true" />
 
-    </PreferenceCategory>
+ </PreferenceCategory>
 
         <!-- Battery mode -->
         <com.superior.settings.preferences.SystemSettingListPreference
@@ -58,4 +58,12 @@
             android:entries="@array/status_bar_quick_qs_pulldown_entries"
             android:entryValues="@array/status_bar_quick_qs_pulldown_values"
             android:defaultValue="0" />
+
+        <!-- QS blur toggle-->
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_blur"
+            android:title="@string/blur_quicksettings"
+            android:summary="@string/blur_quicksettings_subtitle"
+            android:defaultValue="true" />
+
 </PreferenceScreen>

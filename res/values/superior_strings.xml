@@ -564,4 +564,8 @@
     <string name="enable_navbar_title">Enable</string>
     <string name="enable_navbar_summary">Controls whether the navigation bar is displayed</string>
 
+    <!--QS blur toggle -->
+    <string name="blur_quicksettings">Blur behind quick settings (beta)</string>
+    <string name="blur_quicksettings_subtitle">blurs darkened background behind quick settings</string>
+
 </resources>
