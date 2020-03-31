@@ -86,6 +86,8 @@
     <string name="device_tulip_description">tulip\nPavan Patel</string>
     <string name="device_X01BD">ZenFone Max Pro M2</string>
     <string name="device_X01BD_description">X01BD\nJayant Deshmukh</string>
+	<string name="device_daisy">Mi A2 Lite</string>
+    <string name="device_daisy_description">daisy\npawelik001</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>

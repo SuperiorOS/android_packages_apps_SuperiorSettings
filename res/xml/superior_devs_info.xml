@@ -286,6 +286,15 @@
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/Advertpavan" />
     </Preference>
+	
+	    <Preference
+        android:title="@string/device_daisy"
+        android:summary="@string/device_daisy_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="https://t.me/pawelik001" />
+    </Preference>
 </PreferenceCategory>
 
 </PreferenceScreen>
