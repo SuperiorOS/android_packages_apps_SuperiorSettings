@@ -161,6 +161,15 @@
 	android:title="@string/device_motorola" >
 
     <Preference
+        android:title="@string/device_payton"
+        android:summary="@string/device_payton_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/cool585" />
+    </Preference>
+
+    <Preference
 	android:title="@string/device_sanders"
 	android:summary="@string/device_sanders_description"
 	android:icon="@drawable/ic_devs_phone">
@@ -195,6 +204,24 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/saikiran001" />
+    </Preference>
+
+    <Preference
+        android:title="@string/device_tissot"
+        android:summary="@string/device_tissot_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/JD1811" />
+    </Preference>
+
+    <Preference
+        android:title="@string/device_daisy"
+        android:summary="@string/device_daisy_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="https://t.me/pawelik001" />
     </Preference>
 
     <Preference
@@ -286,25 +313,6 @@
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/Advertpavan" />
     </Preference>
-	
-	    <Preference
-        android:title="@string/device_daisy"
-        android:summary="@string/device_daisy_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="https://t.me/pawelik001" />
-    </Preference>
-
-    <Preference
-        android:title="@string/device_payton"
-        android:summary="@string/device_payton_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="http://t.me/cool585" />
-    </Preference>
-
 </PreferenceCategory>
 
 </PreferenceScreen>
