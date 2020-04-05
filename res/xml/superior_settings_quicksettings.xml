@@ -75,6 +75,13 @@
             android:summary="@string/notification_guts_kill_app_button_summary"
             android:defaultValue="false" />
 
+        <!-- QS vibrate toggle-->
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+            android:key="quick_settings_vibrate"
+            android:title="@string/qs_vibrate_title"
+            android:summary="@string/qs_vibrate_summary"
+            android:defaultValue="false" />
+
         <!-- QS blur toggle-->
         <com.superior.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_blur"
