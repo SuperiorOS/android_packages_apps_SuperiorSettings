@@ -651,4 +651,8 @@
     <string name="qs_vibrate_title">Vibrate on touch</string>
     <string name="qs_vibrate_summary">Vibrate when touching QS tiles</string>
 
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">LS Charging animation</string>
+    <string name="lockscreen_charging_animation_summary">Display a Lottie animation when the device is charging</string>
+
 </resources>
