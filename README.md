@@ -1,14 +1,14 @@
 Superiorsettings:
 ================
 
-<img src="nemesis.png" align="right">
+<img src="phoenix.png" align="right">
 
 What is Superiorsettings:
 ------------------------
 
-**Superiorsettings** Is The Feature Centre of **Superior OS** [ We call it **Armageddon Core** ], This Tab Contains All The Features / Tweaks Which Are Added To Superior OS.
+**Superiorsettings** Is The Feature Centre of **Superior OS** [ We call it **Superior Goodies** ], This Tab Contains All The Features / Tweaks Which Are Added To Superior OS.
 
-Under **Armageddon Core** U can find All Your Needed Fatures In Their Respective Tabs.
+Under **Superior Goodies** U can find All Your Needed Fatures In Their Respective Tabs.
 
 
 
