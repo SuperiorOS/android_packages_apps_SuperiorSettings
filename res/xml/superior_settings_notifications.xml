@@ -73,13 +73,19 @@
 
     <PreferenceCategory
         android:key="lock_ambient_cat"
-        android:title="@string/lockscreen_ambient_display_category">
+        android:title="@string/music_notification_category">
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="pulse_on_new_tracks"
         android:title="@string/pulse_on_new_tracks_title"
         android:summary="@string/pulse_on_new_tracks_summary"
         android:defaultValue="false" />
+
+    <com.superior.settings.preferences.SystemSettingSwitchPreference
+         android:key="show_media_heads_up"
+         android:title="@string/show_media_heads_up_title"
+         android:summary="@string/show_media_heads_up_summary"
+         android:defaultValue="false" />
 
     </PreferenceCategory>
 

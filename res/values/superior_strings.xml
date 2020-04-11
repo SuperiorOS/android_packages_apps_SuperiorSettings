@@ -518,7 +518,7 @@
     <string name="corner_fwvals_summary">Use the default values for your device</string>
 
     <!-- Pulse ambient display on music change -->
-    <string name="lockscreen_ambient_display_category">Ambient Display</string>
+    <string name="music_notification_category">Music notifications</string>
     <string name="pulse_on_new_tracks_title">Pulse ambient display on new song</string>
     <string name="pulse_on_new_tracks_summary">When a new song is playing, wake up the screen to display the new info</string>
 
@@ -666,5 +666,9 @@
     <!-- Charging animation -->
     <string name="lockscreen_charging_animation_title">LS Charging animation</string>
     <string name="lockscreen_charging_animation_summary">Display a Lottie animation when the device is charging</string>
+
+    <!-- Music heads up on new tracks -->
+    <string name="show_media_heads_up_title">Show media heads up</string>
+    <string name="show_media_heads_up_summary">Show media heads up when a new track is played, if the player is not already in foreground</string>
 
 </resources>
