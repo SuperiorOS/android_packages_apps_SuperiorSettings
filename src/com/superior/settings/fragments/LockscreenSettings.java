@@ -45,7 +45,7 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
 
     private static final String FINGERPRINT_VIB = "fingerprint_success_vib";
     private static final String LOCKSCREEN_VISUALIZER_ENABLED = "lockscreen_visualizer_enabled";
-    private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker";
+    private static final String FOD_ICON_PICKER_CATEGORY = "fod_icon_picker_category";
 
     private SecureSettingMasterSwitchPreference mVisualizerEnabled;
     private FingerprintManager mFingerprintManager;
@@ -75,13 +75,13 @@ public class LockscreenSettings extends SettingsPreferenceFragment implements
         int visualizerEnabled = Settings.Secure.getInt(resolver,
                 LOCKSCREEN_VISUALIZER_ENABLED, 0);
         mVisualizerEnabled.setChecked(visualizerEnabled != 0);
-        }
 
         mFODIconPickerCategory = (PreferenceCategory) findPreference(FOD_ICON_PICKER_CATEGORY);
         if (mFODIconPickerCategory != null
                 && !getResources().getBoolean(com.android.internal.R.bool.config_needCustomFODView)) {
             prefScreen.removePreference(mFODIconPickerCategory);
         }
+    }
 
     @Override
     public int getMetricsCategory() {
