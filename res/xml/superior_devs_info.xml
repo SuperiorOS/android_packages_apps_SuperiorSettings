@@ -198,15 +198,6 @@
         android:title="@string/device_xiaomi" >
 
     <Preference
-        android:title="@string/device_beryllium"
-        android:summary="@string/device_beryllium_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/saikiran001" />
-    </Preference>
-
-    <Preference
         android:title="@string/device_tissot"
         android:summary="@string/device_tissot_description"
         android:icon="@drawable/ic_devs_phone">
@@ -249,6 +240,15 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Bikram_M" />
+    </Preference>
+
+    <Preference
+        android:title="@string/device_vince"
+        android:summary="@string/device_vince_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/NitroFuNxD" />
     </Preference>
 
     <Preference
@@ -322,15 +322,7 @@
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/Advertpavan" />
     </Preference>
-	
-    <Preference
-        android:title="@string/device_vince"
-        android:summary="@string/device_vince_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="http://t.me/NitroFuNxD" />
-    </Preference>
+
 </PreferenceCategory>
 
 </PreferenceScreen>
