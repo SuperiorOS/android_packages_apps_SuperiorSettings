@@ -192,6 +192,20 @@
            android:data="http://t.me/IamShaB" />
     </Preference>
 </PreferenceCategory>
+	
+<PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/device_samsung" >
+
+    <Preference
+        android:title="@string/device_hlte"
+        android:summary="@string/device_hlte_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/amirulaminfauzi" />
+    </Preference>
+</PreferenceCategory>
 
 <PreferenceCategory
         android:key="maintainer"
