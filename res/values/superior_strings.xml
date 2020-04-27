@@ -92,6 +92,14 @@
     <string name="device_natrium_description">natrium\nHenma</string>
     <string name="device_vince">Redmi 5 Plus</string>
     <string name="device_vince_description">vince\nNitroFuN</string>
+    <string name="device_hlte">Galaxy Note 3 (9005/P)</string>
+    <string name="device_hlte_description">hlte\nAmin Fauzi</string>
+    <string name="device_hltechn">Galaxy Note 3 (9008V)</string>
+    <string name="device_hltechn_description">hltechn\nAmin Fauzi</string>
+    <string name="device_hltekor">Galaxy Note 3 (900K/L/S)</string>
+    <string name="device_hltekor_description">hltekor\nAmin Fauzi</string>
+    <string name="device_hltetmo">Galaxy Note 3 (900R4/T/V/W8)</string>
+    <string name="device_hltetmo_description">hltetmo\nAmin Fauzi</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
