@@ -18,12 +18,12 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="superior_settings_title">Superior Goodies</string>
     <string name="superior_dashboard_summary">Rise From Ashes</string>
-	
+
     <!-- ROM Info -->
     <string name="superior_about_info">About Project</string>
     <string name="superior_about_info_summary_title">About Team</string>
     <string name="superior_about_info_summary">Superior OS is a Custom ROM based on AOSP, with some most required minimal features, the main aim of this ROM is to deliver light speed performance,smoothness and good battery backup.</string>
-	
+
     <!-- Dev Info -->
     <string name="devs_header">Developers</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
@@ -56,6 +56,7 @@
     <string name="device_lenovo">Lenovo</string>
     <string name="device_oneplus">Oneplus</string>
     <string name="device_smartron">Smartron</string>
+    <string name="device_samsung">Samsung</string>
     <string name="device_X00T">ZenFone Max Pro M1</string>
     <string name="device_X00T_description">X00T\nPriyanshu</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
@@ -66,9 +67,9 @@
     <string name="device_tiffany_description">tiffany\nEytan</string>
     <string name="device_lavender">Redmi Note 7</string>
     <string name="device_lavender_description">lavender\nClythe Freed</string>
-    <string name="device_rosy">Redmi 5</string> 
+    <string name="device_rosy">Redmi 5</string>
     <string name="device_rosy_description">rosy\nSpeedhorn | Vishalcj</string>
-    <string name="device_riva">Redmi 5A</string> 
+    <string name="device_riva">Redmi 5A</string>
     <string name="device_riva_description">riva\nNick</string>
     <string name="device_bacon">Oneplus One</string>
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
@@ -92,6 +93,14 @@
     <string name="device_natrium_description">natrium\nHenma</string>
     <string name="device_vince">Redmi 5 Plus</string>
     <string name="device_vince_description">vince\nNitroFuN</string>
+    <string name="device_hlte">Galaxy Note 3 (9005/P)</string>
+    <string name="device_hlte_description">hlte\nAmin Fauzi</string>
+    <string name="device_hltechn">Galaxy Note 3 (9008V)</string>
+    <string name="device_hltechn_description">hltechn\nAmin Fauzi</string>
+    <string name="device_hltekor">Galaxy Note 3 (900K/L/S)</string>
+    <string name="device_hltekor_description">hltekor\nAmin Fauzi</string>
+    <string name="device_hltetmo">Galaxy Note 3 (900R4/T/V/W8)</string>
+    <string name="device_hltetmo_description">hltetmo\nAmin Fauzi</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
@@ -110,7 +119,7 @@
     <!-- Sub-Categories -->
     <string name="qs_battery_category_title">Battery Settings </string>
     <string name="qs_misc_category_title">quicksettings misc</string>
-	
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
@@ -328,7 +337,7 @@
     <string name="powermenu_ls_advanced_reboot_summary">Show the advanced reboot option on the lockscreen</string>
     <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
     <string name="powermenu_ls_torch_summary">Show the torch option on the lockscreen</string>
-	
+
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">VoLTE icon</string>
     <string name="volte_icon_summary">Display VoLTE icon</string>
@@ -393,7 +402,7 @@
     <string name="clock_date_right">Right of time</string>
     <string name="clock_date_left">Left of time</string>
     <string name="clock_date_position">Date position</string>
-	
+
     <!-- Statusbar Clock Font Style & Size -->
     <string name="status_bar_clock_font_style_title">Clock font style</string>
     <string name="status_bar_clock_font_size_title">Clock font size</string>
@@ -415,11 +424,11 @@
     <string name="lock_clock_font_condensed_bold">Condensed Bold</string>
     <string name="lock_clock_font_condensed_bold_italic">Condensed Bold Italic</string>
     <string name="lock_clock_font_condensed_light">Condensed Light</string>
-    <string name="lock_clock_font_condensed_light_italic">Condensed Light Italic</string> 
+    <string name="lock_clock_font_condensed_light_italic">Condensed Light Italic</string>
     <string name="lock_clock_font_medium_normal">Medium</string>
     <string name="lock_clock_font_medium_italic">Medium Italic</string>
     <string name="lock_clock_font_black">Black</string>
-    <string name="lock_clock_font_black_italic">Black Italic</string> 
+    <string name="lock_clock_font_black_italic">Black Italic</string>
     <string name="lock_clock_font_dancingscript">DancingScript</string>
     <string name="lock_clock_font_dancingscript_bold">DancingScript Bold</string>
     <string name="lock_clock_font_comingsoon">ComingSoon</string>

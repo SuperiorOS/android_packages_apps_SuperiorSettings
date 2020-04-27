@@ -19,7 +19,7 @@
 <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="Superior OS">
-		
+
 		<!-- Header -->
         <Preference android:key="superior_logo"
                     android:enabled="false"
@@ -30,7 +30,7 @@
               android:title="@string/superior_about_info" >
 
         <Preference
-               android:summary="@string/superior_about_info_summary" 
+               android:summary="@string/superior_about_info_summary"
                android:icon="@drawable/ic_devs_info" >
         <intent
                android:action="android.intent.action.VIEW"
@@ -68,7 +68,7 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Advertpavan" />
         </Preference>
-		
+
 		<Preference
             android:title="@string/dev_4"
             android:summary="@string/dev4_description"
@@ -123,9 +123,9 @@
 <PreferenceCategory
             android:key="maintainer"
             android:title="@string/maintainers_header" >
-			
+
         <Preference
-            android:summary="@string/maintainers_header_summary" 
+            android:summary="@string/maintainers_header_summary"
             android:icon="@drawable/ic_devs_info" >
         <intent
             android:action="android.intent.action.VIEW"
@@ -190,6 +190,47 @@
         <intent
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/IamShaB" />
+    </Preference>
+</PreferenceCategory>
+
+<PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/device_samsung" >
+
+	<Preference
+        android:title="@string/device_hlte"
+        android:summary="@string/device_hlte_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/amirulaminfauzi" />
+    </Preference>
+
+	<Preference
+        android:title="@string/device_hltechn"
+        android:summary="@string/device_hltechn_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/amirulaminfauzi" />
+    </Preference>
+
+	<Preference
+        android:title="@string/device_hltekor"
+        android:summary="@string/device_hltekor_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/amirulaminfauzi" />
+    </Preference>
+
+	<Preference
+        android:title="@string/device_hltetmo"
+        android:summary="@string/device_hltetmo_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/amirulaminfauzi" />
     </Preference>
 </PreferenceCategory>
 
