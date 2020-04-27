@@ -92,6 +92,7 @@
     <string name="device_natrium_description">natrium\nHenma</string>
     <string name="device_vince">Redmi 5 Plus</string>
     <string name="device_vince_description">vince\nNitroFuN</string>
+    <string name="device_samsung">Galaxy Note 3</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
