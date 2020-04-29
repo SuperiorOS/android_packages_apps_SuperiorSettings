@@ -311,15 +311,6 @@
     </Preference>
 
     <Preference
-        android:title="@string/device_lavender"
-        android:summary="@string/device_lavender_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Clytheee" />
-    </Preference>
-
-    <Preference
         android:title="@string/device_rosy"
         android:summary="@string/device_rosy_description"
         android:icon="@drawable/ic_devs_phone">
