@@ -29,25 +29,6 @@
     <PreferenceCategory
         android:title="@string/network_title"/>
 
-        <ListPreference
-            android:key="network_traffic_location"
-            android:title="@string/network_traffic_state_title"
-            android:defaultValue="0" />
-
-        <com.superior.settings.preferences.SystemSettingSeekBarPreference
-            android:key="network_traffic_autohide_threshold"
-            android:title="@string/network_traffic_autohide_threshold_title"
-            android:max="10"
-            settings:min="0"
-            android:defaultValue="0"
-            settings:units="KB/s" />
-
-        <com.superior.settings.preferences.SystemSettingSwitchPreference
-            android:key="network_traffic_arrow"
-            android:title="@string/network_traffic_arrow_title"
-            android:summary="@string/network_traffic_arrow_summary"
-            android:defaultValue="true" />
-
         <com.superior.settings.preferences.SystemSettingSwitchPreference
             android:key="volte_icon"
             android:title="@string/volte_icon_title"
@@ -213,5 +194,4 @@
             android:persistent="false"
             android:dependency="sysui_rounded_fwvals" />
     </PreferenceCategory>
-
 </PreferenceScreen>

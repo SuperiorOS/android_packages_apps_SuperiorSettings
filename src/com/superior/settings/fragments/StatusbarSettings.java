@@ -53,6 +53,7 @@ import com.superior.settings.preferences.CustomSeekBarPreference;
 import com.superior.settings.preferences.SystemSettingSwitchPreference;
 import com.superior.settings.preferences.SecureSettingSwitchPreference;
 import com.superior.settings.preferences.SystemSettingSeekBarPreference;
+
 import com.superior.settings.R;
 
 import java.util.ArrayList;
@@ -85,14 +86,9 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
     private static final String STATUS_BAR_BATTERY_TEXT_CHARGING = "status_bar_battery_text_charging";
     private static final String BATTERY_PERCENTAGE_HIDDEN = "0";
     private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
-
     private static final String SYSUI_ROUNDED_SIZE = "sysui_rounded_size";
     private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
     private static final String SYSUI_ROUNDED_FWVALS = "sysui_rounded_fwvals";
-
-    private static final String KEY_NETWORK_TRAFFIC = "network_traffic_location";
-    private static final String KEY_NETWORK_TRAFFIC_ARROW = "network_traffic_arrow";
-    private static final String KEY_NETWORK_TRAFFIC_AUTOHIDE = "network_traffic_autohide_threshold";
 
     private static final int BATTERY_STYLE_Q = 0;
     private static final int BATTERY_STYLE_DOTTED_CIRCLE = 1;
@@ -108,14 +104,9 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
     private ListPreference mClockDatePosition;
     private CustomSeekBarPreference mClockSize;
     private ListPreference mClockFontStyle;
-
     private CustomSeekBarPreference mCornerRadius;
     private CustomSeekBarPreference mContentPadding;
     private SecureSettingSwitchPreference mRoundedFwvals;
-
-    private ListPreference mNetworkTraffic;
-    private SystemSettingSwitchPreference mNetworkTrafficArrow;
-    private SystemSettingSeekBarPreference mNetworkTrafficAutohide;
 
     private ListPreference mBatteryPercent;
     private ListPreference mBatteryStyle;
@@ -138,26 +129,6 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
             e.printStackTrace();
         }
 
-        mNetworkTraffic = (ListPreference) findPreference(KEY_NETWORK_TRAFFIC);
-        int networkTraffic = Settings.System.getInt(resolver,
-        Settings.System.NETWORK_TRAFFIC_LOCATION, 0);
-        CharSequence[] NonNotchEntries = { getResources().getString(R.string.network_traffic_disabled),
-                getResources().getString(R.string.network_traffic_statusbar),
-                getResources().getString(R.string.network_traffic_qs_header) };
-        CharSequence[] NotchEntries = { getResources().getString(R.string.network_traffic_disabled),
-                getResources().getString(R.string.network_traffic_statusbar),
-                getResources().getString(R.string.network_traffic_qs_header) };
-        CharSequence[] NonNotchValues = {"0", "1" , "2"};
-        CharSequence[] NotchValues = {"0", "1" , "2"};
-        mNetworkTraffic.setEntries(SuperiorUtils.hasNotch(getActivity()) ? NotchEntries : NonNotchEntries);
-        mNetworkTraffic.setEntryValues(SuperiorUtils.hasNotch(getActivity()) ? NotchValues : NonNotchValues);
-        mNetworkTraffic.setValue(String.valueOf(networkTraffic));
-        mNetworkTraffic.setSummary(mNetworkTraffic.getEntry());
-        mNetworkTraffic.setOnPreferenceChangeListener(this);
-
-        mNetworkTrafficArrow = (SystemSettingSwitchPreference) findPreference(KEY_NETWORK_TRAFFIC_ARROW);
-        mNetworkTrafficAutohide = (SystemSettingSeekBarPreference) findPreference(KEY_NETWORK_TRAFFIC_AUTOHIDE);
-        updateNetworkTrafficPrefs(networkTraffic);
 
 	// clock settings
         mStatusBarClock = (ListPreference) findPreference(STATUS_BAR_CLOCK_STYLE);
@@ -390,14 +361,6 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         } else if (preference == mRoundedFwvals) {
             restoreCorners();
             return true;
-        } else if (preference == mNetworkTraffic) {
-            int networkTraffic = Integer.valueOf((String) objValue);
-            int index = mNetworkTraffic.findIndexOfValue((String) objValue);
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.NETWORK_TRAFFIC_LOCATION, networkTraffic);
-            mNetworkTraffic.setSummary(mNetworkTraffic.getEntries()[index]);
-            updateNetworkTrafficPrefs(networkTraffic);
-            return true;
         }
         return false;
     }
@@ -459,18 +422,6 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         int resourceIdPadding = res.getIdentifier("com.android.systemui:dimen/rounded_corner_content_padding", null, null);
         mCornerRadius.setValue((int) (resourceIdRadius / density));
         mContentPadding.setValue((int) (res.getDimension(resourceIdPadding) / density));
-    }
-
-    private void updateNetworkTrafficPrefs(int networkTraffic) {
-        if (mNetworkTraffic != null) {
-            if (networkTraffic == 0) {
-                mNetworkTrafficArrow.setEnabled(false);
-                mNetworkTrafficAutohide.setEnabled(false);
-            } else {
-                mNetworkTrafficArrow.setEnabled(true);
-                mNetworkTrafficAutohide.setEnabled(true);
-            }
-        }
     }
 
     private void updateBatteryOptions(int batterystyle) {
