@@ -16,7 +16,6 @@ public class VolumeRockerSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
-    private static final String KEY_AUDIO_PANEL_POSITION = "audio_panel_view_position";
 
     private ListPreference mVolumeKeyCursorControl;
 

@@ -469,12 +469,8 @@
     <string name="notification_guts_kill_app_button_title">Kill app button</string>
     <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
 
-   <!-- Volume dialog timeout -->
+    <!-- Volume dialog timeout -->
     <string name="volume_dialog_timeout_title">Volume dialog timeout</string>
-
-    <!-- Audio Panel position  -->
-    <string name="audio_panel_position_title">Location</string>
-    <string name="audio_panel_position_summary">Move volume panel from right to left side</string>
 
     <!-- Volume Steps Fragment -->
     <string name="volume_steps_title">Volume steps</string>
