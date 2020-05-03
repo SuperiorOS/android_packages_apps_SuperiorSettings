@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.aospextended.extensions.fragments;
+package com.superior.settings.fragments;
 
 import android.app.ActivityManagerNative;
 import android.content.Context;
@@ -46,8 +46,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.Utils;
 
-import org.aospextended.extensions.preference.CustomSeekBarPreference;
-import org.aospextended.extensions.preference.SystemSettingSwitchPreference;
+import com.superior.settings.preferences.CustomSeekBarPreference;
+import com.superior.settings.preferences.SystemSettingSwitchPreference;
 
 public class Traffic extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
 
@@ -107,7 +107,7 @@ public class Traffic extends SettingsPreferenceFragment implements OnPreferenceC
 
     @Override
     public int getMetricsCategory() {
-        return MetricsEvent.EXTENSIONS;
+        return MetricsEvent.SUPERIOR;
     }
 
     @Override

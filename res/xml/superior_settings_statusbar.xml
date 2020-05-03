@@ -31,7 +31,7 @@
 
         <Preference
             android:key="traffic"
-            android:fragment="com.superior.settings.preferences.fragments.Traffic"
+            android:fragment="com.superior.settings.fragments.Traffic"
             android:title="@string/traffic_title" />
 
         <com.superior.settings.preferences.SystemSettingSwitchPreference
