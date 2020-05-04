@@ -345,7 +345,20 @@
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/Advertpavan" />
     </Preference>
-
 </PreferenceCategory>
+
+<PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/device_lenovo" >
+			
+    <Preference
+        android:title="@string/device_z2_plus"
+        android:summary="@string/device_z2_plus_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/VarshankDhiman" />
+    </Preference>
+    </PreferenceCategory>
 
 </PreferenceScreen>
