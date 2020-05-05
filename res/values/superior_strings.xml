@@ -101,6 +101,8 @@
     <string name="device_hltetmo_description">hltetmo\nAmin Fauzi</string>
     <string name="device_gemini">Mi 5</string>
     <string name="device_gemini_description">gemini\nHenma</string>
+    <string name="device_z2_plus">ZUK Z2 Plus</string>
+    <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>   
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
