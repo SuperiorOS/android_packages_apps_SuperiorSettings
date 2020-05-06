@@ -26,6 +26,12 @@
                 android:targetClass="com.android.systemui.tuner.StatusbarItemsActivity" />
     </Preference>
 
+    <Preference
+            android:key="carrier_label"
+            android:title="@string/carrier_label_settings_title"
+            android:summary="@string/carrier_label_settings_summary"
+            android:fragment="com.superior.settings.fragments.CustomCarrierLabel" />
+
     <PreferenceCategory
         android:title="@string/network_title"/>
 
