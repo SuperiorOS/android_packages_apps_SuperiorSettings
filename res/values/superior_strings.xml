@@ -732,4 +732,7 @@
     <string name="show_carrier_statusbar">Statusbar</string>
     <string name="show_carrier_enabled">Both</string>
 
+    <!--Statusbar privacy indicators-->
+    <string name="statusbar_privacy_indicators_title">Privacy indicators</string>
+    <string name="statusbar_privacy_indicators_summary">Show privacy indicators on statusbar</string>    
 </resources>

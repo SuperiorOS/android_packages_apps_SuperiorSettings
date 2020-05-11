@@ -32,6 +32,12 @@
             android:summary="@string/carrier_label_settings_summary"
             android:fragment="com.superior.settings.fragments.CustomCarrierLabel" />
 
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+            android:key="statusbar_privacy_indicators"
+            android:title="@string/statusbar_privacy_indicators_title"
+            android:summary="@string/statusbar_privacy_indicators_summary"
+            android:defaultValue="true" />    
+   
     <PreferenceCategory
         android:title="@string/network_title"/>
 
