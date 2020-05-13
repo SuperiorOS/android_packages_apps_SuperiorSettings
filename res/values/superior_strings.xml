@@ -63,10 +63,6 @@
     <string name="device_violet_description">violet\nYashpal Joshi</string>
     <string name="device_sanders">Moto G (5S) Plus</string>
     <string name="device_sanders_description">sanders\nMayur Varde</string>
-    <string name="device_tiffany">Mi 5X</string>
-    <string name="device_tiffany_description">tiffany\nEytan</string>
-    <string name="device_rosy">Redmi 5</string>
-    <string name="device_rosy_description">rosy\nSpeedhorn | Vishalcj</string>
     <string name="device_riva">Redmi 5A</string>
     <string name="device_riva_description">riva\nNick</string>
     <string name="device_bacon">Oneplus One</string>

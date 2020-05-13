@@ -311,24 +311,6 @@
     </Preference>
 
     <Preference
-        android:title="@string/device_tiffany"
-        android:summary="@string/device_tiffany_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Ethan_Tan" />
-    </Preference>
-
-    <Preference
-        android:title="@string/device_rosy"
-        android:summary="@string/device_rosy_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="http://t.me/Speedhorn | http://t.me/vishalcj" />
-    </Preference>
-
-    <Preference
         android:title="@string/device_riva"
         android:summary="@string/device_riva_description"
         android:icon="@drawable/ic_devs_phone">
