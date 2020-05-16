@@ -57,6 +57,7 @@
     <string name="device_oneplus">Oneplus</string>
     <string name="device_smartron">Smartron</string>
     <string name="device_samsung">Samsung</string>
+    <string name="device_realme">Realme</string>
     <string name="device_X00T">ZenFone Max Pro M1</string>
     <string name="device_X00T_description">X00T\nPriyanshu</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
@@ -65,8 +66,6 @@
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_riva">Redmi 5A</string>
     <string name="device_riva_description">riva\nNick</string>
-    <string name="device_bacon">Oneplus One</string>
-    <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
     <string name="device_capricorn">Mi 5S</string>
     <string name="device_capricorn_description">capricorn\nHenma</string>
     <string name="device_santoni">Redmi 4X</string>
@@ -98,7 +97,9 @@
     <string name="device_gemini">Mi 5</string>
     <string name="device_gemini_description">gemini\nHenma</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
-    <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>   
+    <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
+    <string name="device_RMX1921">Realme XT</string>
+    <string name="device_RMX1921_description">RMX1921\nAmrish</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
