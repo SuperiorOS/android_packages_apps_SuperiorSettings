@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "f01a2516_ec0e9181",
+        "filename": "res/xml/superior_devs_info.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 363,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2020-05-18T06:09:16Z",
+      "side": 1,
+      "message": "Remove this extra line",
+      "revId": "2bef37dbdb701d415f1f9def9f6681fc59341e3b",
+      "serverId": "cff56331-b3cb-4e5e-bf6a-abac220d6299",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "3debc35d_09962e7c",
+        "filename": "res/xml/superior_devs_info.xml",
+        "patchSetId": 3
+      },
+      "lineNbr": 366,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2020-05-18T06:09:16Z",
+      "side": 1,
+      "message": "remove this white space also bring \u003c one ahead",
+      "range": {
+        "startLine": 366,
+        "startChar": 46,
+        "endLine": 366,
+        "endChar": 47
+      },
+      "revId": "2bef37dbdb701d415f1f9def9f6681fc59341e3b",
+      "serverId": "cff56331-b3cb-4e5e-bf6a-abac220d6299",
+      "unresolved": true
+    }
+  ]
+}
