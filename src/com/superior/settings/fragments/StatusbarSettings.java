@@ -82,19 +82,9 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
     public static final int CLOCK_DATE_STYLE_UPPERCASE = 2;
     private static final int CUSTOM_CLOCK_DATE_FORMAT_INDEX = 18;
 
-    private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
-    private static final String STATUS_BAR_BATTERY_TEXT_CHARGING = "status_bar_battery_text_charging";
-    private static final String BATTERY_PERCENTAGE_HIDDEN = "0";
-    private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
     private static final String SYSUI_ROUNDED_SIZE = "sysui_rounded_size";
     private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
     private static final String SYSUI_ROUNDED_FWVALS = "sysui_rounded_fwvals";
-
-    private static final int BATTERY_STYLE_Q = 0;
-    private static final int BATTERY_STYLE_DOTTED_CIRCLE = 1;
-    private static final int BATTERY_STYLE_CIRCLE = 2;
-    private static final int BATTERY_STYLE_TEXT = 3;
-    private static final int BATTERY_STYLE_HIDDEN = 4;
 
     private ListPreference mStatusBarClock;
     private ListPreference mStatusBarAmPm;
@@ -107,10 +97,6 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
     private CustomSeekBarPreference mCornerRadius;
     private CustomSeekBarPreference mContentPadding;
     private SecureSettingSwitchPreference mRoundedFwvals;
-
-    private ListPreference mBatteryPercent;
-    private ListPreference mBatteryStyle;
-    private SwitchPreference mBatteryCharging;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -205,15 +191,6 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         mClockDatePosition.setOnPreferenceChangeListener(this);
 
         setDateOptions();
-
-        mBatteryPercent = (ListPreference) findPreference(STATUS_BAR_SHOW_BATTERY_PERCENT);
-        mBatteryCharging = (SwitchPreference) findPreference(STATUS_BAR_BATTERY_TEXT_CHARGING);
-        mBatteryStyle = (ListPreference) findPreference(STATUS_BAR_BATTERY_STYLE);
-        int batterystyle = Settings.System.getInt(resolver,
-                Settings.System.STATUS_BAR_BATTERY_STYLE, BATTERY_STYLE_Q);
-        mBatteryStyle.setOnPreferenceChangeListener(this);
-
-        updateBatteryOptions(batterystyle);
 
         // Rounded Corner Radius
         mCornerRadius = (CustomSeekBarPreference) findPreference(SYSUI_ROUNDED_SIZE);
@@ -346,10 +323,6 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
             mClockDatePosition.setSummary(mClockDatePosition.getEntries()[index]);
             parseClockDateFormats();
             return true;
-        } else if (preference == mBatteryStyle) {
-            int value = Integer.parseInt((String) objValue);
-            updateBatteryOptions(value);
-            return true;
         } else if (preference == mCornerRadius) {
             Settings.Secure.putIntForUser(getContext().getContentResolver(), Settings.Secure.SYSUI_ROUNDED_SIZE,
                     (int) objValue, UserHandle.USER_CURRENT);
@@ -422,17 +395,5 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         int resourceIdPadding = res.getIdentifier("com.android.systemui:dimen/rounded_corner_content_padding", null, null);
         mCornerRadius.setValue((int) (resourceIdRadius / density));
         mContentPadding.setValue((int) (res.getDimension(resourceIdPadding) / density));
-    }
-
-    private void updateBatteryOptions(int batterystyle) {
-        boolean enabled = batterystyle != BATTERY_STYLE_TEXT && batterystyle != BATTERY_STYLE_HIDDEN;
-        if (batterystyle == BATTERY_STYLE_HIDDEN) {
-            mBatteryPercent.setValue(BATTERY_PERCENTAGE_HIDDEN);
-            mBatteryPercent.setSummary(mBatteryPercent.getEntry());
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT, 0);
-        }
-        mBatteryCharging.setEnabled(enabled);
-        mBatteryPercent.setEnabled(enabled);
     }
 }
