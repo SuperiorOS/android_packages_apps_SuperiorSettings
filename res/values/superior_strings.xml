@@ -77,6 +77,8 @@
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
     <string name="device_tulip">Redmi Note 6 Pro</string>
     <string name="device_tulip_description">tulip\nPavan Patel</string>
+    <string name="device_lavender">Redmi Note 7</string>	
+    <string name="device_lavender_description">lavender\Jimgsey</string>
     <string name="device_X01BD">ZenFone Max Pro M2</string>
     <string name="device_X01BD_description">X01BD\nJayant Deshmukh</string>
     <string name="device_tissot">MI A1</string>

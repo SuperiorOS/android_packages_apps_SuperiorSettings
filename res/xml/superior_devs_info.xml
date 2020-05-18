@@ -310,6 +310,15 @@
            android:data="http://t.me/NitroFuNxD" />
     </Preference>
 
+    <Preference	
+        android:title="@string/device_lavender"	
+        android:summary="@string/device_lavender_description"	
+        android:icon="@drawable/ic_devs_phone">	
+        <intent	
+            android:action="android.intent.action.VIEW"	
+            android:data="https://t.me/Jimgsey" />	
+    </Preference>
+
     <Preference
         android:title="@string/device_violet"
         android:summary="@string/device_violet_description"
