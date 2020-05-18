@@ -360,4 +360,17 @@
     </Preference>
 </PreferenceCategory>
 
+
+<PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/device_realme"> 
+    <Preference
+        android:title="@string/device_RMX1921"
+        android:summary="@string/device_RMX1921_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/rishi_7799" />
+    </Preference>
+</PreferenceCategory>
 </PreferenceScreen>
