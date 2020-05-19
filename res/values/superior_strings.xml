@@ -122,7 +122,7 @@
     <string name="network_title">Network settings</string>
 
     <!-- Sub-Categories -->
-    <string name="qs_battery_category_title">Battery Settings </string>
+    <string name="battery_style_category_title">Battery Settings </string>
     <string name="qs_misc_category_title">quicksettings misc</string>
 
     <!-- General strings -->
@@ -709,4 +709,19 @@
     <!-- R Notification headers -->
     <string name="notification_headers_title">Show notification headers</string>
     <string name="notification_headers_summary">Whether to show R style notification headers (Requires a SystemUI restart)</string>
+
+    <!-- Battery Styles -->
+    <string name="battery_percent_title">Status bar battery percentage</string>
+    <string name="status_bar_battery_style_title">Battery style</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
+    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden (default)</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+
 </resources>

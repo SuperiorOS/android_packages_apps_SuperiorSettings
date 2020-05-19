@@ -81,10 +81,11 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
     public static final int CLOCK_DATE_STYLE_LOWERCASE = 1;
     public static final int CLOCK_DATE_STYLE_UPPERCASE = 2;
     private static final int CUSTOM_CLOCK_DATE_FORMAT_INDEX = 18;
-
     private static final String SYSUI_ROUNDED_SIZE = "sysui_rounded_size";
     private static final String SYSUI_ROUNDED_CONTENT_PADDING = "sysui_rounded_content_padding";
     private static final String SYSUI_ROUNDED_FWVALS = "sysui_rounded_fwvals";
+    private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
+    private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
 
     private ListPreference mStatusBarClock;
     private ListPreference mStatusBarAmPm;
@@ -97,6 +98,17 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
     private CustomSeekBarPreference mCornerRadius;
     private CustomSeekBarPreference mContentPadding;
     private SecureSettingSwitchPreference mRoundedFwvals;
+    private ListPreference mBatteryPercent;
+    private ListPreference mBatteryStyle;
+
+    private int mBatteryPercentValue;
+    private int mBatteryPercentValuePrev;
+
+    private static final int BATTERY_STYLE_PORTRAIT = 0;
+    private static final int BATTERY_STYLE_TEXT = 4;
+    private static final int BATTERY_STYLE_HIDDEN = 5;
+    private static final int BATTERY_PERCENT_HIDDEN = 0;
+    private static final int BATTERY_PERCENT_SHOW = 2;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -214,6 +226,24 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         mRoundedFwvals = (SecureSettingSwitchPreference) findPreference(SYSUI_ROUNDED_FWVALS);
         mRoundedFwvals.setOnPreferenceChangeListener(this);
 
+        int batterystyle = Settings.System.getIntForUser(getContentResolver(),
+                Settings.System.STATUS_BAR_BATTERY_STYLE, BATTERY_STYLE_PORTRAIT, UserHandle.USER_CURRENT);
+        mBatteryStyle = (ListPreference) findPreference("status_bar_battery_style");
+        mBatteryStyle.setValue(String.valueOf(batterystyle));
+        mBatteryStyle.setSummary(mBatteryStyle.getEntry());
+        mBatteryStyle.setOnPreferenceChangeListener(this);
+
+        mBatteryPercentValue = Settings.System.getIntForUser(getContentResolver(),
+                Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT, 0, UserHandle.USER_CURRENT);
+        mBatteryPercentValuePrev = Settings.System.getIntForUser(getContentResolver(),
+                Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT + "_prev", -1, UserHandle.USER_CURRENT);
+        mBatteryPercent = (ListPreference) findPreference("status_bar_show_battery_percent");
+        mBatteryPercent.setValue(String.valueOf(mBatteryPercentValue));
+        mBatteryPercent.setSummary(mBatteryPercent.getEntry());
+        mBatteryPercent.setOnPreferenceChangeListener(this);
+
+        updateBatteryOptions(batterystyle, mBatteryPercentValue);
+
     }
 
     @Override
@@ -233,6 +263,7 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         AlertDialog dialog;
+        ContentResolver resolver = getActivity().getContentResolver();
         if (preference == mStatusBarClock) {
             int clockStyle = Integer.parseInt((String) objValue);
             int index = mStatusBarClock.findIndexOfValue((String) objValue);
@@ -334,10 +365,75 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         } else if (preference == mRoundedFwvals) {
             restoreCorners();
             return true;
+        } else if (preference == mBatteryStyle) {
+            int batterystyle = Integer.parseInt((String) objValue);
+            updateBatteryOptions(batterystyle, mBatteryPercentValue);
+            int index = mBatteryStyle.findIndexOfValue((String) objValue);
+            mBatteryStyle.setSummary(mBatteryStyle.getEntries()[index]);
+            return true;
+        } else if (preference == mBatteryPercent) {
+            mBatteryPercentValue = Integer.parseInt((String) objValue);
+            Settings.System.putIntForUser(resolver,
+                    Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT, mBatteryPercentValue,
+                    UserHandle.USER_CURRENT);
+            int index = mBatteryPercent.findIndexOfValue((String) objValue);
+            mBatteryPercent.setSummary(mBatteryPercent.getEntries()[index]);
+          return true;
         }
         return false;
     }
 
+
+     private void updateBatteryOptions(int batterystyle, int batterypercent) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        switch (batterystyle) {
+            case BATTERY_STYLE_TEXT:
+            handleTextPercentage(BATTERY_PERCENT_SHOW);
+            break;
+            case BATTERY_STYLE_HIDDEN:
+            handleTextPercentage(BATTERY_PERCENT_HIDDEN);
+            break;
+            default:
+            mBatteryPercent.setEnabled(true);
+            if (mBatteryPercentValuePrev != -1) {
+                Settings.System.putIntForUser(resolver,
+                    Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT,
+                    mBatteryPercentValuePrev, UserHandle.USER_CURRENT);
+                Settings.System.putIntForUser(resolver,
+                    Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT + "_prev",
+                    -1, UserHandle.USER_CURRENT);
+                mBatteryPercentValue = mBatteryPercentValuePrev;
+                mBatteryPercentValuePrev = -1;
+                int index = mBatteryPercent.findIndexOfValue(String.valueOf(mBatteryPercentValue));
+                mBatteryPercent.setSummary(mBatteryPercent.getEntries()[index]);
+            }
+
+            Settings.System.putIntForUser(resolver,
+                Settings.System.STATUS_BAR_BATTERY_STYLE, batterystyle,
+                UserHandle.USER_CURRENT);
+            break;
+        }
+    }
+
+    private void handleTextPercentage(int batterypercent) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (mBatteryPercentValuePrev == -1) {
+            mBatteryPercentValuePrev = mBatteryPercentValue;
+            Settings.System.putIntForUser(resolver,
+                Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT + "_prev",
+                mBatteryPercentValue, UserHandle.USER_CURRENT);
+        }
+
+        Settings.System.putIntForUser(resolver,
+            Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT,
+            batterypercent, UserHandle.USER_CURRENT);
+        Settings.System.putIntForUser(resolver,
+            Settings.System.STATUS_BAR_BATTERY_STYLE, BATTERY_STYLE_TEXT,
+            UserHandle.USER_CURRENT);
+        int index = mBatteryPercent.findIndexOfValue(String.valueOf(batterypercent));
+        mBatteryPercent.setSummary(mBatteryPercent.getEntries()[index]);
+        mBatteryPercent.setEnabled(false);
+    }
 
     private void parseClockDateFormats() {
         String[] dateEntries = getResources().getStringArray(R.array.clock_date_format_entries_values);
