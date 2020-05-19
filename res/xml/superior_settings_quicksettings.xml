@@ -45,6 +45,17 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="quicksettings_battery"
+        android:title="@string/qs_battery_category_title">
+
+       <com.superior.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_battery_percentage"
+            android:title="@string/qs_battery_percentage_title"
+            android:summary="@string/qs_battery_percentage_summary" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="quicksettings_misc"
         android:title="@string/qs_misc_category_title">
 	

@@ -69,6 +69,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final String QS_BLUR_INTENSITY = "qs_blur_intensity";
     static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
     private static final int REQUEST_PICK_IMAGE = 0;
+    private static final String QS_BATTERY_PERCENTAGE = "qs_battery_percentage";
 
     private CustomSeekBarPreference mQsPanelAlpha;
     private Preference mHeaderBrowse;
@@ -82,7 +83,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private ColorPickerPreference mQsPanelColor;
     private CustomSeekBarPreference mQSBlurAlpha;
     private CustomSeekBarPreference mQSBlurIntensity;
-
+    private SystemSettingSwitchPreference mQsBatteryPercent;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -146,6 +147,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mHeaderProvider.setOnPreferenceChangeListener(this);
 
         mFileHeader = findPreference(FILE_HEADER_SELECT);
+
+        mQsBatteryPercent = (SystemSettingSwitchPreference) findPreference(QS_BATTERY_PERCENTAGE);
+        mQsBatteryPercent.setChecked((Settings.System.getInt(
+                getActivity().getApplicationContext().getContentResolver(),
+                Settings.System.QS_SHOW_BATTERY_PERCENT, 0) == 1));
+        mQsBatteryPercent.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -179,6 +186,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        ContentResolver resolver = getActivity().getContentResolver();
         if (preference == mDaylightHeaderPack) {
             String value = (String) newValue;
             Settings.System.putString(getContentResolver(),
@@ -222,6 +230,11 @@ public class QuickSettings extends SettingsPreferenceFragment implements
             int value = (Integer) newValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.QS_BLUR_INTENSITY, value);
+            return true;
+        } else if (preference == mQsBatteryPercent) {
+            Settings.System.putInt(resolver,
+                    Settings.System.QS_SHOW_BATTERY_PERCENT,
+                    (Boolean) newValue ? 1 : 0);
             return true;
         }
          return true;
