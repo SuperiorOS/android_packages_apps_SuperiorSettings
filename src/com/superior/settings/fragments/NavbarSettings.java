@@ -54,6 +54,7 @@ public class NavbarSettings extends SettingsPreferenceFragment implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         addPreferencesFromResource(R.xml.superior_settings_navbar);
+        mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.navigation_footer);
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
 
