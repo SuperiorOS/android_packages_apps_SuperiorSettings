@@ -51,6 +51,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 
+import com.android.internal.util.superior.SuperiorUtils;
+
 import com.superior.settings.R;
 
 public class QuickSettings extends SettingsPreferenceFragment implements
@@ -70,6 +72,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     static final int DEFAULT_QS_PANEL_COLOR = 0xffffffff;
     private static final int REQUEST_PICK_IMAGE = 0;
     private static final String QS_BATTERY_PERCENTAGE = "qs_battery_percentage";
+    private static final String PREF_R_NOTIF_HEADER = "notification_headers";
 
     private CustomSeekBarPreference mQsPanelAlpha;
     private Preference mHeaderBrowse;
@@ -84,6 +87,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private CustomSeekBarPreference mQSBlurAlpha;
     private CustomSeekBarPreference mQSBlurIntensity;
     private SystemSettingSwitchPreference mQsBatteryPercent;
+    private SystemSettingSwitchPreference mNotifHeader;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -153,6 +157,12 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                 getActivity().getApplicationContext().getContentResolver(),
                 Settings.System.QS_SHOW_BATTERY_PERCENT, 0) == 1));
         mQsBatteryPercent.setOnPreferenceChangeListener(this);
+
+        mNotifHeader = (SystemSettingSwitchPreference) findPreference(PREF_R_NOTIF_HEADER);
+        mNotifHeader.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.NOTIFICATION_HEADERS, 1) == 1));
+        mNotifHeader.setOnPreferenceChangeListener(this);
+
     }
 
     @Override
@@ -215,6 +225,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         } else if (preference == mHeaderEnabled) {
             Boolean headerEnabled = (Boolean) newValue;
             updateHeaderProviderSummary(headerEnabled);
+            SuperiorUtils.showSystemUiRestartDialog(getContext());
         } else if (preference == mQsPanelAlpha) {
             int bgAlpha = (Integer) newValue;
             int trueValue = (int) (((double) bgAlpha / 100) * 255);
@@ -236,7 +247,13 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                     Settings.System.QS_SHOW_BATTERY_PERCENT,
                     (Boolean) newValue ? 1 : 0);
             return true;
-        }
+        } else if (preference == mNotifHeader) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.NOTIFICATION_HEADERS, value ? 1 : 0);
+            SuperiorUtils.showSystemUiRestartDialog(getContext());
+            return true;
+	}
          return true;
     }
 
