@@ -550,6 +550,7 @@
     <!-- Custom headers -->
     <string name="notification_title">Notification panel</string>
     <string name="status_bar_custom_header_title">Enable</string>
+    <string name="status_bar_custom_header_summary">SystemUI reboot recommended to avoid glitches</string>
     <string name="daylight_header_pack_title">Header image collection</string>
     <string name="status_bar_custom_header_shadow_title">Header image shadow</string>
     <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
