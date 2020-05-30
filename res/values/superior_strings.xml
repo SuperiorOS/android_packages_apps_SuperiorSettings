@@ -90,8 +90,6 @@
     <string name="device_payton_description">payton\nDhinesh</string>
     <string name="device_natrium">Mi 5S Plus</string>
     <string name="device_natrium_description">natrium\nHenma</string>
-    <string name="device_vince">Redmi 5 Plus</string>
-    <string name="device_vince_description">vince\nNitroFuN</string>
     <string name="device_hlte">Galaxy Note 3 (9005/P)</string>
     <string name="device_hlte_description">hlte\nAmin Fauzi</string>
     <string name="device_hltechn">Galaxy Note 3 (9008V)</string>
