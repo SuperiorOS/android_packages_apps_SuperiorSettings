@@ -66,6 +66,13 @@
             android:entryValues="@array/status_bar_quick_qs_pulldown_values"
             android:defaultValue="0" />
 
+       <com.superior.settings.preferences.SystemSettingListPreference
+            android:key="qs_datausage"
+            android:title="@string/qs_datausage_title"
+            android:entries="@array/qs_datausage_entries"
+            android:entryValues="@array/qs_datausage_values"
+            android:defaultValue="0" />
+
        <com.superior.settings.preferences.SystemSettingSwitchPreference
             android:key="notification_headers"
             android:title="@string/notification_headers_title"

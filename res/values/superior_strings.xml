@@ -729,4 +729,10 @@
     <string name="navigation_bar_arrow_keys_title">Show arrow keys while typing</string>
     <string name="navigation_bar_arrow_keys_summary">Display left and right cursor buttons in navigation bar while typing</string>
     <string name="navigation_footer">In case of any issue re-enable the navbar</string>
+
+    <!-- QS Header data uasge -->
+    <string name="qs_datausage_title">Data usage in QS Header</string>
+    <string name="qs_datausage_disabled">Disabled</string>
+    <string name="qs_datausage_daily">Daily usage</string>
+    <string name="qs_datausage_monthly">Monthly usage</string>
 </resources>
