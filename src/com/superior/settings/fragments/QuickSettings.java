@@ -73,6 +73,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private static final int REQUEST_PICK_IMAGE = 0;
     private static final String QS_BATTERY_PERCENTAGE = "qs_battery_percentage";
     private static final String PREF_R_NOTIF_HEADER = "notification_headers";
+    private static final String QS_DATA_USAGE= "qs_datausage";
 
     private CustomSeekBarPreference mQsPanelAlpha;
     private Preference mHeaderBrowse;
@@ -88,6 +89,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     private CustomSeekBarPreference mQSBlurIntensity;
     private SystemSettingSwitchPreference mQsBatteryPercent;
     private SystemSettingSwitchPreference mNotifHeader;
+    private ListPreference mQsdatausage;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -162,6 +164,13 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         mNotifHeader.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
                 Settings.System.NOTIFICATION_HEADERS, 1) == 1));
         mNotifHeader.setOnPreferenceChangeListener(this);
+
+        mQsdatausage = (ListPreference) findPreference(QS_DATA_USAGE);
+        int type = Settings.System.getInt(resolver,
+                Settings.System.QS_DATAUSAGE, 0);
+        mQsdatausage.setValue(String.valueOf(type));
+        mQsdatausage.setSummary(mQsdatausage.getEntry());
+        mQsdatausage.setOnPreferenceChangeListener(this);
 
     }
 
@@ -253,7 +262,15 @@ public class QuickSettings extends SettingsPreferenceFragment implements
                     Settings.System.NOTIFICATION_HEADERS, value ? 1 : 0);
             SuperiorUtils.showSystemUiRestartDialog(getContext());
             return true;
-	}
+	} else if (preference == mQsdatausage) {
+            int type = Integer.valueOf((String) newValue);
+            int index = mQsdatausage.findIndexOfValue((String) newValue);
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.QS_DATAUSAGE, type);
+            mQsdatausage.setSummary(mQsdatausage.getEntries()[index]);
+            SuperiorUtils.showSystemUiRestartDialog(getContext());
+            return true;
+        }
          return true;
     }
 
