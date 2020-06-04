@@ -15,41 +15,41 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="superior_settings_title">Superior Özelleştirmeleri</string>
-    <string name="superior_dashboard_summary">Rise From Ashes</string>
+    <string name="superior_settings_title">چیز های خوب Superior </string>
+    <string name="superior_dashboard_summary">تولد از خاکستر</string>
     <!-- ROM Info -->
-    <string name="superior_about_info">About Project</string>
-    <string name="superior_about_info_summary_title">About Team</string>
-    <string name="superior_about_info_summary">Superior OS is a Custom ROM based on AOSP, with some most required minimal features, the main aim of this ROM is to deliver light speed performance,smoothness and good battery backup.</string>
+    <string name="superior_about_info">درباره پروژه</string>
+    <string name="superior_about_info_summary_title">درباره تیم</string>
+    <string name="superior_about_info_summary">Superior OS یک رام کاستوم بر پایه اندروید خام است که ویژگی های ممتازی همچون سرعت بالاتر و روان تر و باتری بهتری است.</string>
     <!-- Dev Info -->
-    <string name="devs_header">Developers</string>
+    <string name="devs_header">توسعه دهندگان</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Founder/Developer</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev2_description">Core Team/Developer</string>
+    <string name="dev2_description">هسته تیم توسعه دهندگان</string>
     <string name="dev_3">Pavan Patel</string>
-    <string name="dev3_description">Core Team/Designer</string>
+    <string name="dev3_description">هسته تیم طراحی</string>
     <string name="dev_4">Titus Joseph</string>
-    <string name="dev4_description">Designer</string>
+    <string name="dev4_description">طراح</string>
     <string name="dev_5">Swapnil Soni</string>
-    <string name="dev5_description">Web Developer</string>
+    <string name="dev5_description">توسعه‌ی وب</string>
     <string name="dev_6">Aryanata Andi</string>
-    <string name="dev6_description">Bootanimation designer</string>
+    <string name="dev6_description">طراح بوت انیمیشن</string>
     <!-- Mentions -->
     <string name="mentions_header">Honorable Mentions</string>
     <string name="mentions_sam">Sam Grande</string>
-    <string name="mentions_sam_description">Designer</string>
+    <string name="mentions_sam_description">طراح</string>
     <string name="mentions_subins">Subins Mani</string>
-    <string name="mentions_subins_description">Developer</string>
+    <string name="mentions_subins_description">توسعه‌دهنده</string>
     <!-- Maintainer Info -->
-    <string name="maintainers_header">Maintainers</string>
-    <string name="maintainers_header_summary">These are the Official Devices Maintainers...</string>
+    <string name="maintainers_header">بروزرسانی کنندگان</string>
+    <string name="maintainers_header_summary">این دستگاه ها پشتیبانی رسمی می شوند</string>
     <string name="device_xiaomi">Xiaomi</string>
     <string name="device_asus">Asus</string>
     <string name="device_motorola">Motorola</string>
     <string name="device_pantech">Pantech</string>
     <string name="device_lenovo">Lenovo</string>
-    <string name="device_oneplus">Oneplus</string>
+    <string name="device_oneplus">وان پلاس</string>
     <string name="device_smartron">Smartron</string>
     <string name="device_samsung">Samsung</string>
     <string name="device_realme">Realme</string>
@@ -100,30 +100,30 @@
     <string name="device_RMX1921">Realme XT</string>
     <string name="device_RMX1921_description">RMX1921\nAmrish</string>
     <!-- Categories -->
-    <string name="button_title">Tuşlar</string>
-    <string name="gestures_title">Jestler</string>
-    <string name="lockscreen_title">Kilit Ekranı</string>
-    <string name="misc_title">Çeşitli Ayarlar</string>
-    <string name="navbar_title">Navgasyon Çubuğu</string>
-    <string name="powermenu_title">Güç Menüsü</string>
-    <string name="quicksettings_title">Hızlı Ayarlar</string>
-    <string name="statusbar_title">Durum Çubuğu</string>
-    <string name="notifications_title">Bildirimler</string>
-    <string name="volume_title">Ses Tuşları</string>
-    <string name="status_bar_clock_title">Saat ayarları</string>
-    <string name="network_title">Ağ ayarları</string>
+    <string name="button_title">دکمه‌‌ها</string>
+    <string name="gestures_title">حركات انگشتي</string>
+    <string name="lockscreen_title">صفحه قفل</string>
+    <string name="misc_title">متفرقه</string>
+    <string name="navbar_title">نوار ناوبری</string>
+    <string name="powermenu_title">منوی پاور</string>
+    <string name="quicksettings_title">تنظیمات سریع</string>
+    <string name="statusbar_title">نوار وضعیت</string>
+    <string name="notifications_title">اعلانات</string>
+    <string name="volume_title">دکمه های صدا</string>
+    <string name="status_bar_clock_title">تنظیمات ساعت</string>
+    <string name="network_title">تنظیمات شبکه</string>
     <!-- Sub-Categories -->
     <string name="battery_style_category_title">Battery Settings </string>
-    <string name="qs_battery_category_title">Pil Ayarları </string>
-    <string name="qs_misc_category_title">hızlıayarlar çeşitli</string>
+    <string name="qs_battery_category_title">Battery Settings </string>
+    <string name="qs_misc_category_title">quicksettings misc</string>
     <!-- General strings -->
-    <string name="ok">Tamam</string>
-    <string name="reset">Sıfırla</string>
-    <string name="cancel">İptal</string>
-    <string name="save">Kaydet</string>
+    <string name="ok">OK</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Renk Seçici</string>
-    <string name="press_color_to_apply">Uygulamak istediğiniz rengin üzerine dokunun</string>
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
     <string name="hex">Hex:</string>
@@ -172,82 +172,82 @@
     <string name="hardware_keys_disable_title">Disable keys</string>
     <!-- ANBI -->
     <string name="anbi_title">Accidental touch</string>
-    <string name="anbi_summary">Prevent interaction with navigation buttons while the screen is being touched</string>
+    <string name="anbi_summary">جلوگیری از عکس العمل دکمه های ناوبری زمانی که صفحه لمس شده است</string>
     <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Playback control</string>
-    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="volume_rocker_music_controls_title">کنترل پخش</string>
+    <string name="volume_rocker_music_controls_summary">زمانی که صفحه نمایش خاموش است، با نگه داشتن کلید های تنظیم صدا موسیقی را تغییر دهید</string>
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_title">بیدار شدن دکمه های صدا</string>
+    <string name="volume_rocker_wake_summary">فشردن کلید های صدا، دستگاه شما را روشن خواهد کرد</string>
     <!-- Language options - Volume rocker cursor control -->
-    <string name="cursor_section_header">Cursor</string>
-    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
-    <string name="volume_key_cursor_control_off">Disabled</string>
-    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
-    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
-    <string name="torch_long_press_power_gesture_title">Güç tuşu ile fener açma</string>
-    <string name="torch_long_press_power_gesture_desc">Ekran kapalıyken güç tuşuna uzun basarak el fenerini etkinleştirin</string>
-    <string name="torch_long_press_power_timeout_title">El fenerini otomatik kapat</string>
-    <string name="torch_long_press_power_timeout_never">Asla</string>
-    <string name="torch_long_press_power_timeout_1min">1 dakika</string>
-    <string name="torch_long_press_power_timeout_2min">2 dakika</string>
-    <string name="torch_long_press_power_timeout_5min">5 dakika</string>
-    <string name="torch_long_press_power_timeout_10min">10 dakika</string>
+    <string name="cursor_section_header">مکان نما</string>
+    <string name="volume_key_cursor_control_title">کنترل مکان نما با دکمه های صدا</string>
+    <string name="volume_key_cursor_control_off">غیر فعال</string>
+    <string name="volume_key_cursor_control_on">زدن کلید بالا/پایین صدا باعث رفتن مکان‌نما به راست/چپ می‌شود</string>
+    <string name="volume_key_cursor_control_on_reverse">زدن کلید بالا/پایین صدا باعث رفتن مکان‌نما به چپ/راست می‌شود</string>
+    <string name="torch_long_press_power_gesture_title">با نگه داشتن کلید پاور چراغ قوه روشن شود</string>
+    <string name="torch_long_press_power_gesture_desc">در حالی که صفحه خاموش است برای روشن کردن چراغ قوه دکمه پاور را فشار دهید</string>
+    <string name="torch_long_press_power_timeout_title">خاموش کردن خودکار چراغ قوه</string>
+    <string name="torch_long_press_power_timeout_never">هرگز</string>
+    <string name="torch_long_press_power_timeout_1min">۱ دقیقه</string>
+    <string name="torch_long_press_power_timeout_2min">۲ دقیقه</string>
+    <string name="torch_long_press_power_timeout_5min">۵ دقیقه</string>
+    <string name="torch_long_press_power_timeout_10min">۱۰ دقیقه</string>
     <!-- Wakeup options -->
-    <string name="wakeup_when_plugged_unplugged_title">Şarja takılınca uyandır</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Şarja takıldığında/çıkarıldığında cihazı uyandır.</string>
+    <string name="wakeup_when_plugged_unplugged_title">بیدارباش در شارژ</string>
+    <string name="wakeup_when_plugged_unplugged_summary">بیدارسازی دستگاه در صورتی وصل/قطع شارژر.</string>
     <!-- Battery light -->
-    <string name="battery_light_settings">Pil şarj ışığı</string>
-    <string name="battery_light_enable">Etkinleştir</string>
-    <string name="battery_light_allow_on_dnd_title">Rahatsız etmeyinde ışığı yakıp söndür</string>
-    <string name="battery_light_low_blinking_title">Düşük pilde ışığı yakıp söndür</string>
-    <string name="battery_light_cat">Şarj olurken pil ışığı rengi</string>
-    <string name="battery_light_low_color">Düşük pil</string>
-    <string name="battery_light_medium_color">Orta seviye pil</string>
-    <string name="battery_light_full_color">Neredeyse dolu pil</string>
-    <string name="battery_light_reallyfull_color">Tam dolu pil (100)</string>
-    <string name="notification_light_settings">Bildirim ışığı</string>
+    <string name="battery_light_settings">نور شارژ شدن باتری</string>
+    <string name="battery_light_enable">فعال کردن</string>
+    <string name="battery_light_allow_on_dnd_title">نور باتری در زمان فعال بودن حالت مزاحم نشوید</string>
+    <string name="battery_light_low_blinking_title">نور چشمک زن در زمان ضعیف بودن باتری</string>
+    <string name="battery_light_cat">رنگ نور در زمان شارژ شدن باتری</string>
+    <string name="battery_light_low_color">باتری کم</string>
+    <string name="battery_light_medium_color">باتری متوسط</string>
+    <string name="battery_light_full_color">باتری تقریبا پر</string>
+    <string name="battery_light_reallyfull_color">باتری 100درصد پر</string>
+    <string name="notification_light_settings">چراغ اعلان</string>
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Kilit ekranı şarj bilgisi</string>
-    <string name="lockscreen_battery_info_summary">Şarj olurken kilit ekranında şarj cihazının maksimum akım voltajını ve pil sıcaklığını görüntüle</string>
+    <string name="lockscreen_battery_info_title">اطلاعات شارژ شدن ذر صفحه قفل</string>
+    <string name="lockscreen_battery_info_summary">نمایش امار شارژر ماکسیموم امپر و ولتاژ و دمای باطری در قفل صفحه زمانی که شارژ میشود</string>
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Durum çubuğu ögeleri</string>
+    <string name="statusbar_items_title">آیتم های نوار وضعیت</string>
     <!-- Lockscreen icons -->
-    <string name="lockscreen_tuner_title">Kilit ekranı kısayolları</string>
+    <string name="lockscreen_tuner_title">کلید های میان بر قفل صفحه</string>
     <!-- Navbar options -->
     <string name="navigation_tuner_title">Navigation Tuner</string>
-    <string name="navbar_visibility">Navigasyon barına izin ver</string>
+    <string name="navbar_visibility">اجازه نمایش نوار مکان‌یاب</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Arama titreşimi</string>
-    <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
-    <string name="incall_vibrate_call_wait_title">Bekletildiğinde titret</string>
-    <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titret</string>
+    <string name="incall_vibration_category">تنظیمات ویبره هنگام تماس</string>
+    <string name="incall_vibrate_connect_title">لرزش در هنگام برقراری تماس</string>
+    <string name="incall_vibrate_call_wait_title">لرزش در انتظار تماس</string>
+    <string name="incall_vibrate_disconnect_title">لرزش در هنگام قطع تماس</string>
     <!-- Heads up -->
-    <string name="heads_up_notifications">Bildirim pencereleri</string>
-    <string name="summary_heads_up_enabled">Bildirim pencereleri etkin</string>
-    <string name="summary_heads_up_disabled">Bildirim pencereleri devre dışı</string>
-    <string name="add_heads_up_package">Uygulama ekle</string>
-    <string name="add_heads_up_stoplist_summary">Bu uygulamalarda bildirim pencerelerini devre dışı bırakma</string>
-    <string name="add_heads_up_blacklist_summary">Bu uygulamalar için uyarıları kapat</string>
-    <string name="heads_up_stoplist_title">Durdurma listesi</string>
-    <string name="heads_up_blacklist_title">Kara liste</string>
-    <string name="profile_choose_app">Uygulama seçin</string>
-    <string name="dialog_delete_title">Sil</string>
-    <string name="dialog_delete_message">Seçili öge silinsin mi?</string>
+    <string name="heads_up_notifications">اعلان فوری</string>
+    <string name="summary_heads_up_enabled">اعلان فوری روشن</string>
+    <string name="summary_heads_up_disabled">اعلان فوری خاموش</string>
+    <string name="add_heads_up_package">افزودن برنامه</string>
+    <string name="add_heads_up_stoplist_summary">غیر فعال کردن اعلان فوری در این برنامه ها</string>
+    <string name="add_heads_up_blacklist_summary">غیر فعال کردن اعلان فوری از برنامه ها</string>
+    <string name="heads_up_stoplist_title">لیست متوقف شده</string>
+    <string name="heads_up_blacklist_title">لیست مسدود ی ها</string>
+    <string name="profile_choose_app">برنامه را انتخاب کنید</string>
+    <string name="dialog_delete_title">حذف</string>
+    <string name="dialog_delete_message">Remove selected item?</string>
     <!-- Fingerprint authentication vibration -->
-    <string name="fprint_sucess_vib_title">Parmak izi doğrulama titreşimi</string>
-    <string name="fprint_sucess_vib_summary">Başarılı parmak izi kimlik doğrulanmasında titret</string>
+    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
+    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
     <!-- Double Tap -->
-    <string name="dtts_category_header">Uykuya geçmek için çift dokun</string>
+    <string name="dtts_category_header">Double tap to sleep</string>
     <!-- Double Tap Lockscreen to Sleep -->
-    <string name="double_tap_to_sleep_lockscreen_title">Kilit ekranı</string>
-    <string name="double_tap_to_sleep_lockscreen_summary">Cihazı uyutmak için kilit ekranının boş bir alanına iki kez hafifçe dokunun</string>
+    <string name="double_tap_to_sleep_lockscreen_title">Lockscreen</string>
+    <string name="double_tap_to_sleep_lockscreen_summary">Double tap on the lock screen to put the device to sleep</string>
     <!-- Double tap-to-sleep -->
-    <string name="double_tap_to_sleep_title">Durum çubuğu</string>
-    <string name="double_tap_to_sleep_summary">Cihazı uyutmak için durum çubuğuna iki kez hafifçe dokunun</string>
+    <string name="double_tap_to_sleep_title">Status bar</string>
+    <string name="double_tap_to_sleep_summary">Double-tap status bar to put the device to sleep</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G simgesi</string>
-    <string name="show_fourg_icon_summary">LTE yerine 4G simgesini görüntüle</string>
+    <string name="show_fourg_icon_title">4G icon</string>
+    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
     <!-- Lockscreen weather -->
     <string name="lockscreen_weather_category">Weather</string>
     <string name="lockscreen_weather_enabled_title">Show on lockscreen</string>
@@ -287,8 +287,8 @@
     <string name="powermenu_ls_screenshot_summary">Show the screenshot option on the lockscreen</string>
     <string name="powermenu_ls_torch_summary">Show the torch option on the lockscreen</string>
     <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_title">VoLTE icon</string>
-    <string name="volte_icon_summary">Display VoLTE icon</string>
+    <string name="volte_icon_title">آیکون VoLTE</string>
+    <string name="volte_icon_summary">نمایش ایکون VoLTE</string>
     <string name="volte_icon_style_title">Select VoLTE Icon</string>
     <string name="volte_icon_vo">Vo Only Icon</string>
     <string name="volte_icon_volte">Superior Icon</string>
@@ -299,14 +299,14 @@
     <!-- AOSP Gestures -->
     <string name="gesture_preference_superior">AOSP gestures</string>
     <!-- Lock screen cover art -->
-    <string name="lockscreen_media_category">Music</string>
-    <string name="media_art_title">Media artwork</string>
-    <string name="media_art_summary">Show media cover art as the lockscreen background</string>
+    <string name="lockscreen_media_category">موسیقی</string>
+    <string name="media_art_title">کاور موسیقی</string>
+    <string name="media_art_summary">نمایش کاور موسیقی در پس زمینه قفل صفحه نمایش</string>
     <!-- Lock screen media blur -->
-    <string name="lockscreen_media_blur_title">Media artwork blur level</string>
+    <string name="lockscreen_media_blur_title">تار کننده کاور موسیقی</string>
     <!-- Lock screen visualizer -->
-    <string name="lockscreen_visualizer_enable">Music Visualizer</string>
-    <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
+    <string name="lockscreen_visualizer_enable">رقص نور موسیقی</string>
+    <string name="lockscreen_visualizer_enable_summary">نمایش نوار های رقص نور زمان پخش موسیقی</string>
     <string name="lockscreen_autocolor_title">Automatic color</string>
     <string name="lockscreen_autocolor_summary">Sync color with lockscreen background</string>
     <string name="lockscreen_autocolor_lavalamp">Requires lava lamp disabled</string>
@@ -318,49 +318,49 @@
     <string name="lockscreen_solid_fudge_factor_title">Sanity level</string>
     <string name="lockscreen_solid_units_opacity_title">Lines opacity</string>
     <!-- Statusbar Clock -->
-    <string name="status_bar_clock_show">Show clock and date</string>
-    <string name="status_bar_clock_style_title">Clock style</string>
-    <string name="status_bar_clock_style_right">Right</string>
-    <string name="status_bar_clock_style_center">Center</string>
-    <string name="status_bar_clock_style_left">Left</string>
-    <string name="status_bar_am_pm_title">AM/PM style</string>
-    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
-    <string name="status_bar_am_pm_normal">Normal</string>
-    <string name="status_bar_am_pm_small">Small</string>
-    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
-    <string name="clock_seconds_display">Show seconds</string>
-    <string name="clock_date_display">Date</string>
-    <string name="clock_date_display_summary">Display custom date before the clock</string>
-    <string name="clock_date_display_none">Don\'t show</string>
-    <string name="clock_date_display_small">Small font size</string>
-    <string name="clock_date_display_normal">Normal font size</string>
-    <string name="clock_date_style">Date style</string>
-    <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Lowercase</string>
-    <string name="clock_date_style_uppercase">Uppercase</string>
-    <string name="clock_date_format_custom">Custom java format</string>
-    <string name="clock_date_format">Date format</string>
-    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Enter string</string>
-    <string name="clock_date_right">Right of time</string>
-    <string name="clock_date_left">Left of time</string>
-    <string name="clock_date_position">Date position</string>
+    <string name="status_bar_clock_show">نمایش ساعت و تاریخ</string>
+    <string name="status_bar_clock_style_title">سبک ساعت</string>
+    <string name="status_bar_clock_style_right">راست</string>
+    <string name="status_bar_clock_style_center">در مرکز</string>
+    <string name="status_bar_clock_style_left">چپ</string>
+    <string name="status_bar_am_pm_title">سبک ق‌ظ/ب‌ظ</string>
+    <string name="status_bar_am_pm_info">ساعت 24 ساعته فعال است</string>
+    <string name="status_bar_am_pm_normal">معمولی</string>
+    <string name="status_bar_am_pm_small">کوچک</string>
+    <string name="status_bar_am_pm_hidden">پنهان (پیش فرض)</string>
+    <string name="clock_seconds_display">نمایش ثانیه‌ها</string>
+    <string name="clock_date_display">تاریخ</string>
+    <string name="clock_date_display_summary">تاریخ سفارشی را قبل از ساعت نمایش بده</string>
+    <string name="clock_date_display_none">عدم نمایش</string>
+    <string name="clock_date_display_small">اندازه فونت کوچک</string>
+    <string name="clock_date_display_normal">اندازه فونت عادی</string>
+    <string name="clock_date_style">سبک تاریخ</string>
+    <string name="clock_date_style_normal">معمولی</string>
+    <string name="clock_date_style_lowercase">حروف کوچک</string>
+    <string name="clock_date_style_uppercase">حروف بزرگ</string>
+    <string name="clock_date_format_custom">فرمت سفارشی جاوا</string>
+    <string name="clock_date_format">قالب تاریخ</string>
+    <string name="clock_date_string_edittext_title">باید به عنوان مثال فرمت تاریخ ماه/روز/سال باشد</string>
+    <string name="clock_date_string_edittext_summary">متن را وارد کنید</string>
+    <string name="clock_date_right">زمان سمت راست</string>
+    <string name="clock_date_left">چپ از زمان</string>
+    <string name="clock_date_position">موقعیت تاریخ</string>
     <!-- Statusbar Clock Font Style & Size -->
-    <string name="status_bar_clock_font_style_title">Clock font style</string>
-    <string name="status_bar_clock_font_size_title">Clock font size</string>
+    <string name="status_bar_clock_font_style_title">نوع سبک فونت ساعت دستگاه</string>
+    <string name="status_bar_clock_font_size_title">اندازه فونت ساعت</string>
     <!-- Lock Clock Fonts -->
-    <string name="lock_clock_font_title">Clock font options</string>
-    <string name="lock_clock_font_summary">Change the default font of the lockscreen clock widget</string>
-    <string name="lock_clock_font_dialog_title">Select lock clock font</string>
-    <string name="lock_clock_font_stock">Normal (default)</string>
-    <string name="lock_clock_font_bold">Bold</string>
-    <string name="lock_clock_font_italic">Italic</string>
-    <string name="lock_clock_font_bold_italic">Bold Italic</string>
-    <string name="lock_clock_font_light_italic">Light Italic</string>
-    <string name="lock_clock_font_thin_italic">Thin Italic</string>
-    <string name="lock_clock_font_light">Light</string>
-    <string name="lock_clock_font_thin">Thin</string>
-    <string name="lock_clock_font_condensed_normal">Condensed</string>
+    <string name="lock_clock_font_title">تنظیمات فونت ساعت</string>
+    <string name="lock_clock_font_summary">تغییر فونت ساعت صفحه قفل</string>
+    <string name="lock_clock_font_dialog_title">انتخاب فونت ساعت قفل صفحه</string>
+    <string name="lock_clock_font_stock">معمولی(پیش فرض)</string>
+    <string name="lock_clock_font_bold">توپر</string>
+    <string name="lock_clock_font_italic">کج</string>
+    <string name="lock_clock_font_bold_italic">مورب + ضخیم</string>
+    <string name="lock_clock_font_light_italic">کجی کم حروف</string>
+    <string name="lock_clock_font_thin_italic">نازک و مورب</string>
+    <string name="lock_clock_font_light">ضعیف</string>
+    <string name="lock_clock_font_thin">ظریف</string>
+    <string name="lock_clock_font_condensed_normal">فشرده</string>
     <string name="lock_clock_font_condensed_italic">Condensed Italic</string>
     <string name="lock_clock_font_condensed_bold">Condensed Bold</string>
     <string name="lock_clock_font_condensed_bold_italic">Condensed Bold Italic</string>
