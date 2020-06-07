@@ -827,4 +827,8 @@
     <!-- Summaries For Forgotten Ones -->
     <string name="gesture_anywhere_summary">Gesture Anywhere Settings</string>
 
+    <!-- QS long-press actions -->
+    <string name="qs_long_press_action_title">Long-press Action</string>
+    <string name="qs_long_press_action_summary">Use the old style full page settings on long press</string>
+
 </resources>
