@@ -831,4 +831,8 @@
     <string name="qs_long_press_action_title">Long-press Action</string>
     <string name="qs_long_press_action_summary">Use the old style full page settings on long press</string>
 
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Hide lock icon</string>
+    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
+
 </resources>
