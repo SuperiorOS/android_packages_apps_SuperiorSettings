@@ -47,6 +47,12 @@
             android:title="@string/traffic_title" />
 
         <com.superior.settings.preferences.SystemSettingSwitchPreference
+            android:key="data_activity_arrow"
+            android:title="@string/data_activity_arrow_title"
+            android:summary="@string/data_activity_arrow_summary"
+            android:defaultValue="false" />
+
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
             android:key="volte_icon"
             android:title="@string/volte_icon_title"
             android:summary="@string/volte_icon_summary"

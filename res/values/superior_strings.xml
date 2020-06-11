@@ -835,4 +835,8 @@
     <string name="hide_lockicon_title">Hide lock icon</string>
     <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
 
+    <!-- Data activity arrows -->
+    <string name="data_activity_arrow_title">Show data activity arrows</string>
+    <string name="data_activity_arrow_summary">Show data activity indicators for Wi-Fi and mobile data</string>
+
 </resources>

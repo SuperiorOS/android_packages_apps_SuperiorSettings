@@ -86,6 +86,7 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
     private static final String SYSUI_ROUNDED_FWVALS = "sysui_rounded_fwvals";
     private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
     private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
+    private static final String DATA_ACTIVITY_ARROW = "data_activity_arrow";
 
     private ListPreference mStatusBarClock;
     private ListPreference mStatusBarAmPm;
@@ -100,6 +101,7 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
     private SecureSettingSwitchPreference mRoundedFwvals;
     private ListPreference mBatteryPercent;
     private ListPreference mBatteryStyle;
+    private SystemSettingSwitchPreference mShowDataArrows;
 
     private int mBatteryPercentValue;
     private int mBatteryPercentValuePrev;
@@ -243,6 +245,14 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         mBatteryPercent.setEnabled(
                 batterystyle != BATTERY_STYLE_TEXT && batterystyle != BATTERY_STYLE_HIDDEN);
 
+        // Data activity arrows - remove preference if disabled at build time
+        mShowDataArrows = (SystemSettingSwitchPreference) findPreference(DATA_ACTIVITY_ARROW);
+        if (!getActivity().getResources().getBoolean(com.android.internal.R.bool.config_showActivity)) {
+            getPreferenceScreen().removePreference(mShowDataArrows);
+        } else {
+            mShowDataArrows.setOnPreferenceChangeListener(this);
+        }
+
     }
 
     @Override
@@ -382,6 +392,9 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
             int index = mBatteryPercent.findIndexOfValue((String) objValue);
             mBatteryPercent.setSummary(mBatteryPercent.getEntries()[index]);
           return true;
+        } else if (preference == mShowDataArrows) {
+            SuperiorUtils.showSystemUiRestartDialog(getContext());
+            return true;
         }
         return false;
     }
