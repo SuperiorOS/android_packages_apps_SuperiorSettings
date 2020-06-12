@@ -839,4 +839,8 @@
     <string name="data_activity_arrow_title">Show data activity arrows</string>
     <string name="data_activity_arrow_summary">Show data activity indicators for Wi-Fi and mobile data</string>
 
+    <!-- Running Services button -->
+    <string name="qs_running_services_title">Running Services Icon</string>
+    <string name="qs_running_services_summary">Enable the running services icon in the footer</string>
+
 </resources>
