@@ -68,6 +68,8 @@
     <string name="device_riva_description">riva\nNick</string>
     <string name="device_bacon">Oneplus One</string>
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
+    <string name="device_ef63">Vega Iron 2</string>
+    <string name="device_ef63_description">ef63\Chau Truong Thinh</string>
     <string name="device_oneplus3">Oneplus 3</string>
     <string name="device_oneplus3_description">oneplus3\nDinesh dlasdl</string>
     <string name="device_capricorn">Mi 5S</string>
