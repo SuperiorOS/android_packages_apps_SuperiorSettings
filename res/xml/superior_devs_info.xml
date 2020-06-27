@@ -69,27 +69,9 @@
             android:data="https://t.me/Advertpavan" />
         </Preference>
 
-		<Preference
+        <Preference
             android:title="@string/dev_4"
             android:summary="@string/dev4_description"
-            android:icon="@drawable/ic_design" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Senseijtitus" />
-        </Preference>
-
-        <Preference
-            android:title="@string/dev_6"
-            android:summary="@string/dev6_description"
-            android:icon="@drawable/ic_design">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/aryanata_andi" />
-        </Preference>
-
-        <Preference
-            android:title="@string/dev_5"
-            android:summary="@string/dev5_description"
             android:icon="@drawable/ic_devs_pc" >
         <intent
             android:action="android.intent.action.VIEW"
@@ -157,6 +139,19 @@
 </PreferenceCategory>
 
 <PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/device_lenovo" >
+    <Preference
+        android:title="@string/device_z2_plus"
+        android:summary="@string/device_z2_plus_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/VarshankDhiman" />
+    </Preference>
+</PreferenceCategory>
+
+<PreferenceCategory
 	android:key="maintainer"
 	android:title="@string/device_motorola" >
 
@@ -213,6 +208,19 @@
         <intent
            android:action="android.intent.action.VIEW"
            android:data="https://t.me/chautruongthinh" />
+    </Preference>
+</PreferenceCategory>
+
+<PreferenceCategory
+        android:key="maintainer"
+        android:title="@string/device_realme" >
+    <Preference
+        android:title="@string/device_RMX1921"
+        android:summary="@string/device_RMX1921_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://t.me/rishi_7799" />
     </Preference>
 </PreferenceCategory>
 
@@ -358,32 +366,6 @@
         <intent
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/Advertpavan" />
-    </Preference>
-</PreferenceCategory>
-
-<PreferenceCategory
-        android:key="maintainer"
-        android:title="@string/device_lenovo" >
-    <Preference
-        android:title="@string/device_z2_plus"
-        android:summary="@string/device_z2_plus_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/VarshankDhiman" />
-    </Preference>
-</PreferenceCategory>
-
-<PreferenceCategory
-        android:key="maintainer"
-        android:title="@string/device_realme" >
-    <Preference
-        android:title="@string/device_RMX1921"
-        android:summary="@string/device_RMX1921_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/rishi_7799" />
     </Preference>
 </PreferenceCategory>
 </PreferenceScreen>
