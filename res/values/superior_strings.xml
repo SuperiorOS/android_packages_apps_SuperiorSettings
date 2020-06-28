@@ -642,5 +642,12 @@
     <string name="qstile_inkdrop">Ink</string>
     <string name="qstile_cookie">Cookie</string>	
     <string name="qstile_circleoutline">Circle Outline</string>
+    <string name="qstile_neonlike">Neonlike</string>
+    <string name="qstile_oos">OOS</string>
+    <string name="qstile_triangles">Triangles</string>
+    <string name="qstile_divided">Divided circle</string>
+    <string name="qstile_cosmos">Cosmos</string>
+    <string name="qstile_squircle">Squircle</string>
+    <string name="qstile_teardrop">Teardrop</string>
 
 </resources>
