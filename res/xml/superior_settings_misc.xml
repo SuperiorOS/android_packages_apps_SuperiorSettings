@@ -38,6 +38,15 @@
             android:summary="@string/three_finger_gesture_summary"
             android:defaultValue="false" />
 
+        <com.superior.settings.preferences.SystemSettingListPreference
+            android:key="switch_style"
+            android:title="@string/switch_style_title"
+            android:dialogTitle="@string/switch_style_title"
+            android:entries="@array/switch_style_entries"
+            android:entryValues="@array/switch_style_values"
+            android:summary="%s"
+            android:defaultValue="0" />
+
         <Preference
             android:key="smart_pixels"
             android:title="@string/smart_pixels_title"
