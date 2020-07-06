@@ -367,5 +367,14 @@
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/Advertpavan" />
     </Preference>
+
+    <Preference
+        android:title="@string/device_raphael"
+        android:summary="@string/device_raphael_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/HSgod02" />
+    </Preference>
 </PreferenceCategory>
 </PreferenceScreen>
