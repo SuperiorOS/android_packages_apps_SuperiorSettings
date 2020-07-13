@@ -22,9 +22,6 @@ import java.util.List;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
-import com.android.settings.search.BaseSearchIndexProvider;
-import com.android.settings.search.Indexable;
-import com.android.settingslib.search.SearchIndexable;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
 import com.superior.settings.SuperiorSettings;
 
@@ -41,12 +38,10 @@ import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
 
-import android.provider.SearchIndexableResource;
 import android.provider.Settings;
 
-@SearchIndexable
 public class PulseSettings extends SettingsPreferenceFragment implements
-        Preference.OnPreferenceChangeListener, Indexable {
+        Preference.OnPreferenceChangeListener {
     private static final String TAG = PulseSettings.class.getSimpleName();
     private static final String PULSE_COLOR_MODE_KEY = "navbar_pulse_color_type";
     private static final String PULSE_COLOR_MODE_CHOOSER_KEY = "navbar_pulse_color_user";
@@ -137,21 +132,4 @@ public class PulseSettings extends SettingsPreferenceFragment implements
         return MetricsProto.MetricsEvent.SUPERIOR;
     }
 
-    public static final SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER = new BaseSearchIndexProvider() {
-        @Override
-        public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
-                boolean enabled) {
-            final ArrayList<SearchIndexableResource> result = new ArrayList<>();
-            final SearchIndexableResource sir = new SearchIndexableResource(context);
-            sir.xmlResId = R.xml.pulse_settings;
-            result.add(sir);
-            return result;
-        }
-
-        @Override
-        public List<String> getNonIndexableKeys(Context context) {
-            final List<String> keys = super.getNonIndexableKeys(context);
-            return keys;
-        }
-    };
 }
