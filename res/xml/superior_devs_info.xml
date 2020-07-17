@@ -386,5 +386,14 @@
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/HSgod02" />
     </Preference>
+
+    <Preference
+        android:title="@string/device_ginkgo" 
+ 	android:summary="@string/device_ginkgo_description" 
+	android:icon="@drawable/ic_devs_phone"> 
+	<intent 
+	   android:action="android.intent.action.VIEW" 
+	   android:data="https://t.me/MADMAX" /> 
+    </Preference>
 </PreferenceCategory>
 </PreferenceScreen>

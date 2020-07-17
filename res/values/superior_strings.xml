@@ -106,6 +106,9 @@
     <string name="device_raphael_description">raphael\nHSgod</string>
     <string name="device_x2">Realme X2</string>
     <string name="device_x2_description">RMX199X\nShubham Pawar</string>
+    <string name="device_ginkgo">Redmi Note 8</string>
+    <string name="device_ginkgo_description">ginkgo\nMadmax</string>
+
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
