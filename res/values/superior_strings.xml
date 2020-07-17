@@ -104,6 +104,8 @@
     <string name="device_RMX1921_description">RMX1921\nAmrish</string>
     <string name="device_raphael">Redmi K20 Pro</string>
     <string name="device_raphael_description">raphael\nHSgod</string>
+    <string name="device_x2">Realme X2</string>
+    <string name="device_x2_description">RMX199X\nShubham Pawar</string>	
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>

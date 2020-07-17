@@ -222,6 +222,16 @@
             android:action="android.intent.action.VIEW"
             android:data="http://t.me/rishi_7799" />
     </Preference>
+	
+    <Preference
+        android:title="@string/device_x2"
+        android:summary="@string/device_x2_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://t.me/hellohoneybunny" />
+    </Preference>
+	
 </PreferenceCategory>
 
 <PreferenceCategory
