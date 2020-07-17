@@ -30,12 +30,8 @@
     <string name="dev2_description">Основна команда/Розробник</string>
     <string name="dev_3">Pavan Patel</string>
     <string name="dev3_description">Основна команда/Розробник</string>
-    <string name="dev_4">Тітус Джозеф</string>
-    <string name="dev4_description">Дизайнер</string>
-    <string name="dev_5">Swapnil Soni</string>
-    <string name="dev5_description">Веб-розробник</string>
-    <string name="dev_6">Aryanata Andi</string>
-    <string name="dev6_description">Дизайнер бутанімації</string>
+    <string name="dev_4">Свапніл Соні</string>
+    <string name="dev4_description">Веб-розробник</string>
     <!-- Mentions -->
     <string name="mentions_header">Почесні згадки</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -57,7 +53,6 @@
     <string name="device_X00T">Zenfone Max Pro M1</string>
     <string name="device_X00T_description">X00T\nPriyanshu</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
-    <string name="device_violet_description">violet\nYashpal Joshi</string>
     <string name="device_sanders">Moto G (5S) Plus</string>
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_riva">Redmi 5A</string>
@@ -249,29 +244,12 @@
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Значок 4G</string>
     <string name="show_fourg_icon_summary">Показувати значок 4G замість LTE в рядку стану</string>
-    <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Погода</string>
-    <string name="lockscreen_weather_enabled_title">Показувати на екрані блокування</string>
-    <string name="lockscreen_weather_enabled_summary">Показувати погоду на екрані блокування і під час Doze</string>
-    <string name="lockscreen_weather_settings_title">Налаштувати параметри погоди</string>
-    <string name="lockscreen_weather_settings_summary">Налаштування набору значків і служб погоди</string>
-    <string name="weather_config_title">Служба погоди</string>
-    <string name="weather_config_summary">Налаштування системної служби</string>
-    <string name="header_weather_title">Перегляд погоди у заголовку</string>
-    <string name="header_weather_summary">Увімкнути показ погоди у заголовку панелі сповіщень</string>
-    <string name="weather_icon_pack_title">Набір іконок \"Погода\"</string>
-    <string name="weather_icon_pack_note">Примітка\u003a ви можете встановити нові пакети піктограм із Google Play за допомогою іконки \"Chronus\"</string>
-    <string name="weather_icon_pack_info_title">Пакет значків погодніх умов використовується в швидких налаштуваннях та на екрані блокування</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Жест трьома пальцями</string>
     <string name="three_finger_gesture_summary">Проведіть трьома пальцями для скріншоту</string>
     <!-- Fingerprint unlock -->
     <string name="fp_unlock_keystore_title">Примусова аутефікація за відбитком пальця</string>
     <string name="fp_unlock_keystore_summary">Розблокувати пристрій за допомогою відбитка пальця після перезавантаження без Pin-коду</string>
-    <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Стиль погоди</string>
-    <string name="lockscreen_weather_omni_style_title">Стиль Omni</string>
-    <string name="lockscreen_weather_pixel_style_title">Стиль Pixel</string>
     <!-- Power Menu -->
     <string name="hardware_keys_power_category">Кнопка живлення</string>
     <string name="powermenu_summary">Налаштувати елементи в меню живлення</string>
@@ -637,8 +615,28 @@
     <string name="navigation_bar_arrow_keys_summary">Відображати кнопки переміщення курсору вліво або вправо в панелі навігації при введенні тексту</string>
     <string name="navigation_footer">У разі виникнення проблеми повторно увімкніть панель навігації</string>
     <!-- QS Header data uasge -->
-    <string name="qs_datausage_title">Data usage in QS Header</string>
-    <string name="qs_datausage_disabled">Disabled</string>
-    <string name="qs_datausage_daily">Daily usage</string>
-    <string name="qs_datausage_monthly">Monthly usage</string>
+    <!-- Gesture Anywhere -->
+    <!-- Label, button used to add a gesture -->
+    <!-- Label, button used to reload all gestures -->
+    <!-- Label, button used to cancel the operation of adding a gesture -->
+    <!-- Label, button used to save a gesture newly created -->
+    <!-- Label, prompt asking the user to enter the name of the gesture -->
+    <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+    <!-- success message, tells the user where the gesture was saved -->
+    <!-- Buttons in Rename gesture dialog box -->
+    <!-- Buttons in Rename gesture dialog box -->
+    <!-- Message displayed when the user opens the gestures settings screen -->
+    <!-- Message displayed when the user has no gestures -->
+    <!-- Title of the screen used to view/manage gestures -->
+    <!-- Noun, menu item used to edit a gesture -->
+    <!-- Noun, menu item used to remove a gesture -->
+    <!-- Message displayed when a gesture is successfully deleted -->
+    <!-- Title of dialog box -->
+    <!-- Label of gesture name field in Rename gesture dialog box -->
+    <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR LIMIT=80 -->
+    <!-- Summaries For Forgotten Ones -->
+    <!-- QS long-press actions -->
+    <!-- Lock icon -->
+    <!-- Data activity arrows -->
+    <!-- Running Services button -->
 </resources>

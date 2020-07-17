@@ -29,12 +29,6 @@
     <string name="dev2_description">Tim Inti/Pengembang</string>
     <string name="dev_3">Pavan Patel</string>
     <string name="dev3_description">Tim Inti/Desainer</string>
-    <string name="dev_4">Titus Joseph</string>
-    <string name="dev4_description">Perancang</string>
-    <string name="dev_5">Swapnil Soni</string>
-    <string name="dev5_description">Pengembang Web</string>
-    <string name="dev_6">Aryanata Andi</string>
-    <string name="dev6_description">Perancang Animasi Awal</string>
     <!-- Mentions -->
     <string name="mentions_header">Layak Disebutkan</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -56,14 +50,13 @@
     <string name="device_X00T">ZenFone Max Pro M1</string>
     <string name="device_X00T_description">X00T\nPriyanshu</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
-    <string name="device_violet_description">violet\nYashpal Joshi</string>
     <string name="device_sanders">Moto G (5S) Plus</string>
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_riva">Redmi 5A</string>
     <string name="device_riva_description">riva\nNick</string>
     <string name="device_bacon">Oneplus One</string>
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
-    <string name="device_oneplus3">Oneplus 3</string>
+    <string name="device_oneplus3">OnePlus 3</string>
     <string name="device_oneplus3_description">oneplus3\nDinesh dlasdl</string>
     <string name="device_capricorn">Mi 5S</string>
     <string name="device_capricorn_description">capricorn\nHenma</string>
@@ -215,7 +208,7 @@
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Pintasan layar kunci</string>
     <!-- Navbar options -->
-    <string name="navigation_tuner_title">Navigation Tuner</string>
+    <string name="navigation_tuner_title">Tuner Navigasi</string>
     <string name="navbar_visibility">Izinkan bilah navigasi</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Opsi getaran panggilan masuk</string>
@@ -248,29 +241,12 @@
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">ikon 4G</string>
     <string name="show_fourg_icon_summary">Tampilkan icon 4G dari pada LTE</string>
-    <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Cuaca</string>
-    <string name="lockscreen_weather_enabled_title">Tampilkan dilayar kunci</string>
-    <string name="lockscreen_weather_enabled_summary">Tampilkan informasi cuaca dilayar kunci dan saat tidur</string>
-    <string name="lockscreen_weather_settings_title">Atur pilihan cuaca</string>
-    <string name="lockscreen_weather_settings_summary">Atur paket icon dan servis cuaca</string>
-    <string name="weather_config_title">Layanan cuaca</string>
-    <string name="weather_config_summary">Pengaturan layanan sistem</string>
-    <string name="header_weather_title">Tampilkan cuaca dipanel atas</string>
-    <string name="header_weather_summary">Hidupkan notifikasi cuaca di atas pemberitahuan panel</string>
-    <string name="weather_icon_pack_title">Paket ikon kondisi</string>
-    <string name="weather_icon_pack_note">Catatan\u003a anda dapat menginstal paket ikon baru dari play store dengan mencari \"Chronus ikon\"</string>
-    <string name="weather_icon_pack_info_title">Paket ikon kondisi digunakan dalam pengaturan cepat dan layar kunci</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Usap untuk menangkap layar</string>
     <string name="three_finger_gesture_summary">Usap tiga jari ke bawah untuk menangkap layar</string>
     <!-- Fingerprint unlock -->
     <string name="fp_unlock_keystore_title">Paksa otentikasi sidik jari</string>
     <string name="fp_unlock_keystore_summary">Buka kunci perangkat dengan sidik jari setelah dimulai ulang atau terkunci</string>
-    <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Gaya cuaca</string>
-    <string name="lockscreen_weather_omni_style_title">Gaya omni</string>
-    <string name="lockscreen_weather_pixel_style_title">Gaya pixel</string>
     <!-- Power Menu -->
     <string name="hardware_keys_power_category">Tombol Power</string>
     <string name="powermenu_summary">Kustomisasi elemen untuk ditampilkan di layar kunci</string>
@@ -478,7 +454,7 @@
     <!-- Custom headers -->
     <string name="notification_title">Panel notifikasi</string>
     <string name="status_bar_custom_header_title">Hidupkan</string>
-    <string name="status_bar_custom_header_summary">SystemUI reboot recommended to avoid glitches</string>
+    <string name="status_bar_custom_header_summary">Reboot SystemUI direkomendasikan untuk menghindari gangguan</string>
     <string name="daylight_header_pack_title">Koleksi gambar header</string>
     <string name="status_bar_custom_header_shadow_title">Gambar Header bayangan</string>
     <string name="status_bar_custom_header_shadow_summary">Untuk visibilitas lebih baik pada gambar yang terang</string>
@@ -614,12 +590,12 @@
     <string name="aggressive_battery_saver_title">Hidupkan-otomatis pada penghemat baterai </string>
     <string name="aggressive_battery_saver_summary">Nyalakan Baterai Agresif otomatis saat menggunakan penghemat baterai</string>
     <!-- R Notification headers -->
-    <string name="notification_headers_title">Show notification headers</string>
-    <string name="notification_headers_summary">Whether to show R style notification headers (Requires a SystemUI restart)</string>
+    <string name="notification_headers_title">Tampilkan tajuk pemberitahuan</string>
+    <string name="notification_headers_summary">Apakah akan menampilkan tajuk pemberitahuan gaya R (Memerlukan restart SystemUI)</string>
     <!-- Battery Styles -->
-    <string name="battery_percent_title">Status bar battery percentage</string>
+    <string name="battery_percent_title">Persentase baterai Bilah Status</string>
     <string name="status_bar_battery_style_title">Gaya Baterai</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon tegak (standar)</string>
     <string name="status_bar_battery_style_circle">Lingkaran</string>
     <string name="status_bar_battery_style_dotted_circle">Lingkaran (Titik)</string>
     <string name="status_bar_battery_style_filled_circle">Lingkaran (Terisi)</string>
@@ -629,15 +605,44 @@
     <string name="status_bar_battery_percentage_default">Sembunyikan (standard)</string>
     <string name="status_bar_battery_percentage_text_inside">Didalam ikon</string>
     <string name="status_bar_battery_percentage_text_next">Disebelah ikon</string>
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
+    <string name="qs_battery_percentage_title">Persentase baterai QS</string>
+    <string name="qs_battery_percentage_summary">Tampilkan persentase baterai di header QS alih-alih perkiraan baterai</string>
     <!-- Nav Bar Arrow Keys -->
-    <string name="navigation_bar_arrow_keys_title">Show arrow keys while typing</string>
-    <string name="navigation_bar_arrow_keys_summary">Display left and right cursor buttons in navigation bar while typing</string>
-    <string name="navigation_footer">In case of any issue re-enable the navbar</string>
+    <string name="navigation_bar_arrow_keys_title">Tampilkan tombol panah saat mengetik</string>
+    <string name="navigation_bar_arrow_keys_summary">Tampilkan tombol kursor kiri dan kanan di bilah navigasi saat mengetik</string>
+    <string name="navigation_footer">Jika ada masalah, aktifkan kembali navbar</string>
     <!-- QS Header data uasge -->
-    <string name="qs_datausage_title">Data usage in QS Header</string>
-    <string name="qs_datausage_disabled">Disabled</string>
-    <string name="qs_datausage_daily">Daily usage</string>
-    <string name="qs_datausage_monthly">Monthly usage</string>
+    <string name="qs_datausage_title">Penggunaan data di QS Header</string>
+    <string name="qs_datausage_disabled">Dinonaktifkan</string>
+    <string name="qs_datausage_daily">Penggunaan harian</string>
+    <string name="qs_datausage_monthly">Penggunaan bulanan</string>
+    <!-- Gesture Anywhere -->
+    <!-- Label, button used to add a gesture -->
+    <!-- Label, button used to reload all gestures -->
+    <!-- Label, button used to cancel the operation of adding a gesture -->
+    <!-- Label, button used to save a gesture newly created -->
+    <!-- Label, prompt asking the user to enter the name of the gesture -->
+    <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+    <!-- success message, tells the user where the gesture was saved -->
+    <!-- Buttons in Rename gesture dialog box -->
+    <!-- Buttons in Rename gesture dialog box -->
+    <!-- Message displayed when the user opens the gestures settings screen -->
+    <!-- Message displayed when the user has no gestures -->
+    <!-- Title of the screen used to view/manage gestures -->
+    <!-- Noun, menu item used to edit a gesture -->
+    <!-- Noun, menu item used to remove a gesture -->
+    <!-- Message displayed when a gesture is successfully deleted -->
+    <!-- Title of dialog box -->
+    <!-- Label of gesture name field in Rename gesture dialog box -->
+    <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR LIMIT=80 -->
+    <!-- Summaries For Forgotten Ones -->
+    <!-- QS long-press actions -->
+    <string name="qs_long_press_action_title">Tindakan tekan lama</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Sembunyikan ikon kunci</string>
+    <string name="hide_lockicon_summary">Sembunyikan ikon kunci pada kunci layar</string>
+    <!-- Data activity arrows -->
+    <!-- Running Services button -->
+    <string name="qs_running_services_title">Ikon Layanan Berjalan</string>
+    <string name="qs_running_services_summary">Aktifkan ikon layanan berjalan pada bagian bawah</string>
 </resources>

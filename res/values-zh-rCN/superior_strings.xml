@@ -29,12 +29,6 @@
     <string name="dev2_description">核心团队/开发者</string>
     <string name="dev_3">Pavan Patel</string>
     <string name="dev3_description">核心团队/设计师</string>
-    <string name="dev_4">Titus Joseph</string>
-    <string name="dev4_description">设计师</string>
-    <string name="dev_5">Swapnil Soni</string>
-    <string name="dev5_description">Web 开发者</string>
-    <string name="dev_6">Aryanata Andi</string>
-    <string name="dev6_description">开机动画设计师</string>
     <!-- Mentions -->
     <string name="mentions_header">特别鸣谢</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -51,20 +45,15 @@
     <string name="device_lenovo">联想</string>
     <string name="device_oneplus">一加</string>
     <string name="device_smartron">锤子</string>
-    <string name="device_samsung">Samsung</string>
-    <string name="device_realme">Realme</string>
     <string name="device_X00T">Zenfone Max Pro M1</string>
     <string name="device_X00T_description">X00T\nPriyanshu</string>
     <string name="device_violet">红米 Note 7 Pro</string>
-    <string name="device_violet_description">violet\nYashpal Joshi</string>
     <string name="device_sanders">Moto G (5S) Plus</string>
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_riva">红米 5A</string>
     <string name="device_riva_description">riva\nNick</string>
     <string name="device_bacon">一加 1</string>
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
-    <string name="device_oneplus3">Oneplus 3</string>
-    <string name="device_oneplus3_description">oneplus3\nDinesh dlasdl</string>
     <string name="device_capricorn">小米 5S</string>
     <string name="device_capricorn_description">capricorn\nHenma</string>
     <string name="device_santoni">红米 4X</string>
@@ -73,8 +62,6 @@
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
     <string name="device_tulip">红米 Note 6 Pro</string>
     <string name="device_tulip_description">tulip\nPavan Patel</string>
-    <string name="device_lavender">Redmi Note 7</string>
-    <string name="device_lavender_description">lavender\nJimgsey</string>
     <string name="device_X01BD">ZenFone Max Pro M2</string>
     <string name="device_X01BD_description">X01BD\nJayant Deshmukh</string>
     <string name="device_tissot">小米 A1</string>
@@ -85,20 +72,6 @@
     <string name="device_payton_description">payton\nDhinesh</string>
     <string name="device_natrium">小米 5S Plus</string>
     <string name="device_natrium_description">natrium\nHenma</string>
-    <string name="device_hlte">Galaxy Note 3 (9005/P)</string>
-    <string name="device_hlte_description">hlte\nAmin Fauzi</string>
-    <string name="device_hltechn">Galaxy Note 3 (9008V)</string>
-    <string name="device_hltechn_description">hltechn\nAmin Fauzi</string>
-    <string name="device_hltekor">Galaxy Note 3 (900K/L/S)</string>
-    <string name="device_hltekor_description">hltekor\nAmin Fauzi</string>
-    <string name="device_hltetmo">Galaxy Note 3 (900R4/T/V/W8)</string>
-    <string name="device_hltetmo_description">hltetmo\nAmin Fauzi</string>
-    <string name="device_gemini">Mi 5</string>
-    <string name="device_gemini_description">gemini\nHenma</string>
-    <string name="device_z2_plus">ZUK Z2 Plus</string>
-    <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
-    <string name="device_RMX1921">Realme XT</string>
-    <string name="device_RMX1921_description">RMX1921\nAmrish</string>
     <!-- Categories -->
     <string name="button_title">按钮</string>
     <string name="gestures_title">手势</string>
@@ -113,7 +86,6 @@
     <string name="status_bar_clock_title">时钟设置</string>
     <string name="network_title">网络设置</string>
     <!-- Sub-Categories -->
-    <string name="battery_style_category_title">Battery Settings </string>
     <string name="qs_battery_category_title">电池设置</string>
     <string name="qs_misc_category_title">快速设置选项</string>
     <!-- General strings -->
@@ -215,7 +187,6 @@
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">锁屏界面快捷方式</string>
     <!-- Navbar options -->
-    <string name="navigation_tuner_title">Navigation Tuner</string>
     <string name="navbar_visibility">启用导航栏</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">来电振动选项</string>
@@ -248,29 +219,12 @@
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G 图标</string>
     <string name="show_fourg_icon_summary">在信号图标上显示 4G 而不是 LTE</string>
-    <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">天气</string>
-    <string name="lockscreen_weather_enabled_title">在锁屏界面上显示</string>
-    <string name="lockscreen_weather_enabled_summary">在锁屏界面和休眠期间显示天气信息</string>
-    <string name="lockscreen_weather_settings_title">设置天气选项</string>
-    <string name="lockscreen_weather_settings_summary">设置图标包和天气服务</string>
-    <string name="weather_config_title">天气服务</string>
-    <string name="weather_config_summary">系统服务设置</string>
-    <string name="header_weather_title">顶部天气视图</string>
-    <string name="header_weather_summary">启用通知面板顶部天气显示</string>
-    <string name="weather_icon_pack_title">状态图标包</string>
-    <string name="weather_icon_pack_note">请注意\u003a 您可以在 Play 商店搜索 \"Chronus icons\" 来安装新的图标包</string>
-    <string name="weather_icon_pack_info_title">状态图标包用于快速设置和锁定屏幕</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">滑动截屏</string>
     <string name="three_finger_gesture_summary">三指同时下滑以截取屏幕</string>
     <!-- Fingerprint unlock -->
     <string name="fp_unlock_keystore_title">强制指纹验证</string>
     <string name="fp_unlock_keystore_summary">在重启或锁定后直接使用指纹解锁设备</string>
-    <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">天气样式</string>
-    <string name="lockscreen_weather_omni_style_title">Omni 样式</string>
-    <string name="lockscreen_weather_pixel_style_title">Pixel 样式</string>
     <!-- Power Menu -->
     <string name="hardware_keys_power_category">电源键</string>
     <string name="powermenu_summary">自定义电源键菜单</string>
@@ -471,14 +425,9 @@
     <!--QS blur toggle -->
     <string name="blur_quicksettings">模糊快速设置面板背景（测试）</string>
     <string name="blur_quicksettings_subtitle">模糊快速设置面板后方变暗的背景</string>
-    <string name="qs_blur_alpha_title">Blur alpha</string>
-    <string name="qs_blur_alpha_summary">Sets the blur transparency</string>
-    <string name="qs_blur_intensity_title">Blur intensity</string>
-    <string name="qs_blur_intensity_summary">Sets the blur intensity/radius</string>
     <!-- Custom headers -->
     <string name="notification_title">通知面板</string>
     <string name="status_bar_custom_header_title">启用</string>
-    <string name="status_bar_custom_header_summary">SystemUI reboot recommended to avoid glitches</string>
     <string name="daylight_header_pack_title">顶部图像合集</string>
     <string name="status_bar_custom_header_shadow_title">顶部图像阴影</string>
     <string name="status_bar_custom_header_shadow_summary">在明亮的图片上有更好的可见性</string>
@@ -560,84 +509,48 @@
     <string name="fod_recog_animation_summary">在识别指纹时显示动画</string>
     <string name="fod_recog_animation_effect_title">识别动画效果</string>
     <!-- OOS Clear all button -->
-    <string name="enable_clear_all_button">OOS Styled clear all button</string>
-    <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
     <!-- Ambient visualizer -->
-    <string name="ambient_visualizer_title">Ambient visualizer</string>
-    <string name="ambient_visualizer_summary">Shows white visualization bars on ambient display unless custom color is selected</string>
     <!-- Show statusbar on lockscreen -->
-    <string name="lockscreen_show_status_bar_title">Statusbar</string>
-    <string name="lockscreen_show_status_bar_summary">Show statusbar on the lockscreen</string>
     <!-- Statusbar net monitor -->
-    <string name="traffic_title">Traffic indicators</string>
-    <string name="network_traffic">Network traffic</string>
     <string name="network_traffic_state_title">网络流量</string>
-    <string name="network_traffic_location">Traffic indicator placement</string>
-    <string name="traffic_disabled">Disabled</string>
-    <string name="traffic_statusbar">Statusbar</string>
-    <string name="traffic_expanded_statusbar">Expanded header</string>
     <string name="network_traffic_autohide_threshold_title">网络活动自动隐藏阈值 (KB/s)</string>
-    <string name="network_traffic_arrow">Show arrows</string>
     <string name="network_traffic_arrow_summary">显示网络流量监控的指示箭头</string>
-    <string name="network_traffic_type">Select net activity type</string>
-    <string name="show_network_traffic_combined">Combined (Upload + Download)</string>
-    <string name="show_network_traffic_dynamic">Dynamic</string>
-    <string name="show_network_traffic_up">Upload</string>
-    <string name="show_network_traffic_down">Download</string>
-    <string name="show_network_traffic_all">Both</string>
-    <string name="nettraf_font_size">Single net font size</string>
-    <string name="network_traffic_layout">Activity layout</string>
-    <string name="network_traffic_layout_h">Horizontal</string>
-    <string name="network_traffic_layout_v">Verticle</string>
     <!-- Custom carrier label and position -->
-    <string name="carrier_label_settings_title">Carrier label</string>
-    <string name="carrier_label_settings_summary">Customize the carrier label</string>
-    <string name="custom_carrier_label_title">Custom carrier label</string>
-    <string name="custom_carrier_label_explain">Enter a custom label. Leave blank to use your network name</string>
-    <string name="custom_carrier_label_notset">Custom label currently not set</string>
-    <string name="show_carrier_title">Carrier label location</string>
-    <string name="show_carrier_disabled">Disabled</string>
-    <string name="show_carrier_keyguard">Lockscreen</string>
-    <string name="show_carrier_statusbar">Statusbar</string>
-    <string name="show_carrier_enabled">Both</string>
     <!--Statusbar privacy indicators-->
-    <string name="statusbar_privacy_indicators_title">Privacy indicators</string>
-    <string name="statusbar_privacy_indicators_summary">Show privacy indicators on statusbar</string>
     <!-- Aggressive battery -->
-    <string name="aggressive_battery_title">Aggressive Battery</string>
-    <string name="aggressive_battery_summary">More strict battery savings</string>
-    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
-    <string name="aggressive_idle_title">Aggressive Idle</string>
-    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
-    <string name="aggressive_standby_title">Aggressive Standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
-    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
-    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
     <!-- R Notification headers -->
-    <string name="notification_headers_title">Show notification headers</string>
-    <string name="notification_headers_summary">Whether to show R style notification headers (Requires a SystemUI restart)</string>
     <!-- Battery Styles -->
-    <string name="battery_percent_title">Status bar battery percentage</string>
     <string name="status_bar_battery_style_title">电池样式</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
     <string name="status_bar_battery_style_text">文本</string>
     <string name="status_bar_battery_style_hidden">隐藏</string>
     <string name="status_bar_battery_percentage_title">电量百分比</string>
     <string name="status_bar_battery_percentage_default">隐藏（默认）</string>
     <string name="status_bar_battery_percentage_text_inside">在图标内</string>
     <string name="status_bar_battery_percentage_text_next">在图标旁</string>
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
     <!-- Nav Bar Arrow Keys -->
-    <string name="navigation_bar_arrow_keys_title">Show arrow keys while typing</string>
-    <string name="navigation_bar_arrow_keys_summary">Display left and right cursor buttons in navigation bar while typing</string>
-    <string name="navigation_footer">In case of any issue re-enable the navbar</string>
     <!-- QS Header data uasge -->
-    <string name="qs_datausage_title">Data usage in QS Header</string>
-    <string name="qs_datausage_disabled">Disabled</string>
-    <string name="qs_datausage_daily">Daily usage</string>
-    <string name="qs_datausage_monthly">Monthly usage</string>
+    <!-- Gesture Anywhere -->
+    <!-- Label, button used to add a gesture -->
+    <!-- Label, button used to reload all gestures -->
+    <!-- Label, button used to cancel the operation of adding a gesture -->
+    <!-- Label, button used to save a gesture newly created -->
+    <!-- Label, prompt asking the user to enter the name of the gesture -->
+    <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+    <!-- success message, tells the user where the gesture was saved -->
+    <!-- Buttons in Rename gesture dialog box -->
+    <!-- Buttons in Rename gesture dialog box -->
+    <!-- Message displayed when the user opens the gestures settings screen -->
+    <!-- Message displayed when the user has no gestures -->
+    <!-- Title of the screen used to view/manage gestures -->
+    <!-- Noun, menu item used to edit a gesture -->
+    <!-- Noun, menu item used to remove a gesture -->
+    <!-- Message displayed when a gesture is successfully deleted -->
+    <!-- Title of dialog box -->
+    <!-- Label of gesture name field in Rename gesture dialog box -->
+    <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR LIMIT=80 -->
+    <!-- Summaries For Forgotten Ones -->
+    <!-- QS long-press actions -->
+    <!-- Lock icon -->
+    <!-- Data activity arrows -->
+    <!-- Running Services button -->
 </resources>

@@ -29,12 +29,8 @@
     <string name="dev2_description">Equipe/Desenvolvedor do núcleo</string>
     <string name="dev_3">Pavan Patel</string>
     <string name="dev3_description">Equipe/Designer do Núcleo</string>
-    <string name="dev_4">Titus Joseph</string>
-    <string name="dev4_description">Designer</string>
-    <string name="dev_5">Swapnil Soni</string>
-    <string name="dev5_description">Desenvolvedor Web</string>
-    <string name="dev_6">Aryanata Andi</string>
-    <string name="dev6_description">Designer de Bootanimation</string>
+    <string name="dev_4">Swapnil Soni</string>
+    <string name="dev4_description">Desenvolvedor Web</string>
     <!-- Mentions -->
     <string name="mentions_header">Menções Honrosas</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -56,13 +52,15 @@
     <string name="device_X00T">ZenFone Max Pro M1</string>
     <string name="device_X00T_description">X00T\nPriyanshu</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
-    <string name="device_violet_description">violet\nYashpal Joshi</string>
+    <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_sanders">Moto G (5S) Plus</string>
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_riva">Redmi 5A</string>
     <string name="device_riva_description">riva\nNick</string>
     <string name="device_bacon">Oneplus One</string>
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
+    <string name="device_ef63">Vega Iron 2</string>
+    <string name="device_ef63_description">ef63\nChau Truong Thinh</string>
     <string name="device_oneplus3">Oneplus 3</string>
     <string name="device_oneplus3_description">oneplus3\nDinesh dlasdl</string>
     <string name="device_capricorn">Mi 5S</string>
@@ -248,29 +246,12 @@
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Ícone 4G</string>
     <string name="show_fourg_icon_summary">Exibir ícone 4G no ícone de sinal em vez LTE</string>
-    <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Clima</string>
-    <string name="lockscreen_weather_enabled_title">Exibir na tela de bloqueio</string>
-    <string name="lockscreen_weather_enabled_summary">Mostrar informações sobre o tempo na tela de bloqueio e durante o modo doze</string>
-    <string name="lockscreen_weather_settings_title">Mostrar opções de tempo</string>
-    <string name="lockscreen_weather_settings_summary">Selecionar Ícones de clima e configurações de clima</string>
-    <string name="weather_config_title">Serviço meteorológico</string>
-    <string name="weather_config_summary">Plugin de serviço do sistema</string>
-    <string name="header_weather_title">Previsão do tempo no cabeçalho</string>
-    <string name="header_weather_summary">Habilitar previsão do tempo no cabeçalho</string>
-    <string name="weather_icon_pack_title">Pacote de ícones climáticos</string>
-    <string name="weather_icon_pack_note">Você pode instalar novos pacotes de ícones da Play Store procurando por \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">O pacote de ícones de condições é usado em configurações rápidas e na tela de bloqueio</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Deslize para capturar a tela</string>
     <string name="three_finger_gesture_summary">Deslizar para baixo com três dedos para capturar tela</string>
     <!-- Fingerprint unlock -->
     <string name="fp_unlock_keystore_title">Forçar autenticação da Biometria</string>
     <string name="fp_unlock_keystore_summary">Desbloquear o dispositivo com impressão digital após a reinicialização sem pin</string>
-    <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Estilo do tempo</string>
-    <string name="lockscreen_weather_omni_style_title">Estilo Omni</string>
-    <string name="lockscreen_weather_pixel_style_title">Estilo Pixel</string>
     <!-- Power Menu -->
     <string name="hardware_keys_power_category">Botão de ligar/desligar</string>
     <string name="powermenu_summary">Customizar os elementos que serão exibidos no menu de energia</string>
@@ -478,7 +459,7 @@
     <!-- Custom headers -->
     <string name="notification_title">Painel de Notificação</string>
     <string name="status_bar_custom_header_title">Ativar</string>
-    <string name="status_bar_custom_header_summary">SystemUI reboot recommended to avoid glitches</string>
+    <string name="status_bar_custom_header_summary">É recomendado reiniciar o SystemUI para evitar falhas</string>
     <string name="daylight_header_pack_title">Coleção de imagens de cabeçalho</string>
     <string name="status_bar_custom_header_shadow_title">Sombra da imagem do cabeçalho</string>
     <string name="status_bar_custom_header_shadow_summary">Para melhor visibilidade nas imagens claras</string>
@@ -636,8 +617,110 @@
     <string name="navigation_bar_arrow_keys_summary">Exibe botões do cursor esquerdo e direito na barra de navegação durante a digitação</string>
     <string name="navigation_footer">Em caso de qualquer problema reativar a barra de navegação</string>
     <!-- QS Header data uasge -->
-    <string name="qs_datausage_title">Data usage in QS Header</string>
-    <string name="qs_datausage_disabled">Disabled</string>
-    <string name="qs_datausage_daily">Daily usage</string>
-    <string name="qs_datausage_monthly">Monthly usage</string>
+    <string name="qs_datausage_title">Uso de dados no cabeçalho das configurações rápidas</string>
+    <string name="qs_datausage_disabled">Desativado</string>
+    <string name="qs_datausage_daily">Uso diário</string>
+    <string name="qs_datausage_monthly">Uso mensal</string>
+    <!-- Gesture Anywhere -->
+    <string name="gesture_anywhere_title">Gestos em qualquer lugar</string>
+    <string name="gesture_anywhere_enabled_title">Gestos em qualquer lugar</string>
+    <string name="gesture_anywhere_enabled_summary">Ativar o recurso Gesto em Qualquer Lugar</string>
+    <string name="gesture_anywhere_position_title">Localização</string>
+    <string name="gesture_anywhere_position_left">Margem Esquerda</string>
+    <string name="gesture_anywhere_position_right">Margem Direita</string>
+    <string name="gesture_anywhere_gestures_title">Gestos</string>
+    <string name="gesture_anywhere_gestures_summary">Adicionar, remover e editar gestos</string>
+    <!-- Label, button used to add a gesture -->
+    <string name="ga_button_add">Adicionar gesto</string>
+    <!-- Label, button used to reload all gestures -->
+    <string name="ga_button_reload">Recarregar</string>
+    <!-- Label, button used to cancel the operation of adding a gesture -->
+    <string name="ga_button_discard">Cancelar</string>
+    <!-- Label, button used to save a gesture newly created -->
+    <string name="ga_button_done">Concluído</string>
+    <!-- Label, prompt asking the user to enter the name of the gesture -->
+    <string name="ga_prompt_gesture_name">Nome</string>
+    <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+    <string name="ga_error_missing_name">Você deve digitar um nome</string>
+    <!-- success message, tells the user where the gesture was saved -->
+    <string name="ga_save_success">Gesto salvo em %s</string>
+    <!-- Buttons in Rename gesture dialog box -->
+    <string name="ga_rename_action">OK</string>
+    <!-- Buttons in Rename gesture dialog box -->
+    <string name="ga_cancel_action">Cancelar</string>
+    <!-- Message displayed when the user opens the gestures settings screen -->
+    <string name="ga_gestures_loading">Carregando gestos...</string>
+    <!-- Message displayed when the user has no gestures -->
+    <string name="ga_gestures_empty">Sem gestos</string>
+    <!-- Title of the screen used to view/manage gestures -->
+    <string name="ga_gestures_activity">Gestos</string>
+    <!-- Noun, menu item used to edit a gesture -->
+    <string name="ga_gestures_edit">Editar</string>
+    <!-- Noun, menu item used to remove a gesture -->
+    <string name="ga_gestures_delete">Excluir</string>
+    <!-- Message displayed when a gesture is successfully deleted -->
+    <string name="ga_gestures_delete_success">Gesto excluído</string>
+    <!-- Title of dialog box -->
+    <string name="ga_gestures_rename_title">Renomear gesto</string>
+    <!-- Label of gesture name field in Rename gesture dialog box -->
+    <string name="ga_gestures_rename_label">Nome do gesto</string>
+    <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR LIMIT=80 -->
+    <string name="ga_gestures_error_loading">Não foi possível carregar %s. Verifique se você tem armazenamento disponível.</string>
+    <string name="trigger_category">Área de gatilho</string>
+    <string name="trigger_width_title">Largura do gatilho</string>
+    <string name="trigger_width_summary">Ajustar largura da área do gatilho</string>
+    <string name="trigger_top_title">Posição do gatilho</string>
+    <string name="trigger_top_summary">Ajustar a posição vertical da área de gatilho</string>
+    <string name="trigger_bottom_title">Altura do gatilho</string>
+    <string name="trigger_bottom_summary">Ajustar a altura da área do gatilho</string>
+    <string name="gesture_anywhere_0">0px</string>
+    <string name="gesture_anywhere_1">1px</string>
+    <string name="gesture_anywhere_5">5px</string>
+    <string name="gesture_anywhere_10">10px</string>
+    <string name="gesture_anywhere_15">15px</string>
+    <string name="gesture_anywhere_20">20px</string>
+    <string name="gesture_anywhere_25">25px</string>
+    <string name="gesture_anywhere_30">30px</string>
+    <string name="gesture_anywhere_35">35px</string>
+    <string name="gesture_anywhere_40">40px</string>
+    <string name="gesture_anywhere_45">45px</string>
+    <string name="gesture_anywhere_50">50px</string>
+    <string name="gesture_anywhere_55">55px</string>
+    <string name="gesture_anywhere_60">60px</string>
+    <string name="gesture_anywhere_65">65px</string>
+    <string name="gesture_anywhere_70">70px</string>
+    <string name="gesture_anywhere_75">75px</string>
+    <string name="gesture_anywhere_80">80px</string>
+    <string name="gesture_anywhere_85">85px</string>
+    <string name="gesture_anywhere_90">90px</string>
+    <string name="gesture_anywhere_95">95px</string>
+    <string name="gesture_anywhere_100">100px</string>
+    <string name="gesture_anywhere_4">4px</string>
+    <string name="gesture_anywhere_8">8px</string>
+    <string name="gesture_anywhere_12">12px</string>
+    <string name="gesture_anywhere_16">16px</string>
+    <string name="gesture_anywhere_24">24px</string>
+    <string name="gesture_anywhere_28">28px</string>
+    <string name="gesture_anywhere_32">32px</string>
+    <string name="gesture_anywhere_36">36px</string>
+    <string name="gesture_anywhere_44">44px</string>
+    <string name="gesture_anywhere_48">48px</string>
+    <string name="gesture_anywhere_52">52px</string>
+    <string name="gesture_anywhere_56">56px</string>
+    <string name="gesture_anywhere_64">64px</string>
+    <string name="gesture_anywhere_68">68px</string>
+    <!-- Summaries For Forgotten Ones -->
+    <string name="gesture_anywhere_summary">Configurações de gestos em qualquer lugar</string>
+    <!-- QS long-press actions -->
+    <string name="qs_long_press_action_title">Ação de toque longo</string>
+    <string name="qs_long_press_action_summary">Usar as configurações da página inteira no estilo antigo ao pressionar e segurar</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Ocultar ícone do cadeado</string>
+    <string name="hide_lockicon_summary">Ocultar o ícone de cadeado na tela de bloqueio</string>
+    <!-- Data activity arrows -->
+    <string name="data_activity_arrow_title">Mostrar setas de atividade de dados</string>
+    <string name="data_activity_arrow_summary">Mostrar indicadores de atividade de dados para Wi-Fi e dados móveis</string>
+    <!-- Running Services button -->
+    <string name="qs_running_services_title">Ícone de serviços em execução</string>
+    <string name="qs_running_services_summary">Ativar o ícone dos serviços em execução no rodapé</string>
 </resources>

@@ -29,12 +29,8 @@
     <string name="dev2_description">Основная команда/Разработчик</string>
     <string name="dev_3">Pavan Patel</string>
     <string name="dev3_description">Основная команда/Дизайнер</string>
-    <string name="dev_4">Titus Joseph</string>
-    <string name="dev4_description">Дизайнер</string>
-    <string name="dev_5">Swapnil Soni</string>
-    <string name="dev5_description">Веб-Разработчик</string>
-    <string name="dev_6">Aryanata Andi</string>
-    <string name="dev6_description">Дизайнер бутанимации</string>
+    <string name="dev_4">Swapnil Soni</string>
+    <string name="dev4_description">Веб-Разработчик</string>
     <!-- Mentions -->
     <string name="mentions_header">Благодарности</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -56,13 +52,15 @@
     <string name="device_X00T">ZenFone Max Pro M1</string>
     <string name="device_X00T_description">X00T\nPriyanshu</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
-    <string name="device_violet_description">violet\nYashpal Joshi</string>
+    <string name="device_violet_description">Фиолетовый\nНипин</string>
     <string name="device_sanders">Moto G (5S) Plus</string>
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_riva">Redmi 5A</string>
     <string name="device_riva_description">riva\nNick</string>
     <string name="device_bacon">OnePlus One</string>
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
+    <string name="device_ef63">Vega Iron 2</string>
+    <string name="device_ef63_description">ef63\nChau Truong Thonh</string>
     <string name="device_oneplus3">OnePlus 3</string>
     <string name="device_oneplus3_description">oneplus3\nDinesh dlasdl</string>
     <string name="device_capricorn">Mi 5S</string>
@@ -99,6 +97,8 @@
     <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
     <string name="device_RMX1921">Realme XT</string>
     <string name="device_RMX1921_description">RMX1921\nAmrish</string>
+    <string name="device_raphael">Redmi K20 Pro</string>
+    <string name="device_raphael_description">raphael\nHSgod</string>
     <!-- Categories -->
     <string name="button_title">Кнопки</string>
     <string name="gestures_title">Жесты</string>
@@ -248,29 +248,12 @@
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Значок 4G</string>
     <string name="show_fourg_icon_summary">Показывать значок 4G вместо LTE</string>
-    <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Погода</string>
-    <string name="lockscreen_weather_enabled_title">Показать на экране блокировки</string>
-    <string name="lockscreen_weather_enabled_summary">Показывать информацию о погоде на экране блокировки и во время нажатия</string>
-    <string name="lockscreen_weather_settings_title">Настройка погоды</string>
-    <string name="lockscreen_weather_settings_summary">Настроить набор иконок и службу погоды</string>
-    <string name="weather_config_title">Служба погоды</string>
-    <string name="weather_config_summary">Настройки системной службы</string>
-    <string name="header_weather_title">Погода в заголовке панели уведомлений</string>
-    <string name="header_weather_summary">Включить отображение погоды в заголовке панели уведомлений</string>
-    <string name="weather_icon_pack_title">Набор значков погоды</string>
-    <string name="weather_icon_pack_note">Примечание\u003a Вы можете установить новые наборы значков из Play Маркет, введя в строке поиска \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Набор значков погоды используется в быстрых настройках и на экране блокировки</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Свайп для создания скриншота</string>
     <string name="three_finger_gesture_summary">Проведите тремя пальцами для создания скриншота</string>
     <!-- Fingerprint unlock -->
     <string name="fp_unlock_keystore_title">Принудительная аутентификация отпечатком пальца</string>
     <string name="fp_unlock_keystore_summary">Разблокировать устройство с помощью отпечатка пальца после перезагрузки или включении устройства</string>
-    <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Стиль отображения погоды</string>
-    <string name="lockscreen_weather_omni_style_title">Стиль Omni</string>
-    <string name="lockscreen_weather_pixel_style_title">Стиль Pixel</string>
     <!-- Power Menu -->
     <string name="hardware_keys_power_category">Кнопка питания</string>
     <string name="powermenu_summary">Настройка элементов в меню питания</string>
@@ -640,4 +623,106 @@
     <string name="qs_datausage_disabled">Отключено</string>
     <string name="qs_datausage_daily">Ежедневное использование</string>
     <string name="qs_datausage_monthly">Месячное использование</string>
+    <!-- Gesture Anywhere -->
+    <string name="gesture_anywhere_title">Жесты везде</string>
+    <string name="gesture_anywhere_enabled_title">Жесты везде</string>
+    <string name="gesture_anywhere_enabled_summary">Включить функцию «Жесты везде»</string>
+    <string name="gesture_anywhere_position_title">Местоположение</string>
+    <string name="gesture_anywhere_position_left">Левый край</string>
+    <string name="gesture_anywhere_position_right">Правый край</string>
+    <string name="gesture_anywhere_gestures_title">Жесты</string>
+    <string name="gesture_anywhere_gestures_summary">Добавить, удалить или изменить жесты</string>
+    <!-- Label, button used to add a gesture -->
+    <string name="ga_button_add">Добавить жест</string>
+    <!-- Label, button used to reload all gestures -->
+    <string name="ga_button_reload">Обновить</string>
+    <!-- Label, button used to cancel the operation of adding a gesture -->
+    <string name="ga_button_discard">Отменить</string>
+    <!-- Label, button used to save a gesture newly created -->
+    <string name="ga_button_done">Готово</string>
+    <!-- Label, prompt asking the user to enter the name of the gesture -->
+    <string name="ga_prompt_gesture_name">Имя</string>
+    <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+    <string name="ga_error_missing_name">Вы должны ввести имя</string>
+    <!-- success message, tells the user where the gesture was saved -->
+    <string name="ga_save_success">Жест сохранён в %s</string>
+    <!-- Buttons in Rename gesture dialog box -->
+    <string name="ga_rename_action">OK</string>
+    <!-- Buttons in Rename gesture dialog box -->
+    <string name="ga_cancel_action">Отмена</string>
+    <!-- Message displayed when the user opens the gestures settings screen -->
+    <string name="ga_gestures_loading">Загрузка жестов...</string>
+    <!-- Message displayed when the user has no gestures -->
+    <string name="ga_gestures_empty">Нет жестов</string>
+    <!-- Title of the screen used to view/manage gestures -->
+    <string name="ga_gestures_activity">Жесты</string>
+    <!-- Noun, menu item used to edit a gesture -->
+    <string name="ga_gestures_edit">Редактировать</string>
+    <!-- Noun, menu item used to remove a gesture -->
+    <string name="ga_gestures_delete">Удалить</string>
+    <!-- Message displayed when a gesture is successfully deleted -->
+    <string name="ga_gestures_delete_success">Жест удалён</string>
+    <!-- Title of dialog box -->
+    <string name="ga_gestures_rename_title">Переименовать жест</string>
+    <!-- Label of gesture name field in Rename gesture dialog box -->
+    <string name="ga_gestures_rename_label">Название жеста</string>
+    <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR LIMIT=80 -->
+    <string name="ga_gestures_error_loading">Не удалось загрузить %s. Убедитесь, что есть доступ к памяти.</string>
+    <string name="trigger_category">Область вызова</string>
+    <string name="trigger_width_title">Ширина области вызова</string>
+    <string name="trigger_width_summary">Настройка ширины области триггера</string>
+    <string name="trigger_top_title">Позиция области вызова</string>
+    <string name="trigger_top_summary">Установить вертикальное расположение области вызова</string>
+    <string name="trigger_bottom_title">Высота области вызова</string>
+    <string name="trigger_bottom_summary">Установить высоту области триггера</string>
+    <string name="gesture_anywhere_0">0px</string>
+    <string name="gesture_anywhere_1">1px</string>
+    <string name="gesture_anywhere_5">5px</string>
+    <string name="gesture_anywhere_10">10px</string>
+    <string name="gesture_anywhere_15">15px</string>
+    <string name="gesture_anywhere_20">20px</string>
+    <string name="gesture_anywhere_25">25px</string>
+    <string name="gesture_anywhere_30">30px</string>
+    <string name="gesture_anywhere_35">35px</string>
+    <string name="gesture_anywhere_40">40px</string>
+    <string name="gesture_anywhere_45">45px</string>
+    <string name="gesture_anywhere_50">50px</string>
+    <string name="gesture_anywhere_55">55px</string>
+    <string name="gesture_anywhere_60">60px</string>
+    <string name="gesture_anywhere_65">65px</string>
+    <string name="gesture_anywhere_70">70px</string>
+    <string name="gesture_anywhere_75">75px</string>
+    <string name="gesture_anywhere_80">80px</string>
+    <string name="gesture_anywhere_85">85px</string>
+    <string name="gesture_anywhere_90">90px</string>
+    <string name="gesture_anywhere_95">95px</string>
+    <string name="gesture_anywhere_100">100px</string>
+    <string name="gesture_anywhere_4">4px</string>
+    <string name="gesture_anywhere_8">8px</string>
+    <string name="gesture_anywhere_12">12px</string>
+    <string name="gesture_anywhere_16">16px</string>
+    <string name="gesture_anywhere_24">24px</string>
+    <string name="gesture_anywhere_28">28px</string>
+    <string name="gesture_anywhere_32">32px</string>
+    <string name="gesture_anywhere_36">36px</string>
+    <string name="gesture_anywhere_44">44px</string>
+    <string name="gesture_anywhere_48">48px</string>
+    <string name="gesture_anywhere_52">52px</string>
+    <string name="gesture_anywhere_56">56px</string>
+    <string name="gesture_anywhere_64">64px</string>
+    <string name="gesture_anywhere_68">68px</string>
+    <!-- Summaries For Forgotten Ones -->
+    <string name="gesture_anywhere_summary">Настройки жеста везде</string>
+    <!-- QS long-press actions -->
+    <string name="qs_long_press_action_title">Действие при долгом нажатии</string>
+    <string name="qs_long_press_action_summary">Использовать настройки старого стиля при долгом нажатии</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Скрыть значок блокировки</string>
+    <string name="hide_lockicon_summary">Скрыть значок блокировки на экране блокировки</string>
+    <!-- Data activity arrows -->
+    <string name="data_activity_arrow_title">Отображать стрелки активности передачи данных</string>
+    <string name="data_activity_arrow_summary">Показывать индикаторы активности данных для Wi-Fi и мобильных данных</string>
+    <!-- Running Services button -->
+    <string name="qs_running_services_title">Кнопка запущенных служб</string>
+    <string name="qs_running_services_summary">Показывать иконку работающих приложений</string>
 </resources>

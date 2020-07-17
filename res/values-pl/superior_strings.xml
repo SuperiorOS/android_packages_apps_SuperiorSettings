@@ -29,12 +29,8 @@
     <string name="dev2_description">Zespół główny/Programista</string>
     <string name="dev_3">Pavan Patel</string>
     <string name="dev3_description">Zespół główny/Projektant</string>
-    <string name="dev_4">Titus Joseph</string>
-    <string name="dev4_description">Projektant</string>
-    <string name="dev_5">Swapnil Soni</string>
-    <string name="dev5_description">Programista strony internetowej</string>
-    <string name="dev_6">Aryanata Andi</string>
-    <string name="dev6_description">Grafik animacji startowej</string>
+    <string name="dev_4">Swapnil Soni</string>
+    <string name="dev4_description">Programista strony internetowej</string>
     <!-- Mentions -->
     <string name="mentions_header">Wyróżnienia</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -56,13 +52,15 @@
     <string name="device_X00T">ZenFone Max Pro M1</string>
     <string name="device_X00T_description">X00T\nPriyanshu</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
-    <string name="device_violet_description">violet\nYashpal Joshi</string>
+    <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_sanders">Moto G (5S) Plus</string>
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_riva">Redmi 5A</string>
     <string name="device_riva_description">riva\nNick</string>
     <string name="device_bacon">OnePlus One</string>
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
+    <string name="device_ef63">Vega Iron 2</string>
+    <string name="device_ef63_description">ef63\nChau Truong Thinh</string>
     <string name="device_oneplus3">Oneplus 3</string>
     <string name="device_oneplus3_description">oneplus3\nDinesh dlasdl</string>
     <string name="device_capricorn">Mi 5S</string>
@@ -113,7 +111,7 @@
     <string name="status_bar_clock_title">Ustawienia zegara</string>
     <string name="network_title">Ustawienia sieci</string>
     <!-- Sub-Categories -->
-    <string name="battery_style_category_title">Battery Settings </string>
+    <string name="battery_style_category_title">Ustawienia baterii </string>
     <string name="qs_battery_category_title">Ustawienia baterii </string>
     <string name="qs_misc_category_title">szybkie ustawienia - pozostałe</string>
     <!-- General strings -->
@@ -215,7 +213,6 @@
     <!-- Lockscreen icons -->
     <string name="lockscreen_tuner_title">Skróty ekranu blokady</string>
     <!-- Navbar options -->
-    <string name="navigation_tuner_title">Navigation Tuner</string>
     <string name="navbar_visibility">Włącz pasek nawigacji</string>
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Wibracja podczas połączenia</string>
@@ -248,29 +245,12 @@
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">Ikona 4G</string>
     <string name="show_fourg_icon_summary">Wyświetlaj ikonę 4G zamiast LTE</string>
-    <!-- Lockscreen weather -->
-    <string name="lockscreen_weather_category">Pogoda</string>
-    <string name="lockscreen_weather_enabled_title">Pokaż na ekranie blokady</string>
-    <string name="lockscreen_weather_enabled_summary">Pokaż informacje o pogodzie na ekranie blokady i podczas drzemki</string>
-    <string name="lockscreen_weather_settings_title">Pokaż opcje pogody</string>
-    <string name="lockscreen_weather_settings_summary">Ustaw pakiet ikon i usługę pogody</string>
-    <string name="weather_config_title">Serwis pogodowy</string>
-    <string name="weather_config_summary">Ustawienia usługi systemowej</string>
-    <string name="header_weather_title">Pogoda w nagłówku</string>
-    <string name="header_weather_summary">Włącz pogodę w panelu powiadomień</string>
-    <string name="weather_icon_pack_title">Paczka ikon</string>
-    <string name="weather_icon_pack_note">Podpowiedź\u003a możesz zainstalować nowe paczki ikon ze Sklepu Play, wyszukując \"Chronus icons\"</string>
-    <string name="weather_icon_pack_info_title">Paczka ikon pogody używana w szybkich ustawieniach oraz na ekranie blokady</string>
     <!-- Three-fingers-swipe to screenshot -->
     <string name="three_finger_gesture">Gest zrzutu ekranu</string>
     <string name="three_finger_gesture_summary">Przeciągnij w dół trzema palcami aby zrobić zrzut ekranu</string>
     <!-- Fingerprint unlock -->
     <string name="fp_unlock_keystore_title">Wymuś uwierzytelnianie odcisku palca</string>
     <string name="fp_unlock_keystore_summary">Odblokuj urządzenie odciskiem palca po ponownym uruchomieniu lub zablokowaniu</string>
-    <!-- Lockscreen weather style -->
-    <string name="lockscreen_weather_style_title">Styl pogody</string>
-    <string name="lockscreen_weather_omni_style_title">Styl Omni</string>
-    <string name="lockscreen_weather_pixel_style_title">Styl Pixel</string>
     <!-- Power Menu -->
     <string name="hardware_keys_power_category">Przycisk zasilania</string>
     <string name="powermenu_summary">Dostosuj elementy wyświetlane w menu zasilania</string>
@@ -590,54 +570,116 @@
     <string name="network_traffic_layout_h">Poziomy</string>
     <string name="network_traffic_layout_v">Pionowo</string>
     <!-- Custom carrier label and position -->
-    <string name="carrier_label_settings_title">Carrier label</string>
-    <string name="carrier_label_settings_summary">Customize the carrier label</string>
-    <string name="custom_carrier_label_title">Custom carrier label</string>
-    <string name="custom_carrier_label_explain">Enter a custom label. Leave blank to use your network name</string>
-    <string name="custom_carrier_label_notset">Custom label currently not set</string>
-    <string name="show_carrier_title">Carrier label location</string>
-    <string name="show_carrier_disabled">Disabled</string>
+    <string name="carrier_label_settings_title">Etykieta operatora</string>
+    <string name="carrier_label_settings_summary">Personalizuj etykietę operatora</string>
+    <string name="custom_carrier_label_title">Niestandardowa etykieta operatora</string>
+    <string name="custom_carrier_label_explain">Wprowadź niestandardową etykietę. Pozostaw puste, aby użyć swojej nazwy sieci</string>
+    <string name="custom_carrier_label_notset">Własna etykieta nie jest ustawiona</string>
+    <string name="show_carrier_title">Położenie etykiety operatora</string>
+    <string name="show_carrier_disabled">Wyłączona</string>
     <string name="show_carrier_keyguard">Ekran blokady</string>
     <string name="show_carrier_statusbar">Pasek stanu</string>
     <string name="show_carrier_enabled">Obydwa</string>
     <!--Statusbar privacy indicators-->
-    <string name="statusbar_privacy_indicators_title">Privacy indicators</string>
-    <string name="statusbar_privacy_indicators_summary">Show privacy indicators on statusbar</string>
     <!-- Aggressive battery -->
-    <string name="aggressive_battery_title">Aggressive Battery</string>
-    <string name="aggressive_battery_summary">More strict battery savings</string>
-    <string name="aggressive_battery_warning_text">These are power saving features. They may interfere with services intended to run at idle, like navigation apps. You can whitelist these apps from being affected in the app battery settings.</string>
-    <string name="aggressive_idle_title">Aggressive Idle</string>
-    <string name="aggressive_idle_summary">Enter device idle more frequently and wake up less</string>
-    <string name="aggressive_standby_title">Aggressive Standby</string>
-    <string name="aggressive_standby_summary">Restrict apps from running the background</string>
-    <string name="aggressive_battery_saver_title">Auto-enable on battery saver </string>
-    <string name="aggressive_battery_saver_summary">Enable Aggressive Battery automatically when using battery saver</string>
     <!-- R Notification headers -->
-    <string name="notification_headers_title">Show notification headers</string>
-    <string name="notification_headers_summary">Whether to show R style notification headers (Requires a SystemUI restart)</string>
     <!-- Battery Styles -->
-    <string name="battery_percent_title">Status bar battery percentage</string>
     <string name="status_bar_battery_style_title">Styl baterii</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait (default)</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_dotted_circle">Circle (Dotted)</string>
-    <string name="status_bar_battery_style_filled_circle">Circle (Filled)</string>
+    <string name="status_bar_battery_style_circle">Okrąg</string>
+    <string name="status_bar_battery_style_dotted_circle">Okrąg (Przerywany)</string>
+    <string name="status_bar_battery_style_filled_circle">Okrąg (Wypełniony)</string>
     <string name="status_bar_battery_style_text">Tekst</string>
     <string name="status_bar_battery_style_hidden">Ukryty</string>
     <string name="status_bar_battery_percentage_title">Procent baterii</string>
     <string name="status_bar_battery_percentage_default">Ukryty (domyślnie)</string>
     <string name="status_bar_battery_percentage_text_inside">Wewnątrz ikony</string>
     <string name="status_bar_battery_percentage_text_next">Obok ikony</string>
-    <string name="qs_battery_percentage_title">QS battery percentage</string>
-    <string name="qs_battery_percentage_summary">Show battery percentage in the QS header instead of battery estimate</string>
     <!-- Nav Bar Arrow Keys -->
-    <string name="navigation_bar_arrow_keys_title">Show arrow keys while typing</string>
-    <string name="navigation_bar_arrow_keys_summary">Display left and right cursor buttons in navigation bar while typing</string>
-    <string name="navigation_footer">In case of any issue re-enable the navbar</string>
     <!-- QS Header data uasge -->
     <string name="qs_datausage_title">Użycie danych w nagłówku szybkich ustawień</string>
     <string name="qs_datausage_disabled">Wyłączone</string>
     <string name="qs_datausage_daily">Dzienne użycie</string>
     <string name="qs_datausage_monthly">Miesięczne użycie</string>
+    <!-- Gesture Anywhere -->
+    <string name="gesture_anywhere_position_title">Lokalizacja</string>
+    <string name="gesture_anywhere_position_left">Lewa krawędź</string>
+    <string name="gesture_anywhere_position_right">Prawa krawędź</string>
+    <string name="gesture_anywhere_gestures_title">Gesty</string>
+    <string name="gesture_anywhere_gestures_summary">Dodaj, usuń i edytuj gesty</string>
+    <!-- Label, button used to add a gesture -->
+    <string name="ga_button_add">Dodaj gest</string>
+    <!-- Label, button used to reload all gestures -->
+    <string name="ga_button_reload">Odśwież</string>
+    <!-- Label, button used to cancel the operation of adding a gesture -->
+    <string name="ga_button_discard">Odrzuć</string>
+    <!-- Label, button used to save a gesture newly created -->
+    <string name="ga_button_done">Gotowe</string>
+    <!-- Label, prompt asking the user to enter the name of the gesture -->
+    <string name="ga_prompt_gesture_name">Nazwa</string>
+    <!-- Error message, informs the user he needs to enter a name before saving a gesture -->
+    <string name="ga_error_missing_name">Należy wprowadzić nazwę</string>
+    <!-- success message, tells the user where the gesture was saved -->
+    <string name="ga_save_success">Gest zapisany w %s</string>
+    <!-- Buttons in Rename gesture dialog box -->
+    <string name="ga_rename_action">OK</string>
+    <!-- Buttons in Rename gesture dialog box -->
+    <string name="ga_cancel_action">Anuluj</string>
+    <!-- Message displayed when the user opens the gestures settings screen -->
+    <string name="ga_gestures_loading">Wczytywanie gestów...</string>
+    <!-- Message displayed when the user has no gestures -->
+    <string name="ga_gestures_empty">Brak gestów</string>
+    <!-- Title of the screen used to view/manage gestures -->
+    <string name="ga_gestures_activity">Gesty</string>
+    <!-- Noun, menu item used to edit a gesture -->
+    <string name="ga_gestures_edit">Edytuj</string>
+    <!-- Noun, menu item used to remove a gesture -->
+    <string name="ga_gestures_delete">Usuń</string>
+    <!-- Message displayed when a gesture is successfully deleted -->
+    <string name="ga_gestures_delete_success">Gest usunięty</string>
+    <!-- Title of dialog box -->
+    <string name="ga_gestures_rename_title">Zmień nazwę gestu</string>
+    <!-- Label of gesture name field in Rename gesture dialog box -->
+    <string name="ga_gestures_rename_label">Nazwa gestu</string>
+    <!-- Message, displayed when the sdcard cannot be found, 1st parameter is the name of the file that stores the gestures.  CHAR LIMIT=80 -->
+    <string name="gesture_anywhere_0">0px</string>
+    <string name="gesture_anywhere_1">1px</string>
+    <string name="gesture_anywhere_5">5px</string>
+    <string name="gesture_anywhere_10">10px</string>
+    <string name="gesture_anywhere_15">15px</string>
+    <string name="gesture_anywhere_20">20px</string>
+    <string name="gesture_anywhere_25">25px</string>
+    <string name="gesture_anywhere_30">30px</string>
+    <string name="gesture_anywhere_35">35px</string>
+    <string name="gesture_anywhere_40">40px</string>
+    <string name="gesture_anywhere_45">45px</string>
+    <string name="gesture_anywhere_50">50px</string>
+    <string name="gesture_anywhere_55">55px</string>
+    <string name="gesture_anywhere_60">60px</string>
+    <string name="gesture_anywhere_65">65px</string>
+    <string name="gesture_anywhere_70">70px</string>
+    <string name="gesture_anywhere_75">75px</string>
+    <string name="gesture_anywhere_80">80px</string>
+    <string name="gesture_anywhere_85">85px</string>
+    <string name="gesture_anywhere_90">90px</string>
+    <string name="gesture_anywhere_95">95px</string>
+    <string name="gesture_anywhere_100">100px</string>
+    <string name="gesture_anywhere_4">4px</string>
+    <string name="gesture_anywhere_8">8px</string>
+    <string name="gesture_anywhere_12">12px</string>
+    <string name="gesture_anywhere_16">16px</string>
+    <string name="gesture_anywhere_24">24px</string>
+    <string name="gesture_anywhere_28">28px</string>
+    <string name="gesture_anywhere_32">32px</string>
+    <string name="gesture_anywhere_36">36px</string>
+    <string name="gesture_anywhere_44">44px</string>
+    <string name="gesture_anywhere_48">48px</string>
+    <string name="gesture_anywhere_52">52px</string>
+    <string name="gesture_anywhere_56">56px</string>
+    <string name="gesture_anywhere_64">64px</string>
+    <string name="gesture_anywhere_68">68px</string>
+    <!-- Summaries For Forgotten Ones -->
+    <!-- QS long-press actions -->
+    <!-- Lock icon -->
+    <!-- Data activity arrows -->
+    <!-- Running Services button -->
 </resources>
