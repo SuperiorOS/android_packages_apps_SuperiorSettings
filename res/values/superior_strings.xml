@@ -108,6 +108,9 @@
     <string name="device_x2_description">RMX199X\nShubham Pawar</string>
     <string name="device_ginkgo">Redmi Note 8</string>
     <string name="device_ginkgo_description">ginkgo\nMADMAX</string>
+    <string name="device_greatlte">Samsung Galaxy Note 8</string>
+    <string name="device_greatlte_description">greatlte\nHaSSaN</string>
+
 
 
     <!-- Categories -->
