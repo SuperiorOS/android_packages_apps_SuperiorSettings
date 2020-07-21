@@ -273,6 +273,16 @@
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/amirulaminfauzi" />
     </Preference>
+
+ <Preference
+        android:title="@string/device_greatlte"
+        android:summary="@string/device_greatlte_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/HaSSaN_MOHl" />
+    </Preference>
+
 </PreferenceCategory>
 
 <PreferenceCategory

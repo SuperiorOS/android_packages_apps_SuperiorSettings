@@ -96,6 +96,8 @@
     <string name="device_hltekor_description">hltekor\nAmin Fauzi</string>
     <string name="device_hltetmo">Galaxy Note 3 (900R4/T/V/W8)</string>
     <string name="device_hltetmo_description">hltetmo\nAmin Fauzi</string>
+    <string name="device_greatlte">Galaxy Note 8 (Exynos)</string>
+    <string name="device_greatlte_description">greatlte\nHaSSaN</string>
     <string name="device_gemini">Mi 5</string>
     <string name="device_gemini_description">gemini\nHenma</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
