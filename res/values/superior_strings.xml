@@ -62,6 +62,8 @@
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_riva">Redmi 5A</string>
     <string name="device_riva_description">riva\nNick</string>
+    <string name="device_rolex">Redmi 4A</string>
+    <string name="device_rolex_description">rolex\nkoito97</string>
     <string name="device_bacon">Oneplus One</string>
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
     <string name="device_ef63">Vega Iron 2</string>

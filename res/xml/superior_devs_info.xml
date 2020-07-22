@@ -371,6 +371,15 @@
     </Preference>
 
     <Preference
+        android:title="@string/device_rolex"
+        android:summary="@string/device_rolex_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/koito97" />
+    </Preference>
+
+    <Preference
         android:title="@string/device_whyred"
         android:summary="@string/device_whyred_description"
         android:icon="@drawable/ic_devs_phone">
