@@ -59,8 +59,10 @@ public class SuperiorDevsInfoFragment extends SettingsPreferenceFragment {
 		getGithubIcon(R.string.dev_2_git, findPreference("dev2"));
 		getGithubIcon(R.string.dev_3_git, findPreference("dev3"));
 		getGithubIcon(R.string.dev_4_git, findPreference("dev4"));
+		getGithubIcon(R.string.dev_5_git, findPreference("dev5"));
+		getGithubIcon(R.string.dev_6_git, findPreference("dev6"));
+		getGithubIcon(R.string.dev_7_git, findPreference("dev7"));
 		getGithubIcon(R.string.mentions_sam_git, findPreference("mentions_sam"));
-		getGithubIcon(R.string.mentions_subins_git, findPreference("mentions_subins"));
 	}
 
     @Override

@@ -38,15 +38,21 @@
     <string name="dev_4">Swapnil Soni</string>
     <string name="dev_4_git">SwapnilSoni1999</string>
     <string name="dev4_description">Web Developer</string>
+    <string name="dev_5">Subins Mani</string>
+    <string name="dev_5_git">Subinsmani</string>
+    <string name="dev5_description">Server Manager</string>
+    <string name="dev_6">Rashed Sahaji</string>
+    <string name="dev_6_git">rashedsahaji</string>
+    <string name="dev6_description">Device Manager</string>
+    <string name="dev_7">Shreehari Vaasistha</string>
+    <string name="dev_7_git">ShreehariVaasishta</string>
+    <string name="dev7_description">Project Moderator</string>
 
     <!-- Mentions -->
     <string name="mentions_header">Honorable Mentions</string>
     <string name="mentions_sam">Sam Grande</string>
     <string name="mentions_sam_git">SamGrande</string>
     <string name="mentions_sam_description">Designer</string>
-    <string name="mentions_subins">Subins Mani</string>
-    <string name="mentions_subins_git">Subinsmani</string>
-    <string name="mentions_subins_description">Developer</string>
 
     <!-- Maintainer Info -->
     <string name="maintainers_header">Maintainers</string>
