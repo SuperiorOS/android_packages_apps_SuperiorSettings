@@ -45,8 +45,7 @@
         <Preference
             android:key="dev1"
             android:title="@string/dev_1"
-            android:summary="@string/dev1_description"
-            android:icon="@drawable/ic_code" >
+            android:summary="@string/dev1_description" >
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Darkstar085" />
@@ -55,8 +54,7 @@
         <Preference
             android:key="dev2"
             android:title="@string/dev_2"
-            android:summary="@string/dev2_description"
-            android:icon="@drawable/ic_code" >
+            android:summary="@string/dev2_description" >
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/JD1811" />
@@ -65,8 +63,7 @@
 		<Preference
             android:key="dev3"
             android:title="@string/dev_3"
-            android:summary="@string/dev3_description"
-            android:icon="@drawable/ic_design" >
+            android:summary="@string/dev3_description" >
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Advertpavan" />
@@ -75,11 +72,37 @@
         <Preference
             android:key="dev4"
             android:title="@string/dev_4"
-            android:summary="@string/dev4_description"
-            android:icon="@drawable/ic_devs_pc" >
+            android:summary="@string/dev4_description" >
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/SoniSins" />
+        </Preference>
+
+        <Preference
+            android:key="dev5"
+            android:title="@string/dev_5"
+            android:summary="@string/dev5_description" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Subinsmani" />
+        </Preference>
+
+        <Preference
+            android:key="dev6"
+            android:title="@string/dev_6"
+            android:summary="@string/dev6_description" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/RashedSahaji" />
+        </Preference>
+
+        <Preference
+            android:key="dev7"
+            android:title="@string/dev_7"
+            android:summary="@string/dev7_description" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/cult_of_kosmos" />
         </Preference>
 </PreferenceCategory>
 
@@ -97,15 +120,7 @@
             android:data="https://t.me/Reapergod35" />
         </Preference>
 
-        <Preference
-            android:key="mentions_subins"
-            android:title="@string/mentions_subins"
-            android:summary="@string/mentions_subins_description"
-            android:icon="@drawable/ic_devs_mention">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Subinsmani" />
-        </Preference>
+
 </PreferenceCategory>
 
 <PreferenceCategory
