@@ -22,7 +22,7 @@
     <!-- ROM Info -->
     <string name="superior_about_info">About Project</string>
     <string name="superior_about_info_summary_title">About Team</string>
-    <string name="superior_about_info_summary">Superior OS is a Custom ROM based on AOSP, with some most required minimal features, the main aim of this ROM is to deliver light speed performance,smoothness and good battery backup.</string>
+    <string name="superior_about_info_summary">Superior OS is a AOSP based Custom ROM with some additional features. The ROM intends to deliver light speed performance, smoothness, good battery backup and better multi-tasking.</string>
 
     <!-- Dev Info -->
     <string name="devs_header">Developers</string>
