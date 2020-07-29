@@ -23,7 +23,6 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import net.margaritov.preference.colorpicker.ColorPickerPreference;
-import com.superior.settings.SuperiorSettings;
 
 import android.app.ActionBar;
 import android.content.Context;
@@ -37,6 +36,8 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.SwitchPreference;
+
+import com.android.internal.util.superior.SuperiorUtils;
 
 import android.provider.Settings;
 
@@ -75,7 +76,7 @@ public class PulseSettings extends SettingsPreferenceFragment implements
         mColorModePref.setOnPreferenceChangeListener(this);
         int colorMode = Settings.System.getIntForUser(getContentResolver(),
                 Settings.System.PULSE_COLOR_TYPE, COLOR_TYPE_ACCENT, UserHandle.USER_CURRENT);
-        mColorPickerPref.setDefaultValue(SuperiorSettings.getThemeAccentColor(getContext()));
+        mColorPickerPref.setDefaultValue(SuperiorUtils.getThemeAccentColor(getContext()));
         updateColorPrefs(colorMode);
 
         mRenderMode = findPreference(PULSE_RENDER_MODE_KEY);
