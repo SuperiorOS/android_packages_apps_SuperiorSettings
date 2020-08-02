@@ -45,6 +45,7 @@
         <Preference
             android:key="dev1"
             android:title="@string/dev_1"
+            android:icon="@drawable/ic_code"
             android:summary="@string/dev1_description" >
         <intent
             android:action="android.intent.action.VIEW"
@@ -54,15 +55,17 @@
         <Preference
             android:key="dev2"
             android:title="@string/dev_2"
+            android:icon="@drawable/ic_code"
             android:summary="@string/dev2_description" >
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/JD1811" />
         </Preference>
 
-		<Preference
+	<Preference
             android:key="dev3"
             android:title="@string/dev_3"
+            android:icon="@drawable/ic_code"
             android:summary="@string/dev3_description" >
         <intent
             android:action="android.intent.action.VIEW"
@@ -72,6 +75,7 @@
         <Preference
             android:key="dev4"
             android:title="@string/dev_4"
+            android:icon="@drawable/ic_code"
             android:summary="@string/dev4_description" >
         <intent
             android:action="android.intent.action.VIEW"
@@ -81,6 +85,7 @@
         <Preference
             android:key="dev5"
             android:title="@string/dev_5"
+            android:icon="@drawable/ic_code"
             android:summary="@string/dev5_description" >
         <intent
             android:action="android.intent.action.VIEW"
@@ -90,6 +95,7 @@
         <Preference
             android:key="dev6"
             android:title="@string/dev_6"
+            android:icon="@drawable/ic_code"
             android:summary="@string/dev6_description" >
         <intent
             android:action="android.intent.action.VIEW"
@@ -99,6 +105,7 @@
         <Preference
             android:key="dev7"
             android:title="@string/dev_7"
+            android:icon="@drawable/ic_code"
             android:summary="@string/dev7_description" >
         <intent
             android:action="android.intent.action.VIEW"
