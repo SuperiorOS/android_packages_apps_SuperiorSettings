@@ -365,6 +365,7 @@
     <string name="network_traffic_layout_h">Horizontal</string>
     <string name="network_traffic_layout_v">Verticle</string>
     <string name="nettraf_font_size">Single net font size</string>
+    <string name="net_traffic_font">Fonts</string>
 
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Less boring heads up</string>
