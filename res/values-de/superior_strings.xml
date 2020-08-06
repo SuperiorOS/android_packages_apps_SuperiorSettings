@@ -20,7 +20,6 @@
     <!-- ROM Info -->
     <string name="superior_about_info">Über das Projekt</string>
     <string name="superior_about_info_summary_title">Das Team</string>
-    <string name="superior_about_info_summary">Superior OS ist ein auf AOSP basierendes Custom ROM mit einigen oft gewünschten Extras. Unsere Ziele sind blitzschnelle Performance, flüssige Bedienung und gute Akku Laufzeit.</string>
     <!-- Dev Info -->
     <string name="devs_header">Entwickler</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
@@ -29,7 +28,6 @@
     <string name="dev3_description">Kern-Team/Designer</string>
     <!-- Mentions -->
     <string name="mentions_header">Besonders zu erwähnen</string>
-    <string name="mentions_subins_description">Entwickler</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">Maintainer</string>
     <string name="maintainers_header_summary">Dies sind die offiziellen Geräte-Betreuer...</string>
@@ -43,8 +41,6 @@
     <string name="device_hltekor_description">hltekor\nAmin Fauzi</string>
     <string name="device_hltetmo">Galaxy Note 3 (900R4/T/V/W8)</string>
     <string name="device_hltetmo_description">hltetmo\nAmin Fauzi</string>
-    <string name="device_gemini">Mi 5</string>
-    <string name="device_gemini_description">gemini\nHenma</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
     <!-- Categories -->
@@ -166,4 +162,7 @@
     <!-- Lock icon -->
     <!-- Data activity arrows -->
     <!-- Running Services button -->
+    <!-- Smart Pixels -->
+    <!-- Pulse -->
+    <!-- Per App aspect Ratio -->
 </resources>

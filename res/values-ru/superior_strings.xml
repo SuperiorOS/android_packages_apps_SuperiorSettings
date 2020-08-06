@@ -15,28 +15,40 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="superior_settings_title">Настройки Superior</string>
-    <string name="superior_dashboard_summary">Восстание из пепла</string>
+    <string name="superior_settings_title">Достоинства Superior</string>
+    <string name="superior_dashboard_summary">Восставшие из пепла</string>
     <!-- ROM Info -->
     <string name="superior_about_info">О проекте</string>
     <string name="superior_about_info_summary_title">О команде</string>
-    <string name="superior_about_info_summary">Superior OS - это кастомная прошивка, основанная на AOSP, с некоторыми наиболее требуемыми минимальными функциями, основная цель которой - обеспечить сверхбыструю производительность, гладкость и хорошую работу батареи.</string>
+    <string name="superior_about_info_summary">Superior OS - это пользовательская прошивка на основе AOSP с некоторыми дополнительными функциями. Она предназначена для обеспечения большой скорости работы, плавности, хорошей автономности и хорошей многозадачности.</string>
     <!-- Dev Info -->
     <string name="devs_header">Разработчики</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
+    <string name="dev_1_git">sweeto143</string>
     <string name="dev1_description">Основатель/Разработчик</string>
     <string name="dev_2">Jayant Deshmukh</string>
+    <string name="dev_2_git">Jayant-Deshmukh</string>
     <string name="dev2_description">Основная команда/Разработчик</string>
     <string name="dev_3">Pavan Patel</string>
+    <string name="dev_3_git">Advertpavan</string>
     <string name="dev3_description">Основная команда/Дизайнер</string>
     <string name="dev_4">Swapnil Soni</string>
+    <string name="dev_4_git">SwapnilSoni1999</string>
     <string name="dev4_description">Веб-Разработчик</string>
+    <string name="dev_5">Subins Mani</string>
+    <string name="dev_5_git">Subinsmani</string>
+    <string name="dev5_description">Управляющий сервером</string>
+    <string name="dev_6">Rashed Sahaji</string>
+    <string name="dev_6_git">rashedsahaji</string>
+    <string name="dev6_description">Управляющий устройствами</string>
+    <string name="dev_7">Shreehari Vaasistha</string>
+    <string name="dev_7_git">ShreehariVaasishta</string>
+    <string name="dev7_description">Модератор проекта</string>
     <!-- Mentions -->
     <string name="mentions_header">Благодарности</string>
     <string name="mentions_sam">Sam Grande</string>
+    <string name="mentions_sam_git">SamGrande</string>
     <string name="mentions_sam_description">Дизайнер</string>
-    <string name="mentions_subins">Subins Mani</string>
-    <string name="mentions_subins_description">Разработчик</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">Сопровождающие</string>
     <string name="maintainers_header_summary">Это официальные сопровождающие устройств...</string>
@@ -57,14 +69,14 @@
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_riva">Redmi 5A</string>
     <string name="device_riva_description">riva\nNick</string>
+    <string name="device_rolex">Redmi 4A</string>
+    <string name="device_rolex_description">rolex\nkoito97</string>
     <string name="device_bacon">OnePlus One</string>
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
     <string name="device_ef63">Vega Iron 2</string>
     <string name="device_ef63_description">ef63\nChau Truong Thonh</string>
     <string name="device_oneplus3">OnePlus 3</string>
     <string name="device_oneplus3_description">oneplus3\nDinesh dlasdl</string>
-    <string name="device_capricorn">Mi 5S</string>
-    <string name="device_capricorn_description">capricorn\nHenma</string>
     <string name="device_santoni">Redmi 4X</string>
     <string name="device_santoni_description">santoni\nBikram Mukherjee</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
@@ -81,8 +93,6 @@
     <string name="device_daisy_description">daisy\npawelik001</string>
     <string name="device_payton">Moto X4</string>
     <string name="device_payton_description">payton\nDhinesh</string>
-    <string name="device_natrium">Mi 5S Plus</string>
-    <string name="device_natrium_description">natrium\nHenma</string>
     <string name="device_hlte">Galaxy Note 3 (9005/P)</string>
     <string name="device_hlte_description">hlte\nAmin Fauzi</string>
     <string name="device_hltechn">Galaxy Note 3 (9008V)</string>
@@ -91,14 +101,18 @@
     <string name="device_hltekor_description">hltekor\nAmin Fauzi</string>
     <string name="device_hltetmo">Galaxy Note 3 (900R4/T/V/W8)</string>
     <string name="device_hltetmo_description">hltetmo\nAmin Fauzi</string>
-    <string name="device_gemini">Mi 5</string>
-    <string name="device_gemini_description">gemini\nHenma</string>
+    <string name="device_greatlte">Galaxy Note 8 (Exynos)</string>
+    <string name="device_greatlte_description">greatlte\nHaSSaN</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
     <string name="device_RMX1921">Realme XT</string>
     <string name="device_RMX1921_description">RMX1921\nAmrish</string>
     <string name="device_raphael">Redmi K20 Pro</string>
     <string name="device_raphael_description">raphael\nHSgod</string>
+    <string name="device_x2">Realme X2</string>
+    <string name="device_x2_description">RMX199X\nShubham Pawar</string>
+    <string name="device_ginkgo">Redmi Note 8</string>
+    <string name="device_ginkgo_description">ginkgo\nMADMAX</string>
     <!-- Categories -->
     <string name="button_title">Кнопки</string>
     <string name="gestures_title">Жесты</string>
@@ -279,6 +293,7 @@
     <string name="volte_icon_hd">Значок HD</string>
     <string name="volte_icon_hd2">HD CAF</string>
     <string name="volte_icon_miui">MIUI 11</string>
+    <string name="volte_icon_oos10">OOS 10</string>
     <!-- AOSP Gestures -->
     <string name="gesture_preference_superior">Жесты AOSP</string>
     <!-- Lock screen cover art -->
@@ -725,4 +740,59 @@
     <!-- Running Services button -->
     <string name="qs_running_services_title">Кнопка запущенных служб</string>
     <string name="qs_running_services_summary">Показывать иконку работающих приложений</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Умные пиксели</string>
+    <string name="smart_pixels_summary">Настроить умные пиксели</string>
+    <string name="smart_pixels_enable_title">Включить умные пиксели</string>
+    <string name="smart_pixels_enable_summary">Выключить пиксели для снижения расхода заряда батареи</string>
+    <string name="smart_pixels_on_power_save_title">Автовключение при энергосбережении</string>
+    <string name="smart_pixels_on_power_save_summary">Включить умные пиксели, когда включен режим энергосбережения</string>
+    <string name="smart_pixels_percent">Процент выключаемых пикселей</string>
+    <string name="smart_pixels_shift">Предотвращать выгорание дисплея за счет смены выключенных пикселей</string>
+    <string name="smart_pixels_shift_times_15s">15 секунд</string>
+    <string name="smart_pixels_shift_times_30s">30 секунд</string>
+    <string name="smart_pixels_shift_times_1min">1 минута</string>
+    <string name="smart_pixels_shift_times_2min">2 минуты</string>
+    <string name="smart_pixels_shift_times_5min">5 минут</string>
+    <string name="smart_pixels_shift_times_10min">10 минут</string>
+    <string name="smart_pixels_shift_times_20min">20 минут</string>
+    <string name="smart_pixels_shift_times_30min">30 минут</string>
+    <string name="smart_pixels_shift_times_1h">1 час</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Пульсация не работает с некоторыми источниками звука во время прослушивания через динамик устройства</string>
+    <string name="pulse_settings">Эффект пульсации</string>
+    <string name="pulse_settings_summary">Аудиовизуализация в панели навигации</string>
+    <string name="show_pulse_title">Включить Пульсацию</string>
+    <string name="show_pulse_summary">Включить аудиовизуализацию в панели навигации</string>
+    <string name="pulse_render_mode_title">Режим рендеринга</string>
+    <string name="pulse_render_mode_fading_bars">Затухающие блоки</string>
+    <string name="pulse_render_mode_solid_lines">Сплошные линии</string>
+    <string name="pulse_color">Цвет</string>
+    <string name="pulse_color_mode">Цветовой режим</string>
+    <string name="pulse_color_accent">Акцент</string>
+    <string name="pulse_color_custom">Другой</string>
+    <string name="pulse_color_lava_lamp">Лавовая лампа</string>
+    <string name="pulse_color_auto">Обложка альбома</string>
+    <string name="pulse_color_chooser">Выберите цвет</string>
+    <string name="smoothing_enabled_title">Включить сглаживание</string>
+    <string name="smoothing_enabled_summary">Более плавная анимация столбцов</string>
+    <string name="pulse_advanced_category">Дополнительно</string>
+    <string name="pulse_legacy_mode_advanced_category">Настройки режима затухающих блоков</string>
+    <string name="pulse_custom_fudge_factor">Уровень чувствительности</string>
+    <string name="lavamp_speed_title">Скорость Лавовой лампы</string>
+    <string name="pulse_solid_units_count">Количество сплошных линий</string>
+    <string name="pulse_solid_lines_count">Количество сплошных линий</string>
+    <string name="pulse_solid_units_opacity">Прозрачность сплошных линий</string>
+    <string name="pulse_solid_dimen_category">Настройки режима сплошных линий</string>
+    <string name="pulse_custom_dimen">Ширина панели</string>
+    <string name="pulse_custom_div">Расстояние между панелями</string>
+    <string name="pulse_filled_block_size">Размер блока</string>
+    <string name="pulse_empty_block_size">Расстояние между блоками</string>
+    <!-- Per App aspect Ratio -->
+    <string name="aspect_ratio_apps_enabled_title">Включить масштабирование</string>
+    <string name="aspect_ratio_apps_enabled_summary">Разрешить устаревшим приложениям использовать весь экран</string>
+    <string name="aspect_ratio_apps_list_title">Приложения с разрешением масштабирования</string>
+    <string name="aspect_ratio_category_title">Масштабирование устаревших приложений</string>
+    <string name="aspect_ratio_apps_info">Приложения необходимо перезапустить после изменений</string>
+    <string name="action_save">Сохранить</string>
 </resources>

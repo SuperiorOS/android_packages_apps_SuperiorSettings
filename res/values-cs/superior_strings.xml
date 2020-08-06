@@ -20,23 +20,35 @@
     <!-- ROM Info -->
     <string name="superior_about_info">O projektu</string>
     <string name="superior_about_info_summary_title">O týmu</string>
-    <string name="superior_about_info_summary">Superior OS je komunitní ROM založená na AOSP, která přináší jen ty nejnutnější funkce. Hlavním cílem této ROM je poskytovat výkon rychlosti světla, plynulost a dobrou výdrž baterie.</string>
+    <string name="superior_about_info_summary">SuperiorOS je komunitní ROM založená na AOSP se spoustou přidaných funkcí. ROM poskytuje bleskový výkon, hladkost, dobrou výdrž baterie a lepší multitasking.</string>
     <!-- Dev Info -->
     <string name="devs_header">Vývojáři</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
+    <string name="dev_1_git">sweeto143</string>
     <string name="dev1_description">Zakladatel/vývojář</string>
     <string name="dev_2">Jayant Deshmukh</string>
+    <string name="dev_2_git">Jayant-Deshmukh</string>
     <string name="dev2_description">Hlavní tým/vývojář</string>
     <string name="dev_3">Pavan Patel</string>
+    <string name="dev_3_git">Advertpavan</string>
     <string name="dev3_description">Hlavní tým/designer</string>
     <string name="dev_4">Swapnil Soni</string>
+    <string name="dev_4_git">SwapnilSoni1999</string>
     <string name="dev4_description">Vývojář webu</string>
+    <string name="dev_5">Subins Mani</string>
+    <string name="dev_5_git">Subinsmani</string>
+    <string name="dev5_description">Správce serveru</string>
+    <string name="dev_6">Rashed Sahaji</string>
+    <string name="dev_6_git">rashedsahaji</string>
+    <string name="dev6_description">Správce zařízení</string>
+    <string name="dev_7">Shreehari Vaasistha</string>
+    <string name="dev_7_git">ShreehariVaasishta</string>
+    <string name="dev7_description">Moderátor projektu</string>
     <!-- Mentions -->
     <string name="mentions_header">Čestná uznání</string>
     <string name="mentions_sam">Sam Grande</string>
+    <string name="mentions_sam_git">SamGrande</string>
     <string name="mentions_sam_description">Designer</string>
-    <string name="mentions_subins">Subins Mani</string>
-    <string name="mentions_subins_description">Vývojář</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">Správci</string>
     <string name="maintainers_header_summary">Toto jsou správci oficiálních zařízení...</string>
@@ -57,14 +69,14 @@
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_riva">Redmi 5A</string>
     <string name="device_riva_description">riva\nNick</string>
+    <string name="device_rolex">Redmi 4A</string>
+    <string name="device_rolex_description">rolex\nkoito97</string>
     <string name="device_bacon">OnePlus One</string>
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
     <string name="device_ef63">Vega Iron 2</string>
     <string name="device_ef63_description">ef63\nChau Truong Thinh</string>
     <string name="device_oneplus3">Oneplus 3</string>
     <string name="device_oneplus3_description">oneplus3\nDinesh dlasdl</string>
-    <string name="device_capricorn">Mi 5S</string>
-    <string name="device_capricorn_description">capricorn\nHenma</string>
     <string name="device_santoni">Redmi 4X</string>
     <string name="device_santoni_description">santoni\nBikram Mukherjee</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
@@ -81,8 +93,6 @@
     <string name="device_daisy_description">daisy\npawelik001</string>
     <string name="device_payton">Moto X4</string>
     <string name="device_payton_description">payton\nDhinesh</string>
-    <string name="device_natrium">Mi 5S Plus</string>
-    <string name="device_natrium_description">natrium\nHenma</string>
     <string name="device_hlte">Galaxy Note 3 (9005/P)</string>
     <string name="device_hlte_description">hlte\nAmin Fauzi</string>
     <string name="device_hltechn">Galaxy Note 3 (9008V)</string>
@@ -91,14 +101,18 @@
     <string name="device_hltekor_description">hltekor\nAmin Fauzi</string>
     <string name="device_hltetmo">Galaxy Note 3 (900R4/T/V/W8)</string>
     <string name="device_hltetmo_description">hltetmo\nAmin Fauzi</string>
-    <string name="device_gemini">Mi 5</string>
-    <string name="device_gemini_description">gemini\nHenma</string>
+    <string name="device_greatlte">Galaxy Note 8 (Exynos)</string>
+    <string name="device_greatlte_description">greatlte\nHaSSaN</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
     <string name="device_RMX1921">Realme XT</string>
     <string name="device_RMX1921_description">RMX1921\nAmrish</string>
     <string name="device_raphael">Redmi K20 Pro</string>
     <string name="device_raphael_description">raphael\nHSgod</string>
+    <string name="device_x2">Realme X2</string>
+    <string name="device_x2_description">RMX199X\nShubham Pawar</string>
+    <string name="device_ginkgo">Redmi Note 8</string>
+    <string name="device_ginkgo_description">ginkgo\nMADMAX</string>
     <!-- Categories -->
     <string name="button_title">Tlačítka</string>
     <string name="gestures_title">Gesta</string>
@@ -279,6 +293,7 @@
     <string name="volte_icon_hd">Ikona HD</string>
     <string name="volte_icon_hd2">HD CAF</string>
     <string name="volte_icon_miui">MIUI 11</string>
+    <string name="volte_icon_oos10">OOS 10</string>
     <!-- AOSP Gestures -->
     <string name="gesture_preference_superior">Gesta AOSP</string>
     <!-- Lock screen cover art -->
@@ -725,4 +740,59 @@
     <!-- Running Services button -->
     <string name="qs_running_services_title">Ikona spuštěných služeb</string>
     <string name="qs_running_services_summary">Povolit ikonu spuštěných služeb v zápatí</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Smart Pixels</string>
+    <string name="smart_pixels_summary">Přizpůsobení Smart Pixels</string>
+    <string name="smart_pixels_enable_title">Povolit Smart Pixels</string>
+    <string name="smart_pixels_enable_summary">Chcete-li snížit spotřebu energie, vypněte pixely</string>
+    <string name="smart_pixels_on_power_save_title">Automatické zapnutí při spořiči baterie</string>
+    <string name="smart_pixels_on_power_save_summary">Povolit Smart Pixels, když je aktivován spořič baterie</string>
+    <string name="smart_pixels_percent">Procenta pixelů k vypnutí</string>
+    <string name="smart_pixels_shift">Zabraňuje vypalování častým přepínáním pixelů</string>
+    <string name="smart_pixels_shift_times_15s">15 sekund</string>
+    <string name="smart_pixels_shift_times_30s">30 sekund</string>
+    <string name="smart_pixels_shift_times_1min">1 minuta</string>
+    <string name="smart_pixels_shift_times_2min">2 minuty</string>
+    <string name="smart_pixels_shift_times_5min">5 minut</string>
+    <string name="smart_pixels_shift_times_10min">10 minut</string>
+    <string name="smart_pixels_shift_times_20min">20 minut</string>
+    <string name="smart_pixels_shift_times_30min">30 minut</string>
+    <string name="smart_pixels_shift_times_1h">1 hodina</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">Pulse nefunguje s některými zdroji zvuku při poslechu z reproduktoru zařízení</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Grafický ekvalizér na navigačním panelu</string>
+    <string name="show_pulse_title">Zobrazit Pulse</string>
+    <string name="show_pulse_summary">Zvukový ekvalizér na navigačním panelu</string>
+    <string name="pulse_render_mode_title">Režim vykreslení</string>
+    <string name="pulse_render_mode_fading_bars">Vyblednutí bloků</string>
+    <string name="pulse_render_mode_solid_lines">Sloupce</string>
+    <string name="pulse_color">Barva</string>
+    <string name="pulse_color_mode">Barevný režim</string>
+    <string name="pulse_color_accent">Odstín</string>
+    <string name="pulse_color_custom">Vlastní</string>
+    <string name="pulse_color_lava_lamp">Lávová lampa</string>
+    <string name="pulse_color_auto">Obal interpreta</string>
+    <string name="pulse_color_chooser">Vybrat barvu</string>
+    <string name="smoothing_enabled_title">Zapnout vyhlazování</string>
+    <string name="smoothing_enabled_summary">Animace sloupců je mnohem hladší</string>
+    <string name="pulse_advanced_category">Pokročilé</string>
+    <string name="pulse_legacy_mode_advanced_category">Nastavení režimu zahalujících se bloků</string>
+    <string name="pulse_custom_fudge_factor">Úroveň výkonu</string>
+    <string name="lavamp_speed_title">Rychlost lávové lampy</string>
+    <string name="pulse_solid_units_count">Počet sloupců</string>
+    <string name="pulse_solid_lines_count">Počet sloupců</string>
+    <string name="pulse_solid_units_opacity">Průhlednost sloupců</string>
+    <string name="pulse_solid_dimen_category">Nastavení režimu sloupců</string>
+    <string name="pulse_custom_dimen">Šířka sloupce</string>
+    <string name="pulse_custom_div">Mezera mezi sloupci</string>
+    <string name="pulse_filled_block_size">Výška bloku</string>
+    <string name="pulse_empty_block_size">Odsazení bloků</string>
+    <!-- Per App aspect Ratio -->
+    <string name="aspect_ratio_apps_enabled_title">Povolit změnu měřítka</string>
+    <string name="aspect_ratio_apps_enabled_summary">Povolit starším aplikacím používat celou obrazovku</string>
+    <string name="aspect_ratio_apps_list_title">Aplikace, které mohou používat změnu měřítka</string>
+    <string name="aspect_ratio_category_title">Změna měřítka starších aplikací</string>
+    <string name="aspect_ratio_apps_info">Po změnách je třeba aplikace restartovat</string>
+    <string name="action_save">Uložit</string>
 </resources>

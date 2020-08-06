@@ -20,7 +20,6 @@
     <!-- ROM Info -->
     <string name="superior_about_info">درباره پروژه</string>
     <string name="superior_about_info_summary_title">درباره تیم</string>
-    <string name="superior_about_info_summary">Superior OS یک رام کاستوم بر پایه اندروید خام است که ویژگی های ممتازی همچون سرعت بالاتر و روان تر و باتری بهتری است.</string>
     <!-- Dev Info -->
     <string name="devs_header">توسعه دهندگان</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
@@ -33,8 +32,6 @@
     <string name="mentions_header">Honorable Mentions</string>
     <string name="mentions_sam">Sam Grande</string>
     <string name="mentions_sam_description">طراح</string>
-    <string name="mentions_subins">Subins Mani</string>
-    <string name="mentions_subins_description">توسعه‌دهنده</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">بروزرسانی کنندگان</string>
     <string name="maintainers_header_summary">این دستگاه ها پشتیبانی رسمی می شوند</string>
@@ -54,8 +51,6 @@
     <string name="device_riva_description">riva\nNick</string>
     <string name="device_bacon">Oneplus One</string>
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
-    <string name="device_capricorn">Mi 5S</string>
-    <string name="device_capricorn_description">capricorn\nHenma</string>
     <string name="device_santoni">Redmi 4X</string>
     <string name="device_santoni_description">santoni\nBikram Mukherjee</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
@@ -275,4 +270,7 @@
     <!-- Lock icon -->
     <!-- Data activity arrows -->
     <!-- Running Services button -->
+    <!-- Smart Pixels -->
+    <!-- Pulse -->
+    <!-- Per App aspect Ratio -->
 </resources>

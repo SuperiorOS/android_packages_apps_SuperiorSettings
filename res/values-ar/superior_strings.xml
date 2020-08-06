@@ -20,7 +20,6 @@
     <!-- ROM Info -->
     <string name="superior_about_info">حول هذا المشروع</string>
     <string name="superior_about_info_summary_title">حول الفريق</string>
-    <string name="superior_about_info_summary">نظام التشغيل Superior OS هو ROM مخصص تم بنائه على AOSP، مع بعض الميزات الأساسية الأكثر طلبا، والغرض الأساسي منه هو توفير الأداء العالي، وسللسة ومرونة في إستعمال الجهاز، و تحسين عمر البطارية.</string>
     <!-- Dev Info -->
     <string name="devs_header">المطورون</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
@@ -33,8 +32,6 @@
     <string name="mentions_header">إشادة شرف وتقدير</string>
     <string name="mentions_sam">Sam Grande</string>
     <string name="mentions_sam_description">المصمم</string>
-    <string name="mentions_subins">Subins Mani</string>
-    <string name="mentions_subins_description">المطور</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">المشرفون</string>
     <string name="maintainers_header_summary">هؤلاء هم مشرفو الأجهزة الرسمية...</string>
@@ -58,8 +55,6 @@
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
     <string name="device_oneplus3">Oneplus 3</string>
     <string name="device_oneplus3_description">oneplus3\nDinesh dlasdl</string>
-    <string name="device_capricorn">Mi 5S</string>
-    <string name="device_capricorn_description">capricorn\nHenma</string>
     <string name="device_santoni">Redmi 4X</string>
     <string name="device_santoni_description">santoni\nBikram Mukherjee</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
@@ -76,8 +71,6 @@
     <string name="device_daisy_description">daisy\npawelik001</string>
     <string name="device_payton">Moto X4</string>
     <string name="device_payton_description">payton\nDhinesh</string>
-    <string name="device_natrium">Mi 5S Plus</string>
-    <string name="device_natrium_description">natrium\nHenma</string>
     <string name="device_hlte">Galaxy Note 3 (9005/P)</string>
     <string name="device_hlte_description">hlte\nAmin Fauzi</string>
     <string name="device_hltechn">Galaxy Note 3 (9008V)</string>
@@ -86,8 +79,6 @@
     <string name="device_hltekor_description">hltekor\nAmin Fauzi</string>
     <string name="device_hltetmo">Galaxy Note 3 (900R4/T/V/W8)</string>
     <string name="device_hltetmo_description">hltetmo\nAmin Fauzi</string>
-    <string name="device_gemini">Mi 5</string>
-    <string name="device_gemini_description">gemini\nHenma</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
     <string name="device_RMX1921">Realme XT</string>
@@ -640,4 +631,7 @@
     <!-- Lock icon -->
     <!-- Data activity arrows -->
     <!-- Running Services button -->
+    <!-- Smart Pixels -->
+    <!-- Pulse -->
+    <!-- Per App aspect Ratio -->
 </resources>

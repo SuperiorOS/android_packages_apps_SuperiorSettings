@@ -20,23 +20,35 @@
     <!-- ROM Info -->
     <string name="superior_about_info">Sobre este Proyecto</string>
     <string name="superior_about_info_summary_title">Acerca del equipo</string>
-    <string name="superior_about_info_summary">Superior OS es una ROM personalizada basada en AOSP, con algunas de las características más necesarias, el objetivo principal de esta ROM es proporcionar rendimiento a la velocidad de luz, suavidad y buena duración de la batería.</string>
+    <string name="superior_about_info_summary">Superior OS es una ROM personalizada basada en AOSP con algunas características adicionales. La ROM tiene la intención de ofrecer un rendimiento de velocidad ligera, suavidad, buen respaldo de la batería y una mejor multitarea.</string>
     <!-- Dev Info -->
     <string name="devs_header">Desarrolladores</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
+    <string name="dev_1_git">sweeto143</string>
     <string name="dev1_description">Fundador/Desarrollador</string>
     <string name="dev_2">Jayant Deshmukh</string>
+    <string name="dev_2_git">Jayant-Deshmukh</string>
     <string name="dev2_description">Equipo Principal/Desarrollador</string>
     <string name="dev_3">Pavan Patel</string>
+    <string name="dev_3_git">Advertpavan</string>
     <string name="dev3_description">Equipo Principal/Diseñador</string>
     <string name="dev_4">Swapnil Soni</string>
+    <string name="dev_4_git">SwapnilSoni1999</string>
     <string name="dev4_description">Desarrollador Web</string>
+    <string name="dev_5">Subins Mani</string>
+    <string name="dev_5_git">Subinsmani</string>
+    <string name="dev5_description">Administrador de Servidores</string>
+    <string name="dev_6">Rashed Sahaji</string>
+    <string name="dev_6_git">rashedsahaji</string>
+    <string name="dev6_description">Administrador de dispositivos </string>
+    <string name="dev_7">Shreehari Vaasistha</string>
+    <string name="dev_7_git">ShreehariVaasishta</string>
+    <string name="dev7_description">Moderador del proyecto</string>
     <!-- Mentions -->
     <string name="mentions_header">Menciones Honorables</string>
     <string name="mentions_sam">Sam Grande</string>
+    <string name="mentions_sam_git">SamGrande</string>
     <string name="mentions_sam_description">Diseñador</string>
-    <string name="mentions_subins">Subins Mani</string>
-    <string name="mentions_subins_description">Desarrollador</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">Mantenedores</string>
     <string name="maintainers_header_summary">Estos son los mantenedores de Dispositivos Oficiales...</string>
@@ -57,14 +69,14 @@
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_riva">Redmi 5A</string>
     <string name="device_riva_description">riva\nNick</string>
+    <string name="device_rolex">Redmi 4A</string>
+    <string name="device_rolex_description">rolex\nkoito97</string>
     <string name="device_bacon">OnePlus One</string>
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
     <string name="device_ef63">Vega Iron 2</string>
     <string name="device_ef63_description">ef63\nChau Truong Thinh</string>
     <string name="device_oneplus3">OnePlus 3</string>
     <string name="device_oneplus3_description">oneplus3\nDinesh dlasdl</string>
-    <string name="device_capricorn">Mi 5S</string>
-    <string name="device_capricorn_description">capricorn\nHenma</string>
     <string name="device_santoni">Redmi 4X</string>
     <string name="device_santoni_description">santoni\nBikram Mukherjee</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
@@ -81,8 +93,6 @@
     <string name="device_daisy_description">daisy\npawelik001</string>
     <string name="device_payton">Moto X4</string>
     <string name="device_payton_description">payton\nDhinesh</string>
-    <string name="device_natrium">Mi 5S Plus</string>
-    <string name="device_natrium_description">natrium\nHenma</string>
     <string name="device_hlte">Galaxy Note 3</string>
     <string name="device_hlte_description">hlte\nAmin Fauzi</string>
     <string name="device_hltechn">Galaxy Note 3</string>
@@ -91,14 +101,18 @@
     <string name="device_hltekor_description">hltekor\nAmin Fauzi</string>
     <string name="device_hltetmo">Galaxy Note 3</string>
     <string name="device_hltetmo_description">hltetmo\nAmin Fauzi</string>
-    <string name="device_gemini">Mi 5X</string>
-    <string name="device_gemini_description">gemini\nHenma</string>
+    <string name="device_greatlte">Galaxy Note 8 Exynos</string>
+    <string name="device_greatlte_description">greatlte\nHook SaN</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
     <string name="device_RMX1921">Realme XT</string>
     <string name="device_RMX1921_description">RMX1921\nPisco</string>
     <string name="device_raphael">Redmi K20 Pro</string>
     <string name="device_raphael_description">raphael\nHSgod</string>
+    <string name="device_x2">Realme X2</string>
+    <string name="device_x2_description">RMX199X\nPawar de Shubham</string>
+    <string name="device_ginkgo">Redmi Note 8</string>
+    <string name="device_ginkgo_description">ginkgo\nMADMAX</string>
     <!-- Categories -->
     <string name="button_title">Botones</string>
     <string name="gestures_title">Gestos</string>
@@ -279,6 +293,7 @@
     <string name="volte_icon_hd">Ícono HD</string>
     <string name="volte_icon_hd2">HD CAF</string>
     <string name="volte_icon_miui">MIUI 11</string>
+    <string name="volte_icon_oos10">OOS 10</string>
     <!-- AOSP Gestures -->
     <string name="gesture_preference_superior">Gestos AOSP</string>
     <!-- Lock screen cover art -->
@@ -725,4 +740,59 @@
     <!-- Running Services button -->
     <string name="qs_running_services_title">Icono de servicios en ejecución</string>
     <string name="qs_running_services_summary">Habilitar botón de servicios en ejecución en los ajustes rápidos</string>
+    <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Píxeles inteligentes</string>
+    <string name="smart_pixels_summary">Personalizar píxeles inteligentes</string>
+    <string name="smart_pixels_enable_title">Activar píxeles inteligentes</string>
+    <string name="smart_pixels_enable_summary">Apaga píxeles para ahorrar batería</string>
+    <string name="smart_pixels_on_power_save_title">Activar automáticamente el modo ahorro de batería </string>
+    <string name="smart_pixels_on_power_save_summary">Habilitar píxeles inteligenites cuando el ahorro de batería está habilitado</string>
+    <string name="smart_pixels_percent">Porcentaje de píxeles a desactivar</string>
+    <string name="smart_pixels_shift">Evitar quemaduras desplazando los píxeles</string>
+    <string name="smart_pixels_shift_times_15s">15 segundos</string>
+    <string name="smart_pixels_shift_times_30s">30 segundos</string>
+    <string name="smart_pixels_shift_times_1min">1 minuto</string>
+    <string name="smart_pixels_shift_times_2min">2 minutos</string>
+    <string name="smart_pixels_shift_times_5min">5 minutos</string>
+    <string name="smart_pixels_shift_times_10min">10 minutos</string>
+    <string name="smart_pixels_shift_times_20min">20 minutos</string>
+    <string name="smart_pixels_shift_times_30min">30 minutos</string>
+    <string name="smart_pixels_shift_times_1h">1 hora</string>
+    <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">El pulso no funciona con algunas fuentes de audio cuando escucha en el altavoz del dispositivo</string>
+    <string name="pulse_settings">Pulso</string>
+    <string name="pulse_settings_summary">Ecualizador gráfico de la barra de navegación</string>
+    <string name="show_pulse_title">Mostrar Pulso</string>
+    <string name="show_pulse_summary">Ecualizador gráfico en la barra de navegación</string>
+    <string name="pulse_render_mode_title">Modo de renderizado</string>
+    <string name="pulse_render_mode_fading_bars">Desvanecimiento de bloques</string>
+    <string name="pulse_render_mode_solid_lines">Líneas sólidas</string>
+    <string name="pulse_color">Color</string>
+    <string name="pulse_color_mode">Modo de color</string>
+    <string name="pulse_color_accent">Acento</string>
+    <string name="pulse_color_custom">Personalizado</string>
+    <string name="pulse_color_lava_lamp">Lámpara de lava</string>
+    <string name="pulse_color_auto">Portada de Albúm</string>
+    <string name="pulse_color_chooser">Elegir el color</string>
+    <string name="smoothing_enabled_title">Encender suavizado</string>
+    <string name="smoothing_enabled_summary">La animación de las barras es mas suave</string>
+    <string name="pulse_advanced_category">Opciones avanzadas</string>
+    <string name="pulse_legacy_mode_advanced_category">Configuración del modo de desvanecimiento de bloques</string>
+    <string name="pulse_custom_fudge_factor">Nivel de sensibilidad</string>
+    <string name="lavamp_speed_title">Velocidad de lámpara de lava</string>
+    <string name="pulse_solid_units_count">Cantidad de líneas sólidas</string>
+    <string name="pulse_solid_lines_count">Cantidad de líneas sólidas</string>
+    <string name="pulse_solid_units_opacity">Opacidad de líneas sólidas</string>
+    <string name="pulse_solid_dimen_category">Ajustes del modo de lineas solidas</string>
+    <string name="pulse_custom_dimen">Ancho de la barra</string>
+    <string name="pulse_custom_div">Espaciado de la barra</string>
+    <string name="pulse_filled_block_size">Tamaño del bloque</string>
+    <string name="pulse_empty_block_size">Espacio entre bloques</string>
+    <!-- Per App aspect Ratio -->
+    <string name="aspect_ratio_apps_enabled_title">Activar escalado</string>
+    <string name="aspect_ratio_apps_enabled_summary">Permite a aplicaciones olvidadas utilizar la pantalla completa</string>
+    <string name="aspect_ratio_apps_list_title">Aplicaciones que pueden utilizar escalado</string>
+    <string name="aspect_ratio_category_title">Escalado de la aplicación antigua</string>
+    <string name="aspect_ratio_apps_info">Las aplicaciones deben reiniciarse después de los cambios</string>
+    <string name="action_save">Guardar</string>
 </resources>

@@ -20,7 +20,6 @@
     <!-- ROM Info -->
     <string name="superior_about_info">关于项目</string>
     <string name="superior_about_info_summary_title">关于团队</string>
-    <string name="superior_about_info_summary">Superior OS是基于 AOSP 的自定义ROM，有些一些最需要的基本功能，该ROM 的主要目的是提供高性能、高流畅度和良好的续航能力。</string>
     <!-- Dev Info -->
     <string name="devs_header">开发者</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
@@ -33,8 +32,6 @@
     <string name="mentions_header">特别鸣谢</string>
     <string name="mentions_sam">Sam Grande</string>
     <string name="mentions_sam_description">设计师</string>
-    <string name="mentions_subins">Subins Mani</string>
-    <string name="mentions_subins_description">开发者</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">维护者</string>
     <string name="maintainers_header_summary">这些是官方设备维护者...</string>
@@ -54,8 +51,6 @@
     <string name="device_riva_description">riva\nNick</string>
     <string name="device_bacon">一加 1</string>
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
-    <string name="device_capricorn">小米 5S</string>
-    <string name="device_capricorn_description">capricorn\nHenma</string>
     <string name="device_santoni">红米 4X</string>
     <string name="device_santoni_description">santoni\nBikram Mukherjee</string>
     <string name="device_whyred">红米 Note 5 Pro</string>
@@ -70,8 +65,6 @@
     <string name="device_daisy_description">daisy\npawelik001</string>
     <string name="device_payton">Moto X4</string>
     <string name="device_payton_description">payton\nDhinesh</string>
-    <string name="device_natrium">小米 5S Plus</string>
-    <string name="device_natrium_description">natrium\nHenma</string>
     <!-- Categories -->
     <string name="button_title">按钮</string>
     <string name="gestures_title">手势</string>
@@ -553,4 +546,7 @@
     <!-- Lock icon -->
     <!-- Data activity arrows -->
     <!-- Running Services button -->
+    <!-- Smart Pixels -->
+    <!-- Pulse -->
+    <!-- Per App aspect Ratio -->
 </resources>
