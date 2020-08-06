@@ -118,7 +118,8 @@
     <string name="device_x2_description">RMX199X\nShubham Pawar</string>
     <string name="device_ginkgo">Redmi Note 8</string>
     <string name="device_ginkgo_description">ginkgo\nMADMAX</string>
-
+    <string name="device_ginkgo">Poco F1</string>
+    <string name="device_ginkgo_description">beryllium\Deadpool1704</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
