@@ -9,8 +9,7 @@
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or 
-implied.
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
@@ -53,7 +52,7 @@ public class SuperiorDevsInfoFragment extends SettingsPreferenceFragment {
         addPreferencesFromResource(R.xml.superior_devs_info);
 		showGitProfileIcons();
     }
-	
+
 	private void showGitProfileIcons() {
 		getGithubIcon(R.string.dev_1_git, findPreference("dev1"));
 		getGithubIcon(R.string.dev_2_git, findPreference("dev2"));
@@ -62,6 +61,7 @@ public class SuperiorDevsInfoFragment extends SettingsPreferenceFragment {
 		getGithubIcon(R.string.dev_5_git, findPreference("dev5"));
 		getGithubIcon(R.string.dev_6_git, findPreference("dev6"));
 		getGithubIcon(R.string.dev_7_git, findPreference("dev7"));
+                getGithubIcon(R.string.dev_8_git, findPreference("dev8"));
 		getGithubIcon(R.string.mentions_sam_git, findPreference("mentions_sam"));
 	}
 
@@ -69,7 +69,7 @@ public class SuperiorDevsInfoFragment extends SettingsPreferenceFragment {
     public int getMetricsCategory() {
         return MetricsEvent.SUPERIOR;
     }
-	
+
 	public void getGithubIcon(int usernameResId, Preference preference) {
         new parseGitIcon().execute(getResources().getString(usernameResId), preference);
     }

@@ -111,6 +111,17 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/cult_of_kosmos" />
         </Preference>
+
+        <Preference
+            android:key="dev8"
+            android:title="@string/dev_8"
+            android:icon="@drawable/ic_code"
+            android:summary="@string/dev8_description" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/T3rr0r1st" />
+        </Preference>
+
 </PreferenceCategory>
 
 <PreferenceCategory
@@ -242,14 +253,6 @@
 <PreferenceCategory
         android:key="maintainer"
         android:title="@string/device_realme" >
-    <Preference
-        android:title="@string/device_RMX1921"
-        android:summary="@string/device_RMX1921_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/rishi_7799" />
-    </Preference>
 
     <Preference
         android:title="@string/device_x2"
@@ -344,6 +347,15 @@
             android:data="https://t.me/Bikram_M" />
     </Preference>
 
+   <Preference
+        android:title="@string/device_raphael"
+        android:summary="@string/device_raphael_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/HSgod02" />
+    </Preference>
+
     <Preference
         android:title="@string/device_lavender"
         android:summary="@string/device_lavender_description"
@@ -390,30 +402,12 @@
     </Preference>
 
     <Preference
-        android:title="@string/device_tulip"
-        android:summary="@string/device_tulip_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="http://t.me/Advertpavan" />
-    </Preference>
-
-    <Preference
         android:title="@string/device_beryllium"
         android:summary="@string/device_beryllium_description"
         android:icon="@drawable/ic_devs_phone">
         <intent
            android:action="android.intent.action.VIEW"
            android:data="http://t.me/Deadpool1704" />
-    </Preference>
-
-    <Preference
-        android:title="@string/device_raphael"
-        android:summary="@string/device_raphael_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="http://t.me/HSgod02" />
     </Preference>
 
     <Preference
