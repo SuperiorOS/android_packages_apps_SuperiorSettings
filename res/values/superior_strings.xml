@@ -926,4 +926,11 @@
     <string name="vowifi_icon_simple2">Simple2 Icon</string>
     <string name="vowifi_icon_simple3">Simple3 Icon</string>
 
+    <!-- Audio Panel Theme -->
+    <string name="audio_panel_view_theme_title">Volume Panel Options</string>
+    <string name="audio_panel_view_theme_summary">Choose the theme of the volume panel</string>
+    <string name="audio_panel_theme_default">AOSPA</string>
+    <string name="audio_panel_theme_aosp">Stock</string>
+    <string name="audio_panel_theme_custom">Bubble</string>
+
 </resources>
