@@ -901,4 +901,8 @@
     <string name="aspect_ratio_apps_info">Applications need to be restarted after changes</string>
     <string name="action_save">Save</string>
 
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Pixel animation</string>
+    <string name="pixel_navbar_anim_summary">Toggle home button animation</string>
+
 </resources>
