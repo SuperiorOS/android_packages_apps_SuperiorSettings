@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-19 The Superior OS Project
+    Copyright © 2018-20 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -113,12 +113,10 @@
     <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
     <string name="device_raphael">Redmi K20 Pro</string>
     <string name="device_raphael_description">raphael\nHSgod</string>
-    <string name="device_x2">Realme X2</string>
-    <string name="device_x2_description">RMX199X\nShubham Pawar</string>
     <string name="device_ginkgo">Redmi Note 8</string>
     <string name="device_ginkgo_description">ginkgo\nMADMAX</string>
     <string name="device_beryllium">Poco F1</string>
-    <string name="device_beryllium_description">beryllium\Deadpool1704</string>
+    <string name="device_beryllium_description">beryllium\nDeadpool1704</string>
 
 
     <!-- Categories -->

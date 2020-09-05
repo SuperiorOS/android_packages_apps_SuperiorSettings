@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The AOSP-RRO Project
-     Copyright (C) 2018-19 The Superior OS Project
+     Copyright (C) 2018-20 The Superior OS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -248,21 +248,6 @@
            android:action="android.intent.action.VIEW"
            android:data="https://t.me/chautruongthinh" />
     </Preference>
-</PreferenceCategory>
-
-<PreferenceCategory
-        android:key="maintainer"
-        android:title="@string/device_realme" >
-
-    <Preference
-        android:title="@string/device_x2"
-        android:summary="@string/device_x2_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="http://t.me/hellohoneybunny" />
-    </Preference>
-
 </PreferenceCategory>
 
 <PreferenceCategory
