@@ -935,4 +935,8 @@
     <string name="switch_retro">Retro</string>
     <string name="switch_stockish">Stockish</string>
 
+    <!-- SuperiorOS logo -->
+    <string name="superior_logo_title">SuperiorOS logo</string>
+    <string name="superior_logo_summary">Add our phoenix logo on statusbar</string>
+
 </resources>
