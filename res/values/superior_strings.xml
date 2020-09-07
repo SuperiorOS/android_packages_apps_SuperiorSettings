@@ -111,8 +111,6 @@
     <string name="device_greatlte_description">greatlte\nHaSSaN</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
-    <string name="device_raphael">Redmi K20 Pro</string>
-    <string name="device_raphael_description">raphael\nHSgod</string>
     <string name="device_ginkgo">Redmi Note 8</string>
     <string name="device_ginkgo_description">ginkgo\nMADMAX</string>
     <string name="device_beryllium">Poco F1</string>
