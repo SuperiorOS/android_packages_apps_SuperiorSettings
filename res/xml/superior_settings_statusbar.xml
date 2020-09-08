@@ -52,6 +52,14 @@
             android:summary="@string/superior_logo_summary"
             android:defaultValue="false"/>
 
+       <ListPreference
+         android:key="status_bar_logo_style"
+         android:entries="@array/status_bar_logo_style_entries"
+         android:entryValues="@array/status_bar_logo_style_values"
+         android:summary="%s"
+         android:dependency="status_bar_logo"
+         android:title="@string/status_bar_logo_style_title" />
+
         <com.superior.settings.preferences.SystemSettingSwitchPreference
             android:key="data_activity_arrow"
             android:title="@string/data_activity_arrow_title"

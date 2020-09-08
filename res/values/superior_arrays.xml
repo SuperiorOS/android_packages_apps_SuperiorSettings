@@ -665,4 +665,17 @@
         <item>7</item>
     </string-array>
 
+    <!-- Statusbar Logos -->
+    <string-array name="status_bar_logo_style_entries">
+        <item>Default (Superior)</item>
+        <item>Phoenix 1</item>
+        <item>Phoenix 2</item>
+    </string-array>
+
+    <string-array name="status_bar_logo_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
 </resources>

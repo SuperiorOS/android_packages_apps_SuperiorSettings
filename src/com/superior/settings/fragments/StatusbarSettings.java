@@ -87,6 +87,7 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
     private static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_show_battery_percent";
     private static final String STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
     private static final String DATA_ACTIVITY_ARROW = "data_activity_arrow";
+    private static final String KEY_STATUS_BAR_LOGO = "status_bar_logo";
 
     private ListPreference mStatusBarClock;
     private ListPreference mStatusBarAmPm;
@@ -102,6 +103,8 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
     private ListPreference mBatteryPercent;
     private ListPreference mBatteryStyle;
     private SystemSettingSwitchPreference mShowDataArrows;
+    private SystemSettingSwitchPreference mShowSuperiorLogo;
+    private ListPreference mLogoStyle;
 
     private int mBatteryPercentValue;
     private int mBatteryPercentValuePrev;
@@ -253,6 +256,19 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
             mShowDataArrows.setOnPreferenceChangeListener(this);
         }
 
+        mShowSuperiorLogo = (SystemSettingSwitchPreference) findPreference(KEY_STATUS_BAR_LOGO);
+        mShowSuperiorLogo.setChecked((Settings.System.getInt(getContentResolver(),
+             Settings.System.STATUS_BAR_LOGO, 0) == 1));
+        mShowSuperiorLogo.setOnPreferenceChangeListener(this);
+
+        mLogoStyle = (ListPreference) findPreference("status_bar_logo_style");
+        mLogoStyle.setOnPreferenceChangeListener(this);
+        int logoStyle = Settings.System.getIntForUser(getContentResolver(),
+                Settings.System.STATUS_BAR_LOGO_STYLE,
+                0, UserHandle.USER_CURRENT);
+        mLogoStyle.setValue(String.valueOf(logoStyle));
+        mLogoStyle.setSummary(mLogoStyle.getEntry());
+
     }
 
     @Override
@@ -394,6 +410,19 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
           return true;
         } else if (preference == mShowDataArrows) {
             SuperiorUtils.showSystemUiRestartDialog(getContext());
+            return true;
+        } else if (preference == mShowSuperiorLogo) {
+            boolean value = (Boolean) objValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.STATUS_BAR_LOGO, value ? 1 : 0);
+            return true;
+        } else if (preference.equals(mLogoStyle)) {
+            int logoStyle = Integer.parseInt(((String) objValue).toString());
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.STATUS_BAR_LOGO_STYLE, logoStyle, UserHandle.USER_CURRENT);
+            int index = mLogoStyle.findIndexOfValue((String) objValue);
+            mLogoStyle.setSummary(
+                    mLogoStyle.getEntries()[index]);
             return true;
         }
         return false;
