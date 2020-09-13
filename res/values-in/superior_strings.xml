@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-19 The Superior OS Project
+    Copyright © 2018-20 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -20,14 +20,14 @@
     <!-- ROM Info -->
     <string name="superior_about_info">Tentang Project</string>
     <string name="superior_about_info_summary_title">Tentang Team</string>
+    <string name="superior_about_info_summary">Superior OS adalah ROM Kustom berbasis AOSP dengan beberapa fitur tambahan. ROM bermaksud untuk memberikan kinerja kecepatan cahaya, kehalusan, cadangan baterai yang baik dan multi-tasking yang lebih baik.</string>
     <!-- Dev Info -->
     <string name="devs_header">Pengembang</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
-    <string name="dev1_description">Penemu/Pengembang</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev2_description">Tim Inti/Pengembang</string>
     <string name="dev_3">Pavan Patel</string>
-    <string name="dev3_description">Tim Inti/Desainer</string>
+    <string name="dev4_description">Pengembang Web</string>
+    <string name="dev_5">Subins Mani</string>
     <!-- Mentions -->
     <string name="mentions_header">Layak Disebutkan</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -59,8 +59,6 @@
     <string name="device_santoni_description">santoni\nBikram Mukherjee</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_tulip">Redmi Note 6 Pro</string>
-    <string name="device_tulip_description">tulip\nPavan Patel</string>
     <string name="device_lavender">Redmi Note 7</string>
     <string name="device_lavender_description">lavender\nJimgsey</string>
     <string name="device_X01BD">ZenFone Max Pro M2</string>
@@ -81,8 +79,6 @@
     <string name="device_hltetmo_description">hltetmo\nAmin Fauzi</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
-    <string name="device_RMX1921">Realme XT</string>
-    <string name="device_RMX1921_description">RMX1921\nAmrish</string>
     <!-- Categories -->
     <string name="button_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
@@ -474,7 +470,6 @@
     <string name="battery_bar_animate_title">Animasi Pengecasan</string>
     <string name="battery_bar_animate_summary">Animasi pengisian dapat mengakibatkan pengalaman pengguna yang buruk. Aktifkan sesuai kebijaksanaan Anda sendiri.</string>
     <string name="battery_bar_hide">Sembunyikan</string>
-    <string name="battery_bar_statusbar">Status bar</string>
     <string name="battery_bar_topnav">Bagian atas navbar</string>
     <string name="battery_bar_bottomnav">Bagian bawah navbar</string>
     <string name="battery_bar_reg">Regular</string>
@@ -637,6 +632,19 @@
     <string name="qs_running_services_title">Ikon Layanan Berjalan</string>
     <string name="qs_running_services_summary">Aktifkan ikon layanan berjalan pada bagian bawah</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Pixel Cerdas</string>
+    <string name="smart_pixels_summary">Sesuaikan piksel pintar</string>
+    <string name="smart_pixels_enable_title">Hidupkan Piksel Cerdas</string>
+    <string name="smart_pixels_enable_summary">Mematikan beberapa piksel untuk mengurangi konsumsi daya</string>
+    <string name="smart_pixels_on_power_save_title">Hidupkan-otomatis pada penghemat baterai</string>
+    <string name="smart_pixels_on_power_save_summary">Aktifkan Piksel Cerdas saat penghemat baterai diaktifkan</string>
+    <string name="smart_pixels_percent">Persentase piksel untuk dimatikan</string>
     <!-- Pulse -->
     <!-- Per App aspect Ratio -->
+    <!-- Navbar Animation -->
+    <!-- Force expanded notifications -->
+    <!-- VoWiFi icon -->
+    <!-- Switch Styles -->
+    <!-- SuperiorOS logo -->
+    <!-- Launch music player when headset is connected -->
 </resources>

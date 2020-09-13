@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-19 The Superior OS Project
+    Copyright © 2018-20 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -122,4 +122,10 @@
     <!-- Smart Pixels -->
     <!-- Pulse -->
     <!-- Per App aspect Ratio -->
+    <!-- Navbar Animation -->
+    <!-- Force expanded notifications -->
+    <!-- VoWiFi icon -->
+    <!-- Switch Styles -->
+    <!-- SuperiorOS logo -->
+    <!-- Launch music player when headset is connected -->
 </resources>

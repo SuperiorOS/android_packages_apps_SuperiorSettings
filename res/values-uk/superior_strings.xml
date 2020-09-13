@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-19 The Superior OS Project
+    Copyright © 2018-20 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -20,19 +20,38 @@
     <!-- ROM Info -->
     <string name="superior_about_info">Про проект</string>
     <string name="superior_about_info_summary_title">Про команду</string>
+    <string name="superior_about_info_summary">Superior OS - це кастомна прошивка на основі AOSP з деякими додатковими функціями. Прошивка має намір забезпечити продуктивність, плавність, хорошу автономність та більшу багатозадачність.
+Український переклад: AlexPechkin (Олександр Печковський).</string>
     <!-- Dev Info -->
     <string name="devs_header">Розробники</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
-    <string name="dev1_description">Засновник/Розробник</string>
+    <string name="dev_1_git">sweeto143</string>
+    <string name="dev1_description">Розробник</string>
     <string name="dev_2">Джаянт Дешмух</string>
-    <string name="dev2_description">Основна команда/Розробник</string>
+    <string name="dev_2_git">Jayant-Deshmukh</string>
+    <string name="dev2_description">Головний розробник</string>
     <string name="dev_3">Pavan Patel</string>
-    <string name="dev3_description">Основна команда/Розробник</string>
+    <string name="dev_3_git">Advertpavan</string>
+    <string name="dev3_description">Головний дизайнер</string>
     <string name="dev_4">Свапніл Соні</string>
+    <string name="dev_4_git">SwapnilSoni1999</string>
     <string name="dev4_description">Веб-розробник</string>
+    <string name="dev_5">Subins Mani</string>
+    <string name="dev_5_git">Subinsmani</string>
+    <string name="dev5_description">Керування сервером</string>
+    <string name="dev_6">Rashed Sahaji</string>
+    <string name="dev_6_git">rashedsahaji</string>
+    <string name="dev6_description">Менеджер пристроїв</string>
+    <string name="dev_7">Shreehari Vaasistha</string>
+    <string name="dev_7_git">ShreehariVaasishta</string>
+    <string name="dev7_description">Модератор проекту</string>
+    <string name="dev_8">Arun Teltia</string>
+    <string name="dev_8_git">ArunTeltia</string>
+    <string name="dev8_description">Веб-розробник</string>
     <!-- Mentions -->
     <string name="mentions_header">Почесні згадки</string>
     <string name="mentions_sam">Sam Grande</string>
+    <string name="mentions_sam_git">SamGrande</string>
     <string name="mentions_sam_description">Дизайнер</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">Розробники</string>
@@ -54,6 +73,8 @@
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_riva">Redmi 5A</string>
     <string name="device_riva_description">riva\nNick</string>
+    <string name="device_rolex">Redmi 4A</string>
+    <string name="device_rolex_description">rolex\nkoito97</string>
     <string name="device_bacon">OnePlus One</string>
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
     <string name="device_ef63">Vega Iron 2</string>
@@ -64,8 +85,6 @@
     <string name="device_santoni_description">santoni\nBikram Mukherjee</string>
     <string name="device_whyred">Redmi Note 5</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_tulip">Redmi Note 6 Pro</string>
-    <string name="device_tulip_description">tulip\nPavan Patel</string>
     <string name="device_lavender">Redmi Note 7</string>
     <string name="device_lavender_description">lavender\nJimgsey</string>
     <string name="device_X01BD">ZenFone Max Pro M2</string>
@@ -88,14 +107,10 @@
     <string name="device_greatlte_description">greatlte\nHaSSaN</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
-    <string name="device_RMX1921">Realme XT</string>
-    <string name="device_RMX1921_description">RMX1921\nAmrish</string>
-    <string name="device_raphael">Redmi K20 Pro</string>
-    <string name="device_raphael_description">raphael\nHSgod</string>
-    <string name="device_x2">Realme X2</string>
-    <string name="device_x2_description">RMX199X\nShubham Pawar</string>
     <string name="device_ginkgo">Redmi Note 8</string>
     <string name="device_ginkgo_description">ginkgo\nMADMAX</string>
+    <string name="device_beryllium">Poco F1</string>
+    <string name="device_beryllium_description">beryllium\nDeadpool1704</string>
     <!-- Categories -->
     <string name="button_title">Кнопки</string>
     <string name="gestures_title">Жести</string>
@@ -276,6 +291,7 @@
     <string name="volte_icon_hd">Значок HD</string>
     <string name="volte_icon_hd2">HD CAF</string>
     <string name="volte_icon_miui">MIUI 11</string>
+    <string name="volte_icon_oos10">OOS 10</string>
     <!-- AOSP Gestures -->
     <string name="gesture_preference_superior">Жести AOSP</string>
     <!-- Lock screen cover art -->
@@ -487,7 +503,9 @@
     <string name="battery_bar_animate_title">Анімація при заряджанні</string>
     <string name="battery_bar_animate_summary">Анімація зарядки може погіршити продуктивність. Включайте на власний розсуд.</string>
     <string name="battery_bar_hide">Приховати</string>
-    <string name="battery_bar_statusbar">Рядок стану</string>
+    <string name="battery_bar_statusbar_top">Зверху рядка стану</string>
+    <string name="battery_bar_statusbar_bot">Знизу рядка стану</string>
+    <string name="battery_bar_qs_header">Заголовок швидких налаштувань</string>
     <string name="battery_bar_topnav">Зверху панелі навігації</string>
     <string name="battery_bar_bottomnav">Знизу панелі навігації</string>
     <string name="battery_bar_reg">Звичайний</string>
@@ -569,6 +587,7 @@
     <string name="network_traffic_layout">Макет активності</string>
     <string name="network_traffic_layout_h">Горизонтальний</string>
     <string name="network_traffic_layout_v">Вертикальний</string>
+    <string name="net_traffic_font">Шрифти</string>
     <!-- Custom carrier label and position -->
     <string name="carrier_label_settings_title">Назва оператора</string>
     <string name="carrier_label_settings_summary">Власна назва оператора</string>
@@ -757,5 +776,61 @@
     <string name="pulse_color_auto">Обкладинка альбому</string>
     <string name="pulse_color_chooser">Обрати колір</string>
     <string name="smoothing_enabled_title">Включити згладжування</string>
+    <string name="smoothing_enabled_summary">Кожна панель анімована плавніше</string>
+    <string name="pulse_advanced_category">Розширені</string>
+    <string name="pulse_legacy_mode_advanced_category">Налаштування режиму згасаючих блоків</string>
+    <string name="pulse_custom_fudge_factor">Рівень чутливості</string>
+    <string name="lavamp_speed_title">Швидкість лавової лампи</string>
+    <string name="pulse_solid_units_count">Кількість суцільних ліній</string>
+    <string name="pulse_solid_lines_count">Кількість суцільних ліній</string>
+    <string name="pulse_solid_units_opacity">Прозорість суцільних ліній</string>
+    <string name="pulse_solid_dimen_category">Налаштування режиму суцільних ліній</string>
+    <string name="pulse_custom_dimen">Ширина панелі</string>
+    <string name="pulse_custom_div">Відстань між панелями</string>
+    <string name="pulse_filled_block_size">Розмір блоку</string>
+    <string name="pulse_empty_block_size">Відстань між блоками</string>
     <!-- Per App aspect Ratio -->
+    <string name="aspect_ratio_apps_enabled_title">Увімкнути масштабування</string>
+    <string name="aspect_ratio_apps_enabled_summary">Дозволити використання застарілих програм у повноекранному режимі</string>
+    <string name="aspect_ratio_apps_list_title">Додатки, яким дозволено використовувати масштабування</string>
+    <string name="aspect_ratio_category_title">Масштабування старих додатків</string>
+    <string name="aspect_ratio_apps_info">Додатки потрібно перезапустити після застосування змін</string>
+    <string name="action_save">Зберегти</string>
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Анімація Pixel</string>
+    <string name="pixel_navbar_anim_summary">Перемикач анімації кнопки \"Додому\"</string>
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Примусово розгортати сповіщення</string>
+    <string name="force_expanded_notifications_summary">Лише для додатків, які підтримують розширені сповіщення</string>
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Значок VoWiFi</string>
+    <string name="vowifi_icon_enabled">Значок VoWiFi увімкнено</string>
+    <string name="vowifi_icon_disabled">Значок VoWiFi вимкнено</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi замість значка VoLTE</string>
+    <string name="vowifi_icon_style_title">Стиль значка VoWiFi</string>
+    <string name="vowifi_icon_default">Типовий значок</string>
+    <string name="vowifi_icon_emui">Значок EMUI</string>
+    <string name="vowifi_icon_asus">Значок Asus</string>
+    <string name="vowifi_icon_oneplus">Значок OOS</string>
+    <string name="vowifi_icon_moto">Значок Motorola</string>
+    <string name="vowifi_icon_simple1">Простий значок 1</string>
+    <string name="vowifi_icon_simple2">Простий значок 2</string>
+    <string name="vowifi_icon_simple3">Простий значок 3</string>
+    <!-- Switch Styles -->
+    <string name="switch_style_title">Перемкнути стиль</string>
+    <string name="switch_default">За замовчуванням</string>
+    <string name="switch_oneplus">OnePlus</string>
+    <string name="switch_narrow">Вузький</string>
+    <string name="switch_contained">Зміщений</string>
+    <string name="switch_telegram">Telegram</string>
+    <string name="switch_md2">MD2</string>
+    <string name="switch_retro">Ретро</string>
+    <string name="switch_stockish">Стоковий</string>
+    <!-- SuperiorOS logo -->
+    <string name="superior_logo_title">Логотип SuperiorOS</string>
+    <string name="superior_logo_summary">Додати логотип фенікса в рядок стану</string>
+    <string name="status_bar_logo_style_title">Користувацький стиль логотипа</string>
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Запуск музичного додатку при підключенні гарнітури</string>
+    <string name="headset_connect_player_summary">Запускати програвач при під’єднанні навушників</string>
 </resources>

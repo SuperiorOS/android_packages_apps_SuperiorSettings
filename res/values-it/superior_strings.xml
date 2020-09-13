@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-19 The Superior OS Project
+    Copyright © 2018-20 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -25,13 +25,11 @@
     <string name="devs_header">Sviluppatori</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev_1_git">sweeto143</string>
-    <string name="dev1_description">Fondatore/Sviluppatore</string>
+    <string name="dev1_description">Sviluppatore</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev_2_git">Jayant-Deshmukh</string>
-    <string name="dev2_description">Team Principale/Sviluppatore</string>
     <string name="dev_3">Pavan Patel</string>
     <string name="dev_3_git">Advertpavan</string>
-    <string name="dev3_description">Core Team/Designer</string>
     <string name="dev_4">Swapnil Soni</string>
     <string name="dev_4_git">SwapnilSoni1999</string>
     <string name="dev4_description">Web Developer</string>
@@ -81,8 +79,6 @@
     <string name="device_santoni_description">santoni\nBikram Mukherjee</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_tulip">Redmi Note 6 Pro</string>
-    <string name="device_tulip_description">tulip\nPavan Patel</string>
     <string name="device_lavender">Redmi Note 7</string>
     <string name="device_lavender_description">lavender\nJimgsey</string>
     <string name="device_X01BD">ZenFone Max Pro M2</string>
@@ -105,14 +101,9 @@
     <string name="device_greatlte_description">greatlte\nHaSSaN</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
-    <string name="device_RMX1921">Realme XT</string>
-    <string name="device_RMX1921_description">RMX1921\nAmrish</string>
-    <string name="device_raphael">Redmi K20 Pro</string>
-    <string name="device_raphael_description">raphael\nHSgod</string>
-    <string name="device_x2">Realme X2</string>
-    <string name="device_x2_description">RMX199X\nShubham Pawar</string>
     <string name="device_ginkgo">Redmi Note 8</string>
     <string name="device_ginkgo_description">ginkgo\nMADMAX</string>
+    <string name="device_beryllium_description">beryllium\nDeadpool1704</string>
     <!-- Categories -->
     <string name="button_title">Pulsanti</string>
     <string name="gestures_title">Gesti</string>
@@ -505,7 +496,6 @@
     <string name="battery_bar_animate_title">Animazione di ricarica</string>
     <string name="battery_bar_animate_summary">L\'animazione di ricarica può risultare scadente. Sicuro di volerla abilitare.</string>
     <string name="battery_bar_hide">Nascondi</string>
-    <string name="battery_bar_statusbar">Barra di stato</string>
     <string name="battery_bar_topnav">Sopra la barra di navigazione</string>
     <string name="battery_bar_bottomnav">Sotto la barra di navigazione</string>
     <string name="battery_bar_reg">Lato sinistro</string>
@@ -795,4 +785,24 @@
     <string name="aspect_ratio_category_title">Ridimensionamento app legacy</string>
     <string name="aspect_ratio_apps_info">Le applicazioni devono essere riavviate dopo le modifiche</string>
     <string name="action_save">Salva</string>
+    <!-- Navbar Animation -->
+    <!-- Force expanded notifications -->
+    <!-- VoWiFi icon -->
+    <!-- Switch Styles -->
+    <string name="switch_style_title">Cambia Stile</string>
+    <string name="switch_default">Predefinito</string>
+    <string name="switch_oneplus">OnePlus</string>
+    <string name="switch_narrow">Sottile</string>
+    <string name="switch_contained">Contenuto</string>
+    <string name="switch_telegram">Telegram</string>
+    <string name="switch_md2">MD2</string>
+    <string name="switch_retro">Retro</string>
+    <string name="switch_stockish">Fornitore</string>
+    <!-- SuperiorOS logo -->
+    <string name="superior_logo_title">Logo SuperiorOS</string>
+    <string name="superior_logo_summary">Aggiungi il nostro logo phoenix sulla barra di stato</string>
+    <string name="status_bar_logo_style_title">Stile logo personalizzato</string>
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Avvia l\'app musicale quando vengono collegate le cuffie</string>
+    <string name="headset_connect_player_summary">Avvia il lettore musicale predefinito quando vengono connesse le cuffie</string>
 </resources>

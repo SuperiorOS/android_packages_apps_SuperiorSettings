@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-19 The Superior OS Project
+    Copyright © 2018-20 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -20,19 +20,37 @@
     <!-- ROM Info -->
     <string name="superior_about_info">プロジェクトについて</string>
     <string name="superior_about_info_summary_title">チームについて</string>
+    <string name="superior_about_info_summary">Superior OS はいくつかの追加機能を備えた AOSP を元にしたカスタム ROM です。 ROM は高速な性能、滑らかさ、優れたバッテリー節約、および優れたマルチタスクを提供することを考慮しています。</string>
     <!-- Dev Info -->
     <string name="devs_header">開発者</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
-    <string name="dev1_description">設立者/開発者</string>
+    <string name="dev_1_git">sweeto143</string>
+    <string name="dev1_description">開発者</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev2_description">コアチーム/開発者</string>
+    <string name="dev_2_git">Jayant-Deshmukh</string>
+    <string name="dev2_description">リード開発者</string>
     <string name="dev_3">Pavan Patel</string>
-    <string name="dev3_description">コアチーム/デザイナー</string>
+    <string name="dev_3_git">Advertpavan</string>
+    <string name="dev3_description">リードデザイナー</string>
     <string name="dev_4">Swapnil Soni</string>
+    <string name="dev_4_git">SwapnilSoni1999</string>
     <string name="dev4_description">Web 開発者</string>
+    <string name="dev_5">Subins Mani</string>
+    <string name="dev_5_git">Subinsmani</string>
+    <string name="dev5_description">サーバー管理者</string>
+    <string name="dev_6">Rashed Sahaji</string>
+    <string name="dev_6_git">rashedsahaji</string>
+    <string name="dev6_description">デバイスマネージャー</string>
+    <string name="dev_7">Shreehari Vaasistha</string>
+    <string name="dev_7_git">ShreehariVaasishta</string>
+    <string name="dev7_description">プロジェクトモデレーター</string>
+    <string name="dev_8">Arun Teltia</string>
+    <string name="dev_8_git">ArunTeltia</string>
+    <string name="dev8_description">Web 開発者</string>
     <!-- Mentions -->
     <string name="mentions_header">スペシャルサンクス</string>
     <string name="mentions_sam">Sam Grande</string>
+    <string name="mentions_sam_git">SamGrande</string>
     <string name="mentions_sam_description">デザイナー</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">メンテナ</string>
@@ -54,6 +72,8 @@
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_riva">Redmi 5A</string>
     <string name="device_riva_description">riva\nNick</string>
+    <string name="device_rolex">Redmi 4A</string>
+    <string name="device_rolex_description">rolex\nkoito97</string>
     <string name="device_bacon">OnePlus One</string>
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
     <string name="device_ef63">Vega Iron 2</string>
@@ -64,8 +84,6 @@
     <string name="device_santoni_description">santoni\nBikram Mukherjee</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_tulip">Redmi Note 6 Pro</string>
-    <string name="device_tulip_description">tulip\nPavan Patel</string>
     <string name="device_lavender">Redmi Note 7</string>
     <string name="device_lavender_description">lavender\nJimgsey</string>
     <string name="device_X01BD">ZenFone Max Pro M2</string>
@@ -84,12 +102,14 @@
     <string name="device_hltekor_description">hltekor\nAmin Fauzi</string>
     <string name="device_hltetmo">Galaxy Note 3 (900R4/T/V/W8)</string>
     <string name="device_hltetmo_description">hltetmo\nAmin Fauzi</string>
+    <string name="device_greatlte">Galaxy Note 8 (Exynos)</string>
+    <string name="device_greatlte_description">greatlte\nHaSSaN</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
-    <string name="device_RMX1921">Realme XT</string>
-    <string name="device_RMX1921_description">RMX1921\nAmrish</string>
-    <string name="device_raphael">Redmi K20 Pro</string>
-    <string name="device_raphael_description">raphael\nHSgod</string>
+    <string name="device_ginkgo">Redmi Note 8</string>
+    <string name="device_ginkgo_description">ginkgo\nMADMAX</string>
+    <string name="device_beryllium">Poco F1</string>
+    <string name="device_beryllium_description">beryllium\nDeadpool1704</string>
     <!-- Categories -->
     <string name="button_title">ボタン</string>
     <string name="gestures_title">ジェスチャー</string>
@@ -270,6 +290,7 @@
     <string name="volte_icon_hd">HD アイコン</string>
     <string name="volte_icon_hd2">HD CAF</string>
     <string name="volte_icon_miui">MIUI 11</string>
+    <string name="volte_icon_oos10">OOS 10</string>
     <!-- AOSP Gestures -->
     <string name="gesture_preference_superior">AOSP ジェスチャー</string>
     <!-- Lock screen cover art -->
@@ -481,7 +502,9 @@
     <string name="battery_bar_animate_title">充電時のアニメーション</string>
     <string name="battery_bar_animate_summary">有効にすると動作が遅くなる可能性があります。ご自身で判断して下さい。</string>
     <string name="battery_bar_hide">非表示</string>
-    <string name="battery_bar_statusbar">ステータスバー</string>
+    <string name="battery_bar_statusbar_top">ステータスバー上部</string>
+    <string name="battery_bar_statusbar_bot">ステータスバー下部</string>
+    <string name="battery_bar_qs_header">クイック設定ヘッダー</string>
     <string name="battery_bar_topnav">ナビゲーションバー上部</string>
     <string name="battery_bar_bottomnav">ナビゲーションバー下部</string>
     <string name="battery_bar_reg">標準</string>
@@ -534,7 +557,7 @@
     <string name="fod_recog_animation_summary">指紋認識中にアニメーションを表示する</string>
     <string name="fod_recog_animation_effect_title">認識アニメーション効果</string>
     <!-- OOS Clear all button -->
-    <string name="enable_clear_all_button">OOSスタイルの全て削除ボタン</string>
+    <string name="enable_clear_all_button">OOS スタイルの全て削除ボタン</string>
     <string name="enable_clear_all_button_summary">クイック設定に既定の文字の代わりに通知を全て削除するボタンを表示する</string>
     <!-- Ambient visualizer -->
     <string name="ambient_visualizer_title">アンビエントビジュアライザー</string>
@@ -563,6 +586,7 @@
     <string name="network_traffic_layout">アクティビティレイアウト</string>
     <string name="network_traffic_layout_h">横</string>
     <string name="network_traffic_layout_v">縦</string>
+    <string name="net_traffic_font">フォント</string>
     <!-- Custom carrier label and position -->
     <string name="carrier_label_settings_title">キャリアラベル</string>
     <string name="carrier_label_settings_summary">キャリアラベルをカスタマイズする</string>
@@ -717,6 +741,95 @@
     <string name="qs_running_services_title">実行中のサービスアイコン</string>
     <string name="qs_running_services_summary">フッターの実行中のサービスのアイコンを有効化する</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">スマートピクセル</string>
+    <string name="smart_pixels_summary">スマートピクセルを編集する</string>
+    <string name="smart_pixels_enable_title">スマートピクセルを有効化</string>
+    <string name="smart_pixels_enable_summary">消費電力を削減するため画素を遮断する</string>
+    <string name="smart_pixels_on_power_save_title">自動有効</string>
+    <string name="smart_pixels_on_power_save_summary">バッテリーセーバー起動時は自動で有効化する</string>
+    <string name="smart_pixels_percent">無効にする画素の割合</string>
+    <string name="smart_pixels_shift">使う画素を遷移させ画面の焼付きを避ける</string>
+    <string name="smart_pixels_shift_times_15s">15秒</string>
+    <string name="smart_pixels_shift_times_30s">30秒</string>
+    <string name="smart_pixels_shift_times_1min">1分</string>
+    <string name="smart_pixels_shift_times_2min">2分</string>
+    <string name="smart_pixels_shift_times_5min">5分</string>
+    <string name="smart_pixels_shift_times_10min">10分</string>
+    <string name="smart_pixels_shift_times_20min">20分</string>
+    <string name="smart_pixels_shift_times_30min">30分</string>
+    <string name="smart_pixels_shift_times_1h">1時間</string>
     <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">端末のスピーカーで聴く時に一部のオーディオソースで Pulse が機能しません</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">ナビゲーションバーの音楽グラフィックイコライザー</string>
+    <string name="show_pulse_title">Pulse を表示</string>
+    <string name="show_pulse_summary">ナビゲーションバー上の音楽グラフィックイコライザー</string>
+    <string name="pulse_render_mode_title">レンダリングモード</string>
+    <string name="pulse_render_mode_fading_bars">フェーディングブロック</string>
+    <string name="pulse_render_mode_solid_lines">ソリッドライン</string>
+    <string name="pulse_color">カラー</string>
+    <string name="pulse_color_mode">カラーモード</string>
+    <string name="pulse_color_accent">アクセント</string>
+    <string name="pulse_color_custom">カスタム</string>
+    <string name="pulse_color_lava_lamp">ラーヴァランプ</string>
+    <string name="pulse_color_auto">アルバムアート</string>
+    <string name="pulse_color_chooser">色の選択</string>
+    <string name="smoothing_enabled_title">スムージングの有効化</string>
+    <string name="smoothing_enabled_summary">どちらのバーもよりスムーズに表示されます</string>
+    <string name="pulse_advanced_category">高度な設定</string>
+    <string name="pulse_legacy_mode_advanced_category">フェーディングブロックの設定</string>
+    <string name="pulse_custom_fudge_factor">感度レベル</string>
+    <string name="lavamp_speed_title">ラーヴァランプ速度</string>
+    <string name="pulse_solid_units_count">ソリッドラインの数</string>
+    <string name="pulse_solid_lines_count">ソリッドラインの数</string>
+    <string name="pulse_solid_units_opacity">ソリッドラインの不透明度</string>
+    <string name="pulse_solid_dimen_category">ソリッドラインの設定</string>
+    <string name="pulse_custom_dimen">バーの幅</string>
+    <string name="pulse_custom_div">バーの間隔</string>
+    <string name="pulse_filled_block_size">ブロックの大きさ</string>
+    <string name="pulse_empty_block_size">ブロックの間隔</string>
     <!-- Per App aspect Ratio -->
+    <string name="aspect_ratio_apps_enabled_title">スケーリングの有効化</string>
+    <string name="aspect_ratio_apps_enabled_summary">従来のアプリの全画面の使用を許可する</string>
+    <string name="aspect_ratio_apps_list_title">アプリのスケーリング使用を許可</string>
+    <string name="aspect_ratio_category_title">従来のアプリのスケーリング</string>
+    <string name="aspect_ratio_apps_info">変更後アプリを再起動させる必要があります</string>
+    <string name="action_save">保存</string>
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Pixel アニメーション</string>
+    <string name="pixel_navbar_anim_summary">ホームボタンアニメーションを切り替える</string>
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">通知を常に展開</string>
+    <string name="force_expanded_notifications_summary">通知の展開をサポートしているアプリでのみ有効です</string>
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">VoWiFi アイコン</string>
+    <string name="vowifi_icon_enabled">VoWiFi アイコンは有効です</string>
+    <string name="vowifi_icon_disabled">VoWiFi アイコンは無効です</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoLTE の代わりの VoWiFi</string>
+    <string name="vowifi_icon_style_title">VoWiFi アイコンスタイル</string>
+    <string name="vowifi_icon_default">既定のアイコン</string>
+    <string name="vowifi_icon_emui">EMUI アイコン</string>
+    <string name="vowifi_icon_asus">Asusアイコン</string>
+    <string name="vowifi_icon_oneplus">OOS アイコン</string>
+    <string name="vowifi_icon_moto">Motorola アイコン</string>
+    <string name="vowifi_icon_simple1">シンプル1アイコン</string>
+    <string name="vowifi_icon_simple2">シンプル2アイコン</string>
+    <string name="vowifi_icon_simple3">シンプル3アイコン</string>
+    <!-- Switch Styles -->
+    <string name="switch_style_title">スタイルの変更</string>
+    <string name="switch_default">既定</string>
+    <string name="switch_oneplus">OnePlus</string>
+    <string name="switch_narrow">狭い</string>
+    <string name="switch_contained">含有</string>
+    <string name="switch_telegram">Telegram</string>
+    <string name="switch_md2">MD2</string>
+    <string name="switch_retro">レトロ</string>
+    <string name="switch_stockish">スコティッシュ</string>
+    <!-- SuperiorOS logo -->
+    <string name="superior_logo_title">SuperiorOS ロゴ</string>
+    <string name="superior_logo_summary">ステータスバーにフェニックスのロゴを追加する</string>
+    <string name="status_bar_logo_style_title">カスタムロゴのスタイル</string>
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">ヘッドセット接続時に音楽アプリ起動</string>
+    <string name="headset_connect_player_summary">ヘッドセット接続時にデフォルトの音楽アプリを起動する</string>
 </resources>

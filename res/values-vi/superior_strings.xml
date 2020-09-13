@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-19 The Superior OS Project
+    Copyright © 2018-20 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -23,7 +23,14 @@
     <string name="superior_about_info_summary">Hệ điều Superior OS là ROM tùy chỉnh dựa trên AOSP với một số tính năng bổ sung. ROM dự định cung cấp hiệu suất tốc độ ánh sáng, độ mượt mà, sao lưu pin tốt và đa tác vụ tốt hơn.</string>
     <!-- Dev Info -->
     <string name="devs_header">Nhà phát triển</string>
+    <string name="dev1_description">Nhà phát triển</string>
+    <string name="dev2_description">Nhà phát triển chính</string>
+    <string name="dev3_description">Thiết kế chính</string>
     <string name="dev4_description">Phát triển web</string>
+    <string name="dev5_description">Quản lý máy chủ</string>
+    <string name="dev6_description">Quản Lý Thiết Bị</string>
+    <string name="dev7_description">Người điều hành dự án</string>
+    <string name="dev8_description">Phát triển web</string>
     <!-- Mentions -->
     <string name="mentions_header">Những đề cập đáng vinh danh</string>
     <string name="mentions_sam_description">Thiết kế</string>
@@ -415,7 +422,9 @@
     <string name="battery_bar_animate_title">Hoạt ảnh sạc</string>
     <string name="battery_bar_animate_summary">Các hoạt ảnh khi sạc có thể dẫn đến một trải nghiệm không tốt cho người dùng. Bật tính năng theo ý riêng của bạn.</string>
     <string name="battery_bar_hide">Ẩn</string>
-    <string name="battery_bar_statusbar">Thanh trạng thái</string>
+    <string name="battery_bar_statusbar_top">Trên đầu thanh trạng thái</string>
+    <string name="battery_bar_statusbar_bot">Phía dưới thanh trạng thái</string>
+    <string name="battery_bar_qs_header">Trên bảng cài đặt nhanh</string>
     <string name="battery_bar_topnav">Phía trên thanh điều hướng</string>
     <string name="battery_bar_bottomnav">Phía dưới thanh điều hướng</string>
     <string name="battery_bar_reg">Mặc định</string>
@@ -497,6 +506,7 @@
     <string name="network_traffic_layout">Bố cục hoạt động</string>
     <string name="network_traffic_layout_h">Chiều ngang</string>
     <string name="network_traffic_layout_v">Theo chiều dọc</string>
+    <string name="net_traffic_font">Phông chữ</string>
     <!-- Custom carrier label and position -->
     <string name="carrier_label_settings_title">Tên nhà mạng</string>
     <string name="carrier_label_settings_summary">Tùy chỉnh tên nhà mạng</string>
@@ -669,4 +679,28 @@
     <string name="aspect_ratio_category_title">Mở rộng ứng dụng cũ</string>
     <string name="aspect_ratio_apps_info">Các ứng dụng cần được khởi động lại sau khi thay đổi</string>
     <string name="action_save">Lưu</string>
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Hiệu ứng Pixel</string>
+    <string name="pixel_navbar_anim_summary">Hiệu ứng khi bấm phím home</string>
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Buộc mở rộng thông báo</string>
+    <string name="force_expanded_notifications_summary">Chỉ khả dụng cho các ứng dụng hỗ trợ mở rộng thông báo</string>
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Biểu tượng VoWifi</string>
+    <string name="vowifi_icon_enabled">Bật biểu tượng VoWiFi</string>
+    <string name="vowifi_icon_disabled">Tắt biểu tượng VoWiFi</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi thay vì VoLTE</string>
+    <string name="vowifi_icon_style_title">Kiểu biểu tượng VoWiFi</string>
+    <string name="vowifi_icon_default">Biểu tượng Mặc định</string>
+    <!-- Switch Styles -->
+    <string name="switch_style_title">Kiểu chuyển đổi</string>
+    <string name="switch_default">Mặc định</string>
+    <string name="switch_narrow">Thu hẹp</string>
+    <string name="switch_retro">Hoài cổ</string>
+    <!-- SuperiorOS logo -->
+    <string name="superior_logo_summary">Thêm biểu tượng Phoenix lên thanh t.thái</string>
+    <string name="status_bar_logo_style_title">Logo tùy chỉnh</string>
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Khởi chạy ứng dụng nghe nhạc khi kết nối tai nghe</string>
+    <string name="headset_connect_player_summary">Mở ứng dụng nhạc mặc định khi tai nghe được kết nối</string>
 </resources>

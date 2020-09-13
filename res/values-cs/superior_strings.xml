@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-19 The Superior OS Project
+    Copyright © 2018-20 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -25,13 +25,13 @@
     <string name="devs_header">Vývojáři</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev_1_git">sweeto143</string>
-    <string name="dev1_description">Zakladatel/vývojář</string>
+    <string name="dev1_description">Vývojář</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev_2_git">Jayant-Deshmukh</string>
-    <string name="dev2_description">Hlavní tým/vývojář</string>
+    <string name="dev2_description">Hlavní vývojář</string>
     <string name="dev_3">Pavan Patel</string>
     <string name="dev_3_git">Advertpavan</string>
-    <string name="dev3_description">Hlavní tým/designer</string>
+    <string name="dev3_description">Hlavní designer</string>
     <string name="dev_4">Swapnil Soni</string>
     <string name="dev_4_git">SwapnilSoni1999</string>
     <string name="dev4_description">Vývojář webu</string>
@@ -44,6 +44,9 @@
     <string name="dev_7">Shreehari Vaasistha</string>
     <string name="dev_7_git">ShreehariVaasishta</string>
     <string name="dev7_description">Moderátor projektu</string>
+    <string name="dev_8">Arun Teltia</string>
+    <string name="dev_8_git">ArunTeltia</string>
+    <string name="dev8_description">Vývojář webu</string>
     <!-- Mentions -->
     <string name="mentions_header">Čestná uznání</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -81,8 +84,6 @@
     <string name="device_santoni_description">santoni\nBikram Mukherjee</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_tulip">Redmi Note 6 Pro</string>
-    <string name="device_tulip_description">tulip\nPavan Patel</string>
     <string name="device_lavender">Redmi Note 7</string>
     <string name="device_lavender_description">lavender\nJimgsey</string>
     <string name="device_X01BD">ZenFone Max Pro M2</string>
@@ -105,14 +106,10 @@
     <string name="device_greatlte_description">greatlte\nHaSSaN</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
-    <string name="device_RMX1921">Realme XT</string>
-    <string name="device_RMX1921_description">RMX1921\nAmrish</string>
-    <string name="device_raphael">Redmi K20 Pro</string>
-    <string name="device_raphael_description">raphael\nHSgod</string>
-    <string name="device_x2">Realme X2</string>
-    <string name="device_x2_description">RMX199X\nShubham Pawar</string>
     <string name="device_ginkgo">Redmi Note 8</string>
     <string name="device_ginkgo_description">ginkgo\nMADMAX</string>
+    <string name="device_beryllium">Poco F1</string>
+    <string name="device_beryllium_description">beryllium\nDeadpool1704</string>
     <!-- Categories -->
     <string name="button_title">Tlačítka</string>
     <string name="gestures_title">Gesta</string>
@@ -505,7 +502,9 @@
     <string name="battery_bar_animate_title">Animace nabíjení</string>
     <string name="battery_bar_animate_summary">Animace při nabíjení může mít za následek špatné uživatelské zážitky. Povolení je na vlastním uvážení.</string>
     <string name="battery_bar_hide">Skrýt</string>
-    <string name="battery_bar_statusbar">Stavový řádek</string>
+    <string name="battery_bar_statusbar_top">V horní části stavového řádku</string>
+    <string name="battery_bar_statusbar_bot">V dolní části stavového řádku</string>
+    <string name="battery_bar_qs_header">Záhlaví QS</string>
     <string name="battery_bar_topnav">V horní části navigačního panelu</string>
     <string name="battery_bar_bottomnav">V dolní části navigačního panelu</string>
     <string name="battery_bar_reg">Klasický</string>
@@ -587,6 +586,7 @@
     <string name="network_traffic_layout">Vrstva aktivity</string>
     <string name="network_traffic_layout_h">Horizontální</string>
     <string name="network_traffic_layout_v">Vertikální</string>
+    <string name="net_traffic_font">Písma</string>
     <!-- Custom carrier label and position -->
     <string name="carrier_label_settings_title">Název operátora</string>
     <string name="carrier_label_settings_summary">Přizpůsobit název operátora</string>
@@ -795,4 +795,41 @@
     <string name="aspect_ratio_category_title">Změna měřítka starších aplikací</string>
     <string name="aspect_ratio_apps_info">Po změnách je třeba aplikace restartovat</string>
     <string name="action_save">Uložit</string>
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Animace Pixel</string>
+    <string name="pixel_navbar_anim_summary">Přepínat animaci tlačítka Domů</string>
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Vynutit rozšířená oznámení</string>
+    <string name="force_expanded_notifications_summary">K dispozici pouze pro aplikace, které podporují rozšířená oznámení</string>
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Ikona VoWiFi</string>
+    <string name="vowifi_icon_enabled">Ikona VoWiFi zapnuta</string>
+    <string name="vowifi_icon_disabled">Ikona VoWiFi vypnuta</string>
+    <string name="vowifi_icon_enabled_volte_disabled">Ikona VoWiFi namísto VoLTE</string>
+    <string name="vowifi_icon_style_title">Styl ikony VoWiFi</string>
+    <string name="vowifi_icon_default">Výchozí ikona</string>
+    <string name="vowifi_icon_emui">Ikona EMUI</string>
+    <string name="vowifi_icon_asus">Ikona Asus</string>
+    <string name="vowifi_icon_oneplus">Ikona OOS</string>
+    <string name="vowifi_icon_moto">Ikona Motorola</string>
+    <string name="vowifi_icon_simple1">Ikona Simple1</string>
+    <string name="vowifi_icon_simple2">Ikona Simple2</string>
+    <string name="vowifi_icon_simple3">Ikona Simple3</string>
+    <!-- Switch Styles -->
+    <string name="switch_style_title">Styl přepínače</string>
+    <string name="switch_default">Výchozí</string>
+    <string name="switch_oneplus">OnePlus</string>
+    <string name="switch_narrow">Úzký</string>
+    <string name="switch_contained">Obsažený</string>
+    <string name="switch_telegram">Telegram</string>
+    <string name="switch_md2">MD2</string>
+    <string name="switch_retro">Retro</string>
+    <string name="switch_stockish">Výchozí</string>
+    <!-- SuperiorOS logo -->
+    <string name="superior_logo_title">Logo SuperiorOS</string>
+    <string name="superior_logo_summary">Přidejte naše logo fénixe na stavový řádek</string>
+    <string name="status_bar_logo_style_title">Vlastní styl loga</string>
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Spustit aplikaci pro přehrávání hudby při připojení sluchátek</string>
+    <string name="headset_connect_player_summary">Spustit zvolenou výchozí aplikaci, pokud byla připojena sluchátka</string>
 </resources>

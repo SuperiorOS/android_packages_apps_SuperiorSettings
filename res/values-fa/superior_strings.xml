@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-19 The Superior OS Project
+    Copyright © 2018-20 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -23,11 +23,8 @@
     <!-- Dev Info -->
     <string name="devs_header">توسعه دهندگان</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
-    <string name="dev1_description">Founder/Developer</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev2_description">هسته تیم توسعه دهندگان</string>
     <string name="dev_3">Pavan Patel</string>
-    <string name="dev3_description">هسته تیم طراحی</string>
     <!-- Mentions -->
     <string name="mentions_header">Honorable Mentions</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -55,8 +52,6 @@
     <string name="device_santoni_description">santoni\nBikram Mukherjee</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_tulip">Redmi Note 6 Pro</string>
-    <string name="device_tulip_description">tulip\nPavan Patel</string>
     <string name="device_X01BD">ZenFone Max Pro M2</string>
     <string name="device_X01BD_description">X01BD\nJayant Deshmukh</string>
     <!-- Categories -->
@@ -273,4 +268,10 @@
     <!-- Smart Pixels -->
     <!-- Pulse -->
     <!-- Per App aspect Ratio -->
+    <!-- Navbar Animation -->
+    <!-- Force expanded notifications -->
+    <!-- VoWiFi icon -->
+    <!-- Switch Styles -->
+    <!-- SuperiorOS logo -->
+    <!-- Launch music player when headset is connected -->
 </resources>

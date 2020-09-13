@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-19 The Superior OS Project
+    Copyright © 2018-20 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -23,11 +23,8 @@
     <!-- Dev Info -->
     <string name="devs_header">المطورون</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
-    <string name="dev1_description">المؤسس والمطور الرئيسي</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev2_description">المطورون الأساسيون</string>
     <string name="dev_3">Pavan Patel</string>
-    <string name="dev3_description">الفريق/المصمم الأساسي</string>
     <!-- Mentions -->
     <string name="mentions_header">إشادة شرف وتقدير</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -59,8 +56,6 @@
     <string name="device_santoni_description">santoni\nBikram Mukherjee</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_tulip">Redmi Note 6 Pro</string>
-    <string name="device_tulip_description">tulip\nPavan Patel</string>
     <string name="device_lavender">Redmi Note 7</string>
     <string name="device_lavender_description">lavender\nJimgsey</string>
     <string name="device_X01BD">ZenFone Max Pro M2</string>
@@ -81,8 +76,6 @@
     <string name="device_hltetmo_description">hltetmo\nAmin Fauzi</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
-    <string name="device_RMX1921">Realme XT</string>
-    <string name="device_RMX1921_description">RMX1921\nAmrish</string>
     <!-- Categories -->
     <string name="button_title">الأزرار</string>
     <string name="gestures_title">الإيماءات</string>
@@ -474,7 +467,6 @@
     <string name="battery_bar_animate_title">الرسوم المتحركة للشحن</string>
     <string name="battery_bar_animate_summary">الرسوم المتحركة عند الشحن قد تؤدي إلى تجربة مستخدم سيئة. تمكين على مسؤوليتك الخاصة.</string>
     <string name="battery_bar_hide">إخفاء</string>
-    <string name="battery_bar_statusbar">شريط الحالة</string>
     <string name="battery_bar_topnav">أعلى شريط التنقل</string>
     <string name="battery_bar_bottomnav">أسفل شريط التنقل</string>
     <string name="battery_bar_reg">عادي</string>
@@ -634,4 +626,10 @@
     <!-- Smart Pixels -->
     <!-- Pulse -->
     <!-- Per App aspect Ratio -->
+    <!-- Navbar Animation -->
+    <!-- Force expanded notifications -->
+    <!-- VoWiFi icon -->
+    <!-- Switch Styles -->
+    <!-- SuperiorOS logo -->
+    <!-- Launch music player when headset is connected -->
 </resources>

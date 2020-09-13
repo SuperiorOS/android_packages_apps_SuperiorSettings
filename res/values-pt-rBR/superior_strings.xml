@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-19 The Superior OS Project
+    Copyright © 2018-20 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -20,19 +20,31 @@
     <!-- ROM Info -->
     <string name="superior_about_info">Sobre o projeto</string>
     <string name="superior_about_info_summary_title">Sobre a Equipe</string>
+    <string name="superior_about_info_summary">Superior OS é uma ROM personalizada baseada em AOSP com alguns recursos adicionais. A ROM pretende fornecer melhor desempenho, suavidade, bom backup de bateria e melhor multi-tarefa.</string>
     <!-- Dev Info -->
     <string name="devs_header">Desenvolvedores</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
-    <string name="dev1_description">Fundador/Desenvolvedor</string>
+    <string name="dev_1_git">sweeto143</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev2_description">Equipe/Desenvolvedor do núcleo</string>
+    <string name="dev_2_git">Jayant-Deshmukh</string>
     <string name="dev_3">Pavan Patel</string>
-    <string name="dev3_description">Equipe/Designer do Núcleo</string>
+    <string name="dev_3_git">Advertpavan</string>
     <string name="dev_4">Swapnil Soni</string>
+    <string name="dev_4_git">SwapnilSoni1999</string>
     <string name="dev4_description">Desenvolvedor Web</string>
+    <string name="dev_5">Subins Mani</string>
+    <string name="dev_5_git">Subinsmani</string>
+    <string name="dev5_description">Administração do servidor</string>
+    <string name="dev_6">Rashed Sahaji</string>
+    <string name="dev_6_git">rashedsahaji</string>
+    <string name="dev6_description">Gerenciador do dispositivo</string>
+    <string name="dev_7">Shreehari Vaasistha</string>
+    <string name="dev_7_git">ShreehariVaasishta</string>
+    <string name="dev7_description">Moderador do Projeto</string>
     <!-- Mentions -->
     <string name="mentions_header">Menções Honrosas</string>
     <string name="mentions_sam">Sam Grande</string>
+    <string name="mentions_sam_git">SamGrande</string>
     <string name="mentions_sam_description">Designer</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">Mantenedores</string>
@@ -54,6 +66,8 @@
     <string name="device_sanders_description">sanders\nMayur Varde</string>
     <string name="device_riva">Redmi 5A</string>
     <string name="device_riva_description">riva\nNick</string>
+    <string name="device_rolex">Redmi 4A</string>
+    <string name="device_rolex_description">rolex\nkoito97</string>
     <string name="device_bacon">Oneplus One</string>
     <string name="device_bacon_description">bacon\nShahbaz Qadri</string>
     <string name="device_ef63">Vega Iron 2</string>
@@ -64,8 +78,6 @@
     <string name="device_santoni_description">santoni\nBikram Mukherjee</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_tulip">Redmi Note 6 Pro</string>
-    <string name="device_tulip_description">tulip\nPavan Patel</string>
     <string name="device_lavender">Redmi Note 7</string>
     <string name="device_lavender_description">lavender\nJimgsey</string>
     <string name="device_X01BD">ZenFone Max Pro M2</string>
@@ -84,10 +96,12 @@
     <string name="device_hltekor_description">hltekor\nAmin Fauzi</string>
     <string name="device_hltetmo">Galaxy Note 3 (900R4/T/V/W8)</string>
     <string name="device_hltetmo_description">hltetmo\nAmin Fauzi</string>
+    <string name="device_greatlte">Galaxy Note 8 (Exynos)</string>
+    <string name="device_greatlte_description">greatlte\nHaSSaN</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
-    <string name="device_RMX1921">Realme XT</string>
-    <string name="device_RMX1921_description">RMX1921\nAmrish</string>
+    <string name="device_ginkgo">Redmi Note 8</string>
+    <string name="device_ginkgo_description">ginkgo\nMADMAX</string>
     <!-- Categories -->
     <string name="button_title">Botões</string>
     <string name="gestures_title">Gestos</string>
@@ -164,7 +178,7 @@
     <string name="anbi_summary">Bloquear interação com os botões de navegação enquanto a tela estiver sendo tocada</string>
     <!-- Volume rocker music control -->
     <string name="volume_rocker_music_controls_title">Controle de reprodução</string>
-    <string name="volume_rocker_music_controls_summary">Quando a tela estiver desligada, segurar os botões de volume irá procurar músicas</string>
+    <string name="volume_rocker_music_controls_summary">Quando a tela estiver desligada, segurar os botões de volume irá passar ou voltar as músicas em reprodução</string>
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Despertar com botões de volume</string>
     <string name="volume_rocker_wake_summary">Pressionar as teclas de volume irá acordar seu dispositivo</string>
@@ -268,6 +282,7 @@
     <string name="volte_icon_hd">Ícone HD</string>
     <string name="volte_icon_hd2">HD CAF</string>
     <string name="volte_icon_miui">MIUI 11</string>
+    <string name="volte_icon_oos10">OOS 10</string>
     <!-- AOSP Gestures -->
     <string name="gesture_preference_superior">Gestos AOSP</string>
     <!-- Lock screen cover art -->
@@ -479,7 +494,6 @@
     <string name="battery_bar_animate_title">Animação de carregamento</string>
     <string name="battery_bar_animate_summary">A animação do carregamento pode resultar em uma experiência de usuário ruim. Habilite a seu próprio critério.</string>
     <string name="battery_bar_hide">Ocultar</string>
-    <string name="battery_bar_statusbar">Barra de status</string>
     <string name="battery_bar_topnav">Acima da barra de navegação</string>
     <string name="battery_bar_bottomnav">Abaixo da barra de navegação</string>
     <string name="battery_bar_reg">Regular</string>
@@ -715,6 +729,64 @@
     <string name="qs_running_services_title">Ícone de serviços em execução</string>
     <string name="qs_running_services_summary">Ativar o ícone dos serviços em execução no rodapé</string>
     <!-- Smart Pixels -->
+    <string name="smart_pixels_title">Pixels Inteligentes</string>
+    <string name="smart_pixels_summary">Personalizar os pixels inteligentes</string>
+    <string name="smart_pixels_enable_title">Ativar Pixels Inteligentes</string>
+    <string name="smart_pixels_enable_summary">Desligar alguns pixels para reduzir o consumo de energia</string>
+    <string name="smart_pixels_on_power_save_title">Ativar automaticamente no modo de economia de bateria</string>
+    <string name="smart_pixels_on_power_save_summary">Ativar os Pixels Inteligentes quando a economia de bateria estiver ativa</string>
+    <string name="smart_pixels_percent">Porcentagem de pixels a serem desativados</string>
+    <string name="smart_pixels_shift">Previnir o efeito burn-in a cada deslocamento dos pixels</string>
+    <string name="smart_pixels_shift_times_15s">15 segundos</string>
+    <string name="smart_pixels_shift_times_30s">30 segundos</string>
+    <string name="smart_pixels_shift_times_1min">1 minuto</string>
+    <string name="smart_pixels_shift_times_2min">2 minutos</string>
+    <string name="smart_pixels_shift_times_5min">5 minutos</string>
+    <string name="smart_pixels_shift_times_10min">10 minutos</string>
+    <string name="smart_pixels_shift_times_20min">20 minutos</string>
+    <string name="smart_pixels_shift_times_30min">30 minutos</string>
+    <string name="smart_pixels_shift_times_1h">1 hora</string>
     <!-- Pulse -->
+    <string name="pulse_help_policy_notice_summary">O Pulse não funciona com algumas fontes de áudio ao ouvir no alto-falante do dispositivo</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Equalizador gráfico de áudio da barra de navegação</string>
+    <string name="show_pulse_title">Mostrar Pulse</string>
+    <string name="show_pulse_summary">Equalizador gráfico de áudio na barra de navegação</string>
+    <string name="pulse_render_mode_title">Modo de renderização</string>
+    <string name="pulse_render_mode_fading_bars">Blocos de desvanecimento</string>
+    <string name="pulse_render_mode_solid_lines">Linhas sólidas</string>
+    <string name="pulse_color">Cor</string>
+    <string name="pulse_color_mode">Modo de cor</string>
+    <string name="pulse_color_accent">Destaque</string>
+    <string name="pulse_color_custom">Personalizado</string>
+    <string name="pulse_color_lava_lamp">Lâmpada de lava</string>
+    <string name="pulse_color_auto">Arte do álbum</string>
+    <string name="pulse_color_chooser">Escolher a cor</string>
+    <string name="smoothing_enabled_title">Ativar suavização</string>
+    <string name="smoothing_enabled_summary">Cada barra é animada mais suavemente</string>
+    <string name="pulse_advanced_category">Avançado</string>
+    <string name="pulse_legacy_mode_advanced_category">Configurações do modo de blocos de desvanecimento</string>
+    <string name="pulse_custom_fudge_factor">Nível de sanidade</string>
+    <string name="lavamp_speed_title">Velocidade da Lâmpada de Lava</string>
+    <string name="pulse_solid_units_count">Contador de linhas sólidas</string>
+    <string name="pulse_solid_lines_count">Contador de linhas sólidas</string>
+    <string name="pulse_solid_units_opacity">Opacidade das linhas sólidas</string>
+    <string name="pulse_solid_dimen_category">Configurações do modo de linhas sólidas</string>
+    <string name="pulse_custom_dimen">Largura da Barra Pulse</string>
+    <string name="pulse_custom_div">Espaçamento da Barra Pulse</string>
+    <string name="pulse_filled_block_size">Tamanho do bloco</string>
+    <string name="pulse_empty_block_size">Espaçamento do bloco</string>
     <!-- Per App aspect Ratio -->
+    <string name="aspect_ratio_apps_enabled_title">Ativar escala</string>
+    <string name="aspect_ratio_apps_enabled_summary">Permitir que aplicativos legacy usem tela cheia</string>
+    <string name="aspect_ratio_apps_list_title">Aplicativos com permissão para usar a escala</string>
+    <string name="aspect_ratio_category_title">Dimensionamento de aplicativos antigos</string>
+    <string name="aspect_ratio_apps_info">Os aplicativos precisam ser reiniciados após as alterações</string>
+    <string name="action_save">Salvar</string>
+    <!-- Navbar Animation -->
+    <!-- Force expanded notifications -->
+    <!-- VoWiFi icon -->
+    <!-- Switch Styles -->
+    <!-- SuperiorOS logo -->
+    <!-- Launch music player when headset is connected -->
 </resources>

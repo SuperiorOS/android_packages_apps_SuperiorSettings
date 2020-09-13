@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-19 The Superior OS Project
+    Copyright © 2018-20 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -25,13 +25,13 @@
     <string name="devs_header">Разработчики</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev_1_git">sweeto143</string>
-    <string name="dev1_description">Основатель/Разработчик</string>
+    <string name="dev1_description">Разработчик</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev_2_git">Jayant-Deshmukh</string>
-    <string name="dev2_description">Основная команда/Разработчик</string>
+    <string name="dev2_description">Ведущий разработчик</string>
     <string name="dev_3">Pavan Patel</string>
     <string name="dev_3_git">Advertpavan</string>
-    <string name="dev3_description">Основная команда/Дизайнер</string>
+    <string name="dev3_description">Ведущий дизайнер</string>
     <string name="dev_4">Swapnil Soni</string>
     <string name="dev_4_git">SwapnilSoni1999</string>
     <string name="dev4_description">Веб-Разработчик</string>
@@ -44,6 +44,9 @@
     <string name="dev_7">Shreehari Vaasistha</string>
     <string name="dev_7_git">ShreehariVaasishta</string>
     <string name="dev7_description">Модератор проекта</string>
+    <string name="dev_8">Arun Teltia</string>
+    <string name="dev_8_git">ArunTeltia</string>
+    <string name="dev8_description">Веб-Разработчик</string>
     <!-- Mentions -->
     <string name="mentions_header">Благодарности</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -81,8 +84,6 @@
     <string name="device_santoni_description">santoni\nBikram Mukherjee</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_tulip">Redmi Note 6 Pro</string>
-    <string name="device_tulip_description">tulip\nPavan Patel</string>
     <string name="device_lavender">Redmi Note 7</string>
     <string name="device_lavender_description">lavender\nJimgsey</string>
     <string name="device_X01BD">ZenFone Max Pro M2</string>
@@ -105,14 +106,10 @@
     <string name="device_greatlte_description">greatlte\nHaSSaN</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
-    <string name="device_RMX1921">Realme XT</string>
-    <string name="device_RMX1921_description">RMX1921\nAmrish</string>
-    <string name="device_raphael">Redmi K20 Pro</string>
-    <string name="device_raphael_description">raphael\nHSgod</string>
-    <string name="device_x2">Realme X2</string>
-    <string name="device_x2_description">RMX199X\nShubham Pawar</string>
     <string name="device_ginkgo">Redmi Note 8</string>
     <string name="device_ginkgo_description">ginkgo\nMADMAX</string>
+    <string name="device_beryllium">Poco F1</string>
+    <string name="device_beryllium_description">beryllium\nDeadpool1704</string>
     <!-- Categories -->
     <string name="button_title">Кнопки</string>
     <string name="gestures_title">Жесты</string>
@@ -505,7 +502,9 @@
     <string name="battery_bar_animate_title">Анимация зарядки</string>
     <string name="battery_bar_animate_summary">Анимация зарядки может привести к ухудшению производительности. Включайте на Ваше собственное усмотрение.</string>
     <string name="battery_bar_hide">Скрыть</string>
-    <string name="battery_bar_statusbar">Строка состояния</string>
+    <string name="battery_bar_statusbar_top">Низ панели состояния</string>
+    <string name="battery_bar_statusbar_bot">Верх панели состояния</string>
+    <string name="battery_bar_qs_header">Заголовок Быстрых Настроек</string>
     <string name="battery_bar_topnav">Сверху панели навигации</string>
     <string name="battery_bar_bottomnav">Снизу панели навигации</string>
     <string name="battery_bar_reg">Обычный</string>
@@ -587,6 +586,7 @@
     <string name="network_traffic_layout">Макет активности</string>
     <string name="network_traffic_layout_h">Горизонтально</string>
     <string name="network_traffic_layout_v">Вертикально</string>
+    <string name="net_traffic_font">Шрифты</string>
     <!-- Custom carrier label and position -->
     <string name="carrier_label_settings_title">Имя оператора</string>
     <string name="carrier_label_settings_summary">Пользовательское значение</string>
@@ -795,4 +795,41 @@
     <string name="aspect_ratio_category_title">Масштабирование устаревших приложений</string>
     <string name="aspect_ratio_apps_info">Приложения необходимо перезапустить после изменений</string>
     <string name="action_save">Сохранить</string>
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Анимация Pixel</string>
+    <string name="pixel_navbar_anim_summary">Включает анимацию кнопки домой, как на устройствах Pixel</string>
+    <!-- Force expanded notifications -->
+    <string name="force_expanded_notifications_title">Принудительно расширять уведомления</string>
+    <string name="force_expanded_notifications_summary">Доступно только для приложений, поддерживающих расширенные уведомления</string>
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">Значок VoWiFi</string>
+    <string name="vowifi_icon_enabled">Значок VoWiFi включен</string>
+    <string name="vowifi_icon_disabled">Значок VoWiFi выключен</string>
+    <string name="vowifi_icon_enabled_volte_disabled">VoWiFi вместо значка VoLTE</string>
+    <string name="vowifi_icon_style_title">Стиль VoWIFI иконки</string>
+    <string name="vowifi_icon_default">Значок по умолчанию</string>
+    <string name="vowifi_icon_emui">Значок EMUI</string>
+    <string name="vowifi_icon_asus">Значок Asus</string>
+    <string name="vowifi_icon_oneplus">Значок OOS</string>
+    <string name="vowifi_icon_moto">Значок Motorola</string>
+    <string name="vowifi_icon_simple1">Значок Простой 1</string>
+    <string name="vowifi_icon_simple2">Значок Простой 2</string>
+    <string name="vowifi_icon_simple3">Значок Простой 3</string>
+    <!-- Switch Styles -->
+    <string name="switch_style_title">Переключить стиль</string>
+    <string name="switch_default">По умолчанию</string>
+    <string name="switch_oneplus">OnePlus</string>
+    <string name="switch_narrow">Узкий</string>
+    <string name="switch_contained">Контейнер</string>
+    <string name="switch_telegram">Telegram</string>
+    <string name="switch_md2">MD2</string>
+    <string name="switch_retro">Ретро</string>
+    <string name="switch_stockish">Стоковый</string>
+    <!-- SuperiorOS logo -->
+    <string name="superior_logo_title">Логотип SuperiorOS</string>
+    <string name="superior_logo_summary">Добавить наш логотип Феникс в строку состояния</string>
+    <string name="status_bar_logo_style_title">Пользовательский стиль логотипа</string>
+    <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Запускать музыкальное приложение при подключении наушников</string>
+    <string name="headset_connect_player_summary">Запускать музыкальное приложение по умолчанию при подключении наушников</string>
 </resources>

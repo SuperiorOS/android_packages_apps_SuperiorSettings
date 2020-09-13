@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-19 The Superior OS Project
+    Copyright © 2018-20 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -23,11 +23,8 @@
     <!-- Dev Info -->
     <string name="devs_header">Developerzy</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
-    <string name="dev1_description">Twórca/Programista</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev2_description">Zespół główny/Programista</string>
     <string name="dev_3">Pavan Patel</string>
-    <string name="dev3_description">Zespół główny/Projektant</string>
     <string name="dev_4">Swapnil Soni</string>
     <string name="dev4_description">Programista strony internetowej</string>
     <!-- Mentions -->
@@ -64,8 +61,6 @@
     <string name="device_santoni_description">santoni\nBikram Mukherjee</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_tulip">Redmi Note 6 Pro</string>
-    <string name="device_tulip_description">tulip\nPavan Patel</string>
     <string name="device_lavender">Redmi Note 7</string>
     <string name="device_lavender_description">lavender\nJimgsey</string>
     <string name="device_X01BD">ZenFone Max Pro M2</string>
@@ -86,8 +81,6 @@
     <string name="device_hltetmo_description">hltetmo\nAmin Fauzi</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
     <string name="device_z2_plus_description">z2_plus\nVarshank Dhiman</string>
-    <string name="device_RMX1921">Realme XT</string>
-    <string name="device_RMX1921_description">RMX1921\nAmrish</string>
     <!-- Categories -->
     <string name="button_title">Przyciski</string>
     <string name="gestures_title">Gesty</string>
@@ -478,7 +471,6 @@
     <string name="battery_bar_animate_title">Animacja ładowania</string>
     <string name="battery_bar_animate_summary">Animacja ładowania może powodować problemy podczas korzystania z urządzenia. Włącz według własnego uznania.</string>
     <string name="battery_bar_hide">Ukryj</string>
-    <string name="battery_bar_statusbar">Pasek stanu</string>
     <string name="battery_bar_topnav">Górna część paska nawigacji</string>
     <string name="battery_bar_bottomnav">Dolna część paska nawigacji</string>
     <string name="battery_bar_reg">Standardowa</string>
@@ -676,4 +668,10 @@
     <!-- Smart Pixels -->
     <!-- Pulse -->
     <!-- Per App aspect Ratio -->
+    <!-- Navbar Animation -->
+    <!-- Force expanded notifications -->
+    <!-- VoWiFi icon -->
+    <!-- Switch Styles -->
+    <!-- SuperiorOS logo -->
+    <!-- Launch music player when headset is connected -->
 </resources>
