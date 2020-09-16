@@ -291,6 +291,25 @@
     </Preference>
 
  <Preference
+        android:title="@string/device_dreamlte"
+        android:summary="@string/device_dreamlte_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/HaSSaN_MOHl" />
+    </Preference>
+
+ <Preference
+        android:title="@string/device_dream2lte"
+        android:summary="@string/device_dream2lte_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/HaSSaN_MOHl" />
+    </Preference>
+
+
+ <Preference
         android:title="@string/device_greatlte"
         android:summary="@string/device_greatlte_description"
         android:icon="@drawable/ic_devs_phone">
