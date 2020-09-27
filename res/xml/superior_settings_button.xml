@@ -55,7 +55,7 @@
         <com.superior.settings.preferences.CustomSeekBarPreference
             android:key="button_brightness"
             android:title="@string/button_brightness_title"
-            android:max="255"
+            android:max="100"
             settings:min="0"
             settings:units=""
             android:persistent="false" />
