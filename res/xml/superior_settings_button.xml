@@ -37,4 +37,11 @@
         android:entryValues="@array/volume_key_cursor_control_values"
         android:key="volume_key_cursor_control"
         android:title="@string/volume_key_cursor_control_title" />
+
+    <com.superior.settings.preferences.SystemSettingSwitchPreference
+        android:key="allow_incall_home"
+        android:title="@string/allow_incall_home_title"
+        android:summary="@string/allow_incall_home_summary"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
