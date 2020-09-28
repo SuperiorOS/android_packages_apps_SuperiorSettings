@@ -16,35 +16,30 @@
 
 package com.superior.settings.fragments;
 
-import android.content.Context;
 import android.content.ContentResolver;
 import android.content.res.Resources;
+import android.content.Context;
 import android.os.Bundle;
-import androidx.preference.SwitchPreference;
+import android.os.UserHandle;
+import android.os.Vibrator;
+import androidx.preference.PreferenceCategory;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.PreferenceCategory;
 import androidx.preference.Preference.OnPreferenceChangeListener;
+import androidx.preference.SwitchPreference;
 import android.provider.Settings;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
-import com.android.internal.logging.nano.MetricsProto;
-
-import com.superior.settings.preferences.ActionFragment;
-import com.superior.settings.preferences.CustomSeekBarPreference;
-
-import com.superior.settings.R;
+import com.android.settings.R;
 
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.internal.util.hwkeys.ActionConstants;
 import com.android.internal.util.hwkeys.ActionUtils;
 
-public class ButtonSettings extends ActionFragment implements OnPreferenceChangeListener {
+import com.superior.settings.preferences.ActionFragment;
+import com.superior.settings.preferences.CustomSeekBarPreference;
 
-    private static final String VOLUME_KEY_CURSOR_CONTROL = "volume_key_cursor_control";
+public class ButtonSettings extends ActionFragment implements OnPreferenceChangeListener {
 
     //Keys
     private static final String KEY_BUTTON_BRIGHTNESS = "button_brightness";
@@ -72,31 +67,19 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
     public static final int KEY_MASK_CAMERA = 0x20;
     public static final int KEY_MASK_VOLUME = 0x40;
 
-    private ListPreference mVolumeKeyCursorControl;
     private ListPreference mBacklightTimeout;
     private CustomSeekBarPreference mButtonBrightness;
     private SwitchPreference mButtonBrightness_sw;
     private SwitchPreference mHwKeyDisable;
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public void onCreate(Bundle icicle) {
+        super.onCreate(icicle);
         addPreferencesFromResource(R.xml.superior_settings_button);
+
         final Resources res = getResources();
         final ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
-
-        final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
-        final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen
-                .findPreference(CATEGORY_HWKEY);
-        int keysDisabled = 0;
-        if (!needsNavbar) {
-            mHwKeyDisable = (SwitchPreference) findPreference(HWKEY_DISABLE);
-            keysDisabled = Settings.Secure.getIntForUser(getContentResolver(),
-                    Settings.Secure.HARDWARE_KEYS_DISABLE, 0,
-                    UserHandle.USER_CURRENT);
-            mHwKeyDisable.setChecked(keysDisabled != 0);
-            mHwKeyDisable.setOnPreferenceChangeListener(this);
 
         final boolean needsNavbar = ActionUtils.hasNavbarByDefault(getActivity());
         final PreferenceCategory hwkeyCat = (PreferenceCategory) prefScreen
@@ -148,7 +131,7 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
                 }
         } else {
             prefScreen.removePreference(hwkeyCat);
-                }
+        }
 
         // bits for hardware keys present on device
         final int deviceKeys = getResources().getInteger(
@@ -177,35 +160,6 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
         // back key
         if (!hasBackKey) {
             prefScreen.removePreference(backCategory);
-                }
-        } else {
-            prefScreen.removePreference(hwkeyCat);
-        }
-
-        if (variableBrightness) {
-            prefScreen.removePreference(mButtonBrightness_sw);
-            if (mButtonBrightness != null) {
-                int ButtonBrightness = Settings.System.getInt(getContentResolver(),
-                        Settings.System.BUTTON_BRIGHTNESS, 255);
-                mButtonBrightness.setValue(ButtonBrightness / 1);
-                mButtonBrightness.setOnPreferenceChangeListener(this);
-            }
-        } else {
-            prefScreen.removePreference(mButtonBrightness);
-            if (mButtonBrightness_sw != null) {
-                mButtonBrightness_sw.setChecked((Settings.System.getInt(getContentResolver(),
-                        Settings.System.BUTTON_BRIGHTNESS, 1) == 1));
-                mButtonBrightness_sw.setOnPreferenceChangeListener(this);
-            }
-
-        // volume key cursor control
-        mVolumeKeyCursorControl = (ListPreference) findPreference(VOLUME_KEY_CURSOR_CONTROL);
-        if (mVolumeKeyCursorControl != null) {
-            mVolumeKeyCursorControl.setOnPreferenceChangeListener(this);
-            int volumeRockerCursorControl = Settings.System.getInt(getContentResolver(),
-                    Settings.System.VOLUME_KEY_CURSOR_CONTROL, 0);
-            mVolumeKeyCursorControl.setValue(Integer.toString(volumeRockerCursorControl));
-            mVolumeKeyCursorControl.setSummary(mVolumeKeyCursorControl.getEntry());
         }
 
         // home key
@@ -235,33 +189,9 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
         setActionPreferencesEnabled(keysDisabled == 0);
     }
 
-    @Override
-    public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.SUPERIOR;
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
-    }
-
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mVolumeKeyCursorControl) {
-            String volumeKeyCursorControl = (String) value;
-            int volumeKeyCursorControlValue = Integer.parseInt(volumeKeyCursorControl);
-            Settings.System.putInt(getActivity().getContentResolver(),
-                    Settings.System.VOLUME_KEY_CURSOR_CONTROL, volumeKeyCursorControlValue);
-            int volumeKeyCursorControlIndex = mVolumeKeyCursorControl
-                    .findIndexOfValue(volumeKeyCursorControl);
-            mVolumeKeyCursorControl
-                    .setSummary(mVolumeKeyCursorControl.getEntries()[volumeKeyCursorControlIndex]);
-            return true;
-        } else if (preference == mBacklightTimeout) {
+        ContentResolver resolver = getActivity().getContentResolver();
+        if (preference == mBacklightTimeout) {
             String BacklightTimeout = (String) newValue;
             int BacklightTimeoutValue = Integer.parseInt(BacklightTimeout);
             Settings.System.putInt(getActivity().getContentResolver(),
@@ -294,6 +224,11 @@ public class ButtonSettings extends ActionFragment implements OnPreferenceChange
     @Override
     protected boolean usesExtendedActionsList() {
         return true;
+    }
+
+    @Override
+    public int getMetricsCategory() {
+        return MetricsProto.MetricsEvent.SUPERIOR;
     }
 
 }

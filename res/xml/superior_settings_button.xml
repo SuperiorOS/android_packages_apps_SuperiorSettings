@@ -19,30 +19,10 @@
     android:title="@string/button_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-     <com.superior.settings.preferences.SystemSettingSwitchPreference
-        android:key="volume_button_music_control"
-        android:summary="@string/volume_rocker_music_controls_summary"
-        android:title="@string/volume_rocker_music_controls_title"
-        android:defaultValue="false" />
-
-    <com.superior.settings.preferences.SystemSettingSwitchPreference
-        android:key="volume_rocker_wake"
-        android:summary="@string/volume_rocker_wake_summary"
-        android:title="@string/volume_rocker_wake_title"
-        android:defaultValue="false" />
-
-    <ListPreference
-        android:dialogTitle="@string/volume_key_cursor_control_title"
-        android:entries="@array/volume_key_cursor_control_entries"
-        android:entryValues="@array/volume_key_cursor_control_values"
-        android:key="volume_key_cursor_control"
-        android:title="@string/volume_key_cursor_control_title" />
-
-    <com.superior.settings.preferences.SystemSettingSwitchPreference
-        android:key="allow_incall_home"
-        android:title="@string/allow_incall_home_title"
-        android:summary="@string/allow_incall_home_summary"
-        android:defaultValue="true" />
+    <Preference
+        android:key="volume_key"
+        android:fragment="com.superior.settings.fragments.VolumeRockerSettings"
+        android:title="@string/volume_title" />
 
     <PreferenceCategory
         android:key="hardware_keys"
