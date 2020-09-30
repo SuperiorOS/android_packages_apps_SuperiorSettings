@@ -33,6 +33,12 @@
             android:value="com.android.settings.Settings$NotificationAppListActivity" />
     </Preference>
 
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+            android:key="notification_sound_vib_screen_on"
+            android:title="@string/notification_sound_vib_screen_on_title"
+            android:summary="@string/notification_sound_vib_screen_on_summary"
+            android:defaultValue="true" />
+
 <PreferenceCategory
         android:key="incall_vib_options"
         android:title="@string/incall_vibration_category" >
