@@ -119,6 +119,8 @@
     <string name="device_ginkgo_description">ginkgo\nMADMAX</string>
     <string name="device_beryllium">Poco F1</string>
     <string name="device_beryllium_description">beryllium\nDeadpool1704</string>
+    <string name="device_nord">Nord</string>
+    <string name="device_nord_description">avicii\nSipun Ku Mahanta</string>
 
 
     <!-- Categories -->
