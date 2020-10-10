@@ -103,6 +103,10 @@
     <string name="device_hltekor_description">hltekor\nAmin Fauzi</string>
     <string name="device_hltetmo">Galaxy Note 3 (900R4/T/V/W8)</string>
     <string name="device_hltetmo_description">hltetmo\nAmin Fauzi</string>
+    <string name="device_dreamlte">Galaxy S8 (Exynos)</string>
+    <string name="device_dreamlte_description">dreamlte\nHaSSaN</string>
+    <string name="device_dream2lte">Galaxy S8+ (Exynos)</string>
+    <string name="device_dream2lte_description">dream2lte\nHaSSaN</string>
     <string name="device_greatlte">Galaxy Note 8 (Exynos)</string>
     <string name="device_greatlte_description">greatlte\nHaSSaN</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
@@ -545,6 +549,11 @@
     <string name="lockscreen_charging_animation_drop">Крапля</string>
     <string name="lockscreen_charging_animation_explosion">Спалах</string>
     <string name="lockscreen_charging_animation_water">Вода</string>
+    <string name="lockscreen_charging_animation_split">Розділене завантаження</string>
+    <string name="lockscreen_charging_animation_yellow">Жовта анімація</string>
+    <string name="lockscreen_charging_animation_covid">Covid19</string>
+    <string name="lockscreen_charging_animation_wash">Помийте свої руки</string>
+    <string name="lockscreen_charging_animation_wear">Носіть свою маску</string>
     <!-- Music heads up on new tracks -->
     <string name="show_media_heads_up_title">Показати сповіщення медіа</string>
     <string name="show_media_heads_up_summary">Показувати спливаючі сповіщення при відтворенні нового треку, якщо програвач не відкрито</string>

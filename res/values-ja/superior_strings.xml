@@ -102,6 +102,10 @@
     <string name="device_hltekor_description">hltekor\nAmin Fauzi</string>
     <string name="device_hltetmo">Galaxy Note 3 (900R4/T/V/W8)</string>
     <string name="device_hltetmo_description">hltetmo\nAmin Fauzi</string>
+    <string name="device_dreamlte">Galaxy S8 (Exynos)</string>
+    <string name="device_dreamlte_description">dreamlte\nHaSSaN</string>
+    <string name="device_dream2lte">Galaxy S8+ (Exynos)</string>
+    <string name="device_dream2lte_description">dream2lte\nHaSSaN</string>
     <string name="device_greatlte">Galaxy Note 8 (Exynos)</string>
     <string name="device_greatlte_description">greatlte\nHaSSaN</string>
     <string name="device_z2_plus">ZUK Z2 Plus</string>
@@ -544,11 +548,16 @@
     <string name="lockscreen_charging_animation_drop">ドロップ</string>
     <string name="lockscreen_charging_animation_explosion">爆発</string>
     <string name="lockscreen_charging_animation_water">水</string>
+    <string name="lockscreen_charging_animation_split">読み込みを分割</string>
+    <string name="lockscreen_charging_animation_yellow">黄色のアニメーション</string>
+    <string name="lockscreen_charging_animation_covid">Covid19</string>
+    <string name="lockscreen_charging_animation_wash">手を洗ってください</string>
+    <string name="lockscreen_charging_animation_wear">マスクを着用しましょう</string>
     <!-- Music heads up on new tracks -->
     <string name="show_media_heads_up_title">メディアの Heads Up を表示</string>
     <string name="show_media_heads_up_summary">プレイヤーが前面に準備できていない場合は、新しい曲を再生時にメディアの Heads Up を表示する。</string>
     <!-- FOD icon picker -->
-    <string name="fod_icon_picker_category_title">指紋認識のオプション</string>
+    <string name="fod_icon_picker_category_title">画面指紋認識のオプション</string>
     <string name="fod_icon_picker_title">アイコンの編集</string>
     <string name="fod_icon_picker_summary">お気に入りの指紋アイコンを選択する</string>
     <string name="fod_icon_picker_footer">独自のアイコンを追加するには、左上のアイコンを選択し、OnePlus 6T 指紋カスタマイズアプリを使用して必要なアイコンを選択して下さい。</string>

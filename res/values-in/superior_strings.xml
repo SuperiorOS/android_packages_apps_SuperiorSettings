@@ -24,10 +24,16 @@
     <!-- Dev Info -->
     <string name="devs_header">Pengembang</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
+    <string name="dev1_description">Pengembang</string>
     <string name="dev_2">Jayant Deshmukh</string>
+    <string name="dev_2_git">Jayant Deshmukh</string>
+    <string name="dev2_description">Pengembang utama</string>
     <string name="dev_3">Pavan Patel</string>
+    <string name="dev3_description">Desainer Utama</string>
+    <string name="dev_4">Swapnil Soni</string>
     <string name="dev4_description">Pengembang Web</string>
     <string name="dev_5">Subins Mani</string>
+    <string name="dev5_description">Manajer Server</string>
     <!-- Mentions -->
     <string name="mentions_header">Layak Disebutkan</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -645,6 +651,20 @@
     <!-- Force expanded notifications -->
     <!-- VoWiFi icon -->
     <!-- Switch Styles -->
+    <string name="switch_style_title">Gaya Beralih</string>
+    <string name="switch_default">Bawaan</string>
+    <string name="switch_oneplus">OnePlus</string>
+    <string name="switch_narrow">Sempit</string>
+    <string name="switch_contained">Terkandung</string>
+    <string name="switch_telegram">Telegram</string>
+    <string name="switch_md2">MD2</string>
+    <string name="switch_retro">Retro</string>
+    <string name="switch_stockish">Stockish</string>
     <!-- SuperiorOS logo -->
+    <string name="superior_logo_title">Logo SuperiorOS</string>
+    <string name="superior_logo_summary">Tambahkan logo phoenix kami di statusbar</string>
+    <string name="status_bar_logo_style_title">Gambar logo kustom</string>
     <!-- Launch music player when headset is connected -->
+    <string name="headset_connect_player_title">Luncurkan aplikasi musik pada koneksi headset</string>
+    <string name="headset_connect_player_summary">Luncurkan aplikasi musik bawaan ketika headset terhubung</string>
 </resources>
