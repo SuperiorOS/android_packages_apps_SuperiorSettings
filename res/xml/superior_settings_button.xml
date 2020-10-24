@@ -32,33 +32,6 @@
             android:key="hardware_keys_disable"
             android:title="@string/hardware_keys_disable_title" />
 
-        <com.superior.settings.preferences.CustomSeekBarPreference
-            android:key="button_brightness"
-            android:title="@string/button_brightness_title"
-            android:max="100"
-            settings:min="0"
-            settings:units=""
-            android:persistent="false" />
-
-        <SwitchPreference
-            android:key="button_brightness_sw"
-            android:title="@string/button_brightness_sw_title"
-            android:persistent="false" />
-
-        <ListPreference
-            android:dialogTitle="@string/backlight_timeout_title"
-            android:entries="@array/backlight_timeout_entries"
-            android:entryValues="@array/backlight_timeout_values"
-            android:key="backlight_timeout"
-            android:persistent="false"
-            android:title="@string/backlight_timeout_title" />
-
-        <com.superior.settings.preferences.SystemSettingSwitchPreference
-            android:key="button_backlight_only_when_pressed"
-            android:title="@string/button_backlight_on_touch_only_title"
-            android:summary="@string/button_backlight_on_touch_only_summary"
-            android:defaultValue="false" />
-
         <com.superior.settings.preferences.SystemSettingSwitchPreference
             android:key="anbi_enabled_option"
             android:title="@string/anbi_title"
