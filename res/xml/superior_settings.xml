@@ -38,6 +38,13 @@
             android:key="features"
             android:title="Superior Features" >
 
+        <!-- Customization -->
+        <com.superior.settings.preferences.CardviewPreference
+            android:key="customisation"
+            android:fragment="com.superior.settings.fragments.Customisation"
+            android:icon="@drawable/ic_customisation"
+            android:title="@string/customisation_title" />
+
         <!-- Status Bar -->
         <com.superior.settings.preferences.CardviewPreference
             android:key="statusbar_category"

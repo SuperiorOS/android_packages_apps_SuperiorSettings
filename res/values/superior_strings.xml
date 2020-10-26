@@ -255,4 +255,7 @@
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>  
 
+    <!-- Customisation -->
+    <string name="customisation_title">Monet Customisation</string>
+
 </resources>
