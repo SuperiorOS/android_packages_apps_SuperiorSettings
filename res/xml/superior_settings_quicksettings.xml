@@ -48,4 +48,10 @@
             android:summary="@string/quick_settings_vibrate_summary"
             android:defaultValue="false"/>
 
+        <com.superior.settings.preferences.SystemSettingSwitchPreference 
+            android:key="qs_datausage" 
+            android:title="@string/qs_datausage_title" 
+            android:summary="@string/qs_datausage_subtitle"
+            android:defaultValue="false" />
+
 </PreferenceScreen>

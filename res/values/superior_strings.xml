@@ -457,4 +457,8 @@
     <string name="navigation_bar_arrow_keys_title">IME arrows</string>
     <string name="navigation_bar_arrow_keys_summary">Show arrow keys on navbar while typing</string>
 
+    <!-- QS DataUsage Toggle -->
+    <string name="qs_datausage_title">Show data usage in qs header</string>
+    <string name="qs_datausage_subtitle">Shows data usage in quick settings header of sim used for data</string>
+
 </resources>
