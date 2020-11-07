@@ -165,6 +165,8 @@
     <string name="less_boring_heads_up_summary">Quickly disable heads up for all apps but keep them enabled for dialer and messaging apps</string>
 
     <!-- Lockscreen media art -->
+    <string name="lockscreen_media_art_category_title">Media art</string>
     <string name="keygaurd_media_art_title">Show media art</string>
     <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
+    <string name="lockscreen_media_blur_title">Media art blur level</string>
 </resources>
