@@ -453,4 +453,8 @@
     <string name="clock_date_left">Left of time</string>
     <string name="clock_date_position">Date position</string>
 
+    <!-- NavBar IME arrows -->
+    <string name="navigation_bar_arrow_keys_title">IME arrows</string>
+    <string name="navigation_bar_arrow_keys_summary">Show arrow keys on navbar while typing</string>
+
 </resources>
