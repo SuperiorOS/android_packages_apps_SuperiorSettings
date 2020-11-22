@@ -68,7 +68,9 @@
     <string name="device_oneplus">Oneplus</string>
     <string name="device_smartron">Smartron</string>
     <string name="device_mido">Redmi Note 4</string>
-
+    <string name="device_tulip">Redmi Note 6 Pro</string>
+    <string name="device_tulip_description">tulip\AtlanPrime</string>
+	
     <!-- Categories -->
     <string name="button_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
