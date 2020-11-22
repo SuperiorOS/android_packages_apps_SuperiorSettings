@@ -226,6 +226,15 @@
     </Preference>
 
     <Preference
+        android:title="@string/device_tulip"
+        android:summary="@string/device_tulip_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/AtlanPrime" />
+    </Preference>
+
+    <Preference
         android:title="@string/device_ginkgo" 
         android:summary="@string/device_ginkgo_description" 
         android:icon="@drawable/ic_devs_phone"> 
