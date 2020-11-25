@@ -525,7 +525,7 @@
     <string name="fod_night_light_summary">Disable night light on lockscreen if FOD is active. Disabling this option might affect your fingerprint accuracy with night light on.</string>
 
    <!-- Charging animation -->
-   <string name="lockscreen_charging_animation_title">Charging animation</string>
+    <string name="lockscreen_charging_animation_title">Charging animation</string>
     <string name="lockscreen_charging_animation_flash">Flash</string>
     <string name="lockscreen_charging_animation_battery">Battery</string>
     <string name="lockscreen_charging_animation_drop">Drop</string>
@@ -535,7 +535,10 @@
     <string name="lockscreen_charging_animation_stack">Stack</string>
     <string name="lockscreen_charging_animation_wavy">Wavy</string>
 
-   <!-- QS DataUsage Toggle -->
-    <string name="qs_datausage_title">Show data usage in qs header</string>
-    <string name="qs_datausage_subtitle">Shows data usage in quick settings header of sim used for data</string>
+   <!-- QS Header data uasge -->
+   <string name="qs_datausage_title">Data usage in QS Header</string>
+   <string name="qs_datausage_disabled">Disabled</string>
+   <string name="qs_datausage_daily">Daily usage</string>
+   <string name="qs_datausage_monthly">Monthly usage</string>
+
 </resources>
