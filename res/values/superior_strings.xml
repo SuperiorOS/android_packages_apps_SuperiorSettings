@@ -523,4 +523,9 @@
     <!-- Screen off fod -->
     <string name="fod_gesture_title">Screen off fingerprint</string>
     <string name="fod_gesture_summary">Allows unlocking the device without having to wake up the screen first</string>
+
+     <!-- Nightlight Fod -->
+    <string name="fod_night_light_title">Disable night light when showing FOD</string>
+    <string name="fod_night_light_summary">Disable night light on lockscreen if FOD is active. Disabling this option might affect your fingerprint accuracy with night light on.</string>
+
 </resources>
