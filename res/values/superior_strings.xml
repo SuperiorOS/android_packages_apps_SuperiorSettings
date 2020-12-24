@@ -90,6 +90,8 @@
     <string name="device_ginkgo_description">ginkgo\nSagar Das</string>
     <string name="device_tulip">Redmi Note 6 Pro</string>
     <string name="device_tulip_description">tulip\nAtlanPrime</string>
+    <string name="device_payton">Moto X4</string>
+    <string name="device_payton_description">payton\nDhinesh</string>
 	
     <!-- Categories -->
     <string name="button_title">Buttons</string>
