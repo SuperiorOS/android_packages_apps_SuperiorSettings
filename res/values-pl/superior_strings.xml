@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright © 2018-20 The Superior OS Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- ROM Info -->
+    <!-- Dev Info -->
+    <!-- Mentions -->
+    <!-- Maintainer Info -->
+    <!-- Categories -->
+    <!-- General strings -->
+    <!-- Color Picker -->
+    <!-- Volume rocker wake -->
+    <!-- Long press power for torch -->
+    <!-- Language options - Volume rocker cursor control -->
+    <!-- Wakeup options -->
+    <!-- Statusbar Tuner -->
+    <!-- Incall Home button behavior-->
+    <!-- Buttons backlight timeout -->
+    <!-- Enable keys backlight-->
+    <!-- Enable keys backlight-->
+    <!-- HW Keys customization -->
+    <!-- ANBI -->
+    <!-- Incall vibrate options -->
+    <!-- Fingerprint authentication vibration -->
+    <!-- Three-fingers-swipe to screenshot -->
+    <!-- QuickSettings haptic feedback -->
+    <!-- Global Actions -->
+    <!--Double Tap to Sleep -->
+    <!-- Battery light -->
+    <!-- Notifications light -->
+    <!-- Lockscreen battery info indicator  -->
+    <!-- Suppress notifications sound/vibration if screen is ON -->
+    <!-- Heads up -->
+    <!-- 4G LTE switch -->
+    <!-- Show VoLTE icon on statusbar -->
+    <!-- VoWiFi icon -->
+    <!-- Brightness slider -->
+    <!-- Battery mode -->
+    <!-- Status bar - Battery -->
+    <!-- Status bar - Battery custom charging symbol -->
+    <!-- Status bar - Battery percentage -->
+    <!-- Power menu on lockscreen -->
+    <!-- NavBar Visibility -->
+    <!-- Navbar options -->
+    <!-- Statusbar net monitor -->
+    <!-- Heads up options -->
+    <!-- AOSP Gestures -->
+    <!-- Ambient edge lighting -->
+    <!-- QS advanced settings -->
+    <!-- Statusbar Clock -->
+    <!-- NavBar IME arrows -->
+    <!-- Lock screen cover art -->
+</resources>
