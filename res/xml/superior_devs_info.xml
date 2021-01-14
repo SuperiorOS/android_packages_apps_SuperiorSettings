@@ -183,15 +183,6 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/LordShenron" />
     </Preference>
-
-    <Preference
-        android:title="@string/device_X01BD"
-        android:summary="@string/device_X01BD_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/prigup" />
-    </Preference>
 </PreferenceCategory>
 
 <PreferenceCategory
@@ -211,15 +202,6 @@
 <PreferenceCategory
         android:key="maintainer"
         android:title="@string/device_xiaomi" >
-
-    <Preference
-        android:title="@string/device_tissot"
-        android:summary="@string/device_tissot_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Harvey_Spectar" />
-    </Preference>
 
     <Preference
         android:title="@string/device_violet"
@@ -246,15 +228,6 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/AtlanPrime" />
-    </Preference>
-
-    <Preference
-        android:title="@string/device_ginkgo" 
-        android:summary="@string/device_ginkgo_description" 
-        android:icon="@drawable/ic_devs_phone"> 
-	<intent 
-            android:action="android.intent.action.VIEW" 
-            android:data="https://t.me/MADMAX" /> 
     </Preference>
 
     <Preference
