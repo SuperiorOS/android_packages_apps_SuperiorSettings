@@ -43,6 +43,7 @@
             android:title="@string/devs_header" >
 
         <Preference
+            android:key="dev1"
             android:title="@string/dev_1"
             android:icon="@drawable/ic_code"
             android:summary="@string/dev1_description" >
@@ -52,6 +53,7 @@
         </Preference>
 
         <Preference
+            android:key="dev2"
             android:title="@string/dev_2"
             android:icon="@drawable/ic_code"
             android:summary="@string/dev2_description" >
@@ -61,6 +63,7 @@
         </Preference>
 
         <Preference
+            android:key="dev3"
             android:title="@string/dev_3"
             android:icon="@drawable/ic_code"
             android:summary="@string/dev3_description" >
@@ -70,6 +73,7 @@
         </Preference>
 
         <Preference
+            android:key="dev4"
             android:title="@string/dev_4"
             android:icon="@drawable/ic_code"
             android:summary="@string/dev4_description" >
@@ -79,6 +83,7 @@
         </Preference>
 
         <Preference
+            android:key="dev5"
             android:title="@string/dev_5"
             android:icon="@drawable/ic_code"
             android:summary="@string/dev5_description" >
@@ -88,6 +93,7 @@
         </Preference>
 
         <Preference
+            android:key="dev6"
             android:title="@string/dev_6"
             android:icon="@drawable/ic_code"
             android:summary="@string/dev6_description" >
@@ -97,6 +103,7 @@
         </Preference>
 
         <Preference
+            android:key="dev7"
             android:title="@string/dev_7"
             android:icon="@drawable/ic_code"
             android:summary="@string/dev7_description" >
@@ -106,6 +113,7 @@
         </Preference>
 
         <Preference
+            android:key="dev8"
             android:title="@string/dev_8"
             android:icon="@drawable/ic_code"
             android:summary="@string/dev8_description" >
@@ -115,6 +123,7 @@
         </Preference>
 
         <Preference
+            android:key="dev9"
             android:title="@string/dev_9"
             android:icon="@drawable/ic_code"
             android:summary="@string/dev9_description" >
@@ -124,6 +133,7 @@
         </Preference>
 
         <Preference
+            android:key="dev10"
             android:title="@string/dev_10"
             android:icon="@drawable/ic_code"
             android:summary="@string/dev10_description" >
@@ -139,6 +149,7 @@
     android:title="@string/mentions_header">
 
         <Preference
+            android:key="mentions_sam"
             android:title="@string/mentions_sam"
             android:summary="@string/mentions_sam_description"
             android:icon="@drawable/ic_devs_mention">
@@ -148,6 +159,7 @@
         </Preference>
 
         <Preference
+            android:key="mentions_iacob"
             android:title="@string/mentions_iacob"
             android:summary="@string/mentions_iacob_description"
             android:icon="@drawable/ic_devs_mention">
