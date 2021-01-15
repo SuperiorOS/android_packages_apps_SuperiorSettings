@@ -382,4 +382,8 @@
     <!-- Lock screen cover art -->
     <string name="lockscreen_media_art_title">Portada de álbum en pantalla de bloqueo</string>
     <string name="lockscreen_media_art_summary">Mostrar carátula de medios al reproducir música</string>
+    <!-- FOD icon picker -->
+    <!-- FOD animations -->
+    <!-- Screen off fod -->
+    <!-- Nightlight Fod -->
 </resources>

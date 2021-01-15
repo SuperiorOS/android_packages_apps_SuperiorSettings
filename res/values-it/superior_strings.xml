@@ -15,10 +15,60 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="superior_settings_title">Impostazioni Superior</string>
+    <string name="superior_dashboard_summary">Prelibatezze Superior</string>
     <!-- ROM Info -->
+    <string name="superior_about_info">Informazioni Sul Progetto</string>
+    <string name="superior_about_info_summary_title">Informazioni sul Team</string>
+    <string name="superior_about_info_summary">Superior OS è una ROM personalizzata basata su AOSP, con alcune caratteristiche minime più richieste, l\'obiettivo principale è quello di fornire prestazioni veloci, leggere e fluide garantendo una buona durata della batteria.</string>
     <!-- Dev Info -->
+    <string name="devs_header">Sviluppatori</string>
+    <string name="dev_1">Sipun Ku Mahanta</string>
+    <string name="dev_1_git">sweeto143</string>
+    <string name="dev1_description">Sviluppatore</string>
+    <string name="dev_2">Jayant Deshmukh</string>
+    <string name="dev_2_git">Jayant-Deshmukh</string>
+    <string name="dev2_description">Capo Sviluppatore</string>
+    <string name="dev_3">Sagar Rokade</string>
+    <string name="dev_3_git">sagarrokade006</string>
+    <string name="dev3_description">Sviluppatore</string>
+    <string name="dev_4">Rahul Mishra</string>
+    <string name="dev_4_git">beingmishra</string>
+    <string name="dev4_description">Sviluppatore IU/EU</string>
+    <string name="dev_5">Pavan Patel</string>
+    <string name="dev_5_git">Advertpavan</string>
+    <string name="dev5_description">Capo Designer</string>
+    <string name="dev_6">Swapnil Soni</string>
+    <string name="dev_6_git">SwapnilSoni1999</string>
+    <string name="dev6_description">Sviluppatore Web</string>
+    <string name="dev_7">Subins Mani</string>
+    <string name="dev_7_git">Subinsmani</string>
+    <string name="dev7_description">Gestore dell\'Infrastruttura</string>
+    <string name="dev_8">Rashed Sahaji</string>
+    <string name="dev_8_git">rashedsahaji</string>
+    <string name="dev8_description">Gestione Dispositivi</string>
+    <string name="dev_9">Shreehari Vaasistha</string>
+    <string name="dev_9_git">ShreehariVaasishta</string>
+    <string name="dev9_description">Moderatore del Progetto</string>
+    <string name="dev_10">Arun Teltia</string>
+    <string name="dev_10_git">ArunTeltia</string>
+    <string name="dev10_description">Sviluppatore Web</string>
     <!-- Mentions -->
+    <string name="mentions_header">Menzioni onorevoli</string>
+    <string name="mentions_sam">Sam Grande</string>
+    <string name="mentions_sam_git">SamGrande</string>
+    <string name="mentions_sam_description">Designer</string>
+    <string name="mentions_iacob">Ionut Iacob</string>
+    <string name="mentions_iacob_git">IacobIonut01</string>
+    <string name="mentions_iacob_description">Sviluppatore IU/EU</string>
     <!-- Maintainer Info -->
+    <string name="maintainers_header">Manutentori</string>
+    <string name="maintainers_header_summary">Questi sono i Manutentori Ufficiali dei Dispositivi...</string>
+    <string name="device_xiaomi">Xiaomi</string>
+    <string name="device_asus">Asus</string>
+    <string name="device_motorola">Motorola</string>
+    <string name="device_pantech">Pantech</string>
+    <string name="device_lenovo">Lenovo</string>
     <!-- Categories -->
     <!-- General strings -->
     <!-- Color Picker -->
@@ -63,4 +113,8 @@
     <!-- Statusbar Clock -->
     <!-- NavBar IME arrows -->
     <!-- Lock screen cover art -->
+    <!-- FOD icon picker -->
+    <!-- FOD animations -->
+    <!-- Screen off fod -->
+    <!-- Nightlight Fod -->
 </resources>
