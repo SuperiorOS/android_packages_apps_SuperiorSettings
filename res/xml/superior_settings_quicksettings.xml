@@ -19,6 +19,9 @@
     android:title="@string/quicksettings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <PreferenceCategory
+        android:title="@string/cat_brightness_slider_title">
+
         <!-- QS brightness slider -->
         <com.superior.settings.preferences.SystemSettingMasterSwitchPreference
             android:key="qs_show_brightness"
@@ -27,6 +30,10 @@
             android:fragment="com.superior.settings.fragments.BrightnessSliderSettings"
             android:defaultValue="true" />
 
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/battery_style_category_title">
+
         <!-- Battery mode -->
         <com.superior.settings.preferences.SystemSettingListPreference
             android:key="qs_battery_mode"
@@ -34,6 +41,10 @@
             android:entries="@array/qs_battery_mode_entries"
             android:entryValues="@array/qs_battery_mode_values"
             android:defaultValue="1" />
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/qs_misc_category_title">
 
         <com.superior.settings.preferences.SystemSettingListPreference
             android:key="qs_datausage" 
@@ -54,5 +65,5 @@
             android:title="@string/quick_settings_vibrate_title"
             android:summary="@string/quick_settings_vibrate_summary"
             android:defaultValue="false"/>
-
+    </PreferenceCategory>
 </PreferenceScreen>

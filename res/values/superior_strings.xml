@@ -102,7 +102,13 @@
     <string name="statusbar_title">Status Bar</string>
     <string name="notifications_title">Notifications</string>
     <string name="volume_title">Volume rockers</string>
-	
+
+    <!-- Sub-Categories -->
+    <string name="network_title">Network settings</string>
+    <string name="battery_style_category_title">Battery settings </string>
+    <string name="cat_brightness_slider_title">Brightness slider</string>
+    <string name="qs_misc_category_title">quicksettings misc</string>
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
