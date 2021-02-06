@@ -556,4 +556,8 @@
    <string name="qs_footer_text_string_title">Customize footer text</string>
    <string name="qs_footer_text_string_summary">Set to empty for default</string> 
 
+   <!-- Notification headers -->
+   <string name="notification_headers_title">Notification Headers</string>
+   <string name="notification_headers_summary">Show headers in the notification shade\nRequires a SystemUI restart</string>
+
 </resources>
