@@ -93,7 +93,9 @@
     <string name="device_surya_description">surya\nAmJith</string>
     <string name="device_sunfish">Pixel 4a</string>
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
-	
+    <string name="device_wayne">Mi 6X</string>
+    <string name="device_wayne_description">wayne\nMadDogRRS2</string>
+
     <!-- Categories -->
     <string name="button_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
