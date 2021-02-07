@@ -266,6 +266,15 @@
     </Preference>
 
     <Preference
+        android:title="@string/device_miatoll"
+        android:summary="@string/device_miatoll_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/HaSSaN_MoHl" />
+    </Preference>
+
+    <Preference
         android:title="@string/device_surya"
         android:summary="@string/device_surya_description"
         android:icon="@drawable/ic_devs_phone">
