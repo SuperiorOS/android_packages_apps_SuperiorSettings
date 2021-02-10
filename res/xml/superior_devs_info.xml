@@ -227,6 +227,20 @@
 
 <PreferenceCategory
         android:key="maintainer"
+        android:title="@string/device_oneplus" >
+
+    <Preference
+        android:title="@string/device_oneplus"
+        android:summary="@string/device_oneplus_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/dlasdl" />
+    </Preference>
+</PreferenceCategory>
+
+<PreferenceCategory
+        android:key="maintainer"
         android:title="@string/device_xiaomi" >
 
     <Preference
