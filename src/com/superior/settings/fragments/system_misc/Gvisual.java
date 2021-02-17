@@ -64,11 +64,13 @@ public class Gvisual extends SettingsPreferenceFragment implements
 
     private static final String PREF_ROUNDED_CORNER = "rounded_ui";
     private static final String PREF_SB_HEIGHT = "statusbar_height";
+    private static final String PREF_NB_COLOR = "navbar_color";
 
     private IOverlayManager mOverlayManager;
     private IOverlayManager mOverlayService;
     private ListPreference mRoundedUi;
     private ListPreference mSbHeight;
+    private ListPreference mnbSwitch;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -80,6 +82,8 @@ public class Gvisual extends SettingsPreferenceFragment implements
 
         mOverlayService = IOverlayManager.Stub
                 .asInterface(ServiceManager.getService(Context.OVERLAY_SERVICE));
+
+        setupNavbarSwitchPref();
 
         mRoundedUi = (ListPreference) findPreference(PREF_ROUNDED_CORNER);
         int roundedValue = getOverlayPosition(ThemesUtils.UI_RADIUS);
@@ -113,7 +117,39 @@ public class Gvisual extends SettingsPreferenceFragment implements
     @Override
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-        if (preference == mRoundedUi) {
+        if (preference == mnbSwitch){
+        String nbSwitch = (String) objValue;
+        final Context context = getContext();
+        switch (nbSwitch) {
+            case "1":
+            handleOverlays(ThemesUtils.NAVBAR_COLOR_ORCD, false, mOverlayManager);
+            handleOverlays(ThemesUtils.NAVBAR_COLOR_OPRD, false, mOverlayManager);
+            handleOverlays(ThemesUtils.NAVBAR_COLOR_PURP, false, mOverlayManager);
+            break;
+            case "2":
+            handleOverlays(ThemesUtils.NAVBAR_COLOR_ORCD, true, mOverlayManager);
+            handleOverlays(ThemesUtils.NAVBAR_COLOR_OPRD, false, mOverlayManager);
+            handleOverlays(ThemesUtils.NAVBAR_COLOR_PURP, false, mOverlayManager);
+            break;
+            case "3":
+            handleOverlays(ThemesUtils.NAVBAR_COLOR_ORCD, false, mOverlayManager);
+            handleOverlays(ThemesUtils.NAVBAR_COLOR_OPRD, true, mOverlayManager);
+            handleOverlays(ThemesUtils.NAVBAR_COLOR_PURP, false, mOverlayManager);
+            break;
+            case "4":
+            handleOverlays(ThemesUtils.NAVBAR_COLOR_ORCD, false, mOverlayManager);
+            handleOverlays(ThemesUtils.NAVBAR_COLOR_OPRD, false, mOverlayManager);
+            handleOverlays(ThemesUtils.NAVBAR_COLOR_PURP, true, mOverlayManager);
+            break;
+        }
+        try {
+             mOverlayService.reloadAndroidAssets(UserHandle.USER_CURRENT);
+             mOverlayService.reloadAssets("com.android.settings", UserHandle.USER_CURRENT);
+             mOverlayService.reloadAssets("com.android.systemui", UserHandle.USER_CURRENT);
+         } catch (RemoteException ignored) {
+         }
+        return true;
+        } else if (preference == mRoundedUi) {
         String rounded = (String) objValue;
         int roundedValue = Integer.parseInt(rounded);
         mRoundedUi.setValue(String.valueOf(roundedValue));
@@ -165,6 +201,21 @@ public class Gvisual extends SettingsPreferenceFragment implements
             }
         }
         return overlayName;
+    }
+
+    private void setupNavbarSwitchPref() {
+        mnbSwitch = (ListPreference) findPreference(PREF_NB_COLOR);
+        mnbSwitch.setOnPreferenceChangeListener(this);
+        if (Utils.isNavbarColor("com.gnonymous.gvisualmod.pgm_purp")){
+            mnbSwitch.setValue("4");
+        } else if (Utils.isNavbarColor("com.gnonymous.gvisualmod.pgm_oprd")){
+            mnbSwitch.setValue("3");
+        } else if (Utils.isNavbarColor("com.gnonymous.gvisualmod.pgm_orcd")){
+            mnbSwitch.setValue("2");
+        }
+        else{
+            mnbSwitch.setValue("1");
+        }
     }
 
     @Override
