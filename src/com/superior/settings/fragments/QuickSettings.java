@@ -34,7 +34,6 @@ import android.view.ViewGroup;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.superior.settings.preferences.SystemSettingMasterSwitchPreference;
 import com.superior.settings.preferences.SystemSettingEditTextPreference;
 
 import com.android.settings.R;
@@ -43,9 +42,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String FOOTER_TEXT_STRING = "footer_text_string";
-    private static final String BRIGHTNESS_SLIDER = "qs_show_brightness";
 
-    private SystemSettingMasterSwitchPreference mBrightnessSlider;
     private SystemSettingEditTextPreference mFooterString;
 
     @Override
@@ -54,13 +51,6 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.superior_settings_quicksettings);
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
-
-        mBrightnessSlider = (SystemSettingMasterSwitchPreference)
-                findPreference(BRIGHTNESS_SLIDER);
-        mBrightnessSlider.setOnPreferenceChangeListener(this);
-        boolean enabled = Settings.System.getInt(resolver,
-                BRIGHTNESS_SLIDER, 1) == 1;
-        mBrightnessSlider.setChecked(enabled);
 
         mFooterString = (SystemSettingEditTextPreference) findPreference(FOOTER_TEXT_STRING);
         mFooterString.setOnPreferenceChangeListener(this);
@@ -93,12 +83,7 @@ public class QuickSettings extends SettingsPreferenceFragment implements
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-        if (preference == mBrightnessSlider) {
-            Boolean value = (Boolean) newValue;
-            Settings.System.putInt(resolver,
-                    BRIGHTNESS_SLIDER, value ? 1 : 0);
-            return true;
-        } else if (preference == mFooterString) {
+        if (preference == mFooterString) {
             String value = (String) newValue;
             if (value != "" && value != null)
                 Settings.System.putString(getActivity().getContentResolver(),
