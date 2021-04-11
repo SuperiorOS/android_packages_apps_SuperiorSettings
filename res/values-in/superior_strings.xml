@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-20 The Superior OS Project
+    Copyright © 2018-21 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -24,48 +24,21 @@
     <!-- Dev Info -->
     <string name="devs_header">Pengembang</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
-    <string name="dev_1_git">sweeto143</string>
     <string name="dev1_description">Pengembang</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev_2_git">Jayant-Deshmukh</string>
     <string name="dev2_description">Pengembang Utama</string>
-    <string name="dev_3">Sagar Rokade</string>
-    <string name="dev_3_git">sagarrokade006</string>
-    <string name="dev3_description">Pengembang</string>
-    <string name="dev_4">Rahul Mishra</string>
-    <string name="dev_4_git">beingmishra</string>
-    <string name="dev4_description">Pengembang UI/UX</string>
-    <string name="dev_5">Pavan Patel</string>
-    <string name="dev_5_git">Advertpavan</string>
-    <string name="dev5_description">Desainer Utama</string>
-    <string name="dev_6">Swapnil Soni</string>
-    <string name="dev_6_git">SwapnilSoni1999</string>
-    <string name="dev6_description">Pengembang Web</string>
-    <string name="dev_7">Subins Mani</string>
-    <string name="dev_7_git">Subinsmani</string>
-    <string name="dev7_description">Manajer Infrastruktur</string>
-    <string name="dev_8">Rashed Sahaji</string>
-    <string name="dev_8_git">rashedsahaji</string>
-    <string name="dev8_description">Manajer Perangkat</string>
-    <string name="dev_9">Shreehari Vaasistha</string>
-    <string name="dev_9_git">ShreehariVaasishta</string>
-    <string name="dev9_description">Moderator Projek</string>
-    <string name="dev_10">Arun Teltia</string>
-    <string name="dev_10_git">ArunTeltia</string>
-    <string name="dev10_description">Pengembang Web</string>
     <!-- Mentions -->
     <string name="mentions_header">Layak disebutkan</string>
     <string name="mentions_sam">Sam Grande</string>
-    <string name="mentions_sam_git">SamGrande</string>
     <string name="mentions_sam_description">Desainer</string>
     <string name="mentions_iacob">Ionut Iacob</string>
-    <string name="mentions_iacob_git">IacobIonut01</string>
     <string name="mentions_iacob_description">Pengembang UI/UX</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">Pengelola</string>
     <string name="maintainers_header_summary">Ini adalah Perangkat Resmi Pengelola...</string>
     <string name="device_xiaomi">Xiaomi</string>
     <string name="device_asus">Asus</string>
+    <string name="device_google">Google</string>
     <string name="device_motorola">Motorola</string>
     <string name="device_pantech">Pantech</string>
     <string name="device_lenovo">Lenovo</string>
@@ -77,10 +50,14 @@
     <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_tulip">Redmi Note 6 Pro</string>
-    <string name="device_tulip_description">tulip\nAtlanPrime</string>
+    <string name="device_miatoll">MiAtoll</string>
+    <string name="device_miatoll_description">miatoll\nHaSSaN</string>
     <string name="device_payton">Moto X4</string>
     <string name="device_payton_description">payton\nDhinesh</string>
+    <string name="device_surya">Poco X3</string>
+    <string name="device_surya_description">surya\nAmJith</string>
+    <string name="device_sunfish">Pixel 4a</string>
+    <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <!-- Categories -->
     <string name="button_title">Tombol</string>
     <string name="gestures_title">Gestur</string>
@@ -271,15 +248,6 @@
     <string name="vowifi_icon_simple1">Ikon Simple1</string>
     <string name="vowifi_icon_simple2">Ikon Simple2</string>
     <string name="vowifi_icon_simple3">Ikon Simple3</string>
-    <!-- Brightness slider -->
-    <string name="qs_show_brightness_title">Slider kecerahan</string>
-    <string name="qs_show_brightness_summary">Visibilitas dan pengaturan slider kecerahan</string>
-    <string name="qs_brightness_position_bottom_title">Slider kecerahan di bawah</string>
-    <string name="qs_brightness_position_bottom_summary">Tampilkan slider kecerahan di bagian bawah QS</string>
-    <string name="qs_show_brightness_above_footer_title">Di atas footer</string>
-    <string name="qs_show_brightness_above_footer_summary">Tampilkan slider kecerahan bawah di atas footer QS</string>
-    <string name="qs_show_auto_brightness_title">Ikon Kecerahan Otomatis</string>
-    <string name="qs_show_auto_brightness_summary">Tampilkan tombol kecerahan otomatis di dekat slider kecerahan</string>
     <!-- Battery mode -->
     <string name="battery_percentage_title">Persentase Baterai</string>
     <string name="battery_percentage_off">Dinonaktifkan</string>
@@ -420,7 +388,89 @@
     <string name="lockscreen_media_art_title">Seni Media layar kunci</string>
     <string name="lockscreen_media_art_summary">Tampilkan Seni Sampul Media saat memutar musik</string>
     <!-- FOD icon picker -->
+    <string name="fod_icon_picker_title">Pemilih ikon FOD</string>
+    <string name="fod_icon_picker_summary">Pilih ikon sidik jari favorit Anda</string>
+    <string name="fod_icon_picker_footer">Untuk menambahkan ikon Anda sendiri, pilih ikon kiri atas dan gunakan aplikasi OnePlus 6T FP Customizer untuk memilih ikon yang Anda inginkan.</string>
     <!-- FOD animations -->
+    <string name="fod_recog_animation">Animasi pengenalan FOD</string>
+    <string name="fod_recog_animation_summary">Perlihatkan animasi saat jari Anda terdeteksi</string>
+    <string name="fod_recog_animation_effect_title">Efek animasi pengenalan</string>
+    <string name="fod_recog_animation_miui_normal">Bawaan MIUI</string>
+    <string name="fod_recog_animation_miui_aod">AOD MIUI</string>
+    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
+    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
+    <string name="fod_recog_animation_miui_light">Terang</string>
+    <string name="fod_recog_animation_miui_pop">Pop</string>
+    <string name="fod_recog_animation_miui_pulse">Visual Audio</string>
+    <string name="fod_recog_animation_miui_pulse_white">Denyut (putih)</string>
+    <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
+    <string name="fod_recog_animation_miui_star_cas">Starlight</string>
+    <string name="fod_recog_animation_op_cosmos">Cosmos</string>
+    <string name="fod_recog_animation_op_energy">Energi</string>
+    <string name="fod_recog_animation_op_mclaren">McLaren</string>
+    <string name="fod_recog_animation_op_ripple">Riak</string>
+    <string name="fod_recog_animation_op_stripe">Garis</string>
+    <string name="fod_recog_animation_op_wave">Gelombang</string>
+    <string name="fod_recog_animation_pureview_dna">DNA</string>
+    <string name="fod_recog_animation_pureview_future">Masa Depan</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
+    <string name="fod_recog_animation_pureview_molecular">Molekuler</string>
+    <string name="fod_recog_animation_rog_fusion">Fusion</string>
+    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
+    <string name="fod_recog_animation_rog_supernova">Supernova</string>
     <!-- Screen off fod -->
+    <string name="fod_gesture_title">Sidik jari saat layar mati</string>
+    <string name="fod_gesture_summary">Izinkan membuka kunci tanpa harus mengaktifkan layar terlebih dahulu</string>
     <!-- Nightlight Fod -->
+    <string name="fod_night_light_title">Nonaktifkan cahaya malam saat menampilkan FOD</string>
+    <string name="fod_night_light_summary">Nonaktifkan cahaya malam di layar kunci jika FOD aktif. Menonaktifkan opsi ini dapat memengaruhi akurasi sidik jari Anda dengan cahaya malam menyala.</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Animasi pengisian daya</string>
+    <string name="lockscreen_charging_animation_flash">Lampu Kilat</string>
+    <string name="lockscreen_charging_animation_battery">Baterai</string>
+    <string name="lockscreen_charging_animation_drop">Tetesan air</string>
+    <string name="lockscreen_charging_animation_explosion">Ledakan</string>
+    <string name="lockscreen_charging_animation_water">Air</string>
+    <string name="lockscreen_charging_animation_phone">Telepon</string>
+    <string name="lockscreen_charging_animation_stack">Tumpukan</string>
+    <string name="lockscreen_charging_animation_wavy">Bergelombang</string>
+    <!-- QS Header data uasge -->
+    <string name="qs_datausage_title">Penggunaan data di QS Header</string>
+    <string name="qs_datausage_disabled">Dinonaktifkan</string>
+    <string name="qs_datausage_daily">Penggunaan harian</string>
+    <string name="qs_datausage_monthly">Penggunaan bulanan</string>
+    <!-- QS tint -->
+    <string name="qs_bg_use_new_tint">Warna ubin QS menggunakan warna aksen</string>
+    <string name="qs_bg_use_new_tint_summary">Aktifkan rona warna aksen pada ubin QS</string>
+    <!-- QS Footer Text -->
+    <string name="qs_footer_text_title">Teks pada footer QS</string>
+    <string name="qs_footer_text_summary">Tampilkan teks di bagian bawah panel QS</string>
+    <string name="qs_footer_text_string_title">Kustomisasi teks footer</string>
+    <string name="qs_footer_text_string_summary">Setel ke kosong sebagai default</string>
+    <!-- Notification headers -->
+    <string name="notification_headers_title">Tajuk Pemberitahuan</string>
+    <string name="notification_headers_summary">Tampilkan tajuk di bayangan pemberitahuan</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_category">Penggeser Kecerahan</string>
+    <string name="qs_brightness_slider_title">Tampilkan panel geser kecerahan</string>
+    <string name="qs_brightness_slider_summary">Tampilkan panel geser kecerahan di panel setelan cepat</string>
+    <string name="qs_brightness_position_bottom_title">Tampilkan panel geser kecerahan di bawah</string>
+    <string name="qs_brightness_position_bottom_summary">Tampilkan panel geser kecerahan pada bawah setelan cepat</string>
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Tombol kecerahan adaptif</string>
+    <string name="brightness_icon_summary">Tampilkan tombol kecerahan adaptif</string>
+    <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">Tombol kontrol kecerahan</string>
+    <string name="brightness_side_buttons_summary">Tampilkan tombol untuk menambah atau mengurangi kecerahan</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Tampilkan ikon data dinonaktifkan</string>
+    <string name="data_disabled_icon_summary">Menampilkan tanda silang di sebelah bar sinyal saat data dinonaktifkan</string>
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Indikator Roaming</string>
+    <string name="roaming_indicator_icon_summary">Menampilkan indikator roaming pada ikon sinyal ketika dalam mode roaming</string>
+    <!-- AOD Schedule -->
+    <string name="disabled">Dinonaktifkan</string>
+    <string name="always_on_display_schedule_title">Jadwal Layar Selalu Hidup</string>
+    <string name="always_on_display_schedule_sunset">Matahari terbenam</string>
+    <string name="always_on_display_schedule_sunrise">Matahari terbit</string>
 </resources>

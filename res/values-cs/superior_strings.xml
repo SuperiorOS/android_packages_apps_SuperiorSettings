@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-20 The Superior OS Project
+    Copyright © 2018-21 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -24,48 +24,21 @@
     <!-- Dev Info -->
     <string name="devs_header">Vývojáři</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
-    <string name="dev_1_git">sweeto143</string>
     <string name="dev1_description">Vývojář</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev_2_git">Jayant-Deshmukh</string>
     <string name="dev2_description">Hlavní vývojář</string>
-    <string name="dev_3">Sagar Rokade</string>
-    <string name="dev_3_git">sagarrokade006</string>
-    <string name="dev3_description">Vývojář</string>
-    <string name="dev_4">Rahul Mishra</string>
-    <string name="dev_4_git">beingmishra</string>
-    <string name="dev4_description">Vývojář UX/UI</string>
-    <string name="dev_5">Pavan Patel</string>
-    <string name="dev_5_git">Advertpavan</string>
-    <string name="dev5_description">Hlavní designer</string>
-    <string name="dev_6">Swapnil Soni</string>
-    <string name="dev_6_git">SwapnilSoni1999</string>
-    <string name="dev6_description">Vývojář webu</string>
-    <string name="dev_7">Subins Mani</string>
-    <string name="dev_7_git">Subinsmani</string>
-    <string name="dev7_description">Správce infrastruktury</string>
-    <string name="dev_8">Rashed Sahaji</string>
-    <string name="dev_8_git">rashedsahaji</string>
-    <string name="dev8_description">Správce zařízení</string>
-    <string name="dev_9">Shreehari Vaasistha</string>
-    <string name="dev_9_git">ShreehariVaasishta</string>
-    <string name="dev9_description">Moderátor projektu</string>
-    <string name="dev_10">Arun Teltia</string>
-    <string name="dev_10_git">ArunTeltia</string>
-    <string name="dev10_description">Vývojář webu</string>
     <!-- Mentions -->
     <string name="mentions_header">Čestná uznání</string>
     <string name="mentions_sam">Sam Grande</string>
-    <string name="mentions_sam_git">SamGrande</string>
     <string name="mentions_sam_description">Designer</string>
     <string name="mentions_iacob">Ionut Iacob</string>
-    <string name="mentions_iacob_git">IacobIonut01</string>
     <string name="mentions_iacob_description">Vývojář UX/UI</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">Správci</string>
     <string name="maintainers_header_summary">Toto jsou správci oficiálních zařízení...</string>
     <string name="device_xiaomi">Xiaomi</string>
     <string name="device_asus">Asus</string>
+    <string name="device_google">Google</string>
     <string name="device_motorola">Motorola</string>
     <string name="device_pantech">Pantech</string>
     <string name="device_lenovo">Lenovo</string>
@@ -77,10 +50,14 @@
     <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_tulip">Redmi Note 6 Pro</string>
-    <string name="device_tulip_description">tulip\nAtlanPrime</string>
+    <string name="device_miatoll">MiAtoll</string>
+    <string name="device_miatoll_description">miatoll\nHaSSaN</string>
     <string name="device_payton">Moto X4</string>
     <string name="device_payton_description">payton\nDhinesh</string>
+    <string name="device_surya">Poco X3</string>
+    <string name="device_surya_description">surya\nAmJith</string>
+    <string name="device_sunfish">Pixel 4a</string>
+    <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <!-- Categories -->
     <string name="button_title">Tlačítka</string>
     <string name="gestures_title">Gesta</string>
@@ -271,15 +248,6 @@
     <string name="vowifi_icon_simple1">Ikona Simple1</string>
     <string name="vowifi_icon_simple2">Ikona Simple2</string>
     <string name="vowifi_icon_simple3">Ikona Simple3</string>
-    <!-- Brightness slider -->
-    <string name="qs_show_brightness_title">Posuvník jasu</string>
-    <string name="qs_show_brightness_summary">Zobrazení a nastavení posuvníku jasu</string>
-    <string name="qs_brightness_position_bottom_title">Spodní posuvník jasu</string>
-    <string name="qs_brightness_position_bottom_summary">Zobrazit posuvník jasu ve spodní části panelu QS</string>
-    <string name="qs_show_brightness_above_footer_title">Nad zápatím</string>
-    <string name="qs_show_brightness_above_footer_summary">Zobrazit spodní posuvník jasu nad zápatím QS</string>
-    <string name="qs_show_auto_brightness_title">Ikona automatického jasu</string>
-    <string name="qs_show_auto_brightness_summary">Zobrazit přepínač automatického jasu poblíž posuvníku jasu</string>
     <!-- Battery mode -->
     <string name="battery_percentage_title">Procenta baterie</string>
     <string name="battery_percentage_off">Vypnuto</string>
@@ -420,7 +388,89 @@
     <string name="lockscreen_media_art_title">Obal interpreta na zamykací obrazovce</string>
     <string name="lockscreen_media_art_summary">Zobrazit obal alba při přehrávání hudby</string>
     <!-- FOD icon picker -->
+    <string name="fod_icon_picker_title">Výběr ikony otisku prstu</string>
+    <string name="fod_icon_picker_summary">Vyberte si svou oblíbenou ikonu čtečky otisku prstu v displeji</string>
+    <string name="fod_icon_picker_footer">Chcete‑li přidat vlastní ikonu, vyberte levou horní ikonu a použijte aplikaci OnePlus 6T FP Customizer pro výběr požadované ikony.</string>
     <!-- FOD animations -->
+    <string name="fod_recog_animation">Animace rozpoznání otisku prstu</string>
+    <string name="fod_recog_animation_summary">Zobrazit animaci při skenování otisku prstu</string>
+    <string name="fod_recog_animation_effect_title">Animace rozpoznávání otisku prstu</string>
+    <string name="fod_recog_animation_miui_normal">Výchozí MIUI</string>
+    <string name="fod_recog_animation_miui_aod">MIUI - AOD</string>
+    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
+    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
+    <string name="fod_recog_animation_miui_light">Světlo</string>
+    <string name="fod_recog_animation_miui_pop">Pop</string>
+    <string name="fod_recog_animation_miui_pulse">Pulse</string>
+    <string name="fod_recog_animation_miui_pulse_white">Pulse (bílé)</string>
+    <string name="fod_recog_animation_miui_rhythm">Rytmus</string>
+    <string name="fod_recog_animation_miui_star_cas">Světlo hvězd</string>
+    <string name="fod_recog_animation_op_cosmos">Kosmos</string>
+    <string name="fod_recog_animation_op_energy">Energie</string>
+    <string name="fod_recog_animation_op_mclaren">McLaren</string>
+    <string name="fod_recog_animation_op_ripple">Zvlnění</string>
+    <string name="fod_recog_animation_op_stripe">Proužek</string>
+    <string name="fod_recog_animation_op_wave">Vlna</string>
+    <string name="fod_recog_animation_pureview_dna">DNA</string>
+    <string name="fod_recog_animation_pureview_future">Budoucnost</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Kruh Halo</string>
+    <string name="fod_recog_animation_pureview_molecular">Molekulární</string>
+    <string name="fod_recog_animation_rog_fusion">Fúze</string>
+    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
+    <string name="fod_recog_animation_rog_supernova">Supernova</string>
     <!-- Screen off fod -->
+    <string name="fod_gesture_title">Otisky prstů při vypnuté obrazovce</string>
+    <string name="fod_gesture_summary">Umožňuje odemknutí zařízení, aniž by bylo nutné nejprve obrazovku probudit</string>
     <!-- Nightlight Fod -->
+    <string name="fod_night_light_title">Vypnout noční režim při zobrazení FOD</string>
+    <string name="fod_night_light_summary">Zakázat noční režim na zamykací obrazovce, pokud je FOD aktivní. Zakázání této možnosti může ovlivnit přesnost otisku prstu při zapnutém nočním režimu.</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Animace nabíjení</string>
+    <string name="lockscreen_charging_animation_flash">Blesk</string>
+    <string name="lockscreen_charging_animation_battery">Baterie</string>
+    <string name="lockscreen_charging_animation_drop">Kapka</string>
+    <string name="lockscreen_charging_animation_explosion">Exploze</string>
+    <string name="lockscreen_charging_animation_water">Voda</string>
+    <string name="lockscreen_charging_animation_phone">Telefon</string>
+    <string name="lockscreen_charging_animation_stack">Vrstvy</string>
+    <string name="lockscreen_charging_animation_wavy">Vlnky</string>
+    <!-- QS Header data uasge -->
+    <string name="qs_datausage_title">Využití dat v záhlaví QS</string>
+    <string name="qs_datausage_disabled">Vypnuto</string>
+    <string name="qs_datausage_daily">Denní využití</string>
+    <string name="qs_datausage_monthly">Měsíční využití</string>
+    <!-- QS tint -->
+    <string name="qs_bg_use_new_tint">Odstín QS dlaždic pomocí barvy zvýraznění</string>
+    <string name="qs_bg_use_new_tint_summary">Povolit zabarvení dlaždic rychlého nastavení barvou zvýraznění</string>
+    <!-- QS Footer Text -->
+    <string name="qs_footer_text_title">Text zápatí QS</string>
+    <string name="qs_footer_text_summary">Zobrazit text ve spodní části panelu QS</string>
+    <string name="qs_footer_text_string_title">Přizpůsobit text zápatí</string>
+    <string name="qs_footer_text_string_summary">Nastavte na prázdné pro výchozí</string>
+    <!-- Notification headers -->
+    <string name="notification_headers_title">Záhlaví oznámení</string>
+    <string name="notification_headers_summary">Zobrazit záhlaví v liště oznámení</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_category">Posuvník jasu</string>
+    <string name="qs_brightness_slider_title">Zobrazit posuvník jasu</string>
+    <string name="qs_brightness_slider_summary">Zobrazit posuvník jasu v panelu Rychlého nastavení</string>
+    <string name="qs_brightness_position_bottom_title">Zobrazit posuvník jasu v v dolní části</string>
+    <string name="qs_brightness_position_bottom_summary">Zobrazit posuvník jasu v dolní části panelu Rychlého nastavení</string>
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Tlačítko adaptivního jasu</string>
+    <string name="brightness_icon_summary">Zobrazovat tlačítko adaptivního jasu</string>
+    <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">Tlačítka ovládání jasu</string>
+    <string name="brightness_side_buttons_summary">Zobrazit tlačítka pro zvyšování, nebo snižování jasu</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Zobrazit ikonu při vypnutí dat</string>
+    <string name="data_disabled_icon_summary">Zobrazit křížek na ikoně signálu sítě při vypnutých datech</string>
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Indikátor roamingu</string>
+    <string name="roaming_indicator_icon_summary">V režimu roamingu zobrazit indikátor „R“ v ikoně signálu</string>
+    <!-- AOD Schedule -->
+    <string name="disabled">Vypnuto</string>
+    <string name="always_on_display_schedule_title">Plán zobrazení Always On</string>
+    <string name="always_on_display_schedule_sunset">Západ slunce</string>
+    <string name="always_on_display_schedule_sunrise">Východ slunce</string>
 </resources>

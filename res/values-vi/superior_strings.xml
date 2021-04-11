@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-20 The Superior OS Project
+    Copyright © 2018-21 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -24,48 +24,21 @@
     <!-- Dev Info -->
     <string name="devs_header">Nhà phát triển</string>
     <string name="dev_1">whyredSipun Ku Mahanta</string>
-    <string name="dev_1_git">sweeto143</string>
     <string name="dev1_description">Nhà phát triển</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev_2_git">Jayant-Deshmukh</string>
     <string name="dev2_description">Nhà phát triển chính</string>
-    <string name="dev_3">Sagar Rokade</string>
-    <string name="dev_3_git">sagarrokade006</string>
-    <string name="dev3_description">Nhà phát triển</string>
-    <string name="dev_4">Rahul Mishra</string>
-    <string name="dev_4_git">beingmishra</string>
-    <string name="dev4_description">Nhà phát triển UI / UX</string>
-    <string name="dev_5">Pavan Patel</string>
-    <string name="dev_5_git">Advertpavan</string>
-    <string name="dev5_description">Thiết kế chính</string>
-    <string name="dev_6">Swapnil Soni</string>
-    <string name="dev_6_git">SwapnilSoni1999</string>
-    <string name="dev6_description">Nhà phát triển website</string>
-    <string name="dev_7">Subins Mani</string>
-    <string name="dev_7_git">Subinsmani</string>
-    <string name="dev7_description">Infrastructure Manager</string>
-    <string name="dev_8">Rashed Sahaji</string>
-    <string name="dev_8_git">rashedsahaji</string>
-    <string name="dev8_description">Quản Lý Thiết Bị</string>
-    <string name="dev_9">Shreehari Vaasistha</string>
-    <string name="dev_9_git">ShreehariVaasishta</string>
-    <string name="dev9_description">Người điều hành dự án</string>
-    <string name="dev_10">Arun Teltia</string>
-    <string name="dev_10_git">ArunTeltia</string>
-    <string name="dev10_description">Phát triển web</string>
     <!-- Mentions -->
     <string name="mentions_header">Những đề cập đáng vinh danh</string>
     <string name="mentions_sam">Sam Grande</string>
-    <string name="mentions_sam_git">SamGrande</string>
     <string name="mentions_sam_description">Thiết kế</string>
     <string name="mentions_iacob">Ionut Iacob</string>
-    <string name="mentions_iacob_git">IacobIonut01</string>
     <string name="mentions_iacob_description">Nhà phát triển UI / UX</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">Người bảo trì</string>
     <string name="maintainers_header_summary">Đây là các nhà bảo trì thiết bị chính thức...</string>
     <string name="device_xiaomi">Xiaomi</string>
     <string name="device_asus">Asus</string>
+    <string name="device_google">Google</string>
     <string name="device_motorola">Motorola</string>
     <string name="device_pantech">Pantech</string>
     <string name="device_lenovo">Lenovo</string>
@@ -77,10 +50,14 @@
     <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_tulip">Redmi Note 6 Pro</string>
-    <string name="device_tulip_description">tulip\nAtlanPrime</string>
+    <string name="device_miatoll">Miatoll</string>
+    <string name="device_miatoll_description">miatoll\nHaSSaN</string>
     <string name="device_payton">Moto X4</string>
     <string name="device_payton_description">payton\nDhinesh</string>
+    <string name="device_surya">Poco X3</string>
+    <string name="device_surya_description">surya\nAmJith</string>
+    <string name="device_sunfish">Pixel 4a</string>
+    <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <!-- Categories -->
     <string name="button_title">Nút bấm</string>
     <string name="gestures_title">Cử chỉ</string>
@@ -271,15 +248,6 @@
     <string name="vowifi_icon_simple1">Biểu tượng Simple1</string>
     <string name="vowifi_icon_simple2">Biểu tượng Simple2</string>
     <string name="vowifi_icon_simple3">Biểu tượng Simple3</string>
-    <!-- Brightness slider -->
-    <string name="qs_show_brightness_title">Thanh điều chỉnh độ sáng</string>
-    <string name="qs_show_brightness_summary">Hiện thị thanh độ sáng và cài đặt</string>
-    <string name="qs_brightness_position_bottom_title">Thanh trượt điều chỉnh độ sáng ở dưới</string>
-    <string name="qs_brightness_position_bottom_summary">Hiển thị thanh trượt chỉnh độ sáng phía dưới bảng cài đặt nhanh</string>
-    <string name="qs_show_brightness_above_footer_title">Chân trang trên</string>
-    <string name="qs_show_brightness_above_footer_summary">Hiển thị thanh trượt độ sáng dưới cùng phía trên chân trang QS</string>
-    <string name="qs_show_auto_brightness_title">Biểu tượng độ sáng tự động</string>
-    <string name="qs_show_auto_brightness_summary">Hiển thị chuyển đổi độ sáng tự động gần thanh trượt độ sáng</string>
     <!-- Battery mode -->
     <string name="battery_percentage_title">Tỷ lệ phần trăm pin</string>
     <string name="battery_percentage_off">Đã vô hiệu</string>
@@ -420,7 +388,89 @@
     <string name="lockscreen_media_art_title">Phương tiện trên màn hình khóa</string>
     <string name="lockscreen_media_art_summary">Hiển thị ảnh bìa phương tiện khi có sẵn</string>
     <!-- FOD icon picker -->
+    <string name="fod_icon_picker_title">Công cụ chọn biểu tượng FOD</string>
+    <string name="fod_icon_picker_summary">Chọn biểu tượng vân tay ưa thích</string>
+    <string name="fod_icon_picker_footer">Để thêm biểu tượng của riêng bạn, hãy chọn biểu tượng trên cùng bên trái và sử dụng ứng dụng OnePlus 6T tuỳ biến FP để chọn biểu tượng bạn mong muốn.</string>
     <!-- FOD animations -->
+    <string name="fod_recog_animation">Hiệu ứng FOD khi xác nhận vân tay</string>
+    <string name="fod_recog_animation_summary">Hiện hiệu ứng khi đang đọc vân tay của bạn</string>
+    <string name="fod_recog_animation_effect_title">Hiệu ứng hoạt ảnh cho vân tay dưới màn hình</string>
+    <string name="fod_recog_animation_miui_normal">MIUI mặc định</string>
+    <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
+    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
+    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
+    <string name="fod_recog_animation_miui_light">Sáng</string>
+    <string name="fod_recog_animation_miui_pop">Pop</string>
+    <string name="fod_recog_animation_miui_pulse">Pulse</string>
+    <string name="fod_recog_animation_miui_pulse_white">Pulse (Trắng)</string>
+    <string name="fod_recog_animation_miui_rhythm">Nhịp</string>
+    <string name="fod_recog_animation_miui_star_cas">Starlight</string>
+    <string name="fod_recog_animation_op_cosmos">Vũ trụ</string>
+    <string name="fod_recog_animation_op_energy">Tài nguyên</string>
+    <string name="fod_recog_animation_op_mclaren">McLaren</string>
+    <string name="fod_recog_animation_op_ripple">Gợn sóng</string>
+    <string name="fod_recog_animation_op_stripe">Sọc</string>
+    <string name="fod_recog_animation_op_wave">Sóng</string>
+    <string name="fod_recog_animation_pureview_dna">DNA</string>
+    <string name="fod_recog_animation_pureview_future">Tương lai</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Halo Ringe</string>
+    <string name="fod_recog_animation_pureview_molecular">Phân tử</string>
+    <string name="fod_recog_animation_rog_fusion">Hợp nhất</string>
+    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
+    <string name="fod_recog_animation_rog_supernova">Supernova</string>
     <!-- Screen off fod -->
+    <string name="fod_gesture_title">Tắt màn hình bằng vân tay</string>
+    <string name="fod_gesture_summary">Cho phép mở khóa thiết bị mà không cần phải đánh thức màn hình trước</string>
     <!-- Nightlight Fod -->
+    <string name="fod_night_light_title">Tắt ánh sáng chạm khi hiển thị FOD</string>
+    <string name="fod_night_light_summary">Tắt đèn ngủ trên màn hình khóa nếu FOD đang hoạt động. Tắt tùy chọn này có thể ảnh hưởng đến độ chính xác của vân tay khi bật đèn ngủ.</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Hiệu ứng sạc</string>
+    <string name="lockscreen_charging_animation_flash">Hình tia chớp</string>
+    <string name="lockscreen_charging_animation_battery">Pin</string>
+    <string name="lockscreen_charging_animation_drop">Nhỏ giọt</string>
+    <string name="lockscreen_charging_animation_explosion">Vụ nổ</string>
+    <string name="lockscreen_charging_animation_water">Nước chảy</string>
+    <string name="lockscreen_charging_animation_phone">Điện thoại</string>
+    <string name="lockscreen_charging_animation_stack">Xếp chồng</string>
+    <string name="lockscreen_charging_animation_wavy">Dợn sóng</string>
+    <!-- QS Header data uasge -->
+    <string name="qs_datausage_title">Dữ liệu sữ dụng trên tiêu đề QS</string>
+    <string name="qs_datausage_disabled">Đã tắt</string>
+    <string name="qs_datausage_daily">Sử dụng hàng ngày</string>
+    <string name="qs_datausage_monthly">Sử dụng hàng tháng</string>
+    <!-- QS tint -->
+    <string name="qs_bg_use_new_tint">Tô màu Cài đặt nhanh bằng cách sử dụng màu nhấn</string>
+    <string name="qs_bg_use_new_tint_summary">Bật tông màu nhấn trên ô Cài đặt nhanh</string>
+    <!-- QS Footer Text -->
+    <string name="qs_footer_text_title">Văn bản chân cài đặt nhanh</string>
+    <string name="qs_footer_text_summary">Hiển thị văn bản ở dưới cùng của bảng cài đặt nhanh</string>
+    <string name="qs_footer_text_string_title">Tùy chỉnh văn bản chân trang</string>
+    <string name="qs_footer_text_string_summary">Đặt thành trống cho mặc định</string>
+    <!-- Notification headers -->
+    <string name="notification_headers_title">Tiêu đề thông báo</string>
+    <string name="notification_headers_summary">Hiển thị tiêu đề trong ngăn thông báo</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_category">Thanh trượt độ sáng</string>
+    <string name="qs_brightness_slider_title">Hiện thanh trượt điều chỉnh độ sáng</string>
+    <string name="qs_brightness_slider_summary">Hiển thị thanh trượt độ sáng trong bảng cài đặt nhanh</string>
+    <string name="qs_brightness_position_bottom_title">Hiển thị thanh trượt chỉnh độ sáng ở dưới</string>
+    <string name="qs_brightness_position_bottom_summary">Hiển thị thanh trượt độ sáng trên cài đặt nhanh phía dưới</string>
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Nút độ sáng thích nghi</string>
+    <string name="brightness_icon_summary">Hiển thị nút độ sáng thích nghi</string>
+    <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">Nút điều chỉnh độ sáng</string>
+    <string name="brightness_side_buttons_summary">Hiện nút để tăng hoặc giảm độ sáng</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Hiển thị biểu tượng tắt mạng di động</string>
+    <string name="data_disabled_icon_summary">Hiển thị biểu tượng dấu chéo bên cạnh biểu tượng mạng di động khi dữ liệu di động bị vô hiệu hóa</string>
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Hiển thị chỉ báo chuyển vùng</string>
+    <string name="roaming_indicator_icon_summary">Hiển thị chỉ báo chuyển vùng trong biểu tượng tín hiệu khi ở chế độ chuyển vùng</string>
+    <!-- AOD Schedule -->
+    <string name="disabled">Tắt</string>
+    <string name="always_on_display_schedule_title">Luôn hiển thị theo lịch biểu</string>
+    <string name="always_on_display_schedule_sunset">Hoàng hôn</string>
+    <string name="always_on_display_schedule_sunrise">Bình minh</string>
 </resources>

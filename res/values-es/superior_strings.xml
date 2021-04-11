@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-20 The Superior OS Project
+    Copyright © 2018-21 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -24,16 +24,14 @@
     <!-- Dev Info -->
     <string name="devs_header">Desarrolladores</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
-    <string name="dev_1_git">sweeto143</string>
     <string name="dev1_description">Desarrollador</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev_2_git">Jayant-Deshmukh</string>
     <string name="dev2_description">Desarrollador líder</string>
     <!-- Mentions -->
     <string name="mentions_header">Menciones Honorables</string>
     <string name="mentions_sam">Sam Grande</string>
-    <string name="mentions_sam_git">SamGrande</string>
     <string name="mentions_sam_description">Diseñador</string>
+    <string name="mentions_iacob_description">Desarrollador UI/UX</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">Mantenedores</string>
     <string name="maintainers_header_summary">Estos son los mantenedores de Dispositivos Oficiales...</string>
@@ -234,15 +232,6 @@
     <string name="vowifi_icon_simple1">Icono Sencillo 1</string>
     <string name="vowifi_icon_simple2">Icono Sencillo 2</string>
     <string name="vowifi_icon_simple3">Icono Sencillo 3</string>
-    <!-- Brightness slider -->
-    <string name="qs_show_brightness_title">Deslizador de brillo</string>
-    <string name="qs_show_brightness_summary">Visibilidad y configuración de la barra de brillo</string>
-    <string name="qs_brightness_position_bottom_title">Mostrar la barra de brillo a bajo</string>
-    <string name="qs_brightness_position_bottom_summary">Mostrar control deslizante de brillo en la parte inferior del panel de ajustes rápidos</string>
-    <string name="qs_show_brightness_above_footer_title">Por encima de pie de página</string>
-    <string name="qs_show_brightness_above_footer_summary">Mostrar deslizador de brillo inferior sobre el pie de QS</string>
-    <string name="qs_show_auto_brightness_title">Icono de brillo automático</string>
-    <string name="qs_show_auto_brightness_summary">Mostrar un interruptor de brillo automático cerca del deslizador de brillo</string>
     <!-- Battery mode -->
     <string name="battery_percentage_title">Porcentaje de la batería</string>
     <string name="battery_percentage_off">Desactivado</string>
@@ -383,7 +372,30 @@
     <string name="lockscreen_media_art_title">Portada de álbum en pantalla de bloqueo</string>
     <string name="lockscreen_media_art_summary">Mostrar carátula de medios al reproducir música</string>
     <!-- FOD icon picker -->
+    <string name="fod_icon_picker_summary">Elige tu icono de huella digital favorito</string>
     <!-- FOD animations -->
+    <string name="fod_recog_animation">Animación de reconocimiento de FOD</string>
+    <string name="fod_recog_animation_summary">Mostrar una animación durante la lectura de tu huella digital</string>
+    <string name="fod_recog_animation_effect_title">Efecto de animación de reconocimiento</string>
     <!-- Screen off fod -->
+    <string name="fod_gesture_title">Huella dactilar con pantalla apagada</string>
+    <string name="fod_gesture_summary">Permitir el desbloqueo del dispositivo sin encender la pantalla primero</string>
     <!-- Nightlight Fod -->
+    <string name="fod_night_light_title">Desactivar la luz nocturna al mostrar FOD</string>
+    <string name="fod_night_light_summary">Desactiva la luz nocturna en la pantalla de bloqueo si FOD está activo. Desactivar esta opción podría afectar a la precisión de su huella digital con la luz nocturna activada.</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Animación de carga</string>
+    <string name="lockscreen_charging_animation_flash">Flash</string>
+    <string name="lockscreen_charging_animation_battery">Batería</string>
+    <string name="lockscreen_charging_animation_drop">Tirar</string>
+    <!-- QS Header data uasge -->
+    <!-- QS tint -->
+    <!-- QS Footer Text -->
+    <!-- Notification headers -->
+    <!-- Quick Settings brightness slider -->
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Data disabled icon -->
+    <!-- Roaming indicator icon -->
+    <!-- AOD Schedule -->
 </resources>

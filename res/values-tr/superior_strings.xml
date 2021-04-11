@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-20 The Superior OS Project
+    Copyright © 2018-21 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -24,48 +24,21 @@
     <!-- Dev Info -->
     <string name="devs_header">Geliştiriciler</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
-    <string name="dev_1_git">sweeto143</string>
     <string name="dev1_description">Geliştirici</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev_2_git">Jayant-Deshmukh</string>
     <string name="dev2_description">Lider geliştirici</string>
-    <string name="dev_3">Sagar Rokade</string>
-    <string name="dev_3_git">sagarrokade006</string>
-    <string name="dev3_description">Geliştirici</string>
-    <string name="dev_4">Rahul Mishra</string>
-    <string name="dev_4_git">beingmishra</string>
-    <string name="dev4_description">UI/UX Geliştirici</string>
-    <string name="dev_5">Pavan Patel</string>
-    <string name="dev_5_git">Advertpavan</string>
-    <string name="dev5_description">Baş tasarımcı</string>
-    <string name="dev_6">Swapnil Soni</string>
-    <string name="dev_6_git">SwapnilSoni1999</string>
-    <string name="dev6_description">Web geliştirici</string>
-    <string name="dev_7">Subins Mani</string>
-    <string name="dev_7_git">Subinsmani</string>
-    <string name="dev7_description">Altyapı yöneticisi</string>
-    <string name="dev_8">Rashed Sahaji</string>
-    <string name="dev_8_git">rashedsahaji</string>
-    <string name="dev8_description">Cihaz yöneticisi</string>
-    <string name="dev_9">Shreehari Vaasistha</string>
-    <string name="dev_9_git">ShreehariVaasishta</string>
-    <string name="dev9_description">Proje yöneticisi</string>
-    <string name="dev_10">Arun Teltia</string>
-    <string name="dev_10_git">ArunTeltia</string>
-    <string name="dev10_description">Web geliştiricisi</string>
     <!-- Mentions -->
     <string name="mentions_header">Takdir edilecekler</string>
     <string name="mentions_sam">Sam Grande</string>
-    <string name="mentions_sam_git">SamGrande</string>
     <string name="mentions_sam_description">Tasarımcı</string>
     <string name="mentions_iacob">Ionut Iacob</string>
-    <string name="mentions_iacob_git">IacobIonut01</string>
     <string name="mentions_iacob_description">UI/UX geliştiricisi</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">Sorumlular</string>
     <string name="maintainers_header_summary">Bunlar resmi cihaz sorumluları...</string>
     <string name="device_xiaomi">Xiaomi</string>
     <string name="device_asus">Asus</string>
+    <string name="device_google">Google</string>
     <string name="device_motorola">Motorola</string>
     <string name="device_pantech">Pantech</string>
     <string name="device_lenovo">Lenovo</string>
@@ -77,10 +50,14 @@
     <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_tulip">Redmi Note 6 Pro</string>
-    <string name="device_tulip_description">tulip\nAtlanPrime</string>
+    <string name="device_miatoll">MiAtoll</string>
+    <string name="device_miatoll_description">miatoll\nHaSSaN</string>
     <string name="device_payton">Moto X4</string>
     <string name="device_payton_description">payton\nDhinesh</string>
+    <string name="device_surya">Poco X3</string>
+    <string name="device_surya_description">surya\nAmJith</string>
+    <string name="device_sunfish">Pixel 4a</string>
+    <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <!-- Categories -->
     <string name="button_title">Tuşlar</string>
     <string name="gestures_title">Hareketler</string>
@@ -271,15 +248,6 @@
     <string name="vowifi_icon_simple1">Simple1 simgesi</string>
     <string name="vowifi_icon_simple2">Simple2 simgesi</string>
     <string name="vowifi_icon_simple3">Simple3 simgesi</string>
-    <!-- Brightness slider -->
-    <string name="qs_show_brightness_title">Parlaklık kaydırıcısı</string>
-    <string name="qs_show_brightness_summary">Parlaklık kaydırıcısı görünürlüğü ve ayarları</string>
-    <string name="qs_brightness_position_bottom_title">Alt parlaklık kaydırıcısı</string>
-    <string name="qs_brightness_position_bottom_summary">Hızlı ayarlar paneli altında parlaklık kaydırıcısını göster</string>
-    <string name="qs_show_brightness_above_footer_title">Altbilginin üstünde</string>
-    <string name="qs_show_brightness_above_footer_summary">Alt parlaklık kaydırıcısını hızlı ayarlar altbilgisinin üzerinde göster</string>
-    <string name="qs_show_auto_brightness_title">Otomatik parlaklık simgesi</string>
-    <string name="qs_show_auto_brightness_summary">Parlaklık kaydırıcısının yanında otomatik parlaklık simgesini göster</string>
     <!-- Battery mode -->
     <string name="battery_percentage_title">Pil yüzdesi</string>
     <string name="battery_percentage_off">Devre dışı</string>
@@ -420,7 +388,89 @@
     <string name="lockscreen_media_art_title">Kilit ekranı medya resmi</string>
     <string name="lockscreen_media_art_summary">Müzik çalarken medya kapak resmini görüntüle</string>
     <!-- FOD icon picker -->
+    <string name="fod_icon_picker_title">FOD simge seçici</string>
+    <string name="fod_icon_picker_summary">En sevdiğiniz parmak izi simgesini seçin</string>
+    <string name="fod_icon_picker_footer">Kendi simgenizi eklemek için sol üst simgeyi seçin ve OnePlus 6T FP özelleştirici uygulamasını kullanarak istediğiniz simgeyi seçin.</string>
     <!-- FOD animations -->
+    <string name="fod_recog_animation">FOD tanıma animasyonu</string>
+    <string name="fod_recog_animation_summary">Parmak izi okunurken bir animasyon göster</string>
+    <string name="fod_recog_animation_effect_title">Tanımlama animasyonu efekti</string>
+    <string name="fod_recog_animation_miui_normal">MIUI varsayılanı</string>
+    <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
+    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
+    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
+    <string name="fod_recog_animation_miui_light">Açık</string>
+    <string name="fod_recog_animation_miui_pop">Pop</string>
+    <string name="fod_recog_animation_miui_pulse">Pulse</string>
+    <string name="fod_recog_animation_miui_pulse_white">Pulse (Beyaz)</string>
+    <string name="fod_recog_animation_miui_rhythm">Ritim</string>
+    <string name="fod_recog_animation_miui_star_cas">Yıldız ışığı</string>
+    <string name="fod_recog_animation_op_cosmos">Evren</string>
+    <string name="fod_recog_animation_op_energy">Enerji</string>
+    <string name="fod_recog_animation_op_mclaren">McLaren</string>
+    <string name="fod_recog_animation_op_ripple">Dalgalanma</string>
+    <string name="fod_recog_animation_op_stripe">Şerit</string>
+    <string name="fod_recog_animation_op_wave">Dalgalı</string>
+    <string name="fod_recog_animation_pureview_dna">DNA</string>
+    <string name="fod_recog_animation_pureview_future">Gelecek</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Halo halkası</string>
+    <string name="fod_recog_animation_pureview_molecular">Moleküler</string>
+    <string name="fod_recog_animation_rog_fusion">Füzyon</string>
+    <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
+    <string name="fod_recog_animation_rog_supernova">Süpernova</string>
     <!-- Screen off fod -->
+    <string name="fod_gesture_title">Kapalı ekran parmak izi</string>
+    <string name="fod_gesture_summary">Ekranı uyandırmak zorunda kalmadan cihazın kilidini açmaya izin verir</string>
     <!-- Nightlight Fod -->
+    <string name="fod_night_light_title">FOD gösterilirken gece ışığını devre dışı bırak</string>
+    <string name="fod_night_light_summary">FOD etkinse, kilit ekranında gece ışığını devre dışı bırakın. Bu seçeneği devre dışı bırakmak, gece ışığı açıkken parmak izinizin doğruluğunu etkileyebilir.</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">Şarj animasyonu</string>
+    <string name="lockscreen_charging_animation_flash">Flaş</string>
+    <string name="lockscreen_charging_animation_battery">Pil</string>
+    <string name="lockscreen_charging_animation_drop">Düşme</string>
+    <string name="lockscreen_charging_animation_explosion">Patlama</string>
+    <string name="lockscreen_charging_animation_water">Su</string>
+    <string name="lockscreen_charging_animation_phone">Telefon</string>
+    <string name="lockscreen_charging_animation_stack">Yığın</string>
+    <string name="lockscreen_charging_animation_wavy">Dalgalı</string>
+    <!-- QS Header data uasge -->
+    <string name="qs_datausage_title">Hızlı ayarlarda veri kullanımı</string>
+    <string name="qs_datausage_disabled">Devre dışı</string>
+    <string name="qs_datausage_daily">Günlük kullanım</string>
+    <string name="qs_datausage_monthly">Aylık kullanım</string>
+    <!-- QS tint -->
+    <string name="qs_bg_use_new_tint">Vurgu rengi kullanarak hızlı ayarlar karelerini renklendirin</string>
+    <string name="qs_bg_use_new_tint_summary">Hızlı ayarlar karelerinde vurgu rengi tonunu etkinleştirin</string>
+    <!-- QS Footer Text -->
+    <string name="qs_footer_text_title">Hızlı ayarlar altbilgi metni</string>
+    <string name="qs_footer_text_summary">Hızlı ayarlar panelinin en altında metni görüntüle</string>
+    <string name="qs_footer_text_string_title">Altbilgi metnini özelleştir</string>
+    <string name="qs_footer_text_string_summary">Varsayılan olarak boş olarak ayarlayın</string>
+    <!-- Notification headers -->
+    <string name="notification_headers_title">Bildirim başlığı</string>
+    <string name="notification_headers_summary">Başlıkları bildirim gölgesinde göster</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_category">Parlaklık kaydırıcısı</string>
+    <string name="qs_brightness_slider_title">Parlaklık kaydırıcısını göster</string>
+    <string name="qs_brightness_slider_summary">Hızlı ayarlar panelinde parlaklık kaydırıcısını göster</string>
+    <string name="qs_brightness_position_bottom_title">Altt parlaklık kaydırıcısı</string>
+    <string name="qs_brightness_position_bottom_summary">Parlaklık kaydırıcısını hızlı ayarlar paneli altında göster</string>
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Uyarlanabilir parlaklık tuşu</string>
+    <string name="brightness_icon_summary">Uyarlanabilir parlaklık tuşunu göster</string>
+    <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">Parlaklık kontrol tuşları</string>
+    <string name="brightness_side_buttons_summary">Parlaklığı arttırmak veya azaltmak için tuşları göster</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Devre dışı simgesi</string>
+    <string name="data_disabled_icon_summary">Mobil veri devre dışı bırakıldığında sinyal çubuğunun yanında çarpı işareti göster</string>
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Dolaşım göstergesi</string>
+    <string name="roaming_indicator_icon_summary">Dolaşım modundayken sinyal simgesinde dolaşım göstergesini göster</string>
+    <!-- AOD Schedule -->
+    <string name="disabled">Devre dışı</string>
+    <string name="always_on_display_schedule_title">Her zaman açık ekranı programla</string>
+    <string name="always_on_display_schedule_sunset">Gün batımı</string>
+    <string name="always_on_display_schedule_sunrise">Gün doğumu</string>
 </resources>

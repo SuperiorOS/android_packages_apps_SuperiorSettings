@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-20 The Superior OS Project
+    Copyright © 2018-21 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="superior_settings_title">Superior 設定</string>
-    <string name="superior_dashboard_summary">すばらしいご馳走</string>
+    <string name="superior_dashboard_summary">Superior 設定</string>
     <!-- ROM Info -->
     <string name="superior_about_info">プロジェクトについて</string>
     <string name="superior_about_info_summary_title">チームについて</string>
@@ -24,48 +24,21 @@
     <!-- Dev Info -->
     <string name="devs_header">開発者</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
-    <string name="dev_1_git">sweeto143</string>
     <string name="dev1_description">開発者</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev_2_git">Jayant-Deshmukh</string>
     <string name="dev2_description">開発者リーダー</string>
-    <string name="dev_3">Sagar Rokade</string>
-    <string name="dev_3_git">sagarrokade006</string>
-    <string name="dev3_description">開発者</string>
-    <string name="dev_4">Rahul Mishra</string>
-    <string name="dev_4_git">beingmishra</string>
-    <string name="dev4_description">UI/UX 開発者</string>
-    <string name="dev_5">Pavan Patel</string>
-    <string name="dev_5_git">Advertpavan</string>
-    <string name="dev5_description">リードデザイナー</string>
-    <string name="dev_6">Swapnil Soni</string>
-    <string name="dev_6_git">SwapnilSoni1999</string>
-    <string name="dev6_description">Web 開発者</string>
-    <string name="dev_7">Subins Mani</string>
-    <string name="dev_7_git">Subinsmani</string>
-    <string name="dev7_description">インフラマネージャー</string>
-    <string name="dev_8">Rashed Sahaji</string>
-    <string name="dev_8_git">rashedsahaji</string>
-    <string name="dev8_description">デバイスマネージャー</string>
-    <string name="dev_9">Shreehari Vaasistha</string>
-    <string name="dev_9_git">ShreehariVaasishta</string>
-    <string name="dev9_description">プロジェクトモデレーター</string>
-    <string name="dev_10">Arun Teltia</string>
-    <string name="dev_10_git">ArunTeltia</string>
-    <string name="dev10_description">Web 開発者</string>
     <!-- Mentions -->
     <string name="mentions_header">スペシャルサンクス</string>
     <string name="mentions_sam">Sam Grande</string>
-    <string name="mentions_sam_git">SamGrande</string>
     <string name="mentions_sam_description">デザイナー</string>
     <string name="mentions_iacob">Ionut Iacob</string>
-    <string name="mentions_iacob_git">IacobIonut01</string>
     <string name="mentions_iacob_description">UI/UX 開発者</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">メンテナー</string>
     <string name="maintainers_header_summary">以下が公式端末のメンテナーです...</string>
     <string name="device_xiaomi">Xiaomi</string>
     <string name="device_asus">Asus</string>
+    <string name="device_google">Google</string>
     <string name="device_motorola">Motorola</string>
     <string name="device_pantech">Pantech</string>
     <string name="device_lenovo">Lenovo</string>
@@ -77,10 +50,14 @@
     <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_tulip">Redmi Note 6 Pro</string>
-    <string name="device_tulip_description">tulip\nAtlanPrime</string>
+    <string name="device_miatoll">MiAtoll</string>
+    <string name="device_miatoll_description">miatoll\nHaSSaN</string>
     <string name="device_payton">Moto X4</string>
     <string name="device_payton_description">payton\nDhinesh</string>
+    <string name="device_surya">Poco X3</string>
+    <string name="device_surya_description">surya\nAmJith</string>
+    <string name="device_sunfish">Pixel 4a</string>
+    <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <!-- Categories -->
     <string name="button_title">ボタン</string>
     <string name="gestures_title">ジェスチャー</string>
@@ -271,15 +248,6 @@
     <string name="vowifi_icon_simple1">シンプル1アイコン</string>
     <string name="vowifi_icon_simple2">シンプル2アイコン</string>
     <string name="vowifi_icon_simple3">シンプル3アイコン</string>
-    <!-- Brightness slider -->
-    <string name="qs_show_brightness_title">明るさスライダー</string>
-    <string name="qs_show_brightness_summary">明るさスライダーの表示を設定する</string>
-    <string name="qs_brightness_position_bottom_title">下部の明るさスライダー</string>
-    <string name="qs_brightness_position_bottom_summary">クイック設定パネルの下部に明るさスライダーを表示する</string>
-    <string name="qs_show_brightness_above_footer_title">フッターの上</string>
-    <string name="qs_show_brightness_above_footer_summary">クイック設定フッターの上に下部の明るさスライダーを表示する</string>
-    <string name="qs_show_auto_brightness_title">自動明るさ調節アイコン</string>
-    <string name="qs_show_auto_brightness_summary">明るさスライダーの隣に自動明るさ調節アイコンを表示する</string>
     <!-- Battery mode -->
     <string name="battery_percentage_title">バッテリー残量</string>
     <string name="battery_percentage_off">無効</string>
@@ -420,7 +388,89 @@
     <string name="lockscreen_media_art_title">ロック画面のメディアアート</string>
     <string name="lockscreen_media_art_summary">音楽再生中にメディアカバーアートを表示する</string>
     <!-- FOD icon picker -->
+    <string name="fod_icon_picker_title">指紋アイコンの選択</string>
+    <string name="fod_icon_picker_summary">お気に入りの指紋アイコンを選択する</string>
+    <string name="fod_icon_picker_footer">独自のアイコンを追加するには、左上のアイコンを選択し、OnePlus 6T 指紋カスタマイズアプリを使用して必要なアイコンを選択して下さい。</string>
     <!-- FOD animations -->
+    <string name="fod_recog_animation">指紋認証アニメーション</string>
+    <string name="fod_recog_animation_summary">指紋認識中にアニメーションを表示する</string>
+    <string name="fod_recog_animation_effect_title">認識アニメーション効果</string>
+    <string name="fod_recog_animation_miui_normal">MIUI 既定</string>
+    <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
+    <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
+    <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
+    <string name="fod_recog_animation_miui_light">ライト</string>
+    <string name="fod_recog_animation_miui_pop">ポップ</string>
+    <string name="fod_recog_animation_miui_pulse">パルス</string>
+    <string name="fod_recog_animation_miui_pulse_white">パルス (白)</string>
+    <string name="fod_recog_animation_miui_rhythm">リズム</string>
+    <string name="fod_recog_animation_miui_star_cas">スターライト</string>
+    <string name="fod_recog_animation_op_cosmos">コスモス</string>
+    <string name="fod_recog_animation_op_energy">エネルギー</string>
+    <string name="fod_recog_animation_op_mclaren">マクラーレン</string>
+    <string name="fod_recog_animation_op_ripple">波紋</string>
+    <string name="fod_recog_animation_op_stripe">ストライプ</string>
+    <string name="fod_recog_animation_op_wave">波</string>
+    <string name="fod_recog_animation_pureview_dna">DNA</string>
+    <string name="fod_recog_animation_pureview_future">未来</string>
+    <string name="fod_recog_animation_pureview_halo_ring">Halo Ring</string>
+    <string name="fod_recog_animation_pureview_molecular">分子</string>
+    <string name="fod_recog_animation_rog_fusion">フュージョン</string>
+    <string name="fod_recog_animation_rog_pulsar">パルサー</string>
+    <string name="fod_recog_animation_rog_supernova">スーパーノヴァ</string>
     <!-- Screen off fod -->
+    <string name="fod_gesture_title">画面消灯時の指紋認証</string>
+    <string name="fod_gesture_summary">画面点灯なしでの端末の復帰を許可する</string>
     <!-- Nightlight Fod -->
+    <string name="fod_night_light_title">画面内指紋認証表示時は夜間ライトを無効化する</string>
+    <string name="fod_night_light_summary">画面内指紋認証が有効な場合は夜間ライトを無効化します。このオプションを無効化すると、夜間ライト有効時に指紋認証の正確性に影響する場合があります。</string>
+    <!-- Charging animation -->
+    <string name="lockscreen_charging_animation_title">充電時のアニメーション</string>
+    <string name="lockscreen_charging_animation_flash">フラッシュ</string>
+    <string name="lockscreen_charging_animation_battery">バッテリー</string>
+    <string name="lockscreen_charging_animation_drop">ドロップ</string>
+    <string name="lockscreen_charging_animation_explosion">爆発</string>
+    <string name="lockscreen_charging_animation_water">水</string>
+    <string name="lockscreen_charging_animation_phone">携帯電話</string>
+    <string name="lockscreen_charging_animation_stack">スタック</string>
+    <string name="lockscreen_charging_animation_wavy">波打ち</string>
+    <!-- QS Header data uasge -->
+    <string name="qs_datausage_title">クイック設定ヘッダーのデータ使用量</string>
+    <string name="qs_datausage_disabled">無効</string>
+    <string name="qs_datausage_daily">毎日の使用量</string>
+    <string name="qs_datausage_monthly">毎月の使用量</string>
+    <!-- QS tint -->
+    <string name="qs_bg_use_new_tint">クイック設定タイルのアクセント色</string>
+    <string name="qs_bg_use_new_tint_summary">クイック設定タイルのアクセント色での色付けを有効にする</string>
+    <!-- QS Footer Text -->
+    <string name="qs_footer_text_title">クイック設定フッターのテキスト</string>
+    <string name="qs_footer_text_summary">クイック設定パネルの下部にテキストを表示する</string>
+    <string name="qs_footer_text_string_title">フッターのテキストを編集</string>
+    <string name="qs_footer_text_string_summary">空白にすると既定値に設定されます</string>
+    <!-- Notification headers -->
+    <string name="notification_headers_title">通知のヘッダー</string>
+    <string name="notification_headers_summary">通知の影にヘッダーを表示する</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_category">明るさスライダー</string>
+    <string name="qs_brightness_slider_title">明るさスライダーを表示</string>
+    <string name="qs_brightness_slider_summary">クイック設定パネルに明るさスライダーを表示する</string>
+    <string name="qs_brightness_position_bottom_title">下部に明るさスライダーを表示</string>
+    <string name="qs_brightness_position_bottom_summary">クイック設定下部に明るさスライダーを表示する</string>
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">明るさ自動調節ボタン</string>
+    <string name="brightness_icon_summary">明るさ自動調節ボタンを表示する</string>
+    <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">明るさ増減ボタン</string>
+    <string name="brightness_side_buttons_summary">明るさを増減させるボタンを表示する</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">データ通信無効アイコン</string>
+    <string name="data_disabled_icon_summary">モバイルデータが無効の場合にシグナルバーの隣に×を表示する</string>
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">ローミング表示</string>
+    <string name="roaming_indicator_icon_summary">ローミング中に電波アイコンにローミング表示をする</string>
+    <!-- AOD Schedule -->
+    <string name="disabled">無効</string>
+    <string name="always_on_display_schedule_title">Always On Display のスケジュール</string>
+    <string name="always_on_display_schedule_sunset">日没</string>
+    <string name="always_on_display_schedule_sunrise">日出</string>
 </resources>

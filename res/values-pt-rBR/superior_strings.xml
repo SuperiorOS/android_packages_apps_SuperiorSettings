@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-20 The Superior OS Project
+    Copyright © 2018-21 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -47,7 +47,6 @@
     <!-- 4G LTE switch -->
     <!-- Show VoLTE icon on statusbar -->
     <!-- VoWiFi icon -->
-    <!-- Brightness slider -->
     <!-- Battery mode -->
     <!-- Status bar - Battery -->
     <!-- Status bar - Battery custom charging symbol -->
@@ -67,4 +66,15 @@
     <!-- FOD animations -->
     <!-- Screen off fod -->
     <!-- Nightlight Fod -->
+    <!-- Charging animation -->
+    <!-- QS Header data uasge -->
+    <!-- QS tint -->
+    <!-- QS Footer Text -->
+    <!-- Notification headers -->
+    <!-- Quick Settings brightness slider -->
+    <!-- Quick Settings brightness icon -->
+    <!-- Quick Settings brightness side buttons -->
+    <!-- Data disabled icon -->
+    <!-- Roaming indicator icon -->
+    <!-- AOD Schedule -->
 </resources>
