@@ -69,7 +69,7 @@
             android:summary="@string/dev3_description" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Sagarrokade006" />
+            android:data="https://t.me/beingmishra" />
         </Preference>
 
         <Preference
@@ -79,7 +79,7 @@
             android:summary="@string/dev4_description" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/beingmishra" />
+            android:data="https://t.me/Subinsmani" />
         </Preference>
 
         <Preference
@@ -89,7 +89,7 @@
             android:summary="@string/dev5_description" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Advertpavan" />
+            android:data="https://t.me/RashedSahaji" />
         </Preference>
 
         <Preference
@@ -99,7 +99,7 @@
             android:summary="@string/dev6_description" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/SoniSins" />
+            android:data="https://t.me/cult_of_kosmos" />
         </Preference>
 
         <Preference
@@ -107,36 +107,6 @@
             android:title="@string/dev_7"
             android:icon="@drawable/ic_code"
             android:summary="@string/dev7_description" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Subinsmani" />
-        </Preference>
-
-        <Preference
-            android:key="dev8"
-            android:title="@string/dev_8"
-            android:icon="@drawable/ic_code"
-            android:summary="@string/dev8_description" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/RashedSahaji" />
-        </Preference>
-
-        <Preference
-            android:key="dev9"
-            android:title="@string/dev_9"
-            android:icon="@drawable/ic_code"
-            android:summary="@string/dev9_description" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/cult_of_kosmos" />
-        </Preference>
-
-        <Preference
-            android:key="dev10"
-            android:title="@string/dev_10"
-            android:icon="@drawable/ic_code"
-            android:summary="@string/dev10_description" >
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/T3rr0r1st" />
@@ -147,6 +117,26 @@
 <PreferenceCategory
     android:key="honorable_mentions"
     android:title="@string/mentions_header">
+
+        <Preference
+            android:key="mentions_pavan"
+            android:title="@string/mentions_pavan"
+            android:icon="@drawable/ic_devs_mention"
+            android:summary="@string/mentions_pavan_description" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Advertpavan" />
+        </Preference>
+
+        <Preference
+            android:key="mentions_swapnil"
+            android:title="@string/mentions_swapnil"
+            android:icon="@drawable/ic_devs_mention"
+            android:summary="@string/mentions_swapnil_description" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/SoniSins" />
+        </Preference>
 
         <Preference
             android:key="mentions_sam"
@@ -166,6 +156,16 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/iacobionut" />
+        </Preference>
+
+        <Preference
+            android:key="mentions_sagar"
+            android:title="@string/mentions_sagar"
+            android:icon="@drawable/ic_devs_mention"
+            android:summary="@string/mentions_sagar_description" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Sagarrokade006" />
         </Preference>
 
 </PreferenceCategory>
@@ -188,6 +188,7 @@
         android:title="@string/device_asus" >
 
     <Preference
+        android:key="maintainer_X00T"
         android:title="@string/device_X00T"
         android:summary="@string/device_X00T_description"
         android:icon="@drawable/ic_devs_phone">
@@ -202,6 +203,7 @@
         android:title="@string/device_google" >
 
     <Preference
+        android:key="dev2"
         android:title="@string/device_sunfish"
         android:summary="@string/device_sunfish_description"
         android:icon="@drawable/ic_devs_phone">
@@ -216,6 +218,7 @@
         android:title="@string/device_motorola" >
 
     <Preference
+        android:key="maintainer_payton"
         android:title="@string/device_payton"
         android:summary="@string/device_payton_description"
         android:icon="@drawable/ic_devs_phone">
@@ -230,6 +233,7 @@
         android:title="@string/device_xiaomi" >
 
     <Preference
+        android:key="maintainer_violet"
         android:title="@string/device_violet"
         android:summary="@string/device_violet_description"
         android:icon="@drawable/ic_devs_phone">
@@ -239,6 +243,7 @@
     </Preference>
 
     <Preference
+        android:key="dev1"
         android:title="@string/device_whyred"
         android:summary="@string/device_whyred_description"
         android:icon="@drawable/ic_devs_phone">
@@ -248,6 +253,7 @@
     </Preference>
 
     <Preference
+        android:key="maintainer_miatoll"
         android:title="@string/device_miatoll"
         android:summary="@string/device_miatoll_description"
         android:icon="@drawable/ic_devs_phone">
@@ -257,6 +263,7 @@
     </Preference>
 
     <Preference
+        android:key="maintainer_surya"
         android:title="@string/device_surya"
         android:summary="@string/device_surya_description"
         android:icon="@drawable/ic_devs_phone">
@@ -269,7 +276,9 @@
 <PreferenceCategory
         android:key="maintainer"
         android:title="@string/device_realme" >
+
     <Preference
+        android:key="maintainer_RMX1921"
         android:title="@string/device_RMX1921"
         android:summary="@string/device_RMX1921_description"
         android:icon="@drawable/ic_devs_phone">
