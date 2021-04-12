@@ -203,7 +203,7 @@
         android:title="@string/device_google" >
 
     <Preference
-        android:key="dev2"
+        android:key="maintainer_sunfish"
         android:title="@string/device_sunfish"
         android:summary="@string/device_sunfish_description"
         android:icon="@drawable/ic_devs_phone">
@@ -243,7 +243,7 @@
     </Preference>
 
     <Preference
-        android:key="dev1"
+        android:key="maintainer_whyred"
         android:title="@string/device_whyred"
         android:summary="@string/device_whyred_description"
         android:icon="@drawable/ic_devs_phone">
