@@ -94,6 +94,9 @@
     <string name="device_payton">Moto X4</string>
     <string name="device_payton_description">payton\nDhinesh</string>
     <string name="maintainer_surya_git" translatable="false">TheMarc43</string>
+    <string name="maintainer_phoenix_git" translatable="false">Harvey_Spectar</string>
+    <string name="device_phoenix">Poco X2</string>
+    <string name="device_phoenix_description">phoenix\nPRAViN Prajapati</string>
     <string name="device_surya">Poco X3</string>
     <string name="device_surya_description">surya\nAmJith</string>
     <string name="maintainer_sunfish_git" translatable="false">Jayant-Deshmukh</string>
