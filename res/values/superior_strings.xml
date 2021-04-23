@@ -557,21 +557,6 @@
    <string name="notification_headers_title">Notification Headers</string>
    <string name="notification_headers_summary">Show headers in the notification shade</string>
 
-   <!-- Quick Settings brightness slider -->
-   <string name="qs_brightness_slider_category">Brightness slider</string>
-   <string name="qs_brightness_slider_title">Show brightness slider</string>
-   <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
-   <string name="qs_brightness_position_bottom_title">Show brightness slider on bottom</string>
-   <string name="qs_brightness_position_bottom_summary">Show a brightness slider on bottom quick settings</string>
-
-   <!-- Quick Settings brightness icon -->
-   <string name="brightness_icon_title">Adaptive brightness button</string>
-   <string name="brightness_icon_summary">Show adaptive brightness button</string>
-
-   <!-- Quick Settings brightness side buttons -->
-   <string name="brightness_side_buttons_title">Brightness control buttons</string>
-   <string name="brightness_side_buttons_summary">Show buttons to increase or decrease the brightness</string>
-
    <!-- Data disabled icon -->
    <string name="data_disabled_icon_title">Show data disabled icon</string>
    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
