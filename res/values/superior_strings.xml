@@ -18,12 +18,12 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="superior_settings_title">Superior Settings</string>
     <string name="superior_dashboard_summary">Superior Goodies</string>
-	
+
     <!-- ROM Info -->
     <string name="superior_about_info">About Project</string>
     <string name="superior_about_info_summary_title">About Team</string>
     <string name="superior_about_info_summary">Superior OS is a Custom ROM based on AOSP, with some most required minimal features, the main aim of this ROM is to deliver light speed performance,smoothness and good battery backup.</string>
-	
+
     <!-- Dev Info -->
     <string name="devs_header">Developers</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
@@ -83,8 +83,8 @@
     <string name="device_X00T_description">X00T\nPriyanshu Pandey</string>
     <string name="maintainer_violet_git" translatable="false">Joker-V2</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
-    <string name="device_violet_description">violet\nNipin NA</string>  
-        <string name="maintainer_whyred_git" translatable="false">Sweeto143</string>  
+    <string name="device_violet_description">violet\nNipin NA</string>
+    <string name="maintainer_whyred_git" translatable="false">Sweeto143</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
     <string name="maintainer_miatoll_git" translatable="false">HaSSaN-L</string>
@@ -102,7 +102,7 @@
     <string name="maintainer_RMX1921_git" translatable="false">ayanm09</string>
     <string name="device_RMX1921">Realme XT</string>
     <string name="device_RMX1921_description">RMX1921\nAyan</string>
-	
+
     <!-- Categories -->
     <string name="button_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
@@ -114,7 +114,7 @@
     <string name="statusbar_title">Status Bar</string>
     <string name="notifications_title">Notifications</string>
     <string name="volume_title">Volume rockers</string>
-	
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
@@ -349,7 +349,7 @@
     <string name="status_bar_battery_style_solid">Solid</string>
     <string name="status_bar_battery_style_text">Text</string>
     <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_style_q">Q style</string>	
+    <string name="status_bar_battery_style_q">Q style</string>
 
     <string name="status_bar_battery_style_tile_title">Override battery tile</string>
     <string name="status_bar_battery_style_tile_summary">Use same icon style as above in QS battery tile</string>
@@ -494,14 +494,14 @@
     <string name="fod_recog_animation">FOD recognizing animation</string>
     <string name="fod_recog_animation_summary">Shows an animation while reading your finger</string>
     <string name="fod_recog_animation_effect_title">Recognizing animation effect</string>
-    <string name="fod_recog_animation_miui_normal">MIUI default</string> 
+    <string name="fod_recog_animation_miui_normal">MIUI default</string>
     <string name="fod_recog_animation_miui_aod">MIUI AOD</string>
     <string name="fod_recog_animation_miui_aurora">Aurora (K30 Pro)</string>
     <string name="fod_recog_animation_miui_aurora_cas">Aurora (Mi 10 Ultra)</string>
     <string name="fod_recog_animation_miui_light">Light</string>
     <string name="fod_recog_animation_miui_pop">Pop</string>
     <string name="fod_recog_animation_miui_pulse">Pulse</string>
-    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string> 
+    <string name="fod_recog_animation_miui_pulse_white">Pulse (White)</string>
     <string name="fod_recog_animation_miui_rhythm">Rhythm</string>
     <string name="fod_recog_animation_miui_star_cas">Starlight</string>
     <string name="fod_recog_animation_op_cosmos">Cosmos</string>
@@ -512,7 +512,7 @@
     <string name="fod_recog_animation_op_wave">Wave</string>
     <string name="fod_recog_animation_pureview_dna">DNA</string>
     <string name="fod_recog_animation_pureview_future">Future</string>
-    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string> 
+    <string name="fod_recog_animation_pureview_halo_ring">Halo ring</string>
     <string name="fod_recog_animation_pureview_molecular">Molecular</string>
     <string name="fod_recog_animation_rog_fusion">Fusion</string>
     <string name="fod_recog_animation_rog_pulsar">Pulsar</string>
@@ -537,38 +537,32 @@
     <string name="lockscreen_charging_animation_stack">Stack</string>
     <string name="lockscreen_charging_animation_wavy">Wavy</string>
 
-   <!-- QS Header data uasge -->
-   <string name="qs_datausage_title">Data usage in QS Header</string>
-   <string name="qs_datausage_disabled">Disabled</string>
-   <string name="qs_datausage_daily">Daily usage</string>
-   <string name="qs_datausage_monthly">Monthly usage</string>
+    <!-- QS Header data uasge -->
+    <string name="qs_datausage_title">Data usage in QS Header</string>
+    <string name="qs_datausage_disabled">Disabled</string>
+    <string name="qs_datausage_daily">Daily usage</string>
+    <string name="qs_datausage_monthly">Monthly usage</string>
 
-   <!-- QS tint -->
-   <string name="qs_bg_use_new_tint">Tint QS tiles using accent color</string>
-   <string name="qs_bg_use_new_tint_summary">Enable the accent color tint on the QS tiles</string>
+    <!-- QS tint -->
+    <string name="qs_bg_use_new_tint">Tint QS tiles using accent color</string>
+    <string name="qs_bg_use_new_tint_summary">Enable the accent color tint on the QS tiles</string>
 
-   <!-- QS Footer Text -->
-   <string name="qs_footer_text_title">QS footer text</string>
-   <string name="qs_footer_text_summary">Display text at bottom of QS panel</string>
-   <string name="qs_footer_text_string_title">Customize footer text</string>
-   <string name="qs_footer_text_string_summary">Set to empty for default</string> 
+    <!-- Notification headers -->
+    <string name="notification_headers_title">Notification Headers</string>
+    <string name="notification_headers_summary">Show headers in the notification shade</string>
 
-   <!-- Notification headers -->
-   <string name="notification_headers_title">Notification Headers</string>
-   <string name="notification_headers_summary">Show headers in the notification shade</string>
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
 
-   <!-- Data disabled icon -->
-   <string name="data_disabled_icon_title">Show data disabled icon</string>
-   <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
+    <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Roaming indicator</string>
+    <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
 
-   <!-- Roaming indicator icon -->
-   <string name="roaming_indicator_icon_title">Roaming indicator</string>
-   <string name="roaming_indicator_icon_summary">Display roaming indicator in signal icon when in roaming mode</string>
-
-   <!-- AOD Schedule -->
-   <string name="disabled">Disabled</string>
-   <string name="always_on_display_schedule_title">Always on display schedule</string>
-   <string name="always_on_display_schedule_sunset">Sunset</string>
-   <string name="always_on_display_schedule_sunrise">Sunrise</string>
+    <!-- AOD Schedule -->
+    <string name="disabled">Disabled</string>
+    <string name="always_on_display_schedule_title">Always on display schedule</string>
+    <string name="always_on_display_schedule_sunset">Sunset</string>
+    <string name="always_on_display_schedule_sunrise">Sunrise</string>
 
 </resources>
