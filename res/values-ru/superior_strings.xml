@@ -434,13 +434,47 @@
     <string name="qs_datausage_disabled">Отключено</string>
     <string name="qs_datausage_daily">Ежедневное использование</string>
     <string name="qs_datausage_monthly">Месячное использование</string>
-    <!-- QS tint -->
-    <!-- QS Footer Text -->
-    <!-- Notification headers -->
-    <!-- Quick Settings brightness slider -->
-    <!-- Quick Settings brightness icon -->
-    <!-- Quick Settings brightness side buttons -->
-    <!-- Data disabled icon -->
-    <!-- Roaming indicator icon -->
-    <!-- AOD Schedule -->
+<!-- QS tint -->
+   <string name="qs_bg_use_new_tint">Тонировать плитку быстрых настроек цветом акцента</string>
+   <string name="qs_bg_use_new_tint_summary">Включить оттенок акцентного цвета на плитках быстрых настроек</string>
+
+   <!-- QS Footer Text -->
+   <string name="qs_footer_text_title">Текст нижнего колонтитула быстрых настроек</string>
+   <string name="qs_footer_text_summary">Отображать текст внизу панели быстрых настроек</string>
+   <string name="qs_footer_text_string_title">Настройка текста нижнего колонтитула</string>
+   <string name="qs_footer_text_string_summary">Установить пустым по умолчанию</string> 
+
+   <!-- Notification headers -->
+   <string name="notification_headers_title">Заголовок уведомлений</string>
+   <string name="notification_headers_summary">"Показывать заголовки в тени уведомлений
+Требуется перезагрузка SystemUI"</string>
+
+   <!-- Quick Settings brightness slider -->
+   <string name="qs_brightness_slider_category">Ползунок яркости</string>
+   <string name="qs_brightness_slider_title">Регулятор яркости</string>
+   <string name="qs_brightness_slider_summary">Показывать регулятор яркости в панели быстрых настроек</string>
+   <string name="qs_brightness_position_bottom_title">Ползунок яркости снизу</string>
+   <string name="qs_brightness_position_bottom_summary">Показать ползунок яркости внизу быстрых настроек</string>
+
+   <!-- Quick Settings brightness icon -->
+   <string name="brightness_icon_title">Автоматическая яркость</string>
+   <string name="brightness_icon_summary">Переключатель адаптивной регулировки яркости рядом с ползунком</string>
+
+   <!-- Quick Settings brightness side buttons -->
+   <string name="brightness_side_buttons_title">Кнопки регулировки яркости</string>
+   <string name="brightness_side_buttons_summary">Показать кнопки для увеличения или уменьшения яркости</string>
+
+   <!-- Data disabled icon -->
+   <string name="data_disabled_icon_title">Индикатор отключения передачи данных</string>
+   <string name="data_disabled_icon_summary">Показывать крестик у значка сети, когда передача данных отключена</string>
+
+   <!-- Roaming indicator icon -->
+   <string name="roaming_indicator_icon_title">Индикатор роуминга</string>
+   <string name="roaming_indicator_icon_summary">В роуминге: отображать индикатор роуминга в значке сигнала</string>
+
+   <!-- AOD Schedule -->
+   <string name="disabled">Отключено</string>
+   <string name="always_on_display_schedule_title">Расписание AOD</string>
+   <string name="always_on_display_schedule_sunset">Закат</string>
+   <string name="always_on_display_schedule_sunrise">Восход</string>
 </resources>
