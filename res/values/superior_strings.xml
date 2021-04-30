@@ -547,12 +547,6 @@
    <string name="qs_bg_use_new_tint">Tint QS tiles using accent color</string>
    <string name="qs_bg_use_new_tint_summary">Enable the accent color tint on the QS tiles</string>
 
-   <!-- QS Footer Text -->
-   <string name="qs_footer_text_title">QS footer text</string>
-   <string name="qs_footer_text_summary">Display text at bottom of QS panel</string>
-   <string name="qs_footer_text_string_title">Customize footer text</string>
-   <string name="qs_footer_text_string_summary">Set to empty for default</string> 
-
    <!-- Notification headers -->
    <string name="notification_headers_title">Notification Headers</string>
    <string name="notification_headers_summary">Show headers in the notification shade</string>

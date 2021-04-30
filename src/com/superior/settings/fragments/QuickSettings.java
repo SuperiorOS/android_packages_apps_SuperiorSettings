@@ -34,16 +34,10 @@ import android.view.ViewGroup;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.internal.logging.nano.MetricsProto;
 
-import com.superior.settings.preferences.SystemSettingEditTextPreference;
-
 import com.android.settings.R;
 
 public class QuickSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
-
-    private static final String FOOTER_TEXT_STRING = "footer_text_string";
-
-    private SystemSettingEditTextPreference mFooterString;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -51,18 +45,6 @@ public class QuickSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.superior_settings_quicksettings);
         ContentResolver resolver = getActivity().getContentResolver();
         final PreferenceScreen prefScreen = getPreferenceScreen();
-
-        mFooterString = (SystemSettingEditTextPreference) findPreference(FOOTER_TEXT_STRING);
-        mFooterString.setOnPreferenceChangeListener(this);
-        String footerString = Settings.System.getString(getContentResolver(),
-                FOOTER_TEXT_STRING);
-        if (footerString != null && footerString != "")
-            mFooterString.setText(footerString);
-        else {
-            mFooterString.setText("#SuperiorOS");
-            Settings.System.putString(getActivity().getContentResolver(),
-                    Settings.System.FOOTER_TEXT_STRING, "#SuperiorOS");
-        }
 
     }
 
@@ -82,19 +64,6 @@ public class QuickSettings extends SettingsPreferenceFragment implements
     }
 
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        ContentResolver resolver = getActivity().getContentResolver();
-        if (preference == mFooterString) {
-            String value = (String) newValue;
-            if (value != "" && value != null)
-                Settings.System.putString(getActivity().getContentResolver(),
-                        Settings.System.FOOTER_TEXT_STRING, value);
-            else {
-                mFooterString.setText("#SuperiorOS");
-                Settings.System.putString(getActivity().getContentResolver(),
-                        Settings.System.FOOTER_TEXT_STRING, "#SuperiorOS");
-            }
-            return true;
-        }
         return false;
     }
 }
