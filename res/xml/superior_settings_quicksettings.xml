@@ -41,17 +41,20 @@
             android:entryValues="@array/quick_pulldown_values"
             android:defaultValue="1" />
 
+        <com.superior.settings.preferences.SystemSettingListPreference
+            android:key="qs_panel_bg_use_new_tint"
+            android:title="@string/qs_bg_use_new_tint"
+            android:dialogTitle="@string/qs_bg_use_new_tint"
+            android:entries="@array/qs_tint_entries"
+            android:entryValues="@array/qs_tint_values"
+            android:summary="@string/qs_bg_use_new_tint_summary"
+            android:defaultValue="2" />
+
         <com.superior.settings.preferences.SecureSettingSwitchPreference
             android:key="quick_settings_vibrate"
             android:title="@string/quick_settings_vibrate_title"
             android:summary="@string/quick_settings_vibrate_summary"
             android:defaultValue="false"/>
-
-        <com.superior.settings.preferences.SystemSettingSwitchPreference
-            android:key="qs_panel_bg_use_new_tint"
-            android:title="@string/qs_bg_use_new_tint"
-            android:summary="@string/qs_bg_use_new_tint_summary"
-            android:defaultValue="true" />
 
         <com.superior.settings.preferences.SystemSettingSwitchPreference
            android:key="notification_headers"
