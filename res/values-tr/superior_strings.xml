@@ -27,17 +27,34 @@
     <string name="dev1_description">Geliştirici</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">Lider geliştirici</string>
+    <string name="dev_3">Rahul Mishra</string>
+    <string name="dev3_description">UI/UX Geliştirici</string>
+    <string name="dev_4">Subins Mani</string>
+    <string name="dev4_description">Altyapı yöneticisi</string>
+    <string name="dev_5">Rashed Sahaji</string>
+    <string name="dev5_description">Cihaz yöneticisi</string>
+    <string name="dev_6">Shreehari Vaasistha</string>
+    <string name="dev6_description">Proje yöneticisi</string>
+    <string name="dev_7">Arun Teltia</string>
+    <string name="dev7_description">Web geliştiricisi</string>
     <!-- Mentions -->
     <string name="mentions_header">Takdir edilecekler</string>
     <string name="mentions_sam">Sam Grande</string>
     <string name="mentions_sam_description">Tasarımcı</string>
     <string name="mentions_iacob">Ionut Iacob</string>
     <string name="mentions_iacob_description">UI/UX geliştiricisi</string>
+    <string name="mentions_pavan">Pavan Patel</string>
+    <string name="mentions_pavan_description">Tasarımcı</string>
+    <string name="mentions_swapnil">Swapnil Soni</string>
+    <string name="mentions_swapnil_description">Web geliştiricisi</string>
+    <string name="mentions_sagar">Sagar Rokade</string>
+    <string name="mentions_sagar_description">Geliştirici</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">Sorumlular</string>
     <string name="maintainers_header_summary">Bunlar resmi cihaz sorumluları...</string>
     <string name="device_xiaomi">Xiaomi</string>
     <string name="device_asus">Asus</string>
+    <string name="device_realme">Realme</string>
     <string name="device_google">Google</string>
     <string name="device_motorola">Motorola</string>
     <string name="device_pantech">Pantech</string>
@@ -58,6 +75,8 @@
     <string name="device_surya_description">surya\nAmJith</string>
     <string name="device_sunfish">Pixel 4a</string>
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
+    <string name="device_RMX1921">Realme XT</string>
+    <string name="device_RMX1921_description">RMX1921\nAyan</string>
     <!-- Categories -->
     <string name="button_title">Tuşlar</string>
     <string name="gestures_title">Hareketler</string>
@@ -217,6 +236,25 @@
     <string name="profile_choose_app">Uygulama seçin</string>
     <string name="dialog_delete_title">Sil</string>
     <string name="dialog_delete_message">Seçili öge silinsin mi?</string>
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Zaman aşımı</string>
+    <string name="heads_up_time_out_summary">Bildirim pencereleri <xliff:g id="number">%d</xliff:g> saniye boyunca gösterilecek</string>
+    <string name="heads_up_time_out_2sec">2 saniye</string>
+    <string name="heads_up_time_out_4sec">4 saniye</string>
+    <string name="heads_up_time_out_5sec">5 saniye</string>
+    <string name="heads_up_time_out_6sec">6 saniye</string>
+    <string name="heads_up_time_out_8sec">8 saniye</string>
+    <string name="heads_up_time_out_10sec">10 saniye</string>
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Erteleme zamanlayıcısı</string>
+    <string name="heads_up_snooze_summary_one_minute">Bildirim pencerelerini kaydırılarak 1 dakika boyunca uygulamalardan gelecek olan bildirimler ertelenir</string>
+    <string name="heads_up_snooze_summary">Bildirim pencerelerini kaydırılarak <xliff:g id="number">%d</xliff:g> dakika boyunca uygulamalardan gelecek olan bildirimler ertelenir</string>
+    <string name="heads_up_snooze_disabled_summary">Erteleme zamanlayıcısı devre dışı</string>
+    <string name="heads_up_snooze_1min">1 dakika</string>
+    <string name="heads_up_snooze_5min">5 dakika</string>
+    <string name="heads_up_snooze_10min">10 dakika</string>
+    <string name="heads_up_snooze_15min">15 dakika</string>
+    <string name="heads_up_snooze_20min">20 dakika</string>
     <!-- 4G LTE switch -->
     <string name="show_fourg_title">LTE yerine 4G göster</string>
     <string name="show_fourg_summary">Durum çubuğundaki LTE göstergesini 4G ile değiştirir</string>
@@ -442,26 +480,9 @@
     <!-- QS tint -->
     <string name="qs_bg_use_new_tint">Vurgu rengi kullanarak hızlı ayarlar karelerini renklendirin</string>
     <string name="qs_bg_use_new_tint_summary">Hızlı ayarlar karelerinde vurgu rengi tonunu etkinleştirin</string>
-    <!-- QS Footer Text -->
-    <string name="qs_footer_text_title">Hızlı ayarlar altbilgi metni</string>
-    <string name="qs_footer_text_summary">Hızlı ayarlar panelinin en altında metni görüntüle</string>
-    <string name="qs_footer_text_string_title">Altbilgi metnini özelleştir</string>
-    <string name="qs_footer_text_string_summary">Varsayılan olarak boş olarak ayarlayın</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Bildirim başlığı</string>
     <string name="notification_headers_summary">Başlıkları bildirim gölgesinde göster</string>
-    <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_slider_category">Parlaklık kaydırıcısı</string>
-    <string name="qs_brightness_slider_title">Parlaklık kaydırıcısını göster</string>
-    <string name="qs_brightness_slider_summary">Hızlı ayarlar panelinde parlaklık kaydırıcısını göster</string>
-    <string name="qs_brightness_position_bottom_title">Altt parlaklık kaydırıcısı</string>
-    <string name="qs_brightness_position_bottom_summary">Parlaklık kaydırıcısını hızlı ayarlar paneli altında göster</string>
-    <!-- Quick Settings brightness icon -->
-    <string name="brightness_icon_title">Uyarlanabilir parlaklık tuşu</string>
-    <string name="brightness_icon_summary">Uyarlanabilir parlaklık tuşunu göster</string>
-    <!-- Quick Settings brightness side buttons -->
-    <string name="brightness_side_buttons_title">Parlaklık kontrol tuşları</string>
-    <string name="brightness_side_buttons_summary">Parlaklığı arttırmak veya azaltmak için tuşları göster</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Devre dışı simgesi</string>
     <string name="data_disabled_icon_summary">Mobil veri devre dışı bırakıldığında sinyal çubuğunun yanında çarpı işareti göster</string>
@@ -473,4 +494,9 @@
     <string name="always_on_display_schedule_title">Her zaman açık ekranı programla</string>
     <string name="always_on_display_schedule_sunset">Gün batımı</string>
     <string name="always_on_display_schedule_sunrise">Gün doğumu</string>
+    <string name="always_on_display_schedule_mixed_sunset">Gün batımından bir zamana kadar açılıyor</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Bir zamandan gün doğumuna kadar açılıyor</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Kilit simgesini gizle</string>
+    <string name="hide_lockicon_summary">Kilit ekranında kilit simgesini gizle</string>
 </resources>

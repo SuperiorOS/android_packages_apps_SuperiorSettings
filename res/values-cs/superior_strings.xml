@@ -27,17 +27,34 @@
     <string name="dev1_description">Vývojář</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">Hlavní vývojář</string>
+    <string name="dev_3">Rahul Mishra</string>
+    <string name="dev3_description">Vývojář UX/UI</string>
+    <string name="dev_4">Subins Mani</string>
+    <string name="dev4_description">Správce infrastruktury</string>
+    <string name="dev_5">Rashed Sahaji</string>
+    <string name="dev5_description">Správce zařízení</string>
+    <string name="dev_6">Shreehari Vaasistha</string>
+    <string name="dev6_description">Moderátor projektu</string>
+    <string name="dev_7">Arun Teltia</string>
+    <string name="dev7_description">Vývojář webu</string>
     <!-- Mentions -->
     <string name="mentions_header">Čestná uznání</string>
     <string name="mentions_sam">Sam Grande</string>
     <string name="mentions_sam_description">Designer</string>
     <string name="mentions_iacob">Ionut Iacob</string>
     <string name="mentions_iacob_description">Vývojář UX/UI</string>
+    <string name="mentions_pavan">Pavan Patel</string>
+    <string name="mentions_pavan_description">Designer</string>
+    <string name="mentions_swapnil">Swapnil Soni</string>
+    <string name="mentions_swapnil_description">Vývojář webu</string>
+    <string name="mentions_sagar">Sagar Rokade</string>
+    <string name="mentions_sagar_description">Vývojář</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">Správci</string>
     <string name="maintainers_header_summary">Toto jsou správci oficiálních zařízení...</string>
     <string name="device_xiaomi">Xiaomi</string>
     <string name="device_asus">Asus</string>
+    <string name="device_realme">Realme</string>
     <string name="device_google">Google</string>
     <string name="device_motorola">Motorola</string>
     <string name="device_pantech">Pantech</string>
@@ -58,6 +75,8 @@
     <string name="device_surya_description">surya\nAmJith</string>
     <string name="device_sunfish">Pixel 4a</string>
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
+    <string name="device_RMX1921">Realme XT</string>
+    <string name="device_RMX1921_description">RMX1921\nAyan</string>
     <!-- Categories -->
     <string name="button_title">Tlačítka</string>
     <string name="gestures_title">Gesta</string>
@@ -217,6 +236,25 @@
     <string name="profile_choose_app">Vybrat aplikaci</string>
     <string name="dialog_delete_title">Odstranit</string>
     <string name="dialog_delete_message">Odstranit vybranou položku?</string>
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Délka zobrazení</string>
+    <string name="heads_up_time_out_summary">Prohlížení oznámení bude zobrazeno na <xliff:g id="number">%d</xliff:g> sekund</string>
+    <string name="heads_up_time_out_2sec">2 sekundy</string>
+    <string name="heads_up_time_out_4sec">4 sekundy</string>
+    <string name="heads_up_time_out_5sec">5 sekund</string>
+    <string name="heads_up_time_out_6sec">6 sekund</string>
+    <string name="heads_up_time_out_8sec">8 sekund</string>
+    <string name="heads_up_time_out_10sec">10 sekund</string>
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Časovač odložení</string>
+    <string name="heads_up_snooze_summary_one_minute">Přejetím prstem nahoru přes plovoucí oznámení dojde k odložení oznámení z příslušné aplikace po dobu 1 minuty</string>
+    <string name="heads_up_snooze_summary">Přejetím prstem nahoru přes plovoucí oznámení dojde k odložení oznámení z příslušné aplikace po dobu <xliff:g id="number">%d</xliff:g> minut</string>
+    <string name="heads_up_snooze_disabled_summary">Časovač odložení je zakázán</string>
+    <string name="heads_up_snooze_1min">1 minuta</string>
+    <string name="heads_up_snooze_5min">5 minut</string>
+    <string name="heads_up_snooze_10min">10 minut</string>
+    <string name="heads_up_snooze_15min">15 minut</string>
+    <string name="heads_up_snooze_20min">20 minut</string>
     <!-- 4G LTE switch -->
     <string name="show_fourg_title">Zobrazit 4G namísto LTE</string>
     <string name="show_fourg_summary">Nahradí indikátor LTE ve stavovém řádku ukazatelem 4G</string>
@@ -442,26 +480,9 @@
     <!-- QS tint -->
     <string name="qs_bg_use_new_tint">Odstín QS dlaždic pomocí barvy zvýraznění</string>
     <string name="qs_bg_use_new_tint_summary">Povolit zabarvení dlaždic rychlého nastavení barvou zvýraznění</string>
-    <!-- QS Footer Text -->
-    <string name="qs_footer_text_title">Text zápatí QS</string>
-    <string name="qs_footer_text_summary">Zobrazit text ve spodní části panelu QS</string>
-    <string name="qs_footer_text_string_title">Přizpůsobit text zápatí</string>
-    <string name="qs_footer_text_string_summary">Nastavte na prázdné pro výchozí</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Záhlaví oznámení</string>
     <string name="notification_headers_summary">Zobrazit záhlaví v liště oznámení</string>
-    <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_slider_category">Posuvník jasu</string>
-    <string name="qs_brightness_slider_title">Zobrazit posuvník jasu</string>
-    <string name="qs_brightness_slider_summary">Zobrazit posuvník jasu v panelu Rychlého nastavení</string>
-    <string name="qs_brightness_position_bottom_title">Zobrazit posuvník jasu v v dolní části</string>
-    <string name="qs_brightness_position_bottom_summary">Zobrazit posuvník jasu v dolní části panelu Rychlého nastavení</string>
-    <!-- Quick Settings brightness icon -->
-    <string name="brightness_icon_title">Tlačítko adaptivního jasu</string>
-    <string name="brightness_icon_summary">Zobrazovat tlačítko adaptivního jasu</string>
-    <!-- Quick Settings brightness side buttons -->
-    <string name="brightness_side_buttons_title">Tlačítka ovládání jasu</string>
-    <string name="brightness_side_buttons_summary">Zobrazit tlačítka pro zvyšování, nebo snižování jasu</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Zobrazit ikonu při vypnutí dat</string>
     <string name="data_disabled_icon_summary">Zobrazit křížek na ikoně signálu sítě při vypnutých datech</string>
@@ -473,4 +494,9 @@
     <string name="always_on_display_schedule_title">Plán zobrazení Always On</string>
     <string name="always_on_display_schedule_sunset">Západ slunce</string>
     <string name="always_on_display_schedule_sunrise">Východ slunce</string>
+    <string name="always_on_display_schedule_mixed_sunset">Zapnuto od západu slunce do daného času</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Zapnuto od nastaveného času k východu slunce</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Skrýt ikonu zámku</string>
+    <string name="hide_lockicon_summary">Skryje ikonu zámku na zamykací obrazovce</string>
 </resources>

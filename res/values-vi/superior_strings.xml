@@ -27,17 +27,34 @@
     <string name="dev1_description">Nhà phát triển</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">Nhà phát triển chính</string>
+    <string name="dev_3">Rahul Mishra</string>
+    <string name="dev3_description">Nhà phát triển UI / UX</string>
+    <string name="dev_4">Subins Mani</string>
+    <string name="dev4_description">Giám đốc cơ sở hạ tầng</string>
+    <string name="dev_5">Rashed Sahaji</string>
+    <string name="dev5_description">Quản Lý Thiết Bị</string>
+    <string name="dev_6">Shreehari Vaasistha</string>
+    <string name="dev6_description">Người điều hành dự án</string>
+    <string name="dev_7">Arun Teltia</string>
+    <string name="dev7_description">Phát triển web</string>
     <!-- Mentions -->
     <string name="mentions_header">Những đề cập đáng vinh danh</string>
     <string name="mentions_sam">Sam Grande</string>
     <string name="mentions_sam_description">Thiết kế</string>
     <string name="mentions_iacob">Ionut Iacob</string>
     <string name="mentions_iacob_description">Nhà phát triển UI / UX</string>
+    <string name="mentions_pavan">Pavan Patel</string>
+    <string name="mentions_pavan_description">Thiết kế</string>
+    <string name="mentions_swapnil">Swapnil Soni</string>
+    <string name="mentions_swapnil_description">Phát triển web</string>
+    <string name="mentions_sagar">Sagar Rokade</string>
+    <string name="mentions_sagar_description">Nhà phát triển</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">Người bảo trì</string>
     <string name="maintainers_header_summary">Đây là các nhà bảo trì thiết bị chính thức...</string>
     <string name="device_xiaomi">Xiaomi</string>
     <string name="device_asus">Asus</string>
+    <string name="device_realme">Realme</string>
     <string name="device_google">Google</string>
     <string name="device_motorola">Motorola</string>
     <string name="device_pantech">Pantech</string>
@@ -58,6 +75,8 @@
     <string name="device_surya_description">surya\nAmJith</string>
     <string name="device_sunfish">Pixel 4a</string>
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
+    <string name="device_RMX1921">Realme XT</string>
+    <string name="device_RMX1921_description">RMX1921\nAyan</string>
     <!-- Categories -->
     <string name="button_title">Nút bấm</string>
     <string name="gestures_title">Cử chỉ</string>
@@ -217,6 +236,25 @@
     <string name="profile_choose_app">Chọn ứng dụng</string>
     <string name="dialog_delete_title">Xóa</string>
     <string name="dialog_delete_message">Xóa mục đã chọn?</string>
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Thời gian hiển thị</string>
+    <string name="heads_up_time_out_summary">Thông báo nổi sẽ hiển thị trong <xliff:g id="number">%d</xliff:g> giây</string>
+    <string name="heads_up_time_out_2sec">2 giây</string>
+    <string name="heads_up_time_out_4sec">4 giây</string>
+    <string name="heads_up_time_out_5sec">5 giây</string>
+    <string name="heads_up_time_out_6sec">6 giây</string>
+    <string name="heads_up_time_out_8sec">8 giây</string>
+    <string name="heads_up_time_out_10sec">10 giây</string>
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Thời gian báo lại</string>
+    <string name="heads_up_snooze_summary_one_minute">Vuốt thông báo nổi lên trên sẽ báo lại thông báo đó sau 1 phút</string>
+    <string name="heads_up_snooze_summary">Vuốt thông báo nổi lên trên sẽ báo lại thông báo đó sau <xliff:g id="number">%d</xliff:g> phút</string>
+    <string name="heads_up_snooze_disabled_summary">Tắt báo lại</string>
+    <string name="heads_up_snooze_1min">1 phút</string>
+    <string name="heads_up_snooze_5min">5 phút</string>
+    <string name="heads_up_snooze_10min">10 phút</string>
+    <string name="heads_up_snooze_15min">15 phút</string>
+    <string name="heads_up_snooze_20min">20 phút</string>
     <!-- 4G LTE switch -->
     <string name="show_fourg_title">Hiển thị biểu tượng 4G thay cho LTE</string>
     <string name="show_fourg_summary">Thay thế biểu tượng LTE bằng 4G</string>
@@ -442,26 +480,9 @@
     <!-- QS tint -->
     <string name="qs_bg_use_new_tint">Tô màu Cài đặt nhanh bằng cách sử dụng màu nhấn</string>
     <string name="qs_bg_use_new_tint_summary">Bật tông màu nhấn trên ô Cài đặt nhanh</string>
-    <!-- QS Footer Text -->
-    <string name="qs_footer_text_title">Văn bản chân cài đặt nhanh</string>
-    <string name="qs_footer_text_summary">Hiển thị văn bản ở dưới cùng của bảng cài đặt nhanh</string>
-    <string name="qs_footer_text_string_title">Tùy chỉnh văn bản chân trang</string>
-    <string name="qs_footer_text_string_summary">Đặt thành trống cho mặc định</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Tiêu đề thông báo</string>
     <string name="notification_headers_summary">Hiển thị tiêu đề trong ngăn thông báo</string>
-    <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_slider_category">Thanh trượt độ sáng</string>
-    <string name="qs_brightness_slider_title">Hiện thanh trượt điều chỉnh độ sáng</string>
-    <string name="qs_brightness_slider_summary">Hiển thị thanh trượt độ sáng trong bảng cài đặt nhanh</string>
-    <string name="qs_brightness_position_bottom_title">Hiển thị thanh trượt chỉnh độ sáng ở dưới</string>
-    <string name="qs_brightness_position_bottom_summary">Hiển thị thanh trượt độ sáng trên cài đặt nhanh phía dưới</string>
-    <!-- Quick Settings brightness icon -->
-    <string name="brightness_icon_title">Nút độ sáng thích nghi</string>
-    <string name="brightness_icon_summary">Hiển thị nút độ sáng thích nghi</string>
-    <!-- Quick Settings brightness side buttons -->
-    <string name="brightness_side_buttons_title">Nút điều chỉnh độ sáng</string>
-    <string name="brightness_side_buttons_summary">Hiện nút để tăng hoặc giảm độ sáng</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Hiển thị biểu tượng tắt mạng di động</string>
     <string name="data_disabled_icon_summary">Hiển thị biểu tượng dấu chéo bên cạnh biểu tượng mạng di động khi dữ liệu di động bị vô hiệu hóa</string>
@@ -473,4 +494,9 @@
     <string name="always_on_display_schedule_title">Luôn hiển thị theo lịch biểu</string>
     <string name="always_on_display_schedule_sunset">Hoàng hôn</string>
     <string name="always_on_display_schedule_sunrise">Bình minh</string>
+    <string name="always_on_display_schedule_mixed_sunset">Bật từ hoàng hôn đến bình minh</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Bật cho đến lúc bình minh</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Ẩn biểu tượng khóa</string>
+    <string name="hide_lockicon_summary">Ẩn biểu tượng khoá trên màn hình khoá</string>
 </resources>

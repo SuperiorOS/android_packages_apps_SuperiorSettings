@@ -27,17 +27,34 @@
     <string name="dev1_description">Pengembang</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">Pengembang Utama</string>
+    <string name="dev_3">Rahul Mishra</string>
+    <string name="dev3_description">Pengembang UI/UX</string>
+    <string name="dev_4">Subins Mani</string>
+    <string name="dev4_description">Manajer Infrastruktur</string>
+    <string name="dev_5">Rashed Sahaji</string>
+    <string name="dev5_description">Manajer Perangkat</string>
+    <string name="dev_6">Shreehari Vaasistha</string>
+    <string name="dev6_description">Moderator Projek</string>
+    <string name="dev_7">Arun Teltia</string>
+    <string name="dev7_description">Pengembang Web</string>
     <!-- Mentions -->
     <string name="mentions_header">Layak disebutkan</string>
     <string name="mentions_sam">Sam Grande</string>
     <string name="mentions_sam_description">Desainer</string>
     <string name="mentions_iacob">Ionut Iacob</string>
     <string name="mentions_iacob_description">Pengembang UI/UX</string>
+    <string name="mentions_pavan">Pavan Patel</string>
+    <string name="mentions_pavan_description">Desainer</string>
+    <string name="mentions_swapnil">Swapnil Soni</string>
+    <string name="mentions_swapnil_description">Pengembang Web</string>
+    <string name="mentions_sagar">Sagar Rokade</string>
+    <string name="mentions_sagar_description">Pengembang</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">Pengelola</string>
     <string name="maintainers_header_summary">Ini adalah Perangkat Resmi Pengelola...</string>
     <string name="device_xiaomi">Xiaomi</string>
     <string name="device_asus">Asus</string>
+    <string name="device_realme">Realme</string>
     <string name="device_google">Google</string>
     <string name="device_motorola">Motorola</string>
     <string name="device_pantech">Pantech</string>
@@ -58,6 +75,8 @@
     <string name="device_surya_description">surya\nAmJith</string>
     <string name="device_sunfish">Pixel 4a</string>
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
+    <string name="device_RMX1921">Realme XT</string>
+    <string name="device_RMX1921_description">RMX1921\nAyan</string>
     <!-- Categories -->
     <string name="button_title">Tombol</string>
     <string name="gestures_title">Gestur</string>
@@ -217,6 +236,25 @@
     <string name="profile_choose_app">Pilih aplikasi</string>
     <string name="dialog_delete_title">Hapus</string>
     <string name="dialog_delete_message">Hapus item terpilih?</string>
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Waktu habis</string>
+    <string name="heads_up_time_out_summary">Notifikasi mengambang akan ditampilkan selama <xliff:g id="number">%d</xliff:g> detik</string>
+    <string name="heads_up_time_out_2sec">2 detik</string>
+    <string name="heads_up_time_out_4sec">4 detik</string>
+    <string name="heads_up_time_out_5sec">5 detik</string>
+    <string name="heads_up_time_out_6sec">6 detik</string>
+    <string name="heads_up_time_out_8sec">8 detik</string>
+    <string name="heads_up_time_out_10sec">10 detik</string>
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Waktu tunda</string>
+    <string name="heads_up_snooze_summary_one_minute">Menggeser ke atas pada notifikasi mengambang akan menunda notifikasi dari aplikasi tersebut selama 1 menit</string>
+    <string name="heads_up_snooze_summary">Menggeser ke atas pada notifikasi mengambang akan menunda notifikasi dari aplikasi tersebut selama <xliff:g id="number">%d</xliff:g> menit</string>
+    <string name="heads_up_snooze_disabled_summary">Waktu tunda dinonaktifkan</string>
+    <string name="heads_up_snooze_1min">1 menit</string>
+    <string name="heads_up_snooze_5min">5 menit</string>
+    <string name="heads_up_snooze_10min">10 menit</string>
+    <string name="heads_up_snooze_15min">15 menit</string>
+    <string name="heads_up_snooze_20min">20 menit</string>
     <!-- 4G LTE switch -->
     <string name="show_fourg_title">Tampilkan 4G bukan LTE</string>
     <string name="show_fourg_summary">Ganti indikator LTE dengan 4G</string>
@@ -442,26 +480,9 @@
     <!-- QS tint -->
     <string name="qs_bg_use_new_tint">Warna ubin QS menggunakan warna aksen</string>
     <string name="qs_bg_use_new_tint_summary">Aktifkan rona warna aksen pada ubin QS</string>
-    <!-- QS Footer Text -->
-    <string name="qs_footer_text_title">Teks pada footer QS</string>
-    <string name="qs_footer_text_summary">Tampilkan teks di bagian bawah panel QS</string>
-    <string name="qs_footer_text_string_title">Kustomisasi teks footer</string>
-    <string name="qs_footer_text_string_summary">Setel ke kosong sebagai default</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Tajuk Pemberitahuan</string>
     <string name="notification_headers_summary">Tampilkan tajuk di bayangan pemberitahuan</string>
-    <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_slider_category">Penggeser Kecerahan</string>
-    <string name="qs_brightness_slider_title">Tampilkan panel geser kecerahan</string>
-    <string name="qs_brightness_slider_summary">Tampilkan panel geser kecerahan di panel setelan cepat</string>
-    <string name="qs_brightness_position_bottom_title">Tampilkan panel geser kecerahan di bawah</string>
-    <string name="qs_brightness_position_bottom_summary">Tampilkan panel geser kecerahan pada bawah setelan cepat</string>
-    <!-- Quick Settings brightness icon -->
-    <string name="brightness_icon_title">Tombol kecerahan adaptif</string>
-    <string name="brightness_icon_summary">Tampilkan tombol kecerahan adaptif</string>
-    <!-- Quick Settings brightness side buttons -->
-    <string name="brightness_side_buttons_title">Tombol kontrol kecerahan</string>
-    <string name="brightness_side_buttons_summary">Tampilkan tombol untuk menambah atau mengurangi kecerahan</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Tampilkan ikon data dinonaktifkan</string>
     <string name="data_disabled_icon_summary">Menampilkan tanda silang di sebelah bar sinyal saat data dinonaktifkan</string>
@@ -473,4 +494,9 @@
     <string name="always_on_display_schedule_title">Jadwal Layar Selalu Hidup</string>
     <string name="always_on_display_schedule_sunset">Matahari terbenam</string>
     <string name="always_on_display_schedule_sunrise">Matahari terbit</string>
+    <string name="always_on_display_schedule_mixed_sunset">Menyala dari matahari terbenam sampai waktu tertentu</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Menyala dari waktu tertentu sampai matahari terbit</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Sembunyikan ikon kunci</string>
+    <string name="hide_lockicon_summary">Sembunyikan ikon kunci pada layar kunci</string>
 </resources>

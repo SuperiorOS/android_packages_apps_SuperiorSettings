@@ -217,6 +217,8 @@
     <string name="profile_choose_app">Scegli l\'app</string>
     <string name="dialog_delete_title">Elimina</string>
     <string name="dialog_delete_message">Rimuovere l\'elemento selezionato?</string>
+    <!-- Heads up timeout -->
+    <!-- Heads up snooze -->
     <!-- 4G LTE switch -->
     <string name="show_fourg_title">Mostra 4G al posto di LTE</string>
     <string name="show_fourg_summary">Sostituisci l\'indicatore LTE con 4G nella barra di stato</string>
@@ -442,26 +444,9 @@
     <!-- QS tint -->
     <string name="qs_bg_use_new_tint">Tinta piastrelle QS utilizzando il colore pantone</string>
     <string name="qs_bg_use_new_tint_summary">Abilita la tinta del colore pantone sulle piastrelle QS</string>
-    <!-- QS Footer Text -->
-    <string name="qs_footer_text_title">Testo piè di pagina QS</string>
-    <string name="qs_footer_text_summary">Visualizza il testo nella parte inferiore del pannello QS</string>
-    <string name="qs_footer_text_string_title">Personalizza il testo del piè di pagina</string>
-    <string name="qs_footer_text_string_summary">Impostato su vuoto per impostazione predefinita</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Intestazioni di notifica</string>
     <string name="notification_headers_summary">Mostra le intestazioni nell\'ombra delle notifiche</string>
-    <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_slider_category">Dispositivo di scorrimento della luminosità</string>
-    <string name="qs_brightness_slider_title">Mostra il cursore luminosità</string>
-    <string name="qs_brightness_slider_summary">Mostra un cursore della luminosità nel pannello delle impostazioni rapide</string>
-    <string name="qs_brightness_position_bottom_title">Mostra il cursore della luminosità in basso</string>
-    <string name="qs_brightness_position_bottom_summary">Mostra un cursore della luminosità nelle impostazioni rapide in basso</string>
-    <!-- Quick Settings brightness icon -->
-    <string name="brightness_icon_title">Pulsante luminosità adattiva</string>
-    <string name="brightness_icon_summary">Mostra il pulsante della luminosità adattiva</string>
-    <!-- Quick Settings brightness side buttons -->
-    <string name="brightness_side_buttons_title">Pulsanti di controllo della luminosità</string>
-    <string name="brightness_side_buttons_summary">Mostra i pulsanti per aumentare o diminuire la luminosità</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Mostra icona dati disabilitati</string>
     <string name="data_disabled_icon_summary">Visualizza il segno di croce accanto alla barra del segnale quando i dati sono disabilitati</string>
@@ -473,4 +458,5 @@
     <string name="always_on_display_schedule_title">Programma sempre in mostra</string>
     <string name="always_on_display_schedule_sunset">Tramonto</string>
     <string name="always_on_display_schedule_sunrise">Alba</string>
+    <!-- Lock icon -->
 </resources>

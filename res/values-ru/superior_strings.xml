@@ -27,17 +27,35 @@
     <string name="dev1_description">Разработчик</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">Ведущий разработчик</string>
+    <string name="dev_3">Rahul Mishra</string>
+    <string name="dev3_description">Разработчик UI/UX</string>
+    <string name="dev_4">Subins Mani</string>
+    <string name="dev4_description">Менеджер инфраструктуры</string>
+    <string name="dev_5">Rashed Sahaji</string>
+    <string name="dev5_description">Диспетчер устройств</string>
+    <string name="dev_6">Shreehari Vaasistha</string>
+    <string name="dev6_description">Модератор проекта</string>
+    <string name="dev_7">Arun Teltia</string>
+    <string name="dev7_description">Веб-Разработчик</string>
     <!-- Mentions -->
     <string name="mentions_header">Благодарности</string>
     <string name="mentions_sam">Sam Grande</string>
     <string name="mentions_sam_description">Дизайнер</string>
     <string name="mentions_iacob">Ionut Iacob</string>
     <string name="mentions_iacob_description">Разработчик UI/UX</string>
+    <string name="mentions_pavan">Pavan Patel</string>
+    <string name="mentions_pavan_description">Дизайнер</string>
+    <string name="mentions_swapnil">Swapnil Soni</string>
+    <string name="mentions_swapnil_description">Веб-Разработчик</string>
+    <string name="mentions_sagar">Sagar Rokade</string>
+    <string name="mentions_sagar_description">Разработчик</string>
     <!-- Maintainer Info -->
     <string name="maintainers_header">Сопровождающие</string>
     <string name="maintainers_header_summary">Это официальные сопровождающие устройств...</string>
     <string name="device_xiaomi">Xiaomi</string>
     <string name="device_asus">Asus</string>
+    <string name="device_realme">Realme</string>
+    <string name="device_google">Googlе</string>
     <string name="device_motorola">Motorola</string>
     <string name="device_pantech">Pantech</string>
     <string name="device_lenovo">Lenovo</string>
@@ -49,10 +67,16 @@
     <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
+    <string name="device_miatoll">MiAtoll</string>
+    <string name="device_miatoll_description">miatoll\nHaSSaN</string>
     <string name="device_payton">Moto X4</string>
     <string name="device_payton_description">payton\nDhinesh</string>
     <string name="device_surya">Poco X3</string>
     <string name="device_surya_description">surya\nAmJith</string>
+    <string name="device_sunfish">Pixel 4a</string>
+    <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
+    <string name="device_RMX1921">Realme XT</string>
+    <string name="device_RMX1921_description">RMX1921\nAyan</string>
     <!-- Categories -->
     <string name="button_title">Кнопки</string>
     <string name="gestures_title">Жесты</string>
@@ -212,6 +236,14 @@
     <string name="profile_choose_app">Выбрать приложение</string>
     <string name="dialog_delete_title">Удалить</string>
     <string name="dialog_delete_message">Удалить выбранный элемент?</string>
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_2sec">2 секунды</string>
+    <string name="heads_up_time_out_4sec">4 секунды</string>
+    <string name="heads_up_time_out_5sec">5 секунд</string>
+    <string name="heads_up_time_out_6sec">6 секунд</string>
+    <string name="heads_up_time_out_8sec">8 секунд</string>
+    <string name="heads_up_time_out_10sec">10 секунд</string>
+    <!-- Heads up snooze -->
     <!-- 4G LTE switch -->
     <string name="show_fourg_title">Показывать 4G вместо LTE</string>
     <string name="show_fourg_summary">Заменяет индикатор LTE на 4G в строке состояния</string>
@@ -435,12 +467,21 @@
     <string name="qs_datausage_daily">Ежедневное использование</string>
     <string name="qs_datausage_monthly">Месячное использование</string>
     <!-- QS tint -->
-    <!-- QS Footer Text -->
+    <string name="qs_bg_use_new_tint">Плитки быстрых настроек с помощью цвета акцента</string>
+    <string name="qs_bg_use_new_tint_summary">Включить оттенок акцента на плитках быстрых настроек</string>
     <!-- Notification headers -->
-    <!-- Quick Settings brightness slider -->
-    <!-- Quick Settings brightness icon -->
-    <!-- Quick Settings brightness side buttons -->
+    <string name="notification_headers_title">Заголовки уведомлений</string>
+    <string name="notification_headers_summary">Показывать заголовки в тени уведомлений</string>
     <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Значок отключенной передачи данных</string>
+    <string name="data_disabled_icon_summary">Показывать крестик у значка сети, когда передача данных отключена</string>
     <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Индикатор роуминга</string>
+    <string name="roaming_indicator_icon_summary">Отображать индикатор роуминга рядом со значком сети при нахождении в роуминге</string>
     <!-- AOD Schedule -->
+    <string name="disabled">Отключено</string>
+    <string name="always_on_display_schedule_title">График Всегда на дисплее</string>
+    <string name="always_on_display_schedule_sunset">Закат</string>
+    <string name="always_on_display_schedule_sunrise">Восход</string>
+    <!-- Lock icon -->
 </resources>

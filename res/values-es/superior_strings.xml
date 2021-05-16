@@ -201,6 +201,8 @@
     <string name="profile_choose_app">Elegir aplicación</string>
     <string name="dialog_delete_title">Eliminar</string>
     <string name="dialog_delete_message">¿Borrar elemento seleccionado?</string>
+    <!-- Heads up timeout -->
+    <!-- Heads up snooze -->
     <!-- 4G LTE switch -->
     <string name="show_fourg_title">Mostrar 4G en lugar de LTE</string>
     <string name="show_fourg_summary">Reemplaza el indicador LTE de la barra de estado con 4G</string>
@@ -390,12 +392,9 @@
     <string name="lockscreen_charging_animation_drop">Tirar</string>
     <!-- QS Header data uasge -->
     <!-- QS tint -->
-    <!-- QS Footer Text -->
     <!-- Notification headers -->
-    <!-- Quick Settings brightness slider -->
-    <!-- Quick Settings brightness icon -->
-    <!-- Quick Settings brightness side buttons -->
     <!-- Data disabled icon -->
     <!-- Roaming indicator icon -->
     <!-- AOD Schedule -->
+    <!-- Lock icon -->
 </resources>
