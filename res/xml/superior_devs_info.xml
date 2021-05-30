@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The AOSP-RRO Project
-     Copyright (C) 2018-20 The Superior OS Project
+     Copyright (C) 2018-21 The Superior OS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -231,6 +231,16 @@
 <PreferenceCategory
         android:key="maintainer"
         android:title="@string/device_xiaomi" >
+
+    <Preference
+        android:key="maintainer_ysl"
+        android:title="@string/device_ysl"
+        android:summary="@string/device_ysl_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/ItsMeZyrus" />
+    </Preference>
 
     <Preference
         android:key="maintainer_violet"
