@@ -77,6 +77,10 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_RMX1921">Realme XT</string>
     <string name="device_RMX1921_description">RMX1921\nAyan</string>
+    <string name="device_ysl">Redmi S2</string>
+    <string name="device_ysl_description">YSL\nVedansh</string>
+    <string name="device_RMX1901">Realme X</string>
+    <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
     <!-- Categories -->
     <string name="button_title">Tlačítka</string>
     <string name="gestures_title">Gesta</string>
@@ -477,9 +481,6 @@
     <string name="qs_datausage_disabled">Vypnuto</string>
     <string name="qs_datausage_daily">Denní využití</string>
     <string name="qs_datausage_monthly">Měsíční využití</string>
-    <!-- QS tint -->
-    <string name="qs_bg_use_new_tint">Odstín QS dlaždic pomocí barvy zvýraznění</string>
-    <string name="qs_bg_use_new_tint_summary">Povolit zabarvení dlaždic rychlého nastavení barvou zvýraznění</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Záhlaví oznámení</string>
     <string name="notification_headers_summary">Zobrazit záhlaví v liště oznámení</string>
@@ -499,4 +500,14 @@
     <!-- Lock icon -->
     <string name="hide_lockicon_title">Skrýt ikonu zámku</string>
     <string name="hide_lockicon_summary">Skryje ikonu zámku na zamykací obrazovce</string>
+    <!-- QS tint -->
+    <string name="qs_bg_use_new_tint">Zabavit dlaždice QS</string>
+    <string name="qs_bg_use_new_tint_summary">Vyberte odstín QS dlaždic</string>
+    <string name="qs_tint_off">Výchozí</string>
+    <string name="qs_tint_accent">Barva zvýraznění</string>
+    <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
+    <!-- Volume panel switch -->
+    <string name="volume_panel_on_left_title">Panel hlasitosti na levé straně</string>
+    <string name="volume_panel_on_left_summary">Přesunout panel hlasitosti na levou stranu</string>
 </resources>

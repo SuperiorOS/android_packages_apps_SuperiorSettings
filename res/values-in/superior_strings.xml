@@ -77,6 +77,10 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_RMX1921">Realme XT</string>
     <string name="device_RMX1921_description">RMX1921\nAyan</string>
+    <string name="device_ysl">Redmi S2</string>
+    <string name="device_ysl_description">YSL\nVedansh</string>
+    <string name="device_RMX1901">Realme X</string>
+    <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
     <!-- Categories -->
     <string name="button_title">Tombol</string>
     <string name="gestures_title">Gestur</string>
@@ -477,9 +481,6 @@
     <string name="qs_datausage_disabled">Dinonaktifkan</string>
     <string name="qs_datausage_daily">Penggunaan harian</string>
     <string name="qs_datausage_monthly">Penggunaan bulanan</string>
-    <!-- QS tint -->
-    <string name="qs_bg_use_new_tint">Warna ubin QS menggunakan warna aksen</string>
-    <string name="qs_bg_use_new_tint_summary">Aktifkan rona warna aksen pada ubin QS</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Tajuk Pemberitahuan</string>
     <string name="notification_headers_summary">Tampilkan tajuk di bayangan pemberitahuan</string>
@@ -499,4 +500,14 @@
     <!-- Lock icon -->
     <string name="hide_lockicon_title">Sembunyikan ikon kunci</string>
     <string name="hide_lockicon_summary">Sembunyikan ikon kunci pada layar kunci</string>
+    <!-- QS tint -->
+    <string name="qs_bg_use_new_tint">Warna ubin QS</string>
+    <string name="qs_bg_use_new_tint_summary">Pilih Gaya Warna QS</string>
+    <string name="qs_tint_off">Bawaan</string>
+    <string name="qs_tint_accent">Warna Aksen</string>
+    <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
+    <!-- Volume panel switch -->
+    <string name="volume_panel_on_left_title">Pindahkan lokasi panel volume</string>
+    <string name="volume_panel_on_left_summary">Pindahkan panel volume ke kiri</string>
 </resources>

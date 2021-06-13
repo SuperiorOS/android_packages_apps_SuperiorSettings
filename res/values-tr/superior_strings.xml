@@ -77,6 +77,10 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_RMX1921">Realme XT</string>
     <string name="device_RMX1921_description">RMX1921\nAyan</string>
+    <string name="device_ysl">Redmi S2</string>
+    <string name="device_ysl_description">YSL\nVedansh</string>
+    <string name="device_RMX1901">Realme X</string>
+    <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
     <!-- Categories -->
     <string name="button_title">Tuşlar</string>
     <string name="gestures_title">Hareketler</string>
@@ -477,9 +481,6 @@
     <string name="qs_datausage_disabled">Devre dışı</string>
     <string name="qs_datausage_daily">Günlük kullanım</string>
     <string name="qs_datausage_monthly">Aylık kullanım</string>
-    <!-- QS tint -->
-    <string name="qs_bg_use_new_tint">Vurgu rengi kullanarak hızlı ayarlar karelerini renklendirin</string>
-    <string name="qs_bg_use_new_tint_summary">Hızlı ayarlar karelerinde vurgu rengi tonunu etkinleştirin</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Bildirim başlığı</string>
     <string name="notification_headers_summary">Başlıkları bildirim gölgesinde göster</string>
@@ -499,4 +500,14 @@
     <!-- Lock icon -->
     <string name="hide_lockicon_title">Kilit simgesini gizle</string>
     <string name="hide_lockicon_summary">Kilit ekranında kilit simgesini gizle</string>
+    <!-- QS tint -->
+    <string name="qs_bg_use_new_tint">Hızlı ayarlar kare renk tonu</string>
+    <string name="qs_bg_use_new_tint_summary">Hızlı ayarlar kare renk tonu stili seçin</string>
+    <string name="qs_tint_off">Varsayılan</string>
+    <string name="qs_tint_accent">Vurgu rengi</string>
+    <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
+    <!-- Volume panel switch -->
+    <string name="volume_panel_on_left_title">Ses paneli konumunu değiştir</string>
+    <string name="volume_panel_on_left_summary">Ses panelini sola taşı</string>
 </resources>

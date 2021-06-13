@@ -77,6 +77,10 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_RMX1921">Realme XT</string>
     <string name="device_RMX1921_description">RMX1921\nAyan</string>
+    <string name="device_ysl">Redmi S2</string>
+    <string name="device_ysl_description">YSL\nVedansh</string>
+    <string name="device_RMX1901">Realme X</string>
+    <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
     <!-- Categories -->
     <string name="button_title">ボタン</string>
     <string name="gestures_title">ジェスチャー</string>
@@ -477,9 +481,6 @@
     <string name="qs_datausage_disabled">無効</string>
     <string name="qs_datausage_daily">毎日の使用量</string>
     <string name="qs_datausage_monthly">毎月の使用量</string>
-    <!-- QS tint -->
-    <string name="qs_bg_use_new_tint">クイック設定タイルのアクセント色</string>
-    <string name="qs_bg_use_new_tint_summary">クイック設定タイルのアクセント色での色付けを有効にする</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">通知のヘッダー</string>
     <string name="notification_headers_summary">通知の影にヘッダーを表示する</string>
@@ -499,4 +500,14 @@
     <!-- Lock icon -->
     <string name="hide_lockicon_title">ロックアイコンを隠す</string>
     <string name="hide_lockicon_summary">ロック画面からロックアイコンを隠す</string>
+    <!-- QS tint -->
+    <string name="qs_bg_use_new_tint">クイック設定タイルのアクセント色</string>
+    <string name="qs_bg_use_new_tint_summary">クイック設定タイルのアクセント色での色付けを有効にする</string>
+    <string name="qs_tint_off">既定</string>
+    <string name="qs_tint_accent">アクセントの色</string>
+    <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
+    <!-- Volume panel switch -->
+    <string name="volume_panel_on_left_title">音量パネルの位置の切り替え</string>
+    <string name="volume_panel_on_left_summary">音量パネルを左に移動する</string>
 </resources>
