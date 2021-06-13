@@ -391,10 +391,11 @@
     <string name="lockscreen_charging_animation_battery">Batería</string>
     <string name="lockscreen_charging_animation_drop">Tirar</string>
     <!-- QS Header data uasge -->
-    <!-- QS tint -->
     <!-- Notification headers -->
     <!-- Data disabled icon -->
     <!-- Roaming indicator icon -->
     <!-- AOD Schedule -->
     <!-- Lock icon -->
+    <!-- QS tint -->
+    <!-- Volume panel switch -->
 </resources>

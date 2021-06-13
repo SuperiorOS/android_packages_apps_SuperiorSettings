@@ -218,7 +218,17 @@
     <string name="dialog_delete_title">Elimina</string>
     <string name="dialog_delete_message">Rimuovere l\'elemento selezionato?</string>
     <!-- Heads up timeout -->
+    <string name="heads_up_time_out_2sec">2 secondi</string>
+    <string name="heads_up_time_out_4sec">4 secondi</string>
+    <string name="heads_up_time_out_5sec">5 secondi</string>
+    <string name="heads_up_time_out_6sec">6 secondi</string>
+    <string name="heads_up_time_out_8sec">8 secondi</string>
+    <string name="heads_up_time_out_10sec">10 secondi</string>
     <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Sospendo sveglia</string>
+    <string name="heads_up_snooze_summary_one_minute">Scorrendo verso l\'alto sulle notifiche che sbirciano, posticiperai l\'avviso di quell\'applicazione per 1 minuto</string>
+    <string name="heads_up_snooze_summary">Scorrendo verso l\'alto sulle notifiche sbirciate si posticiperà l\'avviso da quell\'applicazione per <xliff:g id="number">%d</xliff:g> minuti</string>
+    <string name="heads_up_snooze_disabled_summary">Il timer di ripetizione è disabilitato</string>
     <!-- 4G LTE switch -->
     <string name="show_fourg_title">Mostra 4G al posto di LTE</string>
     <string name="show_fourg_summary">Sostituisci l\'indicatore LTE con 4G nella barra di stato</string>
@@ -441,9 +451,6 @@
     <string name="qs_datausage_disabled">Diabilitato</string>
     <string name="qs_datausage_daily">Utilizzo quotidiano</string>
     <string name="qs_datausage_monthly">Utilizzo mensile</string>
-    <!-- QS tint -->
-    <string name="qs_bg_use_new_tint">Tinta piastrelle QS utilizzando il colore pantone</string>
-    <string name="qs_bg_use_new_tint_summary">Abilita la tinta del colore pantone sulle piastrelle QS</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Intestazioni di notifica</string>
     <string name="notification_headers_summary">Mostra le intestazioni nell\'ombra delle notifiche</string>
@@ -459,4 +466,6 @@
     <string name="always_on_display_schedule_sunset">Tramonto</string>
     <string name="always_on_display_schedule_sunrise">Alba</string>
     <!-- Lock icon -->
+    <!-- QS tint -->
+    <!-- Volume panel switch -->
 </resources>

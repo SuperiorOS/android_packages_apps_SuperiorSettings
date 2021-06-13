@@ -77,6 +77,10 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_RMX1921">Realme XT</string>
     <string name="device_RMX1921_description">RMX1921\nAyan</string>
+    <string name="device_ysl">Redmi S2</string>
+    <string name="device_ysl_description">YSL\nVedansh</string>
+    <string name="device_RMX1901">Realme X</string>
+    <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
     <!-- Categories -->
     <string name="button_title">Nút bấm</string>
     <string name="gestures_title">Cử chỉ</string>
@@ -477,9 +481,6 @@
     <string name="qs_datausage_disabled">Đã tắt</string>
     <string name="qs_datausage_daily">Sử dụng hàng ngày</string>
     <string name="qs_datausage_monthly">Sử dụng hàng tháng</string>
-    <!-- QS tint -->
-    <string name="qs_bg_use_new_tint">Tô màu Cài đặt nhanh bằng cách sử dụng màu nhấn</string>
-    <string name="qs_bg_use_new_tint_summary">Bật tông màu nhấn trên ô Cài đặt nhanh</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Tiêu đề thông báo</string>
     <string name="notification_headers_summary">Hiển thị tiêu đề trong ngăn thông báo</string>
@@ -499,4 +500,14 @@
     <!-- Lock icon -->
     <string name="hide_lockicon_title">Ẩn biểu tượng khóa</string>
     <string name="hide_lockicon_summary">Ẩn biểu tượng khoá trên màn hình khoá</string>
+    <!-- QS tint -->
+    <string name="qs_bg_use_new_tint">Màu ô cài đặt nhanh</string>
+    <string name="qs_bg_use_new_tint_summary">Sử dụng màu nhấn cho biểu tượng và hình nền của qs</string>
+    <string name="qs_tint_off">Mặc định</string>
+    <string name="qs_tint_accent">Màu chủ đề</string>
+    <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
+    <!-- Volume panel switch -->
+    <string name="volume_panel_on_left_title">Bảng điều khiển âm lượng hệ thống</string>
+    <string name="volume_panel_on_left_summary">Hiển thị thanh âm lượng bên trái màn hình</string>
 </resources>

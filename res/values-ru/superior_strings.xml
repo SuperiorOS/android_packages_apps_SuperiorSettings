@@ -77,6 +77,10 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_RMX1921">Realme XT</string>
     <string name="device_RMX1921_description">RMX1921\nAyan</string>
+    <string name="device_ysl">Redmi S2</string>
+    <string name="device_ysl_description">YSL\nVedansh</string>
+    <string name="device_RMX1901">Realme X</string>
+    <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
     <!-- Categories -->
     <string name="button_title">Кнопки</string>
     <string name="gestures_title">Жесты</string>
@@ -237,6 +241,8 @@
     <string name="dialog_delete_title">Удалить</string>
     <string name="dialog_delete_message">Удалить выбранный элемент?</string>
     <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Время ожидания</string>
+    <string name="heads_up_time_out_summary">Уведомление будет показано на <xliff:g id="number">%d </xliff:g> секунд(ы)</string>
     <string name="heads_up_time_out_2sec">2 секунды</string>
     <string name="heads_up_time_out_4sec">4 секунды</string>
     <string name="heads_up_time_out_5sec">5 секунд</string>
@@ -244,6 +250,15 @@
     <string name="heads_up_time_out_8sec">8 секунд</string>
     <string name="heads_up_time_out_10sec">10 секунд</string>
     <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Таймер переноса</string>
+    <string name="heads_up_snooze_summary_one_minute">Смахивание вверх отложит всплывающие уведомления на 1 минуту</string>
+    <string name="heads_up_snooze_summary">Смахивание вверх отложит всплывающие уведомления от приложения на <xliff:g id="number">%d</xliff:g> минут(ы)</string>
+    <string name="heads_up_snooze_disabled_summary">Таймер переноса отключен</string>
+    <string name="heads_up_snooze_1min">1 минута</string>
+    <string name="heads_up_snooze_5min">5 минут</string>
+    <string name="heads_up_snooze_10min">10 минут</string>
+    <string name="heads_up_snooze_15min">15 минут</string>
+    <string name="heads_up_snooze_20min">20 минут</string>
     <!-- 4G LTE switch -->
     <string name="show_fourg_title">Показывать 4G вместо LTE</string>
     <string name="show_fourg_summary">Заменяет индикатор LTE на 4G в строке состояния</string>
@@ -466,9 +481,6 @@
     <string name="qs_datausage_disabled">Отключено</string>
     <string name="qs_datausage_daily">Ежедневное использование</string>
     <string name="qs_datausage_monthly">Месячное использование</string>
-    <!-- QS tint -->
-    <string name="qs_bg_use_new_tint">Плитки быстрых настроек с помощью цвета акцента</string>
-    <string name="qs_bg_use_new_tint_summary">Включить оттенок акцента на плитках быстрых настроек</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Заголовки уведомлений</string>
     <string name="notification_headers_summary">Показывать заголовки в тени уведомлений</string>
@@ -483,5 +495,19 @@
     <string name="always_on_display_schedule_title">График Всегда на дисплее</string>
     <string name="always_on_display_schedule_sunset">Закат</string>
     <string name="always_on_display_schedule_sunrise">Восход</string>
+    <string name="always_on_display_schedule_mixed_sunset">Включен от заката до заданного времени</string>
+    <string name="always_on_display_schedule_mixed_sunrise">Включен от заданного времени до рассвета</string>
     <!-- Lock icon -->
+    <string name="hide_lockicon_title">Скрыть значок блокировки</string>
+    <string name="hide_lockicon_summary">Скрыть значок блокировки на экране блокировки</string>
+    <!-- QS tint -->
+    <string name="qs_bg_use_new_tint">Оттенок для плиток</string>
+    <string name="qs_bg_use_new_tint_summary">Выбрать оттенок для плиток</string>
+    <string name="qs_tint_off">По умолчанию</string>
+    <string name="qs_tint_accent">Цветовой акцент</string>
+    <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
+    <!-- Volume panel switch -->
+    <string name="volume_panel_on_left_title">Переключить расположение панели громкости</string>
+    <string name="volume_panel_on_left_summary">Переместить панель громкости влево</string>
 </resources>
