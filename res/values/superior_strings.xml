@@ -27,7 +27,7 @@
     <!-- Dev Info -->
     <string name="devs_header">Developers</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
-    <string name="dev_1_git" translatable="false">sweeto143</string>
+    <string name="dev_1_git" translatable="false">Darkstar085</string>
     <string name="dev1_description">Developer</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev_2_git" translatable="false">Jayant-Deshmukh</string>
@@ -84,7 +84,7 @@
     <string name="maintainer_violet_git" translatable="false">Joker-V2</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
     <string name="device_violet_description">violet\nNipin NA</string>  
-    <string name="maintainer_whyred_git" translatable="false">Sweeto143</string>  
+    <string name="maintainer_whyred_git" translatable="false">Darkstar085</string>  
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
     <string name="maintainer_miatoll_git" translatable="false">HaSSaN-L</string>
