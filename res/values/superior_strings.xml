@@ -108,6 +108,9 @@
     <string name="maintainer_RMX1901_git" translatable="false">HaSSaN-L</string>
     <string name="device_RMX1901">Realme X</string>
     <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
+    <string name="maintainer_jason_git" translatable="false">enweazudaniel</string>
+    <string name="device_jason">Xiaomi Mi Note 3</string>
+    <string name="device_jason_description">jason\nDanny</string>
 	
     <!-- Categories -->
     <string name="button_title">Buttons</string>

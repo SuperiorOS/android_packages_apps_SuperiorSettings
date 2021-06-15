@@ -278,6 +278,16 @@
     </Preference>
 
     <Preference
+        android:key="maintainer_jason"
+        android:title="@string/device_jason"
+        android:summary="@string/device_jason_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/dandollar1" />
+    </Preference>
+
+    <Preference
         android:key="maintainer_whyred"
         android:title="@string/device_whyred"
         android:summary="@string/device_whyred_description"
