@@ -259,6 +259,21 @@
 
 <PreferenceCategory
         android:key="maintainer"
+        android:title="@string/device_poco" >
+
+    <Preference
+        android:key="maintainer_surya"
+        android:title="@string/device_surya"
+        android:summary="@string/device_surya_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/TheMarc43" />
+    </Preference>
+</PreferenceCategory>
+
+<PreferenceCategory
+        android:key="maintainer"
         android:title="@string/device_realme" >
 
     <Preference
@@ -335,16 +350,6 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/ItsMeZyrus" />
     </Preference>	
-
-    <Preference
-        android:key="maintainer_surya"
-        android:title="@string/device_surya"
-        android:summary="@string/device_surya_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/TheMarc43" />
-    </Preference>
 </PreferenceCategory>
 
 </PreferenceScreen>
