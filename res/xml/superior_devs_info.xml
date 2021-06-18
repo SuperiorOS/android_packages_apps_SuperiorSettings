@@ -287,13 +287,33 @@
         android:title="@string/device_xiaomi" >
 
     <Preference
-        android:key="maintainer_ysl"
-        android:title="@string/device_ysl"
-        android:summary="@string/device_ysl_description"
+        android:key="maintainer_jason"
+        android:title="@string/device_jason"
+        android:summary="@string/device_jason_description"
         android:icon="@drawable/ic_devs_phone">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/ItsMeZyrus" />
+            android:data="https://t.me/dandollar1" />
+    </Preference>
+
+    <Preference
+        android:key="maintainer_miatoll"
+        android:title="@string/device_miatoll"
+        android:summary="@string/device_miatoll_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/HaSSaN_MoHl" />
+    </Preference>
+	
+    <Preference
+        android:key="maintainer_whyred"
+        android:title="@string/device_whyred"
+        android:summary="@string/device_whyred_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="http://t.me/Darkstar085" />
     </Preference>
 
     <Preference
@@ -307,34 +327,14 @@
     </Preference>
 
     <Preference
-        android:key="maintainer_jason"
-        android:title="@string/device_jason"
-        android:summary="@string/device_jason_description"
+        android:key="maintainer_ysl"
+        android:title="@string/device_ysl"
+        android:summary="@string/device_ysl_description"
         android:icon="@drawable/ic_devs_phone">
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/dandollar1" />
-    </Preference>
-
-    <Preference
-        android:key="maintainer_whyred"
-        android:title="@string/device_whyred"
-        android:summary="@string/device_whyred_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="http://t.me/Darkstar085" />
-    </Preference>
-
-    <Preference
-        android:key="maintainer_miatoll"
-        android:title="@string/device_miatoll"
-        android:summary="@string/device_miatoll_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/HaSSaN_MoHl" />
-    </Preference>
+            android:data="https://t.me/ItsMeZyrus" />
+    </Preference>	
 
     <Preference
         android:key="maintainer_surya"
