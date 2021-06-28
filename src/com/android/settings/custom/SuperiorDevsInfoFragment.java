@@ -87,6 +87,7 @@ public class SuperiorDevsInfoFragment extends SettingsPreferenceFragment {
 		getGithubIcon(R.string.maintainer_ysl_git, findPreference("maintainer_ysl"));
 		getGithubIcon(R.string.maintainer_RMX1901_git, findPreference("maintainer_RMX1901"));
 		getGithubIcon(R.string.maintainer_jason_git, findPreference("maintainer_jason"));
+		getGithubIcon(R.string.maintainer_X01BD_git, findPreference("maintainer_X01BD"));
 
     }
     
