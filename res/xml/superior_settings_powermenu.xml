@@ -70,12 +70,12 @@
         android:title="@string/global_actions_soundpanel"
         android:defaultValue="false" /-->
 
-    <com.superior.settings.preferences.CustomSeekBarPreference
+    <!--com.superior.settings.preferences.CustomSeekBarPreference
         android:key="global_actions_max_columns"
         android:title="@string/global_actions_max_columns_title"
         android:summary="@string/global_actions_max_columns_summary"
         android:max="8"
         android:min="3"
-        android:defaultValue="3"/>
+        android:defaultValue="3"/>-->
 
 </PreferenceScreen>
