@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f76afa75_70563159",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2021-07-06T18:49:34Z",
+      "side": 1,
+      "message": "I just love Margaritov :)",
+      "revId": "fa615d449140929c9ec521c7a3feb60e0db24507",
+      "serverId": "cff56331-b3cb-4e5e-bf6a-abac220d6299"
+    }
+  ]
+}
