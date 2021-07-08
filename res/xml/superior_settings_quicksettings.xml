@@ -62,4 +62,17 @@
            android:summary="@string/notification_headers_summary"
            android:defaultValue="true" />
 
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+           android:key="footer_text_show"
+           android:title="@string/qs_footer_text_title"
+           android:summary="@string/qs_footer_text_summary"
+           android:defaultValue="false"/>
+
+        <com.superior.settings.preferences.SystemSettingEditTextPreference
+           android:key="footer_text_string"
+           android:title="@string/qs_footer_text_string_title"
+           android:summary="@string/qs_footer_text_string_summary"
+           android:dependency="footer_text_show"
+           android:defaultValue="#SuperiorOS" />
+
 </PreferenceScreen>
