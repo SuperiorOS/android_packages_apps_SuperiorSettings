@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "896e0da4_49647f25",
+        "filename": "res/xml/superior_settings_quicksettings.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 22,
+      "author": {
+        "id": 1000001
+      },
+      "writtenOn": "2021-07-09T13:27:37Z",
+      "side": 1,
+      "message": "Just remove this preference category and the corresponding string.",
+      "revId": "5769eb681e16dc77a38f588aaf4ad9c8a8593fff",
+      "serverId": "cff56331-b3cb-4e5e-bf6a-abac220d6299"
+    }
+  ]
+}
