@@ -63,6 +63,8 @@
     <string name="device_smartron">Smartron</string>
     <string name="device_X00T">ZenFone Max Pro M1</string>
     <string name="device_X00T_description">X00T\nPriyanshu Pandey</string>
+    <string name="device_X01BD">ZenFone Max Pro M2</string>
+    <string name="device_X01BD_description">X01BD\nShibikrishna</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
     <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
@@ -81,6 +83,8 @@
     <string name="device_ysl_description">YSL\nVedansh</string>
     <string name="device_RMX1901">Realme X</string>
     <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
+    <string name="device_jason">Xiaomi Mi Note 3</string>
+    <string name="device_jason_description">jason\nDanny</string>
     <!-- Categories -->
     <string name="button_title">Кнопки</string>
     <string name="gestures_title">Жесты</string>
@@ -276,6 +280,7 @@
     <string name="volte_icon_hd2">HD CAF Иконка</string>
     <string name="volte_icon_miui">MIUI 11</string>
     <string name="volte_icon_emui">EMUI</string>
+    <string name="volte_icon_vivo">Значок Vivo</string>
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">Значок VoWiFi</string>
     <string name="vowifi_icon_enabled">Значок VoWiFi включен</string>
@@ -481,9 +486,26 @@
     <string name="qs_datausage_disabled">Отключено</string>
     <string name="qs_datausage_daily">Ежедневное использование</string>
     <string name="qs_datausage_monthly">Месячное использование</string>
+    <!-- QS Footer Text -->
+    <string name="qs_footer_text_title">Текст в нижней части быстрых настроек</string>
+    <string name="qs_footer_text_summary">Отображать текст внизу панели быстрых настроек</string>
+    <string name="qs_footer_text_string_title">Настроить текст нижней части быстрых настроек</string>
+    <string name="qs_footer_text_string_summary">Задать пустым по умолчанию</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Заголовки уведомлений</string>
     <string name="notification_headers_summary">Показывать заголовки в тени уведомлений</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_category">Ползунок яркости</string>
+    <string name="qs_brightness_slider_title">Показать ползунок яркости</string>
+    <string name="qs_brightness_slider_summary">Показать ползунок яркости в панели быстрый настоек</string>
+    <string name="qs_brightness_position_bottom_title">Показывать ползунок яркости внизу</string>
+    <string name="qs_brightness_position_bottom_summary">Показывать ползунок яркости внизу быстрых настроек</string>
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Кнопка адаптивной яркости</string>
+    <string name="brightness_icon_summary">Показать кнопку адаптивной яркости</string>
+    <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">Кнопки регулировки яркости</string>
+    <string name="brightness_side_buttons_summary">Показать кнопки для увеличения или уменьшения яркости</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Значок отключенной передачи данных</string>
     <string name="data_disabled_icon_summary">Показывать крестик у значка сети, когда передача данных отключена</string>
@@ -510,4 +532,13 @@
     <!-- Volume panel switch -->
     <string name="volume_panel_on_left_title">Переключить расположение панели громкости</string>
     <string name="volume_panel_on_left_summary">Переместить панель громкости влево</string>
+    <!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_on_call_title">Мигание фонарика при звонке</string>
+    <string name="flashlight_on_call_disabled">Отключен</string>
+    <string name="flashlight_on_call_ringer">Только в режиме звонка</string>
+    <string name="flashlight_on_call_silent">Только при беззвучном звонке</string>
+    <string name="flashlight_on_call_always">Всегда</string>
+    <!-- SuperiorOS logo -->
+    <string name="superior_logo_title">Логотип SuperiorOS</string>
+    <string name="superior_logo_summary">Добавьте наш логотип в строку состояния</string>
 </resources>

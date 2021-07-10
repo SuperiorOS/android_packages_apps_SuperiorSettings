@@ -63,6 +63,8 @@
     <string name="device_smartron">Smartron</string>
     <string name="device_X00T">ZenFone Max Pro M1</string>
     <string name="device_X00T_description">X00T\nPriyanshu Pandey</string>
+    <string name="device_X01BD">ZenFone Max Pro M2</string>
+    <string name="device_X01BD_description">X01BD\nShibikrishna</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
     <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
@@ -81,6 +83,8 @@
     <string name="device_ysl_description">YSL\nVedansh</string>
     <string name="device_RMX1901">Realme X</string>
     <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
+    <string name="device_jason">Xiaomi Mi Note 3</string>
+    <string name="device_jason_description">jason\nDanny</string>
     <!-- Categories -->
     <string name="button_title">ボタン</string>
     <string name="gestures_title">ジェスチャー</string>
@@ -276,6 +280,9 @@
     <string name="volte_icon_hd2">HD CAF Icon</string>
     <string name="volte_icon_miui">MIUI 11</string>
     <string name="volte_icon_emui">EMUI</string>
+    <string name="volte_icon_margaritov">HD Filled Icon</string>
+    <string name="volte_icon_margaritov2">Margaritov VoLTE アイコン</string>
+    <string name="volte_icon_vivo">Vivo アイコン</string>
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">VoWiFi アイコン</string>
     <string name="vowifi_icon_enabled">VoWiFi アイコンは有効です</string>
@@ -481,9 +488,26 @@
     <string name="qs_datausage_disabled">無効</string>
     <string name="qs_datausage_daily">毎日の使用量</string>
     <string name="qs_datausage_monthly">毎月の使用量</string>
+    <!-- QS Footer Text -->
+    <string name="qs_footer_text_title">クイック設定フッターのテキスト</string>
+    <string name="qs_footer_text_summary">クイック設定パネルの下部にテキストを表示する</string>
+    <string name="qs_footer_text_string_title">フッターのテキストを編集</string>
+    <string name="qs_footer_text_string_summary">空白にすると既定値に設定されます</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">通知のヘッダー</string>
     <string name="notification_headers_summary">通知の影にヘッダーを表示する</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_category">明るさスライダー</string>
+    <string name="qs_brightness_slider_title">明るさスライダーを表示</string>
+    <string name="qs_brightness_slider_summary">クイック設定パネルに明るさスライダーを表示する</string>
+    <string name="qs_brightness_position_bottom_title">下部に明るさスライダーを表示</string>
+    <string name="qs_brightness_position_bottom_summary">クイック設定下部に明るさスライダーを表示する</string>
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">明るさ自動調節ボタン</string>
+    <string name="brightness_icon_summary">明るさ自動調節ボタンを表示する</string>
+    <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">明るさ増減ボタン</string>
+    <string name="brightness_side_buttons_summary">明るさを増減させるボタンを表示する</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">データ通信無効アイコン</string>
     <string name="data_disabled_icon_summary">モバイルデータが無効の場合にシグナルバーの隣に×を表示する</string>
@@ -510,4 +534,13 @@
     <!-- Volume panel switch -->
     <string name="volume_panel_on_left_title">音量パネルの位置の切り替え</string>
     <string name="volume_panel_on_left_summary">音量パネルを左に移動する</string>
+    <!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_on_call_title">着信時にフラッシュライト点滅</string>
+    <string name="flashlight_on_call_disabled">無効</string>
+    <string name="flashlight_on_call_ringer">着信モード時のみ</string>
+    <string name="flashlight_on_call_silent">着信音がサイレントの場合のみ</string>
+    <string name="flashlight_on_call_always">常時</string>
+    <!-- SuperiorOS logo -->
+    <string name="superior_logo_title">SuperiorOS ロゴ</string>
+    <string name="superior_logo_summary">私達のロゴをステータスバーに表示する</string>
 </resources>

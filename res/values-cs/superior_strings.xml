@@ -63,6 +63,8 @@
     <string name="device_smartron">Smartron</string>
     <string name="device_X00T">ZenFone Max Pro M1</string>
     <string name="device_X00T_description">X00T\nPriyanshu Pandey</string>
+    <string name="device_X01BD">ZenFone Max Pro M2</string>
+    <string name="device_X01BD_description">X01BD\nShibikrishna</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
     <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
@@ -81,6 +83,8 @@
     <string name="device_ysl_description">YSL\nVedansh</string>
     <string name="device_RMX1901">Realme X</string>
     <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
+    <string name="device_jason">Xiaomi Mi Note 3</string>
+    <string name="device_jason_description">jason\nDanny</string>
     <!-- Categories -->
     <string name="button_title">Tlačítka</string>
     <string name="gestures_title">Gesta</string>
@@ -276,6 +280,9 @@
     <string name="volte_icon_hd2">Ikona HD CAF</string>
     <string name="volte_icon_miui">MIUI 11</string>
     <string name="volte_icon_emui">EMUI</string>
+    <string name="volte_icon_margaritov">Ikona HD — vyplněná</string>
+    <string name="volte_icon_margaritov2">Ikona VoLTE – Margaritov</string>
+    <string name="volte_icon_vivo">Ikona Vivo</string>
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">Ikona VoWiFi</string>
     <string name="vowifi_icon_enabled">Ikona VoWiFi zapnuta</string>
@@ -481,9 +488,26 @@
     <string name="qs_datausage_disabled">Vypnuto</string>
     <string name="qs_datausage_daily">Denní využití</string>
     <string name="qs_datausage_monthly">Měsíční využití</string>
+    <!-- QS Footer Text -->
+    <string name="qs_footer_text_title">Text zápatí QS</string>
+    <string name="qs_footer_text_summary">Zobrazit text ve spodní části panelu QS</string>
+    <string name="qs_footer_text_string_title">Přizpůsobit text zápatí</string>
+    <string name="qs_footer_text_string_summary">Nastavte na prázdné pro výchozí</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Záhlaví oznámení</string>
     <string name="notification_headers_summary">Zobrazit záhlaví v liště oznámení</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_category">Posuvník jasu</string>
+    <string name="qs_brightness_slider_title">Zobrazit posuvník jasu</string>
+    <string name="qs_brightness_slider_summary">Zobrazit posuvník jasu v panelu Rychlého nastavení</string>
+    <string name="qs_brightness_position_bottom_title">Zobrazit posuvník jasu v v dolní části</string>
+    <string name="qs_brightness_position_bottom_summary">Zobrazit posuvník jasu v dolní části panelu Rychlého nastavení</string>
+    <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Tlačítko adaptivního jasu</string>
+    <string name="brightness_icon_summary">Zobrazovat tlačítko adaptivního jasu</string>
+    <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">Tlačítka ovládání jasu</string>
+    <string name="brightness_side_buttons_summary">Zobrazit tlačítka pro zvyšování, nebo snižování jasu</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Zobrazit ikonu při vypnutí dat</string>
     <string name="data_disabled_icon_summary">Zobrazit křížek na ikoně signálu sítě při vypnutých datech</string>
@@ -510,4 +534,13 @@
     <!-- Volume panel switch -->
     <string name="volume_panel_on_left_title">Panel hlasitosti na levé straně</string>
     <string name="volume_panel_on_left_summary">Přesunout panel hlasitosti na levou stranu</string>
+    <!-- Blink flashlight for incoming calls -->
+    <string name="flashlight_on_call_title">Blikání svítilny při volání</string>
+    <string name="flashlight_on_call_disabled">Vypnuto</string>
+    <string name="flashlight_on_call_ringer">Pouze v režimu vyzvánění</string>
+    <string name="flashlight_on_call_silent">Pouze v tichém režimu</string>
+    <string name="flashlight_on_call_always">Vždy</string>
+    <!-- SuperiorOS logo -->
+    <string name="superior_logo_title">Logo SuperiorOS</string>
+    <string name="superior_logo_summary">Přidejte naše logo do stavového řádku</string>
 </resources>
