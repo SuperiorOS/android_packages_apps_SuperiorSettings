@@ -50,13 +50,6 @@
             android:summary="@string/notification_sound_vib_screen_on_summary"
             android:defaultValue="true" />
 
-        <com.superior.settings.preferences.SystemSettingListPreference
-            android:key="flashlight_on_call"
-            android:title="@string/flashlight_on_call_title"
-            android:entries="@array/flashlight_on_call_entries"
-            android:entryValues="@array/flashlight_on_call_values"
-            android:defaultValue="0" />
-
     <PreferenceCategory
         android:key="incall_vib_options"
         android:title="@string/incall_vibration_category" >
@@ -75,6 +68,13 @@
             android:key="vibrate_on_disconnect"
             android:title="@string/incall_vibrate_disconnect_title"
             android:defaultValue="false" />
+
+        <com.superior.settings.preferences.SystemSettingListPreference
+            android:key="flashlight_on_call"
+            android:title="@string/flashlight_on_call_title"
+            android:entries="@array/flashlight_on_call_entries"
+            android:entryValues="@array/flashlight_on_call_values"
+            android:defaultValue="0" />
     </PreferenceCategory>
 
     <PreferenceCategory
