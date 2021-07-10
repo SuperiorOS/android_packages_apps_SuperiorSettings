@@ -19,10 +19,6 @@
     android:title="@string/quicksettings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <PreferenceCategory
-        android:key="quick_settings_brighness_category"
-        android:title="@string/qs_brightness_slider_category">
-
         <com.superior.settings.preferences.SecureSettingSwitchPreference
             android:key="qs_show_brightness"
             android:title="@string/qs_brightness_slider_title"
@@ -49,8 +45,6 @@
             android:summary="@string/qs_brightness_position_bottom_summary"
             android:defaultValue="false"
             android:dependency="qs_show_brightness" />
-
-    </PreferenceCategory>
 
         <!-- Battery mode -->
         <com.superior.settings.preferences.SystemSettingListPreference
