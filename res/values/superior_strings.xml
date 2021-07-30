@@ -21,32 +21,38 @@
 	
     <!-- ROM Info -->
     <string name="superior_about_info">About Project</string>
-    <string name="superior_about_info_summary_title">About Team</string>
+    <string name="superior_about_info_summary_title">About Our Family</string>
     <string name="superior_about_info_summary">Superior OS is a Custom ROM based on AOSP, with some most required minimal features, the main aim of this ROM is to deliver light speed performance,smoothness and good battery backup.</string>
 	
     <!-- Dev Info -->
-    <string name="devs_header">Developers</string>
+    <string name="devs_header">Family Members</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev_1_git" translatable="false">Darkstar085</string>
     <string name="dev1_description">Developer</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev_2_git" translatable="false">Jayant-Deshmukh</string>
     <string name="dev2_description">Lead Developer</string>
-    <string name="dev_3">Rahul Mishra</string>
-    <string name="dev_3_git" translatable="false">beingmishra</string>
-    <string name="dev3_description">UI/UX Developer</string>
-    <string name="dev_4">Subins Mani</string>
-    <string name="dev_4_git" translatable="false">Subinsmani</string>
-    <string name="dev4_description">Infrastructure Manager</string>
-    <string name="dev_5">Rashed Sahaji</string>
-    <string name="dev_5_git" translatable="false">rashedsahaji</string>
-    <string name="dev5_description">Device Manager</string>
-    <string name="dev_6">Shreehari Vaasistha</string>
-    <string name="dev_6_git" translatable="false">ShreehariVaasishta</string>
-    <string name="dev6_description">Project Moderator</string>
-    <string name="dev_7">Arun Teltia</string>
-    <string name="dev_7_git" translatable="false">ArunTeltia</string>
-    <string name="dev7_description">Web Devloper</string>
+    <string name="dev_3">Nipin NA</string>
+    <string name="dev_3_git" translatable="false">Joker-V2</string>
+    <string name="dev3_description">Developer</string>
+    <string name="dev_4">Rahul Mishra</string>
+    <string name="dev_4_git" translatable="false">beingmishra</string>
+    <string name="dev4_description">UI/UX Developer</string>
+    <string name="dev_5">Subins Mani</string>
+    <string name="dev_5_git" translatable="false">Subinsmani</string>
+    <string name="dev5_description">Infrastructure Manager</string>
+    <string name="dev_6">Rashed Sahaji</string>
+    <string name="dev_6_git" translatable="false">rashedsahaji</string>
+    <string name="dev6_description">Device Manager</string>
+    <string name="dev_7">Shreehari Vaasistha</string>
+    <string name="dev_7_git" translatable="false">ShreehariVaasishta</string>
+    <string name="dev7_description">Project Moderator</string>
+    <string name="dev_8">Arun Teltia</string>
+    <string name="dev_8_git" translatable="false">ArunTeltia</string>
+    <string name="dev8_description">Web Developer</string>
+    <string name="dev_9">Ojas Shukla</string>
+    <string name="dev_9_git" translatable="false">whizzbbig</string>
+    <string name="dev9_description">Web Developer</string>
 
     <!-- Mentions -->
     <string name="mentions_header">Honorable Mentions</string>

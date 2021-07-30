@@ -69,7 +69,7 @@
             android:summary="@string/dev3_description" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/beingmishra" />
+            android:data="https://t.me/Joker_V2_0" />
         </Preference>
 
         <Preference
@@ -79,7 +79,7 @@
             android:summary="@string/dev4_description" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Subinsmani" />
+            android:data="https://t.me/beingmishra" />
         </Preference>
 
         <Preference
@@ -89,7 +89,7 @@
             android:summary="@string/dev5_description" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/RashedSahaji" />
+            android:data="https://t.me/Subinsmani" />
         </Preference>
 
         <Preference
@@ -99,7 +99,7 @@
             android:summary="@string/dev6_description" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/cult_of_kosmos" />
+            android:data="https://t.me/RashedSahaji" />
         </Preference>
 
         <Preference
@@ -109,9 +109,28 @@
             android:summary="@string/dev7_description" >
         <intent
             android:action="android.intent.action.VIEW"
+            android:data="https://t.me/cult_of_kosmos" />
+        </Preference>
+
+        <Preference
+            android:key="dev8"
+            android:title="@string/dev_8"
+            android:icon="@drawable/ic_code"
+            android:summary="@string/dev8_description" >
+        <intent
+            android:action="android.intent.action.VIEW"
             android:data="https://t.me/T3rr0r1st" />
         </Preference>
 
+        <Preference
+            android:key="dev9"
+            android:title="@string/dev_9"
+            android:icon="@drawable/ic_code"
+            android:summary="@string/dev9_description" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/whizzbbig" />
+        </Preference>
 </PreferenceCategory>
 
 <PreferenceCategory
