@@ -19,24 +19,12 @@
     <string name="superior_dashboard_summary">Funkce Superior</string>
     <!-- ROM Info -->
     <string name="superior_about_info">O projektu</string>
-    <string name="superior_about_info_summary_title">O týmu</string>
     <string name="superior_about_info_summary">Superior OS je komunitní ROM založená na AOSP, která přináší jen ty nejnutnější funkce. Hlavním cílem této ROM je poskytovat výkon rychlosti světla, plynulost a dobrou výdrž baterie.</string>
     <!-- Dev Info -->
-    <string name="devs_header">Vývojáři</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Vývojář</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">Hlavní vývojář</string>
-    <string name="dev_3">Rahul Mishra</string>
-    <string name="dev3_description">Vývojář UX/UI</string>
-    <string name="dev_4">Subins Mani</string>
-    <string name="dev4_description">Správce infrastruktury</string>
-    <string name="dev_5">Rashed Sahaji</string>
-    <string name="dev5_description">Správce zařízení</string>
-    <string name="dev_6">Shreehari Vaasistha</string>
-    <string name="dev6_description">Moderátor projektu</string>
-    <string name="dev_7">Arun Teltia</string>
-    <string name="dev7_description">Vývojář webu</string>
     <!-- Mentions -->
     <string name="mentions_header">Čestná uznání</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -83,7 +71,6 @@
     <string name="device_ysl_description">YSL\nVedansh</string>
     <string name="device_RMX1901">Realme X</string>
     <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
-    <string name="device_jason">Xiaomi Mi Note 3</string>
     <string name="device_jason_description">jason\nDanny</string>
     <!-- Categories -->
     <string name="button_title">Tlačítka</string>
@@ -177,7 +164,7 @@
     <string name="anbi_title">Náhodný dotyk</string>
     <string name="anbi_summary">Zabránit interakci s navigačními tlačítky během dotyku obrazovky</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Možnost vibrací během hovoru</string>
+    <string name="incall_vibration_category">Oznámení při volání</string>
     <string name="incall_vibrate_connect_title">Vibrovat při připojení</string>
     <string name="incall_vibrate_call_wait_title">Vibrovat při čekajícím hovoru</string>
     <string name="incall_vibrate_disconnect_title">Vibrovat při odpojení</string>
@@ -497,7 +484,6 @@
     <string name="notification_headers_title">Záhlaví oznámení</string>
     <string name="notification_headers_summary">Zobrazit záhlaví v liště oznámení</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_slider_category">Posuvník jasu</string>
     <string name="qs_brightness_slider_title">Zobrazit posuvník jasu</string>
     <string name="qs_brightness_slider_summary">Zobrazit posuvník jasu v panelu Rychlého nastavení</string>
     <string name="qs_brightness_position_bottom_title">Zobrazit posuvník jasu v v dolní části</string>

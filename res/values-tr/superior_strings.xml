@@ -19,24 +19,12 @@
     <string name="superior_dashboard_summary">Superior özelleştirmeleri</string>
     <!-- ROM Info -->
     <string name="superior_about_info">Proje hakkında</string>
-    <string name="superior_about_info_summary_title">Takım hakkında</string>
     <string name="superior_about_info_summary">SuperiorOS AOSP tabanlı bir özel bir romdur, en gerekli bazı minimal özelliklere sahiptir, SuperiorOS\'un temel amacı ışık hızına sahip performans,pürüssüzlük ve iyi bir pil deneyimi yaşatmaktır.</string>
     <!-- Dev Info -->
-    <string name="devs_header">Geliştiriciler</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Geliştirici</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">Lider geliştirici</string>
-    <string name="dev_3">Rahul Mishra</string>
-    <string name="dev3_description">UI/UX Geliştirici</string>
-    <string name="dev_4">Subins Mani</string>
-    <string name="dev4_description">Altyapı yöneticisi</string>
-    <string name="dev_5">Rashed Sahaji</string>
-    <string name="dev5_description">Cihaz yöneticisi</string>
-    <string name="dev_6">Shreehari Vaasistha</string>
-    <string name="dev6_description">Proje yöneticisi</string>
-    <string name="dev_7">Arun Teltia</string>
-    <string name="dev7_description">Web geliştiricisi</string>
     <!-- Mentions -->
     <string name="mentions_header">Takdir edilecekler</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -83,7 +71,6 @@
     <string name="device_ysl_description">YSL\nVedansh</string>
     <string name="device_RMX1901">Realme X</string>
     <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
-    <string name="device_jason">Xiaomi Mi Note 3</string>
     <string name="device_jason_description">jason\nDanny</string>
     <!-- Categories -->
     <string name="button_title">Tuşlar</string>
@@ -177,7 +164,7 @@
     <string name="anbi_title">Yanlışlıkla dokunma</string>
     <string name="anbi_summary">Ekrana dokunulduğunda gezinme tuşları ile etkileşimi önle</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Arama titreşimi</string>
+    <string name="incall_vibration_category">Arama bildirimleri</string>
     <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
     <string name="incall_vibrate_call_wait_title">Bekletildiğinde titret</string>
     <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titret</string>
@@ -497,7 +484,6 @@
     <string name="notification_headers_title">Bildirim başlığı</string>
     <string name="notification_headers_summary">Başlıkları bildirim gölgesinde göster</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_slider_category">Parlaklık kaydırıcısı</string>
     <string name="qs_brightness_slider_title">Parlaklık kaydırıcısını göster</string>
     <string name="qs_brightness_slider_summary">Hızlı ayarlar panelinde parlaklık kaydırıcısını göster</string>
     <string name="qs_brightness_position_bottom_title">Alt parlaklık kaydırıcısı</string>

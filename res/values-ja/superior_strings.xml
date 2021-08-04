@@ -19,24 +19,12 @@
     <string name="superior_dashboard_summary">Superior 設定</string>
     <!-- ROM Info -->
     <string name="superior_about_info">プロジェクトについて</string>
-    <string name="superior_about_info_summary_title">チームについて</string>
     <string name="superior_about_info_summary">Superior OS は AOSP をベースにしたカスタム ROM で、必要最小限の機能がいくつかあります。この ROM の主な目的は日常の高速性能・滑らかさ・優れたバッテリー持続を実現することです。</string>
     <!-- Dev Info -->
-    <string name="devs_header">開発者</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">開発者</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">開発者リーダー</string>
-    <string name="dev_3">Rahul Mishra</string>
-    <string name="dev3_description">UI/UX 開発者</string>
-    <string name="dev_4">Subins Mani</string>
-    <string name="dev4_description">インフラマネージャー</string>
-    <string name="dev_5">Rashed Sahaji</string>
-    <string name="dev5_description">デバイスマネージャー</string>
-    <string name="dev_6">Shreehari Vaasistha</string>
-    <string name="dev6_description">プロジェクトモデレーター</string>
-    <string name="dev_7">Arun Teltia</string>
-    <string name="dev7_description">Web 開発者</string>
     <!-- Mentions -->
     <string name="mentions_header">スペシャルサンクス</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -83,7 +71,6 @@
     <string name="device_ysl_description">YSL\nVedansh</string>
     <string name="device_RMX1901">Realme X</string>
     <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
-    <string name="device_jason">Xiaomi Mi Note 3</string>
     <string name="device_jason_description">jason\nDanny</string>
     <!-- Categories -->
     <string name="button_title">ボタン</string>
@@ -177,7 +164,7 @@
     <string name="anbi_title">誤タッチ防止</string>
     <string name="anbi_summary">画面がタッチされている間はナビゲーションボタンを無効化して誤操作を防ぐ</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">通話中の振動オプション</string>
+    <string name="incall_vibration_category">通話の通知</string>
     <string name="incall_vibrate_connect_title">接続時に振動</string>
     <string name="incall_vibrate_call_wait_title">割込通話時に振動</string>
     <string name="incall_vibrate_disconnect_title">切断時に振動</string>
@@ -497,7 +484,6 @@
     <string name="notification_headers_title">通知のヘッダー</string>
     <string name="notification_headers_summary">通知の影にヘッダーを表示する</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_slider_category">明るさスライダー</string>
     <string name="qs_brightness_slider_title">明るさスライダーを表示</string>
     <string name="qs_brightness_slider_summary">クイック設定パネルに明るさスライダーを表示する</string>
     <string name="qs_brightness_position_bottom_title">下部に明るさスライダーを表示</string>

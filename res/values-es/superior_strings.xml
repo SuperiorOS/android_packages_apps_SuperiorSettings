@@ -19,10 +19,8 @@
     <string name="superior_dashboard_summary">Superior Goodies</string>
     <!-- ROM Info -->
     <string name="superior_about_info">Sobre este Proyecto</string>
-    <string name="superior_about_info_summary_title">Acerca del equipo</string>
     <string name="superior_about_info_summary">Superior OS es una ROM personalizada basada en AOSP, con algunas de las características más necesarias, el objetivo principal de esta ROM es proporcionar rendimiento a la velocidad de luz, suavidad y buena duración de la batería.</string>
     <!-- Dev Info -->
-    <string name="devs_header">Desarrolladores</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Desarrollador</string>
     <string name="dev_2">Jayant Deshmukh</string>
@@ -134,7 +132,6 @@
     <string name="anbi_title">Toque accidental</string>
     <string name="anbi_summary">Prevenir la interacción con los botones de navegación mientras se toca la pantalla</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Opciones de vibración durante llamadas</string>
     <string name="incall_vibrate_connect_title">Vibrar al conectar</string>
     <string name="incall_vibrate_call_wait_title">Vibrar en llamada en espera</string>
     <string name="incall_vibrate_disconnect_title">Vibrar al desconectar</string>

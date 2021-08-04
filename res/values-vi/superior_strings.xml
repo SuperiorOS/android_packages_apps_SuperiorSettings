@@ -19,24 +19,12 @@
     <string name="superior_dashboard_summary">Tùy biến Superior</string>
     <!-- ROM Info -->
     <string name="superior_about_info">Thông tin về dự án này</string>
-    <string name="superior_about_info_summary_title">Về nhóm</string>
     <string name="superior_about_info_summary">Superior OS là ROM tùy chỉnh dựa trên AOSP, với một số tính năng tối thiểu cần thiết nhất, mục đích chính của ROM này là mang lại hiệu suất tốc độ nhanh, mượt và pin tốt.</string>
     <!-- Dev Info -->
-    <string name="devs_header">Nhà phát triển</string>
     <string name="dev_1">whyredSipun Ku Mahanta</string>
     <string name="dev1_description">Nhà phát triển</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">Nhà phát triển chính</string>
-    <string name="dev_3">Rahul Mishra</string>
-    <string name="dev3_description">Nhà phát triển UI / UX</string>
-    <string name="dev_4">Subins Mani</string>
-    <string name="dev4_description">Giám đốc cơ sở hạ tầng</string>
-    <string name="dev_5">Rashed Sahaji</string>
-    <string name="dev5_description">Quản Lý Thiết Bị</string>
-    <string name="dev_6">Shreehari Vaasistha</string>
-    <string name="dev6_description">Người điều hành dự án</string>
-    <string name="dev_7">Arun Teltia</string>
-    <string name="dev7_description">Phát triển web</string>
     <!-- Mentions -->
     <string name="mentions_header">Những đề cập đáng vinh danh</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -83,7 +71,6 @@
     <string name="device_ysl_description">YSL\nVedansh</string>
     <string name="device_RMX1901">Realme X</string>
     <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
-    <string name="device_jason">Xiaomi Mi Note 3</string>
     <string name="device_jason_description">jason\nDanny</string>
     <!-- Categories -->
     <string name="button_title">Nút bấm</string>
@@ -177,7 +164,6 @@
     <string name="anbi_title">Tình cờ chạm vào</string>
     <string name="anbi_summary">Ngăn chặn tương tác với các nút điều hướng trong khi màn hình đang được chạm vào</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Tùy chọn rung trong cuộc gọi</string>
     <string name="incall_vibrate_connect_title">Rung khi kết nối</string>
     <string name="incall_vibrate_call_wait_title">Rung khi chờ cuộc gọi</string>
     <string name="incall_vibrate_disconnect_title">Rung khi ngắt kết nối</string>
@@ -489,12 +475,24 @@
     <string name="qs_datausage_daily">Sử dụng hàng ngày</string>
     <string name="qs_datausage_monthly">Sử dụng hàng tháng</string>
     <!-- QS Footer Text -->
+    <string name="qs_footer_text_title">QS văn bản cuối trang</string>
+    <string name="qs_footer_text_summary">Hiển thị văn bản ở dưới cùng của bảng cài đặt nhanh</string>
+    <string name="qs_footer_text_string_title">Tùy chỉnh văn bản cuối trang</string>
+    <string name="qs_footer_text_string_summary">Đặt thành trống cho mặc định</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Tiêu đề thông báo</string>
     <string name="notification_headers_summary">Hiển thị tiêu đề trong ngăn thông báo</string>
     <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_title">Hiện thanh trượt điều chỉnh độ sáng</string>
+    <string name="qs_brightness_slider_summary">Hiển thị thanh trượt độ sáng trong bảng cài đặt nhanh</string>
+    <string name="qs_brightness_position_bottom_title">Hiển thị thanh trượt chỉnh độ sáng ở dưới</string>
+    <string name="qs_brightness_position_bottom_summary">Hiển thị thanh trượt độ sáng trên cài đặt nhanh phía dưới</string>
     <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Nút độ sáng thích nghi</string>
+    <string name="brightness_icon_summary">Hiển thị nút độ sáng thích nghi</string>
     <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">Nút điều chỉnh độ sáng</string>
+    <string name="brightness_side_buttons_summary">Hiện nút để tăng hoặc giảm độ sáng</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Hiển thị biểu tượng tắt mạng di động</string>
     <string name="data_disabled_icon_summary">Hiển thị biểu tượng dấu chéo bên cạnh biểu tượng mạng di động khi dữ liệu di động bị vô hiệu hóa</string>

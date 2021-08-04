@@ -19,24 +19,12 @@
     <string name="superior_dashboard_summary">Настройки SuperiorOS</string>
     <!-- ROM Info -->
     <string name="superior_about_info">О проекте</string>
-    <string name="superior_about_info_summary_title">О команде</string>
     <string name="superior_about_info_summary">Superior OS - это кастомная прошивка, основанная на AOSP, с некоторыми наиболее требуемыми минимальными функциями, основная цель которой - обеспечить высокую производительность, плавность работы и хорошую автономность.</string>
     <!-- Dev Info -->
-    <string name="devs_header">Разработчики</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Разработчик</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">Ведущий разработчик</string>
-    <string name="dev_3">Rahul Mishra</string>
-    <string name="dev3_description">Разработчик UI/UX</string>
-    <string name="dev_4">Subins Mani</string>
-    <string name="dev4_description">Менеджер инфраструктуры</string>
-    <string name="dev_5">Rashed Sahaji</string>
-    <string name="dev5_description">Диспетчер устройств</string>
-    <string name="dev_6">Shreehari Vaasistha</string>
-    <string name="dev6_description">Модератор проекта</string>
-    <string name="dev_7">Arun Teltia</string>
-    <string name="dev7_description">Веб-Разработчик</string>
     <!-- Mentions -->
     <string name="mentions_header">Благодарности</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -83,7 +71,6 @@
     <string name="device_ysl_description">YSL\nVedansh</string>
     <string name="device_RMX1901">Realme X</string>
     <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
-    <string name="device_jason">Xiaomi Mi Note 3</string>
     <string name="device_jason_description">jason\nDanny</string>
     <!-- Categories -->
     <string name="button_title">Кнопки</string>
@@ -177,7 +164,7 @@
     <string name="anbi_title">Защита от случайных касаний</string>
     <string name="anbi_summary">Не реагировать на кнопки навигации при касании экрана</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Параметры вибрации при вызове</string>
+    <string name="incall_vibration_category">Уведомления о звонках</string>
     <string name="incall_vibrate_connect_title">Вибрировать при подключении</string>
     <string name="incall_vibrate_call_wait_title">Вибрация при ожидании ответа на звонок</string>
     <string name="incall_vibrate_disconnect_title">Вибрировать при отключении</string>
@@ -280,6 +267,8 @@
     <string name="volte_icon_hd2">HD CAF Иконка</string>
     <string name="volte_icon_miui">MIUI 11</string>
     <string name="volte_icon_emui">EMUI</string>
+    <string name="volte_icon_margaritov">Заполненный значок HD</string>
+    <string name="volte_icon_margaritov2">Маргаритов значка VoLTE</string>
     <string name="volte_icon_vivo">Значок Vivo</string>
     <!-- VoWiFi icon -->
     <string name="vowifi_icon_title">Значок VoWiFi</string>
@@ -495,7 +484,6 @@
     <string name="notification_headers_title">Заголовки уведомлений</string>
     <string name="notification_headers_summary">Показывать заголовки в тени уведомлений</string>
     <!-- Quick Settings brightness slider -->
-    <string name="qs_brightness_slider_category">Ползунок яркости</string>
     <string name="qs_brightness_slider_title">Показать ползунок яркости</string>
     <string name="qs_brightness_slider_summary">Показать ползунок яркости в панели быстрый настоек</string>
     <string name="qs_brightness_position_bottom_title">Показывать ползунок яркости внизу</string>

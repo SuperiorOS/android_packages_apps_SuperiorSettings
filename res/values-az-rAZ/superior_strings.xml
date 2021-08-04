@@ -74,12 +74,26 @@
     <!-- Notification headers -->
     <!-- Quick Settings brightness slider -->
     <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Adaptiv parlaqlıq düyməsi</string>
+    <string name="brightness_icon_summary">Adaptiv parlaqlıq düyməsini göstər</string>
     <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">Parlaqlığa nəzarət düymələri</string>
+    <string name="brightness_side_buttons_summary">Parlaqlığı artıran və ya azaldan düymələri göstər</string>
     <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Sıradan çıxarıldı nişanını göstər</string>
     <!-- Roaming indicator icon -->
+    <string name="roaming_indicator_icon_title">Roaminq göstəricisi</string>
     <!-- AOD Schedule -->
+    <string name="disabled">Sıradan çıxarıldı</string>
+    <string name="always_on_display_schedule_title">Həmişə ekranda planı</string>
+    <string name="always_on_display_schedule_sunset">Qürub çağı</string>
+    <string name="always_on_display_schedule_sunrise">Şəfəq vaxtı</string>
     <!-- Lock icon -->
     <!-- QS tint -->
+    <string name="qs_tint_off">İlkin</string>
+    <string name="qs_tint_accent">Vurğu Rəngi</string>
+    <string name="qs_tint_oos">OxygenOS 11</string>
+    <string name="qs_tint_twelve">Android 12</string>
     <!-- Volume panel switch -->
     <!-- Blink flashlight for incoming calls -->
     <!-- SuperiorOS logo -->

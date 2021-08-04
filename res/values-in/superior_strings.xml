@@ -19,24 +19,12 @@
     <string name="superior_dashboard_summary">Superior Goodies</string>
     <!-- ROM Info -->
     <string name="superior_about_info">Tentang Project</string>
-    <string name="superior_about_info_summary_title">Tentang Tim</string>
     <string name="superior_about_info_summary">SuperiorOS adalah ROM Kustom berdasarkan AOSP, dengan beberapa fitur minimal yang paling dibutuhkan, tujuan utama ROM ini adalah untuk memberikan kinerja kecepatan cahaya, kehalusan dan cadangan baterai yang baik.</string>
     <!-- Dev Info -->
-    <string name="devs_header">Pengembang</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Pengembang</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">Pengembang Utama</string>
-    <string name="dev_3">Rahul Mishra</string>
-    <string name="dev3_description">Pengembang UI/UX</string>
-    <string name="dev_4">Subins Mani</string>
-    <string name="dev4_description">Manajer Infrastruktur</string>
-    <string name="dev_5">Rashed Sahaji</string>
-    <string name="dev5_description">Manajer Perangkat</string>
-    <string name="dev_6">Shreehari Vaasistha</string>
-    <string name="dev6_description">Moderator Projek</string>
-    <string name="dev_7">Arun Teltia</string>
-    <string name="dev7_description">Pengembang Web</string>
     <!-- Mentions -->
     <string name="mentions_header">Layak disebutkan</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -83,7 +71,6 @@
     <string name="device_ysl_description">YSL\nVedansh</string>
     <string name="device_RMX1901">Realme X</string>
     <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
-    <string name="device_jason">Xiaomi Mi Note 3</string>
     <string name="device_jason_description">jason\nDanny</string>
     <!-- Categories -->
     <string name="button_title">Tombol</string>
@@ -177,7 +164,7 @@
     <string name="anbi_title">Sentuhan yang tidak disengaja</string>
     <string name="anbi_summary">Mencegah interaksi dengan tombol navigasi saat layar sedang disentuh</string>
     <!-- Incall vibrate options -->
-    <string name="incall_vibration_category">Opsi getaran panggilan masuk</string>
+    <string name="incall_vibration_category">Notifikasi panggilan</string>
     <string name="incall_vibrate_connect_title">Bergetar saat terhubung</string>
     <string name="incall_vibrate_call_wait_title">Bergetar saat menunggu panggilan</string>
     <string name="incall_vibrate_disconnect_title">Bergetar saat terputus</string>
@@ -489,12 +476,24 @@
     <string name="qs_datausage_daily">Penggunaan harian</string>
     <string name="qs_datausage_monthly">Penggunaan bulanan</string>
     <!-- QS Footer Text -->
+    <string name="qs_footer_text_title">Teks pada footer QS</string>
+    <string name="qs_footer_text_summary">Tampilkan teks di bagian bawah panel QS</string>
+    <string name="qs_footer_text_string_title">Kustomisasi teks footer</string>
+    <string name="qs_footer_text_string_summary">Setel ke kosong sebagai default</string>
     <!-- Notification headers -->
     <string name="notification_headers_title">Tajuk Pemberitahuan</string>
     <string name="notification_headers_summary">Tampilkan tajuk di bayangan pemberitahuan</string>
     <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_title">Tampilkan panel geser kecerahan</string>
+    <string name="qs_brightness_slider_summary">Tampilkan panel geser kecerahan di panel setelan cepat</string>
+    <string name="qs_brightness_position_bottom_title">Tampilkan panel geser kecerahan di bawah</string>
+    <string name="qs_brightness_position_bottom_summary">Tampilkan panel geser kecerahan pada bawah setelan cepat</string>
     <!-- Quick Settings brightness icon -->
+    <string name="brightness_icon_title">Tombol kecerahan adaptif</string>
+    <string name="brightness_icon_summary">Tampilkan tombol kecerahan adaptif</string>
     <!-- Quick Settings brightness side buttons -->
+    <string name="brightness_side_buttons_title">Tombol kontrol kecerahan</string>
+    <string name="brightness_side_buttons_summary">Tampilkan tombol untuk menambah atau mengurangi kecerahan</string>
     <!-- Data disabled icon -->
     <string name="data_disabled_icon_title">Tampilkan ikon data dinonaktifkan</string>
     <string name="data_disabled_icon_summary">Menampilkan tanda silang di sebelah bar sinyal saat data dinonaktifkan</string>
