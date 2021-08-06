@@ -121,7 +121,9 @@
     <string name="maintainer_jason_git" translatable="false">enweazudaniel</string>
     <string name="device_jason">Mi Note 3</string>
     <string name="device_jason_description">jason\nDanny</string>
-	
+    <string name="maintainer_onclite_git" translatable="false">abhayksanjay</string>
+    <string name="device_onclite">Redmi 7</string>
+    <string name="device_onclite_description">onclite\Abhay K Sanjay</string>	
     <!-- Categories -->
     <string name="button_title">Buttons</string>
     <string name="gestures_title">Gestures</string>

@@ -72,6 +72,9 @@
     <string name="device_RMX1901">Realme X</string>
     <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
     <string name="device_jason_description">jason\nDanny</string>
+    <string name="maintainer_onclite_git" translatable="false">Abhay K Sanjay</string>
+    <string name="device_onclite">Redmi 7</string>
+    <string name="device_onclite_description">onclite\Abhay K Sanjay</string>
     <!-- Categories -->
     <string name="button_title">Tlačítka</string>
     <string name="gestures_title">Gesta</string>
