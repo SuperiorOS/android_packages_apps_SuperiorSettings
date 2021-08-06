@@ -350,6 +350,17 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/ItsMeZyrus" />
     </Preference>	
+
+    <Preference
+        android:key="maintainer_onclite"
+        android:title="@string/device_onclite"
+        android:summary="@string/device_onclite_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/itachiuchiiah" />
+    </Preference>
+
 </PreferenceCategory>
 
 </PreferenceScreen>
