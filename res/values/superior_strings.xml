@@ -112,9 +112,6 @@
     <string name="maintainer_RMX1921_git" translatable="false">ayanm09</string>
     <string name="device_RMX1921">Realme XT</string>
     <string name="device_RMX1921_description">RMX1921\nAyan</string>
-    <string name="maintainer_ysl_git" translatable="false">ItsMeVedansh</string>
-    <string name="device_ysl">Redmi S2</string>
-    <string name="device_ysl_description">YSL\nVedansh</string>
     <string name="maintainer_RMX1901_git" translatable="false">HaSSaN-L</string>
     <string name="device_RMX1901">Realme X</string>
     <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
