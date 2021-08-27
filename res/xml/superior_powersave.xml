@@ -14,16 +14,12 @@
 -->
 <PreferenceScreen
  xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title=" "
+ android:title="@string/powersave_title"
  xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
-
-    <Preference
-        android:layout="@layout/superior_powersave_header"
-        android:selectable="false"/>
 
 <com.superior.settings.preferences.SystemSettingListPreference
         android:key="power_profile_type"
-            settings:iconSpaceReserved="false"
+        settings:iconSpaceReserved="false"
         android:title="@string/power_profile"
         android:dialogTitle="@string/power_profile"
         android:entries="@array/power_profile_type_entries"

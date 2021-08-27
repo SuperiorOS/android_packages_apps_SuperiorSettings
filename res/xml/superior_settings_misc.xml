@@ -16,29 +16,37 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/misc_title"
+    android:title=" "
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <Preference
+        android:layout="@layout/superior_misc_header"
+        android:selectable="false"/>
+
+    <Preference
         android:key="gaming_category"
+        settings:iconSpaceReserved="false"
         android:title="@string/gaming_title"
         android:summary="@string/gaming_title_summary"
         android:fragment="com.superior.settings.fragments.GamingModeSettings" />
 
      <Preference
          android:key="ps_cat"
+         settings:iconSpaceReserved="false"
          android:title="@string/powersave_title" 
          android:summary="@string/powersave_summary"
          android:fragment="com.superior.settings.fragments.PowerSaving" />
 
         <com.superior.settings.preferences.GlobalSettingSwitchPreference
             android:key="wake_when_plugged_or_unplugged"
+            settings:iconSpaceReserved="false"
             android:title="@string/wakeup_when_plugged_unplugged_title"
             android:summary="@string/wakeup_when_plugged_unplugged_summary"
             android:defaultValue="true" />
 
         <com.superior.settings.preferences.SystemSettingSwitchPreference 
            android:key="three_finger_gesture"
+           settings:iconSpaceReserved="false"
            android:title="@string/three_finger_gesture"
            android:summary="@string/three_finger_gesture_summary"
            android:defaultValue="false" />

@@ -16,22 +16,29 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/gestures_title"
+    android:title=" "
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <Preference
+        android:layout="@layout/superior_gestures_header"
+        android:selectable="false"/>
+
+    <Preference
         android:key="gesture_settings"
+        settings:iconSpaceReserved="false"
         android:title="@string/aosp_gesture_title"
         android:fragment="com.android.settings.gestures.GestureSettings" />
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="torch_long_press_power_gesture"
+        settings:iconSpaceReserved="false"
         android:title="@string/torch_long_press_power_gesture_title"
         android:summary="@string/torch_long_press_power_gesture_desc"
         android:defaultValue="false" />
 
     <ListPreference
         android:key="torch_long_press_power_timeout"
+        settings:iconSpaceReserved="false"
         android:dialogTitle="@string/torch_long_press_power_timeout_title"
         android:title="@string/torch_long_press_power_timeout_title"
         android:summary="%s"
@@ -42,15 +49,18 @@
 
     <PreferenceCategory
         android:key="double_tap_gestures_category"
+        settings:iconSpaceReserved="false"
         android:title="@string/double_tap_gestures_category_title">
 
 	<com.superior.settings.preferences.SystemSettingSwitchPreference
 	    android:key="double_tap_sleep_gesture"
+            settings:iconSpaceReserved="false"
             android:title="@string/double_tap_sleep_gesture_title"
             android:defaultValue="false" />
 
         <com.superior.settings.preferences.SystemSettingSwitchPreference
             android:key="double_tap_sleep_lockscreen"
+            settings:iconSpaceReserved="false"
             android:title="@string/double_tap_sleep_lockscreen_title"
             android:defaultValue="false" />
     </PreferenceCategory>

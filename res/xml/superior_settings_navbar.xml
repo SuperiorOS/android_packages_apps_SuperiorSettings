@@ -16,15 +16,21 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/navbar_title"
+    android:title=" "
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <Preference
+        android:layout="@layout/superior_navbar_header"
+        android:selectable="false"/>
 
     <SwitchPreference
         android:key="navbar_visibility"
+        settings:iconSpaceReserved="false"
         android:title="@string/navbar_visibility" />
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
             android:key="navigation_bar_arrow_keys"
+            settings:iconSpaceReserved="false"
             android:title="@string/navigation_bar_arrow_keys_title"
             android:summary="@string/navigation_bar_arrow_keys_summary"
             android:defaultValue="false"
@@ -32,6 +38,7 @@
 
     <com.superior.settings.preferences.SecureSettingSwitchPreference
             android:key="sysui_nav_bar_inverse"
+            settings:iconSpaceReserved="false"
             android:title="@string/navbar_invert_layout_title"
             android:defaultValue="true" />
 
