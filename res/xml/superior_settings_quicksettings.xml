@@ -16,17 +16,23 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/quicksettings_title"
+    android:title=" "
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <Preference
+        android:layout="@layout/superior_quicksettings_header"
+        android:selectable="false"/>
 
         <com.superior.settings.preferences.SecureSettingSwitchPreference
             android:key="qs_show_brightness"
+            settings:iconSpaceReserved="false"
             android:title="@string/qs_brightness_slider_title"
             android:summary="@string/qs_brightness_slider_summary"
             android:defaultValue="true"/>
 
         <com.superior.settings.preferences.SecureSettingSwitchPreference
             android:key="qs_show_auto_brightness_button"
+            settings:iconSpaceReserved="false"
             android:title="@string/brightness_icon_title"
             android:summary="@string/brightness_icon_summary"
             android:defaultValue="false"
@@ -34,6 +40,7 @@
 
         <com.superior.settings.preferences.SecureSettingSwitchPreference
             android:key="qs_show_brightness_side_buttons"
+            settings:iconSpaceReserved="false"
             android:title="@string/brightness_side_buttons_title"
             android:summary="@string/brightness_side_buttons_summary"
             android:defaultValue="false"
@@ -41,6 +48,7 @@
 
         <com.superior.settings.preferences.SecureSettingSwitchPreference
             android:key="qs_brightness_position_bottom"
+            settings:iconSpaceReserved="false"
             android:title="@string/qs_brightness_position_bottom_title"
             android:summary="@string/qs_brightness_position_bottom_summary"
             android:defaultValue="false"
@@ -49,6 +57,7 @@
         <!-- Battery mode -->
         <com.superior.settings.preferences.SystemSettingListPreference
             android:key="qs_battery_mode"
+            settings:iconSpaceReserved="false"
             android:title="@string/battery_percentage_title"
             android:entries="@array/qs_battery_mode_entries"
             android:entryValues="@array/qs_battery_mode_values"
@@ -56,6 +65,7 @@
 
         <com.superior.settings.preferences.SystemSettingListPreference
             android:key="qs_datausage" 
+            settings:iconSpaceReserved="false"
             android:title="@string/qs_datausage_title"
             android:entries="@array/qs_datausage_entries"
             android:entryValues="@array/qs_datausage_values"
@@ -63,6 +73,7 @@
 
         <com.superior.settings.preferences.SecureSettingListPreference
             android:key="status_bar_quick_qs_pulldown"
+            settings:iconSpaceReserved="false"
             android:title="@string/status_bar_quick_qs_pulldown"
             android:entries="@array/quick_pulldown_entries"
             android:entryValues="@array/quick_pulldown_values"
@@ -70,6 +81,7 @@
 
         <com.superior.settings.preferences.SystemSettingListPreference
             android:key="qs_panel_bg_use_new_tint"
+            settings:iconSpaceReserved="false"
             android:title="@string/qs_bg_use_new_tint"
             android:dialogTitle="@string/qs_bg_use_new_tint"
             android:entries="@array/qs_tint_entries"
@@ -79,24 +91,28 @@
 
         <com.superior.settings.preferences.SecureSettingSwitchPreference
             android:key="quick_settings_vibrate"
+            settings:iconSpaceReserved="false"
             android:title="@string/quick_settings_vibrate_title"
             android:summary="@string/quick_settings_vibrate_summary"
             android:defaultValue="false"/>
 
         <com.superior.settings.preferences.SystemSettingSwitchPreference
            android:key="notification_headers"
+           settings:iconSpaceReserved="false"
            android:title="@string/notification_headers_title"
            android:summary="@string/notification_headers_summary"
            android:defaultValue="true" />
 
         <com.superior.settings.preferences.SystemSettingSwitchPreference
            android:key="footer_text_show"
+           settings:iconSpaceReserved="false"
            android:title="@string/qs_footer_text_title"
            android:summary="@string/qs_footer_text_summary"
            android:defaultValue="false"/>
 
         <com.superior.settings.preferences.SystemSettingEditTextPreference
            android:key="footer_text_string"
+           settings:iconSpaceReserved="false"
            android:title="@string/qs_footer_text_string_title"
            android:summary="@string/qs_footer_text_string_summary"
            android:dependency="footer_text_show"

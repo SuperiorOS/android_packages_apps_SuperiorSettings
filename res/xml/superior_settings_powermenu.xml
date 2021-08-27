@@ -16,52 +16,65 @@
 -->
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:title="@string/powermenu_title"
+    android:title=" "
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+    <Preference
+        android:layout="@layout/superior_powermenu_header"
+        android:selectable="false"/>
 
     <com.superior.settings.preferences.SecureSettingSwitchPreference
         android:key="power_menu_hide_on_secure"
+        settings:iconSpaceReserved="false"
         android:title="@string/power_menu_hide_on_secure_title"
         android:summary="@string/power_menu_hide_on_secure_summary"
         android:defaultValue="false" />
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="global_actions_screenshot"
+        settings:iconSpaceReserved="false"
         android:title="@string/global_actions_screenshot"
         android:defaultValue="false" />
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="global_actions_screenrecord"
+        settings:iconSpaceReserved="false"
         android:title="@string/global_actions_screenrecord"
         android:defaultValue="false" />
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="global_actions_airplane"
+        settings:iconSpaceReserved="false"
         android:title="@string/global_actions_airplane"
         android:defaultValue="false" />
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="global_actions_settings"
+        settings:iconSpaceReserved="false"
         android:title="@string/global_actions_settings"
         android:defaultValue="false" />
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="global_actions_lockdown"
+        settings:iconSpaceReserved="false"
         android:title="@string/global_actions_lockdown"
         android:defaultValue="false" />
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="global_actions_flashlight"
+        settings:iconSpaceReserved="false"
         android:title="@string/global_actions_flashlight"
         android:defaultValue="false" />
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="global_actions_users"
+        settings:iconSpaceReserved="false"
         android:title="@string/global_actions_users"
         android:defaultValue="false" />
 
     <com.superior.settings.preferences.SystemSettingSwitchPreference
         android:key="global_actions_emergency"
+        settings:iconSpaceReserved="false"
         android:title="@string/global_actions_emergency"
         android:defaultValue="false" />
 
