@@ -118,4 +118,11 @@
            android:dependency="footer_text_show"
            android:defaultValue="#SuperiorOS" />
 
+        <com.superior.settings.preferences.SystemSettingSwitchPreference
+            android:key="artwork_media_background"
+            settings:iconSpaceReserved="false"
+            android:title="@string/artwork_media_background_title"
+            android:summary="@string/artwork_media_background_summary"
+            android:defaultValue="false" />
+
 </PreferenceScreen>

@@ -706,4 +706,8 @@
     <string name="power_profile_high">High</string>
     <string name="power_profile_ext">Extreme</string>
     <string name="powersave_summary">Options to extend your battery life</string>
+
+    <!-- Notification Media Options -->
+    <string name="artwork_media_background_title">Artwork media background</string>
+    <string name="artwork_media_background_summary">Set media artwork as notification media background</string>
 </resources>
