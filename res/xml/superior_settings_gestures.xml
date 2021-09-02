@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2018 The Superior OS Project
+     Copyright (C) 2018-2021 The Superior OS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -20,7 +20,8 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
     <Preference
-        android:layout="@layout/superior_gestures_header"
+        android:layout="@layout/superior_header"
+        android:title="@string/gestures_title"
         android:selectable="false"/>
 
     <Preference

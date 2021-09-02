@@ -28,7 +28,7 @@
             android:text="@string/superior_settings_title"
             android:textSize="42sp"
             android:textColor="?android:attr/textColorPrimary"
-	    android:gravity="center"
- 	    android:background="@drawable/header_bg"/>
+            android:gravity="center"
+            android:background="@drawable/header_bg"/>
 
 </LinearLayout>
