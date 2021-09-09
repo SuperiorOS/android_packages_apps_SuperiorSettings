@@ -19,12 +19,28 @@
     <string name="superior_dashboard_summary">Superior Extras</string>
     <!-- ROM Info -->
     <string name="superior_about_info">Sobre o Projeto</string>
+    <string name="superior_about_info_summary_title">Sobre Nossa Família</string>
     <string name="superior_about_info_summary">O Superior OS é uma ROM personalizada baseada no AOSP, com alguns recursos mínimos mais necessários, o principal objetivo desta ROM é proporcionar desempenho de velocidade, suavização e backup de bateria.</string>
     <!-- Dev Info -->
+    <string name="devs_header">Membros da família</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Desenvolvedor</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">Desenvolvedor Chefe</string>
+    <string name="dev_3">Nipin NA</string>
+    <string name="dev3_description">Desenvolvedor</string>
+    <string name="dev_4">Rahul Mishra</string>
+    <string name="dev4_description">Desenvolvedor da UI/UX</string>
+    <string name="dev_5">Subins Mani</string>
+    <string name="dev5_description">Infraestrutura</string>
+    <string name="dev_6">Rashed Sahaji</string>
+    <string name="dev6_description">Gerenciador do dispositivo</string>
+    <string name="dev_7">Shreehari Vaasistha</string>
+    <string name="dev7_description">Moderador</string>
+    <string name="dev_8">Arun Teltia</string>
+    <string name="dev8_description">Desenvolvedor Web</string>
+    <string name="dev_9">Ojas Shukla</string>
+    <string name="dev9_description">Desenvolvedor Web</string>
     <!-- Mentions -->
     <string name="mentions_header">Menções Honrosas</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -45,6 +61,7 @@
     <string name="device_realme">Realme</string>
     <string name="device_google">Google</string>
     <string name="device_motorola">Motorola</string>
+    <string name="device_poco">Poco</string>
     <string name="device_pantech">Pantech</string>
     <string name="device_lenovo">Lenovo</string>
     <string name="device_oneplus">Oneplus</string>
@@ -67,11 +84,12 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_RMX1921">Realme XT</string>
     <string name="device_RMX1921_description">RMX1921\nAyan</string>
-    <string name="device_ysl">Redmi S2</string>
-    <string name="device_ysl_description">YSL\nVedansh</string>
     <string name="device_RMX1901">Realme X</string>
     <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
+    <string name="device_jason">Mi Note 3</string>
     <string name="device_jason_description">jason\nDanny</string>
+    <string name="device_onclite">Redmi 7</string>
+    <string name="device_onclite_description">onclite\nAbhay K Sanjay</string>
     <!-- Categories -->
     <string name="button_title">Botões</string>
     <string name="gestures_title">Gestos</string>
@@ -529,4 +547,52 @@
     <!-- SuperiorOS logo -->
     <string name="superior_logo_title">Logotipo SuperiorOS</string>
     <string name="superior_logo_summary">Adicione nosso logotipo na barra de status</string>
+    <!-- Gaming mode -->
+    <string name="gaming_title">Modo Jogo</string>
+    <string name="gaming_title_summary">Recursos extras para uma experiência imersiva nos jogos</string>
+    <string name="gaming_mode_enabled_title">Ativar Modo Jogo</string>
+    <string name="gaming_mode_disable_auto_brightness_title">Desativar o brilho automático</string>
+    <string name="gaming_mode_disable_auto_brightness_summary">Desativar o brilho automático ao entrar no modo jogo</string>
+    <string name="gaming_mode_notification_danmaku_title">Notificação estilo comentário</string>
+    <string name="gaming_mode_notification_danmaku_summary">Exibe o conteúdo da notificação em forma de comentário durante o jogo</string>
+    <string name="gaming_mode_quick_start_apps_title">Inicialização rápida de aplicativos</string>
+    <string name="gaming_mode_quick_start_apps_summary">Escolha o aplicativo que você deseja lançar com uma bolha flutuante</string>
+    <string name="gaming_mode_menu_opacity_title">Nível de opacidade do menu</string>
+    <string name="gaming_mode_performance">Performance</string>
+    <string name="gaming_mode_use_game_driver_title">Usar driver de jogo</string>
+    <string name="gaming_mode_use_game_driver_summary">Especificar o driver de jogo</string>
+    <string name="gaming_mode_change_performance_title">Ajuste de desempenho</string>
+    <string name="gaming_mode_change_performance_summary">Ajustar o nível de desempenho ao iniciar o jogo</string>
+    <string name="gaming_mode_performance_title">Nível de desempenho</string>
+    <string name="gaming_mode_dnd">Não perturbe</string>
+    <string name="gaming_mode_disable_notification_alert_title">Desabilitar notificação flutuante</string>
+    <string name="gaming_mode_disable_notification_alert_summary">Não permitir notificações flutuantes e balões de conversa que não sejam chamadas e alarmes recebidos</string>
+    <string name="gaming_mode_disable_ringtone_title">Sem toque</string>
+    <string name="gaming_mode_disable_ringtone_summary">Desativar o toque das chamadas recebidas e notificações no modo de jogo</string>
+    <string name="gaming_mode_auto_answer_call_title">Responder chamadas automaticamente</string>
+    <string name="gaming_mode_auto_answer_call_summary">Atenda chamadas automaticamente no jogo e modo mãos livres quando nenhum fone de ouvido estiver conectado</string>
+    <string name="gaming_mode_prevent_accidental_touch">Impedir toque acidental</string>
+    <string name="gaming_mode_disable_gesture_title">Desativar gestos</string>
+    <string name="gaming_mode_apps">Lista de jogos</string>
+    <string name="gaming_mode_dynamic_add_title">Modo dinâmico</string>
+    <string name="gaming_mode_dynamic_add_summary">Tentar detectar e adicionar jogos automaticamente</string>
+    <string name="gaming_mode_show_danmaku_title">Ativar notificações comentário</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_title">Filtro dinâmico de notificações</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_summary">Filtrar automaticamente notificações como progresso de downloads</string>
+    <string name="gaming_mode_danmaku_size_horizontal_title">Tamanho do Modo comentários (horizontal)</string>
+    <string name="gaming_mode_danmaku_size_vertical_title">Altura do Modo comentários (vertical)</string>
+    <string name="gaming_mode_danmaku_speed_horizontal_title">Velocidade do painel de comentários (horizontal)</string>
+    <string name="gaming_mode_danmaku_speed_vertical_title">Velocidade do painel de comentários (vertical)</string>
+    <string name="gaming_mode_danmaku_blacklist">Lista negra</string>
+    <string name="add_package_to_title">Adicionar aplicativo</string>
+    <!-- Power Profiles -->
+    <string name="powersave_title">Modo Econômico</string>
+    <string name="power_profile">Perfil de economia de bateria</string>
+    <string name="power_profile_default">Padrão</string>
+    <string name="power_profile_light">Suave</string>
+    <string name="power_profile_med">Moderado</string>
+    <string name="power_profile_high">Alto</string>
+    <string name="power_profile_ext">Extremo</string>
+    <string name="powersave_summary">Opções para aumentar a duração da bateria</string>
+    <!-- Notification Media Options -->
 </resources>

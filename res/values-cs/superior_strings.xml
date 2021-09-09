@@ -19,12 +19,28 @@
     <string name="superior_dashboard_summary">Funkce Superior</string>
     <!-- ROM Info -->
     <string name="superior_about_info">O projektu</string>
+    <string name="superior_about_info_summary_title">O naší rodině</string>
     <string name="superior_about_info_summary">Superior OS je komunitní ROM založená na AOSP, která přináší jen ty nejnutnější funkce. Hlavním cílem této ROM je poskytovat výkon rychlosti světla, plynulost a dobrou výdrž baterie.</string>
     <!-- Dev Info -->
+    <string name="devs_header">Členové rodiny</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Vývojář</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">Hlavní vývojář</string>
+    <string name="dev_3">Nipin NA</string>
+    <string name="dev3_description">Vývojář</string>
+    <string name="dev_4">Rahul Mishra</string>
+    <string name="dev4_description">Vývojář UX/UI</string>
+    <string name="dev_5">Subins Mani</string>
+    <string name="dev5_description">Správce infrastruktury</string>
+    <string name="dev_6">Rashed Sahaji</string>
+    <string name="dev6_description">Správce zařízení</string>
+    <string name="dev_7">Shreehari Vaasistha</string>
+    <string name="dev7_description">Moderátor projektu</string>
+    <string name="dev_8">Arun Teltia</string>
+    <string name="dev8_description">Vývojář webu</string>
+    <string name="dev_9">Ojas Shukla</string>
+    <string name="dev9_description">Vývojář webu</string>
     <!-- Mentions -->
     <string name="mentions_header">Čestná uznání</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -45,6 +61,7 @@
     <string name="device_realme">Realme</string>
     <string name="device_google">Google</string>
     <string name="device_motorola">Motorola</string>
+    <string name="device_poco">Poco</string>
     <string name="device_pantech">Pantech</string>
     <string name="device_lenovo">Lenovo</string>
     <string name="device_oneplus">OnePlus</string>
@@ -67,11 +84,12 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_RMX1921">Realme XT</string>
     <string name="device_RMX1921_description">RMX1921\nAyan</string>
-    <string name="device_ysl">Redmi S2</string>
-    <string name="device_ysl_description">YSL\nVedansh</string>
     <string name="device_RMX1901">Realme X</string>
     <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
+    <string name="device_jason">Mi Note 3</string>
     <string name="device_jason_description">jason\nDanny</string>
+    <string name="device_onclite">Redmi 7</string>
+    <string name="device_onclite_description">onclite\nAbhay K Sanjay</string>
     <!-- Categories -->
     <string name="button_title">Tlačítka</string>
     <string name="gestures_title">Gesta</string>
@@ -529,4 +547,55 @@
     <!-- SuperiorOS logo -->
     <string name="superior_logo_title">Logo SuperiorOS</string>
     <string name="superior_logo_summary">Přidejte naše logo do stavového řádku</string>
+    <!-- Gaming mode -->
+    <string name="gaming_title">Herní režim</string>
+    <string name="gaming_title_summary">Další funkce pro herní zážitek</string>
+    <string name="gaming_mode_enabled_title">Zapnout Herní režim</string>
+    <string name="gaming_mode_disable_auto_brightness_title">Zakázat automatický jas</string>
+    <string name="gaming_mode_disable_auto_brightness_summary">Zakázat automatický jas při zapnutí Herního režimu</string>
+    <string name="gaming_mode_notification_danmaku_title">Oznámení Danmaku</string>
+    <string name="gaming_mode_notification_danmaku_summary">Zobrazení obsahu oznámení ve formě Danmaku ve hře</string>
+    <string name="gaming_mode_quick_start_apps_title">Rychlé spuštění aplikací</string>
+    <string name="gaming_mode_quick_start_apps_summary">Vyberte aplikaci, kterou chcete spustit pomocí plovoucí bubliny</string>
+    <string name="gaming_mode_menu_opacity_title">Úroveň průhlednosti menu</string>
+    <string name="gaming_mode_performance">Výkon</string>
+    <string name="gaming_mode_use_game_driver_title">Použít herní ovladač</string>
+    <string name="gaming_mode_use_game_driver_summary">Použít konkrétní ovladače pro hry</string>
+    <string name="gaming_mode_change_performance_title">Ladění výkonu</string>
+    <string name="gaming_mode_change_performance_summary">Upravit úroveň výkonu při spuštění hry</string>
+    <string name="gaming_mode_performance_title">Úroveň výkonu</string>
+    <string name="gaming_mode_dnd">Nerušit</string>
+    <string name="gaming_mode_disable_notification_alert_title">Vypnout oznámení</string>
+    <string name="gaming_mode_disable_notification_alert_summary">Nepovolit plovoucí bubliny oznámení a konverzací mimo příchozí hovory a budíky</string>
+    <string name="gaming_mode_disable_ringtone_title">Bez vyzvánění</string>
+    <string name="gaming_mode_disable_ringtone_summary">Vypnout vyzvánění příchozích hovorů a oznámení v herním režimu</string>
+    <string name="gaming_mode_auto_answer_call_title">Automaticky přijímat hovory</string>
+    <string name="gaming_mode_auto_answer_call_summary">Automatické přijímání hovorů ve hře a bez připojených sluchátek</string>
+    <string name="gaming_mode_prevent_accidental_touch">Zabránit náhodnému dotyku</string>
+    <string name="gaming_mode_disable_gesture_title">Vypnout gesta</string>
+    <string name="gaming_mode_apps">Seznam her</string>
+    <string name="gaming_mode_dynamic_add_title">Dynamický režim</string>
+    <string name="gaming_mode_dynamic_add_summary">Zkusit rozpoznat a přidat herní aplikace automaticky</string>
+    <string name="gaming_mode_show_danmaku_title">Zobrazit Danmaku</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_title">Dynamické filtrování oznámení</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_summary">Automaticky filtrovat oznámení, jako je průběh stahování atd.</string>
+    <string name="gaming_mode_danmaku_size_horizontal_title">Velikost Danmaku (vodorovně)</string>
+    <string name="gaming_mode_danmaku_size_vertical_title">Velikost Danmaku (svisle)</string>
+    <string name="gaming_mode_danmaku_speed_horizontal_title">Rychlost Danmaku (vodorovně)</string>
+    <string name="gaming_mode_danmaku_speed_vertical_title">Rychlost Danmaku (svisle)</string>
+    <string name="gaming_mode_danmaku_blacklist">Seznam zakázaných</string>
+    <string name="add_package_to_title">Přidat aplikaci</string>
+    <!-- Power Profiles -->
+    <string name="powersave_title">Úspora energie</string>
+    <string name="power_profile">Profil spořiče baterie</string>
+    <string name="power_profile_default">Výchozí</string>
+    <string name="power_profile_light">Mírný</string>
+    <string name="power_profile_med">Střední</string>
+    <string name="power_profile_high">Vysoký</string>
+    <string name="power_profile_ext">Extrémní</string>
+    <string name="powersave_summary">Možnosti prodloužení životnosti baterie</string>
+    <!-- Notification Media Options -->
+    <string name="artwork_media_background_title">Pozadí obalu interpreta</string>
+    <string name="artwork_media_background_summary">Nastavit obal interpreta jako pozadí oznámení médií</string>
+    <string name="artwork_media_fade_level_title">Úroveň slábnutí obalu interpreta</string>
 </resources>

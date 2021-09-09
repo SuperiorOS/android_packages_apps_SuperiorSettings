@@ -19,12 +19,28 @@
     <string name="superior_dashboard_summary">Настройки SuperiorOS</string>
     <!-- ROM Info -->
     <string name="superior_about_info">О проекте</string>
+    <string name="superior_about_info_summary_title">О нашей семье</string>
     <string name="superior_about_info_summary">Superior OS - это кастомная прошивка, основанная на AOSP, с некоторыми наиболее требуемыми минимальными функциями, основная цель которой - обеспечить высокую производительность, плавность работы и хорошую автономность.</string>
     <!-- Dev Info -->
+    <string name="devs_header">Члены семьи</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Разработчик</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">Ведущий разработчик</string>
+    <string name="dev_3">Nipin NA</string>
+    <string name="dev3_description">Разработчик</string>
+    <string name="dev_4">Rahul Mishra</string>
+    <string name="dev4_description">Разработчик UI/UX</string>
+    <string name="dev_5">Subins Mani</string>
+    <string name="dev5_description">Менеджер инфраструктуры</string>
+    <string name="dev_6">Rashed Sahaji</string>
+    <string name="dev6_description">Управляющий устройствами</string>
+    <string name="dev_7">Shreehari Vaasistha</string>
+    <string name="dev7_description">Модератор проекта</string>
+    <string name="dev_8">Arun Teltia</string>
+    <string name="dev8_description">Веб-Разработчик</string>
+    <string name="dev_9">Ojas Shukla</string>
+    <string name="dev9_description">Веб-Разработчик</string>
     <!-- Mentions -->
     <string name="mentions_header">Благодарности</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -45,6 +61,7 @@
     <string name="device_realme">Realme</string>
     <string name="device_google">Googlе</string>
     <string name="device_motorola">Motorola</string>
+    <string name="device_poco">Poco</string>
     <string name="device_pantech">Pantech</string>
     <string name="device_lenovo">Lenovo</string>
     <string name="device_oneplus">OnePlus</string>
@@ -67,11 +84,12 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_RMX1921">Realme XT</string>
     <string name="device_RMX1921_description">RMX1921\nAyan</string>
-    <string name="device_ysl">Redmi S2</string>
-    <string name="device_ysl_description">YSL\nVedansh</string>
     <string name="device_RMX1901">Realme X</string>
     <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
+    <string name="device_jason">Mi Note 3</string>
     <string name="device_jason_description">jason\nDanny</string>
+    <string name="device_onclite">Redmi 7</string>
+    <string name="device_onclite_description">onclite\nAbhay K Sanjay</string>
     <!-- Categories -->
     <string name="button_title">Кнопки</string>
     <string name="gestures_title">Жесты</string>
@@ -529,4 +547,55 @@
     <!-- SuperiorOS logo -->
     <string name="superior_logo_title">Логотип SuperiorOS</string>
     <string name="superior_logo_summary">Добавьте наш логотип в строку состояния</string>
+    <!-- Gaming mode -->
+    <string name="gaming_title">Игровой режим</string>
+    <string name="gaming_title_summary">Дополнительные возможности для погружения в игровой опыт</string>
+    <string name="gaming_mode_enabled_title">Включить игровой режим</string>
+    <string name="gaming_mode_disable_auto_brightness_title">Отключить автоматическую яркость</string>
+    <string name="gaming_mode_disable_auto_brightness_summary">Отключить автояркость при входе в режим игры</string>
+    <string name="gaming_mode_notification_danmaku_title">Уведомление Danmaku</string>
+    <string name="gaming_mode_notification_danmaku_summary">Отображать содержимое уведомления в виде danmaku в игре</string>
+    <string name="gaming_mode_quick_start_apps_title">Приложения для быстрого запуска</string>
+    <string name="gaming_mode_quick_start_apps_summary">Выберите приложение, которое вы хотите запустить с плавающим шаром</string>
+    <string name="gaming_mode_menu_opacity_title">Уровень прозрачности меню</string>
+    <string name="gaming_mode_performance">Производительность</string>
+    <string name="gaming_mode_use_game_driver_title">Использовать игровой драйвер</string>
+    <string name="gaming_mode_use_game_driver_summary">Используйте специальные драйверы для игр</string>
+    <string name="gaming_mode_change_performance_title">Настройки производительности</string>
+    <string name="gaming_mode_change_performance_summary">Регулировка уровня производительности при запуске игры</string>
+    <string name="gaming_mode_performance_title">Уровень производительности</string>
+    <string name="gaming_mode_dnd">Не беспокоить</string>
+    <string name="gaming_mode_disable_notification_alert_title">Отключить оповещение уведомлений</string>
+    <string name="gaming_mode_disable_notification_alert_summary">Запретить всплывающие уведомления и разговоры кроме входящих звонков и будильников</string>
+    <string name="gaming_mode_disable_ringtone_title">Нет звонка</string>
+    <string name="gaming_mode_disable_ringtone_summary">Отключение звонка входящих вызовов и уведомлений в игровом режиме</string>
+    <string name="gaming_mode_auto_answer_call_title">Автоматический ответ на звонки</string>
+    <string name="gaming_mode_auto_answer_call_summary">Отвечайте на звонки автоматически в игре и в режиме громкой связи, когда наушники не подключены</string>
+    <string name="gaming_mode_prevent_accidental_touch">Предотвращать случайные касания</string>
+    <string name="gaming_mode_disable_gesture_title">Отключить жесты</string>
+    <string name="gaming_mode_apps">Список игр</string>
+    <string name="gaming_mode_dynamic_add_title">Динамический режим</string>
+    <string name="gaming_mode_dynamic_add_summary">Попробуйте автоматически обнаруживать и добавлять игровые приложения</string>
+    <string name="gaming_mode_show_danmaku_title">Показать danmaku</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_title">Уведомление о динамической фильтрации</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_summary">Автоматически фильтровать уведомления такие как прогресс загрузки</string>
+    <string name="gaming_mode_danmaku_size_horizontal_title">Размер Danmaku (горизонтальная)</string>
+    <string name="gaming_mode_danmaku_size_vertical_title">Размер Danmaku (вертикальная)</string>
+    <string name="gaming_mode_danmaku_speed_horizontal_title">Скорость Danmaku (горизонтальная)</string>
+    <string name="gaming_mode_danmaku_speed_vertical_title">Скорость Danmaku (вертикальная)</string>
+    <string name="gaming_mode_danmaku_blacklist">Чёрный список</string>
+    <string name="add_package_to_title">Добавить приложение</string>
+    <!-- Power Profiles -->
+    <string name="powersave_title">Энергосбережение</string>
+    <string name="power_profile">Профиль энергосбережения</string>
+    <string name="power_profile_default">По умолчанию</string>
+    <string name="power_profile_light">Светлый</string>
+    <string name="power_profile_med">Умеренный</string>
+    <string name="power_profile_high">Высокий</string>
+    <string name="power_profile_ext">Экстремальный</string>
+    <string name="powersave_summary">Опции для продления срока службы батареи</string>
+    <!-- Notification Media Options -->
+    <string name="artwork_media_background_title">Фон медиа-обложки</string>
+    <string name="artwork_media_background_summary">Установить медиа-обложку в качестве фона уведомления</string>
+    <string name="artwork_media_fade_level_title">Уровень тусклости обложки</string>
 </resources>

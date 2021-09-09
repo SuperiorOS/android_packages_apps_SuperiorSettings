@@ -19,12 +19,28 @@
     <string name="superior_dashboard_summary">Superior Goodies</string>
     <!-- ROM Info -->
     <string name="superior_about_info">Tentang Project</string>
+    <string name="superior_about_info_summary_title">Tentang Keluarga Kami</string>
     <string name="superior_about_info_summary">SuperiorOS adalah ROM Kustom berdasarkan AOSP, dengan beberapa fitur minimal yang paling dibutuhkan, tujuan utama ROM ini adalah untuk memberikan kinerja kecepatan cahaya, kehalusan dan cadangan baterai yang baik.</string>
     <!-- Dev Info -->
+    <string name="devs_header">Anggota Keluarga</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Pengembang</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">Pengembang Utama</string>
+    <string name="dev_3">Nipin NA</string>
+    <string name="dev3_description">Pengembang</string>
+    <string name="dev_4">Rahul Mishra</string>
+    <string name="dev4_description">Pengembang UI/UX</string>
+    <string name="dev_5">Subins Mani</string>
+    <string name="dev5_description">Manajer Infrastruktur</string>
+    <string name="dev_6">Rashed Sahaji</string>
+    <string name="dev6_description">Manajer Perangkat</string>
+    <string name="dev_7">Shreehari Vaasistha</string>
+    <string name="dev7_description">Moderator Projek</string>
+    <string name="dev_8">Arun Teltia</string>
+    <string name="dev8_description">Pengembang Web</string>
+    <string name="dev_9">Ojas Shukla</string>
+    <string name="dev9_description">Pengembang Web</string>
     <!-- Mentions -->
     <string name="mentions_header">Layak disebutkan</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -45,6 +61,7 @@
     <string name="device_realme">Realme</string>
     <string name="device_google">Google</string>
     <string name="device_motorola">Motorola</string>
+    <string name="device_poco">Poco</string>
     <string name="device_pantech">Pantech</string>
     <string name="device_lenovo">Lenovo</string>
     <string name="device_oneplus">OnePlus</string>
@@ -67,11 +84,11 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_RMX1921">Realme XT</string>
     <string name="device_RMX1921_description">RMX1921\nAyan</string>
-    <string name="device_ysl">Redmi S2</string>
-    <string name="device_ysl_description">YSL\nVedansh</string>
     <string name="device_RMX1901">Realme X</string>
     <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
+    <string name="device_jason">Mi Note 3</string>
     <string name="device_jason_description">jason\nDanny</string>
+    <string name="device_onclite">Redmi 7</string>
     <!-- Categories -->
     <string name="button_title">Tombol</string>
     <string name="gestures_title">Gestur</string>
@@ -529,4 +546,43 @@
     <!-- SuperiorOS logo -->
     <string name="superior_logo_title">Logo SuperiorOS</string>
     <string name="superior_logo_summary">Tampilkan logo kami di bilah status</string>
+    <!-- Gaming mode -->
+    <string name="gaming_title">Mode Permainan</string>
+    <string name="gaming_title_summary">Fitur ekstra untuk pengalaman bermain game yang impresif</string>
+    <string name="gaming_mode_enabled_title">Aktifkan Mode Permainan</string>
+    <string name="gaming_mode_disable_auto_brightness_title">Nonaktifkan kecerahan otomatis</string>
+    <string name="gaming_mode_disable_auto_brightness_summary">Nonaktifkan kecerahan otomatis saat memasuki mode permainan</string>
+    <string name="gaming_mode_performance">Performa</string>
+    <string name="gaming_mode_use_game_driver_title">Gunakan driver game</string>
+    <string name="gaming_mode_use_game_driver_summary">Gunakan driver khusus untuk game</string>
+    <string name="gaming_mode_change_performance_title">Penyesuaian kinerja</string>
+    <string name="gaming_mode_change_performance_summary">Sesuaikan tingkat kinerja saat memulai game</string>
+    <string name="gaming_mode_performance_title">Tingkat performa</string>
+    <string name="gaming_mode_dnd">Jangan Ganggu</string>
+    <string name="gaming_mode_disable_notification_alert_title">Nonaktifkan peringatan notifikasi</string>
+    <string name="gaming_mode_disable_notification_alert_summary">Jangan izinkan notifikasi mengambang dan gelembung percakapan selain panggilan masuk dan alarm</string>
+    <string name="gaming_mode_disable_ringtone_title">Tidak berdering</string>
+    <string name="gaming_mode_disable_ringtone_summary">Matikan dering panggilan masuk dan notifikasi dalam mode permainan</string>
+    <string name="gaming_mode_auto_answer_call_title">Menjawab panggilan otomatis</string>
+    <string name="gaming_mode_auto_answer_call_summary">Jawab panggilan secara otomatis dalam game dan handsfree saat tidak ada headphone yang terhubung</string>
+    <string name="gaming_mode_prevent_accidental_touch">Cegah sentuhan yang tidak disengaja</string>
+    <string name="gaming_mode_disable_gesture_title">Nonaktifkan gestur</string>
+    <string name="gaming_mode_apps">Daftar game</string>
+    <string name="gaming_mode_dynamic_add_title">Mode dinamis</string>
+    <string name="gaming_mode_dynamic_add_summary">Mendeteksi dan menambah aplikasi permainan secara otomatis</string>
+    <string name="gaming_mode_danmaku_blacklist">Daftar hitam</string>
+    <string name="add_package_to_title">Tambah aplikasi</string>
+    <!-- Power Profiles -->
+    <string name="powersave_title">Hemat Baterai</string>
+    <string name="power_profile">Profil penghemat baterai</string>
+    <string name="power_profile_default">Bawaan</string>
+    <string name="power_profile_light">Ringan</string>
+    <string name="power_profile_med">Moderat</string>
+    <string name="power_profile_high">Tinggi</string>
+    <string name="power_profile_ext">Ekstrim</string>
+    <string name="powersave_summary">Opsi untuk memperpanjang masa pakai baterai Anda</string>
+    <!-- Notification Media Options -->
+    <string name="artwork_media_background_title">Latar belakang media karya seni</string>
+    <string name="artwork_media_background_summary">Tetapkan media karya seni sebagai latar belakang media notifikasi</string>
+    <string name="artwork_media_fade_level_title">Tingkat pudar media karya seni</string>
 </resources>

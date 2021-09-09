@@ -19,12 +19,28 @@
     <string name="superior_dashboard_summary">Tùy biến Superior</string>
     <!-- ROM Info -->
     <string name="superior_about_info">Thông tin về dự án này</string>
+    <string name="superior_about_info_summary_title">Về gia đình của chúng tôi</string>
     <string name="superior_about_info_summary">Superior OS là ROM tùy chỉnh dựa trên AOSP, với một số tính năng tối thiểu cần thiết nhất, mục đích chính của ROM này là mang lại hiệu suất tốc độ nhanh, mượt và pin tốt.</string>
     <!-- Dev Info -->
+    <string name="devs_header">Các thành viên trong gia đình</string>
     <string name="dev_1">whyredSipun Ku Mahanta</string>
     <string name="dev1_description">Nhà phát triển</string>
     <string name="dev_2">Jayant Deshmukh</string>
     <string name="dev2_description">Nhà phát triển chính</string>
+    <string name="dev_3">Nipin NA</string>
+    <string name="dev3_description">Nhà phát triển</string>
+    <string name="dev_4">Rahul Mishra</string>
+    <string name="dev4_description">Nhà phát triển UI / UX</string>
+    <string name="dev_5">Subins Mani</string>
+    <string name="dev5_description">Giám đốc cơ sở hạ tầng</string>
+    <string name="dev_6">Rashed Sahaji</string>
+    <string name="dev6_description">Quản Lý Thiết Bị</string>
+    <string name="dev_7">Shreehari Vaasistha</string>
+    <string name="dev7_description">Người điều hành dự án</string>
+    <string name="dev_8">Arun Teltia</string>
+    <string name="dev8_description">Phát triển web</string>
+    <string name="dev_9">Ojas Shukla</string>
+    <string name="dev9_description">Nhà phát triển website</string>
     <!-- Mentions -->
     <string name="mentions_header">Những đề cập đáng vinh danh</string>
     <string name="mentions_sam">Sam Grande</string>
@@ -45,6 +61,7 @@
     <string name="device_realme">Realme</string>
     <string name="device_google">Google</string>
     <string name="device_motorola">Motorola</string>
+    <string name="device_poco">Poco</string>
     <string name="device_pantech">Pantech</string>
     <string name="device_lenovo">Lenovo</string>
     <string name="device_oneplus">Oneplus</string>
@@ -67,11 +84,12 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_RMX1921">Realme XT</string>
     <string name="device_RMX1921_description">RMX1921\nAyan</string>
-    <string name="device_ysl">Redmi S2</string>
-    <string name="device_ysl_description">YSL\nVedansh</string>
     <string name="device_RMX1901">Realme X</string>
     <string name="device_RMX1901_description">RMX1901\nHaSSaN</string>
+    <string name="device_jason">Mi Note 3</string>
     <string name="device_jason_description">jason\nDanny</string>
+    <string name="device_onclite">Redmi 7</string>
+    <string name="device_onclite_description">onclite\nAbhay K Sanjay</string>
     <!-- Categories -->
     <string name="button_title">Nút bấm</string>
     <string name="gestures_title">Cử chỉ</string>
@@ -164,6 +182,7 @@
     <string name="anbi_title">Tình cờ chạm vào</string>
     <string name="anbi_summary">Ngăn chặn tương tác với các nút điều hướng trong khi màn hình đang được chạm vào</string>
     <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Thông báo cuộc gọi</string>
     <string name="incall_vibrate_connect_title">Rung khi kết nối</string>
     <string name="incall_vibrate_call_wait_title">Rung khi chờ cuộc gọi</string>
     <string name="incall_vibrate_disconnect_title">Rung khi ngắt kết nối</string>
@@ -528,4 +547,52 @@
     <!-- SuperiorOS logo -->
     <string name="superior_logo_title">SuperiorOS logo</string>
     <string name="superior_logo_summary">Thêm biểu trưng của bạn trên thanh trạng thái</string>
+    <!-- Gaming mode -->
+    <string name="gaming_title">Chế độ Chơi game</string>
+    <string name="gaming_title_summary">Các tính năng bổ sung cho trải nghiệm chơi game nhập vai</string>
+    <string name="gaming_mode_enabled_title">Bật chế độ chơi trò chơi</string>
+    <string name="gaming_mode_disable_auto_brightness_title">Vô hiệu hóa độ sáng tự động</string>
+    <string name="gaming_mode_disable_auto_brightness_summary">Tắt độ sáng tự động khi vào chế độ trò chơi</string>
+    <string name="gaming_mode_notification_danmaku_title">Thông báo Danmaku</string>
+    <string name="gaming_mode_notification_danmaku_summary">Hiển thị nội dung thông báo dưới dạng danmaku trong game</string>
+    <string name="gaming_mode_quick_start_apps_title">Ứng dụng bắt đầu nhanh</string>
+    <string name="gaming_mode_quick_start_apps_summary">Chọn ứng dụng mà bạn muốn khởi chạy với một quả bóng nổi</string>
+    <string name="gaming_mode_menu_opacity_title">Mức độ mờ của menu</string>
+    <string name="gaming_mode_performance">Hiệu năng</string>
+    <string name="gaming_mode_use_game_driver_title">Sử dụng trình điều khiển trò chơi</string>
+    <string name="gaming_mode_use_game_driver_summary">Sử dụng trình điều khiển cụ thể cho trò chơi</string>
+    <string name="gaming_mode_change_performance_title">Điều chỉnh hiệu suất</string>
+    <string name="gaming_mode_change_performance_summary">Điều chỉnh mức hiệu suất khi bắt đầu trò chơi</string>
+    <string name="gaming_mode_performance_title">Mức độ hiệu suất</string>
+    <string name="gaming_mode_dnd">Không làm phiền</string>
+    <string name="gaming_mode_disable_notification_alert_title">Tắt thông báo cảnh báo</string>
+    <string name="gaming_mode_disable_notification_alert_summary">Không cho phép thông báo nổi và bong bóng hội thoại ngoài cuộc gọi đến và báo thức</string>
+    <string name="gaming_mode_disable_ringtone_title">Không đổ chuông</string>
+    <string name="gaming_mode_disable_ringtone_summary">Tắt chuông cuộc gọi đến và thông báo ở chế độ chơi game</string>
+    <string name="gaming_mode_auto_answer_call_title">Trả lời cuộc gọi tự động</string>
+    <string name="gaming_mode_auto_answer_call_summary">Trả lời cuộc gọi tự động trong trò chơi và rảnh tay khi không kết nối tai nghe</string>
+    <string name="gaming_mode_prevent_accidental_touch">Ngăn vô tình chạm</string>
+    <string name="gaming_mode_disable_gesture_title">Vô hiệu hóa cử chỉ</string>
+    <string name="gaming_mode_apps">Danh sách trò chơi</string>
+    <string name="gaming_mode_dynamic_add_title">Chế độ động</string>
+    <string name="gaming_mode_dynamic_add_summary">Tự động phát hiện và thêm trò chơi</string>
+    <string name="gaming_mode_show_danmaku_title">Hiển thị danmaku</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_title">Lọc thông báo động</string>
+    <string name="gaming_mode_danmaku_dynamic_notification_filter_summary">Tự động lọc các thông báo như tiến trình tải xuống</string>
+    <string name="gaming_mode_danmaku_size_horizontal_title">Kích thước Danmaku (ngang)</string>
+    <string name="gaming_mode_danmaku_size_vertical_title">Kích thước Danmaku (dọc)</string>
+    <string name="gaming_mode_danmaku_speed_horizontal_title">Tốc độ Danmaku (ngang)</string>
+    <string name="gaming_mode_danmaku_speed_vertical_title">Tốc độ Danmaku (dọc)</string>
+    <string name="gaming_mode_danmaku_blacklist">Danh sách đen</string>
+    <string name="add_package_to_title">Thêm ứng dụng</string>
+    <!-- Power Profiles -->
+    <string name="powersave_title">Tiết kiệm năng lượng</string>
+    <string name="power_profile">Trình tiết kiệm pin</string>
+    <string name="power_profile_default">Mặc định</string>
+    <string name="power_profile_light">Sáng</string>
+    <string name="power_profile_med">Trung bình</string>
+    <string name="power_profile_high">Cao</string>
+    <string name="power_profile_ext">Extreme</string>
+    <string name="powersave_summary">Các tùy chọn để kéo dài tuổi thọ pin của bạn</string>
+    <!-- Notification Media Options -->
 </resources>
