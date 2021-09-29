@@ -200,16 +200,6 @@
 <PreferenceCategory
         android:key="maintainer"
         android:title="@string/device_asus" >
-
-    <Preference
-        android:key="maintainer_X00T"
-        android:title="@string/device_X00T"
-        android:summary="@string/device_X00T_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/LordShenron" />
-    </Preference>
     
     <Preference
         android:key="maintainer_X01BD"

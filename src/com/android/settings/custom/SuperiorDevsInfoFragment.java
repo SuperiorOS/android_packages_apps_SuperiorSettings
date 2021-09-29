@@ -71,14 +71,13 @@ public class SuperiorDevsInfoFragment extends SettingsPreferenceFragment {
 		getGithubIcon(R.string.dev_5_git, findPreference("dev5"));
 		getGithubIcon(R.string.dev_6_git, findPreference("dev6"));
 		getGithubIcon(R.string.dev_7_git, findPreference("dev7"));
-                getGithubIcon(R.string.dev_8_git, findPreference("dev8"));
-                getGithubIcon(R.string.dev_9_git, findPreference("dev9"));
+		getGithubIcon(R.string.dev_8_git, findPreference("dev8"));
+		getGithubIcon(R.string.dev_9_git, findPreference("dev9"));
 		getGithubIcon(R.string.mentions_swapnil_git, findPreference("mentions_swapnil"));
 		getGithubIcon(R.string.mentions_sagar_git, findPreference("mentions_sagar"));
 		getGithubIcon(R.string.mentions_pavan_git, findPreference("mentions_pavan"));
 		getGithubIcon(R.string.mentions_sam_git, findPreference("mentions_sam"));
 		getGithubIcon(R.string.mentions_iacob_git, findPreference("mentions_iacob"));
-		getGithubIcon(R.string.maintainer_X00T_git, findPreference("maintainer_X00T"));
 		getGithubIcon(R.string.maintainer_violet_git, findPreference("maintainer_violet"));
 		getGithubIcon(R.string.maintainer_miatoll_git, findPreference("maintainer_miatoll"));
 		getGithubIcon(R.string.maintainer_payton_git, findPreference("maintainer_payton"));
@@ -89,7 +88,7 @@ public class SuperiorDevsInfoFragment extends SettingsPreferenceFragment {
 		getGithubIcon(R.string.maintainer_RMX1901_git, findPreference("maintainer_RMX1901"));
 		getGithubIcon(R.string.maintainer_jason_git, findPreference("maintainer_jason"));
 		getGithubIcon(R.string.maintainer_X01BD_git, findPreference("maintainer_X01BD"));
-                getGithubIcon(R.string.maintainer_onclite_git, findPreference("maintainer_onclite"));
+		getGithubIcon(R.string.maintainer_onclite_git, findPreference("maintainer_onclite"));
 
     }
     
