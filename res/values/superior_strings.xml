@@ -212,6 +212,8 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
     <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+    <string name="quick_settings_vibrate_duration_title">Vibration duration</string>
+    <string name="quick_settings_vibrate_duration_summary">How many milliseconds to vibrate</string>
 
     <!-- Statusbar net monitor -->
     <string name="traffic_title">Traffic Indicators</string>
