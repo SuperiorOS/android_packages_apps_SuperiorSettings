@@ -31,6 +31,12 @@
         android:summary="@string/less_boring_heads_up_summary"
         android:defaultValue="false" />
 
+    <Preference
+        android:key="heads_up_notifications"
+        android:summary="@string/heads_up_notifications_summary"
+        android:title="@string/heads_up_notifications"
+        android:fragment="com.superior.settings.fragments.HeadsUpSettings"/>
+
     <PreferenceCategory
         android:key="incall_vib_options"
         android:title="@string/incall_vibration_category" >
