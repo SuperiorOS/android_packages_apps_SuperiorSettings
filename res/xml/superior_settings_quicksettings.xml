@@ -35,6 +35,13 @@
             android:entries="@array/quick_pulldown_entries"
             android:entryValues="@array/quick_pulldown_values"
             android:defaultValue="0" />
+
+        <com.superior.support.preferences.SystemSettingSwitchPreference
+            android:key="use_tiles_on_secure_keyguard"
+            android:title="@string/use_tiles_on_secure_keyguard_title"
+            android:summary="@string/use_tiles_on_secure_keyguard_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
