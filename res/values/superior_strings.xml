@@ -17,7 +17,7 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="superior_settings_title">Superior Settings</string>
-   <string name="superior_settings_title">Superior OS</string>
+    <string name="superior_settings_devtitle">Superior OS</string>
     <string name="superior_dashboard_summary">Superior Goodies</string>
 	
     <!-- ROM Info -->
