@@ -28,4 +28,22 @@
         android:entryValues="@array/torch_power_button_gesture_values"
         android:defaultValue="0" />
 
+ <PreferenceCategory
+        android:title="@string/doubletap_gestures_title"
+        android:key="doubletap_gestures" >
+
+    <com.superior.support.preferences.SystemSettingSwitchPreference
+        android:key="double_tap_sleep_lockscreen"
+        android:title="@string/double_tap_sleep_lockscreen_title"
+        android:summary="@string/double_tap_sleep_lockscreen_summary"
+        android:defaultValue="true" />
+
+    <com.superior.support.preferences.SystemSettingSwitchPreference
+         android:key="double_tap_sleep_gesture"
+         android:title="@string/double_tap_sleep_gesture_title"
+         android:summary="@string/double_tap_sleep_gesture_summary"
+         android:defaultValue="true" />
+
+ </PreferenceCategory>
+
 </PreferenceScreen>
