@@ -92,4 +92,20 @@
     <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
     <string name="doze_double_tap_title">Double tap to doze</string>
     <string name="doze_double_tap_summary">Double tap trigger doze instead of wake</string>
+
+    <!-- Global Actions -->
+    <string name="global_actions_airplane">Airplane</string>
+    <string name="global_actions_settings">Settings</string>
+    <string name="global_actions_lockdown">Lock Down</string>
+    <string name="global_actions_users">Users</string>
+    <string name="global_actions_screenshot">Screenshot</string>
+    <string name="global_actions_screenrecord">Screenrecord</string>
+    <string name="global_actions_flashlight">Flashlight</string>
+    <string name="global_actions_emergency">Emergency</string>
+    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
+    <string name="global_actions_advanced_reboot_summary">When restarting also show options for recovery and bootloader</string>
+    <string name="global_actions_max_columns_title">Maximum columns</string>
+    <string name="global_actions_max_columns_summary">Number of icons left and right</string>
+    <string name="global_actions_max_rows_title">Maximum rows</string>
+    <string name="global_actions_max_rows_summary">Number of icons up and down</string>
 </resources>
