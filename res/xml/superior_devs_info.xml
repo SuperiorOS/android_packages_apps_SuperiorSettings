@@ -19,11 +19,6 @@
 <PreferenceScreen
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/superior_settings_devtitle">
-		
-		<!-- Header -->
-        <Preference
-            android:key="superior_header"
-            android:layout="@layout/about_superior_header" />
 
 <PreferenceCategory
               android:key="about"
