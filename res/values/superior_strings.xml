@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-    Copyright © 2018-19 The Superior OS Project
+    Copyright © 2018-22 The Superior OS Project
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -379,4 +379,18 @@
     <!-- Notification headers -->
     <string name="notification_headers_title">Notification Headers</string>
     <string name="notification_headers_summary">Show headers in the notification shade\nRequires a SystemUI restart</string>
+
+    <!-- Network Traffic -->
+    <string name="network_traffic_state_title">Traffic indicators</string>
+    <string name="network_traffic_state_summary">Customize the traffic indicators</string>
+    <string name="network_traffic_disabled">Disabled</string>
+    <string name="network_traffic_autohide_threshold_title">Auto-hide threshold</string>
+    <string name="network_traffic_location_title">Location</string>
+    <string name="network_traffic_statusbar">Status bar</string>
+    <string name="network_traffic_qs_header">QS header</string>
+    <string name="network_traffic_refresh_interval_title">Refresh interval</string>
+    <string name="network_traffic_mode_title">Display mode</string>
+    <string name="network_traffic_dynamic">Dynamic</string>
+    <string name="network_traffic_download">Download</string>
+    <string name="network_traffic_upload">Upload</string>
 </resources>
