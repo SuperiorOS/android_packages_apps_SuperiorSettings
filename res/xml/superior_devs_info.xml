@@ -25,8 +25,7 @@
               android:title="@string/superior_about_info" >
 
         <Preference
-               android:summary="@string/superior_about_info_summary" 
-               android:icon="@drawable/ic_devs_info" >
+               android:summary="@string/superior_about_info_summary" >
         <intent
                android:action="android.intent.action.VIEW"
                android:data="https://paypal.me/Sipun?locale.x=en_GB" />
@@ -40,7 +39,7 @@
         <Preference
             android:key="dev1"
             android:title="@string/dev_1"
-            android:icon="@drawable/ic_code"
+            android:icon="@drawable/ic_dev_1"
             android:summary="@string/dev1_description" >
         <intent
             android:action="android.intent.action.VIEW"
@@ -50,7 +49,7 @@
         <Preference
             android:key="dev2"
             android:title="@string/dev_2"
-            android:icon="@drawable/ic_code"
+            android:icon="@drawable/ic_dev_2"
             android:summary="@string/dev2_description" >
         <intent
             android:action="android.intent.action.VIEW"
@@ -60,7 +59,7 @@
         <Preference
             android:key="dev3"
             android:title="@string/dev_3"
-            android:icon="@drawable/ic_code"
+            android:icon="@drawable/ic_dev_3"
             android:summary="@string/dev3_description" >
         <intent
             android:action="android.intent.action.VIEW"
@@ -70,7 +69,7 @@
         <Preference
             android:key="dev4"
             android:title="@string/dev_4"
-            android:icon="@drawable/ic_code"
+            android:icon="@drawable/ic_dev_4"
             android:summary="@string/dev4_description" >
         <intent
             android:action="android.intent.action.VIEW"
@@ -80,7 +79,7 @@
         <Preference
             android:key="dev5"
             android:title="@string/dev_5"
-            android:icon="@drawable/ic_code"
+            android:icon="@drawable/ic_dev_5"
             android:summary="@string/dev5_description" >
         <intent
             android:action="android.intent.action.VIEW"
@@ -96,7 +95,7 @@
         <Preference
             android:key="mentions_pavan"
             android:title="@string/mentions_pavan"
-            android:icon="@drawable/ic_devs_mention"
+            android:icon="@drawable/ic_devs_pavan"
             android:summary="@string/mentions_pavan_description" >
         <intent
             android:action="android.intent.action.VIEW"
@@ -107,7 +106,7 @@
             android:key="mentions_sam"
             android:title="@string/mentions_sam"
             android:summary="@string/mentions_sam_description"
-            android:icon="@drawable/ic_devs_mention">
+            android:icon="@drawable/ic_devs_sam">
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Reapergod35" />
@@ -117,7 +116,7 @@
             android:key="mentions_iacob"
             android:title="@string/mentions_iacob"
             android:summary="@string/mentions_iacob_description"
-            android:icon="@drawable/ic_devs_mention">
+            android:icon="@drawable/ic_devs_iacob">
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/iacobionut" />
