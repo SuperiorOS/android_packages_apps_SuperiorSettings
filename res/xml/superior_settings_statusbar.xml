@@ -38,5 +38,11 @@
              android:summary="@string/show_fourg_icon_summary"
              android:defaultValue="false"/>
 
+         <Preference
+            android:key="battery_styles_category"
+            android:fragment="com.superior.settings.fragments.BatterySettings"
+            android:summary="@string/battery_style_category_summary"
+            android:title="@string/battery_style_category_title" />
+
         </PreferenceCategory>
 </PreferenceScreen>
