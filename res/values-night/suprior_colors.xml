@@ -17,7 +17,7 @@
 <resources>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
-    <color name="surface">@color/white</color>
-    <color name="text_primary">#001733</color>
-    <color name="text_secondary">#6E7987</color>
+    <color name="surface">#1B1E22</color>
+    <color name="text_primary">#E5F1FF</color>
+    <color name="text_secondary">#788491</color>
 </resources>
