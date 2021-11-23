@@ -37,15 +37,18 @@
             android:key="superior_dev"
             android:title="@string/devs_header" >
 
-        <Preference
-            android:key="dev1"
-            android:title="@string/dev_1"
-            android:icon="@drawable/ic_code"
-            android:summary="@string/dev1_description" >
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://t.me/Darkstar085" />
-        </Preference>
+        <com.android.settings.custom.Preference
+            android:key="test"
+            android:summary="test"
+            android:title="test"
+            app:icon="@drawable/test"
+            app:widgetLayout="@layout/preference_right_github">
+
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/JD1811" />
+
+        </com.android.settings.custom.Preference>
 
         <Preference
             android:key="dev2"
