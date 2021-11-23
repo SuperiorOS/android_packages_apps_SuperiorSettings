@@ -41,13 +41,10 @@
     <!-- Mentions -->
     <string name="mentions_header">Honorable Mentions</string>
     <string name="mentions_sam">Sam Grande</string>
-    <string name="mentions_sam_git" translatable="false">SamGrande</string>
     <string name="mentions_sam_description">Designer</string>
     <string name="mentions_iacob">Ionut Iacob</string>
-    <string name="mentions_iacob_git" translatable="false">IacobIonut01</string>
     <string name="mentions_iacob_description">UI/UX Developer</string>
     <string name="mentions_pavan">Pavan Patel</string>
-    <string name="mentions_pavan_git" translatable="false">Advertpavan</string>
     <string name="mentions_pavan_description">Designer</string>
 
     <!-- Maintainer Info -->
