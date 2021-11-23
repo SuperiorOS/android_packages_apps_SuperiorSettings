@@ -28,19 +28,14 @@
     <!-- Dev Info -->
     <string name="devs_header">Family Members</string>
     <string name="dev_1">Sipun Ku Mahanta</string>
-    <string name="dev_1_git" translatable="false">Darkstar085</string>
     <string name="dev1_description">Developer</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev_2_git" translatable="false">Jayant-Deshmukh</string>
     <string name="dev2_description">Lead Developer</string>
     <string name="dev_3">Nipin NA</string>
-    <string name="dev_3_git" translatable="false">Joker-V2</string>
     <string name="dev3_description">Developer</string>
     <string name="dev_4">Adnan Faysal</string>
-    <string name="dev_4_git" translatable="false"></string>
     <string name="dev4_description">Graphic Designer</string>
     <string name="dev_5">Arun Teltia</string>
-    <string name="dev_5_git" translatable="false">ArunTeltia</string>
     <string name="dev5_description">Web Developer</string>
 
     <!-- Mentions -->
