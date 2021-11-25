@@ -35,6 +35,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -59,7 +60,7 @@ public class CardviewPreference extends Preference {
                 R.styleable.Preference_allowDividerBelow, false);
         a.recycle();
 
-        setLayoutResource(R.layout.preference_cardview);
+//        setLayoutResource(R.layout.preference_cardview);
     }
 
     public CardviewPreference(Context context, View view) {
@@ -76,5 +77,19 @@ public class CardviewPreference extends Preference {
         holder.itemView.setClickable(selectable);
         holder.setDividerAllowedAbove(mAllowDividerAbove);
         holder.setDividerAllowedBelow(mAllowDividerBelow);
+
+        TextView title = (TextView) holder.findViewById(android.R.id.title);
+        LinearLayout rootLayout = (LinearLayout) title.getParent().getParent();
+        rootLayout.setBackgroundResource(R.drawable.selectable_item_plain_background);
+
+
+        ViewGroup.MarginLayoutParams layoutParams = (ViewGroup.MarginLayoutParams) rootLayout.getLayoutParams();
+        layoutParams.leftMargin = 25;
+        layoutParams.rightMargin = 25;
+        layoutParams.bottomMargin = 25;
+
+        rootLayout.setLayoutParams(layoutParams);
+
+        rootLayout.setPadding(75, 10, 75, 10);
     }
 }
