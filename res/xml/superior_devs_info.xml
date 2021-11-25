@@ -20,24 +20,24 @@
         xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/superior_settings_devtitle">
 
-<PreferenceCategory
+<com.superior.settings.preferences.BasePreferenceCategory
               android:key="about"
               android:title="@string/superior_about_info" >
 
-        <Preference
+        <com.superior.settings.preferences.CardviewPreference
                android:summary="@string/superior_about_info_summary" 
                android:icon="@drawable/ic_devs_info" >
         <intent
                android:action="android.intent.action.VIEW"
                android:data="https://paypal.me/Sipun?locale.x=en_GB" />
-        </Preference>
-</PreferenceCategory>
+        </com.superior.settings.preferences.CardviewPreference>
+</com.superior.settings.preferences.BasePreferenceCategory>
 
-<PreferenceCategory
+<com.superior.settings.preferences.BasePreferenceCategory
             android:key="superior_dev"
             android:title="@string/devs_header" >
 
-        <Preference
+        <com.superior.settings.preferences.CardviewPreference
             android:key="dev1"
             android:title="@string/dev_1"
             android:icon="@drawable/ic_code"
@@ -45,9 +45,9 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Darkstar085" />
-        </Preference>
+        </com.superior.settings.preferences.CardviewPreference>
 
-        <Preference
+        <com.superior.settings.preferences.CardviewPreference
             android:key="dev2"
             android:title="@string/dev_2"
             android:icon="@drawable/ic_code"
@@ -55,9 +55,9 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/JD1811" />
-        </Preference>
+        </com.superior.settings.preferences.CardviewPreference>
 
-        <Preference
+        <com.superior.settings.preferences.CardviewPreference
             android:key="dev3"
             android:title="@string/dev_3"
             android:icon="@drawable/ic_code"
@@ -65,9 +65,9 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Joker_V2_0" />
-        </Preference>
+        </com.superior.settings.preferences.CardviewPreference>
 
-        <Preference
+        <com.superior.settings.preferences.CardviewPreference
             android:key="dev4"
             android:title="@string/dev_4"
             android:icon="@drawable/ic_code"
@@ -75,9 +75,9 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/adnan_fays" />
-        </Preference>
+        </com.superior.settings.preferences.CardviewPreference>
 
-        <Preference
+        <com.superior.settings.preferences.CardviewPreference
             android:key="dev8"
             android:title="@string/dev_5"
             android:icon="@drawable/ic_code"
@@ -85,15 +85,15 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/T3rr0r1st" />
-        </Preference>
+        </com.superior.settings.preferences.CardviewPreference>
 
-</PreferenceCategory>
+</com.superior.settings.preferences.BasePreferenceCategory>
 
-<PreferenceCategory
+<com.superior.settings.preferences.BasePreferenceCategory
     android:key="honorable_mentions"
     android:title="@string/mentions_header">
 
-        <Preference
+        <com.superior.settings.preferences.CardviewPreference
             android:key="mentions_pavan"
             android:title="@string/mentions_pavan"
             android:icon="@drawable/ic_devs_mention"
@@ -101,9 +101,9 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Advertpavan" />
-        </Preference>
+        </com.superior.settings.preferences.CardviewPreference>
 
-        <Preference
+        <com.superior.settings.preferences.CardviewPreference
             android:key="mentions_sam"
             android:title="@string/mentions_sam"
             android:summary="@string/mentions_sam_description"
@@ -111,9 +111,9 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/Reapergod35" />
-        </Preference>
+        </com.superior.settings.preferences.CardviewPreference>
 
-        <Preference
+        <com.superior.settings.preferences.CardviewPreference
             android:key="mentions_iacob"
             android:title="@string/mentions_iacob"
             android:summary="@string/mentions_iacob_description"
@@ -121,21 +121,21 @@
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/iacobionut" />
-        </Preference>
+        </com.superior.settings.preferences.CardviewPreference>
 
-</PreferenceCategory>
+</com.superior.settings.preferences.BasePreferenceCategory>
 
-<PreferenceCategory
+<com.superior.settings.preferences.BasePreferenceCategory
             android:key="maintainer"
             android:title="@string/maintainers_header" >
 			
-        <Preference
+        <com.superior.settings.preferences.CardviewPreference
             android:summary="@string/maintainers_header_summary" 
             android:icon="@drawable/ic_devs_info" >
         <intent
             android:action="android.intent.action.VIEW"
             android:data="https://www.github.com/SuperiorOS-Devices" />
-        </Preference>
-</PreferenceCategory>
+        </com.superior.settings.preferences.CardviewPreference>
+</com.superior.settings.preferences.BasePreferenceCategory>
 
 </PreferenceScreen>
