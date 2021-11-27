@@ -40,6 +40,5 @@
          <Preference
             android:key="traffic"
             android:fragment="com.superior.settings.fragments.Traffic"
-            android:icon="@drawable/ic_traffic"
             android:title="@string/traffic_title" />
 </PreferenceScreen>
