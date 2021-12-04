@@ -136,6 +136,15 @@
             android:action="android.intent.action.VIEW"
             android:data="https://www.github.com/SuperiorOS-Devices" />
         </Preference>
+
+        <Preference
+        android:title="@string/device_phoenix"
+        android:summary="@string/device_phoenix_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/ankanghosh005" />
+    </Preference>
 </PreferenceCategory>
 
 </PreferenceScreen>

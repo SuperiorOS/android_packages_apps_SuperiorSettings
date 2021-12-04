@@ -61,6 +61,8 @@
     <string name="device_oneplus">Oneplus</string>
     <string name="device_smartron">Smartron</string>
     <string name="device_mido">Redmi Note 4</string>
+    <string name="device_phoenix">PocoX2/Redmi K30</string>
+    <string name="device_phoenix_description">phoenix\ankanghosh005</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
