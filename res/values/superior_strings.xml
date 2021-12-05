@@ -53,6 +53,7 @@
     <!-- Maintainer Info -->
     <string name="maintainers_header">Maintainers</string>
     <string name="maintainers_header_summary">These are the Official Devices Maintainers...</string>
+    <string name="device_google">Google</string>
     <string name="device_xiaomi">Xiaomi</string>
     <string name="device_asus">Asus</string>
     <string name="device_motorola">Motorola</string>
