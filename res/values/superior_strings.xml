@@ -72,7 +72,9 @@
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
     <string name="device_sunfish">Pixel 4a</string>
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
-
+    <string name="device_sweet">Redmi Note 10 pro/max</string>
+    <string name="device_sweet_description">sweet\ZeSyI</string>
+    
     <!-- Categories -->
     <string name="button_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
