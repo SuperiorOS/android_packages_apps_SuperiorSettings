@@ -389,4 +389,8 @@
     <!-- Lockscreen media art -->
     <string name="keygaurd_media_art_title">Media art</string>
     <string name="keygaurd_media_art_summary">Display media art as lockscreen background</string>
+
+    <!-- Sb Icon Style -->
+    <string name="statusbar_icons_style">Colored Statusbar Icons</string>
+    <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
 </resources>
