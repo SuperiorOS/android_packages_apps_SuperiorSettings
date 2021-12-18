@@ -296,4 +296,11 @@
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
 
+    <!-- Media artwork -->
+    <string name="keyguard_media_art">Media artwork</string>
+    <string name="keyguard_media_art_title">Show media artwork</string>
+    <string name="keyguard_media_art_summary">Show artwork of current media as lockscreen background instead of wallpaper</string>
+    <string name="keyguard_media_art_enable_blur_title">Blur media artwork</string>
+    <string name="keyguard_media_art_blur_radius_title">Blur amount for media artwork</string>
+
 </resources>
