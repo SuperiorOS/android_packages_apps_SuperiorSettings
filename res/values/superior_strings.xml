@@ -303,4 +303,12 @@
     <string name="keyguard_media_art_enable_blur_title">Blur media artwork</string>
     <string name="keyguard_media_art_blur_radius_title">Blur amount for media artwork</string>
 
+    <!-- Media artwork -->
+    <string name="media_category">Media notification</string>
+    <string name="artwork_media_background_title">Artwork media background</string>
+    <string name="artwork_media_background_summary">Set media artwork as the notification media background</string>
+    <string name="artwork_media_background_enable_blur_title">Blur media media artwork background</string>
+    <string name="artwork_media_background_blur_radius_title">Blur amount for media artwork</string>
+    <string name="artwork_media_background_alpha_title">Transparency of media artwork</string>
+
 </resources>
