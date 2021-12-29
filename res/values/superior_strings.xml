@@ -91,4 +91,7 @@
 
     <!-- Navigation -->
     <string name="system_navigation_summary">Configure navigation menus</string>
+
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
 </resources>
