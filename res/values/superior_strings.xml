@@ -311,4 +311,7 @@
     <string name="artwork_media_background_blur_radius_title">Blur amount for media artwork</string>
     <string name="artwork_media_background_alpha_title">Transparency of media artwork</string>
 
+    <!-- Statusbar Tuner -->
+    <string name="statusbar_items_title">Statusbar items</string>
+
 </resources>
