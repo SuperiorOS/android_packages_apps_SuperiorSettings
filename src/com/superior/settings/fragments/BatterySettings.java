@@ -33,6 +33,7 @@ import androidx.preference.SwitchPreference;
 import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.SettingsPreferenceFragment;
 
+import com.superior.support.preferences.SystemSettingSwitchPreference;
 import com.android.settings.R;
 
 public class BatterySettings extends SettingsPreferenceFragment
@@ -42,12 +43,14 @@ public class BatterySettings extends SettingsPreferenceFragment
     private static final String PREF_STATUS_BAR_BATTERY_STYLE = "status_bar_battery_style";
 
     private static final int BATTERY_STYLE_PORTRAIT = 0;
-    private static final int BATTERY_STYLE_TEXT = 4;
-    private static final int BATTERY_STYLE_HIDDEN = 5;
+    private static final int BATTERY_STYLE_TEXT = 6;
+    private static final int BATTERY_STYLE_HIDDEN = 7;
     private static final int BATTERY_PERCENT_HIDDEN = 0;
+    private static final String LEFT_BATTERY_TEXT = "do_left_battery_text";
     //private static final int BATTERY_PERCENT_SHOW_INSIDE = 1;
     //private static final int BATTERY_PERCENT_SHOW_OUTSIDE = 2;
 
+    private SystemSettingSwitchPreference mLeftBatteryText;
     private ListPreference mBatteryPercent;
     private ListPreference mBatteryStyle;
     private int mBatteryPercentValue;
@@ -69,6 +72,11 @@ public class BatterySettings extends SettingsPreferenceFragment
         mBatteryStyle.setSummary(mBatteryStyle.getEntry());
         mBatteryStyle.setOnPreferenceChangeListener(this);
 
+        mLeftBatteryText = (SystemSettingSwitchPreference) findPreference(LEFT_BATTERY_TEXT);
+        mLeftBatteryText.setChecked((Settings.System.getInt(resolver,
+                Settings.System.DO_LEFT_BATTERY_TEXT, 0) == 1));
+        mLeftBatteryText.setOnPreferenceChangeListener(this);
+
         mBatteryPercentValue = Settings.System.getIntForUser(getContentResolver(),
                 Settings.System.STATUS_BAR_SHOW_BATTERY_PERCENT, BATTERY_PERCENT_HIDDEN, UserHandle.USER_CURRENT);
 
@@ -78,6 +86,8 @@ public class BatterySettings extends SettingsPreferenceFragment
         mBatteryPercent.setOnPreferenceChangeListener(this);
 
         mBatteryPercent.setEnabled(
+                batterystyle != BATTERY_STYLE_TEXT && batterystyle != BATTERY_STYLE_HIDDEN);
+	mLeftBatteryText.setEnabled(
                 batterystyle != BATTERY_STYLE_TEXT && batterystyle != BATTERY_STYLE_HIDDEN);
     }
 
@@ -101,6 +111,11 @@ public class BatterySettings extends SettingsPreferenceFragment
                     UserHandle.USER_CURRENT);
             int index = mBatteryPercent.findIndexOfValue((String) newValue);
             mBatteryPercent.setSummary(mBatteryPercent.getEntries()[index]);
+            return true;
+        } else if (preference == mLeftBatteryText) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(resolver,
+                    Settings.System.DO_LEFT_BATTERY_TEXT, value ? 1 : 0);
             return true;
         }
         return false;
