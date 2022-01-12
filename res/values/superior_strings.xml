@@ -300,4 +300,8 @@
     <string name="chroma_factor_title">Colorfulness</string>
     <string name="linear_lightness_title">Use a custom lightness scale</string>
     <string name="white_luminance_title">Brightness</string>
+
+    <!-- Black theme -->
+    <string name="system_black_theme_title">Use black theme</string>
+    <string name="system_black_theme_summary">Force black background colors</string>
 </resources>
