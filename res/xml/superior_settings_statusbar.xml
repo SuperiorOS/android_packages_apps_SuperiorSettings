@@ -61,10 +61,5 @@
             android:summary="@string/battery_style_category_summary"
             android:title="@string/battery_style_category_title" />
 
-         <Preference
-            android:key="traffic"
-            android:fragment="com.superior.settings.fragments.Traffic"
-            android:title="@string/traffic_title"
-            android:summary="@string/traffic_summary" />
     </PreferenceCategory>
 </PreferenceScreen>
