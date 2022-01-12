@@ -51,4 +51,11 @@
             android:summary="@string/battery_style_category_summary"
             android:title="@string/battery_style_category_title" />
 
+        <!-- Network Traffic -->
+        <com.superior.support.preferences.SystemSettingMasterSwitchPreference
+            android:key="network_traffic_state"
+            android:title="@string/network_traffic_state_title"
+            android:summary="@string/network_traffic_state_summary"
+            android:fragment="com.superior.settings.fragments.NetworkTraffic"
+            android:defaultValue="false" />
 </PreferenceScreen>
