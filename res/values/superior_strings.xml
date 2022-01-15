@@ -85,6 +85,9 @@
     <string name="quicksettings_title">Quick Settings</string>
     <string name="statusbar_title">Status Bar</string>
     <string name="notifications_title">Notifications</string>
+    <string name="statusbar_icons">Icons</string>
+    <string name="statusbar_extras">Extras</string>
+    <string name="powermenu_items_title">Power menu items</string>
 
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Toggle torch when screen off</string>
@@ -219,6 +222,7 @@
 
     <!-- Statusbar net monitor -->
     <string name="traffic_title">Traffic Indicators</string>
+    <string name="traffic_summary">Show network speed</string>
     <string name="network_traffic">Network traffic</string>
     <string name="network_traffic_state_title">Network traffic display</string>
     <string name="network_traffic_location">Traffic indicator placement</string>
@@ -260,7 +264,7 @@
     <string name="status_bar_battery_percentage_text_next">Next to the icon</string>  
 
     <!-- Customisation -->
-    <string name="customisation_title">Monet Customisation</string>
+    <string name="customisation_title">Customisation</string>
 
     <!-- Monet Engine -->
     <string name="monet_engine_custom_color_title">Use custom color</string>
@@ -359,6 +363,7 @@
 
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_summary">Tune Statusbar items</string>
 
     <!-- [CHAR_LIMIT=NONE] Developer Settings: Title of the settings category for theme overlays. -->
     <string name="theme_customization_category">Theming</string>
