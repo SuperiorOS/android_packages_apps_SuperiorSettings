@@ -29,4 +29,16 @@
             android:defaultValue="true" />
     </PreferenceCategory>
 
+    <!-- Gaming mode -->
+    <Preference
+        android:key="gaming_mode"
+        android:title="@string/gaming_mode_title"
+        android:summary="@string/gaming_mode_summary">
+
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="org.exthmui.game"
+            android:targetClass="org.exthmui.game.ui.MainActivity" />
+    </Preference>
+
 </PreferenceScreen>
