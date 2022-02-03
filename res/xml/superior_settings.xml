@@ -78,7 +78,7 @@
             android:key="gestures_category"
             android:title="@string/gestures_title"
             android:fragment="com.superior.settings.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gestures"/>
+            android:icon="@drawable/ic_superior_gestures"/>
 
         <!-- Lock Screen -->
         <com.superior.settings.preferences.CardviewPreference
