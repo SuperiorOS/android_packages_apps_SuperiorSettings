@@ -393,4 +393,8 @@
     <!-- Sb Icon Style -->
     <string name="statusbar_icons_style">Colored Statusbar Icons</string>
     <string name="statusbar_icons_style_summary">Choose the style of your statusbar icons (requires SystemUI restart)</string>
+
+    <!-- Notification headers -->
+    <string name="notification_headers_title">Notification Headers</string>
+    <string name="notification_headers_summary">Show headers in the notification shade\nRequires a SystemUI restart</string>
 </resources>
