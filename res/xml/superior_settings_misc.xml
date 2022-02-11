@@ -19,4 +19,14 @@
     android:title="@string/misc_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+     <PreferenceCategory
+        android:title="@string/general_category">
+
+   <com.superior.support.preferences.SystemSettingSwitchPreference
+        android:key="use_wp_zoom"
+        android:title="@string/use_wp_zoom_title"
+        android:summary="@string/use_wp_zoom_summary"
+        android:defaultValue="false" />
+    </PreferenceCategory>
+
 </PreferenceScreen>

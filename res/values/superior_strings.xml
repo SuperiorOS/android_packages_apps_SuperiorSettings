@@ -397,4 +397,8 @@
     <!-- Notification headers -->
     <string name="notification_headers_title">Notification Headers</string>
     <string name="notification_headers_summary">Show headers in the notification shade\nRequires a SystemUI restart</string>
+
+    <!-- Wp zoom -->
+    <string name="use_wp_zoom_title">Enable wallpaper Zoom</string>
+    <string name="use_wp_zoom_summary">Reboot is required after enabling</string>
 </resources>
