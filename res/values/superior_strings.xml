@@ -68,6 +68,8 @@
     <string name="device_miatoll_description">miatoll\nHaSSaN</string>
     <string name="device_onclite">Redmi 7</string>
     <string name="device_onclite_description">onclite\nAbhay K Sanjay</string>
+    <string name="device_vayu">Poco X3 Pro</string>
+    <string name="device_vayu_description">vayu\nAhmed</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
     <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
