@@ -224,6 +224,15 @@
             android:action="android.intent.action.VIEW"
             android:data="https://t.me/ankanghosh005" />
     </Preference>
+
+    <Preference
+        android:title="@string/device_sweet"
+        android:summary="@string/device_sweet_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/the_doctorstrange" />
+    </Preference>
 </PreferenceCategory>
 
 </PreferenceScreen>
