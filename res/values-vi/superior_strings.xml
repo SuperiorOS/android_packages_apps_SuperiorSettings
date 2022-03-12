@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright © 2018-22 The Superior OS Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_miatoll_description">miatoll\nHaSSaN</string>
+    <string name="device_onclite">Redmi 7</string>
+    <string name="device_onclite_description">onclite\nAbhay K Sanjay</string>
+    <string name="device_vayu">Poco X3</string>
+    <string name="device_vayu_description">vayu\nKiam</string>
+    <string name="device_violet">Redmi Note 7 Pro</string>
+    <string name="device_violet_description">violet\nNipin NA</string>
+    <string name="device_whyred">Redmi Note 5 Pro</string>
+    <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
+    <string name="device_sunfish">Pixel 4a</string>
+    <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
+    <string name="device_avicii">Nord</string>
+    <string name="device_avicii_description">avicii\nSipun Ku Mahanta</string>
+    <string name="button_title">Nút bấm</string>
+    <string name="gestures_title">Cử chỉ</string>
+    <string name="lockscreen_title">Màn hình khoá</string>
+    <string name="misc_title">Cài đặt khác</string>
+</resources>
