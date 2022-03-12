@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright © 2018-22 The Superior OS Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="device_mido">Redmi Note 4</string>
+    <string name="device_phoenix">Poco X2/Redmi K30</string>
+    <string name="device_vayu">Poco X3 Pro</string>
+    <string name="device_vayu_description">vayu\nAhmed</string>
+    <string name="combined_status_bar_signal_icons">Ícones de sinal combinados</string>
+    <string name="combined_status_bar_signal_icons_summary">Ativar ícones de sinal combinados na barra de status. \nNecessário reiniciar a Interface do sistema</string>
+    <string name="keygaurd_media_art_title">Arte da mídia</string>
+    <string name="keygaurd_media_art_summary">Exibir a arte de mídia como fundo de tela de bloqueio</string>
+    <string name="statusbar_icons_style">Ícones coloridos na barra de status</string>
+    <string name="statusbar_icons_style_summary">Escolha o estilo dos ícones da barra de status (requer reinicialização da SystemUI)</string>
+    <string name="notification_headers_title">Cabeçalhos de Notificação</string>
+    <string name="notification_headers_summary">Mostrar cabeçalhos na área de notificações\nRequer reinicialização da SystemUI</string>
+</resources>
