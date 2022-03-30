@@ -102,9 +102,10 @@
     <string name="statusbar_items_title">Statusbar items</string>
     <string name="statusbar_items_summary">Tune Statusbar items</string>
 
-    <!-- General category -->
+    <!-- Sub category -->
     <string name="general_category">General</string>
     <string name="statusbar_icons">Icons</string>
+    <string name="dt2s_title">DT2S</string>
 
     <!-- 4G icon -->
     <string name="show_fourg_icon_title">4G icon</string>
@@ -114,4 +115,9 @@
     <string name="ambient_pulse_title">Ambient Pulse</string>
     <string name="ambient_wake_gestures_title">Ambient wake gestures</string>
     <string name="ambient_wake_gestures_summary">Show Ambient Display instead of normal locksreen on wake gestures</string>
+
+    <!-- Double tap lock screen to sleep -->
+    <string name="dt2s_lockscreen_title">DT2S on lock screen</string>
+    <string name="dt2s_lockscreen_summary">Double-tap on the top third or bottom shortcut area of the lock screen to put the device to sleep</string>
+
 </resources>
