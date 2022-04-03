@@ -100,6 +100,7 @@
 
     <!-- Statusbar Tuner -->
     <string name="statusbar_items_title">Statusbar items</string>
+    <string name="statusbar_items_summary">Tune Statusbar items</string>
 
     <!-- General category -->
     <string name="general_category">General</string>
