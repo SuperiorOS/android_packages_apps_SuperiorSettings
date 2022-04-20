@@ -189,6 +189,15 @@
             android:data="https://t.me/BlueExOo" />
     </Preference>
 
+   <Preference
+        android:title="@string/device_sweet"
+        android:summary="@string/device_sweet_description"
+        android:icon="@drawable/ic_devs_phone">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://t.me/Sedlyf6969" />
+    </Preference>
+
     <Preference
         android:title="@string/device_violet"
         android:summary="@string/device_violet_description"
