@@ -308,4 +308,10 @@
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
     <string name="quick_settings_vibrate_summary">Vibrate when touching QS tiles</string>
+
+    <!-- Lock screen visualizer -->
+    <string name="lockscreen_visualizer_title">Visualizer</string>
+    <string name="lockscreen_visualizer_enable">Music Visualizer</string>
+    <string name="lockscreen_visualizer_enable_summary">Show visualizer bars while playing music</string>
+
 </resources>
