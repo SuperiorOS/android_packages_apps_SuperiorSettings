@@ -29,4 +29,15 @@
             android:defaultValue="true" />
     </PreferenceCategory>
 
+    <PreferenceCategory
+       android:title="@string/extra_category">
+
+       <com.superior.support.preferences.SystemSettingSwitchPreference
+           android:key="wake_when_plugged_or_unplugged"
+           android:title="@string/wake_when_plugged_or_unplugged_title"
+           android:summary="@string/wake_when_plugged_or_unplugged_summary"
+           android:defaultValue="true" />
+   </PreferenceCategory>
+
+
 </PreferenceScreen>
