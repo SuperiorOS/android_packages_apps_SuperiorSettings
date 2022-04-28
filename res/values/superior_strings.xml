@@ -323,6 +323,10 @@
     <string name="lockscreen_solid_lines_category">Solid Lines</string>
     <string name="lockscreen_solid_units_count_title">Lines count</string>
     <string name="lockscreen_solid_fudge_factor_title">Sanity level</string>
-    <string name="lockscreen_solid_units_opacity_title">Lines opacity</string>    
+    <string name="lockscreen_solid_units_opacity_title">Lines opacity</string>
+  
+    <!-- Data disabled icon -->
+    <string name="data_disabled_icon_title">Show data disabled icon</string>
+    <string name="data_disabled_icon_summary">Display the cross sign next to signal bar when data is disabled</string>
 
 </resources>
