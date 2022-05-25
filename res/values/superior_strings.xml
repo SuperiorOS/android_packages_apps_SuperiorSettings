@@ -342,4 +342,13 @@
     <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
     <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
 
+    <!-- VoWiFi icon -->
+    <string name="vowifi_icon_title">VoWiFi icon</string>
+    <string name="vowifi_icon_hide">Hide VoWiFi icon</string>
+    <string name="vowifi_icon_show">Display VoWiFi icon</string>
+    <string name="vowifi_icon_over_volte">Display VoWiFi and hide VoLTE</string>
+
+    <!-- Show VoLTE switch -->
+    <string name="show_volte_title">VoLTE icon</string>
+    <string name="show_volte_summary">Display VoLTE icon</string>
 </resources>
