@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright © 2018-2022 The Superior OS Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="extra_category">額外</string>
+    <string name="system_black_theme_title">使用黑色主題</string>
+    <string name="system_black_theme_summary">強制使用黑色背景</string>
+    <string name="quick_settings_vibrate_title">觸碰時振動</string>
+    <string name="lockscreen_autocolor_title">自動顏色</string>
+    <string name="data_disabled_icon_title">顯示「行動數據已停用」的圖示</string>
+    <string name="data_disabled_icon_summary">當行動數據停用時，在訊號圖示旁邊顯示叉叉標誌</string>
+    <string name="roaming_indicator_icon_title">漫遊指示</string>
+    <string name="roaming_indicator_icon_summary">漫遊時在訊號圖示處顯示漫遊標誌</string>
+    <string name="wake_when_plugged_or_unplugged_title">插拔喚醒</string>
+    <string name="wake_when_plugged_or_unplugged_summary">在接上或拔除電源時喚醒裝置</string>
+</resources>

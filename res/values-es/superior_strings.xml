@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright © 2018-2022 The Superior OS Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="superior_settings_title">Ajustes de Superior OS</string>
+    <string name="superior_settings_devtitle">Superior OS</string>
+    <string name="superior_about_info">Acerca del proyecto</string>
+    <string name="superior_about_info_summary_title">Acerca del equipo</string>
+    <string name="superior_about_info_summary">Superior OS es una ROM personalizada basada en AOSP, con algunas de las características mínimas más requeridas, el objetivo principal de esta ROM es brindar un alto rendimiento y fluidez junto con una buena optimización de batería.</string>
+    <string name="devs_header">Miembros de la familia</string>
+    <string name="dev_1">Sipun Ku Mahanta</string>
+    <string name="dev1_description">Desarrollador</string>
+    <string name="dev_2">Jayant Deshmukh</string>
+    <string name="dev2_description">Desarrollador principal</string>
+    <string name="dev_3">Nipin NA</string>
+    <string name="dev3_description">Desarrollador</string>
+    <string name="dev_4">Adnan Faysal</string>
+    <string name="dev4_description">Diseñador grafico</string>
+    <string name="dev_5">Adnan Faysal</string>
+    <string name="dev5_description">Desarrollador Web</string>
+    <string name="mentions_header">Menciónes honoríficas</string>
+    <string name="mentions_sam">Sam Grande</string>
+    <string name="mentions_sam_description">Diseñador</string>
+    <string name="mentions_iacob">Ionut Iacob</string>
+    <string name="mentions_iacob_description">Dsarrollador de UI/UX</string>
+    <string name="mentions_pavan">Pavan Patel</string>
+    <string name="mentions_pavan_description">Diseñador</string>
+    <string name="maintainers_header">Mantenedores</string>
+    <string name="maintainers_header_summary">Estos son los Mantenedores Oficiales de Dispositivos...</string>
+    <string name="device_google">Google</string>
+    <string name="device_xiaomi">Xiaomi</string>
+    <string name="device_asus">Asus</string>
+    <string name="device_motorola">Motorola</string>
+    <string name="device_pantech">Pantech</string>
+    <string name="device_lenovo">Lenovo</string>
+    <string name="device_oneplus">OnePlus</string>
+    <string name="device_smartron">Smartron</string>
+    <string name="device_mido">Redmi Note 4</string>
+    <string name="device_phoenix">Poco X2/Redmi K30</string>
+    <string name="device_phoenix_description">phoenix\nAnkan Ghosh</string>
+    <string name="device_miatoll">Redmi Note 9 Pro</string>
+    <string name="device_miatoll_description">miatoll\nHaSSaN</string>
+    <string name="device_onclite">Redmi 7</string>
+    <string name="device_onclite_description">onclite\nAbhay K Sanjay</string>
+    <string name="device_vayu">Poco X3 Pro</string>
+    <string name="device_vayu_description">vayu\nAhmed</string>
+    <string name="device_violet">Redmi Note 7 Pro</string>
+    <string name="device_violet_description">violet\nNipin NA</string>
+    <string name="device_whyred">Redmi Note 5 Pro</string>
+    <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
+    <string name="device_sunfish">Pixel 4a</string>
+    <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
+    <string name="device_avicii">Nord</string>
+    <string name="device_avicii_description">avicii\nSipun Ku Mahanta</string>
+    <string name="device_sweet">Redmi Note 10 Pro/Max</string>
+    <string name="device_sweet_description">sweet\nJash</string>
+    <string name="device_alioth">POCO F3/Redmi K40</string>
+    <string name="device_alioth_description">alioth\nEduardo Zeas</string>
+    <string name="button_title">Botones</string>
+    <string name="gestures_title">Gestos</string>
+    <string name="lockscreen_title">Pantalla de Bloqueo</string>
+    <string name="misc_title">Miscelánea</string>
+    <string name="navbar_title">Barra de Navegación</string>
+    <string name="powermenu_title">Menu de encendido</string>
+    <string name="quicksettings_title">Ajustes Rápidos</string>
+    <string name="statusbar_title">Barra de Estado</string>
+    <string name="notifications_title">Notificaciones</string>
+    <string name="statusbar_extras">Extras</string>
+    <string name="three_finger_gesture">Gesto con tres dedos</string>
+    <string name="three_finger_gesture_summary">Deslizar tres dedos para hacer una captura de pantalla</string>
+    <string name="aosp_gesture_preference">Ajustes del sistema</string>
+    <string name="aosp_gesture_summary">Gestos de Stock incluidos con AOSP</string>
+    <string name="system_navigation_summary">Configura los menús de navegación</string>
+    <string name="statusbar_items_title">Iconos de la barra de estado</string>
+    <string name="statusbar_items_summary">Ajustar elementos de la barra de estado</string>
+    <string name="general_category">General</string>
+    <string name="extra_category">Extra</string>
+    <string name="statusbar_icons">Iconos</string>
+    <string name="double_tap_sleep_title">Doble toque para apagar la pantalla</string>
+    <string name="show_fourg_icon_title">Icono 4G</string>
+    <string name="show_fourg_icon_summary">Mostrar icono de 4G en lugar de LTE</string>
+    <string name="double_tap_sleep_lockscreen_title">Doble toque en la pantalla de bloqueo</string>
+    <string name="double_tap_sleep_lockscreen_summary">Doble toque en cualquier lugar de la pantalla de bloqueo para apagarla</string>
+    <string name="double_tap_to_sleep_title">Doble toque en la barra de estado</string>
+    <string name="double_tap_to_sleep_summary">Doble toque en la barra de estado para apagar la pantalla</string>
+    <string name="qs_brightness_slider_category">Barra de brillo</string>
+    <string name="qs_brightness_slider_title">Mostrar la barra de brillo</string>
+    <string name="brightness_icon_title">Botón de brillo automático</string>
+    <string name="brightness_icon_summary">Mostrar botón de brillo automático</string>
+    <string name="dialog_delete_title">Eliminar</string>
+    <string name="heads_up_time_out_2sec">2 segundos</string>
+    <string name="heads_up_time_out_4sec">4 segundos</string>
+    <string name="heads_up_time_out_5sec">5 segundos</string>
+    <string name="heads_up_time_out_6sec">6 segundos</string>
+    <string name="heads_up_time_out_8sec">8 segundos</string>
+    <string name="heads_up_time_out_10sec">10 segundos</string>
+    <string name="heads_up_snooze_summary_one_minute">Deslizar hacia arriba las notificaciones flotantes las pospondrá por 1 minuto</string>
+    <string name="heads_up_snooze_summary">Deslizar hacia arriba las notificaciones flotantes las pospondrá por <xliff:g id="number">%d</xliff:g> minutos</string>
+    <string name="heads_up_snooze_1min">1 minuto</string>
+    <string name="heads_up_snooze_5min">5 minutos</string>
+    <string name="heads_up_snooze_10min">10 minutos</string>
+    <string name="heads_up_snooze_15min">15 minutos</string>
+    <string name="heads_up_snooze_20min">20 minutos</string>
+    <string name="lockscreen_battery_info_title">Información de carga en pantalla de bloqueo</string>
+    <string name="volume_button_music_control_title">Control de reproducción</string>
+    <string name="volume_button_music_control_summary">Cuando la pantalla esté apagada, una pulsación larga de los controles de volumen, avanzará o retrocederá las canciones</string>
+    <string name="customisation_title">Personalización</string>
+    <string name="theme_customization_category">Tema</string>
+    <string name="theme_customization_icon_shape_title">Forma de los iconos</string>
+    <string name="theme_customization_icon_pack_title">Paquete de iconos</string>
+    <string name="theme_customization_icon_pack_summary">Seleccionar paquete de iconos personalizado</string>
+    <string name="theme_customization_signal_icon_title">Estilo de icono de señal</string>
+    <string name="theme_customization_signal_icon_summary">Seleccionar un icono de señal de Red personalizado</string>
+    <string name="theme_customization_wifi_icon_title">Estilo de icono de Wi-Fi</string>
+    <string name="theme_customization_wifi_icon_summary">Seleccionar un icono de Wi-Fi personalizado</string>
+    <string name="battery_settings_title">Ajustes de Batería</string>
+    <string name="battery_style_category_title">Estilo del icono de la batería</string>
+    <string name="battery_style_category_summary">Seleccionar un icono de batería personalizado</string>
+    <string name="battery_percent_title">Porcentaje de batería</string>
+    <string name="status_bar_battery_style_title">Estilo de la batería</string>
+    <string name="status_bar_battery_style_icon_portrait">Icono vertical (por defecto)</string>
+    <string name="status_bar_battery_style_circle">Círculo</string>
+    <string name="status_bar_battery_style_dotted_circle">Círculo (Punteado)</string>
+    <string name="status_bar_battery_style_filled_circle">Círculo (Relleno)</string>
+    <string name="status_bar_battery_style_text">Texto</string>
+    <string name="status_bar_battery_style_hidden">Oculto</string>
+    <string name="status_bar_battery_percentage_title">Porcentaje de batería</string>
+    <string name="status_bar_battery_percentage_default">Oculto (por defecto)</string>
+    <string name="status_bar_battery_percentage_text_inside">Dentro del icono</string>
+    <string name="status_bar_battery_percentage_text_next">Junto al icono</string>
+    <string name="network_traffic_state_title">Velocidad de red</string>
+    <string name="network_traffic_state_summary">Mostrar la velocidad de red en la barra de estado</string>
+    <string name="network_traffic_location_title">Ubicación</string>
+    <string name="network_traffic_statusbar">Barra de estado</string>
+    <string name="network_traffic_download">Descarga</string>
+    <string name="network_traffic_upload">Subida</string>
+    <string name="network_traffic_refresh_interval_title">Intervalo de actualización</string>
+    <string name="global_actions_advanced_reboot_title">Habilitar reinicio avanzado</string>
+    <string name="global_actions_advanced_reboot_summary">Mostrar opciones para recovery y bootloader en menú de apagado</string>
+    <string name="enable_fingerprint_ripple_effect_title">Efecto de onda</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Muestra un efecto de onda al desbloquear con la huella dactilar</string>
+    <string name="monet_engine_settings_title">Motor de temas Monet</string>
+    <string name="monet_engine_settings_summary"> Ajustar color de acento, coloración y brillo</string>
+    <string name="accurate_shades_title">Usar tonos precisos</string>
+    <string name="use_wallpaper_color_title">Usar colores del fondo de pantalla</string>
+    <string name="color_override_title">Color de acento</string>
+    <string name="white_luminance_title">Brillo</string>
+    <string name="system_black_theme_title">Usar tema negro</string>
+    <string name="system_black_theme_summary">Forzar colores de fondo negros</string>
+    <string name="enable_visualizer">Habilitar visualizador</string>
+    <string name="lockscreen_visualizer_title">Visualizador</string>
+    <string name="lockscreen_visualizer_enable">Visualizador de música</string>
+    <string name="lockscreen_visualizer_enable_summary">Mostrar barras de visualización mientras se reproduce música</string>
+    <string name="lockscreen_autocolor_title">Color automático</string>
+    <string name="lockscreen_autocolor_summary">Sincroniza el color con el fondo de la pantalla de bloqueo</string>
+    <string name="lockscreen_autocolor_lavalamp">Requiere desactivar la lámpara de lava</string>
+    <string name="lockscreen_lavalamp_title">Lámpara de lava</string>
+</resources>
