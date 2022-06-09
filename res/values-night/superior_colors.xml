@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
+
      Copyright (C) 2018-19 The Superior OS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,16 +16,8 @@
      limitations under the License.
 -->
 <resources>
-    <!-- Cardview Preference -->
-    <dimen name="card_elevation">2dp</dimen>
-    <dimen name="card_corner_radius">12dp</dimen>
-    <dimen name="card_margin_top">2dp</dimen>
-    <dimen name="card_margin_bottom">2dp</dimen>
-    <dimen name="card_margin_right">2dp</dimen>
-    <dimen name="card_margin_left">2dp</dimen>
-
-     <dimen name="superior_radius">28dp</dimen>
-     <dimen name="superior_radius_merge">5dp</dimen>
-     <dimen name="superior_pref_horizontal_padding">16dp</dimen>
-     <dimen name="superior_pref_horizontal_padding-negative">-16dp</dimen>
+     <color name="superior_pref_color">@android:color/system_neutral1_800</color>
+     <color name="superior_background1">@android:color/system_neutral1_900</color>
+     <color name="superior_background2">@android:color/system_neutral1_800</color>
+     <color name="superior_background3">@android:color/system_accent1_200</color>
 </resources>

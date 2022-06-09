@@ -18,4 +18,77 @@
         <item name="android:lineHeight">15sp</item>
         <item name="android:textColor">?android:attr/textColorSecondary</item>
     </style>
+
+    <!-- Text Styles -->
+    <style name="superiorTextPrimary">
+        <item name="android:textSize">19sp</item>
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamily</item>
+    </style>
+
+    <style name="superiorTextPrimaryMedium" parent="superiorTextPrimary">
+        <item name="android:fontFamily">@*android:string/config_headlineFontFamilyMedium</item>
+    </style>
+
+    <style name="superiorTextSecondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+
+    <!-- Dashboard -->
+    <style name="superiorDashboardPreferenceTop" parent="superiorPreferenceTop">
+        <item name="android:layout_marginTop">@dimen/superior_pref_horizontal_padding</item>
+    </style>
+
+    <style name="superiorDashboardPreferenceBottom" parent="superiorPreferenceBottom">
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="superiorDashboardPreferenceFull" parent="superiorPreferenceFull">
+        <item name="android:layout_marginTop">@dimen/superior_pref_horizontal_padding</item>
+        <item name="android:layout_marginBottom">4dp</item>
+    </style>
+
+    <style name="superiorDashboardPreferenceFullAccent" parent="superiorDashboardPreferenceFull">
+        <item name="android:background">@drawable/superior_preference_background_full_accent</item>
+    </style>
+
+    <style name="superiorDashboardPreferencePhone" parent="superiorDashboardPreferenceTop">
+        <item name="android:background">@drawable/superior_preference_background_phone</item>
+    </style>
+
+    <!-- General -->
+    <style name="superiorPreferenceBase">
+        <item name="android:layout_marginStart">@dimen/superior_pref_horizontal_padding</item>
+        <item name="android:layout_marginEnd">@dimen/superior_pref_horizontal_padding</item>
+        <item name="android:clipToPadding">false</item>
+    </style>
+
+    <style name="superiorPreferenceTop" parent="superiorPreferenceBase">
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:background">@drawable/superior_preference_background_top</item>
+    </style>
+
+    <style name="superiorPreferenceMiddle" parent="superiorPreferenceBase">
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:background">@drawable/superior_preference_background_middle</item>
+    </style>
+
+    <style name="superiorPreferenceBottom" parent="superiorPreferenceBase">
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/superior_preference_background_bottom</item>
+    </style>
+
+    <style name="superiorPreferenceFull" parent="superiorPreferenceBase">
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/superior_preference_background_full</item>
+    </style>
+
+    <style name="superiorPreferenceFullAccent" parent="superiorPreferenceBase">
+        <item name="android:layout_marginTop">@dimen/superior_pref_horizontal_padding</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:background">@drawable/superior_preference_background_full_accent</item>
+    </style>
 </resources>
