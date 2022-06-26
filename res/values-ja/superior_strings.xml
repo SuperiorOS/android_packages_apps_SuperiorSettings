@@ -49,15 +49,6 @@
     <string name="device_lenovo">Lenovo</string>
     <string name="device_oneplus">OnePlus</string>
     <string name="device_smartron">Smartron</string>
-    <string name="device_mido">Redmi Note 4</string>
-    <string name="device_phoenix">Poco X2/Redmi K30</string>
-    <string name="device_phoenix_description">phoenix\nAnkan Ghosh</string>
-    <string name="device_miatoll">Redmi Note 9 Pro</string>
-    <string name="device_miatoll_description">miatoll\nHaSSaN</string>
-    <string name="device_onclite">Redmi 7</string>
-    <string name="device_onclite_description">onclite\nAbhay K Sanjay</string>
-    <string name="device_vayu">Poco X3 Pro</string>
-    <string name="device_vayu_description">vayu\nAhmed</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
     <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
@@ -66,8 +57,6 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_avicii">Nord</string>
     <string name="device_avicii_description">avicii\nSipun Ku Mahanta</string>
-    <string name="device_sweet">Redmi Note 10 Pro</string>
-    <string name="device_sweet_description">sweet\nJash</string>
     <string name="device_alioth">POCO F3/Redmi K40</string>
     <string name="device_alioth_description">alioth\nEduardo Zeas</string>
     <string name="button_title">ボタン</string>
@@ -185,9 +174,13 @@
     <string name="battery_percent_title">バッテリー残量</string>
     <string name="status_bar_battery_style_title">バッテリースタイル</string>
     <string name="status_bar_battery_style_icon_portrait">縦アイコン (既定)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">水平アイコン (右)</string>
+    <string name="status_bar_battery_style_icon_landscape">水平アイコン (左)</string>
     <string name="status_bar_battery_style_circle">円</string>
     <string name="status_bar_battery_style_dotted_circle">円 (点線)</string>
     <string name="status_bar_battery_style_filled_circle">円 (塗り潰し)</string>
+    <string name="status_bar_battery_style_big_circle">大きな円</string>
+    <string name="status_bar_battery_style_big_dotted_circle">大きな点線の円</string>
     <string name="status_bar_battery_style_text">文字</string>
     <string name="status_bar_battery_style_hidden">非表示</string>
     <string name="status_bar_battery_percentage_title">バッテリー残量</string>
@@ -244,4 +237,10 @@
     <string name="use_old_mobiletype_summary">電波強度表示の上に通信種別を表示する</string>
     <string name="wake_when_plugged_or_unplugged_title">電源接続時にスリープ解除</string>
     <string name="wake_when_plugged_or_unplugged_summary">電源を接続または切断した時に画面を点灯させる</string>
+    <string name="volte_icon_title">VoLTE アイコン</string>
+    <string name="volte_icon_summary">利用可能な場合に VoLTE のアイコンを表示する</string>
+    <string name="vowifi_icon_title">VoWiFi アイコン</string>
+    <string name="vowifi_icon_summary">利用可能な場合に VoWiFi アイコンを表示する</string>
+    <string name="volte_vowifi_override_title">VoWiFi の上書き</string>
+    <string name="volte_vowifi_override_summary">VoWiFi が利用可能な場合は VoLTE を非表示にする</string>
 </resources>

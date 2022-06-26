@@ -49,15 +49,6 @@
     <string name="device_lenovo">Lenovo</string>
     <string name="device_oneplus">OnePlus</string>
     <string name="device_smartron">Smartron</string>
-    <string name="device_mido">Redmi Note 4</string>
-    <string name="device_phoenix">Poco X2/Redmi K30</string>
-    <string name="device_phoenix_description">phoenix\nAnkan Ghosh</string>
-    <string name="device_miatoll">Redmi Note 9 Pro</string>
-    <string name="device_miatoll_description">miatoll\nHaSSaN</string>
-    <string name="device_onclite">Redmi 7</string>
-    <string name="device_onclite_description">onclite\nAbhay K Sanjay</string>
-    <string name="device_vayu">Poco X3 Pro</string>
-    <string name="device_vayu_description">vayu\nAhmed</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
     <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
@@ -66,8 +57,6 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_avicii">Nord</string>
     <string name="device_avicii_description">avicii\nSipun Ku Mahanta</string>
-    <string name="device_sweet">Redmi Note 10 Pro/Max</string>
-    <string name="device_sweet_description">sweet\nJash</string>
     <string name="device_alioth">POCO F3/Redmi K40</string>
     <string name="device_alioth_description">alioth\nEduardo Zeas</string>
     <string name="button_title">Tombol</string>
@@ -185,9 +174,13 @@
     <string name="battery_percent_title">Persentase baterai</string>
     <string name="status_bar_battery_style_title">Gaya Baterai</string>
     <string name="status_bar_battery_style_icon_portrait">Ikon tegak (standar)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Ikon mendatar (Kanan)</string>
+    <string name="status_bar_battery_style_icon_landscape">Ikon mendatar (Kiri)</string>
     <string name="status_bar_battery_style_circle">Lingkaran</string>
     <string name="status_bar_battery_style_dotted_circle">Lingkaran (Titik)</string>
     <string name="status_bar_battery_style_filled_circle">Lingkaran (Terisi)</string>
+    <string name="status_bar_battery_style_big_circle">Lingkaran besar</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Lingkaran besar putus-putus</string>
     <string name="status_bar_battery_style_text">Teks</string>
     <string name="status_bar_battery_style_hidden">Sembunyikan</string>
     <string name="status_bar_battery_percentage_title">Persentase baterai</string>
@@ -244,4 +237,10 @@
     <string name="use_old_mobiletype_summary">Tampilkan tipe ikon seluler di atas indikator sinyal</string>
     <string name="wake_when_plugged_or_unplugged_title">Bangun saat pengisi daya terhubung</string>
     <string name="wake_when_plugged_or_unplugged_summary">Aktifkan layar ketika menghubungkan atau melepaskan pengisi daya</string>
+    <string name="volte_icon_title">Ikon VoLTE</string>
+    <string name="volte_icon_summary">Tampilkan ikon VoLTE bila tersedia</string>
+    <string name="vowifi_icon_title">Ikon VoWiFi</string>
+    <string name="vowifi_icon_summary">Tampilkan ikon VoWiFi bila tersedia</string>
+    <string name="volte_vowifi_override_title">Penggantian VoWiFi</string>
+    <string name="volte_vowifi_override_summary">Sembunyikan VoLTE saat VoWiFi tersedia</string>
 </resources>

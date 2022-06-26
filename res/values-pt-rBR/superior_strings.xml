@@ -49,15 +49,6 @@
     <string name="device_lenovo">Lenovo</string>
     <string name="device_oneplus">Oneplus</string>
     <string name="device_smartron">Smartron</string>
-    <string name="device_mido">Redmi Note 4</string>
-    <string name="device_phoenix">Poco X2/Redmi K30</string>
-    <string name="device_phoenix_description">phoenix\nAnkan Ghosh</string>
-    <string name="device_miatoll">Redmi Note 9 Pro</string>
-    <string name="device_miatoll_description">miatoll\nHaSSaNy</string>
-    <string name="device_onclite">Redmi 7</string>
-    <string name="device_onclite_description">onclite\nAbhay K Sanjay</string>
-    <string name="device_vayu">Poco X3 Pro</string>
-    <string name="device_vayu_description">vayu\nAhmed</string>
     <string name="device_violet">Redmi Note 7 Pro</string>
     <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
@@ -66,8 +57,6 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_avicii">Nord</string>
     <string name="device_avicii_description">avicii\nSipun Ku Mahanta</string>
-    <string name="device_sweet">Redmi Note 10 Pro/Max</string>
-    <string name="device_sweet_description">sweet\nJash</string>
     <string name="device_alioth">POCO F3/Redmi K40</string>
     <string name="device_alioth_description">alioth\nEduardo Zeas</string>
     <string name="button_title">Botões</string>
@@ -185,9 +174,13 @@
     <string name="battery_percent_title">Porcentagem da bateria</string>
     <string name="status_bar_battery_style_title">Estilo de ícone da bateria</string>
     <string name="status_bar_battery_style_icon_portrait">Ícone em modo retrato (padrão)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Ícone paisagem (Direita)</string>
+    <string name="status_bar_battery_style_icon_landscape">Ícone paisagem (esquerda)</string>
     <string name="status_bar_battery_style_circle">Círculo</string>
     <string name="status_bar_battery_style_dotted_circle">Círculo (Pontilhado)</string>
     <string name="status_bar_battery_style_filled_circle">Círculo (preenchido)</string>
+    <string name="status_bar_battery_style_big_circle">Círculo grande</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Círculo pontilhado grande</string>
     <string name="status_bar_battery_style_text">Texto</string>
     <string name="status_bar_battery_style_hidden">Ocultado</string>
     <string name="status_bar_battery_percentage_title">Porcentagem da bateria</string>
@@ -244,4 +237,10 @@
     <string name="use_old_mobiletype_summary">Mostrar o tipo de ícone móvel no topo do indicador de sinal</string>
     <string name="wake_when_plugged_or_unplugged_title">Acordar ao plugar</string>
     <string name="wake_when_plugged_or_unplugged_summary">Ativar a tela quando conectar ou desconectar o carregador</string>
+    <string name="volte_icon_title">Ícone do VoLTE</string>
+    <string name="volte_icon_summary">Exibir o ícone do VoLTE quando disponível</string>
+    <string name="vowifi_icon_title">Ícone VoWiFi</string>
+    <string name="vowifi_icon_summary">Exibir o ícone do VoWiFi quando disponível</string>
+    <string name="volte_vowifi_override_title">Sobrepor VoWiFi</string>
+    <string name="volte_vowifi_override_summary">Ocultar VoLTE quando o VoWiFi estiver disponível</string>
 </resources>
