@@ -57,6 +57,7 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_avicii">Nord</string>
     <string name="device_avicii_description">avicii\nSipun Ku Mahanta</string>
+    <string name="device_alioth">Poco F3/Redmi K40</string>
     <string name="device_alioth_description">alioth\nEduardo Zeas</string>
     <string name="button_title">Tasten</string>
     <string name="gestures_title">Gesten</string>

@@ -57,6 +57,7 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_avicii">Nord</string>
     <string name="device_avicii_description">avicii\nSipun Ku Mahanta</string>
+    <string name="device_alioth">Poco F3/Redmi K40</string>
     <string name="device_alioth_description">alioth\nEduardo Zeas</string>
     <string name="button_title">Düymәlәr</string>
     <string name="gestures_title">Jestlər</string>
@@ -111,6 +112,17 @@
     <string name="notification_sound_vib_screen_on_title">Bezdirən bildirişlər</string>
     <string name="notification_sound_vib_screen_on_summary">Ekran açıq olduqda bildirişlər üçün səs oxut və titrət</string>
     <string name="less_boring_heads_up_title">Daha az açılan başlıqlar</string>
+    <string name="dialog_delete_title">Sil</string>
+    <string name="dialog_delete_message">Seçilmiş element silinsin?</string>
+    <string name="heads_up_time_out_title">Vaxt bitdi</string>
+    <string name="heads_up_time_out_summary">Bildiriş pəncərələri <xliff:g id="number">%d</xliff:g> saniyəlik göstəriləcək</string>
+    <string name="heads_up_time_out_2sec">2 saniyə</string>
+    <string name="heads_up_time_out_4sec">4 saniyə</string>
+    <string name="heads_up_time_out_5sec">5 saniyə</string>
+    <string name="heads_up_time_out_6sec">6 saniyə</string>
+    <string name="heads_up_time_out_8sec">8 saniyə</string>
+    <string name="heads_up_time_out_10sec">10 saniyə</string>
+    <string name="heads_up_snooze_title">Ertələmə taymeri</string>
     <string name="heads_up_snooze_1min">1 dəqiqə</string>
     <string name="heads_up_snooze_5min">5 dəqiqə</string>
     <string name="heads_up_snooze_10min">10 dəqiqə</string>
