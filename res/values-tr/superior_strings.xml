@@ -57,8 +57,6 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_avicii">Nord</string>
     <string name="device_avicii_description">avicii\nSipun Ku Mahanta</string>
-    <string name="device_alioth">POCO F3/Redmi K40</string>
-    <string name="device_alioth_description">alioth\nEduardo Zeas</string>
     <string name="button_title">Tuşlar</string>
     <string name="gestures_title">Hareketler</string>
     <string name="lockscreen_title">Kilit ekranı</string>
@@ -243,4 +241,8 @@
     <string name="vowifi_icon_summary">VoWiFi kullanılabilir olduğunda simgesini görüntüle</string>
     <string name="volte_vowifi_override_title">VoWiFi geçersiz kılma</string>
     <string name="volte_vowifi_override_summary">VoWiFi kullanılabilir olduğunda VoLTE\'yi gizle</string>
+    <string name="qs_footer_datausage_title">Veri kullanımı</string>
+    <string name="qs_footer_datausage_summary">Hızlı ayarlar alt bilgisinde veri kullanım özetini göster</string>
+    <string name="laboratory_ignore_window_secure_title">Pencere güvenlik işaretlerini yoksay</string>
+    <string name="laboratory_ignore_window_secure_summary">Bu, tüm uygulamalar için ekran görüntüsü ve ekran kaydedici korumasını kaldırır. Bu, bazı durumlarda kullanışlıdır ancak gizlilik sızıntılarına neden olabilir. Seçeneği değiştirdikten sonra değişikliklerin geçerli olması için uygulamaları yeniden başlatın.</string>
 </resources>

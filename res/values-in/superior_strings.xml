@@ -57,8 +57,6 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_avicii">Nord</string>
     <string name="device_avicii_description">avicii\nSipun Ku Mahanta</string>
-    <string name="device_alioth">POCO F3/Redmi K40</string>
-    <string name="device_alioth_description">alioth\nEduardo Zeas</string>
     <string name="button_title">Tombol</string>
     <string name="gestures_title">Gestur</string>
     <string name="lockscreen_title">Layar Kunci</string>
@@ -243,4 +241,8 @@
     <string name="vowifi_icon_summary">Tampilkan ikon VoWiFi bila tersedia</string>
     <string name="volte_vowifi_override_title">Penggantian VoWiFi</string>
     <string name="volte_vowifi_override_summary">Sembunyikan VoLTE saat VoWiFi tersedia</string>
+    <string name="qs_footer_datausage_title">Penggunaan data</string>
+    <string name="qs_footer_datausage_summary">Tampilkan ringkasan penggunaan data di footer setelan cepat</string>
+    <string name="laboratory_ignore_window_secure_title">Abaikan bendera pengaman jendela</string>
+    <string name="laboratory_ignore_window_secure_summary">Ini menghapus batas tangkapan layar dan rekaman layar untuk semua aplikasi. Biasanya, aplikasi khusus diganti dengan area hitam dalam rekaman. Ini bisa nyaman dalam beberapa kasus tetapi dapat menyebabkan kebocoran privasi. Setelah mengubah sakelar ini, Anda mungkin perlu memulai ulang aplikasi agar perubahan diterapkan.</string>
 </resources>

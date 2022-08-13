@@ -15,7 +15,6 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="device_alioth">Poco F3/Redmi K40</string>
     <string name="status_bar_battery_style_icon_rlandscape">Icona orizzontale (a destra)</string>
     <string name="status_bar_battery_style_icon_landscape">Icona orizzontale (a sinistra)</string>
     <string name="status_bar_battery_style_big_circle">Grande cerchio</string>

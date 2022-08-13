@@ -57,8 +57,6 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_avicii">Nord</string>
     <string name="device_avicii_description">avicii\nSipun Ku Mahanta</string>
-    <string name="device_alioth">POCO F3/Redmi K40</string>
-    <string name="device_alioth_description">alioth\nEduardo Zeas</string>
     <string name="button_title">Кнопки</string>
     <string name="gestures_title">Жесты</string>
     <string name="lockscreen_title">Экран блокировки</string>
@@ -243,4 +241,8 @@
     <string name="vowifi_icon_summary">Отображать значок VoWiFi, когда доступно</string>
     <string name="volte_vowifi_override_title">Переопределять VoWIFi</string>
     <string name="volte_vowifi_override_summary">Скрывать значок VoLTE, когда доступен VoWiFi</string>
+    <string name="qs_footer_datausage_title">Использование данных</string>
+    <string name="qs_footer_datausage_summary">Показывать статистику использования трафика в нижней части быстрых настроек</string>
+    <string name="laboratory_ignore_window_secure_title">Игнорировать флаги безопасности окна</string>
+    <string name="laboratory_ignore_window_secure_summary">Убирает ограничения скриншотов и записей для всех приложений, когда они заменяются черными областями в записях. Это может быть удобным в некоторых случаях, но может привести к утечке конфиденциальной информации. После изменения этого переключателя может потребоваться перезапустить приложения, чтобы изменения вступили в силу.</string>
 </resources>

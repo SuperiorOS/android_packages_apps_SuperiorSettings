@@ -15,7 +15,35 @@
     limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="superior_settings_title">Superior 設定</string>
+    <string name="superior_settings_devtitle">Superior OS</string>
+    <string name="superior_about_info">關於本專案</string>
+    <string name="superior_about_info_summary_title">關於團隊</string>
+    <string name="dev1_description">開發者</string>
+    <string name="dev2_description">領銜開發者</string>
+    <string name="dev3_description">開發者</string>
+    <string name="dev4_description">平面設計師</string>
+    <string name="dev5_description">網站開發者</string>
+    <string name="mentions_header">榮譽表揚</string>
+    <string name="mentions_sam_description">設計師</string>
+    <string name="mentions_iacob_description">UI／UX 開發者</string>
+    <string name="mentions_pavan_description">設計師</string>
+    <string name="maintainers_header">維護者</string>
+    <string name="maintainers_header_summary">這些是官方裝置的維護者……</string>
+    <string name="device_xiaomi">小米</string>
+    <string name="device_asus">華碩</string>
+    <string name="device_lenovo">聯想</string>
+    <string name="device_oneplus">一加</string>
+    <string name="button_title">按鈕</string>
+    <string name="gestures_title">手勢</string>
+    <string name="lockscreen_title">鎖定螢幕</string>
+    <string name="misc_title">雜項</string>
+    <string name="navbar_title">導覽列</string>
+    <string name="powermenu_title">電源選單</string>
+    <string name="quicksettings_title">快速設定</string>
+    <string name="statusbar_title">狀態列</string>
     <string name="extra_category">額外</string>
+    <string name="torch_power_button_gesture_none">已停用</string>
     <string name="status_bar_battery_style_big_circle">大圓圈</string>
     <string name="status_bar_battery_style_big_dotted_circle">虛線大圓圈</string>
     <string name="system_black_theme_title">使用黑色主題</string>
@@ -34,4 +62,6 @@
     <string name="vowifi_icon_summary">可用時顯示 VoWiFi 圖示</string>
     <string name="volte_vowifi_override_title">覆蓋 VoWiFi 圖示</string>
     <string name="volte_vowifi_override_summary">當 VoWiFi 可用時隱藏 VoLTE 圖示</string>
+    <string name="laboratory_ignore_window_secure_title">忽略視窗安全旗標</string>
+    <string name="laboratory_ignore_window_secure_summary">對於全部應用程式，移除螢幕快照及螢幕錄影的限制。正常情況下，有些特殊的應用程式在快照或錄影中會被黑色畫面取代。此功能在特定情況下很方便，但是可能造成隱私外洩。開或關此選項後，可能要重新開啟應用程式才會生效。</string>
 </resources>

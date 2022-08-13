@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright © 2018-2022 The Superior OS Project
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="superior_settings_title">Cài đặt Superior</string>
+    <string name="superior_settings_devtitle">Superior OS</string>
+    <string name="notifications_title">Thông báo</string>
+    <string name="statusbar_extras">Bổ sung</string>
+    <string name="three_finger_gesture">Cử chỉ vuốt 3 ngón tay</string>
+    <string name="three_finger_gesture_summary">Vuốt ba ngón tay để ảnh chụp ảnh màn hình</string>
+    <string name="aosp_gesture_preference">Thiết lập hệ thống</string>
+    <string name="aosp_gesture_summary">Các cử chỉ gốc đi kèm với AOSP</string>
+    <string name="system_navigation_summary">Cài đặt menu thanh điều hướng</string>
+    <string name="statusbar_items_title">Biểu tượng thanh trạng thái</string>
+    <string name="statusbar_items_summary">Biểu tượng thanh trạng thái</string>
+    <string name="general_category">Tổng thể</string>
+    <string name="extra_category">Bổ sung</string>
+    <string name="statusbar_icons">Biểu Tượng</string>
+    <string name="double_tap_sleep_title">Nhấn đúp để tắt màn hình</string>
+    <string name="power_key">Trình đơn nguồn</string>
+    <string name="show_fourg_icon_title">Biểu tượng 4G</string>
+    <string name="show_fourg_icon_summary">Hiển thị biểu tượng 4G trong cột sóng thay vì LTE</string>
+    <string name="ambient_pulse_title">Hiển thị tương tác</string>
+    <string name="ambient_wake_gestures_title">Cử chỉ màn hình hiển thị xung quanh</string>
+    <string name="ambient_wake_gestures_summary">Hiển thị tính năng Hiển thị nhanh thay cho màn hình khoá bình thường khi sử dụng vuốt đánh thức.</string>
+    <string name="double_tap_sleep_lockscreen_title">Nhấn đúp trên màn hình khóa</string>
+    <string name="double_tap_sleep_lockscreen_summary">Nhấn đúp vào bất kỳ đâu trên màn hình khóa để đặt điện thoại vào chế độ ngủ</string>
+    <string name="double_tap_to_sleep_title">Nhấn đúp trên thanh trạng thái</string>
+    <string name="double_tap_to_sleep_summary">Chạm 2 lần vào thanh trạng thái để ngủ</string>
+    <string name="incall_vibration_category">Tùy chọn rung trong cuộc gọi</string>
+    <string name="incall_vibrate_connect_title">Rung khi kết nối</string>
+    <string name="incall_vibrate_call_wait_title">Rung khi chờ cuộc gọi</string>
+    <string name="incall_vibrate_disconnect_title">Rung khi ngắt kết nối</string>
+    <string name="torch_power_button_gesture_title">Bật tắt đèn khi màn hình</string>
+    <string name="torch_power_button_gesture_none">Đã tắt</string>
+    <string name="torch_power_button_gesture_dt">Nhấn đúp nút nguồn (phản hồi nhấn một lần chậm hơn), Tắt nhấn đúp cho máy ảnh.</string>
+    <string name="torch_power_button_gesture_lp">Bấm giữ phím nguồn</string>
+    <string name="pulse_on_new_tracks_title">Thông báo cho nhạc</string>
+    <string name="pulse_on_new_tracks_summary">Hiển thị màn hình luôn bật khi một bản nhạc mới được phát</string>
+    <string name="qs_brightness_slider_category">Thanh trượt độ sáng</string>
+    <string name="qs_brightness_slider_title">Hiện thanh trượt điều chỉnh độ sáng</string>
+    <string name="qs_brightness_slider_summary">Hiển thị thanh trượt độ sáng trong bảng cài đặt nhanh</string>
+    <string name="qs_brightness_position_bottom_title">Hiển thị thanh trượt chỉnh độ sáng ở dưới</string>
+    <string name="qs_brightness_position_bottom_summary">Hiển thị thanh trượt độ sáng trên cài đặt nhanh phía dưới</string>
+    <string name="brightness_icon_title">Nút độ sáng thích nghi</string>
+    <string name="brightness_icon_summary">Hiển thị nút độ sáng thích nghi</string>
+    <string name="quick_qs_brightness_slider_title">Hiển thị thanh trượt độ sáng trong bảng điều khiển nhanh</string>
+    <string name="quick_qs_brightness_slider_summary">Hiển thị thanh trượt độ sáng trong bảng cài đặt nhanh</string>
+    <string name="notification_sound_vib_screen_on_title">Thông báo làm phiền</string>
+    <string name="notification_sound_vib_screen_on_summary">Phát âm thanh và rung cho thông báo khi màn hình đang bật</string>
+    <string name="less_boring_heads_up_title">Thông báo nổi vừa phải</string>
+    <string name="less_boring_heads_up_summary">Nhanh chóng tắt thông báo nổi cho tất cả các ứng dụng nhưng vẫn bật cho ứng dụng quay số và nhắn tin</string>
+    <string name="lockscreen_media_art_category_title">Nghệ thuật truyền thông</string>
+    <string name="keygaurd_media_art_title">Hiển thị ảnh bìa</string>
+    <string name="keygaurd_media_art_summary">Hiển thị ảnh nền media ở màn hình khóa</string>
+    <string name="lockscreen_media_blur_title">Mức độ mờ ảnh bìa</string>
+    <string name="quick_pulldown_left">Kéo từ cạnh trái của thanh trạng thái</string>
+    <string name="battery_settings_title">Thiết lập Pin</string>
+    <string name="battery_style_category_title">Kiểu pin</string>
+    <string name="battery_style_category_summary">Chọn kiểu biểu tượng pin</string>
+    <string name="battery_percent_title">Phần trăm pin</string>
+    <string name="status_bar_battery_style_title">Kiểu biểu tượng pin</string>
+    <string name="status_bar_battery_style_icon_portrait">Biểu tượng dọc (mặc định)</string>
+    <string name="status_bar_battery_style_icon_rlandscape">Biểu tượng nằm ngang (Phải)</string>
+    <string name="status_bar_battery_style_icon_landscape">Biểu tượng nằm ngang (Trái)</string>
+    <string name="status_bar_battery_style_circle">Vòng tròn</string>
+    <string name="status_bar_battery_style_dotted_circle">Vòng tròn (Chấm)</string>
+    <string name="status_bar_battery_style_filled_circle">Vòng tròn (Đầy)</string>
+    <string name="status_bar_battery_style_big_circle">Vòng tròn lớn</string>
+    <string name="status_bar_battery_style_big_dotted_circle">Vòng chấm lớn</string>
+    <string name="status_bar_battery_style_text">Văn bản</string>
+    <string name="status_bar_battery_style_hidden">Ẩn</string>
+    <string name="status_bar_battery_percentage_title">Tỷ lệ phần trăm pin</string>
+    <string name="status_bar_battery_percentage_default">Ẩn (mặc định)</string>
+    <string name="status_bar_battery_percentage_text_inside">Trong biểu tượng pin</string>
+    <string name="status_bar_battery_percentage_text_next">Cạnh biểu tượng pin</string>
+    <string name="network_traffic_state_title">Tốc độ mạng</string>
+    <string name="network_traffic_state_summary">Hiển thị tốc độ mạng trên thanh trạng thái</string>
+    <string name="network_traffic_location_title">Vị trí</string>
+    <string name="network_traffic_statusbar">Thanh trạng thái</string>
+    <string name="network_traffic_qs_header">Thanh trạng thái mở rộng</string>
+    <string name="network_traffic_mode_title">Chế độ hiển thị</string>
+    <string name="network_traffic_dynamic">Động</string>
+    <string name="network_traffic_download">Tải xuống</string>
+    <string name="network_traffic_upload">Tải lên</string>
+    <string name="network_traffic_autohide_threshold_title">Tự động ẩn mạng (KB/s)</string>
+    <string name="network_traffic_refresh_interval_title">Thời khoảng làm mới</string>
+    <string name="global_actions_advanced_reboot_title">Bật khởi động lại nâng cao</string>
+    <string name="global_actions_advanced_reboot_summary">Hiển thị thêm mục khởi động lại vào recovery và bootloader</string>
+    <string name="enable_fingerprint_ripple_effect_title">Hiệu ứng gợn sóng</string>
+    <string name="enable_fingerprint_ripple_effect_summary">Hiển thị hiệu ứng gợn sóng khi mở khóa bằng vân tay</string>
+    <string name="monet_engine_settings_title">Công cụ Monet</string>
+</resources>

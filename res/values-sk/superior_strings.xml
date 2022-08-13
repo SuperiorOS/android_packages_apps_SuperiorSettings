@@ -57,8 +57,6 @@
     <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_avicii">Nord</string>
     <string name="device_avicii_description">avicii\nSipun Ku Mahanta</string>
-    <string name="device_alioth">POCO F3/Redmi K40</string>
-    <string name="device_alioth_description">alioth\nEduardo Zeas</string>
     <string name="button_title">Tlačítka</string>
     <string name="gestures_title">Gestá</string>
     <string name="lockscreen_title">Obrazovka uzamknutia</string>
@@ -243,4 +241,8 @@
     <string name="vowifi_icon_summary">Zobraziť ikonu VoLTE ak je k dispozícii</string>
     <string name="volte_vowifi_override_title">Uprednostniť VoWiFi</string>
     <string name="volte_vowifi_override_summary">Skryť VoLTE, keď je dostupné VoWiFi</string>
+    <string name="qs_footer_datausage_title">Využitie dát</string>
+    <string name="qs_footer_datausage_summary">Zobraziť denné využitie dát v panely rýchleho nastavenia</string>
+    <string name="laboratory_ignore_window_secure_title">Ignorovať príznaky zabezpečenia okien</string>
+    <string name="laboratory_ignore_window_secure_summary">Týmto sa odstránia obmedzenia snímok obrazovky a záznamov obrazovky pre všetky aplikácie. Normálne sú špeciálne aplikácie nahradené čiernymi oblasťami v záznamoch. V niektorých prípadoch to môže byť výhodné, ale môže to viesť k úniku súkromia. Po zmene tohto prepínača bude možno potrebné reštartovať aplikácie, aby sa zmena prejavila.</string>
 </resources>
