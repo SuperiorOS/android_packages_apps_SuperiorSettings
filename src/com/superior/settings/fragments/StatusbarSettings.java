@@ -47,13 +47,18 @@ import java.util.Collections;
 import java.util.List;
 
 import com.superior.support.preferences.SystemSettingMasterSwitchPreference;
+import com.superior.support.preferences.SecureSettingSwitchPreference;
 
 public class StatusbarSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
 
     private static final String NETWORK_TRAFFIC_STATE = "network_traffic_state";
+    private static final String SYSTEMUI_PACKAGE = "com.android.systemui";
+    private static final String CONFIG_RESOURCE_NAME = "flag_combined_status_bar_signal_icons";
+    private static final String COBINED_STATUSBAR_ICONS = "show_combined_status_bar_signal_icons";
 
     private SystemSettingMasterSwitchPreference mNetTrafficState;
+    private SecureSettingSwitchPreference mCombinedIcons;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -66,6 +71,27 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         mNetTrafficState.setChecked(Settings.System.getInt(resolver,
                 Settings.System.NETWORK_TRAFFIC_STATE, 0) == 1);
         mNetTrafficState.setOnPreferenceChangeListener(this);
+
+        mCombinedIcons = (SecureSettingSwitchPreference)
+        findPreference(COBINED_STATUSBAR_ICONS);
+        Resources sysUIRes = null;
+        boolean def = false;
+        int resId = 0;
+        try {
+            sysUIRes = getActivity().getPackageManager()
+                    .getResourcesForApplication(SYSTEMUI_PACKAGE);
+        } catch (Exception ignored) {
+            // If you don't have system UI you have bigger issues
+        }
+        if (sysUIRes != null) {
+            resId = sysUIRes.getIdentifier(
+                    CONFIG_RESOURCE_NAME, "bool", SYSTEMUI_PACKAGE);
+            if (resId != 0) def = sysUIRes.getBoolean(resId);
+        }
+        boolean enabled = Settings.Secure.getInt(resolver,
+                COBINED_STATUSBAR_ICONS, def ? 1 : 0) == 1;
+        mCombinedIcons.setChecked(enabled);
+        mCombinedIcons.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -89,6 +115,11 @@ public class StatusbarSettings extends SettingsPreferenceFragment implements
         if (preference == mNetTrafficState) {
             boolean value = (Boolean) newValue;
             Settings.System.putInt(resolver, Settings.System.NETWORK_TRAFFIC_STATE, value ? 1 : 0);
+            return true;
+        } else if (preference == mCombinedIcons) {
+            boolean enabled = (boolean) newValue;
+            Settings.Secure.putInt(resolver,
+                    COBINED_STATUSBAR_ICONS, enabled ? 1 : 0);
             return true;
         }
         return false;
