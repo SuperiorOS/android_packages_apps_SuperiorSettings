@@ -245,4 +245,6 @@
     <string name="qs_footer_datausage_summary">Zobrazit přehled využití dat v\u00a0zápatí rychlého nastavení</string>
     <string name="laboratory_ignore_window_secure_title">Ignorovat příznaky zabezpečení oken</string>
     <string name="laboratory_ignore_window_secure_summary">Tím se odstraní omezení pro snímky obrazovky a záznamy obrazovky pro všechny aplikace. Obvykle jsou speciální aplikace v záznamech nahrazeny černými plochami. To může být v některých případech výhodné, ale může to vést k úniku soukromí. Po změně tohoto přepínače může být nutné restartovat aplikace, aby se změna projevila.</string>
+    <string name="volume_rocker_wake_title">Probudit tlačítky hlasitosti</string>
+    <string name="volume_rocker_wake_summary">Probudit zařízení stisknutím tlačítek hlasitosti</string>
 </resources>
