@@ -1,7 +1,8 @@
 Superiorsettings:
 ================
-
-<img src="phoenix.png" align="right">
+<p align="center">
+<img src="https://user-images.githubusercontent.com/29405483/188265649-9fa6e43e-deb9-4830-83ec-91bc592c203e.png" />
+</p>
 
 What is Superiorsettings:
 ------------------------
