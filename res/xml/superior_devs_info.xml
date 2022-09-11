@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2016 The AOSP-RRO Project
-     Copyright (C) 2018-19 The Superior OS Project
+     Copyright (C) 2018-2022 The Superior OS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -84,7 +84,7 @@
             android:summary="@string/dev5_description" >
         <intent
             android:action="android.intent.action.VIEW"
-            android:data="https://t.me/T3rr0r1st" />
+            android:data="https://t.me/ali_171821" />
         </Preference>
 
 </PreferenceCategory>
@@ -141,20 +141,6 @@
 
 <PreferenceCategory
         android:key="maintainer"
-        android:title="@string/device_google" >
-
-    <Preference
-        android:title="@string/device_sunfish"
-        android:summary="@string/device_sunfish_description"
-        android:icon="@drawable/ic_devs_phone">
-        <intent
-           android:action="android.intent.action.VIEW"
-           android:data="http://t.me/JD1811" />
-    </Preference>
-</PreferenceCategory>
-
-<PreferenceCategory
-        android:key="maintainer"
         android:title="@string/device_oneplus" >
 
     <Preference
@@ -170,6 +156,15 @@
 <PreferenceCategory
         android:key="maintainer"
         android:title="@string/device_xiaomi" >
+
+    <Preference
+        android:title="@string/device_lisa"
+        android:summary="@string/device_lisa_description"
+        android:icon="@drawable/ic_devs_phone" >
+        <intent
+           android:action="android.intent.action.VIEW"
+           android:data="https://t.me/ali_171821" />
+    </Preference>
 
     <Preference
         android:title="@string/device_whyred"

@@ -30,13 +30,13 @@
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Developer</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev2_description">Lead Developer</string>
+    <string name="dev2_description">Developer</string>
     <string name="dev_3">Nipin NA</string>
     <string name="dev3_description">Developer</string>
     <string name="dev_4">Adnan Faysal</string>
     <string name="dev4_description">Graphic Designer</string>
-    <string name="dev_5">Arun Teltia</string>
-    <string name="dev5_description">Web Developer</string>
+    <string name="dev_5">MikdadAli</string>
+    <string name="dev5_description">UI/UX Developer</string>
 
     <!-- Mentions -->
     <string name="mentions_header">Honorable Mentions</string>
@@ -62,10 +62,10 @@
     <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_sunfish">Pixel 4a</string>
-    <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_avicii">Nord</string>
     <string name="device_avicii_description">avicii\nSipun Ku Mahanta</string>
+    <string name="device_lisa">Mi 11 Lite NE 5G</string>
+    <string name="device_lisa_description">lisa\nMikdadali</string>
 
     <!-- Categories -->
     <string name="button_title">Buttons</string>
