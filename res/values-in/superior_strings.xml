@@ -25,13 +25,13 @@
     <string name="dev_1">Sipun Ku Mahanta</string>
     <string name="dev1_description">Pengembang</string>
     <string name="dev_2">Jayant Deshmukh</string>
-    <string name="dev2_description">Pengembang Utama</string>
+    <string name="dev2_description">Pengembang</string>
     <string name="dev_3">Nipin NA</string>
     <string name="dev3_description">Pengembang</string>
     <string name="dev_4">Adnan Faysal</string>
     <string name="dev4_description">Desainer Grafis</string>
-    <string name="dev_5">Arun Teltia</string>
-    <string name="dev5_description">Pengembang Web</string>
+    <string name="dev_5">MikdadAli</string>
+    <string name="dev5_description">Pengembang UI/UX</string>
     <string name="mentions_header">Layak Disebutkan</string>
     <string name="mentions_sam">Sam Grande</string>
     <string name="mentions_sam_description">Desainer</string>
@@ -53,10 +53,10 @@
     <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_sunfish">Pixel 4a</string>
-    <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_avicii">Nord</string>
     <string name="device_avicii_description">avicii\nSipun Ku Mahanta</string>
+    <string name="device_lisa">Mi 11 Lite NE 5G</string>
+    <string name="device_lisa_description">lisa\nMikdadali</string>
     <string name="button_title">Tombol</string>
     <string name="gestures_title">Gestur</string>
     <string name="lockscreen_title">Layar Kunci</string>
@@ -284,4 +284,7 @@
     <string name="clock_date_right">Sebelah kanan jam</string>
     <string name="clock_date_left">Sebelah kiri jam</string>
     <string name="clock_date_position">Posisi tanggal</string>
+    <string name="qs_show_battery_estimate_title">Perkiraan sisa baterai</string>
+    <string name="qs_show_battery_estimate_summary_on">Tampilkan perkiraan baterai di Setelan Cepat</string>
+    <string name="qs_show_battery_estimate_summary_off">Sembunyikan perkiraan baterai di Setelan Cepat</string>
 </resources>

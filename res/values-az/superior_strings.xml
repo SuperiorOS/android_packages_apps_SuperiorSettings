@@ -53,10 +53,10 @@
     <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_sunfish">Pixel 4a</string>
-    <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_avicii">Nord</string>
     <string name="device_avicii_description">avicii\nSipun Ku Mahanta</string>
+    <string name="device_lisa">Mi 11 Lite NE 5G</string>
+    <string name="device_lisa_description">lisa\nMikdadali</string>
     <string name="button_title">Düymәlәr</string>
     <string name="gestures_title">Jestlər</string>
     <string name="lockscreen_title">Kilid ekranı</string>
@@ -283,4 +283,7 @@
     <string name="clock_date_right">Saatın sağında</string>
     <string name="clock_date_left">Saatın solunda</string>
     <string name="clock_date_position">Tarix yeri</string>
+    <string name="qs_show_battery_estimate_title">Batareya təxminləri</string>
+    <string name="qs_show_battery_estimate_summary_on">Batareya təxminlərini cəld tənzimləmələrdə göstər</string>
+    <string name="qs_show_battery_estimate_summary_off">Batareya təxminlərini cəld tənzimləmələrdə gizlət</string>
 </resources>

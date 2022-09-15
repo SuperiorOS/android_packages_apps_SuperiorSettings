@@ -53,10 +53,10 @@
     <string name="device_violet_description">violet\nNipin NA</string>
     <string name="device_whyred">Redmi Note 5 Pro</string>
     <string name="device_whyred_description">whyred\nSipun Ku Mahanta</string>
-    <string name="device_sunfish">Pixel 4a</string>
-    <string name="device_sunfish_description">sunfish\nJayant Deshmukh</string>
     <string name="device_avicii">Nord</string>
     <string name="device_avicii_description">avicii\nSipun Ku Mahanta</string>
+    <string name="device_lisa">Mi 11 Lite NE 5G</string>
+    <string name="device_lisa_description">lisa\nMikdadali</string>
     <string name="button_title">ボタン</string>
     <string name="gestures_title">ジェスチャー</string>
     <string name="lockscreen_title">ロック画面</string>
@@ -284,4 +284,7 @@
     <string name="clock_date_right">時刻の右</string>
     <string name="clock_date_left">時刻の左</string>
     <string name="clock_date_position">日付の位置</string>
+    <string name="qs_show_battery_estimate_title">予想稼働時間</string>
+    <string name="qs_show_battery_estimate_summary_on">バッテリー予想稼働時間をクイック設定パネルに表示する</string>
+    <string name="qs_show_battery_estimate_summary_off">バッテリー予想稼働時間をクイック設定パネルに表示しない</string>
 </resources>
